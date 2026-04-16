@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Brief — POC 1: Reader</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #faf9f7;
+    --surface: #ffffff;
+    --text: #1a1a1a;
+    --text-muted: #888;
+    --accent: #c0392b;
+    --border: #e8e5e0;
+    --tag-bg: #f0ede8;
+  }
+
+  body {
+    font-family: 'Georgia', 'Noto Serif SC', serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  header {
+    border-bottom: 3px double var(--border);
+    padding: 24px 0 16px;
+    text-align: center;
+  }
+
+  .site-title {
+    font-size: 2.2rem;
+    letter-spacing: 0.12em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text);
+  }
+
+  .site-meta {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 6px;
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .section-label {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 36px 0 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .article {
+    border-bottom: 1px solid var(--border);
+    padding: 28px 0;
+  }
+
+  .article:last-child { border-bottom: none; }
+
+  .article-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 10px;
+  }
+
+  .article h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--text);
+  }
+
+  .article h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .article h2 a:hover { color: var(--accent); }
+
+  .article .source {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    white-space: nowrap;
+    padding-top: 4px;
+  }
+
+  .summary-en {
+    font-size: 0.95rem;
+    color: #333;
+    margin-bottom: 8px;
+    line-height: 1.75;
+  }
+
+  .summary-zh {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    font-family: 'Helvetica Neue', 'PingFang SC', sans-serif;
+    line-height: 1.7;
+    border-left: 2px solid var(--border);
+    padding-left: 12px;
+  }
+
+  .tag {
+    display: inline-block;
+    background: var(--tag-bg);
+    color: var(--text-muted);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 2px;
+    margin-top: 12px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 40px 0 60px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    letter-spacing: 0.06em;
+    border-top: 1px solid var(--border);
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="site-title">Daily Brief</div>
+    <div class="site-meta">Thursday, April 17, 2026 &nbsp;·&nbsp; 12 stories &nbsp;·&nbsp; AI-curated</div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="section-label">Technology</div>
+
+  <article class="article">
+    <div class="article-header">
+      <h2><a href="#">OpenAI releases GPT-5 with real-time reasoning capabilities</a></h2>
+      <span class="source">The Verge</span>
+    </div>
+    <p class="summary-en">OpenAI has unveiled GPT-5, featuring a new reasoning engine that can pause mid-response to verify facts and revise its own answers. The model scores 92% on MMLU benchmarks, a 14-point jump from GPT-4o, and supports 256K context windows natively.</p>
+    <p class="summary-zh">OpenAI 发布 GPT-5，新增实时推理引擎，模型可在回答中途暂停、核实信息后再修正。MMLU 得分达 92%，比 GPT-4o 提升 14 个百分点，原生支持 256K 上下文窗口。</p>
+    <span class="tag">AI</span>
+  </article>
+
+  <article class="article">
+    <div class="article-header">
+      <h2><a href="#">Apple confirms M5 MacBook Pro ships next month</a></h2>
+      <span class="source">MacRumors</span>
+    </div>
+    <p class="summary-en">Apple quietly updated its website to show M5 MacBook Pro models shipping in May. The new chips are rumored to include a dedicated neural engine cluster doubling AI inference throughput, while maintaining the same thermal design as the M4 generation.</p>
+    <p class="summary-zh">苹果悄悄更新官网，M5 MacBook Pro 将于五月发货。新芯片据悉内置独立神经引擎集群，AI 推理吞吐量翻倍，散热设计与 M4 代保持一致。</p>
+    <span class="tag">Hardware</span>
+  </article>
+
+  <div class="section-label">Finance</div>
+
+  <article class="article">
+    <div class="article-header">
+      <h2><a href="#">Fed signals rate cut may come in June amid cooling inflation</a></h2>
+      <span class="source">Reuters</span>
+    </div>
+    <p class="summary-en">Federal Reserve Chair indicated in remarks Wednesday that a June rate cut remains "on the table" if inflation continues to ease. Core PCE came in at 2.3% for March, its lowest reading since early 2021, sparking a rally in Treasury markets.</p>
+    <p class="summary-zh">美联储主席周三表示，若通胀继续放缓，六月降息仍是"选项之一"。三月核心 PCE 为 2.3%，创 2021 年初以来新低，推动国债市场走高。</p>
+    <span class="tag">Macro</span>
+  </article>
+
+</div>
+
+<footer>
+  <div class="container">
+    Updated daily at 07:00 UTC &nbsp;·&nbsp; Powered by Gemini &nbsp;·&nbsp; Sources: RSS feeds
+  </div>
+</footer>
+
+</body>
+</html>

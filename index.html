@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#0d0d0d">
+<link rel="manifest" href="/manifest.json">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Maple Mono', 'JetBrains Mono', 'Fira Code', 'Menlo', monospace;
+    background: #0d0d0d;
+    color: #d4d4d4;
+    min-height: 100vh;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .window {
+    max-width: 600px;
+    width: 90%;
+    background: #141414;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  }
+  .titlebar {
+    background: #1e1e1e;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  .dots { display: flex; gap: 7px; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .content { padding: 32px 28px 40px; }
+  .prompt { color: #666; font-size: 0.82rem; margin-bottom: 24px; }
+  .prompt .u { color: #4ec994; }
+  .prompt .h { color: #61afef; }
+  .msg { border-left: 2px solid #4ec994; padding-left: 16px; }
+  .msg .title { color: #4ec994; font-size: 1rem; font-weight: bold; margin-bottom: 8px; }
+  .msg .sub { color: #666; font-size: 0.8rem; line-height: 1.7; }
+  .cursor {
+    display: inline-block; width: 8px; height: 14px;
+    background: #4ec994; vertical-align: middle;
+    animation: blink 1s step-end infinite; margin-left: 4px;
+  }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+</style>
+</head>
+<body>
+<div class="window">
+  <div class="titlebar">
+    <div class="dots">
+      <div class="dot" style="background:#ff5f56"></div>
+      <div class="dot" style="background:#ffbd2e"></div>
+      <div class="dot" style="background:#27c93f"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="prompt"><span class="u">you</span>@<span class="h">news</span> ~ $ brief --init</div>
+    <div class="msg">
+      <div class="title">▶ DAILY BRIEF</div>
+      <div class="sub">
+        Waiting for first run...<br>
+        Trigger the GitHub Action to generate today's news.<span class="cursor"></span>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js');
+  }
+</script>
+</body>
+</html>

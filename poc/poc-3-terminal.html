@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Brief — POC 3: Terminal</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0d0d0d;
+    --surface: #141414;
+    --border: #2a2a2a;
+    --text: #d4d4d4;
+    --text-dim: #666;
+    --green: #4ec994;
+    --yellow: #e5c07b;
+    --blue: #61afef;
+    --red: #e06c75;
+    --purple: #c678dd;
+    --cyan: #56b6c2;
+  }
+
+  body {
+    font-family: 'Maple Mono', 'JetBrains Mono', 'Fira Code', 'Menlo', monospace;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .window {
+    max-width: 860px;
+    margin: 30px auto;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  }
+
+  .titlebar {
+    background: #1e1e1e;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .dots { display: flex; gap: 7px; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-red { background: #ff5f56; }
+  .dot-yellow { background: #ffbd2e; }
+  .dot-green { background: #27c93f; }
+
+  .tab-title {
+    flex: 1;
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+  }
+
+  .content {
+    padding: 20px 24px 40px;
+  }
+
+  .prompt-line {
+    color: var(--text-dim);
+    margin-bottom: 20px;
+    font-size: 0.82rem;
+  }
+
+  .prompt-line .user { color: var(--green); }
+  .prompt-line .at { color: var(--text-dim); }
+  .prompt-line .host { color: var(--blue); }
+  .prompt-line .cmd { color: var(--text); }
+
+  .header-block {
+    border-left: 2px solid var(--green);
+    padding-left: 16px;
+    margin-bottom: 28px;
+  }
+
+  .header-block .title {
+    color: var(--green);
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+
+  .header-block .meta {
+    color: var(--text-dim);
+    font-size: 0.78rem;
+    margin-top: 2px;
+  }
+
+  .section-header {
+    margin: 28px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  .section-header .bracket { color: var(--text-dim); }
+  .section-header .label { color: var(--yellow); font-weight: bold; }
+  .section-header .num { color: var(--purple); margin-left: 6px; font-size: 0.78rem; }
+
+  .item {
+    padding: 14px 0;
+    border-bottom: 1px solid #1e1e1e;
+  }
+
+  .item:last-child { border-bottom: none; }
+
+  .item-header {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+  }
+
+  .item-idx { color: var(--text-dim); min-width: 24px; }
+
+  .item-title {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 0.95rem;
+    text-decoration: none;
+    line-height: 1.4;
+  }
+
+  .item-title:hover { color: var(--cyan); text-decoration: underline; }
+
+  .item-source {
+    color: var(--text-dim);
+    font-size: 0.72rem;
+    margin-left: auto;
+  }
+
+  .item-en {
+    color: var(--text);
+    font-size: 0.82rem;
+    line-height: 1.65;
+    margin-bottom: 4px;
+    padding-left: 32px;
+  }
+
+  .item-zh {
+    color: #888;
+    font-size: 0.8rem;
+    line-height: 1.65;
+    padding-left: 32px;
+  }
+
+  .item-zh::before {
+    content: '# ';
+    color: var(--text-dim);
+  }
+
+  .tag-inline {
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    border: 1px solid #333;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+
+  .cursor {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: var(--green);
+    vertical-align: middle;
+    animation: blink 1s step-end infinite;
+    margin-left: 4px;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  .footer-line {
+    margin-top: 28px;
+    color: var(--text-dim);
+    font-size: 0.78rem;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
+
+  .footer-line span { color: var(--green); }
+
+  @media (max-width: 640px) {
+    .window { margin: 0; border-radius: 0; border-left: none; border-right: none; }
+    .item-source { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="window">
+  <div class="titlebar">
+    <div class="dots">
+      <div class="dot dot-red"></div>
+      <div class="dot dot-yellow"></div>
+      <div class="dot dot-green"></div>
+    </div>
+    <div class="tab-title">daily-brief — zsh</div>
+  </div>
+
+  <div class="content">
+
+    <div class="prompt-line">
+      <span class="user">you</span><span class="at">@</span><span class="host">news</span> <span class="cmd">$ brief --date today --lang bilingual</span>
+    </div>
+
+    <div class="header-block">
+      <div class="title">▶ DAILY BRIEF</div>
+      <div class="meta">Thu Apr 17 2026 · 12 items fetched · summarized by gemini-2.0-flash</div>
+    </div>
+
+    <div class="section-header">
+      <span class="bracket">[</span>
+      <span class="label">TECHNOLOGY</span>
+      <span class="bracket">]</span>
+      <span class="num">5 items</span>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-idx">01</span>
+        <a href="#" class="item-title">OpenAI releases GPT-5 with real-time reasoning</a>
+        <span class="tag-inline">AI</span>
+        <span class="item-source">the verge · 3h</span>
+      </div>
+      <div class="item-en">OpenAI unveiled GPT-5, featuring a reasoning engine that pauses mid-response to verify facts. MMLU score: 92% (+14 from GPT-4o). Native 256K context.</div>
+      <div class="item-zh">OpenAI 发布 GPT-5，推理引擎可在回答中途暂停核实信息。MMLU 得分 92%，超 GPT-4o 14 个百分点，原生 256K 上下文。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-idx">02</span>
+        <a href="#" class="item-title">Apple M5 MacBook Pro ships in May</a>
+        <span class="tag-inline">HW</span>
+        <span class="item-source">macrumors · 5h</span>
+      </div>
+      <div class="item-en">M5 chip ships with a dedicated neural engine cluster, doubling AI inference throughput vs M4. Same thermal design retained.</div>
+      <div class="item-zh">M5 芯片配备独立神经引擎集群，AI 推理吞吐量较 M4 翻倍，散热设计不变。</div>
+    </div>
+
+    <div class="section-header">
+      <span class="bracket">[</span>
+      <span class="label">FINANCE</span>
+      <span class="bracket">]</span>
+      <span class="num">4 items</span>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-idx">03</span>
+        <a href="#" class="item-title">Fed signals June rate cut as inflation cools</a>
+        <span class="tag-inline">MACRO</span>
+        <span class="item-source">reuters · 7h</span>
+      </div>
+      <div class="item-en">Core PCE hit 2.3% in March — lowest since early 2021 — prompting Fed Chair to leave June cut "on the table." Treasury markets rallied.</div>
+      <div class="item-zh">三月核心 PCE 降至 2.3%，创 2021 年初以来新低，美联储主席表示六月降息仍是"选项"，国债市场随之走高。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-idx">04</span>
+        <a href="#" class="item-title">EU passes AI liability directive</a>
+        <span class="tag-inline">POLICY</span>
+        <span class="item-source">bbc · 9h</span>
+      </div>
+      <div class="item-en">EU lawmakers made developers liable for damages from high-risk AI systems, effective 2027. Critics warn it may restrict open-source development.</div>
+      <div class="item-zh">欧盟立法者规定高风险 AI 系统开发者须承担损害责任，2027 年起生效，批评者担忧此举限制开源发展。</div>
+    </div>
+
+    <div class="footer-line">
+      <span>✓</span> done in 1.2s · next update in ~23h · <span>q</span> to quit
+      <span class="cursor"></span>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
