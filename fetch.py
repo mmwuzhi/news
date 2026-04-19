@@ -28,7 +28,8 @@ FEEDS = [
     {"url": "https://www.theverge.com/rss/index.xml",        "source": "The Verge"},
     {"url": "https://www.technologyreview.com/feed/",        "source": "MIT Tech Review"},
     {"url": "https://36kr.com/feed",                         "source": "36氪"},
-    {"url": "https://www.ruanyifeng.com/blog/atom.xml",      "source": "阮一峰"},
+    {"url": "https://feeds.marketwatch.com/marketwatch/topstories/", "source": "MarketWatch"},
+    {"url": "https://seekingalpha.com/feed.xml",             "source": "Seeking Alpha"},
     {"url": "https://github.blog/feed/",                     "source": "GitHub Blog"},
 ]
 
