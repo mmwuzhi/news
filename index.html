@@ -8,70 +8,354 @@
 <link rel="manifest" href="/manifest.json">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0d0d0d;
+    --surface: #141414;
+    --border: #2a2a2a;
+    --text: #d4d4d4;
+    --text-dim: #666;
+    --green: #4ec994;
+    --yellow: #e5c07b;
+    --blue: #61afef;
+    --red: #e06c75;
+    --purple: #c678dd;
+    --cyan: #56b6c2;
+  }
+
   body {
     font-family: 'Maple Mono', 'JetBrains Mono', 'Fira Code', 'Menlo', monospace;
-    background: #0d0d0d;
-    color: #d4d4d4;
+    background: var(--bg);
+    color: var(--text);
     min-height: 100vh;
     font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    line-height: 1.6;
   }
+
   .window {
-    max-width: 600px;
-    width: 90%;
-    background: #141414;
-    border: 1px solid #2a2a2a;
+    max-width: 860px;
+    margin: 30px auto;
+    background: var(--surface);
+    border: 1px solid var(--border);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 20px 60px rgba(0,0,0,0.6);
   }
+
   .titlebar {
     background: #1e1e1e;
     padding: 10px 16px;
     display: flex;
     align-items: center;
     gap: 12px;
-    border-bottom: 1px solid #2a2a2a;
+    border-bottom: 1px solid var(--border);
+    user-select: none;
   }
+
   .dots { display: flex; gap: 7px; }
   .dot { width: 12px; height: 12px; border-radius: 50%; }
-  .content { padding: 32px 28px 40px; }
-  .prompt { color: #666; font-size: 0.82rem; margin-bottom: 24px; }
-  .prompt .u { color: #4ec994; }
-  .prompt .h { color: #61afef; }
-  .msg { border-left: 2px solid #4ec994; padding-left: 16px; }
-  .msg .title { color: #4ec994; font-size: 1rem; font-weight: bold; margin-bottom: 8px; }
-  .msg .sub { color: #666; font-size: 0.8rem; line-height: 1.7; }
-  .cursor {
-    display: inline-block; width: 8px; height: 14px;
-    background: #4ec994; vertical-align: middle;
-    animation: blink 1s step-end infinite; margin-left: 4px;
+  .dot-red    { background: #ff5f56; }
+  .dot-yellow { background: #ffbd2e; }
+  .dot-green  { background: #27c93f; }
+
+  .tab-title {
+    flex: 1;
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--text-dim);
   }
-  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+  .content {
+    padding: 20px 24px 40px;
+  }
+
+  .prompt-line {
+    color: var(--text-dim);
+    margin-bottom: 20px;
+    font-size: 0.82rem;
+  }
+  .prompt-line .user { color: var(--green); }
+  .prompt-line .host { color: var(--blue); }
+
+  .header-block {
+    border-left: 2px solid var(--green);
+    padding-left: 16px;
+    margin-bottom: 28px;
+  }
+  .header-block .title {
+    color: var(--green);
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  .header-block .meta {
+    color: var(--text-dim);
+    font-size: 0.78rem;
+    margin-top: 2px;
+  }
+
+  .section-header {
+    margin: 28px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+  .section-header .bracket { color: var(--text-dim); }
+  .section-header .label   { color: var(--yellow); font-weight: bold; }
+  .section-header .num     { color: var(--purple); margin-left: 6px; font-size: 0.78rem; }
+
+  .item {
+    padding: 14px 0;
+    border-bottom: 1px solid #1e1e1e;
+  }
+  .item:last-child { border-bottom: none; }
+
+  .item-header {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+  }
+
+  .item-idx { color: var(--text-dim); min-width: 24px; }
+
+  .item-title {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 0.95rem;
+    text-decoration: none;
+    line-height: 1.4;
+  }
+  .item-title:hover { color: var(--cyan); text-decoration: underline; }
+
+  .item-source {
+    color: var(--text-dim);
+    font-size: 0.72rem;
+    margin-left: auto;
+  }
+
+  .item-en {
+    color: var(--text);
+    font-size: 0.82rem;
+    line-height: 1.65;
+    margin-bottom: 4px;
+    padding-left: 32px;
+  }
+
+  .item-zh {
+    color: #888;
+    font-size: 0.8rem;
+    line-height: 1.65;
+    padding-left: 32px;
+  }
+  .item-zh::before { content: '# '; color: var(--text-dim); }
+
+  .tag-inline {
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    border: 1px solid #333;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+
+  .footer-line {
+    margin-top: 28px;
+    color: var(--text-dim);
+    font-size: 0.78rem;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
+  .footer-line .ok { color: var(--green); }
+
+  .cursor {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: var(--green);
+    vertical-align: middle;
+    animation: blink 1s step-end infinite;
+    margin-left: 4px;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+  }
+
+  @media (max-width: 640px) {
+    .window { margin: 0; border-radius: 0; border-left: none; border-right: none; }
+    .item-source { display: none; }
+    .content { padding: 16px 16px 32px; }
+  }
 </style>
 </head>
 <body>
+
 <div class="window">
   <div class="titlebar">
     <div class="dots">
-      <div class="dot" style="background:#ff5f56"></div>
-      <div class="dot" style="background:#ffbd2e"></div>
-      <div class="dot" style="background:#27c93f"></div>
+      <div class="dot dot-red"></div>
+      <div class="dot dot-yellow"></div>
+      <div class="dot dot-green"></div>
     </div>
+    <div class="tab-title">daily-brief — zsh</div>
   </div>
+
   <div class="content">
-    <div class="prompt"><span class="u">you</span>@<span class="h">news</span> ~ $ brief --init</div>
-    <div class="msg">
-      <div class="title">▶ DAILY BRIEF</div>
-      <div class="sub">
-        Waiting for first run...<br>
-        Trigger the GitHub Action to generate today's news.<span class="cursor"></span>
-      </div>
+
+    <div class="prompt-line">
+      <span class="user">you</span>@<span class="host">news</span> ~ $ brief --date 2026-04-19 --lang bilingual
     </div>
+
+    <div class="header-block">
+      <div class="title">▶ DAILY BRIEF</div>
+      <div class="meta">Sun Apr 19 2026 · 20 stories · summarized by gemini-2.5-flash</div>
+    </div>
+
+
+    <div class="section-header"><span class="bracket">[</span><span class="label">AI</span><span class="bracket">]</span><span class="num">2 items</span></div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">01</span><a href="https://www.v2ex.com/t/1206964#reply3" class="item-title" target="_blank" rel="noopener">[OpenAI] 你的 plus 还好吗？</a><span class="tag-inline">AI</span><span class="item-source">V2EX · just now</span></div>
+      <div class="item-en">Users are reporting that their OpenAI Plus accounts have been terminated, suggesting a widespread crackdown by OpenAI. This indicates a potential &quot;massacre&quot; of accounts, possibly due to violations of terms of service.</div>
+      <div class="item-zh">有用户报告其所有OpenAI Plus账户均已被封停，暗示OpenAI可能正在进行大规模账户清理。这预示着一场“屠杀”已经开始，可能针对违反服务条款的用户。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">02</span><a href="https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/" class="item-title" target="_blank" rel="noopener">College instructor turns to typewriters to curb AI-written work</a><span class="tag-inline">AI</span><span class="item-source">Hacker News · 10h ago</span></div>
+      <div class="item-en">A college instructor has resorted to requiring students to use typewriters for assignments as a method to combat the increasing use of AI-written work. This unconventional approach aims to ensure originality and prevent plagiarism generated by artificial intelligence tools.</div>
+      <div class="item-zh">一位大学教师为了遏制学生使用AI撰写作业，开始要求学生使用打字机完成作业。这种非传统方法旨在确保原创性，并防止人工智能工具生成的剽窃行为。</div>
+    </div>
+
+    <div class="section-header"><span class="bracket">[</span><span class="label">TECHNOLOGY</span><span class="bracket">]</span><span class="num">6 items</span></div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">03</span><a href="https://www.v2ex.com/t/1206965#reply0" class="item-title" target="_blank" rel="noopener">[酷工作] [北京] 阿里健康招 P7 数据开发主管（数仓）</a><span class="tag-inline">TECH</span><span class="item-source">V2EX · just now</span></div>
+      <div class="item-en">Ali Health is recruiting for a P7 Data Development Lead in Beijing to spearhead the planning and construction of its big data technology ecosystem. This role involves utilizing data warehousing to solve business challenges, advancing data platform technologies, and ensuring data quality.</div>
+      <div class="item-zh">阿里健康正在北京招聘一名P7数据开发主管，负责其大数据技术体系的规划与建设。该职位需运用数据仓库技术解决业务痛点，推动大数据平台技术发展并提升数据质量。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">04</span><a href="https://36kr.com/p/3773090942321155?f=rss" class="item-title" target="_blank" rel="noopener">36氪首发 | 前华为工程师创业，实现临时键合载板存量循环，龙头客户已验证</a><span class="tag-inline">TECH</span><span class="item-source">36氪 · 3h ago</span></div>
+      <div class="item-en">Huanjingxin Technology, a startup founded by a former Huawei engineer, has secured multi-million yuan in angel funding for its innovative carrier recycling solution. The company developed China&#x27;s first non-destructive method to infinitely reuse temporary bonding carriers in advanced packaging, a technology already verified by a leading domestic client.</div>
+      <div class="item-zh">前华为工程师创立的环晶芯科技获得数千万元天使轮融资，用于其无锡量产线建设和研发。该公司开创了国内首个无损回收复用临时键合载板的方案，该技术已通过国内封装龙头客户验证，可大幅降低先进封装辅料成本。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">05</span><a href="https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years" class="item-title" target="_blank" rel="noopener">The RAM shortage could last years</a><span class="tag-inline">TECH</span><span class="item-source">The Verge · 8h ago</span></div>
+      <div class="item-en">The global RAM shortage is projected to persist for several years, with suppliers only expected to meet 60 percent of demand by late 2027 despite increased DRAM production. Industry leaders, including SK Group&#x27;s chairman, warn that these shortages could potentially extend until 2030, impacting technology manufacturers worldwide.</div>
+      <div class="item-zh">全球内存短缺预计将持续数年，尽管DRAM产量增加，但到2027年末供应商预计只能满足60%的需求。行业领导者，包括SK集团董事长，警告称短缺可能延长至2030年，影响全球科技制造商。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">06</span><a href="https://tokens.billchambers.me/leaderboard" class="item-title" target="_blank" rel="noopener">Anonymous request-token comparisons from Opus 4.6 and Opus 4.7</a><span class="tag-inline">TECH</span><span class="item-source">Hacker News · 13h ago</span></div>
+      <div class="item-en">This article likely details a technical comparison of anonymous request tokens between Opus versions 4.6 and 4.7. Such an analysis would explore changes or improvements in token handling and security between the software iterations.</div>
+      <div class="item-zh">本文可能详细比较了Opus 4.6和Opus 4.7版本之间匿名请求令牌的技术差异。此类分析将探讨软件迭代过程中令牌处理和安全性方面的变化或改进。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">07</span><a href="https://www.theverge.com/gadgets/912620/cheap-gadgets-tech-under-50-tools-headphones-fitness-trackers" class="item-title" target="_blank" rel="noopener">Cheap stuff that doesn’t suck, take 3</a><span class="tag-inline">TECH</span><span class="item-source">The Verge · 13h ago</span></div>
+      <div class="item-en">The Verge explores affordable yet quality products in its &quot;Cheap stuff that doesn&#x27;t suck&quot; series, acknowledging that many desirable gadgets are typically expensive. This edition is particularly relevant given rising costs due to US tariffs and a global memory shortage, which are impacting prices across various goods.</div>
+      <div class="item-zh">The Verge在其“物美价廉”系列中探讨了经济实惠但质量优良的产品，承认许多受欢迎的小玩意价格不菲。鉴于美国持续的关税和全球内存短缺推高了几乎所有商品的价格，本期内容尤为重要。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">08</span><a href="https://sspai.com/post/87807" class="item-title" target="_blank" rel="noopener">你好，我是一名「火腿」</a><span class="tag-inline">TECH</span><span class="item-source">少数派 · 1d ago</span></div>
+      <div class="item-en">This article introduces the hobby of amateur radio, often referred to as &quot;ham radio,&quot; as a way to fulfill a childhood dream. It likely covers how to get started in amateur radio, sharing insights and experiences for newcomers to the field.</div>
+      <div class="item-zh">这篇文章介绍了业余无线电这项爱好，通常被称为“火腿电台”，作为实现童年梦想的一种方式。它可能涵盖了如何入门业余无线电，并为新手分享见解和经验。</div>
+    </div>
+
+    <div class="section-header"><span class="bracket">[</span><span class="label">WORLD</span><span class="bracket">]</span><span class="num">4 items</span></div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">09</span><a href="https://www.bbc.com/news/articles/cx2631x6nelo?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Strait of Hormuz closed again, Iran says, as ships attacked</a><span class="tag-inline">WORL</span><span class="item-source">BBC · 7h ago</span></div>
+      <div class="item-en">The Strait of Hormuz has reportedly been closed again, with Iran citing a US blockade as the reason and accusing the US of breaching their ceasefire agreement. This closure follows reports of ships being attacked in the vital waterway, escalating regional tensions.</div>
+      <div class="item-zh">霍尔木兹海峡据报道再次关闭，伊朗指责美国实施封锁并违反了两国间的停火协议。此次关闭发生在该关键水道船只遭遇袭击的报告之后，加剧了地区紧张局势。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">10</span><a href="https://www.bbc.com/news/articles/cm25r1vkx4lo?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">At least six killed in Kyiv as gunman opens fire and takes hostages</a><span class="tag-inline">WORL</span><span class="item-source">BBC · 11h ago</span></div>
+      <div class="item-en">At least six people have been killed in Kyiv after a gunman opened fire and took hostages inside a supermarket. Officials reported that the attacker was subsequently killed following a shootout with police forces.</div>
+      <div class="item-zh">基辅一家超市内发生枪手开火并劫持人质事件，造成至少六人死亡。官方称，袭击者在与警方交火后被击毙。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">11</span><a href="https://www.bbc.com/news/articles/ce84j261kj1o?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Pope says &#x27;tyrants&#x27; speech was not aimed at Trump</a><span class="tag-inline">WORL</span><span class="item-source">BBC · 12h ago</span></div>
+      <div class="item-en">The Pope clarified that his recent &quot;tyrants&quot; speech was not directed at former US President Trump, explaining that his remarks have been misinterpreted. This statement comes after a period of public disagreement between the pontiff and the US president.</div>
+      <div class="item-zh">教皇澄清他最近关于“暴君”的言论并非针对前美国总统特朗普，并解释他的言辞被误解了。此番表态是在教皇与美国总统之间发生公开争执之后作出的。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">12</span><a href="https://www.theverge.com/policy/914619/trump-administration-violated-first-amendment-ice-tracking" class="item-title" target="_blank" rel="noopener">Judge rules Trump administration violated the First Amendment in fight against ICE-tracking</a><span class="tag-inline">WORL</span><span class="item-source">The Verge · 12h ago</span></div>
+      <div class="item-en">A federal judge has ruled that the Trump Administration violated the First Amendment by pressuring Facebook and Apple to remove ICE-tracking groups and apps. Judge Jorge L. Alonso found that the administration infringed upon free speech rights, siding with plaintiffs who operate such online communities.</div>
+      <div class="item-zh">一位联邦法官裁定，特朗普政府通过施压Facebook和苹果公司删除ICE追踪群组和应用，违反了《第一修正案》。法官Jorge L. Alonso认为政府侵犯了言论自由权，支持了运营此类在线社区的原告。</div>
+    </div>
+
+    <div class="section-header"><span class="bracket">[</span><span class="label">SCIENCE</span><span class="bracket">]</span><span class="num">1 item</span></div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">13</span><a href="https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits" class="item-title" target="_blank" rel="noopener">NIST scientists create &#x27;any wavelength&#x27; lasers</a><span class="tag-inline">SCIE</span><span class="item-source">Hacker News · 8h ago</span></div>
+      <div class="item-en">Scientists at NIST have successfully developed innovative &quot;any wavelength&quot; lasers, representing a significant breakthrough in laser technology. This advancement promises greater versatility and precision for various applications across scientific research and industry.</div>
+      <div class="item-zh">NIST的科学家们成功开发出创新的“任意波长”激光器，标志着激光技术领域的重大突破。这一进展预示着其在科学研究和工业应用中将具备更强的通用性和精确性。</div>
+    </div>
+
+    <div class="section-header"><span class="bracket">[</span><span class="label">FINANCE</span><span class="bracket">]</span><span class="num">7 items</span></div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">14</span><a href="https://www.v2ex.com/t/1206963#reply0" class="item-title" target="_blank" rel="noopener">[分享发现] 招商银行真是奇葩，半夜三更偷偷给你的银行卡签约在线支付</a><span class="tag-inline">FINA</span><span class="item-source">V2EX · just now</span></div>
+      <div class="item-en">A user reported that China Merchants Bank mysteriously activated online payment services for their bank card during the night without consent. Despite having the card solely for mortgage payments and disabling extra features, the user was disgusted to find these services secretly enabled.</div>
+      <div class="item-zh">一位用户投诉招商银行在深夜未经许可，擅自为他们的银行卡开通了云闪付和银联在线支付功能。尽管该卡仅用于房贷还款并已关闭多余功能，用户仍对其银行的这一行为表示强烈不满。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">15</span><a href="https://seekingalpha.com/article/4891788-sp500-snapshot-7000-era-begins-triple-record-highs?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">S&amp;P 500 Snapshot: The 7,000 Era Begins Amid Triple Record Highs</a><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
+      <div class="item-en">The S&amp;P 500 has reportedly entered a new &quot;7,000 era,&quot; achieving triple record highs in the stock market. This signifies significant growth and a bullish trend in financial markets.</div>
+      <div class="item-zh">据报道，标普500指数已进入“7,000时代”，并在股市中创下三项历史新高。这预示着金融市场出现了显著增长和牛市趋势。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">16</span><a href="https://seekingalpha.com/article/4888572-politics-and-the-markets-041926?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Politics And The Markets 04/19/26</a><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · 1h ago</span></div>
+      <div class="item-en">This article discusses the interplay between political developments and their impact on financial markets. It likely analyzes how specific political events or policies on April 19, 2026, influenced market trends.</div>
+      <div class="item-zh">本文探讨了政治发展及其对金融市场的影响。它可能分析了2026年4月19日的特定政治事件或政策如何影响市场趋势。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">17</span><a href="https://seekingalpha.com/article/4891834-apple-among-15-companies-to-announce-dividend-increases-in-the-second-half-of-april?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Apple Among 15 Companies To Announce Dividend Increases In The Second Half Of April</a><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · 1h ago</span></div>
+      <div class="item-en">Apple is among 15 companies that announced dividend increases during the latter half of April. This indicates a positive outlook from these companies, suggesting strong financial performance and a commitment to returning value to shareholders.</div>
+      <div class="item-zh">苹果公司是4月下半月宣布提高股息的15家公司之一。这表明这些公司前景乐观，暗示其财务表现强劲，并致力于向股东回馈价值。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">18</span><a href="https://www.marketwatch.com/story/mayor-mamdanis-500-million-war-on-the-rich-will-force-new-york-citys-top-taxpayers-to-florida-e179b49a?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">New York City is floating a $500 million second-home tax — and it would hurt industries that support thousands of jobs</a><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · 6h ago</span></div>
+      <div class="item-en">New York City is considering a $500 million tax on second homes, particularly luxury units, aiming to generate significant revenue. Critics warn that this surcharge is a gamble that could harm industries supporting thousands of jobs if wealthy residents choose to relocate to lower-tax states.</div>
+      <div class="item-zh">纽约市正考虑征收5亿美元的第二套房产税，特别是针对豪华住宅，以期获得可观的财政收入。批评者警告称，如果富裕居民因此迁往低税州，这项附加税将对支撑数千个就业岗位的行业造成损害，是一场冒险。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">19</span><a href="https://www.marketwatch.com/story/caregiving-is-now-so-crazy-expensive-that-its-financially-devastating-to-most-families-new-research-shows-989ba873?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">Caregiving has become so crazy expensive that it’s financially devastating to most families</a><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · 8h ago</span></div>
+      <div class="item-en">New research indicates that the exorbitant costs of caregiving, particularly long-term care, are financially devastating for most American families. This issue primarily affects all but the wealthiest segments of society, who are the only ones capable of bearing such expenses.</div>
+      <div class="item-zh">新研究表明，高昂的护理费用，尤其是长期护理费用，对大多数美国家庭来说是毁灭性的经济负担。这个问题主要影响除最富有阶层以外的所有社会群体，只有他们才能承担这些费用。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">20</span><a href="https://www.marketwatch.com/story/new-social-security-proposal-would-cap-payments-for-wealthy-people-now-and-many-more-later-on-20c926cf?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">New Social Security proposal would cap payments for wealthy people now — and many more later on</a><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · 8h ago</span></div>
+      <div class="item-en">A new Social Security proposal suggests capping benefit payments for wealthy individuals immediately, with broader caps potentially affecting more people in the future. The Committee for a Responsible Federal Budget (CRFB) indicates that such limits could significantly address Social Security&#x27;s fiscal challenges, though details warrant close examination.</div>
+      <div class="item-zh">一项新的社会保障提案建议立即对富裕人群的福利支付设定上限，未来可能扩大到更多人。负责任联邦预算委员会（CRFB）表示，此类限制可能在很大程度上解决社会保障的财政问题，但需仔细审阅具体细节。</div>
+    </div>
+
+
+    <div class="footer-line">
+      <span class="ok">✓</span>
+      done · 20 fetched · next update in ~24h · updated 05:16 UTC
+      <span class="cursor"></span>
+    </div>
+
   </div>
 </div>
+
 <script>
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js');
