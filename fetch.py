@@ -22,7 +22,6 @@ FEEDS = [
     {"url": "https://www.v2ex.com/index.xml",                "source": "V2EX"},
     {"url": "https://news.ycombinator.com/rss",              "source": "Hacker News"},
     {"url": "https://openai.com/news/rss.xml",               "source": "OpenAI Blog"},
-    {"url": "https://www.anthropic.com/news/rss",             "source": "Anthropic Blog"},
     {"url": "https://artificialintelligence-news.com/feed/", "source": "AI News"},
     {"url": "http://feeds.bbci.co.uk/news/world/rss.xml",    "source": "BBC"},
     {"url": "https://www.theverge.com/rss/index.xml",        "source": "The Verge"},
@@ -35,7 +34,7 @@ FEEDS = [
 
 MAX_PER_FEED = 3
 MAX_TOTAL = 20
-GEMINI_MODEL = "gemini-2.5-flash-preview-04-17"
+GEMINI_MODEL = "gemini-2.5-flash"
 CATEGORY_ORDER = ["AI", "Technology", "World", "Science", "Finance"]
 
 # ── HTML Template ─────────────────────────────────────────────────────────────
