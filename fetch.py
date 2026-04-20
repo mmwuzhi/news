@@ -35,7 +35,7 @@ FEEDS = [
 
 MAX_PER_FEED = 3
 MAX_TOTAL = 20
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-2.5-flash-lite"
 CATEGORY_ORDER = ["AI", "Technology", "World", "Science", "Finance"]
 
 # ── HTML Template ─────────────────────────────────────────────────────────────
