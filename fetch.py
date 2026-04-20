@@ -156,11 +156,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     display: flex;
     gap: 8px;
     align-items: baseline;
-    margin-bottom: 6px;
-    flex-wrap: wrap;
+    margin-bottom: 4px;
   }
 
-  .item-idx { color: var(--text-dim); min-width: 24px; }
+  .item-idx { color: var(--text-dim); min-width: 24px; flex-shrink: 0; }
 
   .item-title {
     color: var(--blue);
@@ -170,6 +169,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     line-height: 1.4;
   }
   .item-title:hover { color: var(--cyan); text-decoration: underline; }
+
+  .item-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 32px;
+    margin-bottom: 8px;
+  }
 
   .item-source {
     color: var(--text-dim);
@@ -428,6 +435,8 @@ def build_sections(items: list[dict]) -> str:
                 f'\n      <div class="item-header">'
                 f'<span class="item-idx">{idx:02d}</span>'
                 f'<a href="{escape(item["link"])}" class="item-title" target="_blank" rel="noopener">{escape(item["title"])}</a>'
+                f'</div>'
+                f'\n      <div class="item-meta">'
                 f'<span class="tag-inline">{tag}</span>'
                 f'<span class="item-source">{escape(item["source"])} · {escape(item["time_ago"])}</span>'
                 f'</div>'
