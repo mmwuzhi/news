@@ -386,7 +386,7 @@ Example: [{{"en":"...","zh":"...","category":"..."}}]
 
     try:
         summaries = json.loads(text)
-        print(f"  parsed {len(summaries)} summaries", file=sys.stderr)
+        print(f"  parsed {len(summaries)} summaries, first item keys: {list(summaries[0].keys()) if summaries else []}", file=sys.stderr)
     except json.JSONDecodeError as e:
         print(f"  ✗ JSON parse error: {e}\n  raw: {text[:500]}", file=sys.stderr)
         summaries = []
