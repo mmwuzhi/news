@@ -114,11 +114,10 @@
     display: flex;
     gap: 8px;
     align-items: baseline;
-    margin-bottom: 6px;
-    flex-wrap: wrap;
+    margin-bottom: 4px;
   }
 
-  .item-idx { color: var(--text-dim); min-width: 24px; }
+  .item-idx { color: var(--text-dim); min-width: 24px; flex-shrink: 0; }
 
   .item-title {
     color: var(--blue);
@@ -128,6 +127,14 @@
     line-height: 1.4;
   }
   .item-title:hover { color: var(--cyan); text-decoration: underline; }
+
+  .item-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 32px;
+    margin-bottom: 8px;
+  }
 
   .item-source {
     color: var(--text-dim);
@@ -219,137 +226,157 @@
     <div class="section-header"><span class="bracket">[</span><span class="label">AI</span><span class="bracket">]</span><span class="num">2 items</span></div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">01</span><a href="https://www.v2ex.com/t/1207284#reply0" class="item-title" target="_blank" rel="noopener">[独立开发者 👨‍💻] 独立开发周记 166：上架即踩坑，累瘫也得冲</a><span class="tag-inline">AI</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">An independent developer experienced burnout while launching their AI-generated app, Sticki, encountering issues with app store review, listing, and provincial filing. They highlight the rapid AI development and subsequent manual intervention by Apple for listing visibility.</div>
-      <div class="item-zh">一位独立开发者在推出其AI生成的App Sticki时经历了倦怠，遇到了应用商店审核、上架和备案等问题。他们强调了AI的快速发展以及苹果为提高上架可见度所进行的手动干预。</div>
+      <div class="item-header"><span class="item-idx">01</span><a href="https://www.v2ex.com/t/1207284#reply0" class="item-title" target="_blank" rel="noopener">[独立开发者 👨‍💻] 独立开发周记 166：上架即踩坑，累瘫也得冲</a></div>
+      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">V2EX · just now</span></div>
+      <div class="item-en">A solo developer shares their exhausting week launching an AI-generated app called Sticki, encountering significant bureaucratic hurdles with app store submissions and regulatory filings in China. They highlight the effectiveness of contacting Apple support to resolve app store visibility issues.</div>
+      <div class="item-zh">一位独立开发者分享了他们发布AI生成应用Sticki的疲惫一周，在中国遇到了应用商店提交和备案方面的显著障碍。他们强调了联系苹果客服解决应用商店可见性问题的有效性。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">02</span><a href="https://www.artificialintelligence-news.com/news/how-to-prepare-for-and-remediate-an-ai-system-incident/" class="item-title" target="_blank" rel="noopener">How to prepare for and remediate an AI system incident</a><span class="tag-inline">AI</span><span class="item-source">AI News · just now</span></div>
-      <div class="item-en">Organizations are unprepared to quickly respond to or report on AI system incidents due to a lack of clear remediation strategies. New research from ISACA highlights this gap in preparedness for AI malfunctions or compromises.</div>
-      <div class="item-zh">由于缺乏明确的补救策略，组织尚未准备好快速响应或报告AI系统事件。ISACA的新研究突显了组织在应对AI故障或泄露方面的准备不足。</div>
+      <div class="item-header"><span class="item-idx">02</span><a href="https://www.artificialintelligence-news.com/news/how-to-prepare-for-and-remediate-an-ai-system-incident/" class="item-title" target="_blank" rel="noopener">How to prepare for and remediate an AI system incident</a></div>
+      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">AI News · 1h ago</span></div>
+      <div class="item-en">New research from ISACA reveals that most organizations are ill-prepared to handle AI system incidents, lacking clear protocols for quickly stopping emergencies or reporting on system failures. This highlights a critical gap in AI risk management strategies.</div>
+      <div class="item-zh">ISACA的新研究显示，大多数组织尚未准备好应对人工智能系统事件，缺乏快速停止紧急情况或报告系统故障的明确协议。这凸显了人工智能风险管理策略中的一个关键差距。</div>
     </div>
 
-    <div class="section-header"><span class="bracket">[</span><span class="label">TECHNOLOGY</span><span class="bracket">]</span><span class="num">8 items</span></div>
+    <div class="section-header"><span class="bracket">[</span><span class="label">TECHNOLOGY</span><span class="bracket">]</span><span class="num">7 items</span></div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">03</span><a href="https://www.theverge.com/tech/914807/huawei-pura-x-max-launch-price-specs-availability" class="item-title" target="_blank" rel="noopener">Huawei beats Samsung and Apple to market with the first wide foldable</a><span class="tag-inline">TECH</span><span class="item-source">The Verge · just now</span></div>
-      <div class="item-en">Huawei has launched its Pura X Max, the first wide foldable phone available on the market. This device is released ahead of anticipated foldable phones from Samsung and Apple, offering full specifications and pricing.</div>
-      <div class="item-zh">华为发布了其Pura X Max，这是市面上首款广角折叠屏手机。该设备在三星和苹果的折叠屏手机发布之前上市，并提供了完整规格和价格。</div>
-    </div>
-
-    <div class="item">
-      <div class="item-header"><span class="item-idx">04</span><a href="https://www.rts.ch/info/monde/2026/article/tesla-dissimule-des-milliers-d-incidents-de-conduite-autonome-mortels-29214161.html" class="item-title" target="_blank" rel="noopener">Tesla Hid Fatal Accidents to Continue Testing Autonomous Driving (French)</a><span class="tag-inline">TECH</span><span class="item-source">Hacker News · just now</span></div>
-      <div class="item-en">Tesla has allegedly concealed fatal accidents to continue its autonomous driving testing, according to reports. This raises significant ethical and safety concerns surrounding the company&#x27;s self-driving technology development.</div>
-      <div class="item-zh">据报道，特斯拉为了继续其自动驾驶测试而隐瞒了致命事故。这对其自动驾驶技术开发引发了重大的道德和安全担忧。</div>
+      <div class="item-header"><span class="item-idx">03</span><a href="https://www.v2ex.com/t/1207286#reply0" class="item-title" target="_blank" rel="noopener">[问与答] 关于翻译的计算机图书的共识</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">V2EX · just now</span></div>
+      <div class="item-en">This V2EX post asks for a consensus on whether only purchasing translated computer books from Turing Press and Asynchronous Press is a commonly held but unstated preference among readers. It seeks agreement on this potential reader convention.</div>
+      <div class="item-zh">这篇V2EX帖子询问，读者是否普遍但未明言地倾向于只购买图灵出版社和异步出版社的翻译计算机书籍。文章寻求对这一潜在读者习惯的认同。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">05</span><a href="https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/" class="item-title" target="_blank" rel="noopener">The Download: murderous ‘mirror’ bacteria, and Chinese workers fighting AI doubles</a><span class="tag-inline">TECH</span><span class="item-source">MIT Tech Review · just now</span></div>
-      <div class="item-en">This tech news update covers the speculative threat of &#x27;mirror&#x27; bacteria and the struggles of Chinese workers competing with AI doubles. It also mentions the ongoing developments in synthetic life research.</div>
-      <div class="item-zh">此次科技新闻更新涵盖了“镜子”细菌的猜测性威胁以及中国工人与AI替身竞争的困境。它还提到了合成生命研究的持续进展。</div>
+      <div class="item-header"><span class="item-idx">04</span><a href="https://www.v2ex.com/t/1207285#reply0" class="item-title" target="_blank" rel="noopener">[推广] 最近写了个 SERP 服务，顺便放点兑换码（serpbase）</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">V2EX · just now</span></div>
+      <div class="item-en">The author has developed a SERP (Search Engine Results Page) service, serpbase.dev, to simplify fetching Google search data and overcoming challenges like IP issues and CAPTCHAs. They are offering a redemption code for users who might need this structured JSON data for SEO or automated tasks.</div>
+      <div class="item-zh">作者开发了一个SERP（搜索引擎结果页面）服务serpbase.dev，以简化获取谷歌搜索数据并克服IP问题和验证码等挑战。他们为需要结构化JSON数据的用户提供兑换码，以用于SEO或自动化任务。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">06</span><a href="https://www.theverge.com/reviews/913706/dji-mini-power-station-review-comparison" class="item-title" target="_blank" rel="noopener">DJI’s latest power station is proof that good things come in mini packages</a><span class="tag-inline">TECH</span><span class="item-source">The Verge · just now</span></div>
-      <div class="item-en">DJI has released a new compact power station, the Power 1000 Mini, which is ideal for users requiring portable power solutions in limited spaces. Its design prioritizes maximizing storage efficiency for off-grid living.</div>
-      <div class="item-zh">大疆发布了一款新的紧凑型电源站Power 1000 Mini，非常适合在空间有限的情况下需要便携式电源解决方案的用户。其设计侧重于最大化离网生活的存储效率。</div>
+      <div class="item-header"><span class="item-idx">05</span><a href="https://www.theverge.com/tech/914807/huawei-pura-x-max-launch-price-specs-availability" class="item-title" target="_blank" rel="noopener">Huawei beats Samsung and Apple to market with the first wide foldable</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">The Verge · just now</span></div>
+      <div class="item-en">Huawei has launched its Pura X Max foldable phone in China, becoming the first company to release a wide foldable device to the market. This release precedes similar anticipated devices from competitors like Apple and Samsung.</div>
+      <div class="item-zh">华为在中国发布了其Pura X Max折叠屏手机，成为首家将宽幅折叠屏设备推向市场的公司。这一发布早于苹果和三星等竞争对手的类似设备。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">07</span><a href="https://www.v2ex.com/t/1207282#reply0" class="item-title" target="_blank" rel="noopener">[程序员] 腾讯云 Coding Plan 下架了</a><span class="tag-inline">TECH</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">Tencent Cloud&#x27;s Coding Plan has been discontinued and removed from its product pages. The reasons for its discontinuation and any alternatives are not detailed in this notice.</div>
-      <div class="item-zh">腾讯云的Coding Plan已停用，并从其产品页面中移除。本次通知中未详述其停用的原因或任何替代方案。</div>
+      <div class="item-header"><span class="item-idx">06</span><a href="https://www.rts.ch/info/monde/2026/article/tesla-dissimule-des-milliers-d-incidents-de-conduite-autonome-mortels-29214161.html" class="item-title" target="_blank" rel="noopener">Tesla Hid Fatal Accidents to Continue Testing Autonomous Driving (French)</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">Hacker News · just now</span></div>
+      <div class="item-en">Reports indicate that Tesla may have intentionally concealed fatal accidents to continue its testing of autonomous driving systems. This has raised serious concerns about the company&#x27;s safety practices and transparency in its self-driving technology development.</div>
+      <div class="item-zh">据报道，特斯拉可能故意隐瞒了致命事故，以继续测试其自动驾驶系统。这引发了对该公司安全实践和自动驾驶技术开发透明度的严重担忧。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">08</span><a href="https://www.v2ex.com/t/1207281#reply1" class="item-title" target="_blank" rel="noopener">[程序员] 现在还有哪一个国产 Coding Plan 能买到吗？</a><span class="tag-inline">TECH</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">Demand for domestic Coding Plans from GLM and Alibaba Cloud is extremely high, with users reporting that these services are consistently out of stock. This indicates a significant shortage of these popular development platforms.</div>
-      <div class="item-zh">GLM和阿里云的国产Coding Plan需求量极大，用户反映这些服务一直缺货。这表明这些热门开发平台存在严重的短缺。</div>
+      <div class="item-header"><span class="item-idx">07</span><a href="https://www.theverge.com/reviews/913706/dji-mini-power-station-review-comparison" class="item-title" target="_blank" rel="noopener">DJI’s latest power station is proof that good things come in mini packages</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">The Verge · just now</span></div>
+      <div class="item-en">DJI has released the Power 1000 Mini, a compact power station designed for users like vanlifers who need efficient power solutions in small spaces. The product&#x27;s small form factor makes it ideal for off-grid living and mobile setups.</div>
+      <div class="item-zh">大疆发布了Power 1000 Mini，这是一款紧凑型电源站，专为需要在小空间内获得高效电力解决方案的房车生活者等用户设计。该产品的小巧外观使其非常适合离网生活和移动设备。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">09</span><a href="https://sspai.com/post/108898" class="item-title" target="_blank" rel="noopener">派评 | 近期值得关注的 App</a><span class="tag-inline">TECH</span><span class="item-source">少数派 · 2h ago</span></div>
-      <div class="item-en">A recent review highlights several noteworthy apps for users seeking practical and useful software. The article encourages readers to download the latest version of the Sspai client and follow their official account for an enhanced reading experience.</div>
-      <div class="item-zh">近期的一篇评论推荐了几款值得关注的App，适合寻求实用软件的用户。文章鼓励读者下载最新版本的少数派客户端并关注其官方账号，以获得更佳的阅读体验。</div>
+      <div class="item-header"><span class="item-idx">08</span><a href="https://sspai.com/post/108898" class="item-title" target="_blank" rel="noopener">派评 | 近期值得关注的 App</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">少数派 · 2h ago</span></div>
+      <div class="item-en">This app review from &#x27;少数派&#x27; highlights apps worth paying attention to, suggesting they offer practical and useful functionalities. It also promotes the adoption of the &#x27;少数派&#x27; 2.0 client and official account for an enhanced reading experience.</div>
+      <div class="item-zh">这篇来自“少数派”的应用评测重点介绍了值得关注的应用，表明它们提供了实用且有用的功能。它还推广采用“少数派”2.0客户端和官方账号以获得更佳的阅读体验。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">10</span><a href="https://36kr.com/p/3774966004892416?f=rss" class="item-title" target="_blank" rel="noopener">营销情怀、剧情不通，为什么《安魂曲》依旧好评如潮？| 36氪游戏</a><span class="tag-inline">TECH</span><span class="item-source">36氪 · 2h ago</span></div>
-      <div class="item-en">Despite criticisms regarding marketing, plot inconsistencies, and perceived shallow gameplay, &quot;Resident Evil 9: Requiem&quot; has achieved immense success, topping Metacritic charts and becoming the fastest-selling title in the series. Players acknowledge flaws but still give positive reviews, citing familiar mechanics.</div>
-      <div class="item-zh">尽管存在营销、剧情不符和游戏体验浅显等批评，“生化危机9：安魂曲”取得了巨大的成功，登顶Metacritic榜单，并成为系列中销量最快达到一定数量的作品。玩家承认其缺点但仍给出好评，并引用了熟悉的游戏机制。</div>
+      <div class="item-header"><span class="item-idx">09</span><a href="https://36kr.com/p/3774966004892416?f=rss" class="item-title" target="_blank" rel="noopener">营销情怀、剧情不通，为什么《安魂曲》依旧好评如潮？| 36氪游戏</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">36氪 · 2h ago</span></div>
+      <div class="item-en">Despite criticisms regarding its marketing, plot, and perceived value for money, Resident Evil Village: Requiem has achieved high user ratings and record-breaking sales, becoming the fastest-selling title in the series. The article examines why the game remains popular despite these flaws.</div>
+      <div class="item-zh">尽管其营销、剧情和性价比受到批评，《生化危机：安魂曲》仍获得了很高的用户评分和创纪录的销量，成为系列中销售最快的一款作品。本文探讨了为何该游戏尽管存在缺陷但仍然受欢迎。</div>
     </div>
 
-    <div class="section-header"><span class="bracket">[</span><span class="label">WORLD</span><span class="bracket">]</span><span class="num">3 items</span></div>
+    <div class="section-header"><span class="bracket">[</span><span class="label">WORLD</span><span class="bracket">]</span><span class="num">2 items</span></div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">11</span><a href="https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Man kills seven of his children, and an eighth child, in Louisiana mass shooting</a><span class="tag-inline">WORL</span><span class="item-source">BBC · just now</span></div>
-      <div class="item-en">A mass shooting in Louisiana resulted in the deaths of seven children and an eighth child. The victims, all boys and girls aged between three and 11, were killed in the incident on Sunday.</div>
-      <div class="item-zh">路易斯安那州发生大规模枪击事件，导致七名儿童和另一名儿童死亡。受害者均为三至十一岁的男孩和女孩，于周日在此次事件中丧生。</div>
-    </div>
-
-    <div class="item">
-      <div class="item-header"><span class="item-idx">12</span><a href="https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Oil prices rise after Trump says Iranian ship seized</a><span class="tag-inline">WORL</span><span class="item-source">BBC · just now</span></div>
-      <div class="item-en">Oil prices have experienced significant fluctuations following the US and Israel&#x27;s attacks on Iran, with prices rising after Trump&#x27;s announcement of seizing an Iranian ship. This highlights the market&#x27;s sensitivity to geopolitical events.</div>
-      <div class="item-zh">在美国和以色列袭击伊朗后，油价出现大幅波动，在特朗普宣布扣押一艘伊朗船只后，油价上涨。这凸显了市场对地缘政治事件的敏感性。</div>
+      <div class="item-header"><span class="item-idx">10</span><a href="https://www.marketwatch.com/story/usa-rare-earth-is-taking-on-china-with-a-2-8-billion-move-into-brazil-1a2a22bf?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">USA Rare Earth is taking on China, with a $2.8 billion move into Brazil</a></div>
+      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">MarketWatch · just now</span></div>
+      <div class="item-en">USA Rare Earth is making a significant move to challenge China&#x27;s dominance in the rare earth element market by acquiring Brazil&#x27;s Serra Verde. This acquisition represents over half of the non-China supply of heavy rare-earth elements.</div>
+      <div class="item-zh">美国稀土公司正在通过收购巴西的Serra Verde，大举挑战中国在稀土元素市场的主导地位。此次收购占中国以外重稀土元素供应量的一半以上。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">13</span><a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sri7/" class="item-title" target="_blank" rel="noopener">M 7.4 earthquake – 100 km ENE of Miyako, Japan</a><span class="tag-inline">WORL</span><span class="item-source">Hacker News · 2h ago</span></div>
-      <div class="item-en">A magnitude 7.4 earthquake occurred 100 km east-northeast of Miyako, Japan. Further details regarding the impact or aftershocks were not provided in the comment section.</div>
-      <div class="item-zh">在日本宫古岛东北偏东100公里处发生里氏7.4级地震。评论区未提供有关影响或余震的进一步细节。</div>
+      <div class="item-header"><span class="item-idx">11</span><a href="https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Man kills seven of his children, and an eighth child, in Louisiana mass shooting</a></div>
+      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">BBC · just now</span></div>
+      <div class="item-en">A tragic mass shooting occurred in Louisiana, where a man is reported to have killed seven of his children and an eighth child. The victims were identified as three boys and five girls, with ages ranging from three to eleven.</div>
+      <div class="item-zh">路易斯安那州发生了一起悲惨的大规模枪击事件，据报道一名男子杀害了他的七个孩子和第八个孩子。受害者被确认为三名男孩和五名女孩，年龄在三到十一岁之间。</div>
     </div>
 
-    <div class="section-header"><span class="bracket">[</span><span class="label">SCIENCE</span><span class="bracket">]</span><span class="num">1 item</span></div>
+    <div class="section-header"><span class="bracket">[</span><span class="label">SCIENCE</span><span class="bracket">]</span><span class="num">4 items</span></div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">14</span><a href="https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/" class="item-title" target="_blank" rel="noopener">Colossal Biosciences said it cloned red wolves. Is it for real?</a><span class="tag-inline">SCIE</span><span class="item-source">MIT Tech Review · 2h ago</span></div>
-      <div class="item-en">Colossal Biosciences claims to have cloned red wolves, a scientific achievement that is being scrutinized for its authenticity. The article describes the challenging conditions and the scientific team involved in the cloning process.</div>
-      <div class="item-zh">Colossal Biosciences声称已成功克隆了红狼，这项科学成就正因其真实性而受到审查。文章描述了克隆过程中充满挑战的条件和参与的科学团队。</div>
-    </div>
-
-    <div class="section-header"><span class="bracket">[</span><span class="label">FINANCE</span><span class="bracket">]</span><span class="num">6 items</span></div>
-
-    <div class="item">
-      <div class="item-header"><span class="item-idx">15</span><a href="https://seekingalpha.com/article/4891966-lululemon-the-product-is-great-but-the-risks-are-greater-rating-downgrade?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">lululemon: The Product Is Great, But The Risks Are Greater (Rating Downgrade)</a><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">Lululemon&#x27;s products are recognized as great, but the company faces significant risks, leading to a rating downgrade. Further details on these risks are not provided in the summary.</div>
-      <div class="item-zh">露露柠檬的产品被认为很棒，但该公司面临着重大风险，导致评级被下调。摘要中未提供有关这些风险的更多细节。</div>
+      <div class="item-header"><span class="item-idx">12</span><a href="https://www.marketwatch.com/story/psychedelic-stocks-rally-with-trumps-support-addafa78?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">Psychedelic stocks rally with Trump’s support</a></div>
+      <div class="item-meta"><span class="tag-inline">SCIE</span><span class="item-source">MarketWatch · just now</span></div>
+      <div class="item-en">An executive order from President Trump aims to accelerate the regulatory approval process for psychedelic drugs intended for mental illness treatment. This action has led to a rally in the stocks of companies involved in the psychedelic sector.</div>
+      <div class="item-zh">特朗普总统发布的一项行政命令旨在加快用于治疗精神疾病的迷幻药物的监管审批流程。这一举措推动了迷幻药行业相关公司的股价上涨。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">16</span><a href="https://seekingalpha.com/article/4891965-polaris-stock-now-advantaged-by-domestic-manufacturing-capacity?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Polaris: Now Advantaged By Domestic Manufacturing Capacity</a><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">Polaris is currently benefiting from domestic manufacturing capacity, suggesting a strategic advantage in its operational capabilities. The specific nature of this advantage and its impact are not detailed.</div>
-      <div class="item-zh">Polaris目前受益于国内的制造能力，这表明其运营能力具有战略优势。这种优势的具体性质及其影响并未详述。</div>
+      <div class="item-header"><span class="item-idx">13</span><a href="https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/" class="item-title" target="_blank" rel="noopener">The Download: murderous ‘mirror’ bacteria, and Chinese workers fighting AI doubles</a></div>
+      <div class="item-meta"><span class="tag-inline">SCIE</span><span class="item-source">MIT Tech Review · just now</span></div>
+      <div class="item-en">This edition of The Download newsletter covers emerging topics including the potential existential threat of &#x27;mirror&#x27; bacteria, and Chinese workers facing competition from AI &#x27;doubles&#x27;. It offers a glimpse into novel scientific concepts and the societal impact of artificial intelligence.</div>
+      <div class="item-zh">本期《The Download》新闻通讯涵盖了新兴话题，包括“镜像”细菌的潜在生存威胁，以及中国工人面临来自人工智能“替身”的竞争。它提供了对新颖科学概念和社会人工智能影响的一瞥。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">17</span><a href="https://seekingalpha.com/article/4891964-agnico-eagle-high-quality-comes-at-a-high-price?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Agnico Eagle: High Quality Comes At A High Price</a><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">Agnico Eagle&#x27;s high-quality offerings come at a premium price, indicating a value proposition where quality is directly tied to cost. Investors should consider this pricing strategy.</div>
-      <div class="item-zh">Agnico Eagle的高品质产品价格不菲，表明其价值主张是将品质与成本直接挂钩。投资者应考虑这一定价策略。</div>
+      <div class="item-header"><span class="item-idx">14</span><a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sri7/" class="item-title" target="_blank" rel="noopener">M 7.4 earthquake – 100 km ENE of Miyako, Japan</a></div>
+      <div class="item-meta"><span class="tag-inline">SCIE</span><span class="item-source">Hacker News · 2h ago</span></div>
+      <div class="item-en">An earthquake of magnitude 7.4 struck 100 km east-northeast of Miyako, Japan. The seismic event was significant and occurred in a region prone to such geological activity.</div>
+      <div class="item-zh">日本宫古岛东北偏东100公里处发生里氏7.4级地震。此次地震活动在该地震活跃地区具有显著性。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">18</span><a href="https://www.marketwatch.com/story/usa-rare-earth-is-taking-on-china-with-a-2-8-billion-move-into-brazil-1a2a22bf?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">USA Rare Earth is taking on China, with a $2.8 billion move into Brazil</a><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · just now</span></div>
-      <div class="item-en">USA Rare Earth is set to acquire Brazil&#x27;s Serra Verde, a move that would significantly increase its non-China heavy rare-earth element supply. This acquisition represents a substantial $2.8 billion investment to challenge China&#x27;s dominance in the rare earth market.</div>
-      <div class="item-zh">美国稀土公司将收购巴西的Serra Verde，此举将大幅增加其非中国的重稀土元素供应。此次收购代表着一项28亿美元的重大投资，旨在挑战中国在稀土市场的主导地位。</div>
+      <div class="item-header"><span class="item-idx">15</span><a href="https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/" class="item-title" target="_blank" rel="noopener">Colossal Biosciences said it cloned red wolves. Is it for real?</a></div>
+      <div class="item-meta"><span class="tag-inline">SCIE</span><span class="item-source">MIT Tech Review · 2h ago</span></div>
+      <div class="item-en">Colossal Biosciences claims to have successfully cloned red wolves, a potentially groundbreaking achievement in de-extinction efforts. The article explores the veracity of this claim and the scientific methods involved in such an endeavor.</div>
+      <div class="item-zh">Colossal Biosciences声称已成功克隆了红狼，这在灭绝物种复活方面可能是一项突破性成就。文章探讨了这一说法是否属实以及此类努力所涉及的科学方法。</div>
+    </div>
+
+    <div class="section-header"><span class="bracket">[</span><span class="label">FINANCE</span><span class="bracket">]</span><span class="num">5 items</span></div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">16</span><a href="https://seekingalpha.com/article/4891972-okeanis-stock-disruption-and-the-road-30-percent-plus-dividend-yield-rating-updgrade?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Okeanis: Iran Disruption And The Road To A 30%+ Dividend Yield (Rating Upgrade)</a></div>
+      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
+      <div class="item-en">Okeanis, a company involved in the shipping industry, is discussed in relation to potential disruptions in Iran and the possibility of achieving a dividend yield exceeding 30%. The article suggests a rating upgrade for Okeanis.</div>
+      <div class="item-zh">文章讨论了航运公司Okeanis，并将其与伊朗潜在的供应中断以及超过30%的股息收益率可能性联系起来。该文章建议对Okeanis进行评级上调。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">19</span><a href="https://www.marketwatch.com/story/socgen-benchmarked-the-iran-war-to-every-crisis-since-1956-heres-when-oil-prices-return-to-normal-7549b537?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">SocGen benchmarked the Iran war to every crisis since 1956. Here’s when oil prices return to normal.</a><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · just now</span></div>
-      <div class="item-en">Societe Generale analysts project that oil prices will return to normal by the end of the year, benchmarking the current Iran war scenario against historical crises since 1956. This forecast offers a timeline for market stabilization.</div>
-      <div class="item-zh">法国兴业银行分析师预测，在参照1956年以来历次危机与当前伊朗战争局势后，油价将在年底前恢复正常。这一预测为市场稳定提供了时间表。</div>
+      <div class="item-header"><span class="item-idx">17</span><a href="https://seekingalpha.com/article/4891971-zim-integrated-shipping-im-not-playing-the-merger-roulette?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">ZIM Integrated Shipping: I&#x27;m Not Playing The Merger Roulette</a></div>
+      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
+      <div class="item-en">The article expresses a reluctance to engage with potential merger scenarios involving ZIM Integrated Shipping. The author indicates they are not planning to participate in &#x27;merger roulette&#x27; related to the company.</div>
+      <div class="item-zh">本文表达了对涉及ZIM Integrated Shipping潜在合并情况的担忧。作者表示不打算参与该公司相关的“合并博彩”。</div>
     </div>
 
     <div class="item">
-      <div class="item-header"><span class="item-idx">20</span><a href="https://www.marketwatch.com/story/the-narrow-foundations-of-the-current-rally-one-company-is-responsible-for-half-of-s-p-500-earnings-revisions-68aadd26?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">The narrow foundations of the current rally — one company is responsible for half of S&amp;P 500 earnings revisions</a><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · 1h ago</span></div>
-      <div class="item-en">The current market rally is based on narrow foundations, with a single company accounting for half of the S&amp;P 500&#x27;s earnings revisions since the start of the Iran war. This concentration raises concerns about the rally&#x27;s sustainability.</div>
-      <div class="item-zh">当前的股市反弹基础狭窄，自伊朗战争开始以来，一家公司占标普500指数盈利修正的一半。这种集中度引发了对反弹可持续性的担忧。</div>
+      <div class="item-header"><span class="item-idx">18</span><a href="https://seekingalpha.com/article/4891969-tmus-stock-top-class-growth-top-class-valuation?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">T-Mobile US: Top Of Class Growth, Top Of Class Valuation</a></div>
+      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
+      <div class="item-en">T-Mobile US is highlighted for its exceptional growth, positioning it as a top performer in its sector. However, the article also notes that this strong performance is reflected in a high valuation, suggesting investors are paying a premium.</div>
+      <div class="item-zh">T-Mobile US因其卓越的增长而受到关注，使其成为行业中的佼佼者。然而，文章也指出，这种强劲表现也体现在高估值上，暗示投资者正在支付溢价。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">19</span><a href="https://www.marketwatch.com/story/socgen-benchmarked-the-iran-war-to-every-crisis-since-1956-heres-when-oil-prices-return-to-normal-7549b537?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">SocGen benchmarked the Iran war to every crisis since 1956. Here’s when oil prices return to normal.</a></div>
+      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · 1h ago</span></div>
+      <div class="item-en">Societe Generale analysts have benchmarked the current Iran crisis against historical global crises since 1956, providing a framework for understanding its impact. They forecast a full return to normal oil prices by the end of the current year.</div>
+      <div class="item-zh">法国兴业银行的分析师将当前的伊朗危机与自1956年以来的历史全球危机进行了比较，为理解其影响提供了一个框架。他们预测到今年年底，石油价格将全面恢复正常。</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header"><span class="item-idx">20</span><a href="https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Oil prices rise after Trump says Iranian ship seized</a></div>
+      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">BBC · 1h ago</span></div>
+      <div class="item-en">Oil prices have experienced significant volatility following recent events involving Iran, including attacks by the US and Israel. The seizure of an Iranian ship by Trump has further contributed to price fluctuations in energy markets.</div>
+      <div class="item-zh">继美国和以色列袭击伊朗等近期事件后，石油价格经历了显著波动。特朗普扣押伊朗船只的事件进一步加剧了能源市场的价格波动。</div>
     </div>
 
 
     <div class="footer-line">
       <span class="ok">✓</span>
-      done · 20 fetched · next update in ~24h · updated 12:23 UTC
+      done · 20 fetched · next update in ~24h · updated 12:44 UTC
       <span class="cursor"></span>
     </div>
 
