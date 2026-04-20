@@ -379,14 +379,16 @@ Example: [{{"en":"...","zh":"...","category":"..."}}]
             print(f"  ✗ attempt {attempt} failed ({e}), retrying in {wait}s...", file=sys.stderr)
             time.sleep(wait)
     text = response.text.strip()
+    print(f"  raw response (first 300 chars): {text[:300]}", file=sys.stderr)
     # Strip markdown code fences if Gemini wraps the response
     text = re.sub(r"^```(?:json)?\s*", "", text)
     text = re.sub(r"\s*```$", "", text)
 
     try:
         summaries = json.loads(text)
+        print(f"  parsed {len(summaries)} summaries", file=sys.stderr)
     except json.JSONDecodeError as e:
-        print(f"  ✗ JSON parse error: {e}\n  raw: {text[:200]}", file=sys.stderr)
+        print(f"  ✗ JSON parse error: {e}\n  raw: {text[:500]}", file=sys.stderr)
         summaries = []
 
     for i, item in enumerate(items):
