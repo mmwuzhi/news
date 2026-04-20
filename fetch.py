@@ -8,6 +8,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
 from datetime import datetime, timezone
 from html import escape
@@ -367,7 +368,16 @@ Example: [{{"en":"...","zh":"...","category":"..."}}]
 {articles}"""
 
     print("  calling Gemini...", file=sys.stderr)
-    response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
+    for attempt in range(1, 6):
+        try:
+            response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
+            break
+        except Exception as e:
+            if attempt == 5:
+                raise
+            wait = 30 * attempt
+            print(f"  ✗ attempt {attempt} failed ({e}), retrying in {wait}s...", file=sys.stderr)
+            time.sleep(wait)
     text = response.text.strip()
     # Strip markdown code fences if Gemini wraps the response
     text = re.sub(r"^```(?:json)?\s*", "", text)
