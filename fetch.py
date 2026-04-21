@@ -33,8 +33,9 @@ FEEDS = [
     {"url": "https://github.blog/feed/",                     "source": "GitHub Blog"},
 ]
 
-MAX_PER_FEED = 3
-MAX_TOTAL = 20
+MAX_PER_FEED = 5
+MAX_TOTAL    = 40
+MAX_PER_CAT  = 8
 GEMINI_MODEL = "gemini-2.5-flash-lite"
 CATEGORY_ORDER = ["AI", "Technology", "World", "Science", "Finance"]
 
@@ -234,6 +235,36 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     50%       { opacity: 0; }
   }
 
+  .filter-bar {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .filter-btn {
+    font-family: inherit;
+    font-size: 0.72rem;
+    padding: 3px 10px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    background: none;
+    color: var(--text-dim);
+    cursor: pointer;
+    transition: color 0.1s, border-color 0.1s;
+  }
+  .filter-btn:hover  { color: var(--text); border-color: #555; }
+  .filter-btn.active { color: var(--green); border-color: var(--green); }
+
+  .archive-nav {
+    margin-top: 12px;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    line-height: 2;
+  }
+  .archive-nav a { color: var(--text-dim); text-decoration: none; margin-right: 10px; }
+  .archive-nav a:hover { color: var(--blue); }
+
   @media (max-width: 640px) {
     .window { margin: 0; border-radius: 0; border-left: none; border-right: none; }
     .item-source { display: none; }
@@ -264,7 +295,18 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       <div class="meta">__DATE_FULL__ · __TOTAL__ stories · summarized by __MODEL__</div>
     </div>
 
+    <div class="filter-bar">
+      <button class="filter-btn active" data-cat="all">ALL</button>
+      <button class="filter-btn" data-cat="AI">AI</button>
+      <button class="filter-btn" data-cat="Technology">TECH</button>
+      <button class="filter-btn" data-cat="Finance">FINA</button>
+      <button class="filter-btn" data-cat="Science">SCI</button>
+      <button class="filter-btn" data-cat="World">WORLD</button>
+    </div>
+
 __SECTIONS__
+
+__ARCHIVE_NAV__
 
     <div class="footer-line">
       <span class="ok">✓</span>
@@ -279,6 +321,17 @@ __SECTIONS__
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js');
   }
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cat = btn.dataset.cat;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.item, .section-header').forEach(el => {
+        el.style.display = (cat === 'all' || el.dataset.cat === cat) ? '' : 'none';
+      });
+    });
+  });
 </script>
 </body>
 </html>"""
@@ -386,14 +439,13 @@ Example: [{{"en":"...","zh":"...","category":"..."}}]
             print(f"  ✗ attempt {attempt} failed ({e}), retrying in {wait}s...", file=sys.stderr)
             time.sleep(wait)
     text = response.text.strip()
-    print(f"  raw response (first 300 chars): {text[:300]}", file=sys.stderr)
     # Strip markdown code fences if Gemini wraps the response
     text = re.sub(r"^```(?:json)?\s*", "", text)
     text = re.sub(r"\s*```$", "", text)
 
     try:
         summaries = json.loads(text)
-        print(f"  parsed {len(summaries)} summaries, first item keys: {list(summaries[0].keys()) if summaries else []}", file=sys.stderr)
+        print(f"  parsed {len(summaries)} summaries", file=sys.stderr)
     except json.JSONDecodeError as e:
         print(f"  ✗ JSON parse error: {e}\n  raw: {text[:500]}", file=sys.stderr)
         summaries = []
@@ -418,10 +470,10 @@ def build_sections(items: list[dict]) -> str:
     for cat in CATEGORY_ORDER:
         if cat not in groups:
             continue
-        cat_items = groups[cat]
+        cat_items = groups[cat][:MAX_PER_CAT]
         count = len(cat_items)
         html += (
-            f'\n    <div class="section-header">'
+            f'\n    <div class="section-header" data-cat="{escape(cat)}">'
             f'<span class="bracket">[</span>'
             f'<span class="label">{escape(cat.upper())}</span>'
             f'<span class="bracket">]</span>'
@@ -431,7 +483,7 @@ def build_sections(items: list[dict]) -> str:
         for item in cat_items:
             tag = escape(cat[:4].upper())
             html += (
-                f'\n    <div class="item">'
+                f'\n    <div class="item" data-cat="{escape(cat)}">'
                 f'\n      <div class="item-header">'
                 f'<span class="item-idx">{idx:02d}</span>'
                 f'<a href="{escape(item["link"])}" class="item-title" target="_blank" rel="noopener">{escape(item["title"])}</a>'
@@ -448,15 +500,29 @@ def build_sections(items: list[dict]) -> str:
     return html
 
 
+def build_archive_nav() -> str:
+    if not os.path.isdir("archive"):
+        return ""
+    dates = sorted(
+        [f[:-5] for f in os.listdir("archive") if f.endswith(".html") and len(f) == 15],
+        reverse=True,
+    )[:7]
+    if not dates:
+        return ""
+    links = " · ".join(f'<a href="/archive/{d}.html">{d}</a>' for d in dates)
+    return f'    <div class="archive-nav">archive: {links}</div>'
+
+
 def generate_html(items: list[dict]) -> str:
     now = datetime.now(timezone.utc)
     html = HTML_TEMPLATE
-    html = html.replace("__DATE_STR__",   now.strftime("%Y-%m-%d"))
-    html = html.replace("__DATE_FULL__",  now.strftime("%a %b %d %Y"))
-    html = html.replace("__TOTAL__",      str(len(items)))
-    html = html.replace("__MODEL__",      GEMINI_MODEL)
+    html = html.replace("__DATE_STR__",    now.strftime("%Y-%m-%d"))
+    html = html.replace("__DATE_FULL__",   now.strftime("%a %b %d %Y"))
+    html = html.replace("__TOTAL__",       str(len(items)))
+    html = html.replace("__MODEL__",       GEMINI_MODEL)
     html = html.replace("__UPDATE_TIME__", now.strftime("%H:%M UTC"))
-    html = html.replace("__SECTIONS__",   build_sections(items))
+    html = html.replace("__SECTIONS__",    build_sections(items))
+    html = html.replace("__ARCHIVE_NAV__", build_archive_nav())
     return html
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -473,10 +539,16 @@ def main():
     items = summarize(items)
     html  = generate_html(items)
 
-    out = "index.html"
-    with open(out, "w", encoding="utf-8") as f:
+    with open("index.html", "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"✓ wrote {out} ({len(html)} bytes)", file=sys.stderr)
+    print(f"✓ wrote index.html ({len(html)} bytes)", file=sys.stderr)
+
+    os.makedirs("archive", exist_ok=True)
+    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    archive_path = f"archive/{date_str}.html"
+    with open(archive_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"✓ wrote {archive_path}", file=sys.stderr)
 
 
 if __name__ == "__main__":
