@@ -10,17 +10,17 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --bg: #0d0d0d;
-    --surface: #141414;
-    --border: #2a2a2a;
-    --text: #d4d4d4;
-    --text-dim: #666;
-    --green: #4ec994;
-    --yellow: #e5c07b;
-    --blue: #61afef;
-    --red: #e06c75;
-    --purple: #c678dd;
-    --cyan: #56b6c2;
+    --bg:      #f2f0eb;
+    --surface: #faf9f6;
+    --border:  #d0cdc6;
+    --text:    #1c1c1a;
+    --text-dim:#888880;
+    --green:   #2d7a4f;
+    --yellow:  #9a6b00;
+    --blue:    #1a5fa8;
+    --red:     #b83232;
+    --purple:  #7a4a9a;
+    --cyan:    #1a7a7a;
   }
 
   body {
@@ -39,11 +39,11 @@
     border: 1px solid var(--border);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   }
 
   .titlebar {
-    background: #1e1e1e;
+    background: #e8e6e1;
     padding: 10px 16px;
     display: flex;
     align-items: center;
@@ -106,7 +106,7 @@
 
   .item {
     padding: 14px 0;
-    border-bottom: 1px solid #1e1e1e;
+    border-bottom: 1px solid var(--border);
   }
   .item:last-child { border-bottom: none; }
 
@@ -151,12 +151,12 @@
   }
 
   .item-zh {
-    color: #888;
+    color: var(--text-dim);
     font-size: 0.8rem;
     line-height: 1.65;
     padding-left: 32px;
   }
-  .item-zh::before { content: '# '; color: var(--text-dim); }
+  .item-zh::before { content: '# '; color: #bbb; }
 
   .tag-inline {
     font-size: 0.68rem;
@@ -265,234 +265,234 @@
     <div class="section-header" data-cat="AI"><span class="bracket">[</span><span class="label">AI</span><span class="bracket">]</span><span class="num">8 items</span></div>
 
     <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">01</span><a href="https://www.v2ex.com/t/1208233#reply0" class="item-title" target="_blank" rel="noopener">[分享发现] DeepSeek V4 正式发布了！ 搞起，试试试试！附官网更新的模型链接</a></div>
+      <div class="item-header"><span class="item-idx">01</span><a href="https://www.v2ex.com/t/1208338#reply1" class="item-title" target="_blank" rel="noopener">[程序员] 帮大家试过了 V4 变强了，但是也太贵了，早点出 coding plan 吧</a></div>
       <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">DeepSeek V4, a new large language model, has been officially released with models like deepseek-v4-flash and deepseek-v4-pro available. The official documentation and API have been updated, allowing users to try out the latest features.</div>
-      <div class="item-zh">DeepSeek V4 正式发布，提供了 deepseek-v4-flash 和 deepseek-v4-pro 等模型。官方文档和 API 已更新，用户可以体验最新功能。</div>
+      <div class="item-en">A user finds that while DeepSeek V4 is significantly more powerful than previous versions, its cost is prohibitive, especially for basic tasks. They urge for the earlier release of a coding plan to make the advanced AI more accessible.</div>
+      <div class="item-zh">一位用户发现DeepSeek V4虽然能力远超前代，但成本过高，尤其是在执行基本任务时。他们呼吁尽早发布编码计划，以便使先进的AI更加易于使用。</div>
     </div>
 
     <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">02</span><a href="https://www.v2ex.com/t/1208230#reply0" class="item-title" target="_blank" rel="noopener">[程序员] DeepSeek V4 预览版已发布</a></div>
+      <div class="item-header"><span class="item-idx">02</span><a href="https://www.v2ex.com/t/1208337#reply1" class="item-title" target="_blank" rel="noopener">[GitHub Copilot] Copilot 啥情况, 为啥没同步更新 GPT5.5</a></div>
       <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">The preview version of DeepSeek V4 has been released, signaling a move towards affordable, million-token context windows. The official website and API have been updated to reflect this release.</div>
-      <div class="item-zh">DeepSeek V4 的预览版已发布，标志着向可负担的百万级上下文窗口迈进。官方网站和 API 已更新以反映此次发布。</div>
+      <div class="item-en">The user notes that GitHub Copilot has not yet updated to synchronize with GPT5.5, unlike Claude Opus4.7 which received a partially updated version. They are questioning the lack of synchronization for GPT5.5.</div>
+      <div class="item-zh">用户注意到GitHub Copilot尚未更新以同步GPT5.5，而Claude Opus4.7已经更新了部分版本。他们对GPT5.5的同步缺失表示疑问。</div>
     </div>
 
     <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">03</span><a href="https://www.v2ex.com/t/1208228#reply0" class="item-title" target="_blank" rel="noopener">[问与答] 为什么通过 OpenAI codex 授权码配置的 hermes model 回复这么慢</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">Users are experiencing slow response times from OpenAI&#x27;s Codex-authorized Hermes model when configured via authorization codes. However, responses are fast when accessed through the client or web interface.</div>
-      <div class="item-zh">通过 OpenAI Codex 授权码配置的 Hermes 模型响应缓慢，但在客户端或网页端响应速度很快。</div>
+      <div class="item-header"><span class="item-idx">03</span><a href="https://www.bbc.com/news/articles/c4gx1n0dl9no?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">South Korea police arrest man for posting AI photo of runaway wolf</a></div>
+      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">BBC · just now</span></div>
+      <div class="item-en">South Korean police have arrested a man for creating and distributing an AI-generated image of a runaway wolf. The fabricated image was widely shared and led authorities to initiate a search operation based on false information.</div>
+      <div class="item-zh">韩国警方逮捕了一名男子，因其制作并传播了一张人工智能生成的逃跑的狼的照片。这张虚假照片被广泛传播，导致当局根据错误信息展开了搜捕行动。</div>
     </div>
 
     <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">04</span><a href="https://36kr.com/p/3778831119897600?f=rss" class="item-title" target="_blank" rel="noopener">打造生物智能基础设施，AI4S企业「奥明星程」获超亿元A轮融资｜36氪首发</a></div>
+      <div class="item-header"><span class="item-idx">04</span><a href="https://36kr.com/p/3780556402531330?f=rss" class="item-title" target="_blank" rel="noopener">最前线｜AI收入破亿后的路径选择：微盟推行AI First战略与B端交付的挑战</a></div>
+      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">36氪 · just now</span></div>
+      <div class="item-en">Weimob has launched an &#x27;AI First&#x27; strategy, aiming to elevate AI from a product add-on to a core business foundation. This strategy is driven by AI-related revenue exceeding 100 million yuan and aims to simplify B2B operations through AI-powered agents.</div>
+      <div class="item-zh">微盟推出了“AI First”战略，旨在将AI从产品附加项提升到核心业务基础。该战略得益于AI相关收入突破一亿元，并旨在通过AI驱动的智能体简化B端业务操作。</div>
+    </div>
+
+    <div class="item" data-cat="AI">
+      <div class="item-header"><span class="item-idx">05</span><a href="https://www.artificialintelligence-news.com/news/how-ai-models-use-real-time-cryptocurrency-data-to-interpret-market-behaviour/" class="item-title" target="_blank" rel="noopener">How AI models use real-time cryptocurrency data to interpret market behaviour</a></div>
+      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">AI News · 1h ago</span></div>
+      <div class="item-en">AI models are increasingly leveraging real-time cryptocurrency data to understand market behavior. This approach treats market data not as static points but as continuous streams, allowing for more dynamic interpretation of price changes.</div>
+      <div class="item-zh">人工智能模型越来越多地利用实时加密货币数据来理解市场行为。这种方法将市场数据视为连续流而非静态点，从而能够更动态地解释价格变化。</div>
+    </div>
+
+    <div class="item" data-cat="AI">
+      <div class="item-header"><span class="item-idx">06</span><a href="https://36kr.com/p/3780375304312072?f=rss" class="item-title" target="_blank" rel="noopener">DeepSeek V4终于发布，但它留下的5道主观题还没有答案</a></div>
       <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">36氪 · 3h ago</span></div>
-      <div class="item-en">AI for Science company &#x27;Ao Ming Xing Cheng&#x27; has secured over 100 million RMB in Series A funding to build biological intelligence infrastructure. The company aims to advance AI from &#x27;result fitting&#x27; to &#x27;mechanism understanding&#x27; in scientific exploration.</div>
-      <div class="item-zh">AI for Science 公司“奥明星程”已完成超亿元 A 轮融资，用于构建生物智能基础设施。该公司旨在推动 AI 在科学探索中从“结果拟合”跃升至“机制理解”。</div>
+      <div class="item-en">DeepSeek V4 has officially launched, boasting a 1.6T parameter count and a 1M context window, with optimizations for agents and the use of MoE and DSA mechanisms. The delay was attributed to a chip migration and internal decision-making, with a focus on language models due to computational and financial constraints.</div>
+      <div class="item-zh">DeepSeek V4已正式发布，拥有1.6T参数量和1M上下文窗口，并针对Agent进行了优化，同时采用MoE和DSA机制。发布延迟归因于芯片迁移和内部决策，由于计算和财务限制，其重点仍为语言模型。</div>
     </div>
 
     <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">05</span><a href="https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors" class="item-title" target="_blank" rel="noopener">Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">The Verge · 4h ago</span></div>
-      <div class="item-en">Claude is now directly connecting to personal apps like Spotify, Uber Eats, and TurboTax, expanding its functionality beyond work-related applications. This integration allows users to leverage Claude for a wider range of everyday tasks.</div>
-      <div class="item-zh">Claude 现在可以直接连接到 Spotify、Uber Eats 和 TurboTax 等个人应用，将其功能扩展到工作相关应用之外。此次集成使用户能够利用 Claude 完成更广泛的日常任务。</div>
+      <div class="item-header"><span class="item-idx">07</span><a href="https://36kr.com/p/3780352721851397?f=rss" class="item-title" target="_blank" rel="noopener">融了2000万美金，这家2000万美金ARR的AI公司，推出“视频版Photoshop”「Buzzy」</a></div>
+      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">36氪 · 3h ago</span></div>
+      <div class="item-en">AI content creation company &#x27;Perception Leap&#x27; has raised over $20 million for its video editing Agent platform, &#x27;Buzzy.&#x27; Buzzy allows users to edit videos using natural language commands, functioning as a &#x27;video version of Photoshop&#x27; for creators and small businesses.</div>
+      <div class="item-zh">AI内容创作公司“感知阶跃”为其视频编辑Agent平台“Buzzy”筹集了超过2000万美元。Buzzy允许用户通过自然语言指令编辑视频，为创作者和中小型商家充当“视频版的Photoshop”。</div>
     </div>
 
     <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">06</span><a href="https://openai.com/index/introducing-gpt-5-5/" class="item-title" target="_blank" rel="noopener">GPT-5.5</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">Hacker News · 9h ago</span></div>
-      <div class="item-en">The article mentions GPT-5.5, likely referring to new developments or discussions surrounding OpenAI&#x27;s language models. Further details would be found in the comments section.</div>
-      <div class="item-zh">文章提到了 GPT-5.5，可能指的是 OpenAI 语言模型的新发展或讨论。更多细节将在评论区找到。</div>
-    </div>
-
-    <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">07</span><a href="https://www.artificialintelligence-news.com/news/the-billion-dollar-startup-with-a-different-idea-for-ai-ami-labs-yann-lecun/" class="item-title" target="_blank" rel="noopener">The billion-dollar startup with a different idea for AI</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">AI News · 14h ago</span></div>
-      <div class="item-en">AMI Labs, founded by Yann LeCun, has secured $1 billion in funding despite having only 12 employees, indicating strong investor confidence in AI. However, LeCun believes current large language models are not the ultimate path for AI.</div>
-      <div class="item-zh">由 Yann LeCun 创立的 AMI Labs 尽管只有 12 名员工，却获得了 10 亿美元的融资，表明投资者对 AI 充满信心。然而，LeCun 认为当前的大型语言模型并非 AI 的最终出路。</div>
-    </div>
-
-    <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">08</span><a href="https://www.artificialintelligence-news.com/news/nvidia-and-google-infrastructure-cuts-ai-inference-costs/" class="item-title" target="_blank" rel="noopener">NVIDIA and Google infrastructure cuts AI inference costs</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">AI News · 15h ago</span></div>
-      <div class="item-en">NVIDIA and Google are collaborating to reduce AI inference costs through infrastructure advancements, including new A5X instances powered by NVIDIA&#x27;s NVL72 systems. This hardware and software co-design aims for up to ten times lower costs.</div>
-      <div class="item-zh">英伟达和谷歌正在通过包括英伟达 NVL72 系统支持的新 A5X 实例在内的基础设施改进，来降低 AI 推理成本。这种软硬件协同设计旨在实现成本降低高达十倍。</div>
+      <div class="item-header"><span class="item-idx">08</span><a href="https://api-docs.deepseek.com/" class="item-title" target="_blank" rel="noopener">DeepSeek v4</a></div>
+      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">Hacker News · 5h ago</span></div>
+      <div class="item-en">This article presents comments and discussions related to &#x27;DeepSeek v4&#x27; on Hacker News. The content likely consists of user opinions, technical reviews, and comparisons of DeepSeek v4 with other AI models.</div>
+      <div class="item-zh">本文收录了Hacker News上关于“DeepSeek v4”的评论和讨论。内容可能包括用户观点、技术评测以及DeepSeek v4与其他AI模型的比较。</div>
     </div>
 
     <div class="section-header" data-cat="Technology"><span class="bracket">[</span><span class="label">TECHNOLOGY</span><span class="bracket">]</span><span class="num">8 items</span></div>
 
     <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">09</span><a href="https://www.v2ex.com/t/1208231#reply0" class="item-title" target="_blank" rel="noopener">[分享发现] 模型之外， Codex 也更新了 Auto-review 功能，不用 Full access 了</a></div>
+      <div class="item-header"><span class="item-idx">09</span><a href="https://www.v2ex.com/t/1208341#reply0" class="item-title" target="_blank" rel="noopener">[问与答] 华为云 两个账号居然能同时绑定相同手机+相同邮箱，吓我一跳以为丢了域名</a></div>
       <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">Codex has updated its Auto-review functionality, eliminating the need for Full access and introducing new features. These include browser control, support for Sheets &amp; Slides, and OS-wide dictation capabilities.</div>
-      <div class="item-zh">Codex 更新了其 Auto-review 功能，不再需要 Full access，并引入了新功能。这些功能包括浏览器控制、对表格和演示文稿的支持以及全系统语音输入。</div>
+      <div class="item-en">A user experienced confusion with Huawei Cloud accounts, discovering they could bind the same phone number and email address to multiple accounts. This led to a scare when a domain associated with one account became inaccessible, as they initially couldn&#x27;t locate it within their usual cloud providers.</div>
+      <div class="item-zh">一位用户在华为云账号管理上遇到了困惑，发现同一个手机号和邮箱可以绑定多个账号。当一个账号关联的域名无法访问时，他们因无法在常用的云服务商处找到该域名而感到恐慌。</div>
     </div>
 
     <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">10</span><a href="https://www.v2ex.com/t/1208229#reply0" class="item-title" target="_blank" rel="noopener">[问与答] 感觉蒸馏 skill 那么多，但是感觉投简历的脚本或者 agent 基本上很少或者找不到</a></div>
+      <div class="item-header"><span class="item-idx">10</span><a href="https://www.v2ex.com/t/1208339#reply0" class="item-title" target="_blank" rel="noopener">[程序员] 我是不是意味着职业生涯到期了？</a></div>
       <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">There is a perceived lack of skilled agents or scripts for resume submission despite discussions about the utility of tools like Claw. Few such tools are readily available or found on platforms like GitHub.</div>
-      <div class="item-zh">尽管有关于 Claw 等工具作用的讨论，但用于简历投递的熟练代理或脚本却很少见。这类工具在 GitHub 等平台上也很难找到。</div>
+      <div class="item-en">A programmer with over four years of experience feels their career is stagnating due to a lack of specialized technical skills and limited interview opportunities. Despite efforts to learn, they struggle with interview performance and express concerns about their future prospects in the field.</div>
+      <div class="item-zh">一位拥有四年多经验的程序员，由于缺乏专业技术技能和有限的面试机会，感到职业生涯停滞不前。尽管努力学习，他们在面试表现上仍有困难，并对自己在该领域的未来前景表示担忧。</div>
     </div>
 
     <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">11</span><a href="https://seekingalpha.com/article/4893774-marvell-stock-ai-opportunity-massive?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Marvell: The AI Opportunity Is Massive</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">Marvell believes that the artificial intelligence market presents a massive opportunity for growth. The company sees significant potential in the AI sector.</div>
-      <div class="item-zh">Marvell 认为人工智能市场提供了巨大的增长机遇，该公司看好 AI 领域的潜力。</div>
+      <div class="item-header"><span class="item-idx">11</span><a href="https://www.cambra.dev/blog/announcement/" class="item-title" target="_blank" rel="noopener">Composition Shouldn&#x27;t be this Hard</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">Hacker News · 1h ago</span></div>
+      <div class="item-en">This article presents comments and discussions related to the topic &#x27;Composition Shouldn&#x27;t be this Hard&#x27; on Hacker News. The content likely involves users sharing their experiences, challenges, and potential solutions regarding composition in a specific context, possibly software development or creative work.</div>
+      <div class="item-zh">本文收录了Hacker News上关于“构成不该如此之难”话题的评论和讨论。内容可能涉及用户分享他们在特定情境（可能为软件开发或创意工作）下与构成相关的经验、挑战和潜在解决方案。</div>
     </div>
 
     <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">12</span><a href="https://seekingalpha.com/article/4893770-figma-seat-churn-likely-take-caution-ahead-of-earnings-downgrade?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Figma: Seat Churn Likely, Take Caution Ahead Of Earnings (Rating Downgrade)</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">Figma is expected to experience seat churn, prompting caution ahead of its earnings report, with a rating downgrade issued. Investors are advised to be wary of potential issues related to user subscriptions.</div>
-      <div class="item-zh">Figma 预计会出现座位流失，因此在财报发布前需谨慎，并已发布了评级下调。建议投资者警惕与用户订阅相关的问题。</div>
-    </div>
-
-    <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">13</span><a href="https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/" class="item-title" target="_blank" rel="noopener">Why I Write (1946)</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">Hacker News · just now</span></div>
-      <div class="item-en">The article &quot;Why I Write&quot; from 1946 is presented with comments from users. It likely discusses the author&#x27;s motivations and process for writing.</div>
-      <div class="item-zh">1946 年的文章《我为何写作》附有用户评论。它很可能讨论了作者写作的动机和过程。</div>
-    </div>
-
-    <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">14</span><a href="https://36kr.com/p/3778772970444033?f=rss" class="item-title" target="_blank" rel="noopener">用“活人感”做科技社区，小红书能成吗？</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">36氪 · 1h ago</span></div>
-      <div class="item-en">Xiaohongshu is aiming to become a major tech community by fostering a sense of &quot;living people&quot; and overcoming the limitations of niche platforms. It has seen significant growth in tech content and creators, aiming to fill a gap for a mainstream tech community in China.</div>
-      <div class="item-zh">小红书致力于通过营造“真人感”来成为一个重要的科技社区，并克服垂直平台的局限性。其科技内容和创作者数量增长显著，旨在填补中国主流科技社区的空白。</div>
-    </div>
-
-    <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">15</span><a href="https://sspai.com/post/109024" class="item-title" target="_blank" rel="noopener">手机和平板间的新品类：华为 Pura X Max 漫谈</a></div>
+      <div class="item-header"><span class="item-idx">12</span><a href="https://sspai.com/post/108455" class="item-title" target="_blank" rel="noopener">换了新显示器怎么验？我做了一个开箱即用的全平台屏幕检测工具</a></div>
       <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">少数派 · 1h ago</span></div>
-      <div class="item-en">Huawei&#x27;s Pura X Max is discussed as a potential new product category bridging the gap between smartphones and tablets. This follows a slowdown in the foldable phone market, with decreasing growth rates.</div>
-      <div class="item-zh">华为 Pura X Max 被探讨为一种连接智能手机和平板电脑之间的新品类。此前折叠屏手机市场增长放缓。</div>
+      <div class="item-en">A user has developed a portable, cross-platform tool for testing new monitors. This tool allows users to check various screen functions upon unboxing, providing a convenient way to ensure display quality before extensive use.</div>
+      <div class="item-zh">一位用户开发了一款便携式、跨平台的工具，用于测试新显示器。该工具允许用户在开箱后检查屏幕的各项功能，为充分使用前确保显示质量提供了一种便捷方式。</div>
     </div>
 
     <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">16</span><a href="https://36kr.com/p/3778175428777218?f=rss" class="item-title" target="_blank" rel="noopener">博裕、经纬、顺为等投资前新石器COO超亿元，押注AI超便携电子纸｜硬氪独家</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">36氪 · 1h ago</span></div>
-      <div class="item-en">AI e-paper device brand Yue Xing Tong has secured over 100 million RMB in angel to Series A funding from investors including Boyu Capital and Matrix Partners China. The funds will be used for production, market expansion, and community building.</div>
-      <div class="item-zh">AI 电子纸品牌阅星瞳已完成天使轮至 A 轮融资超过一亿元人民币，投资方包括博裕创投和经纬中国。资金将用于生产、市场拓展和社区建设。</div>
+      <div class="item-header"><span class="item-idx">13</span><a href="https://www.theverge.com/entertainment/917462/saros-review-ps5" class="item-title" target="_blank" rel="noopener">Saros is pure action nirvana</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">The Verge · 1h ago</span></div>
+      <div class="item-en">The game Saros is described as &#x27;pure action nirvana&#x27; with a unique alien world setting. The review highlights its visually striking environment, particularly the golden sky and shimmering amber resources, and introduces the protagonist, Arjun Devraj.</div>
+      <div class="item-zh">游戏Saros被描述为“纯粹的动作极乐”，设定在一个独特的异星世界。评论强调了其视觉上引人注目的环境，尤其是金色的天空和闪烁的琥珀色资源，并介绍了主角Arjun Devraj。</div>
     </div>
 
-    <div class="section-header" data-cat="World"><span class="bracket">[</span><span class="label">WORLD</span><span class="bracket">]</span><span class="num">8 items</span></div>
+    <div class="item" data-cat="Technology">
+      <div class="item-header"><span class="item-idx">14</span><a href="https://sspai.com/post/108202" class="item-title" target="_blank" rel="noopener">汇聚热爱，「2050 大会」少数派线下活动邀请你来参与</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">少数派 · 5h ago</span></div>
+      <div class="item-en">The &#x27;2050 Conference&#x27; will feature a community event organized by &#x27;Sspai&#x27; (少数派) focused on the &#x27;Era of Co-creation.&#x27; This event aims to discuss the practical pathways from idea to product realization, particularly in the context of AI lowering creative barriers.</div>
+      <div class="item-zh">“2050大会”将包含由“少数派”组织的以“共创时代”为主题的社区活动。本次活动旨在讨论在AI降低创作门槛的背景下，从想法到产品实现的实际路径。</div>
+    </div>
+
+    <div class="item" data-cat="Technology">
+      <div class="item-header"><span class="item-idx">15</span><a href="https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/" class="item-title" target="_blank" rel="noopener">Why I Write (1946)</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">Hacker News · 6h ago</span></div>
+      <div class="item-en">This article presents comments and discussions related to the essay &#x27;Why I Write (1946)&#x27; on Hacker News. The content likely involves users sharing their personal reflections on the act of writing and its motivations.</div>
+      <div class="item-zh">本文收录了Hacker News上关于文章《我为什么写作（1946）》的评论和讨论。内容可能涉及用户分享他们对写作行为及其动机的个人反思。</div>
+    </div>
+
+    <div class="item" data-cat="Technology">
+      <div class="item-header"><span class="item-idx">16</span><a href="https://36kr.com/p/3778772970444033?f=rss" class="item-title" target="_blank" rel="noopener">用“活人感”做科技社区，小红书能成吗？</a></div>
+      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">36氪 · 6h ago</span></div>
+      <div class="item-en">Xiaohongshu is experimenting with becoming a tech community, aiming to achieve &#x27;lifelike&#x27; engagement. While large companies focus on AI entry points, community platforms like Xiaohongshu face challenges in user growth and maintaining a distinct identity, but its broad user base and rapid tech content growth offer potential.</div>
+      <div class="item-zh">小红书正尝试转型为科技社区，目标是实现“真人感”的互动。虽然大公司专注于AI入口，但社区平台面临用户增长和保持独特性挑战，不过其庞大的用户基础和快速增长的科技内容提供了潜力。</div>
+    </div>
+
+    <div class="section-header" data-cat="World"><span class="bracket">[</span><span class="label">WORLD</span><span class="bracket">]</span><span class="num">7 items</span></div>
 
     <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">17</span><a href="https://www.bbc.com/news/articles/cx2wdegnzzjo?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Trump tells BBC that King&#x27;s visit could &#x27;absolutely&#x27; help repair relations with UK</a></div>
+      <div class="item-header"><span class="item-idx">17</span><a href="https://www.bbc.com/news/articles/clyedj166k5o?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Woman trapped in poo for three hours after outback toilet collapses</a></div>
       <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">BBC · just now</span></div>
-      <div class="item-en">Donald Trump told the BBC that King Charles III&#x27;s visit to the UK could significantly help in repairing relations between the two countries. He discussed the upcoming visit and his relationship with the UK Prime Minister.</div>
-      <div class="item-zh">唐纳德·特朗普告诉 BBC，国王查尔斯三世的访问将极大地帮助修复两国关系。他讨论了即将到来的访问以及他与英国首相的关系。</div>
+      <div class="item-en">A woman was trapped waist-deep in a pit latrine in the Australian outback for three hours after the structure collapsed. Emergency services were involved in her rescue from the dangerous situation.</div>
+      <div class="item-zh">一名女子在澳大利亚内陆的旱厕倒塌后，被困在粪坑里长达三个小时，腰部以下被深埋。紧急服务部门参与了对她的救援。</div>
     </div>
 
     <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">18</span><a href="https://www.marketwatch.com/story/as-americans-turn-to-blue-collar-jobs-for-stability-heres-which-ones-offer-the-most-security-and-which-offer-the-least-b24c8b2d?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">As Americans turn to blue-collar jobs for stability, here’s which ones offer the most security — and which offer the least</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">MarketWatch · 1h ago</span></div>
-      <div class="item-en">Amidst college affordability issues and tech layoffs, Americans are showing increased interest in blue-collar jobs for stability. However, these jobs are not entirely immune to broader market forces.</div>
-      <div class="item-zh">在大学费用问题和科技行业裁员的背景下，美国人对稳定性的蓝领工作的兴趣日益浓厚。然而，这些工作并非完全不受更广泛市场力量的影响。</div>
+      <div class="item-header"><span class="item-idx">18</span><a href="https://www.marketwatch.com/story/how-a-u-s-soldier-made-400-000-from-inside-knowledge-of-maduro-capture-plan-and-his-clumsy-attempt-to-cover-it-up-779b2846?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">How a U.S. soldier made $400,000 from inside knowledge of Maduro capture plan — and his clumsy attempt to cover it up</a></div>
+      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">MarketWatch · just now</span></div>
+      <div class="item-en">A U.S. soldier allegedly made over $400,000 by exploiting insider knowledge of the plan to capture Venezuelan leader Nicolas Maduro. The indictment details his involvement and a subsequent attempt to conceal his illicit gains.</div>
+      <div class="item-zh">一名美国士兵据称利用了关于抓捕委内瑞拉领导人尼古拉斯·马杜罗计划的内幕消息，非法获利超过40万美元。起诉书详细描述了他的参与以及随后试图掩盖非法所得的行为。</div>
     </div>
 
     <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">19</span><a href="https://www.bbc.com/news/articles/c20832yg5p2o?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">US soldier charged after winning $400,000 betting on removal of Maduro</a></div>
+      <div class="item-header"><span class="item-idx">19</span><a href="https://www.bbc.com/news/articles/c0ledd82ed0o?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Kenyan leader sparks uproar after  mocking Nigerians&#x27; spoken English</a></div>
+      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">BBC · 2h ago</span></div>
+      <div class="item-en">Kenyan President William Ruto has caused an uproar by mocking the spoken English of Nigerians. He asserted that Kenyans speak &#x27;some of the best English in the world,&#x27; contrasting it with the perceived difficulty in understanding Nigerian English.</div>
+      <div class="item-zh">肯尼亚总统威廉·鲁托因嘲笑尼日利亚人的英语口语而引发了轩然大波。他声称肯尼亚人说“世界上最棒的英语之一”，并将其与理解尼日利亚英语的困难进行对比。</div>
+    </div>
+
+    <div class="item" data-cat="World">
+      <div class="item-header"><span class="item-idx">20</span><a href="https://www.bbc.com/news/articles/cn08j2g9ze9o?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Epstein housed abuse victims in London flats, BBC reveals</a></div>
       <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">BBC · 3h ago</span></div>
-      <div class="item-en">A US soldier, Gannon Ken Van Dyke, has been charged for allegedly making $400,000 by betting on the removal of Venezuelan president Nicolas Maduro. He allegedly used classified information for these trades on Polymarket.</div>
-      <div class="item-zh">一名美国士兵 Gannon Ken Van Dyke 被指控利用分类信息在 Polymarket 上押注委内瑞拉总统马杜罗下台，非法获利 40 万美元。</div>
+      <div class="item-en">Revelations indicate that Jeffrey Epstein housed abuse victims in London flats, intensifying concerns about previous police decisions not to investigate trafficking claims from 2015.</div>
+      <div class="item-zh">披露显示，杰弗里·爱泼斯坦曾在伦敦的公寓安置虐待受害者，这加剧了人们对警方先前决定不调查2015年贩卖人口指控的担忧。</div>
     </div>
 
     <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">20</span><a href="https://36kr.com/p/3780065714148610?f=rss" class="item-title" target="_blank" rel="noopener">8点1氪丨华谊兄弟被申请破产重整；普华永道因恒大审计赔偿10亿港元；伊朗将恢复往返中国的航班</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">36氪 · 3h ago</span></div>
-      <div class="item-en">Various news updates include Douyin&#x27;s crackdown on inappropriate AI content, Lufthansa&#x27;s planned flight reductions due to fuel prices, and Volkswagen&#x27;s recall of vehicles due to brake issues. Additionally, Huayi Brothers is facing bankruptcy restructuring, PwC will pay 1 billion Hong Kong dollars for the Evergrande audit, and Iran will resume flights to China.</div>
-      <div class="item-zh">今日新闻包括抖音整治不当 AI 内容，汉莎航空因燃油价格削减航班，大众汽车因刹车问题召回车辆。此外，华谊兄弟面临破产重整，普华永道将为恒大审计赔偿 10 亿港元，伊朗将恢复与中国的航班。</div>
+      <div class="item-header"><span class="item-idx">21</span><a href="https://www.bbc.com/news/articles/cx2wdegnzzjo?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Trump tells BBC that King&#x27;s visit could &#x27;absolutely&#x27; help repair relations with UK</a></div>
+      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">BBC · 5h ago</span></div>
+      <div class="item-en">Donald Trump indicated to the BBC that King Charles III&#x27;s upcoming visit could significantly help in repairing UK-US relations. He discussed the visit and his relationship with the UK Prime Minister in a phone interview.</div>
+      <div class="item-zh">唐纳德·特朗普在接受BBC采访时表示，国王查尔斯三世的即将到访将极大地有助于修复英美关系。他在电话采访中讨论了此次访问以及他与英国首相的关系。</div>
     </div>
 
     <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">21</span><a href="https://www.theverge.com/policy/917910/polymarket-maduro-bets-arrest-van-dyke" class="item-title" target="_blank" rel="noopener">US arrests soldier who allegedly made $400K on Maduro Polymarket bets</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">The Verge · 4h ago</span></div>
-      <div class="item-en">A US soldier, Gannon Ken Van Dyke, has been arrested for allegedly making over $400,000 by placing bets on the capture of Venezuelan President Nicolas Maduro. The Justice Department states he used confidential government information for these trades on Polymarket.</div>
-      <div class="item-zh">一名美国士兵 Gannon Ken Van Dyke 因涉嫌通过押注委内瑞拉总统马杜罗被捕而获利超过 40 万美元，已被逮捕。司法部称他利用机密政府信息在 Polymarket 上进行了交易。</div>
-    </div>
-
-    <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">22</span><a href="https://www.marketwatch.com/story/french-weather-forecasting-office-files-police-complaint-following-suspicious-surge-in-polymarket-bets-fb72729d?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">French weather forecast office files police complaint following suspicious Polymarket bets</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">MarketWatch · 4h ago</span></div>
-      <div class="item-en">The French weather forecast office has filed a police complaint following suspicious activity related to Polymarket bets. This action was taken after temperature readings at Charles de Gaulle International Airport showed an unusual rapid rise.</div>
-      <div class="item-zh">法国气象预报部门在 Polymarket 投注出现可疑活动后已报警。此前，戴高乐国际机场的温度读数出现了异常的快速升高。</div>
+      <div class="item-header"><span class="item-idx">22</span><a href="https://www.theverge.com/policy/917910/polymarket-maduro-bets-arrest-van-dyke" class="item-title" target="_blank" rel="noopener">US arrests soldier who allegedly made $400K on Maduro Polymarket bets</a></div>
+      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">The Verge · 10h ago</span></div>
+      <div class="item-en">US authorities have arrested Gannon Ken Van Dyke, a soldier accused of making over $400,000 through illicit bets on Polymarket related to the operation to capture Venezuelan President Nicolas Maduro. He faces multiple charges, including using confidential government information.</div>
+      <div class="item-zh">美国当局逮捕了士兵Gannon Ken Van Dyke，他被指控通过与抓捕委内瑞拉总统尼古拉斯·马杜罗的行动相关的Polymarket非法投注获利超过40万美元。他面临多项指控，包括使用机密政府信息。</div>
     </div>
 
     <div class="item" data-cat="World">
       <div class="item-header"><span class="item-idx">23</span><a href="https://www.theverge.com/entertainment/917810/brendan-carr-fcc-transgender-nonbinary-childrens-programming" class="item-title" target="_blank" rel="noopener">Brendan Carr’s war on wokeness targets inclusive children&amp;#8217;s television</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">The Verge · 5h ago</span></div>
-      <div class="item-en">FCC Chairman Brendan Carr is targeting inclusive children&#x27;s television, proposing measures to crack down on content that explores gender identity complexities. The FCC is soliciting public comments on the TV rating system&#x27;s soundness.</div>
-      <div class="item-zh">FCC 主席 Brendan Carr 正在针对包容性儿童电视节目，提议采取措施打击探讨性别认同复杂性的内容。FCC 正在征求公众对电视分级制度合理性的意见。</div>
+      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">The Verge · 11h ago</span></div>
+      <div class="item-en">FCC Chairman Brendan Carr is targeting children&#x27;s television programming, particularly content that explores gender identity complexities, labeling it &#x27;woke.&#x27; The FCC&#x27;s Media Bureau is soliciting public comments on the TV ratings system&#x27;s effectiveness regarding such content.</div>
+      <div class="item-zh">FCC主席Brendan Carr正针对儿童电视节目，特别是那些探讨性别认同复杂性的内容，并将其贴上“觉醒”的标签。FCC媒体局正在征求公众对电视评级系统在此类内容方面的有效性的意见。</div>
     </div>
 
-    <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">24</span><a href="https://www.bbc.com/news/articles/cgldw5ekrjpo?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">US boards ship carrying Iran oil as Trump threatens mine-laying vessels</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">BBC · 6h ago</span></div>
-      <div class="item-en">The US has intercepted a ship carrying Iranian oil, with Central Command reporting the interception of 33 vessels since imposing a blockade. Meanwhile, Trump has threatened mine-laying vessels.</div>
-      <div class="item-zh">美国拦截了一艘载有伊朗石油的船只，中央司令部报告称自实施封锁以来已拦截 33 艘船只。与此同时，特朗普威胁要对布雷艇采取行动。</div>
-    </div>
-
-    <div class="section-header" data-cat="Finance"><span class="bracket">[</span><span class="label">FINANCE</span><span class="bracket">]</span><span class="num">7 items</span></div>
+    <div class="section-header" data-cat="Finance"><span class="bracket">[</span><span class="label">FINANCE</span><span class="bracket">]</span><span class="num">8 items</span></div>
 
     <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">25</span><a href="https://seekingalpha.com/article/4893781-silver-is-under-pressure-from-ceasefire-clouds-in-depth-analysis?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Silver Is Under Pressure From Ceasefire Clouds - In-Depth Analysis</a></div>
+      <div class="item-header"><span class="item-idx">24</span><a href="https://www.v2ex.com/t/1208340#reply0" class="item-title" target="_blank" rel="noopener">[小散户的日常] 我的炒股策略——等大佬</a></div>
+      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">V2EX · just now</span></div>
+      <div class="item-en">A retail investor describes their stock trading strategy as &#x27;waiting for the big players.&#x27; Their plan involves using AI to identify and analyze stocks, then promoting them on forums in hopes that influential investors will buy large amounts, thus driving up the price and allowing them to profit.</div>
+      <div class="item-zh">一位散户投资者描述其炒股策略为“等大佬”。该策略是利用AI筛选和分析股票，然后在论坛上进行宣传，期望有大佬大量买入，从而带动股价上涨。</div>
+    </div>
+
+    <div class="item" data-cat="Finance">
+      <div class="item-header"><span class="item-idx">25</span><a href="https://seekingalpha.com/article/4893832-clearway-energy-my-3-valuation-frameworks-show-too-little-yield-for-the-risk?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Clearway Energy: My 3 Valuation Frameworks Show Too Little Yield For The Risk</a></div>
       <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">Silver prices are facing downward pressure due to potential ceasefire developments, which are analyzed in depth. These geopolitical factors are impacting the precious metal market.</div>
-      <div class="item-zh">白银价格因潜在的停火进展而面临下行压力，并进行了深入分析。这些地缘政治因素正在影响贵金属市场。</div>
+      <div class="item-en">The analysis of Clearway Energy suggests that its current yield is insufficient considering the associated risks. The author&#x27;s three valuation frameworks indicate that the investment may not offer adequate compensation for the level of risk involved.</div>
+      <div class="item-zh">对Clearway Energy的分析表明，考虑到相关风险，其当前的收益率不足。作者的三个估值框架显示，该投资可能无法为风险水平提供足够的补偿。</div>
     </div>
 
     <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">26</span><a href="https://seekingalpha.com/article/4893772-kinder-morgan-thank-storm-fern-and-all-of-the-cold-weather-after-that?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Kinder Morgan: Thank Storm Fern And All Of The Cold Weather After That</a></div>
+      <div class="item-header"><span class="item-idx">26</span><a href="https://seekingalpha.com/article/4893847-mittleman-value-partners-2025-year-end-and-q1-2026-investment-review?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Mittleman Value Partners 2025 Year-End And Q1 2026 Investment Review</a></div>
       <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">Kinder Morgan&#x27;s performance is being attributed to the impact of storm Fern and the subsequent cold weather. These weather events have influenced the company&#x27;s operations or market position.</div>
-      <div class="item-zh">Kinder Morgan 的业绩归因于费尔南风暴和随后的寒冷天气的影响。这些天气事件影响了公司的运营或市场地位。</div>
+      <div class="item-en">This article is a review of Mittleman Value Partners&#x27; investment performance and strategy for the year-end and first quarter of 2026. It likely details their portfolio holdings, market outlook, and key investment decisions during that period.</div>
+      <div class="item-zh">本文是对Mittleman Value Partners在2025年底和2026年第一季度的投资表现和策略的审查。它可能详细介绍了他们在此期间的投资组合、市场展望和关键投资决策。</div>
     </div>
 
     <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">27</span><a href="https://seekingalpha.com/article/4893742-digital-realty-trust-inc-dlr-q1-2026-earnings-call-transcript?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Digital Realty Trust, Inc. (DLR) Q1 2026 Earnings Call Transcript</a></div>
+      <div class="item-header"><span class="item-idx">27</span><a href="https://seekingalpha.com/article/4893831-cgo-positioned-for-continued-outperformance-of-foreign-markets?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">CGO: Positioned For Continued Outperformance Of Foreign Markets</a></div>
       <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">Digital Realty Trust, Inc. released its Q1 2026 earnings call transcript, providing details on its financial performance and outlook. Investors can review the transcript for insights into the company&#x27;s operations.</div>
-      <div class="item-zh">Digital Realty Trust, Inc. 发布了其 2026 年第一季度财报电话会议记录，详细介绍了其财务业绩和前景。投资者可以查看记录以了解公司的运营情况。</div>
+      <div class="item-en">CGO is positioned for continued outperformance in foreign markets, suggesting strong potential for growth and returns in international investments. This outlook likely stems from specific market analyses or company strategies.</div>
+      <div class="item-zh">CGO公司在外围市场的持续表现优于市场，预示着其国际投资具有强劲的增长和回报潜力。这一展望可能源于特定的市场分析或公司战略。</div>
     </div>
 
     <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">28</span><a href="https://www.marketwatch.com/story/heres-how-much-money-the-2026-nfl-draft-picks-will-make-and-whos-at-risk-of-losing-millions-e2ddee40?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">Here’s how much money the 2026 NFL draft picks will make — and who’s at risk of losing millions</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · 2h ago</span></div>
-      <div class="item-en">The article details the earnings amounts for 2026 NFL draft picks, highlighting specific players who are set to earn over $50 million. It also identifies players who might risk losing millions.</div>
-      <div class="item-zh">文章详细介绍了 2026 年 NFL 选秀选手的收入，并重点介绍了预计收入超过 5000 万美元的球员。它还指出了可能损失数百万美元的球员。</div>
+      <div class="item-header"><span class="item-idx">28</span><a href="https://seekingalpha.com/article/4893837-lifco-ab-publ-lfcby-q1-2026-earnings-call-transcript?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Lifco AB (publ) (LFCBY) Q1 2026 Earnings Call Transcript</a></div>
+      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
+      <div class="item-en">This article is a transcript of the Q1 2026 earnings call for Lifco AB (publ) (LFCBY). It would include discussions on the company&#x27;s financial performance, future outlook, and responses to investor questions.</div>
+      <div class="item-zh">本文是Lifco AB (publ) (LFCBY) 2026年第一季度财报电话会议的文字记录。它将包括对公司财务业绩、未来展望以及对投资者提问的回应的讨论。</div>
     </div>
 
     <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">29</span><a href="https://www.marketwatch.com/story/why-intels-stock-is-on-track-for-a-historic-surge-after-earnings-5128afa7?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">Why Intel’s stock is on track for a historic surge after earnings</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · 3h ago</span></div>
-      <div class="item-en">Intel&#x27;s stock is poised for a historic surge following its earnings report, potentially surpassing its 2000 closing high. This optimism is driven by a perceived &#x27;CPU renaissance&#x27;.</div>
-      <div class="item-zh">英特尔的股价在财报发布后有望创下历史性飙升，可能超越其 2000 年的收盘高点。这种乐观情绪源于所谓的“CPU 复兴”。</div>
+      <div class="item-header"><span class="item-idx">29</span><a href="https://seekingalpha.com/article/4893829-fossil-group-how-the-india-ipo-could-unlock-300-percent-upside?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Fossil Group: How The India IPO Could Unlock 300% Upside</a></div>
+      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
+      <div class="item-en">The article suggests that Fossil Group&#x27;s upcoming IPO in India could unlock significant upside potential, possibly tripling the company&#x27;s value. This indicates a positive outlook on the company&#x27;s expansion into the Indian market.</div>
+      <div class="item-zh">本文认为Fossil Group即将在印度进行的IPO可能释放巨大的上涨潜力，有望使其价值翻三倍。这表明对其拓展印度市场的积极展望。</div>
     </div>
 
     <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">30</span><a href="https://www.marketwatch.com/story/cheap-options-suggest-a-big-post-earnings-swing-next-week-for-these-tech-titans-d9b56126?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">Cheap stock options suggest a big post-earnings swing next week for Meta and other tech titans</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · 3h ago</span></div>
-      <div class="item-en">Cheap stock options suggest a significant post-earnings price swing for Meta and other tech giants next week. Wall Street may be underestimating the potential for a substantial increase in these tech stocks.</div>
-      <div class="item-zh">低价认股权证表明，下周 Meta 和其他科技巨头的财报发布后，股价可能出现大幅波动。华尔街可能低估了这些科技股的上涨潜力。</div>
+      <div class="item-header"><span class="item-idx">30</span><a href="https://36kr.com/p/3780191213229314?f=rss" class="item-title" target="_blank" rel="noopener">茅台向经销商「要利润」</a></div>
+      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">36氪 · 4h ago</span></div>
+      <div class="item-en">Kweichow Moutai reported its first-ever year-on-year decline in both revenue and net profit since its 2001 IPO, with revenue down 1.2% and profit down 4.53% in 2025. While its core &#x27;Feitian Moutai&#x27; product remained stable, its series of liquors saw a significant drop, leading to speculation about inventory clearance for future reforms.</div>
+      <div class="item-zh">贵州茅台报告了自2001年上市以来的首次营收和净利润同比下降，2025年营收下降1.2%，利润下降4.53%。虽然其核心“飞天茅台”产品保持稳定，但系列酒产品销量大幅下滑，引发了关于为未来改革进行库存清理的猜测。</div>
     </div>
 
     <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">31</span><a href="https://36kr.com/p/3779468716938499?f=rss" class="item-title" target="_blank" rel="noopener">美国百年太妃糖易手，Roca乐家被全资收购</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">36氪 · 13h ago</span></div>
-      <div class="item-en">BHM Group has fully acquired Brown &amp; Haley, the century-old American confectionery manufacturer known for brands like Almond ROCA. The deal was completed on April 17, 2026, and the existing production operations will continue.</div>
-      <div class="item-zh">BHM 集团已全资收购拥有百年历史的美国糖果制造商 Brown &amp; Haley，该品牌以 Almond ROCA 闻名。交易于 2026 年 4 月 17 日完成，现有生产运营将继续。</div>
+      <div class="item-header"><span class="item-idx">31</span><a href="https://www.marketwatch.com/story/as-americans-turn-to-blue-collar-jobs-for-stability-heres-which-ones-offer-the-most-security-and-which-offer-the-least-b24c8b2d?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">As Americans turn to blue-collar jobs for stability, here’s which ones offer the most security — and which offer the least</a></div>
+      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · 7h ago</span></div>
+      <div class="item-en">With college affordability issues and tech layoffs, there&#x27;s a growing interest in blue-collar jobs for stability among Americans. However, the article cautions that these jobs are not entirely immune to broader market forces and varying levels of security exist.</div>
+      <div class="item-zh">随着大学学费的可负担性问题和科技行业的裁员，美国人对蓝领工作的稳定性兴趣日益浓厚。然而，文章警告说，这些工作并非完全不受更广泛市场力量的影响，其安全性也存在差异。</div>
     </div>
 
 
-    <div class="archive-nav">archive: <a href="/archive/2026-04-23.html">2026-04-23</a> · <a href="/archive/2026-04-22.html">2026-04-22</a> · <a href="/archive/2026-04-21.html">2026-04-21</a></div>
+    <div class="archive-nav">archive: <a href="/archive/2026-04-24.html">2026-04-24</a> · <a href="/archive/2026-04-23.html">2026-04-23</a> · <a href="/archive/2026-04-22.html">2026-04-22</a> · <a href="/archive/2026-04-21.html">2026-04-21</a></div>
 
     <div class="footer-line">
       <span class="ok">✓</span>
-      done · 40 fetched · next update in ~24h · updated 03:22 UTC
+      done · 40 fetched · next update in ~24h · updated 08:57 UTC
       <span class="cursor"></span>
     </div>
 
