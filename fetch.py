@@ -53,17 +53,17 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --bg: #0d0d0d;
-    --surface: #141414;
-    --border: #2a2a2a;
-    --text: #d4d4d4;
-    --text-dim: #666;
-    --green: #4ec994;
-    --yellow: #e5c07b;
-    --blue: #61afef;
-    --red: #e06c75;
-    --purple: #c678dd;
-    --cyan: #56b6c2;
+    --bg:      #f2f0eb;
+    --surface: #faf9f6;
+    --border:  #d0cdc6;
+    --text:    #1c1c1a;
+    --text-dim:#888880;
+    --green:   #2d7a4f;
+    --yellow:  #9a6b00;
+    --blue:    #1a5fa8;
+    --red:     #b83232;
+    --purple:  #7a4a9a;
+    --cyan:    #1a7a7a;
   }
 
   body {
@@ -82,11 +82,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     border: 1px solid var(--border);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   }
 
   .titlebar {
-    background: #1e1e1e;
+    background: #e8e6e1;
     padding: 10px 16px;
     display: flex;
     align-items: center;
@@ -149,7 +149,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
   .item {
     padding: 14px 0;
-    border-bottom: 1px solid #1e1e1e;
+    border-bottom: 1px solid var(--border);
   }
   .item:last-child { border-bottom: none; }
 
@@ -194,12 +194,12 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   }
 
   .item-zh {
-    color: #888;
+    color: var(--text-dim);
     font-size: 0.8rem;
     line-height: 1.65;
     padding-left: 32px;
   }
-  .item-zh::before { content: '# '; color: var(--text-dim); }
+  .item-zh::before { content: '# '; color: #bbb; }
 
   .tag-inline {
     font-size: 0.68rem;
