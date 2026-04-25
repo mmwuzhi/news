@@ -48,7 +48,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Daily Brief</title>
-<meta name="theme-color" content="#0d0d0d">
+<meta name="theme-color" content="#f2f0eb">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23f2f0eb'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%232d7a4f'>▶</text></svg>">
 <link rel="manifest" href="/manifest.json">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
