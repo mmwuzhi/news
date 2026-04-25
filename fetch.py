@@ -31,6 +31,7 @@ FEEDS = [
     {"url": "https://feeds.marketwatch.com/marketwatch/topstories/", "source": "MarketWatch"},
     {"url": "https://seekingalpha.com/feed.xml",             "source": "Seeking Alpha"},
     {"url": "https://github.blog/feed/",                     "source": "GitHub Blog"},
+    {"url": "https://www.newscientist.com/feed/home/",       "source": "New Scientist"},
 ]
 
 MAX_PER_FEED = 5
@@ -265,6 +266,37 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   .archive-nav a { color: var(--text-dim); text-decoration: none; margin-right: 10px; }
   .archive-nav a:hover { color: var(--blue); }
 
+  [data-theme="dark"] {
+    --bg:      #0d0d0d;
+    --surface: #141414;
+    --border:  #2a2a2a;
+    --text:    #d4d4d4;
+    --text-dim:#666;
+    --green:   #4ec994;
+    --yellow:  #e5c07b;
+    --blue:    #61afef;
+    --red:     #e06c75;
+    --purple:  #c678dd;
+    --cyan:    #56b6c2;
+  }
+  [data-theme="dark"] .titlebar { background: #1e1e1e; }
+  [data-theme="dark"] .window   { box-shadow: 0 20px 60px rgba(0,0,0,0.6); }
+  [data-theme="dark"] .item-zh  { color: #888; }
+  [data-theme="dark"] .item-zh::before { color: var(--text-dim); }
+
+  .theme-toggle {
+    font-family: inherit;
+    font-size: 0.72rem;
+    padding: 3px 10px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    background: none;
+    color: var(--text-dim);
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .theme-toggle:hover { color: var(--text); border-color: var(--text-dim); }
+
   @media (max-width: 640px) {
     .window { margin: 0; border-radius: 0; border-left: none; border-right: none; }
     .item-source { display: none; }
@@ -282,6 +314,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       <div class="dot dot-green"></div>
     </div>
     <div class="tab-title">daily-brief — zsh</div>
+    <button class="theme-toggle" id="theme-toggle">dark</button>
   </div>
 
   <div class="content">
@@ -321,6 +354,20 @@ __ARCHIVE_NAV__
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js');
   }
+
+  (function() {
+    const btn = document.getElementById('theme-toggle');
+    const root = document.documentElement;
+    const saved = localStorage.getItem('theme') || 'light';
+    root.dataset.theme = saved;
+    btn.textContent = saved === 'dark' ? 'light' : 'dark';
+    btn.addEventListener('click', () => {
+      const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+      root.dataset.theme = next;
+      localStorage.setItem('theme', next);
+      btn.textContent = next === 'dark' ? 'light' : 'dark';
+    });
+  })();
 
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -460,7 +507,7 @@ Example: [{{"en":"...","zh":"...","category":"..."}}]
 
 # ── Generate HTML ─────────────────────────────────────────────────────────────
 
-def build_sections(items: list[dict]) -> str:
+def build_sections(items: list[dict]) -> tuple[str, int]:
     groups: dict[str, list] = {}
     for item in items:
         groups.setdefault(item["category"], []).append(item)
@@ -497,7 +544,7 @@ def build_sections(items: list[dict]) -> str:
                 f'\n    </div>\n'
             )
             idx += 1
-    return html
+    return html, idx - 1
 
 
 def build_archive_nav() -> str:
@@ -518,10 +565,11 @@ def generate_html(items: list[dict]) -> str:
     html = HTML_TEMPLATE
     html = html.replace("__DATE_STR__",    now.strftime("%Y-%m-%d"))
     html = html.replace("__DATE_FULL__",   now.strftime("%a %b %d %Y"))
-    html = html.replace("__TOTAL__",       str(len(items)))
     html = html.replace("__MODEL__",       GEMINI_MODEL)
     html = html.replace("__UPDATE_TIME__", now.strftime("%H:%M UTC"))
-    html = html.replace("__SECTIONS__",    build_sections(items))
+    sections_html, displayed = build_sections(items)
+    html = html.replace("__TOTAL__",       str(displayed))
+    html = html.replace("__SECTIONS__",    sections_html)
     html = html.replace("__ARCHIVE_NAV__", build_archive_nav())
     return html
 
