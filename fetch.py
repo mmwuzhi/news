@@ -599,7 +599,8 @@ body{
   'use strict';
 
   // ── State ───────────────────────────────────────────────────────
-  var dark = localStorage.getItem('theme') !== 'light';
+  var _saved = localStorage.getItem('theme');
+  var dark = _saved ? _saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
   var activeCat = 'ALL';
   var visible = 8;
   var votes;
