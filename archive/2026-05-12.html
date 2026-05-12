@@ -2,581 +2,1445 @@
 <html lang="zh">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Daily Brief</title>
-<meta name="theme-color" content="#f2f0eb">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23f2f0eb'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%232d7a4f'>▶</text></svg>">
-<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
 <style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+/* ── Reset ─────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+button{cursor:pointer;font-family:inherit}
+a{text-decoration:none}
+::-webkit-scrollbar{width:3px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:#444;border-radius:2px}
 
-  :root {
-    --bg:      #f2f0eb;
-    --surface: #faf9f6;
-    --border:  #d0cdc6;
-    --text:    #1c1c1a;
-    --text-dim:#888880;
-    --green:   #2d7a4f;
-    --yellow:  #9a6b00;
-    --blue:    #1a5fa8;
-    --red:     #b83232;
-    --purple:  #7a4a9a;
-    --cyan:    #1a7a7a;
+/* ── Animations ────────────────────────────────── */
+@keyframes voteUp   {0%,100%{transform:scale(1)}35%{transform:scale(1.45) translateY(-2px)}}
+@keyframes voteDown {0%,100%{transform:scale(1)}35%{transform:scale(1.45) translateY( 2px)}}
+
+/* ── Design tokens (dark default) ──────────────── */
+:root{
+  --page-bg: #0d0d0d;
+  --bg:      #1a1a1a;
+  --chrome:  #242424;
+  --sidebar: #1e1e1e;
+  --fg:      #d4d4d4;
+  --accent:  #5fb3a1;
+  --dim:     #575757;
+  --bd:      #2c2c2c;
+  --tag-bd:  #333333;
+  --red:     #e05a4e;
+  --cat-active-bg: #252525;
+}
+[data-theme="light"]{
+  --page-bg: #e8e8e4;
+  --bg:      #f5f4ef;
+  --chrome:  #e5e4df;
+  --sidebar: #ededea;
+  --fg:      #2a2a2a;
+  --dim:     #999999;
+  --bd:      #dddddd;
+  --tag-bd:  #cccccc;
+  --cat-active-bg: #e4e4e0;
+}
+
+/* ── Page frame (desktop) ───────────────────────── */
+body{
+  background:var(--page-bg);
+  font-family:'JetBrains Mono','Maple Mono','Fira Code','Menlo',monospace;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  padding:32px;
+}
+
+/* ── App window (desktop) ───────────────────────── */
+#app{
+  width:960px;
+  height:680px;
+  background:var(--bg);
+  color:var(--fg);
+  border-radius:10px;
+  overflow:hidden;
+  border:1px solid var(--bd);
+  box-shadow:0 28px 72px rgba(0,0,0,.65);
+  display:flex;
+  flex-direction:column;
+  flex-shrink:0;
+}
+[data-theme="light"] #app{box-shadow:0 8px 36px rgba(0,0,0,.12)}
+
+/* ── Window chrome ──────────────────────────────── */
+.window-chrome{
+  background:var(--chrome);
+  padding:11px 16px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-bottom:1px solid var(--bd);
+  flex-shrink:0;
+}
+.chrome-dots{display:flex;gap:8px}
+.chrome-dot{width:12px;height:12px;border-radius:50%}
+.chrome-dot-r{background:#ff5f57}
+.chrome-dot-y{background:#febc2e}
+.chrome-dot-g{background:#28c840}
+.chrome-title{font-size:12px;color:var(--dim)}
+
+/* ── Three-column layout ────────────────────────── */
+.columns{
+  display:flex;
+  flex:1;
+  overflow:hidden;
+  min-height:0;
+}
+
+/* LEFT sidebar */
+.col-left{
+  width:138px;
+  flex-shrink:0;
+  background:var(--sidebar);
+  border-right:1px solid var(--bd);
+  display:flex;
+  flex-direction:column;
+}
+
+/* MAIN column */
+.col-main{
+  flex:1;
+  overflow-y:auto;
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+}
+
+/* RIGHT sidebar */
+.col-right{
+  width:162px;
+  flex-shrink:0;
+  background:var(--sidebar);
+  border-left:1px solid var(--bd);
+  display:flex;
+  flex-direction:column;
+}
+.col-right-top{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  min-height:0;
+}
+
+/* ── Sidebar shared ─────────────────────────────── */
+.sidebar-hdr{
+  padding:14px 14px 10px;
+  font-size:9px;
+  color:var(--dim);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  border-bottom:1px solid var(--bd);
+  flex-shrink:0;
+}
+
+/* ── Category nav (desktop) ─────────────────────── */
+.cat-nav{padding-top:6px}
+.cat-btn{
+  width:100%;
+  background:none;
+  border:none;
+  border-left:2px solid transparent;
+  color:var(--dim);
+  padding:8px 14px;
+  font-size:12px;
+  text-align:left;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.cat-btn:hover{color:var(--fg)}
+.cat-btn.active{background:var(--cat-active-bg);border-left-color:var(--accent);color:var(--accent)}
+.cat-count{font-size:10px;opacity:.7}
+
+/* ── Brief header ───────────────────────────────── */
+.brief-hdr{
+  padding:18px 22px 14px;
+  border-bottom:1px solid var(--bd);
+  flex-shrink:0;
+}
+.prompt-line{font-size:12px;margin-bottom:10px;color:var(--fg)}
+.c-accent{color:var(--accent)}
+.c-dim{color:var(--dim)}
+.brief-block{border-left:3px solid var(--accent);padding-left:12px}
+.brief-title{color:var(--accent);font-weight:700;font-size:15px;letter-spacing:.5px}
+.brief-meta{font-size:11px;color:var(--dim);margin-top:4px}
+
+/* ── Active category label ──────────────────────── */
+.active-label{
+  padding:8px 22px;
+  border-bottom:1px solid var(--bd);
+  font-size:11px;
+  color:var(--dim);
+  flex-shrink:0;
+}
+
+/* ── News items ─────────────────────────────────── */
+.item{border-bottom:1px solid var(--bd)}
+.item:last-child{border-bottom:none}
+
+.item-row{
+  padding:13px 22px;
+  cursor:pointer;
+  display:flex;
+  gap:11px;
+  align-items:flex-start;
+}
+.item-row:hover{background:rgba(95,179,161,.04)}
+
+.item-idx{color:var(--dim);font-size:11px;min-width:20px;flex-shrink:0;margin-top:3px}
+.item-body{flex:1;min-width:0}
+
+.item-title-en{color:var(--accent);font-size:13px;line-height:1.45;margin-bottom:4px}
+.item-title-zh{color:var(--dim);font-size:11px;line-height:1.4;margin-bottom:7px}
+
+.item-meta-row{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.cat-badge{border:1px solid var(--tag-bd);color:var(--dim);padding:1px 6px;font-size:10px;border-radius:2px;flex-shrink:0}
+.source-time{color:var(--dim);font-size:11px}
+.votes{margin-left:auto;display:flex;gap:5px}
+
+.vote-btn{
+  background:none;
+  border:1px solid var(--tag-bd);
+  color:var(--dim);
+  padding:1px 7px;
+  font-size:11px;
+  border-radius:2px;
+  transition:all .12s;
+  user-select:none;
+  display:inline-block;
+}
+.vote-btn:hover{border-color:var(--fg);color:var(--fg)}
+.vote-btn.voted-up{border-color:var(--accent);background:#5fb3a118;color:var(--accent)}
+.vote-btn.voted-dn{border-color:var(--red);background:#e05a4e18;color:var(--red)}
+.vote-up  {animation:voteUp   .3s ease}
+.vote-down{animation:voteDown .3s ease}
+
+.item-tags{margin-top:5px;font-size:9px;color:var(--dim);opacity:.5}
+
+.expand-arrow{
+  color:var(--dim);
+  font-size:11px;
+  flex-shrink:0;
+  margin-top:2px;
+  transition:transform .2s;
+  display:inline-block;
+}
+.item.expanded .expand-arrow{transform:rotate(90deg)}
+
+/* ── Expand animation ───────────────────────────── */
+.item-summary{
+  max-height:0;
+  overflow:hidden;
+  opacity:0;
+  transition:max-height .3s ease,opacity .2s ease;
+}
+.item.expanded .item-summary{max-height:400px;opacity:1}
+.item-summary-inner{padding:0 22px 16px 53px}
+.summary-en{font-size:12px;line-height:1.8;color:var(--fg);margin-bottom:8px}
+.summary-zh{font-size:11px;line-height:1.8;color:var(--dim)}
+.summary-zh::before{content:'# '}
+
+/* ── Load more ──────────────────────────────────── */
+.load-more-btn{
+  display:block;
+  width:calc(100% - 44px);
+  margin:14px 22px;
+  background:none;
+  border:1px solid var(--bd);
+  color:var(--dim);
+  padding:8px 0;
+  font-size:12px;
+  text-align:center;
+}
+.load-more-btn:hover{border-color:var(--accent);color:var(--fg)}
+
+/* ── Archive list ───────────────────────────────── */
+.archive-list{flex:1;overflow-y:auto;padding:6px 0}
+.archive-date{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  padding:4px 10px 4px 14px;
+  font-size:12px;
+  color:var(--dim);
+  transition:color .1s;
+}
+.archive-date:hover{color:var(--accent)}
+
+/* ── Inferred prefs panel ───────────────────────── */
+.prefs-panel{border-top:1px solid var(--bd);flex-shrink:0}
+.prefs-body{padding:10px 14px 8px}
+.prefs-hdr{font-size:9px;color:var(--dim);letter-spacing:2px;text-transform:uppercase;margin-bottom:7px}
+.prefs-hint{font-size:10px;color:var(--dim);line-height:1.7}
+.prefs-group{font-size:8px;color:var(--dim);opacity:.6;margin-bottom:4px;letter-spacing:.5px}
+.prefs-group.mt{margin-top:6px}
+.prefs-row{display:flex;align-items:center;gap:5px;margin-bottom:3px}
+.prefs-tag{font-size:10px;color:var(--dim);width:64px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex-shrink:0}
+.prefs-bar{font-size:9px;letter-spacing:-1px;line-height:1}
+.prefs-bar.boost{color:var(--accent)}
+.prefs-bar.filter{color:var(--red)}
+.prefs-div{border-top:1px solid var(--bd);margin:8px 0 6px}
+.prefs-explore{font-size:10px;color:var(--dim)}
+.prefs-seren{font-size:9px;color:var(--dim);opacity:.5;margin-top:2px;line-height:1.5}
+.prefs-next{font-size:9px;color:var(--dim);margin-top:7px}
+
+/* ── Status bar ─────────────────────────────────── */
+.status-bar{
+  padding:10px 14px 12px;
+  border-top:1px solid var(--bd);
+  flex-shrink:0;
+  font-size:10px;
+  line-height:1.9;
+}
+
+/* ── Theme button ───────────────────────────────── */
+.theme-btn{
+  background:none;
+  border:1px solid var(--bd);
+  color:var(--dim);
+  padding:2px 10px;
+  border-radius:4px;
+  font-size:11px;
+}
+.theme-btn:hover{color:var(--fg);border-color:var(--dim)}
+
+/* ── Mobile-only elements (hidden on desktop) ───── */
+.mobile-header,.cat-tabs,.mobile-nav{display:none}
+.sheet,.sheet-backdrop{display:none}
+
+/* ── Mobile (< 860px) ───────────────────────────── */
+@media (max-width:860px){
+  body{padding:0;align-items:stretch}
+
+  #app{
+    width:100%;
+    height:100svh;
+    border-radius:0;
+    border:none;
+    box-shadow:none;
   }
 
-  body {
-    font-family: 'Maple Mono', 'JetBrains Mono', 'Fira Code', 'Menlo', monospace;
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-    font-size: 14px;
-    line-height: 1.6;
-  }
+  /* hide desktop-only */
+  .window-chrome,.col-left,.col-right{display:none}
 
-  .window {
-    max-width: 860px;
-    margin: 30px auto;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  /* show mobile elements */
+  .mobile-header{
+    display:flex;
+    background:var(--chrome);
+    padding:11px 16px;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom:1px solid var(--bd);
+    flex-shrink:0;
   }
+  .mobile-title{font-size:13px;color:var(--dim)}
 
-  .titlebar {
-    background: #e8e6e1;
-    padding: 10px 16px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    border-bottom: 1px solid var(--border);
-    user-select: none;
+  .cat-tabs{
+    display:flex;
+    overflow-x:auto;
+    scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+    background:var(--sidebar);
+    border-bottom:1px solid var(--bd);
+    flex-shrink:0;
   }
+  .cat-tabs::-webkit-scrollbar{display:none}
 
-  .dots { display: flex; gap: 7px; }
-  .dot { width: 12px; height: 12px; border-radius: 50%; }
-  .dot-red    { background: #ff5f56; }
-  .dot-yellow { background: #ffbd2e; }
-  .dot-green  { background: #27c93f; }
+  .cat-tab{
+    flex-shrink:0;
+    background:none;
+    border:none;
+    border-bottom:2px solid transparent;
+    color:var(--dim);
+    padding:9px 14px;
+    font-size:12px;
+  }
+  .cat-tab.active{border-bottom-color:var(--accent);color:var(--accent)}
 
-  .tab-title {
-    flex: 1;
-    text-align: center;
-    font-size: 0.75rem;
-    color: var(--text-dim);
-  }
+  /* main column adjustments */
+  .brief-hdr{padding:14px 16px 10px}
+  .prompt-line{font-size:11px}
+  .brief-title{font-size:14px}
+  .brief-meta{font-size:10px}
+  .active-label{padding:7px 16px}
+  .item-row{padding:12px 16px}
+  .item-summary-inner{padding:0 16px 14px 44px}
+  .load-more-btn{width:calc(100% - 32px);margin:12px 16px}
 
-  .content {
-    padding: 20px 24px 40px;
+  /* mobile bottom nav */
+  .mobile-nav{
+    display:flex;
+    border-top:1px solid var(--bd);
+    background:var(--sidebar);
+    flex-shrink:0;
   }
+  .mobile-nav button{
+    flex:1;
+    background:none;
+    border:none;
+    color:var(--dim);
+    padding:13px;
+    font-size:11px;
+  }
+  .mobile-nav button:first-child{border-right:1px solid var(--bd)}
 
-  .prompt-line {
-    color: var(--text-dim);
-    margin-bottom: 20px;
-    font-size: 0.82rem;
+  /* bottom sheets */
+  .sheet-backdrop{
+    display:block;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.55);
+    z-index:50;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .25s;
   }
-  .prompt-line .user { color: var(--green); }
-  .prompt-line .host { color: var(--blue); }
+  .sheet-backdrop.visible{opacity:1;pointer-events:auto}
 
-  .header-block {
-    border-left: 2px solid var(--green);
-    padding-left: 16px;
-    margin-bottom: 28px;
+  .sheet{
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+    bottom:0;left:0;right:0;
+    z-index:51;
+    background:var(--sidebar);
+    border-top:1px solid var(--bd);
+    border-radius:10px 10px 0 0;
+    max-height:70vh;
+    transform:translateY(100%);
+    transition:transform .3s cubic-bezier(.4,0,.2,1);
   }
-  .header-block .title {
-    color: var(--green);
-    font-size: 1.1rem;
-    font-weight: bold;
-    letter-spacing: 0.05em;
-  }
-  .header-block .meta {
-    color: var(--text-dim);
-    font-size: 0.78rem;
-    margin-top: 2px;
-  }
+  .sheet.open{transform:translateY(0)}
 
-  .section-header {
-    margin: 28px 0 12px;
-    display: flex;
-    align-items: center;
-    gap: 0;
+  .sheet-hdr{
+    padding:12px 18px 8px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-shrink:0;
+    border-bottom:1px solid var(--bd);
   }
-  .section-header .bracket { color: var(--text-dim); }
-  .section-header .label   { color: var(--yellow); font-weight: bold; }
-  .section-header .num     { color: var(--purple); margin-left: 6px; font-size: 0.78rem; }
-
-  .item {
-    padding: 14px 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .item:last-child { border-bottom: none; }
-
-  .item-header {
-    display: flex;
-    gap: 8px;
-    align-items: baseline;
-    margin-bottom: 4px;
-  }
-
-  .item-idx { color: var(--text-dim); min-width: 24px; flex-shrink: 0; }
-
-  .item-title {
-    color: var(--blue);
-    font-weight: bold;
-    font-size: 0.95rem;
-    text-decoration: none;
-    line-height: 1.4;
-  }
-  .item-title:hover { color: var(--cyan); text-decoration: underline; }
-
-  .item-meta {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding-left: 32px;
-    margin-bottom: 8px;
-  }
-
-  .item-source {
-    color: var(--text-dim);
-    font-size: 0.72rem;
-    margin-left: auto;
-  }
-
-  .item-en {
-    color: var(--text);
-    font-size: 0.82rem;
-    line-height: 1.65;
-    margin-bottom: 4px;
-    padding-left: 32px;
-  }
-
-  .item-zh {
-    color: var(--text-dim);
-    font-size: 0.8rem;
-    line-height: 1.65;
-    padding-left: 32px;
-  }
-  .item-zh::before { content: '# '; color: #bbb; }
-
-  .tag-inline {
-    font-size: 0.68rem;
-    color: var(--text-dim);
-    border: 1px solid #333;
-    padding: 1px 6px;
-    border-radius: 3px;
-    margin-left: 4px;
-    vertical-align: middle;
-  }
-
-  .footer-line {
-    margin-top: 28px;
-    color: var(--text-dim);
-    font-size: 0.78rem;
-    border-top: 1px solid var(--border);
-    padding-top: 16px;
-  }
-  .footer-line .ok { color: var(--green); }
-
-  .cursor {
-    display: inline-block;
-    width: 8px;
-    height: 14px;
-    background: var(--green);
-    vertical-align: middle;
-    animation: blink 1s step-end infinite;
-    margin-left: 4px;
-  }
-
-  @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50%       { opacity: 0; }
-  }
-
-  .filter-bar {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-
-  .filter-btn {
-    font-family: inherit;
-    font-size: 0.72rem;
-    padding: 3px 10px;
-    border: 1px solid #333;
-    border-radius: 3px;
-    background: none;
-    color: var(--text-dim);
-    cursor: pointer;
-    transition: color 0.1s, border-color 0.1s;
-  }
-  .filter-btn:hover  { color: var(--text); border-color: #555; }
-  .filter-btn.active { color: var(--green); border-color: var(--green); }
-
-  .archive-nav {
-    margin-top: 12px;
-    font-size: 0.75rem;
-    color: var(--text-dim);
-    line-height: 2;
-  }
-  .archive-nav a { color: var(--text-dim); text-decoration: none; margin-right: 10px; }
-  .archive-nav a:hover { color: var(--blue); }
-
-  [data-theme="dark"] {
-    --bg:      #0d0d0d;
-    --surface: #141414;
-    --border:  #2a2a2a;
-    --text:    #d4d4d4;
-    --text-dim:#666;
-    --green:   #4ec994;
-    --yellow:  #e5c07b;
-    --blue:    #61afef;
-    --red:     #e06c75;
-    --purple:  #c678dd;
-    --cyan:    #56b6c2;
-  }
-  [data-theme="dark"] .titlebar { background: #1e1e1e; }
-  [data-theme="dark"] .window   { box-shadow: 0 20px 60px rgba(0,0,0,0.6); }
-  [data-theme="dark"] .item-zh  { color: #888; }
-  [data-theme="dark"] .item-zh::before { color: var(--text-dim); }
-
-  .theme-toggle {
-    font-family: inherit;
-    font-size: 0.72rem;
-    padding: 3px 10px;
-    border: 1px solid var(--border);
-    border-radius: 3px;
-    background: none;
-    color: var(--text-dim);
-    cursor: pointer;
-    margin-left: auto;
-  }
-  .theme-toggle:hover { color: var(--text); border-color: var(--text-dim); }
-
-  @media (max-width: 640px) {
-    .window { margin: 0; border-radius: 0; border-left: none; border-right: none; }
-    .item-source { display: none; }
-    .content { padding: 16px 16px 32px; }
-  }
+  .sheet-title{font-size:9px;color:var(--dim);letter-spacing:2px;text-transform:uppercase}
+  .sheet-close{background:none;border:none;color:var(--dim);font-size:20px;line-height:1}
+  .sheet-body{overflow-y:auto;flex:1}
+}
 </style>
 </head>
 <body>
 
-<div class="window">
-  <div class="titlebar">
-    <div class="dots">
-      <div class="dot dot-red"></div>
-      <div class="dot dot-yellow"></div>
-      <div class="dot dot-green"></div>
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
     </div>
-    <div class="tab-title">daily-brief — zsh</div>
-    <button class="theme-toggle" id="theme-toggle">dark</button>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
   </div>
 
-  <div class="content">
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
 
-    <div class="prompt-line">
-      <span class="user">you</span>@<span class="host">news</span> ~ $ brief --date 2026-05-12 --lang bilingual
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">26</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">5</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">2</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">3</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-05-12 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Tue May 12 2026 &middot; 26 stories &middot; summarized by gemini-2.5-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;ai tools&quot;, &quot;transcription&quot;, &quot;video to text&quot;, &quot;audio processing&quot;, &quot;productivity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en">[AI Tools 精品 AI 工具导航] 做了一个音/视频转文本的工具</div>
+      <div class="item-title-zh">[AI工具精品AI工具导航] 做了一个音/视频转文本的工具</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai tools · transcription · video to text · audio processing · productivity</div>
     </div>
-
-    <div class="header-block">
-      <div class="title">▶ DAILY BRIEF</div>
-      <div class="meta">Tue May 12 2026 · 33 stories · summarized by gemini-2.5-flash-lite</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author has developed a tool called &#x27;video to text&#x27; that converts audio or video files into text, offering four export formats: srt, vtt, txt, or csv. The tool supports 99 languages and is suitable for tasks like meeting minutes, lecture recordings, or interview transcriptions.</p>
+      <p class="summary-zh">作者开发了一个名为“video to text”的工具，可以将音频或视频文件转换为文本，提供 srt、vtt、txt 或 csv 四种导出格式。该工具支持 99 种语言，适用于会议记录、课堂录音或访谈转录等任务。</p>
     </div>
-
-    <div class="filter-bar">
-      <button class="filter-btn active" data-cat="all">ALL</button>
-      <button class="filter-btn" data-cat="AI">AI</button>
-      <button class="filter-btn" data-cat="Technology">TECH</button>
-      <button class="filter-btn" data-cat="Finance">FINA</button>
-      <button class="filter-btn" data-cat="Science">SCI</button>
-      <button class="filter-btn" data-cat="World">WORLD</button>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;hugging face&quot;, &quot;openai&quot;, &quot;malware&quot;, &quot;ai security&quot;, &quot;infostealer&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en">Hugging Face hosted malicious software masquerading as OpenAI release</div>
+      <div class="item-title-zh">Hugging Face 托管冒充 OpenAI 版本发布的恶意软件</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">AI News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">hugging face · openai · malware · ai security · infostealer</div>
     </div>
-
-
-    <div class="section-header" data-cat="AI"><span class="bracket">[</span><span class="label">AI</span><span class="bracket">]</span><span class="num">8 items</span></div>
-
-    <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">01</span><a href="https://www.v2ex.com/t/1212223#reply0" class="item-title" target="_blank" rel="noopener">[求职] 广东省内求职 有大厂经历 英文无障碍</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">An experienced individual with 9 years in backend, web, and AI Agent development, as well as Azure expertise, is seeking a new job opportunity within Guangdong province. They are fluent in English and prioritize companies offering a two-day weekend.</div>
-      <div class="item-zh">一位拥有9年后端、Web和AI Agent开发以及Azure经验的资深人士，正在广东省内寻找新的工作机会。他英语流利，并优先考虑提供双休的公司。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A malicious repository on Hugging Face, disguised as an OpenAI release, distributed infostealer malware to Windows machines, recording approximately 244,000 downloads before being removed. AI security firm HiddenLayer highlighted the potential for inflated download numbers.</p>
+      <p class="summary-zh">Hugging Face 上一个伪装成 OpenAI 版本发布的恶意代码库，向 Windows 机器分发了信息窃取恶意软件，在被移除前记录了约 244,000 次下载。AI 安全公司 HiddenLayer 指出了下载数量可能被虚报的情况。</p>
     </div>
-
-    <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">02</span><a href="https://www.v2ex.com/t/1212221#reply0" class="item-title" target="_blank" rel="noopener">[OpenAI] GPT 网页版中的代理模式有没有什么妙用吗？</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">A user is asking for advice on how to best utilize the proxy mode feature in the web version of GPT. They are concerned about the usage limits and not wanting to waste available quotas.</div>
-      <div class="item-zh">一位用户正在寻求关于如何最好地利用GPT网页版代理模式的建议。他们担心使用限制，不想浪费可用的配额。</div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;nobel prize&quot;, &quot;economics&quot;, &quot;technology&quot;, &quot;newsletter&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en">The Download: a Nobel winner on AI, and the case for fixing everything</div>
+      <div class="item-title-zh">下载：一位诺贝尔奖得主谈 AI，以及修复一切的论据</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">MIT Tech Review &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · nobel prize · economics · technology · newsletter</div>
     </div>
-
-    <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">03</span><a href="https://www.v2ex.com/t/1212220#reply0" class="item-title" target="_blank" rel="noopener">[☕Vibe Coding🤖] 咨询个问题，关于大家的公司是如何使用 claude 模型的？</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">A discussion is taking place regarding how companies are utilizing the Claude AI model. The user is inquiring about common implementation strategies, such as purchasing multiple plans or direct API usage, and their associated costs and stability.</div>
-      <div class="item-zh">一场关于企业如何使用Claude AI模型的讨论正在进行。用户在询问常见的实施策略，如购买多个计划或直接API使用，以及相关的成本和稳定性。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This edition of &#x27;The Download&#x27; newsletter features insights from a Nobel Prize-winning economist on artificial intelligence and argues for a comprehensive approach to fixing various issues. It highlights key developments and perspectives in the world of technology.</p>
+      <p class="summary-zh">本期《下载》新闻通讯介绍了诺贝尔经济学奖得主对人工智能的见解，并论证了修复各种问题的全面方法。它强调了技术世界中的关键发展和观点。</p>
     </div>
-
-    <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">04</span><a href="https://www.marketwatch.com/story/this-dot-com-survivor-says-ai-buildout-is-more-like-1997-than-1999-and-still-urges-investors-to-have-more-cash-39300ff3?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">This dot-com survivor says AI buildout is more like 1997 than 1999 — and still urges investors to have more cash</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">MarketWatch · just now</span></div>
-      <div class="item-en">An investor with a dot-com era background believes the current AI buildout resembles 1997 more than 1999, implying a less speculative environment than the eve of the dot-com crash. They still advise investors to maintain a significant cash position.</div>
-      <div class="item-zh">一位经历过互联网泡沫时代的投资者认为，当前的人工智能建设更像1997年而不是1999年，这意味着比互联网泡沫破裂前夕的投机环境要宽松。他仍然建议投资者保持大量的现金。</div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;industry conference&quot;, &quot;implementation&quot;, &quot;practical applications&quot;, &quot;beijing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en">不用再找了，AI落地最全的实战打法，都在亦庄这场大会里</div>
+      <div class="item-title-zh">不用再找了，AI落地最全的实战打法，都在亦庄这场大会里</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">36氪 &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · industry conference · implementation · practical applications · beijing</div>
     </div>
-
-    <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">05</span><a href="https://www.artificialintelligence-news.com/news/laserfiche-ai-agents-act-autonomously-for-the-platforms-users/" class="item-title" target="_blank" rel="noopener">Laserfiche unveils AI agents for natural language workflows</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">AI News · just now</span></div>
-      <div class="item-en">Laserfiche has introduced AI agents designed to perform tasks through natural language prompts, integrating with existing security and compliance rules. These agents aim to revolutionize content management by allowing users to interact with data more intuitively.</div>
-      <div class="item-zh">Laserfiche推出了一系列AI代理，旨在通过自然语言提示执行任务，并与现有的安全和合规规则集成。这些代理旨在通过让用户更直观地与数据交互来彻底改变内容管理。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The &#x27;2026 AI Partner·Beijing Yizhuang AI+ Industry Conference&#x27; aims to bridge the gap between AI technology and industrial application by focusing on practical, real-world implementation strategies. The event emphasizes moving beyond theoretical discussions to hands-on problem-solving and value creation.</p>
+      <p class="summary-zh">“2026 AI Partner·北京亦庄AI+产业大会”旨在通过关注实际的、现实世界的落地策略，来弥合人工智能技术与产业应用之间的差距。该活动强调超越理论讨论，转向实际的问题解决和价值创造。</p>
     </div>
-
-    <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">06</span><a href="https://36kr.com/p/3805761383751427?f=rss" class="item-title" target="_blank" rel="noopener">Walulu：用六个月撕开一条新赛道</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">36氪 · 5h ago</span></div>
-      <div class="item-en">Chengdu YuZhiLingDong Technology has secured tens of millions of RMB in angel and Pre-A funding for its AI-powered plush pet product, Walulu. The company aims to position Walulu as the &#x27;Pokemon of the AI era&#x27;, having previously developed successful AI projects.</div>
-      <div class="item-zh">成都雨之灵动科技有限公司为其AI仿生毛绒宠物Walulu完成了数千万元人民币的天使轮和Pre-A轮融资。该公司旨在将Walulu定位为“AI时代的宝可梦”，此前他们曾开发过成功的AI项目。</div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="AI" data-tags="[&quot;laserfiche&quot;, &quot;ai agents&quot;, &quot;natural language processing&quot;, &quot;workflow automation&quot;, &quot;security&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en">Laserfiche unveils AI agents for natural language workflows</div>
+      <div class="item-title-zh">Laserfiche 推出用于自然语言工作流的 AI 代理</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">AI News &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">laserfiche · ai agents · natural language processing · workflow automation · security</div>
     </div>
-
-    <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">07</span><a href="https://36kr.com/p/3805672617959173?f=rss" class="item-title" target="_blank" rel="noopener">36氪首发｜新加坡博士团队创业获种子轮融资，首款产品做“会飞的家庭管家”</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">36氪 · 7h ago</span></div>
-      <div class="item-en">Shenzhen Entropy Intelligent Technology has raised millions of dollars in seed funding for its &#x27;flying household robot&#x27;, Flyer O1. The team, comprising PhDs from top universities and experienced professionals, aims to provide intelligent home assistance through aerial drones.</div>
-      <div class="item-zh">深圳熵约智能科技有限公司为其“会飞的家庭管家”Flyer O1筹集了数百万美元的种子轮融资。该团队由顶尖大学博士和经验丰富的专业人士组成，旨在通过无人机提供智能家庭助理服务。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Laserfiche has introduced AI agents designed to perform tasks using natural language prompts, enhancing workflow efficiency. These intelligent assistants adhere to Laserfiche&#x27;s security and compliance rules, ensuring sensitive data remains protected.</p>
+      <p class="summary-zh">Laserfiche 推出了旨在通过自然语言提示执行任务的 AI 代理，提高了工作流程效率。这些智能助手遵循 Laserfiche 的安全和合规规则，确保敏感数据得到保护。</p>
     </div>
-
-    <div class="item" data-cat="AI">
-      <div class="item-header"><span class="item-idx">08</span><a href="https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai" class="item-title" target="_blank" rel="noopener">OpenAI just released its answer to Claude Mythos</a></div>
-      <div class="item-meta"><span class="tag-inline">AI</span><span class="item-source">The Verge · 10h ago</span></div>
-      <div class="item-en">OpenAI has launched &#x27;Daybreak&#x27;, an AI initiative focused on proactively identifying and fixing software vulnerabilities before they can be exploited by attackers. This initiative utilizes an AI agent to analyze code and automate threat detection.</div>
-      <div class="item-zh">OpenAI推出了“Daybreak”项目，这是一个专注于在攻击者发现之前主动识别和修复软件漏洞的人工智能计划。该计划利用AI代理来分析代码并自动化威胁检测。</div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;google&quot;, &quot;android&quot;, &quot;os&quot;, &quot;leak&quot;, &quot;aluminium&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en">Google&amp;#8217;s Aluminium OS revealed in 16-minute leaked video</div>
+      <div class="item-title-zh">Google 的 Aluminium OS 在 16 分钟泄露视频中曝光</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">google · android · os · leak · aluminium</div>
     </div>
-
-    <div class="section-header" data-cat="Technology"><span class="bracket">[</span><span class="label">TECHNOLOGY</span><span class="bracket">]</span><span class="num">8 items</span></div>
-
-    <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">09</span><a href="https://www.v2ex.com/t/1212222#reply0" class="item-title" target="_blank" rel="noopener">[微信] 我在微信小程序 iOS 6 Play 里，复刻了 iOS 6 拟物化的体验，请看</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">A developer has recreated the nostalgic iOS 6 user interface and experience within a WeChat mini-program called &#x27;iOS 6 Play&#x27;. The mini-program allows users to interact with simulated apps like Messages and Notes, with some limitations on video and music.</div>
-      <div class="item-zh">一位开发者在名为“iOS 6 Play”的微信小程序中重现了怀旧的iOS 6用户界面和体验。该小程序允许用户与模拟的短信和备忘录等应用进行交互，但视频和音乐功能有限。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Google&#x27;s upcoming PC operating system, Aluminium OS, may have been revealed through a 16-minute leaked video. The footage, shared on Telegram, appears to showcase an extensive hands-on demonstration of the new OS shortly before Google&#x27;s scheduled Android Show presentation.</p>
+      <p class="summary-zh">谷歌即将推出的 PC 操作系统 Aluminium OS 可能通过一段 16 分钟的泄露视频曝光。该视频在 Telegram 上分享，似乎展示了在新操作系统正式发布前的一次详尽的实际操作演示。</p>
     </div>
-
-    <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">10</span><a href="https://www.v2ex.com/t/1212219#reply5" class="item-title" target="_blank" rel="noopener">[问与答] 商家是否在特意频繁更新以制造“落后感”？观[各位的 mbp 多久置换一次]有感</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">V2EX · just now</span></div>
-      <div class="item-en">The article discusses the trend of rapid product updates across electronics and even new energy vehicles, suggesting it creates a sense of obsolescence for consumers. It questions whether this is driven by genuine need or by manufacturers&#x27; strategies to drive sales.</div>
-      <div class="item-zh">文章讨论了电子产品乃至新能源汽车频繁更新换代的趋势，认为这给消费者制造了过时的感觉。它质疑这种趋势是受真实需求驱动，还是制造商的销售策略。</div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;cli&quot;, &quot;codebuddy&quot;, &quot;backup&quot;, &quot;restore&quot;, &quot;tencent cloud&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en">[程序员] 极简 CodeBuddy CLI 备份/恢复命令</div>
+      <div class="item-title-zh">[程序员] 极简 CodeBuddy CLI 备份/恢复命令</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">cli · codebuddy · backup · restore · tencent cloud</div>
     </div>
-
-    <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">11</span><a href="https://www.theverge.com/tech/928373/irobot-roomba-robot-vacuums-price-specs-release-date" class="item-title" target="_blank" rel="noopener">These new Roombas are smaller and cheaper</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">The Verge · just now</span></div>
-      <div class="item-en">iRobot has launched a new series of Roombas at lower prices, following its bankruptcy filing. These updated robot vacuums feature improved suction power and other enhancements compared to previous models.</div>
-      <div class="item-zh">iRobot在申请破产后推出了价格更低的新系列Roomba。这些更新的扫地机器人与前代型号相比，具有更高的吸力和其他改进。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article introduces simple backup and restore commands for the CodeBuddy CLI, enabling users to export conversation history to files. The process utilizes Tencent Cloud COS for online storage and requires users to set up their own storage buckets beforehand.</p>
+      <p class="summary-zh">本文介绍了 CodeBuddy CLI 的简化备份和恢复命令，允许用户将对话记录导出到文件。该过程利用腾讯云 COS 进行在线存储，并要求用户提前设置自己的存储桶。</p>
     </div>
-
-    <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">12</span><a href="https://sspai.com/post/109546" class="item-title" target="_blank" rel="noopener">精彩之下的反常时刻：聊聊 F1 2026 年新规悖论</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">少数派 · 3h ago</span></div>
-      <div class="item-en">This article discusses the paradoxes and potential issues within the new Formula 1 regulations set to be implemented in 2026, specifically mentioning the risk of &#x27;Super Clipping&#x27;. It delves into the intricacies of these upcoming rule changes.</div>
-      <div class="item-zh">本文讨论了将于2026年实施的新一级方程式赛车规则中的悖论和潜在问题，特别提到了“超级剪辑”的风险。它深入探讨了这些即将到来的规则变化的复杂性。</div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;game development&quot;, &quot;indie game&quot;, &quot;physics game&quot;, &quot;marble game&quot;, &quot;developer showcase&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en">[分享创造] [分享] 我用闲暇时间做的一款弹珠/物理小球游戏，欢迎来玩！</div>
+      <div class="item-title-zh">[分享创造] [分享] 我用闲暇时间做的一款弹珠/物理小球游戏，欢迎来玩！</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">game development · indie game · physics game · marble game · developer showcase</div>
     </div>
-
-    <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">13</span><a href="https://www.theverge.com/tech/928220/sony-reon-pocket-pro-plus-personal-wearable-air-conditioner" class="item-title" target="_blank" rel="noopener">Sony upgraded its wearable AC so it’s cooler and better at hugging your neck</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">The Verge · 3h ago</span></div>
-      <div class="item-en">Sony has released an upgraded version of its wearable personal air conditioner, the Reon Pocket Pro Plus. This new model offers improved cooling performance and a better fit for the neck compared to previous iterations.</div>
-      <div class="item-zh">索尼发布了其可穿戴个人空调Reon Pocket Pro Plus的升级版本。与之前的型号相比，新模型提供了改进的冷却性能和更贴合颈部的设计。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author shares a physics-based marble game they developed in their spare time, inviting others to play and provide feedback. The game&#x27;s core mechanic involves using mouse/touch controls to accurately launch balls into target areas, promising simple yet engaging gameplay.</p>
+      <p class="summary-zh">作者分享了一款他在业余时间开发的基于物理的弹珠游戏，并邀请大家来玩并提供反馈。游戏的核心玩法是通过鼠标/触摸控制，将小球准确地发射到目标区域，承诺简单而引人入胜的游戏体验。</p>
     </div>
-
-    <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">14</span><a href="http://www.typewritten.org/Media/" class="item-title" target="_blank" rel="noopener">Screenshots of Old Desktop OSes</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">Hacker News · 4h ago</span></div>
-      <div class="item-en">This is a collection of comments related to screenshots of old desktop operating systems. Users are sharing and discussing nostalgic visuals of past computing interfaces.</div>
-      <div class="item-zh">这是一系列与旧桌面操作系统截图相关的评论。用户正在分享和讨论过去计算界面的怀旧视觉效果。</div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;internet infrastructure&quot;, &quot;cybersecurity&quot;, &quot;middle east&quot;, &quot;fiber optics&quot;, &quot;network&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en">There’s an internet choke point in the Middle East — is the solution in the North Pole?</div>
+      <div class="item-title-zh">中东存在互联网瓶颈——解决方案在北极吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">internet infrastructure · cybersecurity · middle east · fiber optics · network</div>
     </div>
-
-    <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">15</span><a href="https://sspai.com/post/73727" class="item-title" target="_blank" rel="noopener">App+1 | 如果你的手机没有内置地震预警，这款 App 不妨常备</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">少数派 · 6h ago</span></div>
-      <div class="item-en">An app is recommended for users whose phones do not have built-in earthquake early warning systems. It is presented as a useful tool to help users stay calm and safe during disasters.</div>
-      <div class="item-zh">推荐了一款应用程序，适用于手机没有内置地震预警系统的用户。它被认为是在灾难中帮助用户保持冷静和安全的有用工具。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A critical internet bottleneck exists in the Middle East due to the convergence of undersea fiber optic cables at a few narrow points. The article explores whether solutions from the North Pole region could potentially alleviate this risk.</p>
+      <p class="summary-zh">由于海底光纤电缆汇聚于几个狭窄的点，中东地区存在一个关键的互联网瓶颈。文章探讨了来自北极地区的解决方案是否可能缓解这一风险。</p>
     </div>
-
-    <div class="item" data-cat="Technology">
-      <div class="item-header"><span class="item-idx">16</span><a href="https://github.com/davmlaw/they_live_adblocker" class="item-title" target="_blank" rel="noopener">They Live (1988) inspired Adblocker</a></div>
-      <div class="item-meta"><span class="tag-inline">TECH</span><span class="item-source">Hacker News · 8h ago</span></div>
-      <div class="item-en">This is a collection of comments related to an Adblocker inspired by the film &#x27;They Live&#x27;. Users are discussing the extension and its potential functionalities.</div>
-      <div class="item-zh">这是一系列与受电影《他们活着》启发的广告拦截器相关的评论。用户正在讨论该扩展及其潜在功能。</div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;rclone&quot;, &quot;cloud storage&quot;, &quot;file sync&quot;, &quot;customization&quot;, &quot;backend&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en">[分享创造] rclone 个人使用修改版（123 云盘后端添加版）分享</div>
+      <div class="item-title-zh">[分享创造] rclone 个人使用修改版（123 云盘后端添加版）分享</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">rclone · cloud storage · file sync · customization · backend</div>
     </div>
-
-    <div class="section-header" data-cat="World"><span class="bracket">[</span><span class="label">WORLD</span><span class="bracket">]</span><span class="num">6 items</span></div>
-
-    <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">17</span><a href="https://www.marketwatch.com/story/with-keir-starmer-premiership-on-the-brink-british-government-debt-tumbles-further-3a113f26?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">With Keir Starmer premiership on the brink, British government debt tumbles further</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">MarketWatch · 1h ago</span></div>
-      <div class="item-en">British government debt has significantly decreased amid speculation that Prime Minister Keir Starmer might face a leadership challenge or resign soon. This political uncertainty appears to be influencing government financial markets.</div>
-      <div class="item-zh">在英国首相基尔·斯塔默可能面临领导权挑战或即将辞职的猜测中，英国政府债务大幅下降。这种政治不确定性似乎正在影响政府金融市场。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This post shares a personal modified version of rclone that includes support for the 123 Cloud drive backend. The author explains that they initially intended to submit a pull request to the official rclone, but after a lack of response, they are now sharing their adapted version.</p>
+      <p class="summary-zh">这篇文章分享了一个个人修改版的 rclone，增加了对 123 云盘后端的支持。作者解释说，他最初打算向官方 rclone 提交一个拉取请求，但在没有得到回应后，他现在分享了他修改后的版本。</p>
     </div>
-
-    <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">18</span><a href="https://www.bbc.com/news/articles/c202xrd9gn7o?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Pakistan struck a rehab centre and killed 269 Afghans. Their families want to know why</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">BBC · 2h ago</span></div>
-      <div class="item-en">Pakistan airstrikes on a rehabilitation center in Afghanistan resulted in 269 deaths, prompting calls for an investigation into the incident as a potential war crime. Families of the victims are demanding answers about the attack.</div>
-      <div class="item-zh">巴基斯坦在阿富汗一所戒毒中心发动的空袭造成269人死亡，引发了对此次事件可能构成战争罪的调查呼吁。受害者家属要求对袭击事件做出解释。</div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;gaming&quot;, &quot;horizon 6&quot;, &quot;leak&quot;, &quot;files&quot;, &quot;discussion&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en">[游戏] 地平线 6 未加密的文件到底是不是官方泄露的</div>
+      <div class="item-title-zh">[游戏] 地平线 6 未加密的文件到底是不是官方泄露的</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">gaming · horizon 6 · leak · files · discussion</div>
     </div>
-
-    <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">19</span><a href="https://www.bbc.com/news/articles/cpqpernnx8xo?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">France seeks to move beyond colonial ties by meeting African leaders in Kenya</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">BBC · 2h ago</span></div>
-      <div class="item-en">France is aiming to move beyond its colonial past by engaging with African leaders in Kenya, marking a significant shift in diplomatic strategy. This meeting reflects a new approach to international relations for France.</div>
-      <div class="item-zh">法国正试图通过在肯尼亚与非洲领导人会晤，超越其殖民历史，这标志着其外交战略的重大转变。此次会晤反映了法国在国际关系方面的新方法。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This post discusses whether the unencrypted files for &#x27;Horizon 6&#x27; are officially leaked, with users expressing concerns about potential account bans for playing. A website is also mentioned as a resource for players to use while playing.</p>
+      <p class="summary-zh">这篇文章讨论了“地平线 6”的未加密文件是否为官方泄露，用户对游玩可能导致账号被封表示担忧。文中还提到了一个供玩家在游玩时使用的网站。</p>
     </div>
-
-    <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">20</span><a href="https://www.bbc.com/news/articles/cjep78l5835o?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Last passengers leave virus-hit cruise ship as three more test positive</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">BBC · 3h ago</span></div>
-      <div class="item-en">The final passengers have disembarked from a cruise ship affected by a virus, with three additional individuals testing positive for the illness. This update follows earlier reports of infections on board.</div>
-      <div class="item-zh">受病毒影响的邮轮上的最后一名乘客已经下船，另有三人被检测出病毒呈阳性。此更新是在早些时候船上感染的报道之后发布的。</div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;amazon&quot;, &quot;delivery&quot;, &quot;ecommerce&quot;, &quot;logistics&quot;, &quot;30-minute delivery&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en">Amazon’s ultrafast 30-minute deliveries are now available in more cities</div>
+      <div class="item-title-zh">亚马逊的超快速 30 分钟配送服务现已在更多城市推出</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">amazon · delivery · ecommerce · logistics · 30-minute delivery</div>
     </div>
-
-    <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">21</span><a href="https://www.bbc.com/news/articles/cvgznxn18zgo?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">Trump says Iran ceasefire is on &#x27;massive life support&#x27;</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">BBC · 8h ago</span></div>
-      <div class="item-en">US President Trump has described the proposed Iran ceasefire as being on &#x27;massive life support&#x27;, criticizing an Iranian counteroffer as &#x27;unbelievably weak&#x27;. This statement indicates a difficult path forward for ending the ongoing conflict.</div>
-      <div class="item-zh">美国总统特朗普形容提出的伊朗停火协议“命悬一线”，并批评伊朗的反建议“弱得不可思议”。这一表态表明结束当前冲突的前景艰难。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Amazon Now&#x27;s ultrafast 30-minute delivery service, initially tested in Seattle and Philadelphia, is now officially available to millions of Amazon shoppers across the United States. The service has expanded to Atlanta and Dallas-Fort Worth and is set to roll out further.</p>
+      <p class="summary-zh">最初在西雅图和费城测试的亚马逊 Now 超快速 30 分钟配送服务，现已正式在美国数百万亚马逊购物者中使用。该服务已扩展到亚特兰大和达拉斯-沃斯堡地区，并将进一步推广。</p>
     </div>
-
-    <div class="item" data-cat="World">
-      <div class="item-header"><span class="item-idx">22</span><a href="https://www.bbc.com/news/articles/ceqprgen1nyo?at_medium=RSS&amp;at_campaign=rss" class="item-title" target="_blank" rel="noopener">How the Trump-Xi summit could set superpower relations for many years to come</a></div>
-      <div class="item-meta"><span class="tag-inline">WORL</span><span class="item-source">BBC · 10h ago</span></div>
-      <div class="item-en">President Trump&#x27;s upcoming visit to China is presented as a potentially pivotal moment that could shape superpower relations for years to come. The article analyzes the significance of this summit and its potential outcomes.</div>
-      <div class="item-zh">即将举行的特朗普总统访华被视为一个可能塑造未来几年大国关系的决定性时刻。文章分析了此次峰会的重要性和潜在成果。</div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="TECH" data-tags="[&quot;waymo&quot;, &quot;autonomous vehicles&quot;, &quot;recall&quot;, &quot;robotaxi&quot;, &quot;safety&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en">Waymo recalls robotaxis for driving on flooded roads</div>
+      <div class="item-title-zh">Waymo 因允许自动驾驶汽车驶入淹水路段而召回机器人出租车</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">waymo · autonomous vehicles · recall · robotaxi · safety</div>
     </div>
-
-    <div class="section-header" data-cat="Science"><span class="bracket">[</span><span class="label">SCIENCE</span><span class="bracket">]</span><span class="num">3 items</span></div>
-
-    <div class="item" data-cat="Science">
-      <div class="item-header"><span class="item-idx">23</span><a href="https://www.newscientist.com/article/2526136-a-new-tectonic-plate-boundary-could-be-forming-in-southern-africa/?utm_campaign=RSS%7CNSNS&amp;utm_source=NSNS&amp;utm_medium=RSS&amp;utm_content=home" class="item-title" target="_blank" rel="noopener">A new tectonic plate boundary could be forming in southern Africa</a></div>
-      <div class="item-meta"><span class="tag-inline">SCIE</span><span class="item-source">New Scientist · 4h ago</span></div>
-      <div class="item-en">Scientists have found chemical evidence in Zambian mineral springs suggesting a new tectonic plate boundary may be forming in southern Africa. This indicates a potential rupture in the Earth&#x27;s mantle and the start of a new continental division.</div>
-      <div class="item-zh">科学家在赞比亚的矿泉水中发现了化学证据，表明非洲南部可能正在形成新的构造板块边界。这表明地幔可能发生断裂，并可能开始新的大陆分裂。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Waymo is recalling its autonomous driving software that allowed its vehicles to operate on flooded roads, affecting 3,791 vehicles. The Alphabet-owned company stated that an unoccupied robotaxi encountered an untraversable flooded section.</p>
+      <p class="summary-zh">Waymo 正在召回其允许车辆在淹水路段行驶的自动驾驶软件，此次召回影响了 3,791 辆汽车。这家 Alphabet 旗下的公司表示，一辆空置的机器人出租车遇到了一个无法通行的淹水路段。</p>
     </div>
-
-    <div class="item" data-cat="Science">
-      <div class="item-header"><span class="item-idx">24</span><a href="https://36kr.com/p/3804356346879495?f=rss" class="item-title" target="_blank" rel="noopener">量子计算走出“科幻片”，「波色量子」在肿瘤、脑机等领域交出百余个落地案例</a></div>
-      <div class="item-meta"><span class="tag-inline">SCIE</span><span class="item-source">36氪 · 9h ago</span></div>
-      <div class="item-en">Quantum computing is moving from science fiction to practical applications, with BoSe Quantum demonstrating over a hundred use cases in fields like oncology and brain-computer interfaces. The company has secured significant funding and aims to integrate quantum computing into scientific research.</div>
-      <div class="item-zh">量子计算正从科幻走向实际应用，波色量子在肿瘤学和脑机接口等领域展示了百余个用例。该公司已获得大量融资，并致力于将量子计算融入科学研究。</div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;strategy&quot;, &quot;market&quot;, &quot;investment&quot;, &quot;rating&quot;, &quot;bet&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en">Strategy: Rare Asymmetric Bet In A Stretched Market (Rating Upgrade)</div>
+      <div class="item-title-zh">策略：拉伸市场中的稀有非对称投注（评级上调）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">strategy · market · investment · rating · bet</div>
     </div>
-
-    <div class="item" data-cat="Science">
-      <div class="item-header"><span class="item-idx">25</span><a href="https://www.newscientist.com/article/2526004-the-story-of-the-first-human-tool-the-humble-container/?utm_campaign=RSS%7CNSNS&amp;utm_source=NSNS&amp;utm_medium=RSS&amp;utm_content=home" class="item-title" target="_blank" rel="noopener">The story of the first human tool: the humble container</a></div>
-      <div class="item-meta"><span class="tag-inline">SCIE</span><span class="item-source">New Scientist · 15h ago</span></div>
-      <div class="item-en">An analysis of ancient artifacts suggests that the container, a fundamental human tool, may have originated as early as 500,000 years ago. Tools like slings and early trays are cited as examples of early container development.</div>
-      <div class="item-zh">对古代文物的分析表明，作为一项基本的人类工具，容器可能早在50万年前就已出现。文章引用了投石袋和早期托盘等作为早期容器发展的例子。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article discusses a rare asymmetric bet within a market that is considered stretched, and it has received a rating upgrade. The specific details of the strategy and the reasons for the upgrade are likely elaborated upon within the full content.</p>
+      <p class="summary-zh">本文讨论了一个在被认为是拉伸的市场中进行的稀有非对称投注，并获得了评级上调。策略的具体细节和上调原因很可能在全文中有所阐述。</p>
     </div>
-
-    <div class="section-header" data-cat="Finance"><span class="bracket">[</span><span class="label">FINANCE</span><span class="bracket">]</span><span class="num">8 items</span></div>
-
-    <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">26</span><a href="https://seekingalpha.com/article/4902901-invesco-growth-and-income-fund-q1-2026-commentary?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Invesco Growth And Income Fund Q1 2026 Commentary</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">This is a commentary on the Invesco Growth And Income Fund&#x27;s performance and outlook for the first quarter of 2026. It likely analyzes market conditions and the fund&#x27;s strategies.</div>
-      <div class="item-zh">这是关于Invesco增长与收益基金2026年第一季度的业绩和展望的评论。它可能分析了市场状况和基金的策略。</div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;paypal&quot;, &quot;tech stocks&quot;, &quot;investment&quot;, &quot;valuation&quot;, &quot;buy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en">PayPal: One Of The Cheapest Large-Cap Tech Stocks Today - Why I Bought More</div>
+      <div class="item-title-zh">PayPal：当今最便宜的大盘科技股之一 - 我为什么又买了更多</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">paypal · tech stocks · investment · valuation · buy</div>
     </div>
-
-    <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">27</span><a href="https://www.marketwatch.com/story/the-hottest-stock-market-in-the-world-finally-met-its-match-taxes-55cf54c6?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">The hottest stock market in the world finally met its match: taxes</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · just now</span></div>
-      <div class="item-en">Taxes have emerged as a significant factor impacting one of the world&#x27;s most dynamic stock markets. The idea of taxing tech companies&#x27; booming profits has caused a notable shift in market sentiment.</div>
-      <div class="item-zh">税收已成为影响全球最活跃股市之一的关键因素。对科技公司蓬勃发展的利润征税的想法已引起市场情绪的显著转变。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author identifies PayPal as one of the cheapest large-cap technology stocks currently available in the market. They explain their reasoning for purchasing additional shares, suggesting a bullish outlook on the company&#x27;s valuation and future prospects.</p>
+      <p class="summary-zh">作者认为 PayPal 是当前市场上最便宜的大盘科技股之一。他们解释了为何再次增持该股票，暗示了对公司估值和未来前景的看涨态度。</p>
     </div>
-
-    <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">28</span><a href="https://seekingalpha.com/article/4902874-liquidia-stock-yutrepia-launch-momentum-approaching-ceiling-rating-downgrade?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Liquidia: Yutrepia&#x27;s Launch Momentum Is Approaching A Ceiling (Rating Downgrade)</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">Liquidia&#x27;s drug Yutrepia is facing diminishing launch momentum, leading to a rating downgrade. This suggests that the drug&#x27;s initial sales growth is slowing down and may not meet future expectations.</div>
-      <div class="item-zh">Liquidia的药物Yutrepia面临着发布势头减弱，导致评级下调。这表明该药物的初步销售增长正在放缓，可能无法达到未来的预期。</div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;nanox imaging&quot;, &quot;stock&quot;, &quot;valuation&quot;, &quot;investment&quot;, &quot;timing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en">Nano-X Imaging: Too Cheap To Ignore, Too Early To Buy</div>
+      <div class="item-title-zh">Nano-X Imaging：太便宜不容忽视，太早不宜买入</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nanox imaging · stock · valuation · investment · timing</div>
     </div>
-
-    <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">29</span><a href="https://seekingalpha.com/article/4902873-waystar-revised-guidance-does-not-imply-demand-weakness?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">Waystar: Revised Guidance Does Not Imply Demand Weakness</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">Waystar has revised its financial guidance, but this adjustment does not necessarily indicate a weakening in customer demand. The company&#x27;s updated outlook may be influenced by other factors.</div>
-      <div class="item-zh">Waystar已修正了其财务指引，但这一调整并不一定表示客户需求疲软。公司更新的展望可能受到其他因素的影响。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Nano-X Imaging is described as a stock that is too cheap to ignore, suggesting it may be undervalued. However, the article also cautions that it is too early to buy, implying potential risks or a need for further development before it becomes a prudent investment.</p>
+      <p class="summary-zh">Nano-X Imaging 被形容为一只便宜得不容忽视的股票，暗示其可能被低估。然而，文章也提醒现在买入为时过早，暗示存在潜在风险或需要进一步发展后才能成为明智的投资。</p>
     </div>
-
-    <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">30</span><a href="https://www.marketwatch.com/story/she-is-very-angry-with-me-my-daughter-has-drug-issues-should-i-take-half-the-profit-from-the-sale-of-her-house-e99a23d4?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">‘She is very angry with me’: My daughter has drug issues. Should I take half the profit from the sale of her house?</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · just now</span></div>
-      <div class="item-en">A person is seeking advice on whether to keep half the profit from selling their daughter&#x27;s house, given her drug issues. The underlying thought is to invest the money for her future recovery.</div>
-      <div class="item-zh">有人在咨询是否应该在女儿有毒瘾的情况下，保留她卖房所得的一半利润。其想法是将这笔钱投资于她未来的康复。</div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;alphabet&quot;, &quot;investment strategy&quot;, &quot;stocks&quot;, &quot;growth&quot;, &quot;portfolio&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en">Alphabet: Let Your Winners Run</div>
+      <div class="item-title-zh">Alphabet：让你的赢家奔跑</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">alphabet · investment strategy · stocks · growth · portfolio</div>
     </div>
-
-    <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">31</span><a href="https://seekingalpha.com/article/4902872-its-just-plane-obvious-delta-is-set-to-benefit-from-the-jet-fuel-crisis?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">It&#x27;s Just Plane Obvious: Delta Is Set To Benefit From The Jet Fuel Crisis</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">Delta is poised to benefit from the ongoing jet fuel crisis, suggesting the airline&#x27;s operational model or market position will allow it to capitalize on rising fuel costs. This situation is described as &quot;just plane obvious.&quot;</div>
-      <div class="item-zh">达美航空有望从持续的航空燃油危机中获益，这表明该航空公司的运营模式或市场地位将使其能够从不断上涨的燃油成本中获利。这种情况被描述为“显而易见”。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This investment strategy piece advises investors to &quot;let their winners run,&quot; implying a focus on holding onto successful investments for longer periods. The article likely provides guidance on identifying and managing such winning stocks within Alphabet&#x27;s portfolio.</p>
+      <p class="summary-zh">这篇投资策略文章建议投资者“让他们的赢家奔跑”，暗示应长期持有成功的投资。文章可能提供了识别和管理 Alphabet 投资组合中这些获胜股票的指导。</p>
     </div>
-
-    <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">32</span><a href="https://seekingalpha.com/article/4902852-agc-inc-asgly-q1-2026-earnings-call-transcript?source=feed_all_articles" class="item-title" target="_blank" rel="noopener">AGC Inc. (ASGLY) Q1 2026 Earnings Call Transcript</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">Seeking Alpha · just now</span></div>
-      <div class="item-en">This is a transcript of AGC Inc.&#x27;s (ASGLY) earnings call for the first quarter of 2026. It provides detailed financial results and management commentary on the company&#x27;s performance.</div>
-      <div class="item-zh">这是AGC公司（ASGLY）2026年第一季度财报电话会议的文字记录。它提供了详细的财务业绩和管理层对公司业绩的评论。</div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;silvercrest&quot;, &quot;earnings call&quot;, &quot;financials&quot;, &quot;asset management&quot;, &quot;q1 2026&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en">Silvercrest Asset Management Group Inc. (SAMG) Q1 2026 Earnings Call Transcript</div>
+      <div class="item-title-zh">Silvercrest Asset Management Group Inc. (SAMG) 2026 年第一季度财报电话会议记录</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">silvercrest · earnings call · financials · asset management · q1 2026</div>
     </div>
-
-    <div class="item" data-cat="Finance">
-      <div class="item-header"><span class="item-idx">33</span><a href="https://www.marketwatch.com/story/irens-stock-pulls-back-as-investors-assess-the-steep-price-of-the-ai-buildout-3013b59b?mod=mw_rss_topstories" class="item-title" target="_blank" rel="noopener">Iren’s stock pulls back as investors assess the steep price of the AI buildout</a></div>
-      <div class="item-meta"><span class="tag-inline">FINA</span><span class="item-source">MarketWatch · 8h ago</span></div>
-      <div class="item-en">Iren&#x27;s stock has experienced a pullback as investors evaluate the significant costs associated with the AI buildout and a new partnership with Nvidia. An analyst believes the recent stock drop is an overreaction.</div>
-      <div class="item-zh">Iren的股价出现回调，因为投资者正在评估人工智能建设和与英伟达新合作相关的巨额成本。一位分析师认为最近的股价下跌是过度反应。</div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This is the transcript of the Q1 2026 earnings call for Silvercrest Asset Management Group Inc. (SAMG). It provides insights into the company&#x27;s financial performance, operational highlights, and future outlook as discussed by its management during the call.</p>
+      <p class="summary-zh">这是 Silvercrest Asset Management Group Inc. (SAMG) 2026 年第一季度财报电话会议的记录。它提供了该公司管理层在电话会议上讨论的公司财务表现、运营亮点和未来前景的见解。</p>
     </div>
-
-
-    <div class="archive-nav">archive: <a href="/archive/2026-05-11.html">2026-05-11</a> · <a href="/archive/2026-05-10.html">2026-05-10</a> · <a href="/archive/2026-05-09.html">2026-05-09</a> · <a href="/archive/2026-05-08.html">2026-05-08</a> · <a href="/archive/2026-05-07.html">2026-05-07</a> · <a href="/archive/2026-05-06.html">2026-05-06</a> · <a href="/archive/2026-05-05.html">2026-05-05</a></div>
-
-    <div class="footer-line">
-      <span class="ok">✓</span>
-      done · 33 fetched · next update in ~24h · updated 09:31 UTC
-      <span class="cursor"></span>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;buzzfeed&quot;, &quot;stock&quot;, &quot;acquisition&quot;, &quot;media&quot;, &quot;investment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en">BuzzFeed’s stock more than doubles as beleaguered media company gets a lifeline</div>
+      <div class="item-title-zh">BuzzFeed 股价翻倍，困境中的媒体公司获得一线生机</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">buzzfeed · stock · acquisition · media · investment</div>
     </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">BuzzFeed&#x27;s stock price has more than doubled following an agreement for Byron Allen&#x27;s family office to acquire a majority stake in the company. This investment provides a significant lifeline to the beleaguered media company.</p>
+      <p class="summary-zh">在拜伦·艾伦的家族办公室同意收购该公司多数股权后，BuzzFeed 的股价翻了一番多。这项投资为这家陷入困境的媒体公司提供了重要的生机。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;family finance&quot;, &quot;addiction&quot;, &quot;inheritance&quot;, &quot;money management&quot;, &quot;advice&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en">‘She is very angry with me’: My daughter, 30, has issues with drugs. Should I take half the profit from the sale of her house?</div>
+      <div class="item-title-zh">“她非常生我的气”：我30岁的女儿有毒品问题，我是否应该拿走她房产出售所得的一半利润？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">family finance · addiction · inheritance · money management · advice</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A parent is seeking advice on whether to take half the profit from the sale of their 30-year-old daughter&#x27;s house, who is struggling with drug addiction. The parent&#x27;s intention is to invest the money on her behalf for future use when she recovers.</p>
+      <p class="summary-zh">一位父母正在寻求建议，关于是否应拿走他们30岁、正在与毒瘾作斗争的女儿房产出售所得的一半利润。父母的意图是代表她投资这笔钱，以备将来她康复时使用。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="FINA" data-tags="[&quot;ebay&quot;, &quot;gamestop&quot;, &quot;acquisition&quot;, &quot;takeover&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en">eBay rejects $55.5bn offer from GameStop</div>
+      <div class="item-title-zh">eBay 拒绝 GameStop 提出的 555 亿美元收购要约</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ebay · gamestop · acquisition · takeover · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">eBay has rejected a $55.5 billion takeover bid from the video game retailer GameStop. The online auction company expressed doubts about GameStop&#x27;s ability to finance such a significant acquisition.</p>
+      <p class="summary-zh">eBay 拒绝了视频游戏零售商 GameStop 提出的 555 亿美元收购要约。这家在线拍卖公司对 GameStop 融资如此巨额收购的能力表示怀疑。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;pcos&quot;, &quot;pmos&quot;, &quot;medical terminology&quot;, &quot;syndrome&quot;, &quot;health&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en">PCOS has been officially renamed PMOS, and it’s a momentous move</div>
+      <div class="item-title-zh">PCOS 已正式更名为 PMOS，这是一个重大的举措</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">pcos · pmos · medical terminology · syndrome · health</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Polycystic Ovary Syndrome (PCOS) has been officially renamed Polyendocrine Metabolic Ovarian Syndrome (PMOS). This renaming is described as a momentous move and has been long-awaited by individuals like Alice Klein, who has the condition.</p>
+      <p class="summary-zh">多囊卵巢综合征（PCOS）已正式更名为多内分泌代谢性卵巢综合征（PMOS）。这一更名被描述为一个意义重大的举措，对于患有此病的 Alice Klein 等个人来说，是期待已久的。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;geology&quot;, &quot;tectonic plates&quot;, &quot;earth science&quot;, &quot;africa&quot;, &quot;continental drift&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en">A new tectonic plate boundary could be forming in southern Africa</div>
+      <div class="item-title-zh">南部非洲可能正在形成新的构造板块边界</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 9h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">geology · tectonic plates · earth science · africa · continental drift</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Analysis of gases from boiling mineral springs in Zambia reveals a chemical signature originating from the Earth&#x27;s mantle. This finding suggests a rupture in the tectonic plates and the potential formation of a new continental boundary in southern Africa.</p>
+      <p class="summary-zh">对赞比亚沸腾的矿泉水中气体的分析显示，其化学特征源自地幔。这一发现表明南部非洲的构造板块可能正在破裂，并可能形成新的大陆边界。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="WORLD" data-tags="[&quot;uganda&quot;, &quot;politics&quot;, &quot;election&quot;, &quot;president&quot;, &quot;long rule&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en">Uganda&#x27;s president sworn in for record seventh term</div>
+      <div class="item-title-zh">乌干达总统宣誓就任创纪录的第七个任期</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">uganda · politics · election · president · long rule</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Yoweri Museveni has been sworn in for his seventh term as President of Uganda, extending his 40-year rule after winning disputed elections in January. The inauguration marks a significant moment in the country&#x27;s political history.</p>
+      <p class="summary-zh">约韦里·穆塞韦尼已宣誓就任乌干达总统，开启其创纪录的第七个任期，在赢得 1 月份备受争议的选举后，他将延长其 40 年的统治。就职典礼标志着该国政治史上的一个重要时刻。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="WORLD" data-tags="[&quot;hantavirus&quot;, &quot;outbreak&quot;, &quot;health agency&quot;, &quot;who&quot;, &quot;disease monitoring&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en">No sign of larger hantavirus outbreak, says UN health agency</div>
+      <div class="item-title-zh">联合国卫生机构称未出现更大的汉坦病毒疫情迹象</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">hantavirus · outbreak · health agency · who · disease monitoring</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The UN health agency has reported no signs of a larger hantavirus outbreak, although the head of the World Health Organization warns that the situation could change. The agency is monitoring for any potential increase in confirmed cases.</p>
+      <p class="summary-zh">联合国卫生机构报告称未发现更大的汉坦病毒疫情迹象，尽管世界卫生组织负责人警告情况仍可能发生变化。该机构正在监测任何确诊病例可能增加的情况。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;trump&quot;, &quot;iran&quot;, &quot;ceasefire&quot;, &quot;politics&quot;, &quot;middle east&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en">Trump says Iran ceasefire is on &#x27;massive life support&#x27;</div>
+      <div class="item-title-zh">特朗普称伊朗停火“命悬一线”</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 13h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">trump · iran · ceasefire · politics · middle east</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">US President Trump has criticized an Iranian counteroffer for a ceasefire, describing it as &quot;unbelievably weak&quot; and stating that the month-long ceasefire is on &quot;massive life support.&quot; This indicates significant disagreement and challenges in reaching a resolution to the conflict.</p>
+      <p class="summary-zh">美国总统特朗普批评了伊朗提出的停火反要约，称其“令人难以置信的软弱”，并表示为期一个月的停火“命悬一线”。这表明在达成冲突解决方案方面存在重大分歧和挑战。</p>
+    </div>
+  </div>
+</div>
+      </div>
+      <button class="load-more-btn" id="load-more">
+        <span class="c-accent">$</span> load --more
+      </button>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-05-12.html">2026-05-12</a>
+<a class="archive-date" href="/archive/2026-05-11.html">2026-05-11</a>
+<a class="archive-date" href="/archive/2026-05-10.html">2026-05-10</a>
+<a class="archive-date" href="/archive/2026-05-09.html">2026-05-09</a>
+<a class="archive-date" href="/archive/2026-05-08.html">2026-05-08</a>
+<a class="archive-date" href="/archive/2026-05-07.html">2026-05-07</a>
+<a class="archive-date" href="/archive/2026-05-06.html">2026-05-06</a>
+<a class="archive-date" href="/archive/2026-05-05.html">2026-05-05</a>
+<a class="archive-date" href="/archive/2026-05-04.html">2026-05-04</a>
+<a class="archive-date" href="/archive/2026-05-03.html">2026-05-03</a>
+<a class="archive-date" href="/archive/2026-05-02.html">2026-05-02</a>
+<a class="archive-date" href="/archive/2026-05-01.html">2026-05-01</a>
+<a class="archive-date" href="/archive/2026-04-30.html">2026-04-30</a>
+<a class="archive-date" href="/archive/2026-04-29.html">2026-04-29</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">26 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">14:55 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-05-12.html">2026-05-12</a>
+<a class="archive-date" href="/archive/2026-05-11.html">2026-05-11</a>
+<a class="archive-date" href="/archive/2026-05-10.html">2026-05-10</a>
+<a class="archive-date" href="/archive/2026-05-09.html">2026-05-09</a>
+<a class="archive-date" href="/archive/2026-05-08.html">2026-05-08</a>
+<a class="archive-date" href="/archive/2026-05-07.html">2026-05-07</a>
+<a class="archive-date" href="/archive/2026-05-06.html">2026-05-06</a>
+<a class="archive-date" href="/archive/2026-05-05.html">2026-05-05</a>
+<a class="archive-date" href="/archive/2026-05-04.html">2026-05-04</a>
+<a class="archive-date" href="/archive/2026-05-03.html">2026-05-03</a>
+<a class="archive-date" href="/archive/2026-05-02.html">2026-05-02</a>
+<a class="archive-date" href="/archive/2026-05-01.html">2026-05-01</a>
+<a class="archive-date" href="/archive/2026-04-30.html">2026-04-30</a>
+<a class="archive-date" href="/archive/2026-04-29.html">2026-04-29</a>
 
   </div>
 </div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
 
 <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js');
-  }
+(function() {
+  'use strict';
 
-  (function() {
-    const btn = document.getElementById('theme-toggle');
-    const root = document.documentElement;
-    const saved = localStorage.getItem('theme') || 'light';
-    root.dataset.theme = saved;
-    btn.textContent = saved === 'dark' ? 'light' : 'dark';
-    btn.addEventListener('click', () => {
-      const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
-      root.dataset.theme = next;
-      localStorage.setItem('theme', next);
-      btn.textContent = next === 'dark' ? 'light' : 'dark';
+  // ── State ───────────────────────────────────────────────────────
+  var _saved = localStorage.getItem('theme');
+  var dark = _saved ? _saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+  var activeCat = 'ALL';
+  var visible = 8;
+  var votes;
+  try { votes = JSON.parse(localStorage.getItem('db-votes') || '{}'); } catch(e) { votes = {}; }
+  var activeSheet = null;
+  var voteTimers = {};
+
+  var items = [].slice.call(document.querySelectorAll('.item'));
+
+  // ── Theme ───────────────────────────────────────────────────────
+  function applyTheme() {
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    document.querySelectorAll('.theme-btn').forEach(function(b) {
+      b.textContent = dark ? 'light' : 'dark';
     });
-  })();
-
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const cat = btn.dataset.cat;
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      document.querySelectorAll('.item, .section-header').forEach(el => {
-        el.style.display = (cat === 'all' || el.dataset.cat === cat) ? '' : 'none';
-      });
+  }
+  document.querySelectorAll('.theme-btn').forEach(function(b) {
+    b.addEventListener('click', function() {
+      dark = !dark;
+      localStorage.setItem('theme', dark ? 'dark' : 'light');
+      applyTheme();
     });
   });
+
+  // ── Category filter ─────────────────────────────────────────────
+  function pickCat(cat) {
+    activeCat = cat;
+    visible = 8;
+    document.querySelectorAll('.cat-btn, .cat-tab').forEach(function(b) {
+      b.classList.toggle('active', b.dataset.cat === cat);
+    });
+    updateItems();
+    closeSheet();
+  }
+  document.querySelectorAll('.cat-btn, .cat-tab').forEach(function(b) {
+    b.addEventListener('click', function() { pickCat(b.dataset.cat); });
+  });
+
+  // ── Items visibility ────────────────────────────────────────────
+  function updateItems() {
+    var filtered = activeCat === 'ALL'
+      ? items
+      : items.filter(function(el) { return el.dataset.cat === activeCat; });
+    items.forEach(function(el) { el.hidden = true; });
+    var shown = filtered.slice(0, visible);
+    shown.forEach(function(el) { el.hidden = false; });
+    document.querySelectorAll('.active-label').forEach(function(el) {
+      el.innerHTML = '<span class="c-accent">[' + activeCat + ']</span> ' + shown.length + ' items';
+    });
+    var btn = document.getElementById('load-more');
+    if (btn) btn.hidden = filtered.length <= visible;
+  }
+
+  var loadMoreBtn = document.getElementById('load-more');
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', function() {
+      visible += 4;
+      updateItems();
+    });
+  }
+
+  // ── Expand / collapse ───────────────────────────────────────────
+  items.forEach(function(el) {
+    var row = el.querySelector('.item-row');
+    if (!row) return;
+    row.addEventListener('click', function(e) {
+      if (e.target.closest && e.target.closest('.vote-btn')) return;
+      el.classList.toggle('expanded');
+    });
+  });
+
+  // ── Votes ───────────────────────────────────────────────────────
+  function updateVoteUI(id) {
+    var v = votes[id];
+    var up = document.querySelector('.vote-btn[data-id="' + id + '"][data-val="1"]');
+    var dn = document.querySelector('.vote-btn[data-id="' + id + '"][data-val="-1"]');
+    if (up) up.className = 'vote-btn' + (v === 1  ? ' voted-up' : '');
+    if (dn) dn.className = 'vote-btn' + (v === -1 ? ' voted-dn' : '');
+  }
+
+  items.forEach(function(el) { updateVoteUI(el.dataset.id); });
+
+  document.addEventListener('click', function(e) {
+    var btn = e.target.closest && e.target.closest('.vote-btn');
+    if (!btn) return;
+    e.stopPropagation();
+    var id  = btn.dataset.id;
+    var val = +btn.dataset.val;
+    if (votes[id] === val) delete votes[id]; else votes[id] = val;
+    localStorage.setItem('db-votes', JSON.stringify(votes));
+    updateVoteUI(id);
+    var cls = val === 1 ? 'vote-up' : 'vote-down';
+    var key = id + '_' + val;
+    btn.classList.remove(cls);
+    clearTimeout(voteTimers[key]);
+    void btn.offsetWidth; // force reflow to replay animation
+    btn.classList.add(cls);
+    voteTimers[key] = setTimeout(function() { btn.classList.remove(cls); }, 350);
+    renderPrefs();
+  });
+
+  // ── Inferred preferences ────────────────────────────────────────
+  function computeTagPrefs() {
+    var scores = {};
+    items.forEach(function(el) {
+      var v = votes[el.dataset.id];
+      if (v === undefined) return;
+      try {
+        JSON.parse(el.dataset.tags || '[]').forEach(function(tag) {
+          scores[tag] = (scores[tag] || 0) + v;
+        });
+      } catch(e) {}
+    });
+    return Object.keys(scores)
+      .map(function(t) { return {tag: t, score: scores[t]}; })
+      .filter(function(t) { return t.score !== 0; })
+      .sort(function(a, b) { return Math.abs(b.score) - Math.abs(a.score); })
+      .slice(0, 7);
+  }
+
+  function bar(n, filled) {
+    var s = ''; var k = Math.min(Math.abs(n), 4);
+    for (var i = 0; i < k; i++) s += filled;
+    for (var i = k; i < 4; i++) s += '░';
+    return s;
+  }
+
+  function renderPrefs() {
+    var prefs   = computeTagPrefs();
+    var boosts  = prefs.filter(function(t) { return t.score > 0; });
+    var filters = prefs.filter(function(t) { return t.score < 0; });
+    var h = '<div class="prefs-hdr">inferred</div>';
+    if (!prefs.length) {
+      h += '<div class="prefs-hint">↑↓ stories to<br>personalize feed</div>';
+    } else {
+      if (boosts.length) {
+        h += '<div class="prefs-group">BOOST</div>';
+        boosts.forEach(function(t) {
+          h += '<div class="prefs-row"><span class="prefs-tag">' + t.tag + '</span>'
+             + '<span class="prefs-bar boost">' + bar(t.score, '█') + '</span></div>';
+        });
+      }
+      if (filters.length) {
+        h += '<div class="prefs-group mt">FILTER</div>';
+        filters.forEach(function(t) {
+          h += '<div class="prefs-row"><span class="prefs-tag">' + t.tag + '</span>'
+             + '<span class="prefs-bar filter">' + bar(t.score, '▒') + '</span></div>';
+        });
+      }
+      h += '<div class="prefs-div"></div>';
+      h += '<div class="prefs-group">EXPLORE</div>';
+      h += '<div class="prefs-explore">~20% unrelated</div>';
+      h += '<div class="prefs-seren">serendipity always on</div>';
+      h += '<div class="prefs-next">→ next update</div>';
+    }
+    document.querySelectorAll('.prefs-body').forEach(function(el) {
+      el.innerHTML = h;
+    });
+  }
+
+  // ── Mobile bottom sheets ────────────────────────────────────────
+  var backdrop = document.getElementById('backdrop');
+
+  function openSheet(id) {
+    activeSheet = id;
+    document.getElementById('sheet-' + id).classList.add('open');
+    if (backdrop) backdrop.classList.add('visible');
+    var nb = document.getElementById('btn-' + id);
+    if (nb) nb.style.color = '#5fb3a1';
+  }
+
+  function closeSheet() {
+    if (!activeSheet) return;
+    var s = document.getElementById('sheet-' + activeSheet);
+    if (s) s.classList.remove('open');
+    if (backdrop) backdrop.classList.remove('visible');
+    var nb = document.getElementById('btn-' + activeSheet);
+    if (nb) nb.style.color = '';
+    activeSheet = null;
+  }
+
+  ['archive', 'prefs'].forEach(function(id) {
+    var btn = document.getElementById('btn-' + id);
+    if (!btn) return;
+    btn.addEventListener('click', function() {
+      if (activeSheet === id) closeSheet(); else { closeSheet(); openSheet(id); }
+    });
+  });
+
+  document.querySelectorAll('.sheet-close').forEach(function(btn) {
+    btn.addEventListener('click', closeSheet);
+  });
+
+  if (backdrop) backdrop.addEventListener('click', closeSheet);
+
+  // ── Init ────────────────────────────────────────────────────────
+  applyTheme();
+  updateItems();
+  renderPrefs();
+
+  // Expand first visible item
+  for (var i = 0; i < items.length; i++) {
+    if (!items[i].hidden) { items[i].classList.add('expanded'); break; }
+  }
+})();
 </script>
 </body>
 </html>
