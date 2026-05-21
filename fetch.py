@@ -10,7 +10,7 @@ import re
 import sys
 import time
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from html import escape
 
 import feedparser
@@ -40,6 +40,9 @@ MAX_PER_CAT    = 8
 GEMINI_MODEL   = "gemini-2.5-flash-lite"
 CATEGORY_ORDER = ["AI", "TECH", "FINA", "SCI", "WORLD"]
 
+SUPA_URL = os.environ.get("SUPABASE_URL", "")
+SUPA_KEY = os.environ.get("SUPABASE_KEY", "")
+
 # ── HTML Template ─────────────────────────────────────────────────────────────
 # Placeholders filled by generate_html():
 #   __CAT_NAV__       desktop left-sidebar category buttons
@@ -52,6 +55,8 @@ CATEGORY_ORDER = ["AI", "TECH", "FINA", "SCI", "WORLD"]
 #   __ARCHIVE__       archive date links (used twice: desktop + mobile sheet)
 #   __STATUS_TOTAL__  same as BRIEF_TOTAL
 #   __STATUS_TIME__   "HH:MM UTC"
+#   __SUPABASE_URL__  Supabase project URL (empty string if not configured)
+#   __SUPABASE_KEY__  Supabase anon key   (empty string if not configured)
 
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="zh">
@@ -124,7 +129,9 @@ body{
   display:flex;
   flex-direction:column;
   flex-shrink:0;
+  transition:width .3s ease,height .3s ease,border-radius .3s ease;
 }
+#app.maximized{width:calc(100vw - 64px);height:calc(100vh - 64px);border-radius:4px}
 [data-theme="light"] #app{box-shadow:0 8px 36px rgba(0,0,0,.12)}
 
 /* ── Window chrome ──────────────────────────────── */
@@ -141,7 +148,7 @@ body{
 .chrome-dot{width:12px;height:12px;border-radius:50%}
 .chrome-dot-r{background:#ff5f57}
 .chrome-dot-y{background:#febc2e}
-.chrome-dot-g{background:#28c840}
+.chrome-dot-g{background:#28c840;cursor:pointer}
 .chrome-title{font-size:12px;color:var(--dim)}
 
 /* ── Three-column layout ────────────────────────── */
@@ -305,19 +312,6 @@ body{
 .summary-zh{font-size:11px;line-height:1.8;color:var(--dim)}
 .summary-zh::before{content:'# '}
 
-/* ── Load more ──────────────────────────────────── */
-.load-more-btn{
-  display:block;
-  width:calc(100% - 44px);
-  margin:14px 22px;
-  background:none;
-  border:1px solid var(--bd);
-  color:var(--dim);
-  padding:8px 0;
-  font-size:12px;
-  text-align:center;
-}
-.load-more-btn:hover{border-color:var(--accent);color:var(--fg)}
 
 /* ── Archive list ───────────────────────────────── */
 .archive-list{flex:1;overflow-y:auto;padding:6px 0}
@@ -430,7 +424,6 @@ body{
   .active-label{padding:7px 16px}
   .item-row{padding:12px 16px}
   .item-summary-inner{padding:0 16px 14px 44px}
-  .load-more-btn{width:calc(100% - 32px);margin:12px 16px}
 
   /* mobile bottom nav */
   .mobile-nav{
@@ -542,9 +535,6 @@ body{
       <div id="items-list">
         __ITEMS__
       </div>
-      <button class="load-more-btn" id="load-more">
-        <span class="c-accent">$</span> load --more
-      </button>
     </main>
 
     <!-- RIGHT: archive + inferred prefs + status -->
@@ -595,6 +585,11 @@ body{
 </div>
 
 <script>
+var SUPA_URL='__SUPABASE_URL__';
+var SUPA_KEY='__SUPABASE_KEY__';
+var TODAY='__TODAY__';
+</script>
+<script>
 (function() {
   'use strict';
 
@@ -602,7 +597,6 @@ body{
   var _saved = localStorage.getItem('theme');
   var dark = _saved ? _saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
   var activeCat = 'ALL';
-  var visible = 8;
   var votes;
   try { votes = JSON.parse(localStorage.getItem('db-votes') || '{}'); } catch(e) { votes = {}; }
   var activeSheet = null;
@@ -625,10 +619,20 @@ body{
     });
   });
 
-  // ── Category filter ─────────────────────────────────────────────
+  // ── Maximize (green dot + dblclick title) ───────────────────────
+  var app = document.getElementById('app');
+  function toggleMaximize() { app.classList.toggle('maximized'); }
+  var greenDot = document.querySelector('.chrome-dot-g');
+  if (greenDot) greenDot.addEventListener('click', function(e) { e.stopPropagation(); toggleMaximize(); });
+  var winChrome = document.querySelector('.window-chrome');
+  if (winChrome) winChrome.addEventListener('dblclick', function(e) {
+    if (e.target.closest && e.target.closest('.theme-btn')) return;
+    toggleMaximize();
+  });
+
+    // ── Category filter ─────────────────────────────────────────────
   function pickCat(cat) {
     activeCat = cat;
-    visible = 8;
     document.querySelectorAll('.cat-btn, .cat-tab').forEach(function(b) {
       b.classList.toggle('active', b.dataset.cat === cat);
     });
@@ -645,20 +649,9 @@ body{
       ? items
       : items.filter(function(el) { return el.dataset.cat === activeCat; });
     items.forEach(function(el) { el.hidden = true; });
-    var shown = filtered.slice(0, visible);
-    shown.forEach(function(el) { el.hidden = false; });
+    filtered.forEach(function(el) { el.hidden = false; });
     document.querySelectorAll('.active-label').forEach(function(el) {
-      el.innerHTML = '<span class="c-accent">[' + activeCat + ']</span> ' + shown.length + ' items';
-    });
-    var btn = document.getElementById('load-more');
-    if (btn) btn.hidden = filtered.length <= visible;
-  }
-
-  var loadMoreBtn = document.getElementById('load-more');
-  if (loadMoreBtn) {
-    loadMoreBtn.addEventListener('click', function() {
-      visible += 4;
-      updateItems();
+      el.innerHTML = '<span class="c-accent">[' + activeCat + ']</span> ' + filtered.length + ' items';
     });
   }
 
@@ -672,7 +665,39 @@ body{
     });
   });
 
-  // ── Votes ───────────────────────────────────────────────────────
+  // ── Supabase ────────────────────────────────────────────────────
+  function supaFetch(method, path, body, prefer) {
+    if (!SUPA_URL || !SUPA_KEY) return;
+    var headers = {'apikey': SUPA_KEY, 'Authorization': 'Bearer ' + SUPA_KEY, 'Content-Type': 'application/json'};
+    if (prefer) headers['Prefer'] = prefer;
+    fetch(SUPA_URL + '/rest/v1/' + path, {method: method, headers: headers, body: body ? JSON.stringify(body) : undefined}).catch(function() {});
+  }
+
+  function supaUpsert(articleKey, tags, vote) {
+    supaFetch('POST', 'votes', {article_key: articleKey, date: TODAY, tags: tags, vote: vote}, 'resolution=merge-duplicates');
+  }
+
+  function supaDelete(articleKey) {
+    supaFetch('DELETE', 'votes?article_key=eq.' + encodeURIComponent(articleKey));
+  }
+
+  function loadVotes() {
+    if (!SUPA_URL || !SUPA_KEY) return;
+    fetch(SUPA_URL + '/rest/v1/votes?select=article_key,vote&date=eq.' + TODAY, {
+      headers: {'apikey': SUPA_KEY, 'Authorization': 'Bearer ' + SUPA_KEY}
+    }).then(function(r) { return r.json(); }).then(function(data) {
+      if (!Array.isArray(data)) return;
+      data.forEach(function(row) {
+        var id = row.article_key.split('-').pop();
+        votes[id] = row.vote;
+      });
+      localStorage.setItem('db-votes', JSON.stringify(votes));
+      items.forEach(function(el) { updateVoteUI(el.dataset.id); });
+      renderPrefs();
+    }).catch(function() {});
+  }
+
+    // ── Votes ───────────────────────────────────────────────────────
   function updateVoteUI(id) {
     var v = votes[id];
     var up = document.querySelector('.vote-btn[data-id="' + id + '"][data-val="1"]');
@@ -689,14 +714,23 @@ body{
     e.stopPropagation();
     var id  = btn.dataset.id;
     var val = +btn.dataset.val;
-    if (votes[id] === val) delete votes[id]; else votes[id] = val;
+    var articleKey = TODAY + '-' + id;
+    if (votes[id] === val) {
+      delete votes[id];
+      supaDelete(articleKey);
+    } else {
+      votes[id] = val;
+      var tags = [];
+      try { var itemEl = document.querySelector('.item[data-id="' + id + '"]'); tags = JSON.parse((itemEl && itemEl.dataset.tags) || '[]'); } catch(ex) {}
+      supaUpsert(articleKey, tags, val);
+    }
     localStorage.setItem('db-votes', JSON.stringify(votes));
     updateVoteUI(id);
     var cls = val === 1 ? 'vote-up' : 'vote-down';
     var key = id + '_' + val;
     btn.classList.remove(cls);
     clearTimeout(voteTimers[key]);
-    void btn.offsetWidth; // force reflow to replay animation
+    void btn.offsetWidth;
     btn.classList.add(cls);
     voteTimers[key] = setTimeout(function() { btn.classList.remove(cls); }, 350);
     renderPrefs();
@@ -800,6 +834,7 @@ body{
   applyTheme();
   updateItems();
   renderPrefs();
+  loadVotes();
 
   // Expand first visible item
   for (var i = 0; i < items.length; i++) {
@@ -842,6 +877,33 @@ def fetch_feed(url: str, timeout: int = 15):
     except Exception as e:
         print(f"  ✗ {url}: {e}", file=sys.stderr)
         return None
+
+# ── Supabase ─────────────────────────────────────────────────────────────────
+
+def read_votes() -> list[dict]:
+    if not SUPA_URL or not SUPA_KEY:
+        return []
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=14)).strftime("%Y-%m-%d")
+    url = f"{SUPA_URL}/rest/v1/votes?select=tags,vote&date=gte.{cutoff}"
+    req = urllib.request.Request(
+        url, headers={"apikey": SUPA_KEY, "Authorization": f"Bearer {SUPA_KEY}"}
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=10) as f:
+            return json.loads(f.read())
+    except Exception as e:
+        print(f"  ✗ Supabase read_votes: {e}", file=sys.stderr)
+        return []
+
+
+def compute_tag_scores(votes: list[dict]) -> dict[str, int]:
+    scores: dict[str, int] = {}
+    for row in votes:
+        v = row.get("vote", 0)
+        for tag in (row.get("tags") or []):
+            scores[tag] = scores.get(tag, 0) + v
+    return scores
+
 
 # ── Fetch ─────────────────────────────────────────────────────────────────────
 
@@ -1007,10 +1069,18 @@ def get_archive_dates() -> list[str]:
     )[:14]
 
 
-def apply_cat_limit(items: list[dict]) -> tuple[list[dict], dict[str, list]]:
+def apply_cat_limit(
+    items: list[dict], tag_scores: dict[str, int] | None = None
+) -> tuple[list[dict], dict[str, list]]:
     groups: dict[str, list] = {}
     for item in items:
         groups.setdefault(item["category"], []).append(item)
+    if tag_scores:
+        for cat in groups:
+            groups[cat].sort(
+                key=lambda x: sum(tag_scores.get(t, 0) for t in x.get("tags", [])),
+                reverse=True,
+            )
     capped: list[dict] = []
     capped_groups: dict[str, list] = {}
     for cat in CATEGORY_ORDER:
@@ -1021,30 +1091,40 @@ def apply_cat_limit(items: list[dict]) -> tuple[list[dict], dict[str, list]]:
     return capped, capped_groups
 
 
-def generate_html(items: list[dict]) -> str:
+def generate_html(items: list[dict], tag_scores: dict[str, int] | None = None) -> str:
     now = datetime.now(timezone.utc)
-    items, groups = apply_cat_limit(items)
+    items, groups = apply_cat_limit(items, tag_scores)
     total = len(items)
 
     items_html = "".join(build_item(item, i + 1, i == 0) for i, item in enumerate(items))
     archive_html = build_archive_list(get_archive_dates())
 
     html = HTML_TEMPLATE
-    html = html.replace("__CAT_NAV__",      build_cat_nav(groups, total))
-    html = html.replace("__CAT_TABS__",     build_cat_tabs(groups))
-    html = html.replace("__PROMPT_DATE__",  now.strftime("%Y-%m-%d"))
-    html = html.replace("__BRIEF_DATE__",   now.strftime("%a %b %d %Y"))
-    html = html.replace("__BRIEF_TOTAL__",  str(total))
-    html = html.replace("__BRIEF_MODEL__",  GEMINI_MODEL)
-    html = html.replace("__ITEMS__",        items_html)
-    html = html.replace("__ARCHIVE__",      archive_html)  # replaces both occurrences
-    html = html.replace("__STATUS_TOTAL__", str(total))
-    html = html.replace("__STATUS_TIME__",  now.strftime("%H:%M UTC"))
+    html = html.replace("__CAT_NAV__",       build_cat_nav(groups, total))
+    html = html.replace("__CAT_TABS__",      build_cat_tabs(groups))
+    html = html.replace("__PROMPT_DATE__",   now.strftime("%Y-%m-%d"))
+    html = html.replace("__BRIEF_DATE__",    now.strftime("%a %b %d %Y"))
+    html = html.replace("__BRIEF_TOTAL__",   str(total))
+    html = html.replace("__BRIEF_MODEL__",   GEMINI_MODEL)
+    html = html.replace("__ITEMS__",         items_html)
+    html = html.replace("__ARCHIVE__",       archive_html)  # replaces both occurrences
+    html = html.replace("__STATUS_TOTAL__",  str(total))
+    html = html.replace("__STATUS_TIME__",   now.strftime("%H:%M UTC"))
+    html = html.replace("__SUPABASE_URL__",  SUPA_URL)
+    html = html.replace("__SUPABASE_KEY__",  SUPA_KEY)
+    html = html.replace("__TODAY__",         now.strftime("%Y-%m-%d"))
     return html
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
+    print("▶ reading votes from Supabase...", file=sys.stderr)
+    vote_rows  = read_votes()
+    tag_scores = compute_tag_scores(vote_rows)
+    if tag_scores:
+        top = sorted(tag_scores.items(), key=lambda x: abs(x[1]), reverse=True)[:5]
+        print(f"  tag scores: {dict(top)}", file=sys.stderr)
+
     print("▶ fetching feeds...", file=sys.stderr)
     items = fetch_all()
     print(f"  {len(items)} items collected", file=sys.stderr)
@@ -1054,7 +1134,7 @@ def main():
         sys.exit(1)
 
     items = summarize(items)
-    html  = generate_html(items)
+    html  = generate_html(items, tag_scores or None)
 
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html)

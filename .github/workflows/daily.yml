@@ -25,6 +25,8 @@ jobs:
       - name: Fetch and generate
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python fetch.py
 
       - name: Commit and push
