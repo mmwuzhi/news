@@ -58,15 +58,7 @@ SUPA_KEY = os.environ.get("SUPABASE_KEY", "")
 #   __SUPABASE_URL__  Supabase project URL (empty string if not configured)
 #   __SUPABASE_KEY__  Supabase anon key   (empty string if not configured)
 
-HTML_TEMPLATE = """<!DOCTYPE html>
-<html lang="zh">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Daily Brief</title>
-<meta name="theme-color" content="#1a1a1a">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
-<style>
+CSS = """\
 /* ── Reset ─────────────────────────────────────── */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 button{cursor:pointer;font-family:inherit}
@@ -484,114 +476,9 @@ body{
   .sheet-close{background:none;border:none;color:var(--dim);font-size:20px;line-height:1}
   .sheet-body{overflow-y:auto;flex:1}
 }
-</style>
-</head>
-<body>
+"""
 
-<div id="app">
-  <!-- Desktop window chrome -->
-  <div class="window-chrome">
-    <div class="chrome-dots">
-      <div class="chrome-dot chrome-dot-r"></div>
-      <div class="chrome-dot chrome-dot-y"></div>
-      <div class="chrome-dot chrome-dot-g"></div>
-    </div>
-    <span class="chrome-title">daily-brief &#8212; zsh</span>
-    <button class="theme-btn" id="theme-btn-d">light</button>
-  </div>
-
-  <!-- Mobile header -->
-  <div class="mobile-header">
-    <span class="mobile-title">daily-brief</span>
-    <button class="theme-btn" id="theme-btn-m">light</button>
-  </div>
-
-  <!-- Mobile category tabs -->
-  <div class="cat-tabs">
-    __CAT_TABS__
-  </div>
-
-  <!-- Three columns -->
-  <div class="columns">
-
-    <!-- LEFT: category filter -->
-    <aside class="col-left">
-      <div class="sidebar-hdr">filter</div>
-      <nav class="cat-nav">
-        __CAT_NAV__
-      </nav>
-    </aside>
-
-    <!-- MAIN: articles -->
-    <main class="col-main">
-      <div class="brief-hdr">
-        <div class="prompt-line">
-          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date __PROMPT_DATE__ --lang bilingual
-        </div>
-        <div class="brief-block">
-          <div class="brief-title">&#9658; DAILY BRIEF</div>
-          <div class="brief-meta">__BRIEF_DATE__ &middot; __BRIEF_TOTAL__ stories &middot; summarized by __BRIEF_MODEL__</div>
-        </div>
-      </div>
-      <div class="active-label" id="active-label"></div>
-      <div id="items-list">
-        __ITEMS__
-      </div>
-    </main>
-
-    <!-- RIGHT: archive + inferred prefs + status -->
-    <aside class="col-right">
-      <div class="col-right-top">
-        <div class="sidebar-hdr">archive</div>
-        <div class="archive-list">
-          __ARCHIVE__
-        </div>
-      </div>
-      <div class="prefs-panel">
-        <div class="prefs-body" id="prefs-desktop"></div>
-      </div>
-      <div class="status-bar">
-        <div class="c-accent">&#10003; done</div>
-        <div class="c-dim">__STATUS_TOTAL__ fetched</div>
-        <div class="c-dim">next ~24h</div>
-        <div class="c-dim">__STATUS_TIME__</div>
-      </div>
-    </aside>
-
-  </div><!-- /.columns -->
-
-  <!-- Mobile bottom nav -->
-  <nav class="mobile-nav">
-    <button id="btn-archive">archive</button>
-    <button id="btn-prefs">prefs</button>
-  </nav>
-</div><!-- /#app -->
-
-<!-- Mobile bottom sheets (fixed, outside #app) -->
-<div class="sheet-backdrop" id="backdrop"></div>
-<div class="sheet" id="sheet-archive">
-  <div class="sheet-hdr">
-    <span class="sheet-title">archive</span>
-    <button class="sheet-close" data-sheet="archive">&#215;</button>
-  </div>
-  <div class="sheet-body archive-list">
-    __ARCHIVE__
-  </div>
-</div>
-<div class="sheet" id="sheet-prefs">
-  <div class="sheet-hdr">
-    <span class="sheet-title">preferences</span>
-    <button class="sheet-close" data-sheet="prefs">&#215;</button>
-  </div>
-  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
-</div>
-
-<script>
-var SUPA_URL='__SUPABASE_URL__';
-var SUPA_KEY='__SUPABASE_KEY__';
-var TODAY='__TODAY__';
-</script>
-<script>
+JS = """\
 (function() {
   'use strict';
 
@@ -843,7 +730,125 @@ var TODAY='__TODAY__';
     if (!items[i].hidden) { items[i].classList.add('expanded'); break; }
   }
 })();
+"""
+
+HTML_TEMPLATE = """<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    __CAT_TABS__
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        __CAT_NAV__
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date __PROMPT_DATE__ --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">__BRIEF_DATE__ &middot; __BRIEF_TOTAL__ stories &middot; summarized by __BRIEF_MODEL__</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        __ITEMS__
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          __ARCHIVE__
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">__STATUS_TOTAL__ fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">__STATUS_TIME__</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    __ARCHIVE__
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='__SUPABASE_URL__';
+var SUPA_KEY='__SUPABASE_KEY__';
+var TODAY='__TODAY__';
 </script>
+<script src="/assets/app.js"></script>
 </body>
 </html>"""
 
@@ -1142,6 +1147,12 @@ def main():
         f.write(html)
     print(f"✓ wrote index.html ({len(html)} bytes)", file=sys.stderr)
 
+    os.makedirs("assets", exist_ok=True)
+    with open("assets/style.css", "w", encoding="utf-8") as f:
+        f.write(CSS)
+    with open("assets/app.js", "w", encoding="utf-8") as f:
+        f.write(JS)
+    print("\u2713 wrote assets/style.css and assets/app.js", file=sys.stderr)
     os.makedirs("archive", exist_ok=True)
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     archive_path = f"archive/{date_str}.html"
