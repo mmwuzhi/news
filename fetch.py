@@ -263,6 +263,8 @@ body{
 .item-body{flex:1;min-width:0}
 
 .item-title-en{color:var(--accent);font-size:13px;line-height:1.45;margin-bottom:4px}
+.item-title-en a{color:inherit;text-decoration:none}
+.item-title-en a:hover{text-decoration:underline;text-underline-offset:3px}
 .item-title-zh{color:var(--dim);font-size:11px;line-height:1.4;margin-bottom:7px}
 
 .item-meta-row{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
@@ -1012,7 +1014,7 @@ def build_item(item: dict, idx: int, first: bool) -> str:
         f'\n  <div class="item-row">'
         f'\n    <span class="item-idx">{idx:02d}</span>'
         f'\n    <div class="item-body">'
-        f'\n      <div class="item-title-en">{escape(item["title"])}</div>'
+        f'\n      <div class="item-title-en"><a href="{escape(item["link"])}" target="_blank" rel="noopener" onclick="event.stopPropagation()">{escape(item["title"])}</a></div>'
         f'\n      <div class="item-title-zh">{escape(item.get("titleCN", ""))}</div>'
         f'\n      <div class="item-meta-row">'
         f'\n        <span class="cat-badge">{cat}</span>'
