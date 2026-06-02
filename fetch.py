@@ -11,6 +11,7 @@ import sys
 import time
 import urllib.request
 from datetime import datetime, timedelta, timezone
+from email.utils import format_datetime
 from html import escape
 
 import feedparser
@@ -39,6 +40,9 @@ MAX_TOTAL      = 40
 MAX_PER_CAT    = 8
 GEMINI_MODEL   = "gemini-2.5-flash-lite"
 CATEGORY_ORDER = ["AI", "TECH", "FINA", "SCI", "WORLD"]
+SITE_URL       = "https://news.wuwuwu.cc"
+FEED_WINDOW    = 7    # days of history kept in the rolling feed
+FEED_MAX       = 200  # hard cap on feed item count
 
 SUPA_URL = os.environ.get("SUPABASE_URL", "")
 SUPA_KEY = os.environ.get("SUPABASE_KEY", "")
@@ -741,6 +745,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <meta name="theme-color" content="#1a1a1a">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
 <link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
 
 </head>
 <body>
@@ -994,11 +1000,12 @@ Example: [{{"titleCN":"...","en":"...","zh":"...","category":"TECH","tags":["rus
 
     for i, item in enumerate(items):
         s = summaries[i] if i < len(summaries) else {}
-        item["titleCN"]  = s.get("titleCN", "")
-        item["en"]       = s.get("en", "Summary unavailable.")
-        item["zh"]       = s.get("zh", "摘要暂不可用。")
-        item["category"] = s.get("category", "TECH")
-        item["tags"]     = s.get("tags", [])
+        # `or` (not the get-default) because Gemini may return explicit nulls.
+        item["titleCN"]  = s.get("titleCN") or ""
+        item["en"]       = s.get("en")       or "Summary unavailable."
+        item["zh"]       = s.get("zh")       or "摘要暂不可用。"
+        item["category"] = s.get("category") or "TECH"
+        item["tags"]     = [t for t in (s.get("tags") or []) if isinstance(t, str)]
 
     return items
 
@@ -1065,6 +1072,113 @@ def build_archive_list(dates: list) -> str:
         f'<a class="archive-date" href="/archive/{d}.html">{d}</a>\n'
         for d in dates
     )
+
+
+# ── Feeds (RSS 2.0 + JSON Feed 1.1) ────────────────────────────────────────────
+
+def to_feed_item(item: dict, now: datetime) -> dict | None:
+    link = item.get("link", "")
+    if not link.startswith("http"):
+        return None
+    published = item.get("published") or now
+    if not published.tzinfo:
+        published = published.replace(tzinfo=timezone.utc)
+    title_en = item.get("title", "")
+    parts = [f"<p><strong>{escape(title_en)}</strong></p>"]
+    if item.get("en"):
+        parts.append(f"<p>{escape(item['en'])}</p>")
+    if item.get("zh"):
+        parts.append(f"<p>{escape(item['zh'])}</p>")
+    if item.get("tags"):
+        parts.append(f"<p>Tags: {escape(' · '.join(item['tags']))}</p>")
+    return {
+        "id":             link,
+        "url":            link,
+        "title":          item.get("titleCN") or title_en or "Untitled",
+        "content_html":   "".join(parts),
+        "date_published": published.isoformat(),
+        "tags":           list(item.get("tags", [])),
+        "_category":      item.get("category", ""),
+    }
+
+
+def load_feed_items() -> list[dict]:
+    if not os.path.exists("feed.json"):
+        return []
+    try:
+        with open("feed.json", "r", encoding="utf-8") as f:
+            return json.load(f).get("items", [])
+    except Exception as e:
+        print(f"  ✗ load_feed_items: {e}", file=sys.stderr)
+        return []
+
+
+def _feed_date(value: str, fallback: datetime) -> datetime:
+    try:
+        dt = datetime.fromisoformat(value)
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+    except Exception:
+        return fallback
+
+
+def merge_feed_items(
+    existing: list[dict], today: list[dict], now: datetime
+) -> list[dict]:
+    seen = {it["id"] for it in existing}
+    merged = list(existing)
+    for item in today:
+        feed_item = to_feed_item(item, now)
+        if feed_item and feed_item["id"] not in seen:
+            seen.add(feed_item["id"])
+            merged.append(feed_item)
+
+    cutoff = now - timedelta(days=FEED_WINDOW)
+    merged = [it for it in merged if _feed_date(it.get("date_published", ""), now) >= cutoff]
+    merged.sort(key=lambda it: _feed_date(it.get("date_published", ""), now), reverse=True)
+    return merged[:FEED_MAX]
+
+
+def build_json_feed(items: list[dict], now: datetime) -> str:
+    feed = {
+        "version":       "https://jsonfeed.org/version/1.1",
+        "title":         "Daily Brief",
+        "home_page_url": SITE_URL,
+        "feed_url":      f"{SITE_URL}/feed.json",
+        "language":      "zh-cn",
+        "items":         items,
+    }
+    return json.dumps(feed, ensure_ascii=False, indent=2)
+
+
+def build_rss(items: list[dict], now: datetime) -> str:
+    def cdata(text: str) -> str:
+        return f"<![CDATA[{text.replace(']]>', ']]]]><![CDATA[>')}]]>"
+
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+        "<channel>",
+        "<title>Daily Brief</title>",
+        f"<link>{SITE_URL}</link>",
+        f'<atom:link href="{SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>',
+        "<description>每日中英双语科技与世界新闻摘要 · summarized by Gemini</description>",
+        "<language>zh-cn</language>",
+        f"<lastBuildDate>{format_datetime(now)}</lastBuildDate>",
+    ]
+    for it in items:
+        pub = _feed_date(it.get("date_published", ""), now)
+        lines.append("<item>")
+        lines.append(f"<title>{escape(it.get('title', ''))}</title>")
+        lines.append(f"<link>{escape(it['url'])}</link>")
+        lines.append(f'<guid isPermaLink="true">{escape(it["id"])}</guid>')
+        lines.append(f"<pubDate>{format_datetime(pub)}</pubDate>")
+        if it.get("_category"):
+            lines.append(f"<category>{escape(it['_category'])}</category>")
+        lines.append(f"<description>{cdata(it.get('content_html', ''))}</description>")
+        lines.append("</item>")
+    lines.append("</channel>")
+    lines.append("</rss>")
+    return "\n".join(lines)
 
 
 def get_archive_dates() -> list[str]:
@@ -1153,12 +1267,21 @@ def main():
     with open("assets/app.js", "w", encoding="utf-8") as f:
         f.write(JS)
     print("\u2713 wrote assets/style.css and assets/app.js", file=sys.stderr)
+    now = datetime.now(timezone.utc)
     os.makedirs("archive", exist_ok=True)
-    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    date_str = now.strftime("%Y-%m-%d")
     archive_path = f"archive/{date_str}.html"
     with open(archive_path, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"✓ wrote {archive_path}", file=sys.stderr)
+
+    feed_source, _ = apply_cat_limit(items, tag_scores or None)
+    feed_items = merge_feed_items(load_feed_items(), feed_source, now)
+    with open("feed.json", "w", encoding="utf-8") as f:
+        f.write(build_json_feed(feed_items, now))
+    with open("feed.xml", "w", encoding="utf-8") as f:
+        f.write(build_rss(feed_items, now))
+    print(f"✓ wrote feed.xml and feed.json ({len(feed_items)} items)", file=sys.stderr)
 
 
 if __name__ == "__main__":
