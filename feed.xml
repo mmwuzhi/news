@@ -6,7 +6,167 @@
 <atom:link href="https://news.wuwuwu.cc/feed.xml" rel="self" type="application/rss+xml"/>
 <description>每日中英双语科技与世界新闻摘要 · summarized by Gemini</description>
 <language>zh-cn</language>
-<lastBuildDate>Sat, 06 Jun 2026 09:21:51 +0000</lastBuildDate>
+<lastBuildDate>Sun, 07 Jun 2026 09:57:41 +0000</lastBuildDate>
+<item>
+<title>【学习】2026年软考已结束，准备2027年考试了吗？</title>
+<link>https://www.v2ex.com/t/1218560#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1218560#reply0</guid>
+<pubDate>Sun, 07 Jun 2026 09:54:35 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[学点什么] 2026 年软考考完了，有准备 2027 年考试的吗？</strong></p><p>A user developed an app to assist with studying for the RuanKao (software qualification exam) and has shared it for those preparing for the 2027 exam. The app offers chapter-based practice, past papers, error review, and learning statistics for efficient knowledge consolidation. It is available on both iOS and HarmonyOS platforms.</p><p>一位用户开发了一款辅助备考软考的App，并分享给准备2027年考试的用户。该App提供分章节练习、历年真题、错题回顾和学习统计，以提高备考效率。App支持iOS和HarmonyOS平台。</p><p>Tags: app · software exam · ios · harmonyos · study tool</p>]]></description>
+</item>
+<item>
+<title>【问答】请勿使用国产手机登录推特</title>
+<link>https://www.v2ex.com/t/1218559#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1218559#reply0</guid>
+<pubDate>Sun, 07 Jun 2026 09:48:05 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[问与答] 不要使用国产手机登陆推特</strong></p><p>A user advises against using Chinese brand phones to log into Twitter, citing an experience where their account was banned after logging in via a Xiaomi tablet. Twitter&#x27;s reason for the ban was &#x27;inauthentic behavior,&#x27; and the user suspects the device&#x27;s integration with Google Play may be a factor.</p><p>一位用户建议不要使用国产品牌手机登录推特，因其在使用小米平板登录后账号被封。推特给出的封号理由是“不真实行为”，用户怀疑这可能与设备和Google Play的集成有关。</p><p>Tags: twitter · account ban · xiaomi · android · security</p>]]></description>
+</item>
+<item>
+<title>WSL中文乱码求助</title>
+<link>https://www.v2ex.com/t/1218558#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1218558#reply0</guid>
+<pubDate>Sun, 07 Jun 2026 09:45:40 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[问与答] wsl 求解，打开的时候输入中文是乱码，但是随便切换个用户就好了</strong></p><p>A user is experiencing issues with Chinese characters displaying as garbled text (&lt;ffffffff&gt;) in WSL when starting a new session, but the problem is resolved by switching to a different user. The issue persists even when switching back to the original user, and the user is seeking an explanation for this behavior.</p><p>用户在使用WSL时遇到中文输入乱码问题，在新会话启动时显示为&lt;ffffffff&gt;，但切换用户后即可恢复正常。该问题即使切换回原用户依然存在，用户正在寻求解释。</p><p>Tags: wsl · linux · utf-8 · character encoding · troubleshooting</p>]]></description>
+</item>
+<item>
+<title>两个月的市场反弹：接下来会怎样？</title>
+<link>https://seekingalpha.com/article/4912675-2-month-market-rally-what-comes-next?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4912675-2-month-market-rally-what-comes-next?source=feed_all_articles</guid>
+<pubDate>Sun, 07 Jun 2026 09:45:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Two-Month Market Rally: What Comes Next?</strong></p><p>This article likely analyzes the recent two-month market rally and discusses potential future market movements. It may delve into economic indicators, investor sentiment, and other factors that could influence the market&#x27;s trajectory.</p><p>本文可能分析了近期两个月的市场反弹，并探讨了未来市场可能的走势。文章或许会深入研究经济指标、投资者情绪以及其他可能影响市场轨迹的因素。</p><p>Tags: market analysis · economic trends · investing · stock market · outlook</p>]]></description>
+</item>
+<item>
+<title>美光：机器人超级周期遭遇美联储加息风险</title>
+<link>https://seekingalpha.com/article/4912671-micron-robotics-supercycle-meets-fed-rate-hike-risks-rating-downgrade?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4912671-micron-robotics-supercycle-meets-fed-rate-hike-risks-rating-downgrade?source=feed_all_articles</guid>
+<pubDate>Sun, 07 Jun 2026 09:38:51 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Micron: Robotics Supercycle Meets Fed Rate Hike Risks</strong></p><p>This article examines Micron&#x27;s position within the booming robotics industry and highlights the potential risks posed by Federal Reserve interest rate hikes. It likely explores how rising rates might impact Micron&#x27;s growth and profitability in this sector.</p><p>本文探讨了美光在蓬勃发展的机器人行业中的地位，并强调了美联储加息可能带来的风险。文章可能分析了利率上升如何影响美光在该领域的增长和盈利能力。</p><p>Tags: micron · robotics · fed rate hike · semiconductors · economic risk</p>]]></description>
+</item>
+<item>
+<title>[推广] 6月7日薅5.5注册10刀和15刀的站点</title>
+<link>https://www.v2ex.com/t/1218557#reply1</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1218557#reply1</guid>
+<pubDate>Sun, 07 Jun 2026 09:33:54 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[推广] 6 月 7 日 薅 5.5 注册 10 刀和 15 刀的站点</strong></p><p>This is a promotional post listing several websites where users can earn rewards by signing up, potentially receiving $10 or $15. The post includes affiliate links and instructions on how to use them, likely within a specific platform like &#x27;Doubao&#x27;.</p><p>这是一篇推广帖子，列出了多个用户可以通过注册获得奖励的网站，可能包括10美元或15美元的奖励。帖子包含联盟链接和使用说明，可能是在“豆包”等平台内使用。</p><p>Tags: affiliate marketing · rewards · signup bonus · promotions · online earning</p>]]></description>
+</item>
+<item>
+<title>【问答】最近想买个键盘，能欣赏（参考）下佬儿们的键盘吗？</title>
+<link>https://www.v2ex.com/t/1218556#reply15</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1218556#reply15</guid>
+<pubDate>Sun, 07 Jun 2026 09:26:06 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[问与答] 最近想买个键盘，能欣赏（参考）下佬儿们的键盘吗？</strong></p><p>The user is looking to buy a new keyboard and is seeking recommendations and inspiration from others. They found a particular keyboard aesthetically pleasing and are inviting community members to share their own keyboard setups for reference.</p><p>用户正在寻找新键盘，并希望从他人那里获得推荐和灵感。他们对一款键盘的外观非常满意，并邀请社区成员分享他们的键盘配置以供参考。</p><p>Tags: keyboard · mechanical keyboard · recommendation · pc hardware · customization</p>]]></description>
+</item>
+<item>
+<title>我认为不应给出金佰利（Clorox）买入评级的原因（评级升级）</title>
+<link>https://seekingalpha.com/article/4912667-reasons-why-i-believe-a-buy-rating-is-not-justified-for-clorox?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4912667-reasons-why-i-believe-a-buy-rating-is-not-justified-for-clorox?source=feed_all_articles</guid>
+<pubDate>Sun, 07 Jun 2026 09:21:20 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>The Reasons Why I Believe A Buy Rating Is Not Justified For Clorox (Rating Upgrade)</strong></p><p>This article argues against a &#x27;buy&#x27; rating for Clorox, likely due to specific financial or market analysis. It suggests that despite a potential rating upgrade (which seems contradictory in the title), the author believes the company is not a good investment at this time.</p><p>本文认为不应给予金佰利（Clorox）买入评级，原因可能基于特定的财务或市场分析。文章暗示，尽管标题中提到了评级升级，但作者认为该公司目前并非一个好的投资标的。</p><p>Tags: clorox · stock analysis · investment rating · consumer staples · financial advice</p>]]></description>
+</item>
+<item>
+<title>标普500指数：这还不是一个低点（评级下调）</title>
+<link>https://seekingalpha.com/article/4912665-s-and-p-500-this-is-not-a-dip-yet-rating-downgrade?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4912665-s-and-p-500-this-is-not-a-dip-yet-rating-downgrade?source=feed_all_articles</guid>
+<pubDate>Sun, 07 Jun 2026 08:57:01 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>S&amp;P 500: This Is Not A Dip Yet (Rating Downgrade)</strong></p><p>The author believes the S&amp;P 500 index has not yet reached a bottom, indicating potential further declines. This outlook is likely based on an analysis of market trends, economic conditions, or technical indicators, leading to a rating downgrade for the index.</p><p>作者认为标普500指数尚未触底，预示着可能还会进一步下跌。这一观点可能基于对市场趋势、经济状况或技术指标的分析，并导致了对该指数的评级下调。</p><p>Tags: sp500 · stock market · market outlook · bear market · rating downgrade</p>]]></description>
+</item>
+<item>
+<title>马德里街头，教皇露天弥撒吸引了巨大的人群</title>
+<link>https://www.bbc.com/news/articles/c4gyejvzx9eo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.com/news/articles/c4gyejvzx9eo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sun, 07 Jun 2026 08:53:43 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Huge crowds throng Madrid streets for Pope&#x27;s open-air mass</strong></p><p>Huge crowds gathered in Madrid&#x27;s Plaza de Cibeles to attend an open-air mass led by the Pope. The pontiff was seen waving to the attendees from his popemobile upon his arrival.</p><p>马德里西贝莱斯广场吸引了大量人群参加教皇主持的露天弥撒。教皇抵达时，乘坐教皇专车向聚集的民众挥手致意。</p><p>Tags: pope · catholic church · spain · religious event · public gathering</p>]]></description>
+</item>
+<item>
+<title>赫格塞斯在诺曼底D日演讲中批评欧洲移民政策</title>
+<link>https://www.bbc.com/news/articles/c802e7jk458o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.com/news/articles/c802e7jk458o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sun, 07 Jun 2026 08:46:39 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Hegseth attacks Europe over migration with beach &#x27;invasion&#x27; D-Day speech</strong></p><p>US Defense Secretary Hegseth delivered a speech in Normandy, on the 82nd anniversary of the D-Day landings, criticizing European migration policies. He used the historical context of the D-Day operation to frame his critique.</p><p>美国国防部长赫格塞斯在诺曼底的D日82周年纪念活动上发表讲话，批评欧洲的移民政策。他利用D日行动的历史背景来构建他的批评。</p><p>Tags: migration · europe · us politics · normandy · d-day</p>]]></description>
+</item>
+<item>
+<title>Credo的下一个增长阶段</title>
+<link>https://seekingalpha.com/article/4912664-credos-next-growth-phase?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4912664-credos-next-growth-phase?source=feed_all_articles</guid>
+<pubDate>Sun, 07 Jun 2026 08:44:17 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Credo&#x27;s Next Growth Phase</strong></p><p>This article likely discusses the future growth strategy and potential of the company Credo. It may cover new product developments, market expansion, or strategic partnerships that are expected to drive its next phase of expansion.</p><p>本文可能讨论了公司Credo未来的增长策略和潜力。文章或许会涵盖新的产品开发、市场扩张或战略合作，这些都将推动其下一阶段的发展。</p><p>Tags: credo · company growth · strategy · future prospects · business development</p>]]></description>
+</item>
+<item>
+<title>接住来自空间站的信号：如何用手台接收SSTV？</title>
+<link>https://sspai.com/post/110108</link>
+<guid isPermaLink="true">https://sspai.com/post/110108</guid>
+<pubDate>Sun, 07 Jun 2026 08:34:12 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>接住来自空间站的信号：如何用手台接收 SSTV？</strong></p><p>This article explains how to receive Slow-Scan Television (SSTV) signals from the International Space Station using a handheld radio. It details the underlying scientific principles, including frequency, propagation, antennas, orbital mechanics, and Doppler effect, alongside the necessary equipment.</p><p>本文介绍了如何使用手持无线电设备接收国际空间站的慢扫描电视（SSTV）信号。文章详细阐述了相关的科学原理，包括频率、传播、天线、轨道力学和多普勒效应，以及所需的设备。</p><p>Tags: sstv · space station · radio communication · amateur radio · science</p>]]></description>
+</item>
+<item>
+<title>“他在利用我”：我的丈夫不愿出售他的房子，以便我们能合并财务并舒适地生活。是我不讲理吗？</title>
+<link>https://www.marketwatch.com/story/hes-very-short-tempered-my-husband-wont-sell-his-home-so-we-can-combine-our-finances-and-live-in-comfort-am-i-unreasonable-f261176a?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/hes-very-short-tempered-my-husband-wont-sell-his-home-so-we-can-combine-our-finances-and-live-in-comfort-am-i-unreasonable-f261176a?mod=mw_rss_topstories</guid>
+<pubDate>Sun, 07 Jun 2026 07:40:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>‘He’s taking advantage of me’: My husband won’t sell his home so we can combine our finances and live in comfort. Am I unreasonable?</strong></p><p>A woman is seeking advice because her husband refuses to sell his home, which is preventing them from combining their finances and living together comfortably. The couple lives 20 miles apart, and he still commutes daily, raising questions about her husband&#x27;s motivations and her own reasonableness.</p><p>一位女士正在寻求建议，因为她的丈夫拒绝出售他的房子，这阻碍了他们合并财务并舒适地共同生活。这对夫妇住在20英里外，丈夫仍然每天通勤，这引发了对其丈夫动机和她自身是否不讲理的疑问。</p><p>Tags: personal finance · relationship advice · housing · money management · marriage</p>]]></description>
+</item>
+<item>
+<title>史蒂夫·罗森伯格：俄经济论坛被圣彼得堡无人机袭击蒙上阴影</title>
+<link>https://www.bbc.com/news/articles/c9q2gp52rgro?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.com/news/articles/c9q2gp52rgro?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sun, 07 Jun 2026 07:11:18 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Steve Rosenberg: Russia&#x27;s economic forum overshadowed by drone attacks on St Petersburg</strong></p><p>BBC&#x27;s Russia editor reports that Russia&#x27;s flagship economic event, the St. Petersburg International Economic Forum, was overshadowed by Ukrainian drone attacks. The attacks reportedly targeted St. Petersburg, impacting the forum&#x27;s proceedings or atmosphere.</p><p>BBC的俄罗斯编辑报道称，俄罗斯的旗舰经济活动——圣彼得堡国际经济论坛——被乌克兰的无人机袭击所笼罩。据报道，袭击目标是圣彼得堡，影响了论坛的进程或气氛。</p><p>Tags: russia · ukraine · drone attack · economic forum · geopolitics</p>]]></description>
+</item>
+<item>
+<title>JMGO N3 Ultimate投影仪是新的便携式4K冠军</title>
+<link>https://www.theverge.com/reviews/943732/best-portable-4k-projector-review</link>
+<guid isPermaLink="true">https://www.theverge.com/reviews/943732/best-portable-4k-projector-review</guid>
+<pubDate>Sun, 07 Jun 2026 07:00:00 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>JMGO’s N3 Ultimate projector is the new portable 4K champ</strong></p><p>The JMGO N3 Ultimate is declared the new favorite flagship portable projector, surpassing competitors like Anker. It is praised for its excellent 4K performance, ability to combat ambient light at various angles, and its potential to rival more expensive home theater setups, especially at night.</p><p>JMGO N3 Ultimate被评为新的旗舰便携式投影仪，超越了Anker等竞争对手。它因出色的4K性能、在各种角度下对抗环境光的能力以及媲美更昂贵家庭影院系统的潜力而受到赞誉，尤其是在夜间。</p><p>Tags: projector · 4k · portable tech · jmgo · home theater</p>]]></description>
+</item>
+<item>
+<title>我现在设计时比使用Figma更常使用Claude</title>
+<link>https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/</link>
+<guid isPermaLink="true">https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/</guid>
+<pubDate>Sun, 07 Jun 2026 05:04:24 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>I design with Claude more than Figma now</strong></p><p>The author states they now use Claude more frequently than Figma for their design work. This suggests a shift in design tools and workflows, highlighting the increasing capabilities and integration of AI assistants like Claude in creative processes.</p><p>作者表示，现在他们在设计工作中比使用Figma更常使用Claude。这表明设计工具和工作流程发生了转变，突显了像Claude这样的AI助手在创意过程中日益增长的能力和集成度。</p><p>Tags: claude · figma · ai assistant · design tools · workflow</p>]]></description>
+</item>
+<item>
+<title>秘鲁总统大选：不安全感和不稳定性影响选情</title>
+<link>https://www.bbc.com/news/articles/c9d21184e7yo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.com/news/articles/c9d21184e7yo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sat, 06 Jun 2026 23:17:43 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Insecurity and instability drive voters in Peru&#x27;s tight presidential race</strong></p><p>In Peru&#x27;s tight presidential race, insecurity and instability are major driving forces for voters. After experiencing eight presidents in ten years, the electorate is primarily seeking a leader who can restore stability and address pressing issues like crime and inequality.</p><p>在秘鲁的激烈总统竞选中，不安全感和不稳定性是驱动选民的关键因素。在十年内经历了八位总统后，选民主要寻求能够恢复稳定并解决犯罪和不平等问题等紧迫事务的领导人。</p><p>Tags: peru · election · politics · insecurity · social issues</p>]]></description>
+</item>
+<item>
+<title>“没人戴闪闪发光的珠宝”：如果人们不敢佩戴珠宝，这对美国意味着什么？</title>
+<link>https://www.marketwatch.com/story/no-one-seems-to-wear-their-bling-is-it-safe-to-show-off-your-expensive-jewelry-a807bc55?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/no-one-seems-to-wear-their-bling-is-it-safe-to-show-off-your-expensive-jewelry-a807bc55?mod=mw_rss_topstories</guid>
+<pubDate>Sat, 06 Jun 2026 23:15:00 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>‘No one wears bling’: What does it say about America if people are afraid to wear their jewelry?</strong></p><p>The article explores the societal implications of people feeling unsafe to wear jewelry in public, even at formal events like shows, operas, and fundraisers. It questions what this fear says about the current state of safety and public perception in America.</p><p>文章探讨了人们在公共场合甚至在演出、歌剧和募捐等正式活动中不敢佩戴珠宝所带来的社会影响。它质疑这种恐惧反映了美国当前安全状况和公众认知。</p><p>Tags: usa · safety · jewelry · social trends · crime</p>]]></description>
+</item>
+<item>
+<title>新一代减肥疗法旨在超越今天的GLP-1药物</title>
+<link>https://www.marketwatch.com/story/tired-of-nausea-or-taking-a-glp-1-pill-every-day-these-experimental-drugs-could-be-better-than-zepbound-and-wegovy-587bf648?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/tired-of-nausea-or-taking-a-glp-1-pill-every-day-these-experimental-drugs-could-be-better-than-zepbound-and-wegovy-587bf648?mod=mw_rss_topstories</guid>
+<pubDate>Sat, 06 Jun 2026 21:10:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>A new wave of weight-loss therapies aims to be better than today’s GLP-1s</strong></p><p>A new wave of weight-loss therapies is emerging, aiming to be more effective than current GLP-1 drugs. Retatrutide is highlighted as one such promising drug, showing significant weight loss in clinical trials and also improving conditions like sleep apnea and knee pain.</p><p>新一代减肥疗法正在涌现，旨在比目前的GLP-1药物更有效。Retatrutide被强调为一种有希望的药物，在临床试验中显示出显著的减重效果，并能改善睡眠呼吸暂停和膝盖疼痛等病症。</p><p>Tags: weight loss · drug development · glp-1 · medical breakthrough · retatrutide</p>]]></description>
+</item>
 <item>
 <title>【VPS】想减少风控，固定出口 IP，有推荐的 VPS 吗？</title>
 <link>https://www.v2ex.com/t/1218426#reply1</link>
@@ -222,6 +382,14 @@
 <pubDate>Fri, 05 Jun 2026 14:52:40 +0000</pubDate>
 <category>SCI</category>
 <description><![CDATA[<p><strong>A chromosome from a frozen rat has been resurrected inside mice</strong></p><p>Scientists have successfully created mice containing cells with an added chromosome from a frozen rat. This groundbreaking achievement paves the way for further research, with plans to attempt similar reconstructions using frozen elephant tissue and potentially mammoths.</p><p>科学家成功地培育出含有来自冷冻大鼠的额外染色体的小鼠。这项开创性的成***开了进一步研究的大门，计划尝试使用冷冻大象组织，甚至可能使用猛犸象进行类似的重建。</p><p>Tags: genetics · cloning · mammoths · research · science</p>]]></description>
+</item>
+<item>
+<title>氪星晚报｜日本或通过抛售美债，为创纪录规模的日元汇市干预筹资；俞浩内部发文：未来将继续心无旁骛做实业</title>
+<link>https://36kr.com/p/3840267945969929?f=rss</link>
+<guid isPermaLink="true">https://36kr.com/p/3840267945969929?f=rss</guid>
+<pubDate>Fri, 05 Jun 2026 12:50:46 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>氪星晚报 ｜日本或通过抛售美债，为创纪录规模的日元汇市干预筹资；俞浩内部发文：未来将继续心无旁骛做实业</strong></p><p>This report covers several financial and business news items: Japan may fund record currency intervention by selling US debt, Inno Fund&#x27;s early-stage tech investment fund has raised 1.5 billion yuan, and Bitcoin &#x27;vault&#x27; companies have lost $62 billion in market value. It also features an internal memo from Chase Technology founder Yu Hao reaffirming his commitment to industry.</p><p>本报道涵盖了多项财经和商业新闻：日本可能通过抛售美债为其创纪录的日元汇市干预筹集资金；英诺基金的早期科技投资已筹集15亿元人民币；比特币“金库”公司市值蒸发620亿美元。报道还刊登了追觅科技创始人俞浩的内部信，重申其致力于实业。</p><p>Tags: japan · currency intervention · us debt · bitcoin · venture capital</p>]]></description>
 </item>
 <item>
 <title>下载：超越神话的 AI 黑客攻击，以及聊天机器人对我们大脑的影响</title>
