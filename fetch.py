@@ -82,8 +82,10 @@ a{text-decoration:none}
   --chrome:  #242424;
   --sidebar: #1e1e1e;
   --fg:      #d4d4d4;
+  --fg-soft: #a8a8a8;
   --accent:  #5fb3a1;
-  --dim:     #575757;
+  --dim:     #8a8a8a;
+  --measure: 640px;
   --bd:      #2c2c2c;
   --tag-bd:  #333333;
   --red:     #e05a4e;
@@ -95,7 +97,8 @@ a{text-decoration:none}
   --chrome:  #e5e4df;
   --sidebar: #ededea;
   --fg:      #2a2a2a;
-  --dim:     #999999;
+  --fg-soft: #555555;
+  --dim:     #6f6f6f;
   --bd:      #dddddd;
   --tag-bd:  #cccccc;
   --cat-active-bg: #e4e4e0;
@@ -104,7 +107,7 @@ a{text-decoration:none}
 /* ── Page frame (desktop) ───────────────────────── */
 body{
   background:var(--page-bg);
-  font-family:'JetBrains Mono','Maple Mono','Fira Code','Menlo',monospace;
+  font-family:'JetBrains Mono','Maple Mono','Fira Code','Menlo','PingFang SC','Hiragino Sans GB','Microsoft YaHei',monospace;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -258,10 +261,10 @@ body{
 .item-idx{color:var(--dim);font-size:11px;min-width:20px;flex-shrink:0;margin-top:3px}
 .item-body{flex:1;min-width:0}
 
-.item-title-en{color:var(--accent);font-size:13px;line-height:1.45;margin-bottom:4px}
+.item-title-en{color:var(--accent);font-size:14px;line-height:1.5;margin-bottom:4px;max-width:var(--measure)}
 .item-title-en a{color:inherit;text-decoration:none}
 .item-title-en a:hover{text-decoration:underline;text-underline-offset:3px}
-.item-title-zh{color:var(--dim);font-size:11px;line-height:1.4;margin-bottom:7px}
+.item-title-zh{color:var(--fg-soft);font-size:12px;line-height:1.6;margin-bottom:7px;max-width:var(--measure)}
 
 .item-meta-row{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
 .cat-badge{border:1px solid var(--tag-bd);color:var(--dim);padding:1px 6px;font-size:10px;border-radius:2px;flex-shrink:0}
@@ -285,7 +288,7 @@ body{
 .vote-up  {animation:voteUp   .3s ease}
 .vote-down{animation:voteDown .3s ease}
 
-.item-tags{margin-top:5px;font-size:9px;color:var(--dim);opacity:.5}
+.item-tags{margin-top:5px;font-size:10px;color:var(--dim);opacity:.75}
 
 .expand-arrow{
   color:var(--dim);
@@ -306,8 +309,8 @@ body{
 }
 .item.expanded .item-summary{max-height:400px;opacity:1}
 .item-summary-inner{padding:0 22px 16px 53px}
-.summary-en{font-size:12px;line-height:1.8;color:var(--fg);margin-bottom:8px}
-.summary-zh{font-size:11px;line-height:1.8;color:var(--dim)}
+.summary-en{font-size:13px;line-height:1.8;color:var(--fg);margin-bottom:8px;max-width:var(--measure)}
+.summary-zh{font-size:12px;line-height:1.8;color:var(--fg-soft);max-width:var(--measure)}
 .summary-zh::before{content:'# '}
 
 
@@ -1021,14 +1024,17 @@ def build_item(item: dict, idx: int, first: bool) -> str:
     tags     = item.get("tags", [])
     tags_str = escape(" · ".join(tags)) if tags else ""
     expanded = " expanded" if first else ""
+    title_cn = (item.get("titleCN") or "").strip()
+    if title_cn == item["title"].strip():
+        title_cn = ""
     return (
         f'\n<div class="item{expanded}" data-id="{idx}" data-cat="{cat}" data-tags="{attr_json(tags)}">'
         f'\n  <div class="item-row">'
         f'\n    <span class="item-idx">{idx:02d}</span>'
         f'\n    <div class="item-body">'
         f'\n      <div class="item-title-en"><a href="{escape(item["link"])}" target="_blank" rel="noopener" onclick="event.stopPropagation()">{escape(item["title"])}</a></div>'
-        f'\n      <div class="item-title-zh">{escape(item.get("titleCN", ""))}</div>'
-        f'\n      <div class="item-meta-row">'
+        + (f'\n      <div class="item-title-zh">{escape(title_cn)}</div>' if title_cn else "")
+        + f'\n      <div class="item-meta-row">'
         f'\n        <span class="cat-badge">{cat}</span>'
         f'\n        <span class="source-time">{escape(item["source"])} &middot; {escape(item["time_ago"])}</span>'
         f'\n        <div class="votes">'
