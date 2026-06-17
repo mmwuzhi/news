@@ -6,6 +6,502 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1221161#reply0",
+      "url": "https://www.v2ex.com/t/1221161#reply0",
+      "title": "[分享创造] 面向 ChatGPT Ads 的安全投放 Skill：规划、校验、监控先跑起来",
+      "content_html": "<p><strong>[分享创造] 面向 ChatGPT Ads 的安全投放 Skill：规划、校验、监控先跑起来</strong></p><p>An open-source Agent Skill called &#x27;openai-ads-skill&#x27; has been developed to provide a safer workflow for ChatGPT Ads. It focuses on planning and validation before execution, ensuring human approval for spending money.</p><p>为应对 ChatGPT Ads，开发了一个名为“openai-ads-skill”的开源Agent Skill，以提供更安全的工作流程。它强调先规划和验证，再执行，确保在花费金钱前获得人工批准。</p><p>Tags: chatgpt ads · agent skill · openai · workflow · adtech</p>",
+      "date_published": "2026-06-17T11:41:16+00:00",
+      "tags": [
+        "chatgpt ads",
+        "agent skill",
+        "openai",
+        "workflow",
+        "adtech"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/i-inherited-a-500-000-ira-can-i-reduce-the-tax-burden-by-using-it-for-my-childrens-education-53ddaa0c?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/i-inherited-a-500-000-ira-can-i-reduce-the-tax-burden-by-using-it-for-my-childrens-education-53ddaa0c?mod=mw_rss_topstories",
+      "title": "我继承了50万美元的IRA。我能通过用它支付孩子的教育费用来减轻税务负担吗？",
+      "content_html": "<p><strong>I inherited a $500,000 IRA. Can I reduce the tax burden by using it for my children’s education?</strong></p><p>An individual inherited a $500,000 IRA and is inquiring about the possibility of reducing their tax burden by using these funds for their children&#x27;s education. This raises questions about the tax implications of withdrawing from an inherited IRA for educational purposes.</p><p>一位继承了50万美元IRA的个人，正在咨询是否能通过将这笔资金用于子女教育来减轻税务负担。这引发了关于从继承的IRA中提取资金用于教育目的的税务影响的问题。</p><p>Tags: ira · inheritance · education funding · tax burden · financial planning</p>",
+      "date_published": "2026-06-17T11:38:00+00:00",
+      "tags": [
+        "ira",
+        "inheritance",
+        "education funding",
+        "tax burden",
+        "financial planning"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4915330-win-big-with-these-dividends-no-matter-where-the-economy-is-heading?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4915330-win-big-with-these-dividends-no-matter-where-the-economy-is-heading?source=feed_all_articles",
+      "title": "无论经济走向如何，都能从这些股息中大赚一笔",
+      "content_html": "<p><strong>Win Big With These Dividends No Matter Where The Economy Is Heading</strong></p><p>This article suggests strategies for investing in dividend-paying stocks that are expected to perform well regardless of the broader economic climate. It aims to provide readers with opportunities to generate income and capital appreciation through dividends.</p><p>本文提出了投资股息股票的策略，这些股票有望在任何经济环境下表现良好。它旨在为读者提供通过股息产生收入和资本增值的机会。</p><p>Tags: dividends · investing · stock market · economic outlook · income generation</p>",
+      "date_published": "2026-06-17T11:35:00+00:00",
+      "tags": [
+        "dividends",
+        "investing",
+        "stock market",
+        "economic outlook",
+        "income generation"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4915586-lionsgate-studios-with-no-deal-this-stock-looks-expensive?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4915586-lionsgate-studios-with-no-deal-this-stock-looks-expensive?source=feed_all_articles",
+      "title": "Lionsgate Studios: 市场上没有交易，这家公司的股票看起来很贵",
+      "content_html": "<p><strong>Lionsgate Studios: With No Deal On The Table, This Stock Looks Expensive</strong></p><p>The article analyzes Lionsgate Studios, concluding that without any active deals on the table, the company&#x27;s stock appears overvalued. It suggests that the current valuation does not reflect its fundamental prospects.</p><p>本文分析了Lionsgate Studios，认为由于缺乏有效的交易，该公司的股票显得估值过高。文章建议目前的估值并未反映其基本面前景。</p><p>Tags: lionsgate studios · stock analysis · valuation · media industry · investment</p>",
+      "date_published": "2026-06-17T11:33:56+00:00",
+      "tags": [
+        "lionsgate studios",
+        "stock analysis",
+        "valuation",
+        "media industry",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4915619-the-state-of-reits-june-2026-edition?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4915619-the-state-of-reits-june-2026-edition?source=feed_all_articles",
+      "title": "REITs现状：2026年6月版",
+      "content_html": "<p><strong>The State Of REITs: June 2026 Edition</strong></p><p>This report provides an overview of the current state of Real Estate Investment Trusts (REITs) as of June 2026. It likely covers market trends, performance, and outlook for the REIT sector.</p><p>本报告概述了截至2026年6月的房地产投资信托基金（REITs）的现状。它可能涵盖了REITs行业的市场趋势、表现和前景。</p><p>Tags: reits · real estate · investment · market trends · financial report</p>",
+      "date_published": "2026-06-17T11:33:19+00:00",
+      "tags": [
+        "reits",
+        "real estate",
+        "investment",
+        "market trends",
+        "financial report"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/tech/942467/smart-lighting-backyard-govee-outdoor",
+      "url": "https://www.theverge.com/tech/942467/smart-lighting-backyard-govee-outdoor",
+      "title": "我的后院让我变成了彩色智能照明的信徒",
+      "content_html": "<p><strong>My backyard made me a color-changing smart lighting convert</strong></p><p>The author shares their positive experience with color-changing smart lighting in their backyard, having initially been skeptical. They found the ambiance and convenience to be a significant improvement for their outdoor smart home setup.</p><p>作者分享了他们最初持怀疑态度，但最终被后院的彩色智能照明所折服的积极体验。他们发现这种照明方式极大地提升了户外智能家居的氛围和便利性。</p><p>Tags: smart lighting · home automation · outdoor lighting · gadgets · user experience</p>",
+      "date_published": "2026-06-17T11:30:00+00:00",
+      "tags": [
+        "smart lighting",
+        "home automation",
+        "outdoor lighting",
+        "gadgets",
+        "user experience"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4915617-sell-spacex-dont-get-trapped-by-one-of-most-extreme-valuation-traps-in-history?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4915617-sell-spacex-dont-get-trapped-by-one-of-most-extreme-valuation-traps-in-history?source=feed_all_articles",
+      "title": "出售SpaceX: 不要陷入历史上最极端的估值陷阱之一",
+      "content_html": "<p><strong>Sell SpaceX: Don&#x27;t Get Trapped By One Of The Most Extreme Valuation Traps In History</strong></p><p>The article strongly advises against holding SpaceX stock, labeling it as one of the most extreme valuation traps in history. It suggests that investors should consider selling their shares due to the unsustainable valuation.</p><p>本文强烈建议不要持有SpaceX股票，称其为历史上最极端的估值陷阱之一。文章建议投资者应考虑出售股票，因为其估值不可持续。</p><p>Tags: spacex · stock advice · valuation · investment risk · sell recommendation</p>",
+      "date_published": "2026-06-17T11:29:24+00:00",
+      "tags": [
+        "spacex",
+        "stock advice",
+        "valuation",
+        "investment risk",
+        "sell recommendation"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4915616-cion-investment-stock-growing-debt-reduces-appeal-rating-downgrade?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4915616-cion-investment-stock-growing-debt-reduces-appeal-rating-downgrade?source=feed_all_articles",
+      "title": "CION Investment: 增长的债务降低了吸引力（评级下调）",
+      "content_html": "<p><strong>CION Investment: Growing Debt Reduces Appeal (Rating Downgrade)</strong></p><p>CION Investment&#x27;s appeal has diminished due to increasing debt levels, leading to a rating downgrade. The article likely discusses the financial implications of the company&#x27;s debt and its impact on its investment rating.</p><p>CION Investment的吸引力因债务水平的不断增加而下降，导致评级下调。文章可能讨论了该公司债务的财务影响及其对其投资评级的影响。</p><p>Tags: cion investment · debt · rating downgrade · financial analysis · investment</p>",
+      "date_published": "2026-06-17T11:28:56+00:00",
+      "tags": [
+        "cion investment",
+        "debt",
+        "rating downgrade",
+        "financial analysis",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1221159#reply1",
+      "url": "https://www.v2ex.com/t/1221159#reply1",
+      "title": "[问与答] Bitget Wallet 同一套助记词，安卓能恢复出原钱包， iOS 恢复出来却是空钱包",
+      "content_html": "<p><strong>[问与答] Bitget Wallet 同一套助记词，安卓能恢复出原钱包， iOS 恢复出来却是空钱包</strong></p><p>A user is experiencing an issue where the same mnemonic phrase restores the correct wallet with assets on Android&#x27;s Bitget Wallet, but results in an empty wallet on iOS. This suggests a potential cross-platform compatibility or data integrity problem with the wallet&#x27;s recovery mechanism.</p><p>一位用户遇到了一个问题：同一套助记词在安卓版Bitget Wallet上能正确恢复出带资产的原钱包，但在iOS上却恢复出了一个空钱包。这表明钱包的恢复机制可能存在跨平台兼容性或数据完整性问题。</p><p>Tags: bitget wallet · mnemonic phrase · wallet recovery · android · ios · crypto</p>",
+      "date_published": "2026-06-17T11:26:59+00:00",
+      "tags": [
+        "bitget wallet",
+        "mnemonic phrase",
+        "wallet recovery",
+        "android",
+        "ios",
+        "crypto"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/bezos-says-the-only-thing-holding-back-orbital-data-centers-is-cost-not-science-as-he-says-ai-will-create-jobs-fc49d5d5?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/bezos-says-the-only-thing-holding-back-orbital-data-centers-is-cost-not-science-as-he-says-ai-will-create-jobs-fc49d5d5?mod=mw_rss_topstories",
+      "title": "贝佐斯表示，阻碍轨道数据中心的唯一因素是成本，而非科学，他还表示人工智能将创造就业机会",
+      "content_html": "<p><strong>Bezos says the only thing holding back orbital data centers is cost, not science, as he says AI will create jobs</strong></p><p>Jeff Bezos believes that the primary obstacle to establishing data centers in space is cost, not scientific feasibility. He also expressed optimism that Artificial Intelligence will lead to job creation.</p><p>杰夫·贝佐斯认为，在太空建立数据中心的唯一障碍是成本，而不是科学可行性。他还对人工智能将创造就业机会表示乐观。</p><p>Tags: jeff bezos · space data centers · ai · job creation · technology</p>",
+      "date_published": "2026-06-17T11:14:00+00:00",
+      "tags": [
+        "jeff bezos",
+        "space data centers",
+        "ai",
+        "job creation",
+        "technology"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/former-goldman-ceo-lloyd-blankfein-calls-day-trading-his-music-and-says-98-of-his-portfolio-is-in-risky-assets-a22508d9?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/former-goldman-ceo-lloyd-blankfein-calls-day-trading-his-music-and-says-98-of-his-portfolio-is-in-risky-assets-a22508d9?mod=mw_rss_topstories",
+      "title": "前高盛CEO劳埃德·布兰克费恩称日内交易是他的“音乐”，并表示他98%的投资组合都是高风险资产",
+      "content_html": "<p><strong>Former Goldman CEO Lloyd Blankfein calls day trading his ‘music’ — and says 98% of his portfolio is in risky assets</strong></p><p>Former Goldman Sachs CEO Lloyd Blankfein describes day trading as his &#x27;music&#x27; and reveals that nearly all of his portfolio, 98%, is invested in high-risk assets. This indicates a highly aggressive investment strategy.</p><p>前高盛CEO劳埃德·布兰克费恩称日内交易是他的“音乐”，并透露他98%的投资组合都是高风险资产。这表明他采取了非常激进的投资策略。</p><p>Tags: lloyd blankfein · day trading · investment portfolio · high-risk assets · finance</p>",
+      "date_published": "2026-06-17T11:10:00+00:00",
+      "tags": [
+        "lloyd blankfein",
+        "day trading",
+        "investment portfolio",
+        "high-risk assets",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1221158#reply2",
+      "url": "https://www.v2ex.com/t/1221158#reply2",
+      "title": "[生活] 它叫元宵，是一只狸花猫",
+      "content_html": "<p><strong>[生活] 它叫元宵，是一只狸花猫</strong></p><p>This is a personal story about the author&#x27;s beloved cat, Yuanxiao, a tabby cat. The narrative recounts the journey of adopting Yuanxiao and the emotional bond shared, culminating in a poignant farewell.</p><p>这是一个关于作者心爱的狸花猫“元宵”的个人故事。叙述回顾了收养元宵的过程以及它们之间分享的情感纽带，最后以一个感人的告别作为结束。</p><p>Tags: personal story · cat · adoption · pets · memoir</p>",
+      "date_published": "2026-06-17T11:04:35+00:00",
+      "tags": [
+        "personal story",
+        "cat",
+        "adoption",
+        "pets",
+        "memoir"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/my-child-was-given-a-summer-cabin-should-i-pay-for-the-10-000-a-year-maintenance-and-taxes-5dc5cace?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/my-child-was-given-a-summer-cabin-should-i-pay-for-the-10-000-a-year-maintenance-and-taxes-5dc5cace?mod=mw_rss_topstories",
+      "title": "我的孩子得到了一间夏季小屋。我应该支付每年1万美元的维护和税款吗？",
+      "content_html": "<p><strong>My child was given a summer cabin. Should I pay for the $10,000-a-year maintenance and taxes?</strong></p><p>A parent is seeking advice on whether they should cover the $10,000 annual maintenance and taxes for a summer cabin gifted to their child. The decision may impact their inheritance plans for their two children.</p><p>一位家长正在寻求建议，询问是否应该承担赠予子女的夏季小屋每年1万美元的维护费和税款。这个决定可能会影响他们对两个子女的遗产规划。</p><p>Tags: inheritance · gifting · property maintenance · financial decision · family finance</p>",
+      "date_published": "2026-06-17T11:00:00+00:00",
+      "tags": [
+        "inheritance",
+        "gifting",
+        "property maintenance",
+        "financial decision",
+        "family finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/how-pizza-hut-fell-from-stuffed-crust-glory-to-corporate-castoff-094b4ede?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/how-pizza-hut-fell-from-stuffed-crust-glory-to-corporate-castoff-094b4ede?mod=mw_rss_topstories",
+      "title": "必胜客如何从爆浆芝士馅的荣耀跌落至企业弃儿",
+      "content_html": "<p><strong>How Pizza Hut fell from stuffed-crust glory to corporate castoff</strong></p><p>This article details the decline of Pizza Hut, tracing its fall from a position of innovation and popularity, exemplified by its stuffed-crust pizza, to becoming a corporate castoff. It suggests strategic missteps and an inability to adapt led to its current situation.</p><p>本文详细介绍了必胜客的衰落，追溯了它从以爆浆芝士馅披萨为代表的创新和受欢迎的地位，一步步沦为企业弃儿的过程。文章认为战略失误和未能适应变化导致了其目前的状况。</p><p>Tags: pizza hut · business decline · corporate strategy · food industry · brand history</p>",
+      "date_published": "2026-06-17T11:00:00+00:00",
+      "tags": [
+        "pizza hut",
+        "business decline",
+        "corporate strategy",
+        "food industry",
+        "brand history"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1221157#reply0",
+      "url": "https://www.v2ex.com/t/1221157#reply0",
+      "title": "[AI Agent 智能体] 如何利用空闲显卡学习 AI 或者结合 AI 做些什么呢？",
+      "content_html": "<p><strong>[AI Agent 智能体] 如何利用空闲显卡学习 AI 或者结合 AI 做些什么呢？</strong></p><p>The author, a backend developer, is looking for ways to leverage their idle graphics cards to learn AI technologies or integrate AI into their company&#x27;s business. They are seeking practical applications and learning opportunities for AI development using available hardware.</p><p>作者是一位后端开发者，他正在寻找利用闲置显卡学习AI技术或将AI融入公司业务的方法。他正在寻求利用现有硬件进行AI开发的可行应用和学习机会。</p><p>Tags: ai development · graphics card · idle resources · backend developer · learning</p>",
+      "date_published": "2026-06-17T10:49:21+00:00",
+      "tags": [
+        "ai development",
+        "graphics card",
+        "idle resources",
+        "backend developer",
+        "learning"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1221156#reply0",
+      "url": "https://www.v2ex.com/t/1221156#reply0",
+      "title": "[分享创造] 做了一个 awesome-guide.md：收集那些专门给 AI Agent 读的 Markdown 指南",
+      "content_html": "<p><strong>[分享创造] 做了一个 awesome-guide.md：收集那些专门给 AI Agent 读的 Markdown 指南</strong></p><p>The author has created &#x27;awesome-guide.md,&#x27; a curated list of Markdown guides specifically designed for AI Agents. These guides aim to help AI agents understand and interact with websites, products, and APIs.</p><p>作者创建了“awesome-guide.md”，这是一个专门为AI Agent设计的Markdown指南的精选列表。这些指南旨在帮助AI Agent理解并与之交互的网站、产品和API。</p><p>Tags: ai agent · markdown · documentation · developer tools · resource curation</p>",
+      "date_published": "2026-06-17T10:45:16+00:00",
+      "tags": [
+        "ai agent",
+        "markdown",
+        "documentation",
+        "developer tools",
+        "resource curation"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://sspai.com/post/111181",
+      "url": "https://sspai.com/post/111181",
+      "title": "WWDC26 在现场，与 Apple 设计大奖提名开发者聊聊他们的 app",
+      "content_html": "<p><strong>WWDC26 在现场，与 Apple 设计大奖提名开发者聊聊他们的 app</strong></p><p>This article features discussions with developers nominated for the Apple Design Awards at WWDC26. It explores their applications and insights into app development, highlighting innovative design and user experiences.</p><p>本文介绍了在WWDC26上与Apple设计奖提名开发者进行的讨论。文章探讨了他们的应用程序和对应用开发的见解，强调了创新的设计和用户体验。</p><p>Tags: wwdc26 · apple design award · app development · ios developers · innovation</p>",
+      "date_published": "2026-06-17T10:04:01+00:00",
+      "tags": [
+        "wwdc26",
+        "apple design award",
+        "app development",
+        "ios developers",
+        "innovation"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://36kr.com/p/3857051317359622?f=rss",
+      "url": "https://36kr.com/p/3857051317359622?f=rss",
+      "title": "风拂阳澄，来半岛解锁夏日限定AI狂欢！",
+      "content_html": "<p><strong>风拂阳澄，来半岛解锁夏日限定AI狂欢！</strong></p><p>Yangcheng Lake Peninsula is set to host an AI Carnival focusing on &#x27;AI + Culture, Sports, and Tourism.&#x27; The event will showcase AI applications in areas like exoskeleton security, autonomous delivery vehicles, sports, pets, art, and wellness.</p><p>阳澄湖半岛将举办一场以“AI+文体旅”为主题的AI嘉年华。活动将展示外骨骼安保、自动驾驶配送车、体育、宠物、艺术和健康等领域的AI应用。</p><p>Tags: ai carnival · yangcheng lake · ai applications · smart tourism · cultural technology</p>",
+      "date_published": "2026-06-17T10:02:07+00:00",
+      "tags": [
+        "ai carnival",
+        "yangcheng lake",
+        "ai applications",
+        "smart tourism",
+        "cultural technology"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/c7vyn17g832o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/c7vyn17g832o?at_medium=RSS&at_campaign=rss",
+      "title": "以色列在特朗普批评之际对黎巴嫩发动新的打击",
+      "content_html": "<p><strong>Israel launches fresh strikes on Lebanon despite Trump criticism</strong></p><p>Israel has launched new strikes on Lebanon despite criticism from former US President Donald Trump. Trump had urged Israeli Prime Minister Benjamin Netanyahu to be more responsible regarding Lebanon.</p><p>尽管美国前总统特朗普提出批评，以色列仍对黎巴嫩发动了新的打击。特朗普曾敦促以色列总理内塔尼亚胡在黎巴嫩问题上负起更多责任。</p><p>Tags: israel · lebanon · military strikes · trump criticism · geopolitics</p>",
+      "date_published": "2026-06-17T10:01:42+00:00",
+      "tags": [
+        "israel",
+        "lebanon",
+        "military strikes",
+        "trump criticism",
+        "geopolitics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno",
+      "title": "下一代人形机器人可能完全不像人",
+      "content_html": "<p><strong>The next humanoid robot might not look human at all</strong></p><p>The article explores the future of humanoid robots, suggesting that they may not necessarily have human-like forms, such as heads or legs. Instead, functionality and adaptable designs, like wheeled bases or foldable structures, could define them.</p><p>本文探讨了人形机器人的未来，认为它们不一定需要具备类似人类的形态，例如头部或腿部。相反，功能性和适应性设计，如轮式底座或可折叠结构，将是其定义。</p><p>Tags: humanoid robots · robotics · ai · future technology · automation</p>",
+      "date_published": "2026-06-17T09:46:56+00:00",
+      "tags": [
+        "humanoid robots",
+        "robotics",
+        "ai",
+        "future technology",
+        "automation"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://cells2pixels.github.io/",
+      "url": "https://cells2pixels.github.io/",
+      "title": "Show HN: High-Res Neural Cellular Automata",
+      "content_html": "<p><strong>Show HN: High-Res Neural Cellular Automata</strong></p><p>This is a &#x27;Show HN&#x27; post on Hacker News, featuring a project called &#x27;High-Res Neural Cellular Automata.&#x27; It likely presents a technical demonstration or implementation of neural cellular automata with high resolution.</p><p>这是Hacker News上的一个“Show HN”帖子，展示了一个名为“High-Res Neural Cellular Automata”的项目。它很可能展示了高分辨率神经元胞自动机的技术演示或实现。</p><p>Tags: show hn · neural cellular automata · ai · computer graphics · research</p>",
+      "date_published": "2026-06-17T09:28:36+00:00",
+      "tags": [
+        "show hn",
+        "neural cellular automata",
+        "ai",
+        "computer graphics",
+        "research"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/cwy0nlv90jno?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/cwy0nlv90jno?at_medium=RSS&at_campaign=rss",
+      "title": "耶路撒冷最圣地的地位受到以色列民族主义者违反规则的威胁",
+      "content_html": "<p><strong>Status quo at Jerusalem&#x27;s holiest site under threat as Israeli nationalists flout rules</strong></p><p>The status quo at Jerusalem&#x27;s al-Aqsa mosque compound is under threat as Israeli nationalists increasingly disregard the established convention for shared religious access. This has led to heightened tensions and potential conflicts.</p><p>耶路撒冷圣地阿克萨清真寺的现状正受到威胁，因为以色列民族主义者越来越多地无视共享宗教访问的既定惯例。这导致了紧张局势的加剧和潜在的冲突。</p><p>Tags: israel · jerusalem · al-aqsa mosque · religious conflict · politics</p>",
+      "date_published": "2026-06-17T09:13:34+00:00",
+      "tags": [
+        "israel",
+        "jerusalem",
+        "al-aqsa mosque",
+        "religious conflict",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+      "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+      "title": "GLM-5.2 是人工智能分析领域新的领先开放权重模型",
+      "content_html": "<p><strong>GLM-5.2 is the new leading open weights model on Artificial Analysis</strong></p><p>GLM-5.2 has been identified as the new leading open-weight model for Artificial Analysis. This signifies a significant advancement in the availability and performance of open-source AI models for analytical tasks.</p><p>GLM-5.2 已被确定为人工智能分析领域新的领先开放权重模型。这标志着用于分析任务的开源AI模型的可用性和性能有了重大进步。</p><p>Tags: glm-5.2 · open weight model · artificial analysis · ai research · machine learning</p>",
+      "date_published": "2026-06-17T09:12:00+00:00",
+      "tags": [
+        "glm-5.2",
+        "open weight model",
+        "artificial analysis",
+        "ai research",
+        "machine learning"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/17/1138600/entrepreneurs-nairobi-case-for-going-solar/",
+      "url": "https://www.technologyreview.com/2026/06/17/1138600/entrepreneurs-nairobi-case-for-going-solar/",
+      "title": "内罗毕的企业家倡导太阳能发电",
+      "content_html": "<p><strong>Entrepreneurs in Nairobi make the case for going solar</strong></p><p>Entrepreneurs in Nairobi are advocating for solar power as a solution for universal electricity access, particularly in communities lacking centralized power. They highlight the improving economics of solar technology and its role in achieving national energy goals.</p><p>内罗毕的企业家们倡导太阳能发电，作为实现普遍电力接入的解决方案，特别是在缺乏集中供电的社区。他们强调了太阳能技术的经济性不断提高及其在实现国家能源目标中的作用。</p><p>Tags: solar power · nairobi · renewable energy · universal access · entrepreneurship</p>",
+      "date_published": "2026-06-17T09:00:00+00:00",
+      "tags": [
+        "solar power",
+        "nairobi",
+        "renewable energy",
+        "universal access",
+        "entrepreneurship"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/17/1138743/hacking-atmosphere-geoengineering-reality-check/",
+      "url": "https://www.technologyreview.com/2026/06/17/1138743/hacking-atmosphere-geoengineering-reality-check/",
+      "title": "大气层黑客：地球工程获得现实检验",
+      "content_html": "<p><strong>Hacking the atmosphere: Geoengineering gets a reality check</strong></p><p>This article examines the concept of geoengineering and its practical limitations, using the example of an advanced aircraft designed for high-altitude atmospheric research. It suggests that while ambitious, such technologies face significant challenges.</p><p>本文探讨了地球工程的概念及其实际局限性，以一架用于高空大气研究的先进飞机为例。文章认为，尽管雄心勃勃，但此类技术面临着重大挑战。</p><p>Tags: geoengineering · atmosphere · climate change · research · technology</p>",
+      "date_published": "2026-06-17T09:00:00+00:00",
+      "tags": [
+        "geoengineering",
+        "atmosphere",
+        "climate change",
+        "research",
+        "technology"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/c20yzm84r7lo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/c20yzm84r7lo?at_medium=RSS&at_campaign=rss",
+      "title": "英国调查俄罗斯军舰在英吉利海峡附近向游艇发射警告射击的报道",
+      "content_html": "<p><strong>UK investigating reports Russian warship fired warning shots near yacht in English Channel</strong></p><p>The UK is investigating reports that a Russian warship fired warning shots near a yacht in the English Channel. A retired couple aboard the yacht stated they had attempted to signal a course change before the shots were fired.</p><p>英国正在调查有关一艘俄罗斯军舰在英吉利海峡附近向一艘游艇发射警告射击的报道。游艇上的一对退休夫妇表示，在开枪前他们曾试图示意改变航向。</p><p>Tags: uk · russia · warship · english channel · incident</p>",
+      "date_published": "2026-06-17T08:38:24+00:00",
+      "tags": [
+        "uk",
+        "russia",
+        "warship",
+        "english channel",
+        "incident"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://36kr.com/p/3857011810112521?f=rss",
+      "url": "https://36kr.com/p/3857011810112521?f=rss",
+      "title": "浙大系创业者冲港股IPO，仙工智能招股书五大看点",
+      "content_html": "<p><strong>浙大系创业者冲港股IPO，仙工智能招股书五大看点</strong></p><p>XianGong Intelligence, a robotics company with Zhejiang University roots, is preparing for its Hong Kong IPO, with its prospectus highlighting five key areas. The company specializes in robot controllers, aiming to go public as a special technology company.</p><p>具有浙江大学背景的机器人公司仙工智能正准备在香港进行首次公开募股，其招股书重点介绍了五个关键领域。该公司专注于机器人控制器，目标是作为一家特殊技术公司上市。</p><p>Tags: xian gong intelligence · robotics · ipo · hong kong stock exchange · technology company</p>",
+      "date_published": "2026-06-17T08:36:26+00:00",
+      "tags": [
+        "xian gong intelligence",
+        "robotics",
+        "ipo",
+        "hong kong stock exchange",
+        "technology company"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://36kr.com/p/3856958075802633?f=rss",
+      "url": "https://36kr.com/p/3856958075802633?f=rss",
+      "title": "把AI当「电子校医」的大学生，一个人看病不慌了",
+      "content_html": "<p><strong>把AI当「电子校医」的大学生，一个人看病不慌了</strong></p><p>College students are using AI tools as &#x27;electronic school doctors&#x27; to help diagnose symptoms and get advice when feeling unwell, especially outside of regular school clinic hours. This AI assistance provides comfort and guidance for health concerns.</p><p>大学生们正利用AI工具作为“电子校医”，在不适时提供症状诊断和建议，尤其是在校诊所非营业时间。这种AI辅助为健康问题提供了安慰和指导。</p><p>Tags: ai · student health · virtual doctor · health tech · college life</p>",
+      "date_published": "2026-06-17T07:41:18+00:00",
+      "tags": [
+        "ai",
+        "student health",
+        "virtual doctor",
+        "health tech",
+        "college life"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://36kr.com/p/3848483761493250?f=rss",
+      "url": "https://36kr.com/p/3848483761493250?f=rss",
+      "title": "NoonWake.AI完成近千万元种子轮融资，用AI做年轻人的情绪消费品｜智能涌现首发",
+      "content_html": "<p><strong>NoonWake.AI完成近千万元种子轮融资，用AI做年轻人的情绪消费品｜智能涌现首发</strong></p><p>NoonWake.AI, a startup creating emotional consumer products for young people using AI and focusing on the pan-psychology sector, has secured nearly 10 million yuan in seed funding. Their products include AI companion apps and hardware.</p><p>NoonWake.AI是一家利用AI为年轻人打造情绪消费品、专注于泛心理领域的初创公司，已完成近千万元种子轮融资。其产品包括AI伴侣应用和硬件。</p><p>Tags: noonwake.ai · seed funding · ai · emotional products · mental wellness</p>",
+      "date_published": "2026-06-17T07:12:01+00:00",
+      "tags": [
+        "noonwake.ai",
+        "seed funding",
+        "ai",
+        "emotional products",
+        "mental wellness"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://36kr.com/p/3856751835976706?f=rss",
+      "url": "https://36kr.com/p/3856751835976706?f=rss",
+      "title": "监管约谈山姆后，沃尔玛中国多位高管变动｜独家",
+      "content_html": "<p><strong>监管约谈山姆后，沃尔玛中国多位高管变动｜独家</strong></p><p>Following regulatory discussions about Sam&#x27;s Club, Walmart China has seen several executive changes, including the departure of its CMO. These shifts are occurring amid ongoing scrutiny of the company&#x27;s operations.</p><p>在监管部门约谈山姆会员店后，沃尔玛中国经历了一系列高管变动，包括首席营销官的离职。这些变动发生在公司运营持续受到审查之际。</p><p>Tags: walmart china · sam&#x27;s club · executive changes · regulation · business news</p>",
+      "date_published": "2026-06-17T06:29:32+00:00",
+      "tags": [
+        "walmart china",
+        "sam's club",
+        "executive changes",
+        "regulation",
+        "business news"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/110750",
+      "url": "https://sspai.com/post/110750",
+      "title": "在香港骑共享单车：访客视角的经验分享",
+      "content_html": "<p><strong>在香港骑共享单车：访客视角的经验分享</strong></p><p>This article shares a visitor&#x27;s experience with shared bikes in Hong Kong, noting that cycling is not a widely encouraged mode of transport due to terrain and development. However, it highlights potential for cycling in areas closer to Shenzhen.</p><p>本文分享了一位游客在香港骑共享单车的经历，指出由于地形和开发密度，自行车在香港并非普遍鼓励的交通方式。然而，文章也提到了在靠近深圳的区域骑行的可能性。</p><p>Tags: hong kong · shared bikes · cycling · visitor experience · urban mobility</p>",
+      "date_published": "2026-06-17T03:08:23+00:00",
+      "tags": [
+        "hong kong",
+        "shared bikes",
+        "cycling",
+        "visitor experience",
+        "urban mobility"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/cgl3x0pey9lo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/cgl3x0pey9lo?at_medium=RSS&at_campaign=rss",
+      "title": "巴西判处雅伊尔·博索纳罗的儿子在父亲的法律斗争中寻求美国帮助",
+      "content_html": "<p><strong>Brazil convicts Jair Bolsonaro&#x27;s son of pursuing US help in father&#x27;s legal battle</strong></p><p>Eduardo Bolsonaro, son of Jair Bolsonaro, has been convicted of pursuing US assistance in his father&#x27;s legal battles. He has described the conviction as &#x27;baseless and senseless&#x27;.</p><p>雅伊尔·博索纳罗的儿子爱德华多·博索纳罗因在父亲的法律斗争中寻求美国援助而被判有罪。他称此次定罪“毫无根据且毫无意义”。</p><p>Tags: brazil · eduardo bolsonaro · jair bolsonaro · legal battle · politics</p>",
+      "date_published": "2026-06-17T00:31:35+00:00",
+      "tags": [
+        "brazil",
+        "eduardo bolsonaro",
+        "jair bolsonaro",
+        "legal battle",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/16/1138905/exclusive-ebook-how-ai-is-becoming-the-next-military-advisor/",
+      "url": "https://www.technologyreview.com/2026/06/16/1138905/exclusive-ebook-how-ai-is-becoming-the-next-military-advisor/",
+      "title": "独家电子书：人工智能如何成为下一位军事顾问",
+      "content_html": "<p><strong>Exclusive eBook: How AI is becoming the next military advisor</strong></p><p>This exclusive eBook compiles articles on how militaries are utilizing AI models for decision-making, updated to reflect recent developments. It explores AI&#x27;s evolving role as a strategic advisor in defense.</p><p>这本独家电子书汇集了关于军队如何利用AI模型进行决策的文章，并已更新以反映近期发展。它探讨了AI作为国防战略顾问日益增长的作用。</p><p>Tags: ai · military · decision making · defense technology · e-book</p>",
+      "date_published": "2026-06-16T20:35:02+00:00",
+      "tags": [
+        "ai",
+        "military",
+        "decision making",
+        "defense technology",
+        "e-book"
+      ],
+      "_category": "AI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1220910#reply1",
       "url": "https://www.v2ex.com/t/1220910#reply1",
       "title": "[问与答] microsoft store 发布 msix 应用,属性 总是未完成",
@@ -2126,456 +2622,6 @@
         "software"
       ],
       "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1219440#reply3",
-      "url": "https://www.v2ex.com/t/1219440#reply3",
-      "title": "[问与答] 请教如何实时监听 Twitter 博主的新帖子，比较稳定便宜的方案",
-      "content_html": "<p><strong>[问与答] 请教如何实时监听 Twitter 博主的新帖子，比较稳定便宜的方案</strong></p><p>A user is seeking a stable and affordable method to receive real-time notifications for new posts from specific Twitter (X) bloggers, like Elon Musk. They&#x27;ve encountered issues with browser refreshing being blocked and find scraping services too expensive.</p><p>用户正在寻找一种稳定且经济实惠的方法，以便实时接收特定Twitter（X）博主（如埃隆·马斯克）的新帖子通知。他们遇到了浏览器刷新被屏蔽的问题，并且发现爬虫服务过于昂贵。</p><p>Tags: twitter · api · scraping · notification · v2ex</p>",
-      "date_published": "2026-06-10T10:42:28+00:00",
-      "tags": [
-        "twitter",
-        "api",
-        "scraping",
-        "notification",
-        "v2ex"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1219439#reply0",
-      "url": "https://www.v2ex.com/t/1219439#reply0",
-      "title": "[分享创造] Coding plan 用不完，翻译软件开放免费用了",
-      "content_html": "<p><strong>[分享创造] Coding plan 用不完，翻译软件开放免费用了</strong></p><p>A developer is sharing a translation software that is now free to use, as they have an abundance of &#x27;coding plan&#x27; tokens. The software is available for download via a provided link.</p><p>一位开发者分享了一款现在可以免费使用的翻译软件，因为他们拥有过多的“coding plan”代币。该软件可以通过提供的链接下载。</p><p>Tags: ai · translation · free · software · v2ex</p>",
-      "date_published": "2026-06-10T10:38:17+00:00",
-      "tags": [
-        "ai",
-        "translation",
-        "free",
-        "software",
-        "v2ex"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1219438#reply0",
-      "url": "https://www.v2ex.com/t/1219438#reply0",
-      "title": "[AI Agent 智能体] Hermes Desktop or Hermes Studio？",
-      "content_html": "<p><strong>[AI Agent 智能体] Hermes Desktop or Hermes Studio？</strong></p><p>A user is asking for opinions on Hermes Desktop and Hermes Studio, two AI agent clients. They&#x27;ve tried Hermes Desktop and found its performance lacking, with conversations disappearing and mixing up, although they liked its simple interface.</p><p>一位用户正在征求关于Hermes Desktop和Hermes Studio这两个AI代理客户端的意见。他们试用了Hermes Desktop，发现其性能不佳，对话会消失并混淆，尽管他们喜欢其简洁的界面。</p><p>Tags: ai · agent · hermes · desktop · studio</p>",
-      "date_published": "2026-06-10T10:36:35+00:00",
-      "tags": [
-        "ai",
-        "agent",
-        "hermes",
-        "desktop",
-        "studio"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1219437#reply2",
-      "url": "https://www.v2ex.com/t/1219437#reply2",
-      "title": "[Apple] 求问， iOS27 的新 siri 一直在排队……",
-      "content_html": "<p><strong>[Apple] 求问， iOS27 的新 siri 一直在排队……</strong></p><p>A user is experiencing persistent &quot;queuing&quot; issues when trying to access the new Siri feature on iOS 27 across multiple Apple devices and regions. They have already tried changing language settings.</p><p>一位用户在跨越多个Apple设备和地区尝试访问iOS 27上的新Siri功能时，一直遇到持续的“排队”问题。他们已经尝试过更改语言设置。</p><p>Tags: apple · ios · siri · update · v2ex</p>",
-      "date_published": "2026-06-10T10:35:59+00:00",
-      "tags": [
-        "apple",
-        "ios",
-        "siri",
-        "update",
-        "v2ex"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4913670-us-china-trade-starting-to-bottom-after-year-of-global-tariff-war?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4913670-us-china-trade-starting-to-bottom-after-year-of-global-tariff-war?source=feed_all_articles",
-      "title": "U.S.-China Trade Starting To Bottom After Year Of Global Tariff War",
-      "content_html": "<p><strong>U.S.-China Trade Starting To Bottom After Year Of Global Tariff War</strong></p><p>US-China trade may be reaching a turning point after a prolonged period of global trade tensions and tariffs. This suggests a potential stabilization or slight recovery in bilateral trade relations.</p><p>在经历了一年的全球关税战之后，中美贸易可能正触底反弹。这表明双边贸易关系可能趋于稳定或略有恢复。</p><p>Tags: trade · china · us · tariffs · economy</p>",
-      "date_published": "2026-06-10T10:30:00+00:00",
-      "tags": [
-        "trade",
-        "china",
-        "us",
-        "tariffs",
-        "economy"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4913656-shattuck-labs-hold-on-phase-1-sl-325-data-and-next-stage-of-development?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4913656-shattuck-labs-hold-on-phase-1-sl-325-data-and-next-stage-of-development?source=feed_all_articles",
-      "title": "Shattuck Labs: \"Hold\" On Phase 1 SL-325 Data And Next Stage Of Development",
-      "content_html": "<p><strong>Shattuck Labs: &quot;Hold&quot; On Phase 1  SL-325 Data And Next Stage Of Development</strong></p><p>Shattuck Labs is recommending a &#x27;Hold&#x27; rating for its Phase 1 SL-325 data, suggesting a cautious approach to its further development. Investors are advised to maintain their current positions pending more information.</p><p>Shattuck Labs建议对其SL-325 I期数据持有“持有”评级，表明对其进一步开发持谨慎态度。建议投资者在更多信息出来前保持当前仓位。</p><p>Tags: shattuck labs · biotech · clinical trial · sl-325 · investing</p>",
-      "date_published": "2026-06-10T10:28:06+00:00",
-      "tags": [
-        "shattuck labs",
-        "biotech",
-        "clinical trial",
-        "sl-325",
-        "investing"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1219436#reply0",
-      "url": "https://www.v2ex.com/t/1219436#reply0",
-      "title": "[问与答] 包鱼塘视频本来挺好的赛道，为啥非得弄的跟谁能比我惨啊？",
-      "content_html": "<p><strong>[问与答] 包鱼塘视频本来挺好的赛道，为啥非得弄的跟谁能比我惨啊？</strong></p><p>A viewer finds the &#x27;fish pond farming&#x27; video genre enjoyable but is frustrated by content creators who excessively emphasize hardship and victimhood for views. They feel these tactics are low-quality attention-seeking.</p><p>一位观众发现“承包鱼塘”类视频很有趣，但对那些为了博取观看量而过度强调艰难和受害者心态的内容创作者感到沮丧。他们认为这些手法是低质量的博取关注的方式。</p><p>Tags: content creation · youtube · monetization · v2ex · social media</p>",
-      "date_published": "2026-06-10T10:26:33+00:00",
-      "tags": [
-        "content creation",
-        "youtube",
-        "monetization",
-        "v2ex",
-        "social media"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4913655-the-energy-grail-of-ai-math-of-the-merger-of-nextera-and-dominion-energy?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4913655-the-energy-grail-of-ai-math-of-the-merger-of-nextera-and-dominion-energy?source=feed_all_articles",
-      "title": "The Energy Grail Of AI: Math Of The Merger Of NextEra And Dominion Energy",
-      "content_html": "<p><strong>The Energy Grail Of AI: Math Of The Merger Of NextEra And Dominion Energy</strong></p><p>This article explores the potential merger of NextEra and Dominion Energy through the lens of their energy needs for AI. It delves into the mathematical and strategic implications of such a consolidation.</p><p>本文从AI的能源需求角度探讨了NextEra与Dominion Energy潜在的合并。文章深入分析了此次合并的数学和战略意义。</p><p>Tags: ai · energy · merger · nextera · dominion energy</p>",
-      "date_published": "2026-06-10T10:21:39+00:00",
-      "tags": [
-        "ai",
-        "energy",
-        "merger",
-        "nextera",
-        "dominion energy"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4913654-a-rare-margin-of-safety-why-pepsico-is-poised-for-a-double-digit-rebound?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4913654-a-rare-margin-of-safety-why-pepsico-is-poised-for-a-double-digit-rebound?source=feed_all_articles",
-      "title": "A Rare Margin Of Safety: Why PepsiCo Is Poised For A Double-Digit Rebound",
-      "content_html": "<p><strong>A Rare Margin Of Safety: Why PepsiCo Is Poised For A Double-Digit Rebound</strong></p><p>PepsiCo is presented as an investment opportunity with a rare margin of safety, indicating its potential for a significant double-digit rebound. The article likely analyzes its financial health and market position.</p><p>百事公司被视为一个具有罕见安全边际的投资机会，表明其有潜力实现两位数的显著反弹。文章很可能分析了其财务健康和市场地位。</p><p>Tags: pepsico · stock · investment · analysis · finance</p>",
-      "date_published": "2026-06-10T10:17:12+00:00",
-      "tags": [
-        "pepsico",
-        "stock",
-        "investment",
-        "analysis",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.com/news/articles/c04yldyezyeo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.com/news/articles/c04yldyezyeo?at_medium=RSS&at_campaign=rss",
-      "title": "Manslaughter charges laid over deadly Hong Kong fire",
-      "content_html": "<p><strong>Manslaughter charges laid over deadly Hong Kong fire</strong></p><p>Manslaughter charges have been filed in connection with a fire in Hong Kong that was the deadliest in 70 years, claiming 168 lives. The blaze occurred last year.</p><p>香港去年发生了一场70年来最致命的火灾，造成168人死亡，现已就此提出过失杀人指控。此次火灾发生在去年。</p><p>Tags: hong kong · fire · manslaughter · crime · news</p>",
-      "date_published": "2026-06-10T10:15:50+00:00",
-      "tags": [
-        "hong kong",
-        "fire",
-        "manslaughter",
-        "crime",
-        "news"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4913652-broadcom-dont-buy-the-crash-buy-the-cash-machine-rating-upgrade?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4913652-broadcom-dont-buy-the-crash-buy-the-cash-machine-rating-upgrade?source=feed_all_articles",
-      "title": "Broadcom: Don't Buy The Crash, Buy The Cash Machine (Rating Upgrade)",
-      "content_html": "<p><strong>Broadcom: Don&#x27;t Buy The Crash, Buy The Cash Machine (Rating Upgrade)</strong></p><p>Broadcom&#x27;s stock is being reframed as a &quot;cash machine,&quot; suggesting investors should consider buying during dips rather than selling. The article highlights a rating upgrade, implying positive sentiment.</p><p>Broadcom的股票被重新定位为一台“印钞机”，建议投资者在股价下跌时买入而非卖出。文章强调了评级上调，暗示了积极的市场情绪。</p><p>Tags: broadcom · stock · investment · rating · finance</p>",
-      "date_published": "2026-06-10T10:15:12+00:00",
-      "tags": [
-        "broadcom",
-        "stock",
-        "investment",
-        "rating",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/my-elderly-mother-and-i-own-a-home-together-will-medicaid-force-its-sale-fdfbad4a?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/my-elderly-mother-and-i-own-a-home-together-will-medicaid-force-its-sale-fdfbad4a?mod=mw_rss_topstories",
-      "title": "My elderly mother and I own a home together. Will Medicaid force its sale?",
-      "content_html": "<p><strong>My elderly mother and I own a home together. Will Medicaid force its sale?</strong></p><p>An individual co-owns a home with their elderly mother and is concerned if Medicaid might force the sale of the property. The article likely addresses elder care, Medicaid policies, and asset protection.</p><p>一位与年迈母亲共同拥有一处房产的个人，担心Medicaid可能会强制出售该房产。文章可能涉及老年护理、Medicaid政策和资产保护。</p><p>Tags: medicaid · elder care · housing · finance · legal</p>",
-      "date_published": "2026-06-10T10:15:00+00:00",
-      "tags": [
-        "medicaid",
-        "elder care",
-        "housing",
-        "finance",
-        "legal"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/tom-lee-says-the-tech-stock-dip-ahead-of-spacexs-ipo-will-reverse-afterwards-2c391603?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/tom-lee-says-the-tech-stock-dip-ahead-of-spacexs-ipo-will-reverse-afterwards-2c391603?mod=mw_rss_topstories",
-      "title": "Tom Lee says the tech-stock dip ahead of SpaceX’s IPO will reverse afterwards",
-      "content_html": "<p><strong>Tom Lee says the tech-stock dip ahead of SpaceX’s IPO will reverse afterwards</strong></p><p>Analyst Tom Lee predicts that the current dip in tech stocks, influenced by the upcoming SpaceX IPO, will reverse once the IPO is complete. Investors are moving cash to prepare for the offering.</p><p>分析师Tom Lee预测，在SpaceX首次公开募股（IPO）之前出现的科技股下跌，将在IPO完成后逆转。投资者正在转移现金为此次发行做准备。</p><p>Tags: spacex · ipo · tech stocks · market · tom lee</p>",
-      "date_published": "2026-06-10T10:13:00+00:00",
-      "tags": [
-        "spacex",
-        "ipo",
-        "tech stocks",
-        "market",
-        "tom lee"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/here-are-all-the-red-flags-in-the-spacex-ipo-7c55b31e?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/here-are-all-the-red-flags-in-the-spacex-ipo-7c55b31e?mod=mw_rss_topstories",
-      "title": "Here are all the red flags in the SpaceX IPO",
-      "content_html": "<p><strong>Here are all the red flags in the SpaceX IPO</strong></p><p>This article outlines potential &#x27;red flags&#x27; associated with SpaceX&#x27;s upcoming IPO, questioning its viability or risks despite Elon Musk&#x27;s vision. It aims to provide a critical perspective.</p><p>本文列出了与SpaceX即将进行的首次公开募股（IPO）相关的潜在“危险信号”，尽管埃隆·马斯克有远见，但也对其可行性或风险提出了质疑。文章旨在提供批判性视角。</p><p>Tags: spacex · ipo · elon musk · risks · startup</p>",
-      "date_published": "2026-06-10T10:00:00+00:00",
-      "tags": [
-        "spacex",
-        "ipo",
-        "elon musk",
-        "risks",
-        "startup"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.com/sport/football/articles/c2dylj8kj82o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.com/sport/football/articles/c2dylj8kj82o?at_medium=RSS&at_campaign=rss",
-      "title": "Banned referee Artan arrives home in Somalia",
-      "content_html": "<p><strong>Banned referee Artan arrives home in Somalia</strong></p><p>Referee Omar Artan, who was banned from entering the United States, has returned to Somalia. He has vowed to officiate at the 2030 World Cup.</p><p>被禁止进入美国的裁判Omar Artan已返回索马里。他誓言将在2030年世界杯上执法。</p><p>Tags: somalia · referee · ban · sports · news</p>",
-      "date_published": "2026-06-10T09:50:32+00:00",
-      "tags": [
-        "somalia",
-        "referee",
-        "ban",
-        "sports",
-        "news"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.com/news/articles/cze9359gglyo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.com/news/articles/cze9359gglyo?at_medium=RSS&at_campaign=rss",
-      "title": "US strikes Iran in response to downing of military helicopter",
-      "content_html": "<p><strong>US strikes Iran in response to downing of military helicopter</strong></p><p>The US has conducted strikes against Iran in retaliation for the downing of a US military helicopter over the Strait of Hormuz. President Trump had previously vowed a response.</p><p>美国已对伊朗发动打击，以报复伊朗在霍尔木兹海峡击落美军直升机。此前，特朗普总统曾誓言将作出回应。</p><p>Tags: us · iran · military · strike · hormuz</p>",
-      "date_published": "2026-06-10T09:39:35+00:00",
-      "tags": [
-        "us",
-        "iran",
-        "military",
-        "strike",
-        "hormuz"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/heres-why-shares-in-softbank-no-longer-japans-most-valuable-have-fallen-by-a-fifth-in-the-last-week-e38d5812?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/heres-why-shares-in-softbank-no-longer-japans-most-valuable-have-fallen-by-a-fifth-in-the-last-week-e38d5812?mod=mw_rss_topstories",
-      "title": "Here’s why shares in SoftBank, no longer Japan’s most valuable, have fallen by a fifth in the last week",
-      "content_html": "<p><strong>Here’s why shares in SoftBank, no longer Japan’s most valuable, have fallen by a fifth in the last week</strong></p><p>SoftBank&#x27;s shares have dropped by 20% in the past week, leading to its loss of the title of Japan&#x27;s most valuable company. Concerns about OpenAI&#x27;s funding and growth targets are cited as a major factor.</p><p>软银的股价在过去一周内下跌了20%，使其失去了日本最有价值公司的称号。文章指出，对OpenAI的融资和增长目标的担忧是导致下跌的主要因素。</p><p>Tags: softbank · openai · stock · finance · tech</p>",
-      "date_published": "2026-06-10T09:39:00+00:00",
-      "tags": [
-        "softbank",
-        "openai",
-        "stock",
-        "finance",
-        "tech"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://sspai.com/post/110911",
-      "url": "https://sspai.com/post/110911",
-      "title": "线下活动｜周日到广州来，给你一张过去的 CD",
-      "content_html": "<p><strong>线下活动｜周日到广州来，给你一张过去的 CD</strong></p><p>An offline event is being held in Guangzhou this Sunday, offering a nostalgic experience centered around CDs and vinyl records. The event highlights a collaboration with Fiio for a portable CD player.</p><p>本周日将在广州举办一场线下活动，围绕CD和黑胶唱片提供怀旧体验。活动亮点是与飞傲合作推出便携式CD播放器。</p><p>Tags: event · guangzhou · music · cd · retro</p>",
-      "date_published": "2026-06-10T09:30:00+00:00",
-      "tags": [
-        "event",
-        "guangzhou",
-        "music",
-        "cd",
-        "retro"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://github.com/react/react/pull/36173",
-      "url": "https://github.com/react/react/pull/36173",
-      "title": "Port React Compiler to Rust",
-      "content_html": "<p><strong>Port React Compiler to Rust</strong></p><p>This discussion revolves around porting the React compiler to the Rust programming language. It delves into the technical challenges and benefits of such a migration.</p><p>本次讨论围绕将React编译器移植到Rust编程语言展开。文章深入探讨了此次迁移的技术挑战和优势。</p><p>Tags: rust · programming · react · compiler · porting</p>",
-      "date_published": "2026-06-10T09:19:55+00:00",
-      "tags": [
-        "rust",
-        "programming",
-        "react",
-        "compiler",
-        "porting"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/news/947518/microsoft-office-2019-for-mac-end-of-support-no-edit",
-      "url": "https://www.theverge.com/news/947518/microsoft-office-2019-for-mac-end-of-support-no-edit",
-      "title": "Microsoft is disabling Office 2019 for Mac next month",
-      "content_html": "<p><strong>Microsoft is disabling Office 2019 for Mac next month</strong></p><p>Microsoft will disable Office 2019 for Mac next month due to an expiring certificate for license validation. Users will need to purchase Office 2024 or a Microsoft 365 subscription to continue editing documents.</p><p>微软将于下个月禁用Mac版的Office 2019，原因是其许可证验证证书即将过期。用户需要购买Office 2024或Microsoft 365订阅才能继续编辑文档。</p><p>Tags: microsoft · office · mac · software · update</p>",
-      "date_published": "2026-06-10T09:14:35+00:00",
-      "tags": [
-        "microsoft",
-        "office",
-        "mac",
-        "software",
-        "update"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/",
-      "url": "https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/",
-      "title": "The “steroid olympics” were a circus—and a window into our culture",
-      "content_html": "<p><strong>The “steroid olympics” were a circus—and a window into our culture</strong></p><p>This article reflects on the &quot;steroid Olympics,&quot; characterizing it as a spectacle that also reveals aspects of our culture. It touches upon the use of various performance-enhancing substances by athletes.</p><p>本文回顾了“类固醇奥运会”，称其为一场盛会，同时也揭示了我们文化的一些方面。文章涉及了运动员使用各种兴奋剂的情况。</p><p>Tags: sports · doping · culture · olympics · science</p>",
-      "date_published": "2026-06-10T09:00:00+00:00",
-      "tags": [
-        "sports",
-        "doping",
-        "culture",
-        "olympics",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.theverge.com/tech/947516/meta-whatsapp-eu-third-party-ai-chatbot-ban-order",
-      "url": "https://www.theverge.com/tech/947516/meta-whatsapp-eu-third-party-ai-chatbot-ban-order",
-      "title": "WhatsApp ordered to host rival AI assistants for free",
-      "content_html": "<p><strong>WhatsApp ordered to host rival AI assistants for free</strong></p><p>The European Commission has ordered WhatsApp (Meta) to provide free access for rival AI chatbots while it investigates potential antitrust violations. This interim measure aims to prevent competitive harm.</p><p>欧盟委员会已命令WhatsApp（Meta）在调查潜在的反垄断违规行为期间，为竞争对手的AI聊天机器人提供免费访问。此临时措施旨在防止对竞争造成损害。</p><p>Tags: whatsapp · ai · antitrust · europe · regulation</p>",
-      "date_published": "2026-06-10T08:40:56+00:00",
-      "tags": [
-        "whatsapp",
-        "ai",
-        "antitrust",
-        "europe",
-        "regulation"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48473166",
-      "url": "https://news.ycombinator.com/item?id=48473166",
-      "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
-      "content_html": "<p><strong>AWS Bedrock to require sharing data with Anthropic for Mythos and future models</strong></p><p>Amazon Web Services (AWS) Bedrock will require users to share data with Anthropic for access to its Mythos and upcoming AI models. This move indicates deeper collaboration between the companies.</p><p>亚马逊网络服务（AWS）Bedrock将要求用户与Anthropic共享数据，才能访问其Mythos及未来AI模型。此举表明两家公司之间更深度的合作。</p><p>Tags: aws · bedrock · anthropic · ai models · data sharing</p>",
-      "date_published": "2026-06-10T08:21:38+00:00",
-      "tags": [
-        "aws",
-        "bedrock",
-        "anthropic",
-        "ai models",
-        "data sharing"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://36kr.com/p/3846956646124036?f=rss",
-      "url": "https://36kr.com/p/3846956646124036?f=rss",
-      "title": "独家｜字节 AI 制药开启拆分融资，AI4S 进入产业化阶段",
-      "content_html": "<p><strong>独家｜字节 AI 制药开启拆分融资，AI4S 进入产业化阶段</strong></p><p>ByteDance&#x27;s AI drug discovery business is starting to spin off and seek independent financing, marking its entry into industrialization. ByteDance will retain controlling interest in the new entity.</p><p>字节跳动的AI制药业务正开始拆分并寻求独立融资，标志着其进入产业化阶段。字节跳动将保留新实体的控股权。</p><p>Tags: bytedance · ai · drug discovery · startup · biotech</p>",
-      "date_published": "2026-06-10T06:11:37+00:00",
-      "tags": [
-        "bytedance",
-        "ai",
-        "drug discovery",
-        "startup",
-        "biotech"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2529267-robots-are-about-to-overtake-armed-soldiers-as-the-deciders-of-war/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "url": "https://www.newscientist.com/article/2529267-robots-are-about-to-overtake-armed-soldiers-as-the-deciders-of-war/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "title": "Robots are about to overtake armed soldiers as the deciders of war",
-      "content_html": "<p><strong>Robots are about to overtake armed soldiers as the deciders of war</strong></p><p>Robots, specifically uncrewed ground vehicles, are increasingly becoming crucial in warfare and may soon surpass human soldiers in determining conflict outcomes. Ukraine has tested these robots on the front lines.</p><p>机器人，特别是无人地面车辆，在战争中的作用日益关键，并可能很快在决定冲突结果方面超越人类士兵。乌克兰已在前线测试了这些机器人。</p><p>Tags: robots · warfare · military · technology · ukraine</p>",
-      "date_published": "2026-06-10T06:00:55+00:00",
-      "tags": [
-        "robots",
-        "warfare",
-        "military",
-        "technology",
-        "ukraine"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.com/news/articles/c0q2jgkwk0no?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.com/news/articles/c0q2jgkwk0no?at_medium=RSS&at_campaign=rss",
-      "title": "Model who alleges Kanye West choked her tells BBC she felt 'suffocated and scared'",
-      "content_html": "<p><strong>Model who alleges Kanye West choked her tells BBC she felt &#x27;suffocated and scared&#x27;</strong></p><p>A model accusing Kanye West of choking her has described the experience to the BBC as feeling &#x27;suffocated and scared.&#x27; West, however, claims the incident was part of a &#x27;provocative theatrical performance.&#x27;</p><p>一位指控侃爷（Kanye West）掐住她的模特向BBC描述，她当时感到“窒息和害怕”。然而，侃爷声称此次事件是“挑衅性戏剧表演”的一部分。</p><p>Tags: kanye west · allegations · celebrity · news · crime</p>",
-      "date_published": "2026-06-10T05:02:46+00:00",
-      "tags": [
-        "kanye west",
-        "allegations",
-        "celebrity",
-        "news",
-        "crime"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://36kr.com/p/3846793046133257?f=rss",
-      "url": "https://36kr.com/p/3846793046133257?f=rss",
-      "title": "最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店",
-      "content_html": "<p><strong>最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店</strong></p><p>The AI cross-border e-commerce tool market is competitive, with StoreClaw aiming to provide a centralized &#x27;brain&#x27; for sellers to manage multiple platforms like Shopify, Amazon, and TikTok Shop. This aims to reduce operational costs.</p><p>AI跨境电商工具市场竞争激烈，StoreClaw旨在为卖家提供一个集中的“大脑”，以管理Shopify、亚马逊和TikTok Shop等多个平台。此举旨在降低运营成本。</p><p>Tags: ecommerce · ai · cross-border · storeclaw · technology</p>",
-      "date_published": "2026-06-10T03:20:39+00:00",
-      "tags": [
-        "ecommerce",
-        "ai",
-        "cross-border",
-        "storeclaw",
-        "technology"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://36kr.com/p/3846789531404549?f=rss",
-      "url": "https://36kr.com/p/3846789531404549?f=rss",
-      "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
-      "content_html": "<p><strong>36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件</strong></p><p>A Tsinghua University-backed team has developed the world&#x27;s first real-time physiological and emotional understanding foundation model, FacePhys, and is expanding into hardware. The model uses rPPG technology to analyze over 120 metrics.</p><p>一个由清华大学支持的团队开发了全球首个实时生理和情绪理解基座模型FacePhys，并正在扩展到硬件领域。该模型使用rPPG技术分析120多项指标。</p><p>Tags: ai ·  Tsinghua University · emotion recognition · hardware · biotech</p>",
-      "date_published": "2026-06-10T03:18:51+00:00",
-      "tags": [
-        "ai",
-        " Tsinghua University",
-        "emotion recognition",
-        "hardware",
-        "biotech"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://36kr.com/p/3845683804555529?f=rss",
-      "url": "https://36kr.com/p/3845683804555529?f=rss",
-      "title": "医药圈最强“奥斯卡”也没救回股价，创新药被彻底抛弃了么",
-      "content_html": "<p><strong>医药圈最强“奥斯卡”也没救回股价，创新药被彻底抛弃了么</strong></p><p>Despite strong clinical data presented at ASCO (the &#x27;Oscars of the pharmaceutical industry&#x27;), Chinese innovative drug stocks have continued to decline. The article questions whether the sector is being fundamentally abandoned by investors.</p><p>尽管在ASCO（医药界的“奥斯卡”）上公布了强劲的临床数据，中国创新药股票却持续下跌。文章质疑该板块是否已被投资者彻底抛弃。</p><p>Tags: pharmaceuticals · biotech · stocks · asco · investment</p>",
-      "date_published": "2026-06-10T02:07:22+00:00",
-      "tags": [
-        "pharmaceuticals",
-        "biotech",
-        "stocks",
-        "asco",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2529799-iron-age-britons-may-have-removed-the-brains-of-the-dead/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "url": "https://www.newscientist.com/article/2529799-iron-age-britons-may-have-removed-the-brains-of-the-dead/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "title": "Iron Age Britons may have removed the brains of the dead",
-      "content_html": "<p><strong>Iron Age Britons may have removed the brains of the dead</strong></p><p>New research suggests that people in Iron Age Britain may have practiced a ritualistic removal of the dead&#x27;s brains. Evidence comes from scrape marks on skulls and sharpened limb bones found in Scotland.</p><p>新研究表明，铁器时代的英国人可能实践了仪式性的移除死者大脑的习俗。证据来自在苏格兰发现的头骨上的刮痕和磨尖的四肢骨骼。</p><p>Tags: archaeology · iron age · britain · rituals · science</p>",
-      "date_published": "2026-06-10T00:01:51+00:00",
-      "tags": [
-        "archaeology",
-        "iron age",
-        "britain",
-        "rituals",
-        "science"
-      ],
-      "_category": "SCI"
     }
   ]
 }
