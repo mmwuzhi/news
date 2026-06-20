@@ -6,6 +6,396 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1221660#reply0",
+      "url": "https://www.v2ex.com/t/1221660#reply0",
+      "title": "分享创造：Coding Buddy - 将 AI 编程状态和 Codex 宠物同步到 iPhone 灵动岛的工具",
+      "content_html": "<p><strong>[分享创造] 受到 claude-desktop-buddy 和 codex 宠物的启发，我做了一个将 codex 宠物同步到 iPhone 灵动岛的工具。</strong></p><p>A developer has created a tool called Coding Buddy that synchronizes AI programming status and Codex pets to the iPhone&#x27;s Dynamic Island. This app allows users to monitor their AI coding progress and even interact with a virtual pet companion directly from their iPhone.</p><p>一位开发者创建了一款名为Coding Buddy的工具，可将AI编程状态和Codex宠物同步到iPhone的灵动岛。该应用允许用户直接从iPhone上监控AI编码进度，甚至与虚拟宠物伴侣互动。</p><p>Tags: ai · iphone · dynamic island · coding buddy · developer tool</p>",
+      "date_published": "2026-06-20T09:54:28+00:00",
+      "tags": [
+        "ai",
+        "iphone",
+        "dynamic island",
+        "coding buddy",
+        "developer tool"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1221659#reply0",
+      "url": "https://www.v2ex.com/t/1221659#reply0",
+      "title": "分享一些在 AI 解析中常见的问题，以及工具区别",
+      "content_html": "<p><strong>[程序员] 分享一些在 AI 解析中常见的问题，以及工具区别</strong></p><p>This article discusses common challenges in AI-driven document parsing, highlighting that converting to Markdown doesn&#x27;t equate to AI understandability. It explains that the structural information lost during parsing and chunking hinders AI&#x27;s ability to grasp context, relationships, and hierarchies within documents.</p><p>本文讨论了AI驱动的文档解析中常见的挑战，并指出转换为Markdown并不等同于AI的可理解性。文章解释了在解析和分块过程中丢失的结构信息会阻碍AI理解文档内的上下文、关系和层次结构。</p><p>Tags: ai · parsing · document analysis · rag · llm</p>",
+      "date_published": "2026-06-20T09:51:17+00:00",
+      "tags": [
+        "ai",
+        "parsing",
+        "document analysis",
+        "rag",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4916436-amdy-good-income-with-risks?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4916436-amdy-good-income-with-risks?source=feed_all_articles",
+      "title": "AMDY: 良好收入伴随风险",
+      "content_html": "<p><strong>AMDY: Good Income With Risks</strong></p><p>AMDY is currently offering good income prospects, but investors should be aware of the associated risks. Further analysis is recommended to understand the potential downsides alongside the current financial benefits.</p><p>AMDY目前提供了良好的收入前景，但投资者应注意相关的风险。建议进行进一步分析，以了解潜在的缺点以及当前财务收益。</p><p>Tags: amdy · income · risk · investment · finance</p>",
+      "date_published": "2026-06-20T09:43:36+00:00",
+      "tags": [
+        "amdy",
+        "income",
+        "risk",
+        "investment",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1221658#reply0",
+      "url": "https://www.v2ex.com/t/1221658#reply0",
+      "title": "赛博朋克 2077：2026年6月史低89.4元",
+      "content_html": "<p><strong>[赛博朋克 2077] 2026 年 6 月史低 89.4 元</strong></p><p>The game Cyberpunk 2077 is predicted to reach its lowest historical price of 89.4 yuan in June 2026. This information is valuable for gamers looking to purchase the title at a discounted rate.</p><p>游戏《赛博朋克2077》预计将于2026年6月达到历史最低价89.4元。此信息对希望以折扣价购买该游戏的玩家很有价值。</p><p>Tags: cyberpunk 2077 · game · discount · price · gaming</p>",
+      "date_published": "2026-06-20T09:42:13+00:00",
+      "tags": [
+        "cyberpunk 2077",
+        "game",
+        "discount",
+        "price",
+        "gaming"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1221657#reply0",
+      "url": "https://www.v2ex.com/t/1221657#reply0",
+      "title": "程序员：Vibe Coding 了两年，分享一下我对于 Vibe 的感想",
+      "content_html": "<p><strong>[程序员] Vibe Coding 了两年，分享一下我对于 Vibe 的感想。</strong></p><p>The author shares their two-year experience with Vibe Coding, reflecting on its evolution and their personal journey with prompt engineering. They discuss the initial struggles and how prompt engineering helped refine AI outputs.</p><p>作者分享了他们使用Vibe Coding两年的经验，回顾了其发展历程以及他们在提示工程方面的个人经历。他们讨论了最初的挣扎以及提示工程如何帮助改进AI输出。</p><p>Tags: vibe coding · ai · prompt engineering · programming · developer experience</p>",
+      "date_published": "2026-06-20T09:41:43+00:00",
+      "tags": [
+        "vibe coding",
+        "ai",
+        "prompt engineering",
+        "programming",
+        "developer experience"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1221656#reply1",
+      "url": "https://www.v2ex.com/t/1221656#reply1",
+      "title": "创造者：东玩玩、西玩玩、时间都哪去了",
+      "content_html": "<p><strong>[创造者] 东玩玩、西玩玩、时间都哪去了</strong></p><p>This article expresses a relaxed and experimental approach to entrepreneurship, emphasizing enjoyment and learning over strict success metrics. The author suggests embracing life&#x27;s journey with a playful attitude, prioritizing happiness and experience.</p><p>本文表达了对创业一种轻松和实验性的态度，强调享受和学习而非严格的成功指标。作者建议以一种玩乐的心态拥抱生活之旅，优先考虑快乐和体验。</p><p>Tags: entrepreneurship · mindset · creativity · life philosophy · startup</p>",
+      "date_published": "2026-06-20T09:39:37+00:00",
+      "tags": [
+        "entrepreneurship",
+        "mindset",
+        "creativity",
+        "life philosophy",
+        "startup"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4916435-microsoft-is-not-cheap-drop-to-multi-year-lows-likely?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4916435-microsoft-is-not-cheap-drop-to-multi-year-lows-likely?source=feed_all_articles",
+      "title": "微软并不便宜：可能跌至多年低点",
+      "content_html": "<p><strong>Microsoft Is Not Cheap: Drop To Multi-Year Lows Likely</strong></p><p>Microsoft&#x27;s stock is currently considered expensive, with a potential for it to fall to multi-year lows. Investors are advised to consider this possibility when evaluating the company&#x27;s financial outlook.</p><p>微软的股票目前被认为价格过高，并有可能跌至多年来的低点。建议投资者在评估公司财务前景时考虑这一可能性。</p><p>Tags: microsoft · stock · finance · investment · bearish</p>",
+      "date_published": "2026-06-20T09:39:05+00:00",
+      "tags": [
+        "microsoft",
+        "stock",
+        "finance",
+        "investment",
+        "bearish"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4916432-crwv-breaking-down-why-the-only-platinum-neocloud-wont-stay-discounted-for-long?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4916432-crwv-breaking-down-why-the-only-platinum-neocloud-wont-stay-discounted-for-long?source=feed_all_articles",
+      "title": "CoreWeave：揭秘为何唯一的铂金级Neocloud不会长期打折",
+      "content_html": "<p><strong>CoreWeave: Breaking Down Why The Only Platinum Neocloud Won&#x27;t Stay Discounted For Long</strong></p><p>CoreWeave&#x27;s premium &#x27;Neocloud&#x27; service, described as platinum-grade, is unlikely to remain at a discounted price for long. This suggests strong demand or a strategic pricing model that limits prolonged discounts.</p><p>CoreWeave的高端“Neocloud”服务被描述为铂金级，不太可能长期维持折扣价格。这表明其需求强劲或采用了限制长期折扣的战略定价模式。</p><p>Tags: coreweave · cloud computing · neocloud · pricing · technology</p>",
+      "date_published": "2026-06-20T09:15:39+00:00",
+      "tags": [
+        "coreweave",
+        "cloud computing",
+        "neocloud",
+        "pricing",
+        "technology"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4916431-qqqy-near-full-upside-exposure-changes-the-investment-case?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4916431-qqqy-near-full-upside-exposure-changes-the-investment-case?source=feed_all_articles",
+      "title": "QQQY：接近完全上涨的敞口改变了投资逻辑",
+      "content_html": "<p><strong>QQQY: Near Full Upside Exposure Changes The Investment Case</strong></p><p>The investment case for QQQY has shifted due to its near full upside exposure, suggesting a potentially strong performance in favorable market conditions. Investors should re-evaluate their strategy in light of this change.</p><p>由于其接近完全上涨的敞口，QQQY的投资逻辑发生了变化，预示着在有利的市场条件下可能表现强劲。投资者应根据这一变化重新评估其策略。</p><p>Tags: qqqy · investment · upside · finance · market analysis</p>",
+      "date_published": "2026-06-20T09:08:32+00:00",
+      "tags": [
+        "qqqy",
+        "investment",
+        "upside",
+        "finance",
+        "market analysis"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4916438-emerging-markets-new-engine-of-global-growth?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4916438-emerging-markets-new-engine-of-global-growth?source=feed_all_articles",
+      "title": "新兴市场：全球增长的新引擎",
+      "content_html": "<p><strong>Emerging Markets: The New Engine Of Global Growth</strong></p><p>Emerging markets are identified as the new driving force behind global economic growth. Their expanding economies and increasing influence are positioning them as crucial players in the international financial landscape.</p><p>新兴市场被认为是全球经济增长的新驱动力。其不断扩大的经济体和日益增长的影响力正将它们定位为国际金融格局中的关键参与者。</p><p>Tags: emerging markets · global growth · economy · finance · investment</p>",
+      "date_published": "2026-06-20T09:00:00+00:00",
+      "tags": [
+        "emerging markets",
+        "global growth",
+        "economy",
+        "finance",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review",
+      "url": "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review",
+      "title": "SwitchBot 的落地循环扇值得争取",
+      "content_html": "<p><strong>SwitchBot’s Standing Circulator Fan is worth fighting for</strong></p><p>The SwitchBot Standing Circulator Fan is a battery-powered device that has impressed the reviewer with its performance. It offers a compelling alternative to standard fans, highlighting its innovative features.</p><p>SwitchBot落地循环扇是一款电池供电的设备，其性能给评论者留下了深刻印象。它为标准风扇提供了引人注目的替代选择，并突出了其创新功能。</p><p>Tags: switchbot · fan · smart home · gadget · product review</p>",
+      "date_published": "2026-06-20T07:00:00+00:00",
+      "tags": [
+        "switchbot",
+        "fan",
+        "smart home",
+        "gadget",
+        "product review"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/",
+      "url": "https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/",
+      "title": "我把一个网站存储在了图标里",
+      "content_html": "<p><strong>I Stored a Website in a Favicon</strong></p><p>This article details a novel method of storing an entire website within a favicon. It explores the technical feasibility and implications of such an unconventional data storage approach.</p><p>本文详细介绍了一种将整个网站存储在图标中的新颖方法。文章探讨了这种非常规数据存储方法的技​​术可行性及其影响。</p><p>Tags: web development · favicon · data storage · technology · innovation</p>",
+      "date_published": "2026-06-20T05:33:59+00:00",
+      "tags": [
+        "web development",
+        "favicon",
+        "data storage",
+        "technology",
+        "innovation"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/my-mother-was-co-owner-of-my-late-grandmothers-bank-account-should-she-share-the-money-with-her-siblings-e54ed4df?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/my-mother-was-co-owner-of-my-late-grandmothers-bank-account-should-she-share-the-money-with-her-siblings-e54ed4df?mod=mw_rss_topstories",
+      "title": "我的母亲是我已故祖母银行账户的共同所有人。她应该和她的兄弟姐妹分享这笔钱吗？",
+      "content_html": "<p><strong>My mother was co-owner of my late grandmother’s bank account. Should she share the money with her siblings?</strong></p><p>A question arises about the equitable distribution of funds from a joint bank account between a mother and her deceased grandmother. The will explicitly states the estate should be divided equally among her children, posing a dilemma for the family.</p><p>关于母亲与已故祖母共同拥有的银行账户资金的公平分配问题出现。遗嘱明确规定遗产应在她的子女之间平均分配，这给家庭带来了困境。</p><p>Tags: inheritance · estate planning · family finance · legal · money</p>",
+      "date_published": "2026-06-20T05:18:00+00:00",
+      "tags": [
+        "inheritance",
+        "estate planning",
+        "family finance",
+        "legal",
+        "money"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/",
+      "url": "https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/",
+      "title": "在哪里可以找到你的屏幕无法显示的颜色",
+      "content_html": "<p><strong>Where to Find the Colors Your Screen Can&#x27;t Show You</strong></p><p>This article discusses how to find and perceive colors that may not be accurately represented on standard screens. It delves into the limitations of digital displays and methods to experience a wider color spectrum.</p><p>本文讨论了如何查找和感知在标准屏幕上可能无法准确显示的颜色。文章深入探讨了数字显示的局限性以及体验更广泛色谱的方法。</p><p>Tags: color science · display technology · perception · visuals · technology</p>",
+      "date_published": "2026-06-20T03:36:49+00:00",
+      "tags": [
+        "color science",
+        "display technology",
+        "perception",
+        "visuals",
+        "technology"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.com/news/videos/cdxdly41p23o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/videos/cdxdly41p23o?at_medium=RSS&at_campaign=rss",
+      "title": "观看：世界杯球迷对美国队击败澳大利亚队晋级淘汰赛做出反应",
+      "content_html": "<p><strong>Watch: World Cup fans react to US defeating Australia to reach knockout round</strong></p><p>US fans celebrated enthusiastically as their team defeated Australia to advance to the World Cup knockout stage, while Australian supporters expressed disappointment but maintained hope. The match outcome led to contrasting emotional reactions.</p><p>美国球迷在他们的球队击败澳大利亚队晋级世界杯淘汰赛时兴奋庆祝，而澳大利亚球迷则表达了失望但仍抱有希望。比赛结果导致了截然不同的情感反应。</p><p>Tags: world cup · soccer · sports · usa · australia</p>",
+      "date_published": "2026-06-20T03:13:18+00:00",
+      "tags": [
+        "world cup",
+        "soccer",
+        "sports",
+        "usa",
+        "australia"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/cdr457lxr71o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/cdr457lxr71o?at_medium=RSS&at_campaign=rss",
+      "title": "美国将停止资助南非的艾滋病项目",
+      "content_html": "<p><strong>US to stop funding HIV programmes in South Africa</strong></p><p>The US plans to cease funding for HIV programs in South Africa, a country with the world&#x27;s highest number of people living with the virus. This decision raises concerns about the future of HIV prevention and treatment in the region.</p><p>美国计划停止资助南非的艾滋病项目，这是世界上艾滋病患者最多的国家。这一决定引起了人们对该地区艾滋病预防和治疗未来的担忧。</p><p>Tags: aid · south africa · global health · funding · hiv</p>",
+      "date_published": "2026-06-19T23:35:07+00:00",
+      "tags": [
+        "aid",
+        "south africa",
+        "global health",
+        "funding",
+        "hiv"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/cr7xzg3dmj8o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/cr7xzg3dmj8o?at_medium=RSS&at_campaign=rss",
+      "title": "泽连斯基因二战时期陆军单位名称被剥夺波兰最高荣誉",
+      "content_html": "<p><strong>Zelensky stripped of highest Polish honour over WW2 name of army unit</strong></p><p>Ukrainian President Zelensky has been stripped of Poland&#x27;s highest honor due to the naming of a Ukrainian army unit during World War II. Ukraine has criticized this decision as a strategic mistake and disrespectful.</p><p>乌克兰总统泽连斯基因二战时期一个乌克兰陆军单位的命名而被剥夺了波兰最高荣誉。乌克兰批评此举是战略性错误和不尊重的。</p><p>Tags: ukraine · poland · politics · world war 2 · diplomacy</p>",
+      "date_published": "2026-06-19T21:46:07+00:00",
+      "tags": [
+        "ukraine",
+        "poland",
+        "politics",
+        "world war 2",
+        "diplomacy"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/gadgets/953066/nothing-cmf-phone-delayed-ram-prices",
+      "url": "https://www.theverge.com/gadgets/953066/nothing-cmf-phone-delayed-ram-prices",
+      "title": "由于RAM价格，Nothing今年取消CMF手机",
+      "content_html": "<p><strong>Nothing cancels this year&amp;#8217;s CMF phone due to RAM prices</strong></p><p>Nothing has canceled the release of its next CMF phone for this year, citing the current high prices of RAM as the primary reason. The company stated that the cost of memory modules makes it unfeasible to produce the device at an acceptable price point.</p><p>Nothing公司表示，由于目前RAM价格过高，已取消今年下一款CMF手机的发布。该公司表示，内存模块的成本使得以可接受的价格生产该设备变得不可行。</p><p>Tags: nothing · cmf phone · ram prices · smartphone · electronics</p>",
+      "date_published": "2026-06-19T21:28:39+00:00",
+      "tags": [
+        "nothing",
+        "cmf phone",
+        "ram prices",
+        "smartphone",
+        "electronics"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/c20y1ygn707o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/c20y1ygn707o?at_medium=RSS&at_campaign=rss",
+      "title": "意大利梅洛尼称特朗普捏造了她在G7乞求合影的故事",
+      "content_html": "<p><strong>Italy&#x27;s Meloni says Trump &#x27;made up&#x27; story that she &#x27;begged&#x27; him for photo at G7</strong></p><p>Italian Prime Minister Meloni has refuted Donald Trump&#x27;s claim that she &#x27;begged&#x27; him for a photo at the G7 summit, stating he &#x27;made up&#x27; the story. This public disagreement highlights a potential strain in their past close relationship.</p><p>意大利总理梅洛尼驳斥了唐纳德·特朗普关于她在G7峰会上“乞求”他合影的说法，称他“捏造”了这个故事。这种公开分歧凸显了他们过去密切关系中可能存在的紧张关系。</p><p>Tags: italy · trump · politics · g7 · geopolitics</p>",
+      "date_published": "2026-06-19T19:36:10+00:00",
+      "tags": [
+        "italy",
+        "trump",
+        "politics",
+        "g7",
+        "geopolitics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/cwyk7kkygj5o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/cwyk7kkygj5o?at_medium=RSS&at_campaign=rss",
+      "title": "以色列和真主党同意停火，美国表示，并报告了更多黎巴嫩袭击事件",
+      "content_html": "<p><strong>Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported</strong></p><p>The US has announced that Israel and Hezbollah have agreed to a ceasefire, following reports of continued strikes in Lebanon. This de-escalation aims to prevent further conflict and potential repercussions on broader regional stability.</p><p>美国表示，在接到更多关于黎巴嫩持续遭袭的报告后，以色列和真主党已同意停火。此举旨在防止冲突升级和对地区稳定产生潜在影响。</p><p>Tags: israel · hezbollah · ceasefire · lebanon · us</p>",
+      "date_published": "2026-06-19T19:27:12+00:00",
+      "tags": [
+        "israel",
+        "hezbollah",
+        "ceasefire",
+        "lebanon",
+        "us"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/employers-to-college-students-skip-the-perfect-gpa-and-go-get-a-summer-job-e9ca5530?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/employers-to-college-students-skip-the-perfect-gpa-and-go-get-a-summer-job-e9ca5530?mod=mw_rss_topstories",
+      "title": "雇主给大学生：忘了那个4.0的GPA吧。出去找份暑期工作。",
+      "content_html": "<p><strong>Employers to college students: Never mind that 4.0 GPA. Go out and get a summer job.</strong></p><p>Employers are advising college students to prioritize gaining summer job experience over solely focusing on academic achievements like a 4.0 GPA. Work experience significantly increases their chances of employment after graduation.</p><p>雇主建议大学生将重点放在获得暑期工作经验上，而不是仅仅关注4.0GPA等学术成就。工作经验将大大增加他们毕业后就业的机会。</p><p>Tags: career advice · students · internship · employment · graduation</p>",
+      "date_published": "2026-06-19T18:52:00+00:00",
+      "tags": [
+        "career advice",
+        "students",
+        "internship",
+        "employment",
+        "graduation"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/science/952988/nasa-relativity-space-eric-schmidt-mars",
+      "url": "https://www.theverge.com/science/952988/nasa-relativity-space-eric-schmidt-mars",
+      "title": "“我们习惯性节俭”：我和妻子很有钱。我们如何帮助我们的孩子而不毁掉他们的独立性？",
+      "content_html": "<p><strong>NASA selects Eric Schmidt&amp;#8217;s rocket company for a 2028 mission to Mars</strong></p><p>A financially prudent couple seeks guidance on how to support their children without undermining their independence. They are concerned about enabling their children while fostering self-sufficiency, especially considering potential mental health challenges.</p><p>一对精打细算的夫妇正在寻求指导，了解如何在不损害孩子独立性的情况下支持他们。他们担心在培养自给自足能力的同时，为孩子提供支持，特别是考虑到潜在的心理健康挑战。</p><p>Tags: parenting · financial independence · wealth management · family · guidance</p>",
+      "date_published": "2026-06-19T18:41:48+00:00",
+      "tags": [
+        "parenting",
+        "financial independence",
+        "wealth management",
+        "family",
+        "guidance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/ill-probably-be-working-until-i-die-im-60-work-as-a-restaurant-server-and-have-2-000-in-an-ira-who-can-help-me-6e36253a?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/ill-probably-be-working-until-i-die-im-60-work-as-a-restaurant-server-and-have-2-000-in-an-ira-who-can-help-me-6e36253a?mod=mw_rss_topstories",
+      "title": "粪便移植使老年小鼠的大脑恢复年轻",
+      "content_html": "<p><strong>‘I’ll probably be working until I die’: I’m 60, work as a waiter and have $2,000 in a Roth IRA. What will happen to me?</strong></p><p>A study found that fecal microbiome transplants from younger mice to older mice significantly improved brain plasticity and cognitive function in the older animals. This suggests a potential therapeutic avenue for age-related neurological decline.</p><p>一项研究发现，从年轻小鼠向年老小鼠进行粪便微生物移植，显著改善了年老动物的大脑可塑性和认知功能。这表明了一种针对与年龄相关的神经衰退的潜在治疗途径。</p><p>Tags: science · microbiome · aging · neurology · research</p>",
+      "date_published": "2026-06-19T18:00:00+00:00",
+      "tags": [
+        "science",
+        "microbiome",
+        "aging",
+        "neurology",
+        "research"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.theverge.com/tech/952953/phillips-hue-wired-wall-module-play-lamp-candle-bulb",
+      "url": "https://www.theverge.com/tech/952953/phillips-hue-wired-wall-module-play-lamp-candle-bulb",
+      "title": "我们在泰坦和冥王星上发现了一种神秘物质",
+      "content_html": "<p><strong>Hue’s wired wall modules bring non-smart lights into its ecosystem</strong></p><p>Scientists have detected a mysterious substance on the surfaces of Pluto and Saturn&#x27;s moon Titan that absorbs light. Understanding this substance is considered crucial for unraveling the complex chemistry of Titan.</p><p>科学家在冥王星和土星的卫星土卫六表面检测到一种吸收光线的神秘物质。了解这种物质被认为对于解开土卫六复杂的化学反应至关重要。</p><p>Tags: space · astronomy · pluto · titan · discovery</p>",
+      "date_published": "2026-06-19T17:24:45+00:00",
+      "tags": [
+        "space",
+        "astronomy",
+        "pluto",
+        "titan",
+        "discovery"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2530899-most-portable-air-conditioners-suck-but-theres-an-easy-fix/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "url": "https://www.newscientist.com/article/2530899-most-portable-air-conditioners-suck-but-theres-an-easy-fix/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "title": "我们如何构建内部数据分析代理",
+      "content_html": "<p><strong>Most portable air conditioners suck – but there&#x27;s an easy fix</strong></p><p>GitHub developed &#x27;Qubot,&#x27; an internal Copilot-powered analytics agent that enables employees to query data using natural language. The article shares insights and lessons learned during the development process of this AI tool.</p><p>GitHub开发了“Qubot”，一个由Copilot驱动的内部分析代理，允许员工使用自然语言查询数据。本文分享了开发此AI工具过程中获得的见解和经验教训。</p><p>Tags: github · ai · data analytics · copilot · internal tools</p>",
+      "date_published": "2026-06-19T16:08:41+00:00",
+      "tags": [
+        "github",
+        "ai",
+        "data analytics",
+        "copilot",
+        "internal tools"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/",
+      "url": "https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/",
+      "title": "一家初创公司声称突破了阻碍LLM发展的瓶颈",
+      "content_html": "<p><strong>The Download: AI bottleneck debates, and BCI trials take off</strong></p><p>Miami-based AI startup Subquadratic claims to have solved a decade-old mathematical bottleneck hindering large language models. While details were initially sparse, the company is now providing evidence to support its significant assertion.</p><p>总部位于迈阿密的AI初创公司Subquadratic声称已解决困扰大型语言模型长达十年的数学瓶颈。虽然最初细节很少，但该公司现在正在提供证据来支持其重要声明。</p><p>Tags: ai · llm · startup · bottleneck · technology</p>",
+      "date_published": "2026-06-19T12:10:00+00:00",
+      "tags": [
+        "ai",
+        "llm",
+        "startup",
+        "bottleneck",
+        "technology"
+      ],
+      "_category": "AI"
+    },
+    {
       "id": "https://seekingalpha.com/article/4916295-oil-declines-as-strait-of-hormuz-begins-to-normalise?source=feed_all_articles",
       "url": "https://seekingalpha.com/article/4916295-oil-declines-as-strait-of-hormuz-begins-to-normalise?source=feed_all_articles",
       "title": "商品：因霍尔木兹海峡正常化而下跌的石油",
@@ -361,6 +751,21 @@
         "culture"
       ],
       "_category": "WORLD"
+    },
+    {
+      "id": "https://36kr.com/p/3859469888508933?f=rss",
+      "url": "https://36kr.com/p/3859469888508933?f=rss",
+      "title": "企业新的使用分析和更新的支出控制",
+      "content_html": "<p><strong>安踏发布“折纸科技”，试图从结构设计寻找跑鞋缓震新方向</strong></p><p>OpenAI has introduced new usage analytics and spend controls for ChatGPT Enterprise, designed to help organizations manage costs effectively and scale their AI adoption with confidence. This aims to provide better oversight and financial predictability.</p><p>OpenAI为ChatGPT Enterprise推出了新的使用分析和支出控制功能，旨在帮助组织有效管理成本并自信地扩展其AI应用。这旨在提供更好的监督和财务可预测性。</p><p>Tags: openai · chatgpt enterprise · ai management · cost control · analytics</p>",
+      "date_published": "2026-06-19T02:16:23+00:00",
+      "tags": [
+        "openai",
+        "chatgpt enterprise",
+        "ai management",
+        "cost control",
+        "analytics"
+      ],
+      "_category": "AI"
     },
     {
       "id": "https://www.theverge.com/games/952582/valve-steam-controller-reservations-orders-behind-estimated-date",
@@ -2268,425 +2673,6 @@
         "policy"
       ],
       "_category": "WORLD"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1220179#reply0",
-      "url": "https://www.v2ex.com/t/1220179#reply0",
-      "title": "AI 前沿信息爬虫，支持 API、RSS、SKILL 多种方式完全开源",
-      "content_html": "<p><strong>[分享创造] AI 前沿信息爬虫，支持 API、RSS、SKILL 多种方式完全开源，欢迎各位大佬尝试。自动爬取 GitHub Trending、V2EX、Hacker News、OpenAI、Anthropic、InfoQ AI 等 AI 信息</strong></p><p>A new open-source AI frontier information crawler has been released, offering multiple access methods including API, RSS, and SKILL. It automatically collects AI-related information from platforms like GitHub Trending, V2EX, Hacker News, OpenAI, and Anthropic.</p><p>一款全新的开源AI前沿信息爬虫发布，支持API、RSS和SKILL等多种访问方式。该爬虫可自动抓取GitHub Trending、V2EX、Hacker News、OpenAI和Anthropic等平台上的AI相关信息。</p><p>Tags: ai · opensource · crawler · api · rss</p>",
-      "date_published": "2026-06-13T09:45:36+00:00",
-      "tags": [
-        "ai",
-        "opensource",
-        "crawler",
-        "api",
-        "rss"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4914750-camping-world-holdings-is-in-for-a-rough-ride-downgrade?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4914750-camping-world-holdings-is-in-for-a-rough-ride-downgrade?source=feed_all_articles",
-      "title": "Camping World Holdings 预计将面临严峻挑战（评级下调）",
-      "content_html": "<p><strong>Camping World Holdings Is In For A Rough Ride (Downgrade)</strong></p><p>Camping World Holdings is facing a challenging period, indicated by a rating downgrade. The company&#x27;s financial outlook appears to be deteriorating, prompting caution from analysts.</p><p>Camping World Holdings 预计将面临一段艰难时期，评级被下调。该公司财务前景似乎正在恶化，分析师们对此表示担忧。</p><p>Tags: camping world holdings · downgrade · finance · stocks</p>",
-      "date_published": "2026-06-13T09:42:53+00:00",
-      "tags": [
-        "camping world holdings",
-        "downgrade",
-        "finance",
-        "stocks"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1220178#reply1",
-      "url": "https://www.v2ex.com/t/1220178#reply1",
-      "title": "openrouter 用户反馈模型列表无法显示",
-      "content_html": "<p><strong>[程序员] openrouter 大家打开网站还能看到模型么？</strong></p><p>Users of openrouter are reporting an issue where the model list is not displaying after logging in. This problem is preventing users from accessing and selecting available AI models.</p><p>openrouter 的用户反馈称，登录后模型列表无法显示。此问题阻碍了用户访问和选择可用的AI模型。</p><p>Tags: openrouter · ai models · ui issue · developer</p>",
-      "date_published": "2026-06-13T09:40:31+00:00",
-      "tags": [
-        "openrouter",
-        "ai models",
-        "ui issue",
-        "developer"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4914755-china-gold-market-update-official-buying-accelerated-in-may?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4914755-china-gold-market-update-official-buying-accelerated-in-may?source=feed_all_articles",
-      "title": "中国黄金市场更新：5月官方购买量加速",
-      "content_html": "<p><strong>China Gold Market Update: Official Buying Accelerated In May</strong></p><p>China&#x27;s gold market saw an acceleration in official buying during May. This indicates increased demand from official entities, potentially influencing gold prices and market trends.</p><p>中国黄金市场在5月份的官方购买量有所加速。这表明官方机构的需求增加，可能影响黄金价格和市场趋势。</p><p>Tags: china · gold market · central banks · commodities</p>",
-      "date_published": "2026-06-13T09:35:00+00:00",
-      "tags": [
-        "china",
-        "gold market",
-        "central banks",
-        "commodities"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1220177#reply2",
-      "url": "https://www.v2ex.com/t/1220177#reply2",
-      "title": "Vibe Coding 提升效率，但为公司工作感觉“亏了”",
-      "content_html": "<p><strong>[程序员] 有没有人有同感。。vibe coding 效率大增，但是给公司干活太亏了</strong></p><p>Developers are finding that &#x27;vibe coding&#x27; significantly boosts their productivity by allowing them to manage multiple tasks and work streams efficiently. However, they feel this increased output is not adequately compensated when working for a company.</p><p>开发者发现“vibe coding”极大地提高了他们的生产力，让他们能够高效地管理多个任务和工作流。然而，他们觉得为公司工作时，这种增加的产出并未得到充分补偿。</p><p>Tags: developer productivity · vibe coding · remote work · career</p>",
-      "date_published": "2026-06-13T09:31:29+00:00",
-      "tags": [
-        "developer productivity",
-        "vibe coding",
-        "remote work",
-        "career"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1220176#reply0",
-      "url": "https://www.v2ex.com/t/1220176#reply0",
-      "title": "UniRTM：一款统一环境和工具管理软件（致敬 mise）",
-      "content_html": "<p><strong>[程序员] UniRTM，一个统一环境和工具管理软件（致敬 mise）</strong></p><p>UniRTM is a new CLI tool designed for unified environment and tool management, drawing inspiration from the mise project. It aims to streamline development workflows by managing tool versions, environment variables, and tasks.</p><p>UniRTM 是一款新的 CLI 工具，专注于统一的环境和工具管理，其灵感来源于 mise 项目。它旨在通过管理工具版本、环境变量和任务来简化开发工作流程。</p><p>Tags: developer tools · environment management · cli · devops</p>",
-      "date_published": "2026-06-13T09:28:21+00:00",
-      "tags": [
-        "developer tools",
-        "environment management",
-        "cli",
-        "devops"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4914748-adobes-beat-and-selloff-the-best-bargain-in-us-tech?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4914748-adobes-beat-and-selloff-the-best-bargain-in-us-tech?source=feed_all_articles",
-      "title": "Adobe 财报强劲，股价上涨（评级上调）",
-      "content_html": "<p><strong>Adobe&#x27;s Beat And Selloff: The Best Bargain In U.S. Tech (Rating Upgrade)</strong></p><p>Adobe&#x27;s recent financial performance has exceeded expectations, leading to a rating upgrade for the company&#x27;s stock. The positive results suggest strong business momentum and investor confidence.</p><p>Adobe 最近的财务业绩超出了预期，导致其股票评级被上调。积极的业绩表明公司业务势头强劲，投资者信心增强。</p><p>Tags: adobe · earnings · stock upgrade · tech stocks</p>",
-      "date_published": "2026-06-13T09:20:49+00:00",
-      "tags": [
-        "adobe",
-        "earnings",
-        "stock upgrade",
-        "tech stocks"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4914747-alimentation-couche-tard-why-the-company-has-gone-up-too-much?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4914747-alimentation-couche-tard-why-the-company-has-gone-up-too-much?source=feed_all_articles",
-      "title": "Alimentation Couche-Tard 涨幅过高，原因分析",
-      "content_html": "<p><strong>Alimentation Couche-Tard - Why The Company Has Gone Up Too Much</strong></p><p>Alimentation Couche-Tard&#x27;s stock price has risen significantly, and the article analyzes the reasons behind this surge. It questions whether the current valuation is sustainable or if the stock has gone up too much.</p><p>Alimentation Couche-Tard 的股价已大幅上涨，本文分析了此次上涨背后的原因。文章质疑其当前估值是否可持续，或者股价是否已经过高。</p><p>Tags: alimentation couche-tard · stock analysis · valuation · retail</p>",
-      "date_published": "2026-06-13T09:19:22+00:00",
-      "tags": [
-        "alimentation couche-tard",
-        "stock analysis",
-        "valuation",
-        "retail"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1220175#reply0",
-      "url": "https://www.v2ex.com/t/1220175#reply0",
-      "title": "如何将阿里云流量消耗降低十倍",
-      "content_html": "<p><strong>[全球工单系统] 我是怎么降低阿里云十倍流量消耗的</strong></p><p>This article details a method to reduce Alibaba Cloud ECS traffic consumption by tenfold. The author shares their experience troubleshooting and optimizing their cloud setup to significantly cut costs.</p><p>本文详细介绍了如何将阿里云ECS流量消耗降低十倍。作者分享了他们排查和优化云设置以大幅降低成本的经验。</p><p>Tags: alibaba cloud · ecs · cost optimization · traffic management</p>",
-      "date_published": "2026-06-13T09:19:03+00:00",
-      "tags": [
-        "alibaba cloud",
-        "ecs",
-        "cost optimization",
-        "traffic management"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4914746-progressive-corporation-exceptional-growth-but-normalizing-margins?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4914746-progressive-corporation-exceptional-growth-but-normalizing-margins?source=feed_all_articles",
-      "title": "Progressive Corporation：增长卓越但利润率正常化",
-      "content_html": "<p><strong>Progressive Corporation: Exceptional Growth But Normalizing Margins</strong></p><p>Progressive Corporation has demonstrated exceptional growth, but its profit margins are normalizing. This suggests a balanced performance where expansion is occurring alongside stabilization of profitability.</p><p>Progressive Corporation 展现了卓越的增长，但其利润率正在正常化。这表明其业绩平衡，在扩张的同时利润率趋于稳定。</p><p>Tags: progressive corporation · earnings · growth · insurance</p>",
-      "date_published": "2026-06-13T09:18:55+00:00",
-      "tags": [
-        "progressive corporation",
-        "earnings",
-        "growth",
-        "insurance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://36kr.com/p/3851350342325504?f=rss",
-      "url": "https://36kr.com/p/3851350342325504?f=rss",
-      "title": "曼联将被出售",
-      "content_html": "<p><strong>曼联，要被卖了</strong></p><p>The Glazer family, owners of the Premier League football club Manchester United, is reportedly considering selling the team. This news has generated significant attention among fans and investors.</p><p>英格兰足球俱乐部曼联的拥有者格雷泽家族据报道正在考虑出售球队。这一消息引起了球迷和投资者的广泛关注。</p><p>Tags: manchester united · sports business · glazer family · football</p>",
-      "date_published": "2026-06-13T08:37:21+00:00",
-      "tags": [
-        "manchester united",
-        "sports business",
-        "glazer family",
-        "football"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://36kr.com/p/3846972367866119?f=rss",
-      "url": "https://36kr.com/p/3846972367866119?f=rss",
-      "title": "AI时代留学就业白皮书：中国留学生全球就业趋势与人才价值重塑",
-      "content_html": "<p><strong>36氪研究院 | AI时代留学就业白皮书：中国留学生全球就业趋势与人才价值重塑</strong></p><p>A new white paper explores the impact of the AI era on international student employment, focusing on Chinese students. It analyzes global employment trends and the evolving value of talent in an AI-driven world.</p><p>一份新发布的白皮书探讨了AI时代对国际学生就业的影响，特别是针对中国留学生。报告分析了全球就业趋势以及在AI驱动的世界中人才价值的演变。</p><p>Tags: ai · education · career · globalization · future of work</p>",
-      "date_published": "2026-06-13T06:00:00+00:00",
-      "tags": [
-        "ai",
-        "education",
-        "career",
-        "globalization",
-        "future of work"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://blog.unitedheroes.net/5751",
-      "url": "https://blog.unitedheroes.net/5751",
-      "title": "离开Mozilla",
-      "content_html": "<p><strong>Leaving Mozilla</strong></p><p>This article discusses a person&#x27;s departure from Mozilla. It likely delves into the reasons behind their decision and their reflections on their time with the organization.</p><p>这篇文章讨论了一个人离开Mozilla的原因。内容可能涉及他们离职的理由以及对在Mozilla工作期间的感想。</p><p>Tags: mozilla · career · tech industry · personal</p>",
-      "date_published": "2026-06-13T05:57:14+00:00",
-      "tags": [
-        "mozilla",
-        "career",
-        "tech industry",
-        "personal"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
-      "url": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
-      "title": "Shepherd's Dog：由最危险的AI模型制作的游戏",
-      "content_html": "<p><strong>Shepherd&#x27;s Dog: A Game by the Most Dangerous AI Model</strong></p><p>&#x27;Shepherd&#x27;s Dog&#x27; is a game developed by what is described as the &#x27;most dangerous AI model.&#x27; The article likely discusses the implications of AI in game development and the nature of this particular AI.</p><p>《Shepherd&#x27;s Dog》是一款被描述为“最危险的AI模型”所制作的游戏。文章可能探讨了AI在游戏开发中的意义以及该特定AI的性质。</p><p>Tags: ai · gaming · artificial intelligence · development</p>",
-      "date_published": "2026-06-13T05:44:46+00:00",
-      "tags": [
-        "ai",
-        "gaming",
-        "artificial intelligence",
-        "development"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.com/news/articles/clypy0ndvjlo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.com/news/articles/clypy0ndvjlo?at_medium=RSS&at_campaign=rss",
-      "title": "《Married at First Sight Australia》明星未被告知伴侣有毒品和暴力犯罪记录",
-      "content_html": "<p><strong>Married at First Sight Australia stars not told partners had drug and violence convictions</strong></p><p>Stars of the reality TV show &#x27;Married at First Sight Australia&#x27; claim they were unaware of their partners&#x27; past convictions for drug offenses and violence. This revelation has caused distress and controversy among participants.</p><p>真人秀节目《Married at First Sight Australia》的明星表示，他们事先不知道自己的伴侣有毒品和暴力犯罪记录。这一消息在参与者中引起了困扰和争议。</p><p>Tags: reality TV · australia · scandal · crime</p>",
-      "date_published": "2026-06-13T05:00:04+00:00",
-      "tags": [
-        "reality TV",
-        "australia",
-        "scandal",
-        "crime"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://36kr.com/p/3851106394117383?f=rss",
-      "url": "https://36kr.com/p/3851106394117383?f=rss",
-      "title": "“宁王系”排队IPO",
-      "content_html": "<p><strong>“宁王系”，排队 IPO</strong></p><p>Companies associated with CATL, often referred to as the &#x27;Ningwang System,&#x27; are lining up for IPOs. This indicates a trend of strategic investments and potential growth opportunities within the new energy sector.</p><p>与宁德时代（常被称为“宁王系”）相关的公司正在排队进行IPO。这表明新能源领域存在战略投资和潜在增长机会的趋势。</p><p>Tags: catl · ipo · new energy · investment · china</p>",
-      "date_published": "2026-06-13T04:59:03+00:00",
-      "tags": [
-        "catl",
-        "ipo",
-        "new energy",
-        "investment",
-        "china"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://36kr.com/p/3851073239372809?f=rss",
-      "url": "https://36kr.com/p/3851073239372809?f=rss",
-      "title": "读懂SpaceX的两万亿故事：马斯克如何处处领先",
-      "content_html": "<p><strong>读懂SpaceX的两万亿故事：为什么马斯克每一手棋，永远都可以提前摆好？</strong></p><p>This article delves into SpaceX&#x27;s journey to a $2 trillion valuation, exploring Elon Musk&#x27;s strategic foresight and decision-making. It highlights how the company&#x27;s successes in rocket technology, Starlink, and &#x27;space computing&#x27; contributed to its valuation.</p><p>本文深入探讨了SpaceX达到2万亿美元估值的历程，分析了埃隆·马斯克的战略远见和决策。文章强调了公司在火箭技术、星链和“太空算力”方面的成功如何为其估值做出贡献。</p><p>Tags: spacex · elon musk · ipo · starlink · space</p>",
-      "date_published": "2026-06-13T04:08:19+00:00",
-      "tags": [
-        "spacex",
-        "elon musk",
-        "ipo",
-        "starlink",
-        "space"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://36kr.com/p/3851015329027336?f=rss",
-      "url": "https://36kr.com/p/3851015329027336?f=rss",
-      "title": "突发！Anthropic 全球停用 Claude 5",
-      "content_html": "<p><strong>突发！Anthropic全球停用Claude 5</strong></p><p>Anthropic has globally suspended access to its AI models Claude 5 and Mythos 5 following a directive from the US government citing national security. This unprecedented move restricts foreign nationals&#x27; access, including Anthropic&#x27;s foreign employees.</p><p>Anthropic 根据美国政府引用的国家安全理由的指令，在全球范围内暂停了其AI模型Claude 5和Mythos 5的访问权限。这一前所未有的举措限制了包括Anthropic外籍员工在内的外国公民的访问。</p><p>Tags: anthropic · claude · ai models · government directive · national security</p>",
-      "date_published": "2026-06-13T03:00:16+00:00",
-      "tags": [
-        "anthropic",
-        "claude",
-        "ai models",
-        "government directive",
-        "national security"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.anthropic.com/news/fable-mythos-access",
-      "url": "https://www.anthropic.com/news/fable-mythos-access",
-      "title": "关于暂停对 Fable 5 和 Mythos 5 访问的美国政府指令的声明",
-      "content_html": "<p><strong>Statement on US government directive to suspend access to Fable 5 and Mythos 5</strong></p><p>This is a statement from Anthropic regarding the US government&#x27;s directive to suspend access to its AI models Fable 5 and Mythos 5. It explains the government&#x27;s actions and the company&#x27;s response to the export control order.</p><p>这是Anthropic关于美国政府暂停对Fable 5和Mythos 5访问指令的声明。声明解释了政府的行动以及公司对出口管制命令的响应。</p><p>Tags: anthropic · claude · government · ai policy · export control</p>",
-      "date_published": "2026-06-13T00:51:30+00:00",
-      "tags": [
-        "anthropic",
-        "claude",
-        "government",
-        "ai policy",
-        "export control"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.com/news/articles/c39y02x98k8o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.com/news/articles/c39y02x98k8o?at_medium=RSS&at_campaign=rss",
-      "title": "伊朗表示：停火协议将导致霍尔木兹海峡重新开放",
-      "content_html": "<p><strong>Deal to end fighting would lead to Hormuz reopening, Iran says</strong></p><p>Iran has stated that a deal to end the ongoing fighting is nearing finalization and would lead to the reopening of the Strait of Hormuz. This development is being closely watched by the US, Iran, and mediators.</p><p>伊朗表示，一项结束持续战斗的协议已接近敲定，并将导致霍尔木兹海峡重新开放。美国、伊朗和调解国巴基斯坦都在密切关注这一进展。</p><p>Tags: iran · hormuz strait · geopolitics · diplomacy · conflict</p>",
-      "date_published": "2026-06-13T00:51:20+00:00",
-      "tags": [
-        "iran",
-        "hormuz strait",
-        "geopolitics",
-        "diplomacy",
-        "conflict"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.com/news/articles/cx23kz7e76po?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.com/news/articles/cx23kz7e76po?at_medium=RSS&at_campaign=rss",
-      "title": "瑞士将就人口上限为1000万的计划进行投票",
-      "content_html": "<p><strong>Switzerland to vote on plan to cap population at 10 million</strong></p><p>Switzerland is set to hold a national vote on a proposal to cap the country&#x27;s population at 10 million. While proponents frame it as a sustainability initiative, opponents express concerns about potential chaos.</p><p>瑞士将就一项将国家人口上限设定在1000万的计划举行全民投票。支持者将其视为一项可持续性倡议，而反对者则对可能造成的混乱表示担忧。</p><p>Tags: switzerland · population control · referendum · politics</p>",
-      "date_published": "2026-06-12T23:02:11+00:00",
-      "tags": [
-        "switzerland",
-        "population control",
-        "referendum",
-        "politics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/this-hidden-investing-flaw-is-costing-you-money-talking-to-political-opponents-fixes-it-fc1f7be3?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/this-hidden-investing-flaw-is-costing-you-money-talking-to-political-opponents-fixes-it-fc1f7be3?mod=mw_rss_topstories",
-      "title": "这个隐藏的投资缺陷正在让你亏钱。与政治对手交谈可以解决它。",
-      "content_html": "<p><strong>This hidden investing flaw is costing you money. Talking to political opponents fixes it.</strong></p><p>The article suggests that adhering to politically aligned investment portfolios can lead to financial losses due to a hidden flaw. Engaging with opposing political viewpoints is proposed as a solution to improve investment strategies.</p><p>文章指出，坚持与政治立场一致的投资组合可能因一个隐藏的缺陷而导致财务损失。文章建议与政治对立的观点进行交流是改进投资策略的一种方法。</p><p>Tags: investing · politics · behavioral finance · portfolio management</p>",
-      "date_published": "2026-06-12T22:59:00+00:00",
-      "tags": [
-        "investing",
-        "politics",
-        "behavioral finance",
-        "portfolio management"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/fifa-world-cup-prize-money-what-each-usmnt-player-stands-to-earn-332f8a96?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/fifa-world-cup-prize-money-what-each-usmnt-player-stands-to-earn-332f8a96?mod=mw_rss_topstories",
-      "title": "FIFA 世界杯奖金：美国男足国家队每位球员的潜在收入",
-      "content_html": "<p><strong>FIFA World Cup prize money: What each USMNT player stands to earn</strong></p><p>This article details the prize money structure for the FIFA World Cup and how it will be distributed among the US Men&#x27;s National Team players. It also mentions a 2022 agreement that ensures US Women&#x27;s players receive a share.</p><p>本文详细介绍了 FIFA 世界杯的奖金结构以及它们将如何分配给美国男足国家队球员。文章还提到了 2022 年的一项协议，该协议确保美国女足球员也能获得一部分奖金。</p><p>Tags: fifa world cup · soccer · prize money · sports · usa</p>",
-      "date_published": "2026-06-12T21:44:00+00:00",
-      "tags": [
-        "fifa world cup",
-        "soccer",
-        "prize money",
-        "sports",
-        "usa"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.com/sport/football/articles/c14y0dp6vrdo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.com/sport/football/articles/c14y0dp6vrdo?at_medium=RSS&at_campaign=rss",
-      "title": "据 FIFA 称，球迷在大厅而非座位上",
-      "content_html": "<p><strong>Fans on concourses instead of in seats, claims Fifa</strong></p><p>FIFA claims that numerous empty seats were observed during a nearly sold-out Group A match between South Korea and the Czech Republic. The organization attributes these empty seats to fans remaining in concourses instead of occupying their assigned seats.</p><p>国际足联称，在韩国与捷克队一场几乎售罄的A组比赛中，观察到了大量空座位。国际足联认为这些空座位是由于球迷留在通道区域而不是坐在指定座位上造成的。</p><p>Tags: fifa · world cup · stadium · fans · spectacle</p>",
-      "date_published": "2026-06-12T20:26:23+00:00",
-      "tags": [
-        "fifa",
-        "world cup",
-        "stadium",
-        "fans",
-        "spectacle"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/tech/949259/the-worlds-first-trillionaire-is-a-killer",
-      "url": "https://www.theverge.com/tech/949259/the-worlds-first-trillionaire-is-a-killer",
-      "title": "万亿美元富豪是个杀手",
-      "content_html": "<p><strong>The world’s first trillionaire is a killer</strong></p><p>This article controversially labels Elon Musk, now the world&#x27;s first trillionaire following SpaceX&#x27;s IPO, as a &#x27;killer.&#x27; It highlights his personal conduct and alleges his actions directly led to the deaths of hundreds of thousands of people knowingly.</p><p>这篇文章有争议地称埃隆·马斯克为“杀手”，他因SpaceX的IPO而成为全球首位万亿美元富豪。文章强调了他的个人行为，并声称他的行为是明知故犯地导致了数十万人死亡。</p><p>Tags: elon musk · spacex · controversy · wealth · ethics</p>",
-      "date_published": "2026-06-12T18:46:40+00:00",
-      "tags": [
-        "elon musk",
-        "spacex",
-        "controversy",
-        "wealth",
-        "ethics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2530237-the-relationship-recession-is-even-bigger-for-gen-z-than-we-thought/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "url": "https://www.newscientist.com/article/2530237-the-relationship-recession-is-even-bigger-for-gen-z-than-we-thought/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "title": "我们认为的关系衰退比我们想象的对 Z 世代更大",
-      "content_html": "<p><strong>The relationship recession is even bigger for Gen Z than we thought</strong></p><p>Research indicates that the &#x27;relationship recession,&#x27; characterized by lower rates of steady relationships, is even more pronounced among Gen Z than previously understood. A key factor widening this gap was overlooked in earlier studies.</p><p>研究表明，“关系衰退”，即稳定恋爱关系比例下降的现象，在Z世代中比之前认为的更为显著。早期研究忽略了一个扩大这一差距的关键因素。</p><p>Tags: gen z · relationships · sociology · demographics</p>",
-      "date_published": "2026-06-12T17:00:59+00:00",
-      "tags": [
-        "gen z",
-        "relationships",
-        "sociology",
-        "demographics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2530304-killer-robots-are-here-we-must-finally-decide-whether-to-accept-them/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "url": "https://www.newscientist.com/article/2530304-killer-robots-are-here-we-must-finally-decide-whether-to-accept-them/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "title": "杀人机器人已到来——我们必须最终决定是否接受它们",
-      "content_html": "<p><strong>Killer robots are here – we must finally decide whether to accept them</strong></p><p>The growing threat of fully autonomous weapons, or &#x27;killer robots,&#x27; can no longer be ignored. The article urges the world to either take action to ban these weapons or accept that they represent the future of warfare.</p><p>全自主武器或“杀人机器人”日益增长的威胁已不容忽视。文章敦促世界要么采取行动禁止这些武器，要么接受它们代表着未来战争的形态。</p><p>Tags: autonomous weapons · artificial intelligence · warfare · ethics · regulation</p>",
-      "date_published": "2026-06-12T16:55:05+00:00",
-      "tags": [
-        "autonomous weapons",
-        "artificial intelligence",
-        "warfare",
-        "ethics",
-        "regulation"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/",
-      "url": "https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/",
-      "title": "CRISPR技术选择性地破坏癌细胞，包括“无法用药”的癌症",
-      "content_html": "<p><strong>CRISPR tech selectively shreds cancer cells, including &quot;undruggable&quot; cancers</strong></p><p>CRISPR technology is demonstrating success in selectively destroying cancer cells, including those considered &#x27;undruggable.&#x27; This advancement offers new hope for treating aggressive and treatment-resistant forms of cancer.</p><p>CRISPR技术在选择性地破坏癌细胞方面取得了成功，包括那些被认为“无法用药”的癌症。这一进展为治疗侵袭性和抗治疗性癌症提供了新的希望。</p><p>Tags: crispr · cancer · genetics · biotechnology · medical</p>",
-      "date_published": "2026-06-12T15:15:24+00:00",
-      "tags": [
-        "crispr",
-        "cancer",
-        "genetics",
-        "biotechnology",
-        "medical"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/",
-      "url": "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/",
-      "title": "下载：衰老的“重新编程”，以及内感受的隐藏感",
-      "content_html": "<p><strong>The Download: “reprogramming” aging, and the hidden sense of interoception</strong></p><p>This edition of The Download discusses the buzzy approach of &#x27;reprogramming&#x27; aging and the hidden sense of interoception. It covers advancements in biotechnology focused on reversing age-related diseases.</p><p>本期《下载》讨论了“重新编程”衰老这一热门方法以及内感受的隐藏感。文章介绍了专注于逆转与衰老相关的疾病的生物技术进展。</p><p>Tags: aging · biotechnology · science · health · research</p>",
-      "date_published": "2026-06-12T12:10:00+00:00",
-      "tags": [
-        "aging",
-        "biotechnology",
-        "science",
-        "health",
-        "research"
-      ],
-      "_category": "SCI"
     }
   ]
 }
