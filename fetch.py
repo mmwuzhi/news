@@ -38,7 +38,8 @@ FEEDS = [
 MAX_PER_FEED   = 5
 MAX_TOTAL      = 40
 MAX_PER_CAT    = 8
-GEMINI_MODEL   = "gemini-2.5-flash-lite"
+GEMINI_MODEL    = "gemini-2.5-flash-lite"
+GEMINI_FALLBACK = ["gemini-2.5-flash", "gemini-2.0-flash-lite"]
 CATEGORY_ORDER = ["AI", "TECH", "FINA", "SCI", "WORLD"]
 SITE_URL       = "https://news.wuwuwu.cc"
 FEED_WINDOW    = 7    # days of history kept in the rolling feed
@@ -979,16 +980,25 @@ Example: [{{"titleCN":"...","en":"...","zh":"...","category":"TECH","tags":["rus
 {articles}"""
 
     print("  calling Gemini...", file=sys.stderr)
-    for attempt in range(1, 6):
-        try:
-            response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
+    response = None
+    used_model = GEMINI_MODEL
+    for model in [GEMINI_MODEL] + GEMINI_FALLBACK:
+        for attempt in range(1, 5):
+            try:
+                response = client.models.generate_content(model=model, contents=prompt)
+                used_model = model
+                break
+            except Exception as e:
+                if attempt == 4:
+                    print(f"  ✗ {model} failed after 4 attempts, trying fallback...", file=sys.stderr)
+                    break
+                wait = 30 * attempt
+                print(f"  ✗ [{model}] attempt {attempt} failed ({e}), retrying in {wait}s...", file=sys.stderr)
+                time.sleep(wait)
+        if response is not None:
             break
-        except Exception as e:
-            if attempt == 5:
-                raise
-            wait = 30 * attempt
-            print(f"  ✗ attempt {attempt} failed ({e}), retrying in {wait}s...", file=sys.stderr)
-            time.sleep(wait)
+    else:
+        raise RuntimeError("All Gemini models failed after retries")
 
     text = response.text.strip()
     text = re.sub(r"^```(?:json)?\s*", "", text)
@@ -1010,7 +1020,7 @@ Example: [{{"titleCN":"...","en":"...","zh":"...","category":"TECH","tags":["rus
         item["category"] = s.get("category") or "TECH"
         item["tags"]     = [t for t in (s.get("tags") or []) if isinstance(t, str)]
 
-    return items
+    return items, used_model
 
 # ── HTML generation ───────────────────────────────────────────────────────────
 
@@ -1218,7 +1228,7 @@ def apply_cat_limit(
     return capped, capped_groups
 
 
-def generate_html(items: list[dict], tag_scores: dict[str, int] | None = None) -> str:
+def generate_html(items: list[dict], tag_scores: dict[str, int] | None = None, model: str = GEMINI_MODEL) -> str:
     now = datetime.now(timezone.utc)
     items, groups = apply_cat_limit(items, tag_scores)
     total = len(items)
@@ -1232,7 +1242,7 @@ def generate_html(items: list[dict], tag_scores: dict[str, int] | None = None) -
     html = html.replace("__PROMPT_DATE__",   now.strftime("%Y-%m-%d"))
     html = html.replace("__BRIEF_DATE__",    now.strftime("%a %b %d %Y"))
     html = html.replace("__BRIEF_TOTAL__",   str(total))
-    html = html.replace("__BRIEF_MODEL__",   GEMINI_MODEL)
+    html = html.replace("__BRIEF_MODEL__",   model)
     html = html.replace("__ITEMS__",         items_html)
     html = html.replace("__ARCHIVE__",       archive_html)  # replaces both occurrences
     html = html.replace("__STATUS_TOTAL__",  str(total))
@@ -1260,8 +1270,8 @@ def main():
         print("✗ no items fetched, aborting", file=sys.stderr)
         sys.exit(1)
 
-    items = summarize(items)
-    html  = generate_html(items, tag_scores or None)
+    items, used_model = summarize(items)
+    html  = generate_html(items, tag_scores or None, used_model)
 
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html)
