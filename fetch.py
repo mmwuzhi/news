@@ -69,6 +69,7 @@ SUPA_KEY = os.environ.get("SUPABASE_KEY", "")
 #   __STATUS_TIME__   "HH:MM UTC"
 #   __SUPABASE_URL__  Supabase project URL (empty string if not configured)
 #   __SUPABASE_KEY__  Supabase anon key   (empty string if not configured)
+#   __TODAY__         YYYY-MM-DD (used by app.js to key today's votes)
 
 # CSS and JS now live in assets/style.css and assets/app.js (served as-is).
 HTML_TEMPLATE = (Path(__file__).resolve().parent / "template.html").read_text(encoding="utf-8")
