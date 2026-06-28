@@ -6,6 +6,387 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1223461#reply0",
+      "url": "https://www.v2ex.com/t/1223461#reply0",
+      "title": "程序员纯用 Claude Code 搓了个对接飞书自动修告警的 Agent",
+      "content_html": "<p><strong>[程序员] 纯用 Claude Code 搓了个对接飞书自动修告警的 Agent</strong></p><p>A developer created an AI agent using Claude Code to automate alarm resolution in Feishu. The agent analyzes logs, proposes solutions via cards, and executes fixes upon confirmation.</p><p>开发者利用 Claude Code 构建了一个自动处理飞书告警的 AI Agent。该工具可自动分析日志并生成处理方案，用户确认后即可执行修复。</p><p>Tags: claude · agent · feishu · automation</p>",
+      "date_published": "2026-06-28T09:52:53+00:00",
+      "tags": [
+        "claude",
+        "agent",
+        "feishu",
+        "automation"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1223460#reply0",
+      "url": "https://www.v2ex.com/t/1223460#reply0",
+      "title": "本地部署 GLM-5.2 的门槛太高了，根本玩不起！",
+      "content_html": "<p><strong>[Local LLM] 本地部署 GLM-5.2 的门槛太高了，根本玩不起！</strong></p><p>Deploying the GLM-5.2 model locally requires massive computational resources that are impractical for most users. Testing with multiple H20 GPUs failed to meet performance expectations for large-scale context handling.</p><p>本地部署 GLM-5.2 对硬件算力要求极高，普通用户难以负担。即使使用多张 H20 GPU 进行测试，也无法达到理想的上下文处理性能。</p><p>Tags: glm · llm · gpu · deployment</p>",
+      "date_published": "2026-06-28T09:51:51+00:00",
+      "tags": [
+        "glm",
+        "llm",
+        "gpu",
+        "deployment"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1223459#reply0",
+      "url": "https://www.v2ex.com/t/1223459#reply0",
+      "title": "AI 浏览器真的效率提升大吗？大佬们说下使用经验",
+      "content_html": "<p><strong>[问与答] AI 浏览器真的效率提升大吗？大佬们说下使用经验</strong></p><p>Users are discussing whether AI-integrated browsers offer significant efficiency gains over traditional browser plugins. The debate centers on whether these browsers provide unique value or just redundant features.</p><p>用户正在讨论 AI 浏览器相比传统插件是否真的能显著提升效率。争议焦点在于这种内置 AI 功能是提供了独特价值，还是仅仅是功能冗余。</p><p>Tags: browser · ai · efficiency</p>",
+      "date_published": "2026-06-28T09:47:20+00:00",
+      "tags": [
+        "browser",
+        "ai",
+        "efficiency"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4918318-coherent-architect-of-post-electrical-ai-datacenters-against-compute-deflation-trap?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4918318-coherent-architect-of-post-electrical-ai-datacenters-against-compute-deflation-trap?source=feed_all_articles",
+      "title": "Coherent：针对计算通缩陷阱的电气化后时代 AI 数据中心架构师",
+      "content_html": "<p><strong>Coherent: Architect Of Post-Electrical AI Datacenters Against Compute Deflation Trap</strong></p><p>Coherent focuses on architectural shifts in AI data centers to combat compute deflation. The article explores how infrastructure design must evolve to sustain value in an era of rapidly changing computing needs.</p><p>Coherent 专注于 AI 数据中心的架构变革，旨在应对计算通缩问题。文章探讨了在计算需求快速变化的时代，基础设施设计应如何演进以维持价值。</p><p>Tags: datacenter · ai · compute · investment</p>",
+      "date_published": "2026-06-28T09:47:17+00:00",
+      "tags": [
+        "datacenter",
+        "ai",
+        "compute",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1223458#reply3",
+      "url": "https://www.v2ex.com/t/1223458#reply3",
+      "title": "newtab01：一个基于书签驱动、以列表显示的新标签页 Chrome 扩展",
+      "content_html": "<p><strong>[分享创造] newtab01: 一个基于书签驱动、以列表显示的新标签页 Chrome 扩展</strong></p><p>A Chrome extension named newtab01 provides a list-based, bookmark-driven interface for new tabs. It focuses on productivity by allowing users to manage links efficiently without visual clutter.</p><p>Chrome 扩展 newtab01 提供了一个基于书签驱动的列表式新标签页。该工具通过简洁的列表界面帮助用户高效管理链接，避免视觉干扰。</p><p>Tags: chrome · extension · productivity</p>",
+      "date_published": "2026-06-28T09:29:29+00:00",
+      "tags": [
+        "chrome",
+        "extension",
+        "productivity"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1223457#reply1",
+      "url": "https://www.v2ex.com/t/1223457#reply1",
+      "title": "发现了一个非常好用的语音输入法，叫 SayIt",
+      "content_html": "<p><strong>[程序员] 发现了一个非常好用的语音输入法，叫 SayIt。</strong></p><p>SayIt is an open-source voice input software for Windows that integrates Doubao and Deepseek APIs. It offers fast, accurate transcription and text refinement, filling a gap for Windows users.</p><p>SayIt 是一款开源的 Windows 语音输入软件，集成了豆包和 Deepseek API。它提供了快速准确的语音转文字与润色功能，弥补了 Windows 平台的相关空白。</p><p>Tags: windows · ai · voice · input</p>",
+      "date_published": "2026-06-28T09:25:09+00:00",
+      "tags": [
+        "windows",
+        "ai",
+        "voice",
+        "input"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4918314-fastenal-what-could-justify-valuation?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4918314-fastenal-what-could-justify-valuation?source=feed_all_articles",
+      "title": "Fastenal：什么能证明其估值的合理性",
+      "content_html": "<p><strong>Fastenal: What Could Justify The Valuation</strong></p><p>This article analyzes Fastenal&#x27;s current stock valuation and the fundamental factors justifying its price. It examines the company&#x27;s market position and growth prospects within the industrial supply sector.</p><p>文章分析了 Fastenal 目前的股票估值及其支撑价格的基本面因素。探讨了该公司在工业供应领域的市场地位和增长前景。</p><p>Tags: stock · valuation · fastenal</p>",
+      "date_published": "2026-06-28T09:09:28+00:00",
+      "tags": [
+        "stock",
+        "valuation",
+        "fastenal"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4918313-granite-reit-still-below-nav-still-underappreciated?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4918313-granite-reit-still-below-nav-still-underappreciated?source=feed_all_articles",
+      "title": "Granite REIT：仍低于净资产值，仍被低估",
+      "content_html": "<p><strong>Granite REIT: Still Below NAV, Still Underappreciated</strong></p><p>Granite REIT is identified as being undervalued compared to its Net Asset Value (NAV). The report suggests that the market has not yet fully appreciated the company&#x27;s real estate assets.</p><p>Granite REIT 被认为目前的股价低于其净资产值（NAV）。报告指出市场尚未充分认识到该公司的房地产资产价值。</p><p>Tags: reit · investing · nav</p>",
+      "date_published": "2026-06-28T09:00:57+00:00",
+      "tags": [
+        "reit",
+        "investing",
+        "nav"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4918317-stock-market-pullback-is-healthier-than-it-looks?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4918317-stock-market-pullback-is-healthier-than-it-looks?source=feed_all_articles",
+      "title": "股市回调比看起来更健康",
+      "content_html": "<p><strong>Stock Market Pullback Is Healthier Than It Looks</strong></p><p>Current stock market pullbacks are analyzed as a healthy correction rather than a sign of a crash. The author argues that such movements stabilize the market in the long run.</p><p>分析称目前的股市回调是一种健康的修正，而非崩盘预兆。作者认为这种市场波动从长远来看有助于稳定市场。</p><p>Tags: stock · market · finance</p>",
+      "date_published": "2026-06-28T09:00:00+00:00",
+      "tags": [
+        "stock",
+        "market",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4918311-rayonier-a-unique-reit-yielding-5-percent-with-42-percent-upside?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4918311-rayonier-a-unique-reit-yielding-5-percent-with-42-percent-upside?source=feed_all_articles",
+      "title": "Rayonier：一只独特的房地产投资信托基金，收益率 5%，上涨空间 42%",
+      "content_html": "<p><strong>Rayonier: A Unique REIT Yielding 5% With 42% Upside</strong></p><p>Rayonier is highlighted as a compelling REIT investment offering a 5% yield. Analysts estimate a potential 42% upside based on current market conditions.</p><p>Rayonier 被认为是一项具有吸引力的 REIT 投资，提供 5% 的收益率。分析师根据当前市场状况估计其有 42% 的上涨潜力。</p><p>Tags: reit · rayonier · investment</p>",
+      "date_published": "2026-06-28T08:30:58+00:00",
+      "tags": [
+        "reit",
+        "rayonier",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://sspai.com/post/110935",
+      "url": "https://sspai.com/post/110935",
+      "title": "兜兜转转四款笔记软件，我终于为思考找到了安身之所",
+      "content_html": "<p><strong>兜兜转转四款笔记软件，我终于为思考找到了安身之所</strong></p><p>The author shares their journey of testing four different note-taking apps. They reflect on finding a tool that best suits their thinking and writing process.</p><p>作者分享了自己尝试四款笔记软件的历程。反思了寻找最适合自己思考与写作工具的过程与心得。</p><p>Tags: productivity · notes · workflow</p>",
+      "date_published": "2026-06-28T07:00:12+00:00",
+      "tags": [
+        "productivity",
+        "notes",
+        "workflow"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review",
+      "url": "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review",
+      "title": "TMD 的无钥匙自行车锁是一个价值 280 美元的解决方案，用来解决 60 美元的问题",
+      "content_html": "<p><strong>TMD’s keyless bike lock is a $280 solution to a $60 problem</strong></p><p>The article critiques the high cost of a new smart bike lock from TMD. It questions whether the added features justify the premium price compared to standard locks.</p><p>文章批评了 TMD 新款智能自行车锁的高昂售价。质疑在添加了额外功能后，相比传统锁具，该溢价是否合理。</p><p>Tags: hardware · security · smartlock</p>",
+      "date_published": "2026-06-28T07:00:00+00:00",
+      "tags": [
+        "hardware",
+        "security",
+        "smartlock"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
+      "title": "美伊互袭并指责对方违反停火协议",
+      "content_html": "<p><strong>US and Iran exchange strikes and accuse each other of violating ceasefire</strong></p><p>Tensions between the US and Iran escalated as both nations exchanged strikes. Each side accuses the other of violating the previously established ceasefire.</p><p>美国与伊朗之间的紧张局势升级，双方爆发了互袭。各方均指责对方违反了先前达成的停火协议。</p><p>Tags: us · iran · geopolitics</p>",
+      "date_published": "2026-06-28T04:54:50+00:00",
+      "tags": [
+        "us",
+        "iran",
+        "geopolitics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://github.com/cfenollosa/bashblog",
+      "url": "https://github.com/cfenollosa/bashblog",
+      "title": "Bashblog – 一个用于创建博客的单一 bash 脚本",
+      "content_html": "<p><strong>Bashblog – a single bash script to create blogs</strong></p><p>Bashblog is a minimalist tool that uses a single bash script to generate static blog sites. It is designed for users who prefer simplicity and command-line interfaces.</p><p>Bashblog 是一款极简主义工具，仅通过一个 bash 脚本即可生成静态博客网站。专为偏好简洁和命令行界面的用户设计。</p><p>Tags: bash · blog · devops</p>",
+      "date_published": "2026-06-28T04:48:32+00:00",
+      "tags": [
+        "bash",
+        "blog",
+        "devops"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://github.com/itsthelore/wayfinder-router",
+      "url": "https://github.com/itsthelore/wayfinder-router",
+      "title": "Wayfinder Router：本地与托管 LLM 之间查询的确定性路由",
+      "content_html": "<p><strong>Wayfinder Router: deterministic routing of queries between local and hosted LLM</strong></p><p>Wayfinder Router provides deterministic query routing between local and hosted LLMs. This helps optimize costs and performance by choosing the best model for a given task.</p><p>Wayfinder Router 实现了本地与云端托管 LLM 之间查询的确定性路由。通过为特定任务选择最优模型，帮助用户优化成本与性能。</p><p>Tags: llm · routing · api</p>",
+      "date_published": "2026-06-28T04:31:18+00:00",
+      "tags": [
+        "llm",
+        "routing",
+        "api"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep",
+      "url": "https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep",
+      "title": "Marfa Public Radio 让您安然入睡",
+      "content_html": "<p><strong>Marfa Public Radio Puts You to Sleep</strong></p><p>A discussion on the soothing nature of Marfa Public Radio programming. It touches on how radio content is being used for relaxation and sleep aid.</p><p>探讨了 Marfa 公共广播节目的治愈特性。讨论了广播内容如何被用于放松身心及辅助睡眠。</p><p>Tags: media · radio · lifestyle</p>",
+      "date_published": "2026-06-28T02:23:08+00:00",
+      "tags": [
+        "media",
+        "radio",
+        "lifestyle"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+      "url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+      "title": "AMD Strix Halo RDMA 集群设置指南",
+      "content_html": "<p><strong>AMD Strix Halo RDMA Cluster Setup Guide</strong></p><p>A technical guide for setting up an RDMA cluster using AMD Strix Halo hardware. It covers the necessary configurations for high-performance computing.</p><p>一份关于使用 AMD Strix Halo 硬件设置 RDMA 集群的技术指南。涵盖了高性能计算所需的关键配置。</p><p>Tags: amd · rdma · hardware</p>",
+      "date_published": "2026-06-28T00:46:52+00:00",
+      "tags": [
+        "amd",
+        "rdma",
+        "hardware"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://36kr.com/p/3867976058803459?f=rss",
+      "url": "https://36kr.com/p/3867976058803459?f=rss",
+      "title": "一折买 Miu Miu，谁在做奢侈品牌的\"拼多多\"？",
+      "content_html": "<p><strong>一折买 Miu Miu，谁在做奢侈品牌的&quot;拼多多&quot;？｜商业Friday</strong></p><p>The article explores the rise of membership-based luxury clearance platforms like On The List. These platforms act as intermediaries to sell surplus luxury inventory at steep discounts.</p><p>文章探讨了以 On The List 为代表的会员制奢侈品特卖平台的兴起。这些平台充当中间商，以极高折扣销售奢侈品库存。</p><p>Tags: luxury · retail · business</p>",
+      "date_published": "2026-06-28T00:37:08+00:00",
+      "tags": [
+        "luxury",
+        "retail",
+        "business"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cpvp3xn489no?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cpvp3xn489no?at_medium=RSS&at_campaign=rss",
+      "title": "为什么金正恩从不谈论他的母亲及其充满争议的血统",
+      "content_html": "<p><strong>Why Kim Jong Un never talks about his mother - or her controversial bloodline</strong></p><p>The article examines why the origins of Kim Jong Un&#x27;s mother are kept secretive by North Korea. Her controversial background is viewed as a threat to the regime&#x27;s legitimacy.</p><p>文章探讨了为何北韩政府对其领导人母亲的出身保密。其充满争议的背景被视为对政权合法性的威胁。</p><p>Tags: politics · northkorea · history</p>",
+      "date_published": "2026-06-27T23:10:39+00:00",
+      "tags": [
+        "politics",
+        "northkorea",
+        "history"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cx2kpn0eeweo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cx2kpn0eeweo?at_medium=RSS&at_campaign=rss",
+      "title": "以色列袭击黎巴嫩南部，真主党谴责新协议",
+      "content_html": "<p><strong>Israel strikes southern Lebanon as Hezbollah condemns new deal</strong></p><p>Israel launched strikes in southern Lebanon despite a newly signed framework agreement. Hezbollah condemned the deal, leading to further instability in the region.</p><p>尽管新签署了框架协议，以色列仍对黎巴嫩南部发动了袭击。真主党对该协议表示谴责，导致地区进一步动荡。</p><p>Tags: israel · lebanon · conflict</p>",
+      "date_published": "2026-06-27T21:35:40+00:00",
+      "tags": [
+        "israel",
+        "lebanon",
+        "conflict"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/entertainment/958723/teenage-engineering-os-25-ep-133-ko-ii-sampler",
+      "url": "https://www.theverge.com/entertainment/958723/teenage-engineering-os-25-ep-133-ko-ii-sampler",
+      "title": "Teenage Engineering 为其 KO II 采样器增加了 Lo-fi 模式、USB 音频等功能",
+      "content_html": "<p><strong>Teenage Engineering adds lo-fi mode, USB audio, and more to its KO II sampler</strong></p><p>Teenage Engineering released a significant OS update (2.5) for the EP-133 KO II sampler. New features include USB audio, lo-fi modes, and advanced chopping capabilities.</p><p>Teenage Engineering 为其 EP-133 KO II 采样器发布了重大 OS 更新 (2.5)。新功能包括 USB 音频、Lo-fi 模式及高级采样切片能力。</p><p>Tags: hardware · audio · sampler</p>",
+      "date_published": "2026-06-27T21:20:32+00:00",
+      "tags": [
+        "hardware",
+        "audio",
+        "sampler"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cp8l451420zo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cp8l451420zo?at_medium=RSS&at_campaign=rss",
+      "title": "委内瑞拉地震，家人呼唤被困废墟中的亲人",
+      "content_html": "<p><strong>Families calling out to loved ones trapped in rubble by Venezuela quakes</strong></p><p>A devastating earthquake in Venezuela has left many trapped under rubble. Rescue efforts are ongoing as families desperately wait for news of their loved ones.</p><p>委内瑞拉发生的毁灭性地震导致许多人被困废墟。救援行动正在进行中，受灾家庭在绝望中等待亲人的消息。</p><p>Tags: venezuela · disaster · news</p>",
+      "date_published": "2026-06-27T21:12:51+00:00",
+      "tags": [
+        "venezuela",
+        "disaster",
+        "news"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/how-to-work-in-retirement-without-seeing-your-social-security-checks-slashed-05d6c830?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/how-to-work-in-retirement-without-seeing-your-social-security-checks-slashed-05d6c830?mod=mw_rss_topstories",
+      "title": "如何在退休期间工作而不削减社会保障金",
+      "content_html": "<p><strong>How to work in retirement without seeing your Social Security checks slashed</strong></p><p>This article explains how to manage work income during retirement to avoid Social Security benefit reductions. It clarifies the rules regarding earnings limits before full retirement age.</p><p>文章解释了如何在退休期间平衡工作收入以避免社会保障金缩减。明确了在达到法定退休年龄前关于收入限制的相关规则。</p><p>Tags: finance · retirement · socialsecurity</p>",
+      "date_published": "2026-06-27T19:30:00+00:00",
+      "tags": [
+        "finance",
+        "retirement",
+        "socialsecurity"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/americans-401-k-balances-hit-record-levels-last-year-see-how-you-compare-facd32c4?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/americans-401-k-balances-hit-record-levels-last-year-see-how-you-compare-facd32c4?mod=mw_rss_topstories",
+      "title": "美国人 401(k) 余额去年创历史新高",
+      "content_html": "<p><strong>Americans’ 401(k) balances hit record levels last year. See how you compare.</strong></p><p>Vanguard’s report reveals that 401(k) balances reached record highs for Americans last year. The data provides a benchmark for individual retirement savings comparison.</p><p>Vanguard 的报告显示，去年美国人的 401(k) 余额创下历史新高。该数据为个人退休储蓄水平提供了对比基准。</p><p>Tags: finance · savings · retirement</p>",
+      "date_published": "2026-06-27T19:30:00+00:00",
+      "tags": [
+        "finance",
+        "savings",
+        "retirement"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/this-disease-is-more-expensive-than-cancer-and-heart-disease-combined-and-its-only-going-to-get-worse-797b72d9?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/this-disease-is-more-expensive-than-cancer-and-heart-disease-combined-and-its-only-going-to-get-worse-797b72d9?mod=mw_rss_topstories",
+      "title": "这种疾病的医疗成本超过了癌症和心脏病的总和，而且情况只会越来越糟",
+      "content_html": "<p><strong>This disease is more expensive than cancer and heart disease combined. And it’s only going to get worse.</strong></p><p>A specific health condition is causing an escalating economic crisis for families and governments. The article highlights the urgent need for addressing its rising prevalence and costs.</p><p>某种特定疾病正引发家庭与政府日益严重的经济危机。文章强调了应对其患病率及医疗成本飙升的紧迫性。</p><p>Tags: health · economy · crisis</p>",
+      "date_published": "2026-06-27T19:30:00+00:00",
+      "tags": [
+        "health",
+        "economy",
+        "crisis"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/millions-of-older-americans-will-soon-have-medicare-access-to-glp-1s-for-weight-loss-heres-what-they-need-to-know-758efe4c?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/millions-of-older-americans-will-soon-have-medicare-access-to-glp-1s-for-weight-loss-heres-what-they-need-to-know-758efe4c?mod=mw_rss_topstories",
+      "title": "美国老年人首次可以通过联邦医疗保险获得 GLP-1 减肥药物",
+      "content_html": "<p><strong>Older Americans will soon have Medicare access to GLP-1s for weight loss for the first time. Here’s what they need to know.</strong></p><p>Medicare beneficiaries will gain access to GLP-1 weight-loss drugs starting July 1. Patients are advised to consider the potential side effects, including muscle loss.</p><p>从 7 月 1 日起，联邦医疗保险受益人将首次获得 GLP-1 减肥药物。建议患者关注包括肌肉流失在内的潜在副作用。</p><p>Tags: health · medicare · glp1</p>",
+      "date_published": "2026-06-27T19:30:00+00:00",
+      "tags": [
+        "health",
+        "medicare",
+        "glp1"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "title": "玛格丽特·阿特伍德称 AI 的问题是“垃圾进，垃圾出”",
+      "content_html": "<p><strong>Margaret Atwood says the problem with AI is &amp;#8216;garbage in, garbage out&amp;#8217;</strong></p><p>Author Margaret Atwood shared her skeptical views on AI, citing the “garbage in, garbage out” principle. She warned about the limitations and biases inherent in AI-generated content.</p><p>作家玛格丽特·阿特伍德表达了对 AI 的怀疑，引用了“垃圾进，垃圾出”原则。她警告了 AI 生成内容中固有的局限性与偏见。</p><p>Tags: ai · literature · opinion</p>",
+      "date_published": "2026-06-27T18:39:32+00:00",
+      "tags": [
+        "ai",
+        "literature",
+        "opinion"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cdjk8zwe7z3o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cdjk8zwe7z3o?at_medium=RSS&at_campaign=rss",
+      "title": "在加拉加斯，这感觉像是委内瑞拉现代史上最艰难的时刻",
+      "content_html": "<p><strong>In Caracas, this feels like the hardest moment in Venezuela&#x27;s modern history</strong></p><p>Caracas is facing a crisis following natural disasters and ongoing instability. The article captures the despair and growing anger among residents as rescue efforts falter.</p><p>加拉加斯在自然灾害与持续动荡后面临严峻危机。文章记录了救援进展缓慢下，居民们的绝望与日益增长的愤怒。</p><p>Tags: venezuela · crisis · politics</p>",
+      "date_published": "2026-06-27T14:22:37+00:00",
+      "tags": [
+        "venezuela",
+        "crisis",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/111347",
+      "url": "https://sspai.com/post/111347",
+      "title": "俄西双城游记：莫斯科时代折叠，圣彼得堡文化巡礼",
+      "content_html": "<p><strong>俄西双城游记：莫斯科时代折叠，圣彼得堡文化巡礼</strong></p><p>A travelogue exploring the contrasting atmospheres of Moscow and St. Petersburg. The author reflects on the historical layering and cultural richness of both cities.</p><p>一篇探索莫斯科与圣彼得堡不同氛围的游记。作者反思了两座城市深厚的历史积淀与文化底蕴。</p><p>Tags: travel · russia · culture</p>",
+      "date_published": "2026-06-27T11:36:51+00:00",
+      "tags": [
+        "travel",
+        "russia",
+        "culture"
+      ],
+      "_category": "WORLD"
+    },
+    {
       "id": "https://www.v2ex.com/t/1223322#reply0",
       "url": "https://www.v2ex.com/t/1223322#reply0",
       "title": "北京朝阳一轻型航空器撞楼致 1 死 13 伤",
@@ -370,6 +751,19 @@
       "_category": "AI"
     },
     {
+      "id": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
+      "url": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
+      "title": "GitHub 与联合国开发计划署合作，利用开源技术推进加纳的发展优先事项",
+      "content_html": "<p><strong>GitHub and UNDP team up to advance development priorities in Ghana with open source</strong></p><p>GitHub and the UNDP are collaborating in Ghana to use open-source governance for digital reform. This partnership aims to leverage technology for sustainable development.</p><p>GitHub 与联合国开发计划署在加纳开展合作，旨在通过开源治理推动数字改革。此次伙伴关系旨在利用技术助力可持续发展。</p><p>Tags: github · undp · opensource</p>",
+      "date_published": "2026-06-26T16:53:57+00:00",
+      "tags": [
+        "github",
+        "undp",
+        "opensource"
+      ],
+      "_category": "WORLD"
+    },
+    {
       "id": "https://www.newscientist.com/article/2532073-i-have-a-100-per-cent-chance-of-getting-cancer-due-to-a-rare-gene/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
       "url": "https://www.newscientist.com/article/2532073-i-have-a-100-per-cent-chance-of-getting-cancer-due-to-a-rare-gene/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
       "title": "我因为罕见基因有100%的几率患癌",
@@ -392,6 +786,19 @@
         "考古",
         "dna",
         "古人类"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
+      "url": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
+      "title": "下载：致命热浪与 OpenAI 的前所未有的限制",
+      "content_html": "<p><strong>The Download: brain-melting heatwaves and unprecedented OpenAI restrictions</strong></p><p>MIT Technology Review highlights global heatwaves and new restrictions imposed by OpenAI. These topics explore current technological and environmental challenges.</p><p>MIT 科技评论重点关注了全球热浪与 OpenAI 实施的新限制。这些话题探讨了当前面临的技术与环境挑战。</p><p>Tags: environment · openai · tech</p>",
+      "date_published": "2026-06-26T12:10:00+00:00",
+      "tags": [
+        "environment",
+        "openai",
+        "tech"
       ],
       "_category": "SCI"
     },
@@ -835,129 +1242,6 @@
       "date_published": "2026-06-21T09:55:26+00:00",
       "tags": [],
       "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4916528-ambev-dont-ignore-this-high-quality-beverage-leader?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4916528-ambev-dont-ignore-this-high-quality-beverage-leader?source=feed_all_articles",
-      "title": "Ambev: Don't Ignore This High-Quality Beverage Leader",
-      "content_html": "<p><strong>Ambev: Don&#x27;t Ignore This High-Quality Beverage Leader</strong></p><p>Summary unavailable.</p><p>摘要暂不可用。</p>",
-      "date_published": "2026-06-21T08:44:32+00:00",
-      "tags": [],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4916525-cto-realty-growth-hold-common-stock-for-dividend-buy-preferred-for-7-5-percent-yield?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4916525-cto-realty-growth-hold-common-stock-for-dividend-buy-preferred-for-7-5-percent-yield?source=feed_all_articles",
-      "title": "CTO Realty Growth: Hold Common Stock For Dividend, Buy Preferred For 7.5% Yield",
-      "content_html": "<p><strong>CTO Realty Growth: Hold Common Stock For Dividend, Buy Preferred For 7.5% Yield</strong></p><p>Summary unavailable.</p><p>摘要暂不可用。</p>",
-      "date_published": "2026-06-21T08:25:03+00:00",
-      "tags": [],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1221660#reply0",
-      "url": "https://www.v2ex.com/t/1221660#reply0",
-      "title": "分享创造：Coding Buddy - 将 AI 编程状态和 Codex 宠物同步到 iPhone 灵动岛的工具",
-      "content_html": "<p><strong>[分享创造] 受到 claude-desktop-buddy 和 codex 宠物的启发，我做了一个将 codex 宠物同步到 iPhone 灵动岛的工具。</strong></p><p>A developer has created a tool called Coding Buddy that synchronizes AI programming status and Codex pets to the iPhone&#x27;s Dynamic Island. This app allows users to monitor their AI coding progress and even interact with a virtual pet companion directly from their iPhone.</p><p>一位开发者创建了一款名为Coding Buddy的工具，可将AI编程状态和Codex宠物同步到iPhone的灵动岛。该应用允许用户直接从iPhone上监控AI编码进度，甚至与虚拟宠物伴侣互动。</p><p>Tags: ai · iphone · dynamic island · coding buddy · developer tool</p>",
-      "date_published": "2026-06-20T09:54:28+00:00",
-      "tags": [
-        "ai",
-        "iphone",
-        "dynamic island",
-        "coding buddy",
-        "developer tool"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1221659#reply0",
-      "url": "https://www.v2ex.com/t/1221659#reply0",
-      "title": "分享一些在 AI 解析中常见的问题，以及工具区别",
-      "content_html": "<p><strong>[程序员] 分享一些在 AI 解析中常见的问题，以及工具区别</strong></p><p>This article discusses common challenges in AI-driven document parsing, highlighting that converting to Markdown doesn&#x27;t equate to AI understandability. It explains that the structural information lost during parsing and chunking hinders AI&#x27;s ability to grasp context, relationships, and hierarchies within documents.</p><p>本文讨论了AI驱动的文档解析中常见的挑战，并指出转换为Markdown并不等同于AI的可理解性。文章解释了在解析和分块过程中丢失的结构信息会阻碍AI理解文档内的上下文、关系和层次结构。</p><p>Tags: ai · parsing · document analysis · rag · llm</p>",
-      "date_published": "2026-06-20T09:51:17+00:00",
-      "tags": [
-        "ai",
-        "parsing",
-        "document analysis",
-        "rag",
-        "llm"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4916436-amdy-good-income-with-risks?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4916436-amdy-good-income-with-risks?source=feed_all_articles",
-      "title": "AMDY: 良好收入伴随风险",
-      "content_html": "<p><strong>AMDY: Good Income With Risks</strong></p><p>AMDY is currently offering good income prospects, but investors should be aware of the associated risks. Further analysis is recommended to understand the potential downsides alongside the current financial benefits.</p><p>AMDY目前提供了良好的收入前景，但投资者应注意相关的风险。建议进行进一步分析，以了解潜在的缺点以及当前财务收益。</p><p>Tags: amdy · income · risk · investment · finance</p>",
-      "date_published": "2026-06-20T09:43:36+00:00",
-      "tags": [
-        "amdy",
-        "income",
-        "risk",
-        "investment",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1221658#reply0",
-      "url": "https://www.v2ex.com/t/1221658#reply0",
-      "title": "赛博朋克 2077：2026年6月史低89.4元",
-      "content_html": "<p><strong>[赛博朋克 2077] 2026 年 6 月史低 89.4 元</strong></p><p>The game Cyberpunk 2077 is predicted to reach its lowest historical price of 89.4 yuan in June 2026. This information is valuable for gamers looking to purchase the title at a discounted rate.</p><p>游戏《赛博朋克2077》预计将于2026年6月达到历史最低价89.4元。此信息对希望以折扣价购买该游戏的玩家很有价值。</p><p>Tags: cyberpunk 2077 · game · discount · price · gaming</p>",
-      "date_published": "2026-06-20T09:42:13+00:00",
-      "tags": [
-        "cyberpunk 2077",
-        "game",
-        "discount",
-        "price",
-        "gaming"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1221657#reply0",
-      "url": "https://www.v2ex.com/t/1221657#reply0",
-      "title": "程序员：Vibe Coding 了两年，分享一下我对于 Vibe 的感想",
-      "content_html": "<p><strong>[程序员] Vibe Coding 了两年，分享一下我对于 Vibe 的感想。</strong></p><p>The author shares their two-year experience with Vibe Coding, reflecting on its evolution and their personal journey with prompt engineering. They discuss the initial struggles and how prompt engineering helped refine AI outputs.</p><p>作者分享了他们使用Vibe Coding两年的经验，回顾了其发展历程以及他们在提示工程方面的个人经历。他们讨论了最初的挣扎以及提示工程如何帮助改进AI输出。</p><p>Tags: vibe coding · ai · prompt engineering · programming · developer experience</p>",
-      "date_published": "2026-06-20T09:41:43+00:00",
-      "tags": [
-        "vibe coding",
-        "ai",
-        "prompt engineering",
-        "programming",
-        "developer experience"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1221656#reply1",
-      "url": "https://www.v2ex.com/t/1221656#reply1",
-      "title": "创造者：东玩玩、西玩玩、时间都哪去了",
-      "content_html": "<p><strong>[创造者] 东玩玩、西玩玩、时间都哪去了</strong></p><p>This article expresses a relaxed and experimental approach to entrepreneurship, emphasizing enjoyment and learning over strict success metrics. The author suggests embracing life&#x27;s journey with a playful attitude, prioritizing happiness and experience.</p><p>本文表达了对创业一种轻松和实验性的态度，强调享受和学习而非严格的成功指标。作者建议以一种玩乐的心态拥抱生活之旅，优先考虑快乐和体验。</p><p>Tags: entrepreneurship · mindset · creativity · life philosophy · startup</p>",
-      "date_published": "2026-06-20T09:39:37+00:00",
-      "tags": [
-        "entrepreneurship",
-        "mindset",
-        "creativity",
-        "life philosophy",
-        "startup"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4916435-microsoft-is-not-cheap-drop-to-multi-year-lows-likely?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4916435-microsoft-is-not-cheap-drop-to-multi-year-lows-likely?source=feed_all_articles",
-      "title": "微软并不便宜：可能跌至多年低点",
-      "content_html": "<p><strong>Microsoft Is Not Cheap: Drop To Multi-Year Lows Likely</strong></p><p>Microsoft&#x27;s stock is currently considered expensive, with a potential for it to fall to multi-year lows. Investors are advised to consider this possibility when evaluating the company&#x27;s financial outlook.</p><p>微软的股票目前被认为价格过高，并有可能跌至多年来的低点。建议投资者在评估公司财务前景时考虑这一可能性。</p><p>Tags: microsoft · stock · finance · investment · bearish</p>",
-      "date_published": "2026-06-20T09:39:05+00:00",
-      "tags": [
-        "microsoft",
-        "stock",
-        "finance",
-        "investment",
-        "bearish"
-      ],
-      "_category": "FINA"
     }
   ]
 }
