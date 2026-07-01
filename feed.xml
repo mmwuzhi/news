@@ -6,7 +6,255 @@
 <atom:link href="https://news.wuwuwu.cc/feed.xml" rel="self" type="application/rss+xml"/>
 <description>每日中英双语科技与世界新闻摘要 · summarized by Gemini</description>
 <language>zh-cn</language>
-<lastBuildDate>Tue, 30 Jun 2026 10:28:43 +0000</lastBuildDate>
+<lastBuildDate>Wed, 01 Jul 2026 10:38:59 +0000</lastBuildDate>
+<item>
+<title>Claude Anthropic 主动遵守中国法律为什么要被骂？</title>
+<link>https://www.v2ex.com/t/1224298#reply2</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1224298#reply2</guid>
+<pubDate>Wed, 01 Jul 2026 10:35:01 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>[Claude] Anthropic 主动遵守中国法律为什么要被骂？</strong></p><p>Some users are criticizing Anthropic for complying with Chinese AI regulations and restricting service to mainland China. The author argues this is a legal necessity for a foreign company and suggests users should appreciate the move rather than complain.</p><p>文章探讨了 Anthropic 因主动遵守中国相关法规而遭到部分用户谩骂的现象。作者认为这是跨国企业必须履行的合规要求，并呼吁用户理性看待这一行为。</p><p>Tags: anthropic · claude · compliance</p>]]></description>
+</item>
+<item>
+<title>大家避雷京东吧 买到二手退货和残次品组装的后封机</title>
+<link>https://www.v2ex.com/t/1224297#reply2</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1224297#reply2</guid>
+<pubDate>Wed, 01 Jul 2026 10:33:12 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[Apple] 大家避雷京东吧 买到二手退货和残次品组装的后封机 客服竟然帮腔说叫资源机</strong></p><p>A user warns others against buying iPhones from JD.com after receiving what they claim is a refurbished or defective device. They express frustration with customer service for labeling these as &#x27;resource machines.&#x27;</p><p>用户吐槽在京东购买手机时遭遇疑似二手翻新或残次品，并对客服将该设备称为“资源机”的行为表示极度不满。</p><p>Tags: jd · iphone · complaint</p>]]></description>
+</item>
+<item>
+<title>有 root 的 Flutter 安卓如何后台执行任务</title>
+<link>https://www.v2ex.com/t/1224296#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1224296#reply0</guid>
+<pubDate>Wed, 01 Jul 2026 10:32:02 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[Android] 有 root 的 Flutter 安卓如何后台执行任务</strong></p><p>The author is seeking advice on running background tasks for a Flutter-based network tool on a rooted Android device. They face issues with task stability and execution delays when the app is in the background.</p><p>开发者寻求在已 root 的安卓设备上，利用 Flutter 实现稳定的后台定时任务方案。目前遇到的核心难点在于后台进程会被系统限制或执行偏移。</p><p>Tags: flutter · android · root</p>]]></description>
+</item>
+<item>
+<title>SparkCloud 国际网络加速七月活动</title>
+<link>https://www.v2ex.com/t/1224295#reply3</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1224295#reply3</guid>
+<pubDate>Wed, 01 Jul 2026 10:31:00 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[推广] SparkCloud 国际网络加速七月活动</strong></p><p>SparkCloud is launching a July promotion for its international network acceleration service. The provider highlights features like zero censorship and multi-node support while offering a discount code.</p><p>SparkCloud 发布了七月促销活动，提供国际网络加速服务。该服务主打无审计、全中转节点及流媒体解锁等优势。</p><p>Tags: network · proxy · promotion</p>]]></description>
+</item>
+<item>
+<title>Mind The Gap</title>
+<link>https://seekingalpha.com/article/4919055-mind-the-gap?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4919055-mind-the-gap?source=feed_all_articles</guid>
+<pubDate>Wed, 01 Jul 2026 10:30:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Mind The Gap</strong></p><p>This article discusses current financial market trends and gaps that investors should pay attention to. It provides an overview of sector performance and potential investment risks.</p><p>文章分析了当前金融市场的趋势及值得投资者关注的缺口。内容涉及行业表现评估及潜在的投资风险提示。</p><p>Tags: finance · investing · market</p>]]></description>
+</item>
+<item>
+<title>Gerresheimer AG 2025 Q4 - Results - Earnings Call Presentation</title>
+<link>https://seekingalpha.com/article/4919129-gerresheimer-ag-2025-q4-results-earnings-call-presentation?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4919129-gerresheimer-ag-2025-q4-results-earnings-call-presentation?source=feed_all_articles</guid>
+<pubDate>Wed, 01 Jul 2026 10:25:27 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Gerresheimer AG 2025 Q4 - Results - Earnings Call Presentation</strong></p><p>Gerresheimer AG presents its 2025 fourth-quarter financial results during an earnings call. The report highlights performance metrics and strategic growth plans for the upcoming fiscal year.</p><p>Gerresheimer AG 发布了 2025 年第四季度财报，并在电话会议中展示了经营业绩与未来战略规划。</p><p>Tags: gerresheimer · earnings · finance</p>]]></description>
+</item>
+<item>
+<title>ABIVAX 讨论 Obefazimod 在溃疡性结肠炎中的数据</title>
+<link>https://seekingalpha.com/article/4919128-abivax-societe-anonyme-abvx-discusses-abtect-maintenance-part-2-results-and-updated?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4919128-abivax-societe-anonyme-abvx-discusses-abtect-maintenance-part-2-results-and-updated?source=feed_all_articles</guid>
+<pubDate>Wed, 01 Jul 2026 10:25:10 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>ABIVAX Société Anonyme (ABVX) Discusses ABTECT Maintenance Part 2 Results and Updated Obefazimod Safety and Efficacy Data in Ulcerative Colitis - Slideshow</strong></p><p>ABIVAX shares updated clinical data on its drug Obefazimod for treating ulcerative colitis. The presentation highlights safety and efficacy results from their latest maintenance studies.</p><p>ABIVAX 公布了药物 Obefazimod 在治疗溃疡性结肠炎中的最新临床数据。报告详细介绍了药物的安全性及长期疗效表现。</p><p>Tags: biotech · abivax · clinicaltrials</p>]]></description>
+</item>
+<item>
+<title>Iridium 与 Rocket Lab 的并购会议</title>
+<link>https://seekingalpha.com/article/4919127-iridium-communications-inc-irdm-rocket-lab-corporation-m-and-a-call-slideshow?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4919127-iridium-communications-inc-irdm-rocket-lab-corporation-m-and-a-call-slideshow?source=feed_all_articles</guid>
+<pubDate>Wed, 01 Jul 2026 10:24:26 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Iridium Communications Inc. (IRDM) Rocket Lab Corporation - M&amp;A Call - Slideshow</strong></p><p>Iridium Communications discusses its strategic M&amp;A call regarding Rocket Lab. The presentation details the rationale and potential impacts of this deal on the satellite communications industry.</p><p>Iridium Communications 就与 Rocket Lab 的并购事宜举行会议。双方讨论了该交易对卫星通信行业的影响及战略布局。</p><p>Tags: iridium · rocketlab · merger</p>]]></description>
+</item>
+<item>
+<title>Neurogene Inc. 更新 NGN-401 基因疗法数据</title>
+<link>https://seekingalpha.com/article/4919126-neurogene-inc-ngne-discusses-updated-phase-1-2-data-for-ngnminus-401-gene-therapy-in-rett?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4919126-neurogene-inc-ngne-discusses-updated-phase-1-2-data-for-ngnminus-401-gene-therapy-in-rett?source=feed_all_articles</guid>
+<pubDate>Wed, 01 Jul 2026 10:24:13 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Neurogene Inc. (NGNE) Discusses Updated Phase 1/2 Data for NGN-401 Gene Therapy in Rett Syndrome - Slideshow</strong></p><p>Neurogene Inc. provides updated Phase 1/2 clinical data for its gene therapy NGN-401 for Rett syndrome. The results demonstrate positive safety and therapeutic trends.</p><p>Neurogene Inc. 更新了治疗瑞特综合征的基因疗法 NGN-401 的临床一/二期数据。研究显示该疗法具备良好的安全性和潜在疗效。</p><p>Tags: neurogene · genetherapy · medicine</p>]]></description>
+</item>
+<item>
+<title>问与答：想问一下像我这样的人有吗</title>
+<link>https://www.v2ex.com/t/1224294#reply9</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1224294#reply9</guid>
+<pubDate>Wed, 01 Jul 2026 10:23:22 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>[问与答] 想问一下像我这样的人有吗</strong></p><p>The author shares personal struggles with social anxiety, low self-esteem, and relationship building. They reflect on how internet addiction has contributed to their social isolation.</p><p>作者倾诉了自己在社交交往、自信心及情感维护方面的困惑。文章反思了网络沉迷如何导致其社交能力退化及价值观单一。</p><p>Tags: psychology · social · reflection</p>]]></description>
+</item>
+<item>
+<title>墨西哥城庆祝世界杯导致三人死亡</title>
+<link>https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Wed, 01 Jul 2026 10:12:48 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Three killed in Mexico City World Cup celebrations</strong></p><p>Celebrations in Mexico City following the national team&#x27;s win over Ecuador resulted in three deaths. Over one million people took to the streets to mark the occasion.</p><p>墨西哥城在庆祝国家队击败厄瓜多尔队时发生意外，导致三人死亡。当时有超过一百万市民走上街头参与庆祝活动。</p><p>Tags: mexico · worldcup · incident</p>]]></description>
+</item>
+<item>
+<title>Asahi Linux 7.1 进度报告</title>
+<link>https://asahilinux.org/2026/06/progress-report-7-1/</link>
+<guid isPermaLink="true">https://asahilinux.org/2026/06/progress-report-7-1/</guid>
+<pubDate>Wed, 01 Jul 2026 10:07:04 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Asahi Linux 7.1 Progress Report</strong></p><p>The Asahi Linux team provides an update on the progress of version 7.1. This release focuses on improving support for Apple Silicon hardware.</p><p>Asahi Linux 团队发布了 7.1 版本的进展报告。本次更新重点在于增强对苹果芯片硬件的支持与兼容性。</p><p>Tags: linux · apple · opensource</p>]]></description>
+</item>
+<item>
+<title>古茗即饮饮料将上线零售渠道</title>
+<link>https://36kr.com/p/3868265993016580?f=rss</link>
+<guid isPermaLink="true">https://36kr.com/p/3868265993016580?f=rss</guid>
+<pubDate>Wed, 01 Jul 2026 10:06:25 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>古茗即饮饮料将上线零售渠道，从门店迈向货架的一大步｜ 独家</strong></p><p>Tea brand Guming is expanding its ready-to-drink (RTD) beverages into retail channels like supermarkets and convenience stores. The company utilizes HPP cold-sterilization technology to ensure quality.</p><p>茶饮品牌古茗计划将即饮饮料业务推向零售渠道。该产品采用 HPP 超高压冷杀菌技术，旨在保证鲜榨果汁的口感。</p><p>Tags: guming · retail · business</p>]]></description>
+</item>
+<item>
+<title>76岁仍在沃尔玛工作，为何还要缴纳工资税？</title>
+<link>https://www.marketwatch.com/story/i-claimed-social-security-at-62-at-76-im-working-at-walmart-why-do-i-still-owe-payroll-taxes-8e22a97c?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/i-claimed-social-security-at-62-at-76-im-working-at-walmart-why-do-i-still-owe-payroll-taxes-8e22a97c?mod=mw_rss_topstories</guid>
+<pubDate>Wed, 01 Jul 2026 10:00:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>‘I claimed Social Security at 62’: At 76, I’m working at Walmart. Why do I still owe payroll taxes?</strong></p><p>A 76-year-old worker expresses confusion over why they are still required to pay payroll taxes despite being well past retirement age. The article discusses the complexities of Social Security tax policies.</p><p>一名 76 岁仍在工作的老人对继续缴纳工资税感到困惑。文章探讨了社会保障税收政策及其在老年群体中的适用逻辑。</p><p>Tags: taxes · retirement · economy</p>]]></description>
+</item>
+<item>
+<title>周五股市是否开放或提前收盘？</title>
+<link>https://www.marketwatch.com/story/is-the-stock-market-open-on-friday-or-will-it-close-early-for-the-fourth-of-july-b9885f36?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/is-the-stock-market-open-on-friday-or-will-it-close-early-for-the-fourth-of-july-b9885f36?mod=mw_rss_topstories</guid>
+<pubDate>Wed, 01 Jul 2026 10:00:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Is the stock market open on Friday, or will it close early for the Fourth of July?</strong></p><p>With the Fourth of July falling on a Saturday, the article clarifies trading hours for the stock market. It also addresses related mail delivery schedules for the holiday weekend.</p><p>鉴于独立日假期在周六，文章明确了股市交易时间及邮政服务的调整安排。建议投资者留意假期间的金融市场动态。</p><p>Tags: market · holiday · finance</p>]]></description>
+</item>
+<item>
+<title>Anthropic 在 IPO 前获准向外国用户开放模型</title>
+<link>https://www.marketwatch.com/story/anthropic-gets-all-clear-to-let-foreigners-use-latest-model-ahead-of-crucial-ipo-a1ddc94a?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/anthropic-gets-all-clear-to-let-foreigners-use-latest-model-ahead-of-crucial-ipo-a1ddc94a?mod=mw_rss_topstories</guid>
+<pubDate>Wed, 01 Jul 2026 09:44:00 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Anthropic gets all-clear to let foreigners use latest model ahead of crucial IPO</strong></p><p>The U.S. government has lifted export controls on Anthropic’s AI models, allowing them to provide services to international users. This is a critical step for the company&#x27;s planned IPO.</p><p>美国政府取消了对 Anthropic AI 模型的出口限制，为其向全球用户开放服务铺平了道路。这被视为该公司 IPO 进程中的关键进展。</p><p>Tags: anthropic · ipo · ai</p>]]></description>
+</item>
+<item>
+<title>声擎×少数派：角落新声征文活动</title>
+<link>https://sspai.com/post/111709</link>
+<guid isPermaLink="true">https://sspai.com/post/111709</guid>
+<pubDate>Wed, 01 Jul 2026 09:30:00 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>声擎×少数派｜「角落新声」征文活动</strong></p><p>Audio brand Audioengine and the platform Minority are hosting a writing contest. Participants are invited to share how they curate their personal audio/living spaces.</p><p>声擎与少数派联合举办“角落新声”征文活动。邀请用户分享如何打造属于自己的个性化音频空间及生活方式。</p><p>Tags: audio · lifestyle · contest</p>]]></description>
+</item>
+<item>
+<title>微软拟裁员数千人，同时加大 AI 投入</title>
+<link>https://www.marketwatch.com/story/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai-93ebabc8?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai-93ebabc8?mod=mw_rss_topstories</guid>
+<pubDate>Wed, 01 Jul 2026 09:29:00 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Microsoft is reportedly planning thousands of layoffs as it spends on AI</strong></p><p>Microsoft is reportedly planning to lay off thousands of employees as it shifts resources toward artificial intelligence. These cuts represent less than 2.5% of its total workforce.</p><p>据报道，微软计划裁员数千人，以将更多资金和资源投入到人工智能领域。据悉，此次裁员比例不到其员工总数的 2.5%。</p><p>Tags: microsoft · layoffs · ai</p>]]></description>
+</item>
+<item>
+<title>儿媳给的钱比我们多，要不要指出来？</title>
+<link>https://www.marketwatch.com/story/we-were-stunned-my-daughter-39-said-her-mother-in-law-gives-her-more-money-than-we-do-do-i-call-her-out-b63d087c?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/we-were-stunned-my-daughter-39-said-her-mother-in-law-gives-her-more-money-than-we-do-do-i-call-her-out-b63d087c?mod=mw_rss_topstories</guid>
+<pubDate>Wed, 01 Jul 2026 09:15:00 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>‘We were stunned’: My daughter, 39, said her mother-in-law gives her more money than we do. Do I call her out?</strong></p><p>A parent struggles with the realization that their daughter receives more financial support from her mother-in-law. They debate whether to address this disparity openly.</p><p>一位父母发现儿媳给女儿的钱比自己给的多，内心产生纠结。文章讨论了这种家庭财务差异是否应该直接挑明。</p><p>Tags: family · finance · communication</p>]]></description>
+</item>
+<item>
+<title>优必选超仿生机器人订单破万，售价最高99万</title>
+<link>https://36kr.com/p/3876811895992327?f=rss</link>
+<guid isPermaLink="true">https://36kr.com/p/3876811895992327?f=rss</guid>
+<pubDate>Wed, 01 Jul 2026 08:32:20 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>优必选超仿生机器人首发订单破万，最高售价99万元｜最前线</strong></p><p>UBTECH has launched its U1 series of bipedal robots, receiving over 10,000 orders. The series ranges from entry-level to high-end models priced up to 990,000 RMB.</p><p>优必选正式发布 U1 系列超仿生人形机器人，全渠道订单量已破万台。产品线定价覆盖 11.98 万至 99 万元区间。</p><p>Tags: ubtech · robotics · ai</p>]]></description>
+</item>
+<item>
+<title>Godot 不再接受 AI 创作的代码贡献</title>
+<link>https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/</link>
+<guid isPermaLink="true">https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/</guid>
+<pubDate>Wed, 01 Jul 2026 07:43:22 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Godot will no longer accept AI-authored code contributions</strong></p><p>The Godot game engine project has announced it will no longer accept code contributions generated by artificial intelligence. This decision aims to maintain code quality and legal clarity.</p><p>Godot 游戏引擎项目宣布，将不再接受由人工智能生成的代码贡献。此举旨在维护项目代码质量及法律合规性。</p><p>Tags: godot · ai · opensource</p>]]></description>
+</item>
+<item>
+<title>特朗普重返政坛首年靠加密货币赚超10亿美元</title>
+<link>https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Wed, 01 Jul 2026 07:30:53 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Trump made more than $1bn from crypto in first year back in office</strong></p><p>Former President Trump reportedly earned over $1 billion from crypto-related activities in his first year back in office. This figure significantly outperforms his traditional real estate earnings.</p><p>据报道，特朗普重返政坛后的第一年，通过加密货币相关业务赚取了超过 10 亿美元。该收入规模远超其传统房地产及周边产品业务。</p><p>Tags: trump · crypto · business</p>]]></description>
+</item>
+<item>
+<title>31岁学霸冲港股IPO，李泽湘成最大赢家</title>
+<link>https://36kr.com/p/3876760686309385?f=rss</link>
+<guid isPermaLink="true">https://36kr.com/p/3876760686309385?f=rss</guid>
+<pubDate>Wed, 01 Jul 2026 07:25:33 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>秋声 | 31岁学霸冲港股IPO，李泽湘成最大赢家</strong></p><p>Benmo Dynamics is aiming for a Hong Kong IPO, with backing from robotics pioneer Li Zexiang. The company specializes in direct-drive robotic motor modules.</p><p>机器人动力模组公司本末动力冲击港股 IPO，李泽湘作为幕后投资人成为关注焦点。公司致力于机器人直驱动力模组的研发与出货。</p><p>Tags: ipo · robotics · business</p>]]></description>
+</item>
+<item>
+<title>委内瑞拉地震六天后，三岁幼童获救</title>
+<link>https://www.bbc.co.uk/news/articles/c1jykwk8n18o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c1jykwk8n18o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Wed, 01 Jul 2026 06:03:08 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Three-year-old rescued and taken to hospital six days after Venezuela quake</strong></p><p>A three-year-old child was rescued from the rubble in Venezuela six days after a major earthquake. The rescue has sparked relief and celebrations across the country.</p><p>在委内瑞拉大地震发生六天后，救援人员成功救出一名三岁儿童。这一奇迹般的生存事件令当地民众深感振奋。</p><p>Tags: earthquake · venezuela · rescue</p>]]></description>
+</item>
+<item>
+<title>美国最高法院裁定出生地公民权，重创特朗普</title>
+<link>https://www.bbc.co.uk/news/articles/cgmepnx1wzzo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cgmepnx1wzzo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Wed, 01 Jul 2026 05:32:26 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>US Supreme Court upholds birthright citizenship in blow to Trump</strong></p><p>The U.S. Supreme Court has upheld birthright citizenship, a significant blow to Donald Trump&#x27;s immigration agenda. Civil rights groups have welcomed the decision.</p><p>美国最高法院裁定支持出生地公民权，这对特朗普的移民政策议程构成重挫。此项裁定获得了民权组织的高度赞扬。</p><p>Tags: us · politics · immigration</p>]]></description>
+</item>
+<item>
+<title>Anthropic 的 Claude Fable 5 获准重新上线</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back</link>
+<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back</guid>
+<pubDate>Wed, 01 Jul 2026 00:03:55 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Anthropic&amp;#8217;s long-sidelined Fable 5 is greenlit to return</strong></p><p>Following negotiations with the Trump administration, Anthropic is restoring global access to Claude Fable 5. It will be available on major cloud platforms including AWS and Google Cloud.</p><p>在与特朗普政府沟通后，Anthropic 的 Claude Fable 5 获准恢复全球上线。该模型将同步接入 AWS 及 Google Cloud 等主流平台。</p><p>Tags: anthropic · claude · ai</p>]]></description>
+</item>
+<item>
+<title>北京一塔楼发生飞机撞击事件，官方未予详细披露</title>
+<link>https://www.bbc.co.uk/news/articles/crlwe28dz44o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/crlwe28dz44o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Tue, 30 Jun 2026 23:24:05 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>A plane crashed into a tower in Beijing but China is not saying what happened</strong></p><p>A plane reportedly crashed into a tower in Beijing, causing visible damage. Authorities have not released specific details, and traces of the incident are being scrubbed.</p><p>北京一处塔楼发生飞机撞击事件，建筑外部可见明显损毁。官方尚未披露事件详情，现场痕迹正在被清理。</p><p>Tags: beijing · incident · news</p>]]></description>
+</item>
+<item>
+<title>Claude Science 是 Anthropic 的最新旗舰产品</title>
+<link>https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/</link>
+<guid isPermaLink="true">https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/</guid>
+<pubDate>Tue, 30 Jun 2026 21:50:04 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Claude Science is Anthropic’s newest flagship product</strong></p><p>Anthropic announced &#x27;Claude Science,&#x27; a product designed to assist researchers and biotech firms. It features autonomous task execution to accelerate scientific discovery.</p><p>Anthropic 发布了面向科研及生物技术领域的旗舰产品“Claude Science”。该工具具备自主任务执行能力，旨在加速科学研究进程。</p><p>Tags: anthropic · science · biotech</p>]]></description>
+</item>
+<item>
+<title>世界最快蜘蛛速度超过每秒 3.5 米</title>
+<link>https://www.newscientist.com/article/2532086-the-worlds-fastest-spider-tops-3-5-metres-per-second/?utm_campaign=RSS%7CNSNS&amp;utm_source=NSNS&amp;utm_medium=RSS&amp;utm_content=home</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2532086-the-worlds-fastest-spider-tops-3-5-metres-per-second/?utm_campaign=RSS%7CNSNS&amp;utm_source=NSNS&amp;utm_medium=RSS&amp;utm_content=home</guid>
+<pubDate>Tue, 30 Jun 2026 18:00:57 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>The world&#x27;s fastest spider tops 3.5 metres per second</strong></p><p>New research has created a comprehensive database of spider speeds. The study reveals how leg anatomy influences the running velocity of various arachnid species.</p><p>最新研究建立了一个蜘蛛移动速度数据库。研究发现，肢体结构与演化历史对不同物种蜘蛛的奔跑速度有着关键影响。</p><p>Tags: biology · research · science</p>]]></description>
+</item>
+<item>
+<title>Claude Sonnet 5 发布</title>
+<link>https://www.anthropic.com/news/claude-sonnet-5</link>
+<guid isPermaLink="true">https://www.anthropic.com/news/claude-sonnet-5</guid>
+<pubDate>Tue, 30 Jun 2026 17:59:52 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Claude Sonnet 5</strong></p><p>Discussion surrounding the release of Claude Sonnet 5, Anthropic&#x27;s newest AI model. Users are testing its capabilities and performance improvements.</p><p>社区围绕 Anthropic 最新发布的 Claude Sonnet 5 模型展开讨论。用户正积极测试其性能提升及各项功能表现。</p><p>Tags: claude · anthropic · llm</p>]]></description>
+</item>
+<item>
+<title>圆桌会议：长寿的下一前沿——“重新编程”你的身体</title>
+<link>https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/</link>
+<guid isPermaLink="true">https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/</guid>
+<pubDate>Tue, 30 Jun 2026 17:36:48 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Roundtables: Longevity’s Next Frontier: “Reprogramming” Your Body</strong></p><p>Experts discuss the future of longevity and cellular reprogramming. The conversation covers current scientific progress and the feasibility of reversing aging in humans.</p><p>专家探讨了长寿研究的下一前沿领域——细胞重编程。对话涵盖了当前科研进展及实现人类抗衰老的可行性研究。</p><p>Tags: longevity · biology · science</p>]]></description>
+</item>
 <item>
 <title>【分享发现】搓了一个看世界杯的</title>
 <link>https://www.v2ex.com/t/1224001#reply0</link>
