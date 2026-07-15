@@ -6,7 +6,223 @@
 <atom:link href="https://news.wuwuwu.cc/feed.xml" rel="self" type="application/rss+xml"/>
 <description>每日中英双语科技与世界新闻摘要 · summarized by Gemini</description>
 <language>zh-cn</language>
-<lastBuildDate>Tue, 14 Jul 2026 09:01:19 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 09:06:18 +0000</lastBuildDate>
+<item>
+<title>程序员抱怨Codex在下午经常无法工作</title>
+<link>https://www.v2ex.com/t/1227517#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1227517#reply0</guid>
+<pubDate>Wed, 15 Jul 2026 09:05:18 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[程序员] codex 到了下午基本处于无法干活的状态</strong></p><p>A programmer noted that Codex frequently experiences connection timeouts and instability during the afternoon. The user admitted that reliance on AI tools has led to a decline in their manual coding skills.</p><p>有程序员反馈Codex在下午常出现超时重连且无法正常工作的情况。用户感叹由于过度依赖AI，自身编写代码的能力正在退化。</p><p>Tags: codex · ai · programming</p>]]></description>
+</item>
+<item>
+<title>ASML因季度业绩超预期而加紧扩大产能</title>
+<link>https://www.marketwatch.com/story/asml-is-scrambling-to-build-more-capacity-after-blockbuster-beat-and-raise-quarter-89e2febb?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/asml-is-scrambling-to-build-more-capacity-after-blockbuster-beat-and-raise-quarter-89e2febb?mod=mw_rss_topstories</guid>
+<pubDate>Wed, 15 Jul 2026 09:04:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>ASML is scrambling to build more capacity after blockbuster beat-and-raise quarter</strong></p><p>Shares of the Dutch semiconductor equipment giant ASML rose 6% after the company raised its 2026 outlook by up to 19%. The company is now scrambling to increase manufacturing capacity to meet soaring demand.</p><p>荷兰半导体设备巨头ASML因将2026年业绩预期大幅上调19%，股价盘前上涨6%。该公司正急于扩大产能以应对市场需求。</p><p>Tags: asml · semiconductor · stock</p>]]></description>
+</item>
+<item>
+<title>程序员询问目前高性价比的AI Agent</title>
+<link>https://www.v2ex.com/t/1227516#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1227516#reply0</guid>
+<pubDate>Wed, 15 Jul 2026 09:03:54 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[程序员] 现在哪个 ai agent 性价比比较高</strong></p><p>A developer is seeking recommendations for cost-effective AI agents. They noted that some models consume significantly fewer tokens than others while providing similar output quality.</p><p>有程序员在寻找高性价比的AI Agent推荐。开发者发现不同工具在相同模型下的Token消耗差异巨大，希望找到兼顾产出与费用的方案。</p><p>Tags: ai · agent · llm</p>]]></description>
+</item>
+<item>
+<title>中国网信办发布7款手机端侧生成式AI备案信息</title>
+<link>https://www.v2ex.com/t/1227515#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1227515#reply0</guid>
+<pubDate>Wed, 15 Jul 2026 09:02:03 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[Apple] 中国网信网：关于发布 7 款提供手机端侧生成式人工智能服务已备案信息的公告</strong></p><p>The Cyberspace Administration of China has released a list of seven registered mobile-based generative AI services. This move suggests that Apple may soon integrate localized generative AI features into its devices in China.</p><p>中国网信办发布了7款手机端侧生成式AI服务备案信息。此举暗示苹果公司可能很快会在中国市场推出设备端AI功能。</p><p>Tags: apple · ai · regulation</p>]]></description>
+</item>
+<item>
+<title>Core Lithium公司2026年第四季度财报电话会议演示</title>
+<link>https://seekingalpha.com/article/4922191-core-lithium-ltd-2026-q4-results-earnings-call-presentation?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4922191-core-lithium-ltd-2026-q4-results-earnings-call-presentation?source=feed_all_articles</guid>
+<pubDate>Wed, 15 Jul 2026 09:01:09 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Core Lithium Ltd 2026 Q4 - Results - Earnings Call Presentation</strong></p><p>Core Lithium Ltd has released its earnings call presentation for the fourth quarter of 2026. The report details the company&#x27;s financial performance and operational updates for the period.</p><p>Core Lithium公司发布了2026年第四季度财报电话会议演示文稿。报告详细介绍了公司该期间的财务表现及运营更新。</p><p>Tags: lithium · earnings · finance</p>]]></description>
+</item>
+<item>
+<title>Afry AB公司2026年第二季度财报电话会议演示</title>
+<link>https://seekingalpha.com/article/4922190-afry-ab-2026-q2-results-earnings-call-presentation?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4922190-afry-ab-2026-q2-results-earnings-call-presentation?source=feed_all_articles</guid>
+<pubDate>Wed, 15 Jul 2026 09:00:46 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Afry AB 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>Afry AB has published the presentation materials for its 2026 second-quarter earnings call. These documents provide insights into the company&#x27;s latest business developments and fiscal results.</p><p>Afry AB公司发布了2026年第二季度财报电话会议演示资料。这些文件提供了公司最新业务进展和财务结果的详细信息。</p><p>Tags: afry · earnings · finance</p>]]></description>
+</item>
+<item>
+<title>分享发现：独立开发者做出海AI产品的经验总结</title>
+<link>https://www.v2ex.com/t/1227514#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1227514#reply0</guid>
+<pubDate>Wed, 15 Jul 2026 09:00:41 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[分享发现] imya，去年 4 月份我开始做出海，通过慢慢做的，也是做出一定成绩，至少比之前打工收入高了。</strong></p><p>An independent developer shares their journey of creating an AI image, video, and music generator studio. They emphasize the importance of learning from verified market demands rather than guessing and seek advice on scaling traffic.</p><p>一位独立开发者分享了做出海AI创作平台的心得。他建议开发者应学习大厂验证过的需求而非凭空想象，并寻求关于如何获取流量及降低开发成本的建议。</p><p>Tags: startup · ai · product</p>]]></description>
+</item>
+<item>
+<title>Trinity Capital：持续提供回报的现金牛</title>
+<link>https://seekingalpha.com/article/4922124-trinity-capital-the-cash-cow-that-keeps-on-giving?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4922124-trinity-capital-the-cash-cow-that-keeps-on-giving?source=feed_all_articles</guid>
+<pubDate>Wed, 15 Jul 2026 09:00:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Trinity Capital: The Cash Cow That Keeps On Giving</strong></p><p>This article analyzes the financial stability and dividend potential of Trinity Capital. It frames the company as a consistent source of income for investors seeking reliable returns.</p><p>本文分析了Trinity Capital的财务稳定性和股息潜力。文章将其描述为寻求可靠收益的投资者的优质选择。</p><p>Tags: investing · finance · stocks</p>]]></description>
+</item>
+<item>
+<title>女演员Aubrey Plaza因房子难卖再次降价</title>
+<link>https://www.marketwatch.com/story/still-struggling-to-find-a-buyer-actress-aubrey-plaza-cuts-price-of-5-million-l-a-home-2907691c?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/still-struggling-to-find-a-buyer-actress-aubrey-plaza-cuts-price-of-5-million-l-a-home-2907691c?mod=mw_rss_topstories</guid>
+<pubDate>Wed, 15 Jul 2026 08:58:00 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Still struggling to find a buyer, actress Aubrey Plaza cuts price of $5 million L.A. home</strong></p><p>Actress Aubrey Plaza has reduced the asking price for her California home by nearly half a million dollars. This move follows a previous price cut less than two months after the property was relisted.</p><p>女演员Aubrey Plaza将其位于加州的房产挂牌价再次下调了近50万美元。这距离她上次大幅降价并重新上市仅过去不到两个月。</p><p>Tags: realestate · aubreyplaza · news</p>]]></description>
+</item>
+<item>
+<title>法航荷航集团：二季度的强劲表现不足以改变股权故事</title>
+<link>https://seekingalpha.com/article/4922170-air-france-klm-a-stronger-q2-is-not-enough-to-change-the-equity-story?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4922170-air-france-klm-a-stronger-q2-is-not-enough-to-change-the-equity-story?source=feed_all_articles</guid>
+<pubDate>Wed, 15 Jul 2026 08:55:14 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Air France-KLM: A Stronger Q2 Is Not Enough To Change The Equity Story</strong></p><p>Despite a strong second quarter, analysts argue that Air France-KLM&#x27;s equity outlook remains unchanged. Structural challenges appear to outweigh the recent improvement in financial results.</p><p>尽管法航荷航集团二季度表现强劲，分析师认为其股权前景并未发生根本改变。结构性挑战似乎掩盖了近期财务业绩的改善。</p><p>Tags: airline · finance · stocks</p>]]></description>
+</item>
+<item>
+<title>Newsmax：联盟费用机会真实存在，但我仍持谨慎态度</title>
+<link>https://seekingalpha.com/article/4922169-newsmax-stock-affiliate-fee-opportunity-real-but-i-am-still-cautious?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4922169-newsmax-stock-affiliate-fee-opportunity-real-but-i-am-still-cautious?source=feed_all_articles</guid>
+<pubDate>Wed, 15 Jul 2026 08:54:28 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Newsmax: The Affiliate Fee Opportunity Is Real, But I Am Still Cautious</strong></p><p>The article discusses the potential revenue from affiliate fees for Newsmax. However, the author maintains a cautious stance regarding the long-term sustainability of this opportunity.</p><p>文章探讨了Newsmax从联盟费用中获利的潜力。然而，作者对这一机会的长期可持续性仍持谨慎态度。</p><p>Tags: newsmax · finance · media</p>]]></description>
+</item>
+<item>
+<title>10年经验Java程序员失业半年仍未找到工作</title>
+<link>https://www.v2ex.com/t/1227512#reply9</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1227512#reply9</guid>
+<pubDate>Wed, 15 Jul 2026 08:53:41 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[程序员] 10 年 Java 失业半年 还没找到工作</strong></p><p>A programmer with a decade of Java experience has been unemployed for six months without securing a new position. Facing a lack of interviews, they are considering driving for a ride-hailing service to survive.</p><p>一名拥有10年经验的Java程序员已失业半年，目前处于零面试状态。面对生活压力，他正在考虑是否去跑网约车以度过危机。</p><p>Tags: career · java · layoff</p>]]></description>
+</item>
+<item>
+<title>Stripe与Advent联手竞购PayPal</title>
+<link>https://www.marketwatch.com/story/a-53-billion-lifeline-stripe-and-advent-reportedly-team-up-to-bid-for-battered-paypal-3bc6fcc2?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/a-53-billion-lifeline-stripe-and-advent-reportedly-team-up-to-bid-for-battered-paypal-3bc6fcc2?mod=mw_rss_topstories</guid>
+<pubDate>Wed, 15 Jul 2026 08:34:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>A $53 billion lifeline? Stripe and Advent reportedly team up to bid for battered PayPal.</strong></p><p>Stripe and private equity firm Advent International are reportedly teaming up to bid for the struggling payments processor PayPal. News of the potential $53 billion deal caused PayPal&#x27;s shares to rally.</p><p>据报道，Stripe与私募股权公司Advent International正联手竞购PayPal。受此530亿美元潜在收购消息影响，PayPal股价在盘前出现上涨。</p><p>Tags: paypal · stripe · acquisition</p>]]></description>
+</item>
+<item>
+<title>AI在苏州阳澄湖半岛的真实场景应用</title>
+<link>https://36kr.com/p/3896639400183687?f=rss</link>
+<guid isPermaLink="true">https://36kr.com/p/3896639400183687?f=rss</guid>
+<pubDate>Wed, 15 Jul 2026 08:30:35 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>越过湖畔，AI在阳澄湖半岛「跑进」真实生活</strong></p><p>The first AI Carnival was held in the Yangchenghu Peninsula, showcasing how AI applications can be tested in real-world scenarios. The location offers diverse consumer environments, providing valuable feedback for AI startups.</p><p>首届阳澄湖半岛AI嘉年华在苏州举行，展示了AI在旅游、运动及商业场景中的实际应用。多样的线下消费人群为AI开发者提供了宝贵的实测反馈。</p><p>Tags: ai · suzhou · tech</p>]]></description>
+</item>
+<item>
+<title>肯尼亚法院驳回拉斯塔法里教徒大麻合法化请求</title>
+<link>https://www.bbc.co.uk/news/articles/c0lyl5ryyr4o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c0lyl5ryyr4o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Wed, 15 Jul 2026 08:25:53 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Kenyan court dismisses Rastafarians&#x27; bid to legalise cannabis</strong></p><p>A Kenyan court has dismissed a petition by Rastafarians to legalize cannabis. However, the court recognized that the nation needs a broader public debate regarding its current cannabis policy.</p><p>肯尼亚法院驳回了拉斯塔法里教徒要求大麻合法化的诉求。但法院同时指出，肯尼亚社会需要就大麻政策展开更广泛的讨论。</p><p>Tags: kenya · cannabis · law</p>]]></description>
+</item>
+<item>
+<title>特朗普威胁若伊朗不恢复谈判将轰炸其桥梁和电厂</title>
+<link>https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Wed, 15 Jul 2026 08:17:28 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Trump threatens to bomb bridges and power plants unless Iran resumes talks</strong></p><p>Donald Trump threatened to bomb Iranian infrastructure if negotiations do not resume. The comment followed four days of reciprocal military exchanges and a continued US blockade of Iranian ports.</p><p>特朗普威胁称，若伊朗不恢复谈判，将轰炸其桥梁与电厂。此前两国已连续四天交火，且美国持续封锁伊朗港口。</p><p>Tags: trump · iran · geopolitics</p>]]></description>
+</item>
+<item>
+<title>星链V5碟形天线上市及规格对比</title>
+<link>https://www.theverge.com/science/965824/starlink-v5-vs-v4-dish-comparison</link>
+<guid isPermaLink="true">https://www.theverge.com/science/965824/starlink-v5-vs-v4-dish-comparison</guid>
+<pubDate>Wed, 15 Jul 2026 07:17:27 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Starlink’s V5 dish is now available — here’s how it compares</strong></p><p>SpaceX has launched the Starlink V5 dish in select markets, featuring a smaller, lighter design with better power efficiency. The company notes the new hardware is not designed for mobile use.</p><p>SpaceX在部分地区推出了新款星链V5碟形天线，其体积更小、重量更轻且能效更高。官方说明该天线并非为移动使用而设计。</p><p>Tags: starlink · spacex · internet</p>]]></description>
+</item>
+<item>
+<title>iPadOS 27首个公开测试版的12个新特性</title>
+<link>https://sspai.com/post/112338</link>
+<guid isPermaLink="true">https://sspai.com/post/112338</guid>
+<pubDate>Wed, 15 Jul 2026 07:00:00 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>具透 | iPadOS 27 首个公开测试版中你不容错过的 12 个新特性</strong></p><p>The first public beta of iPadOS 27 introduces 12 notable features for users to explore. This update aims to enhance the user experience and expand the device&#x27;s functional capabilities.</p><p>iPadOS 27首个公测版带来了12项值得尝试的新功能。此次更新旨在提升用户体验并拓展设备的实用性。</p><p>Tags: apple · ipad · ios</p>]]></description>
+</item>
+<item>
+<title>黑客声称诱导Claude泄露深层机密</title>
+<link>https://www.ayush.digital/blog/the-memory-heist</link>
+<guid isPermaLink="true">https://www.ayush.digital/blog/the-memory-heist</guid>
+<pubDate>Wed, 15 Jul 2026 06:28:00 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>I tricked Claude into leaking your deepest, darkest secrets</strong></p><p>A user claims to have successfully tricked the AI model Claude into revealing sensitive information. This highlights ongoing concerns regarding the security and prompt engineering vulnerabilities of LLMs.</p><p>有黑客声称通过诱导技巧让Claude泄露了其深层机密。此事突显了AI大模型在安全性与提示词注入攻击方面的持续隐患。</p><p>Tags: ai · security · llm</p>]]></description>
+</item>
+<item>
+<title>中国经济增长大幅放缓，未达预期目标</title>
+<link>https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Wed, 15 Jul 2026 05:12:55 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>China economic growth falls sharply, missing target</strong></p><p>Weak domestic demand and the impact of the Iran war on global oil prices have weighed heavily on China&#x27;s economy. Despite strong export performance, the country failed to meet its GDP growth targets.</p><p>受国内需求疲软及伊朗战争带来的油价波动影响，中国经济增长大幅放缓。尽管出口表现强劲，但整体GDP增速仍未达到预期目标。</p><p>Tags: china · economy · gdp</p>]]></description>
+</item>
+<item>
+<title>美国伊朗紧张局势推高汽油价格</title>
+<link>https://www.marketwatch.com/story/brace-for-4-gas-again-how-u-s-iran-tensions-are-threatening-to-end-the-price-break-at-the-pump-343a76e1?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/brace-for-4-gas-again-how-u-s-iran-tensions-are-threatening-to-end-the-price-break-at-the-pump-343a76e1?mod=mw_rss_topstories</guid>
+<pubDate>Wed, 15 Jul 2026 00:28:00 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump</strong></p><p>Tensions between the US and Iran over the Strait of Hormuz are threatening to drive US gasoline prices back up to $4 a gallon. This potential hike could reverse recent progress in slowing inflation.</p><p>美伊在霍尔木兹海峡的紧张局势正威胁将美国汽油价格推高至每加仑4美元。这可能扭转此前通胀降温的趋势。</p><p>Tags: gas · oil · usa</p>]]></description>
+</item>
+<item>
+<title>Meta被诉利用AI违规裁员，Google因版权训练被诉</title>
+<link>https://sspai.com/post/112334</link>
+<guid isPermaLink="true">https://sspai.com/post/112334</guid>
+<pubDate>Wed, 15 Jul 2026 00:19:12 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>派早报：Meta 被诉借助 AI 违规裁员、Google 被诉使用版权内容训练 Gemini 模型等</strong></p><p>Tech giants face new legal challenges, including allegations against Meta for AI-driven layoffs and Google for using copyrighted content to train its Gemini model. These cases highlight the ethical and legal pressures on big tech.</p><p>科技巨头面临新一轮法律挑战，包括Meta被诉利用AI进行违规裁员，以及Google被诉非法使用版权内容训练Gemini模型。这些案件凸显了科技巨头的伦理与法律压力。</p><p>Tags: meta · google · lawsuit</p>]]></description>
+</item>
+<item>
+<title>特朗普在霍尔木兹通行费问题上退缩，显示战争结束艰难</title>
+<link>https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Tue, 14 Jul 2026 23:17:27 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Trump retreat over Hormuz tolls suggests he is struggling to end Iran war</strong></p><p>President Trump&#x27;s retreat from his stance on Hormuz tolls highlights the ongoing difficulty in resolving the four-month conflict with Iran. The situation remains a volatile geopolitical standoff.</p><p>特朗普在霍尔木兹通行费问题上的态度退缩，凸显了结束美伊冲突的艰难。局势目前仍处于高度动荡的地缘政治僵局中。</p><p>Tags: trump · iran · geopolitics</p>]]></description>
+</item>
+<item>
+<title>OpenAI或将于今年宣布推出ChatGPT智能音箱</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device</link>
+<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device</guid>
+<pubDate>Tue, 14 Jul 2026 21:26:32 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>OpenAI may announce a ChatGPT smart speaker this year</strong></p><p>Reports indicate OpenAI plans to launch a screenless smart speaker this year that uses camera and sensor technology to interact with ChatGPT. This move marks OpenAI&#x27;s first foray into physical hardware.</p><p>据报道，OpenAI计划在今年推出一款不带屏幕的ChatGPT智能音箱。该设备将利用摄像头和传感器技术与用户交互，这是OpenAI首次涉足硬件领域。</p><p>Tags: openai · chatgpt · hardware</p>]]></description>
+</item>
+<item>
+<title>霍尔木兹海峡断层暴露美伊协议的脆弱性</title>
+<link>https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Tue, 14 Jul 2026 19:13:49 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Strait of Hormuz &#x27;faultline&#x27; exposes weakness of the US-Iran deal</strong></p><p>Control over the Strait of Hormuz has become a major flashpoint as the ceasefire between the US and Iran falters. The issue exposes the deep-seated weaknesses in their fragile diplomatic agreement.</p><p>随着美伊停火协议失效，对霍尔木兹海峡的控制权再次成为关键冲突点。这暴露了双方脆弱外交协议中根深蒂固的缺陷。</p><p>Tags: geopolitics · iran · usa</p>]]></description>
+</item>
+<item>
+<title>人类能否在不破坏地球的前提下过上美好生活？</title>
+<link>https://www.newscientist.com/article/2532951-can-everyone-live-a-good-life-without-destroying-the-planet/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2532951-can-everyone-live-a-good-life-without-destroying-the-planet/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Tue, 14 Jul 2026 15:00:03 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Can everyone live a ‘good life’ without destroying the planet?</strong></p><p>A Portuguese city is experimenting with sustainable living by reducing energy and material consumption. Their journey highlights the potential for societies to exist within Earth&#x27;s ecological limits.</p><p>葡萄牙一座城市正在通过减少能源和材料消耗来探索可持续生活。他们的实践证明了人类社会在地球生态极限内生存的可能性。</p><p>Tags: sustainability · environment · science</p>]]></description>
+</item>
+<item>
+<title>海虫颚中发现坚硬轻质的“生物金属”材料</title>
+<link>https://www.newscientist.com/article/2579072-hard-but-lightweight-bio-metal-material-discovered-in-sea-worm-jaws/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2579072-hard-but-lightweight-bio-metal-material-discovered-in-sea-worm-jaws/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Tue, 14 Jul 2026 15:00:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Hard but lightweight ‘bio-metal’ material discovered in sea worm jaws</strong></p><p>Scientists have discovered a unique material in the jaws of marine bristle worms composed of protein and metal ions. This discovery could inspire new, lightweight, and durable engineering applications.</p><p>科学家在海洋鬃毛虫的颚部发现了一种由蛋白质和金属离子构成的独特材料。这一发现有望在轻质耐用工程领域产生重要应用。</p><p>Tags: science · biology · materials</p>]]></description>
+</item>
 <item>
 <title>纽约州成为首个颁布数据中心建设禁令的州</title>
 <link>https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium</link>
@@ -1278,334 +1494,6 @@
 <pubDate>Wed, 08 Jul 2026 09:10:44 +0000</pubDate>
 <category>TECH</category>
 <description><![CDATA[<p><strong>[Codex] codex 额度又刷新了，淦，昨天刚恢复的</strong></p><p>The user reports that the Codex API usage quota has been reset again unexpectedly. They express frustration as it had only just been restored the previous day.</p><p>用户反映Codex的API调用额度再次被重置。他们对此感到无奈，因为额度才刚刚在前一天恢复。</p><p>Tags: codex · api · openai</p>]]></description>
-</item>
-<item>
-<title>[分享创造] 大家都在分享自己做的工具，我也分享一个摸鱼的</title>
-<link>https://www.v2ex.com/t/1225904#reply1</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1225904#reply1</guid>
-<pubDate>Wed, 08 Jul 2026 09:04:40 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[分享创造] 大家都在分享自己做的工具，我也分享一个摸鱼的</strong></p><p>A user shares their self-developed &#x27;humanapp&#x27; tool designed for productivity or leisure. They are actively seeking feedback from the community to improve the application.</p><p>一位用户分享了自己开发的“humanapp”工具，旨在提升效率或用于休闲。他们正在寻求社区建议以进行持续改进。</p><p>Tags: tool · productivity · web</p>]]></description>
-</item>
-<item>
-<title>[职场话题] 涨薪14%后一周突然通知早九晚八大小周，不给加班通知点赞是我最后的倔强</title>
-<link>https://www.v2ex.com/t/1225903#reply5</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1225903#reply5</guid>
-<pubDate>Wed, 08 Jul 2026 09:03:58 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>[职场话题] 涨薪 14%后一周突然通知早九晚八大小周，不给加班通知点赞是我最后的倔强</strong></p><p>An employee is frustrated after a surprise policy change to &#x27;big-small weeks&#x27; shortly after receiving a pay raise. They are contemplating resigning due to the lack of work-life balance.</p><p>一名员工在涨薪后突然面临公司强制加班政策的调整，感到非常不满。由于工作与生活平衡被打破，他正考虑离职。</p><p>Tags: workplace · career · resignation</p>]]></description>
-</item>
-<item>
-<title>[程序员] 我写了一篇“灵魂文档”，让AI知道如何让编码代理写出好的代码？</title>
-<link>https://www.v2ex.com/t/1225902#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1225902#reply0</guid>
-<pubDate>Wed, 08 Jul 2026 09:03:28 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>[程序员] 我写了一篇“灵魂文档”，让 AI 知道如何让编码代理写出好的代码？</strong></p><p>The author introduces &#x27;The Absolute Code&#x27; concept, emphasizing that high-quality code should be minimal and functional. The guide aims to help AI coding agents produce cleaner, more efficient results.</p><p>作者提出了“绝对代码”概念，强调代码应在功能完备前提下追求极致的简洁。该指南旨在帮助AI编码代理生成更高效、更整洁的代码。</p><p>Tags: ai · coding · programming</p>]]></description>
-</item>
-<item>
-<title>达科塔·约翰逊迅速售出洛杉矶价值600万美元的现代风格住宅</title>
-<link>https://www.marketwatch.com/story/dakota-johnson-quickly-sells-6-million-midcentury-modern-home-in-l-a-b6fb5e00?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/dakota-johnson-quickly-sells-6-million-midcentury-modern-home-in-l-a-b6fb5e00?mod=mw_rss_topstories</guid>
-<pubDate>Wed, 08 Jul 2026 09:01:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Dakota Johnson quickly sells $6 million midcentury modern home in L.A.</strong></p><p>Actress Dakota Johnson has sold her midcentury modern home in Los Angeles for nearly its $6 million asking price. The deal was closed just days after the property hit the market.</p><p>女星达科塔·约翰逊以近600万美元的价格迅速售出了她在洛杉矶的现代风格住宅。该房产在上市仅几天后即成交。</p><p>Tags: realestate · hollywood · property</p>]]></description>
-</item>
-<item>
-<title>[酷工作] 消费VC直招｜消费投资/IR实习生同步开放</title>
-<link>https://www.v2ex.com/t/1225901#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1225901#reply0</guid>
-<pubDate>Wed, 08 Jul 2026 09:00:51 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>[酷工作] 消费 VC 直招｜消费投资 / IR 实习生同步开放</strong></p><p>An investment firm is hiring interns for consumer sector research and investor relations. The roles offer paid opportunities and professional mentorship in Beijing.</p><p>一家投资机构正在招聘消费领域的投资与投资者关系实习生。该岗位提供带薪实习机会及专业导师指导。</p><p>Tags: vc · hiring · internship</p>]]></description>
-</item>
-<item>
-<title>美国四月石油产量：再创历史新高</title>
-<link>https://seekingalpha.com/article/4920539-us-april-oil-production-another-record-high?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4920539-us-april-oil-production-another-record-high?source=feed_all_articles</guid>
-<pubDate>Wed, 08 Jul 2026 09:00:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>U.S. April Oil Production: Another Record High</strong></p><p>The United States has reached another record high in oil production for the month of April. This data highlights the country&#x27;s continued expansion in energy output.</p><p>美国四月份的石油产量再次刷新历史纪录。该数据凸显了美国在能源生产方面的持续扩张。</p><p>Tags: oil · energy · economy</p>]]></description>
-</item>
-<item>
-<title>在售出价值500万美元的威斯特彻斯特住宅后，德鲁·巴里摩尔展示了她的房车</title>
-<link>https://www.marketwatch.com/story/after-selling-her-5-million-westchester-home-drew-barrymore-shows-off-her-rv-1d2cccf7?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/after-selling-her-5-million-westchester-home-drew-barrymore-shows-off-her-rv-1d2cccf7?mod=mw_rss_topstories</guid>
-<pubDate>Wed, 08 Jul 2026 08:58:00 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>After selling her $5 million Westchester home, Drew Barrymore shows off her RV</strong></p><p>Actress Drew Barrymore is embracing a simpler lifestyle for her summer travels after selling her Westchester home. She recently shared details about her upcoming adventures in an RV.</p><p>女星德鲁·巴里摩尔在售出威斯特彻斯特的房产后，开启了更简单的夏日之旅。她最近分享了即将开启的房车冒险计划。</p><p>Tags: lifestyle · travel · celebrity</p>]]></description>
-</item>
-<item>
-<title>阿里刚经历了10个月来表现最好的一天，中国科技股是否该追赶了？</title>
-<link>https://www.marketwatch.com/story/alibaba-just-had-its-best-day-in-10-months-is-it-time-for-china-techs-to-catch-up-8ccc3f7c?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/alibaba-just-had-its-best-day-in-10-months-is-it-time-for-china-techs-to-catch-up-8ccc3f7c?mod=mw_rss_topstories</guid>
-<pubDate>Wed, 08 Jul 2026 08:57:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Alibaba just had its best day in 10 months. Is it time for China techs to catch up?</strong></p><p>Alibaba shares saw their largest single-day gain in ten months, sparking hope for the broader Chinese tech sector. Investors are now questioning if these stocks will finally catch up to global peers.</p><p>阿里巴巴股价创下十个月来的单日最大涨幅，为中国科技行业注入了信心。投资者开始关注中国科技股是否将迎来补涨行情。</p><p>Tags: alibaba · stocks · tech</p>]]></description>
-</item>
-<item>
-<title>曾是全球最热门股市，如今韩国股市已进入熊市</title>
-<link>https://www.marketwatch.com/story/it-was-the-worlds-hottest-stock-market-now-south-koreas-stock-market-index-has-entered-bear-market-territory-95d70e3d?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/it-was-the-worlds-hottest-stock-market-now-south-koreas-stock-market-index-has-entered-bear-market-territory-95d70e3d?mod=mw_rss_topstories</guid>
-<pubDate>Wed, 08 Jul 2026 08:53:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>It was the world’s hottest stock market. Now South Korea’s stock market has entered bear-market territory</strong></p><p>South Korea’s stock market has transitioned into bear territory following a record high in June. Factors such as international outflows and leverage issues have contributed to this decline.</p><p>在六月创下历史新高后，韩国股市目前已步入熊市。国际资金流出及杠杆问题是导致此次下跌的主要因素。</p><p>Tags: korea · stocks · market</p>]]></description>
-</item>
-<item>
-<title>解读优衣库T恤上的混淆Bash脚本</title>
-<link>https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</link>
-<guid isPermaLink="true">https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</guid>
-<pubDate>Wed, 08 Jul 2026 08:46:06 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Decoding the obfuscated bash script on a Uniqlo t-shirt</strong></p><p>Tech enthusiasts are analyzing an obfuscated bash script printed on a Uniqlo T-shirt. The discussion centers on reverse-engineering the hidden code&#x27;s purpose.</p><p>科技爱好者们正在分析优衣库T恤上印制的混淆Bash脚本。讨论重点在于对该段隐藏代码进行逆向工程分析。</p><p>Tags: bash · script · coding</p>]]></description>
-</item>
-<item>
-<title>MMU：回报由资本回报驱动</title>
-<link>https://seekingalpha.com/article/4920529-mmu-the-return-is-driven-by-return-of-capital?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4920529-mmu-the-return-is-driven-by-return-of-capital?source=feed_all_articles</guid>
-<pubDate>Wed, 08 Jul 2026 08:38:38 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>MMU: The Return Is Driven By Return Of Capital</strong></p><p>The article analyzes how capital returns are the primary driver for MMU performance. It provides an overview of the financial mechanisms influencing its investment returns.</p><p>文章分析了资本回报如何成为推动MMU表现的核心因素。文中概述了影响其投资回报的财务机制。</p><p>Tags: mmu · finance · investing</p>]]></description>
-</item>
-<item>
-<title>三星将于7月22日发布新款宽屏折叠手机</title>
-<link>https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july</link>
-<guid isPermaLink="true">https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july</guid>
-<pubDate>Wed, 08 Jul 2026 08:13:52 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Samsung will launch its new wide foldable on July 22nd</strong></p><p>Samsung has scheduled its Galaxy Unpacked event for July 22nd to reveal a new foldable phone. The device is expected to feature a wider, book-style form factor to compete with rivals.</p><p>三星宣布将于7月22日举办Galaxy Unpacked发布会，届时将推出新款折叠屏手机。预计该产品将采用更宽的书本式设计以应对竞争。</p><p>Tags: samsung · foldable · mobile</p>]]></description>
-</item>
-<item>
-<title>Spruce Biosciences可能是MPS IIIB类酶替代疗法的首创者</title>
-<link>https://seekingalpha.com/article/4920525-spruce-biosciences-possibly-first-in-mps-iiib-class-enzyme-replacement-therapy?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4920525-spruce-biosciences-possibly-first-in-mps-iiib-class-enzyme-replacement-therapy?source=feed_all_articles</guid>
-<pubDate>Wed, 08 Jul 2026 08:11:19 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>Spruce Biosciences Possibly First In-MPS IIIB Class Enzyme Replacement Therapy</strong></p><p>Spruce Biosciences is making strides in developing an enzyme replacement therapy for MPS IIIB. It may become the first company to offer this class of treatment.</p><p>Spruce Biosciences在MPS IIIB类酶替代疗法研发方面取得进展。该公司有望成为首个提供此类治疗方案的开发者。</p><p>Tags: biotech · medicine · research</p>]]></description>
-</item>
-<item>
-<title>地产AI进入落地战，深度智联又甩出一张牌</title>
-<link>https://36kr.com/p/3886709249241349?f=rss</link>
-<guid isPermaLink="true">https://36kr.com/p/3886709249241349?f=rss</guid>
-<pubDate>Wed, 08 Jul 2026 08:05:55 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>地产AI进入落地战，深度智联又甩出一张牌</strong></p><p>DeepLink has launched an &#x27;AI machine&#x27; for the real estate industry, integrating hardware and software to streamline enterprise operations. This move signifies an acceleration in real estate AI adoption.</p><p>深度智联推出了地产行业专属的“AI一体机”，旨在通过软硬件结合提升企业运营效率。这标志着地产行业AI落地进程的加速。</p><p>Tags: realestate · ai · hardware</p>]]></description>
-</item>
-<item>
-<title>氪星晚报｜德国：人工智能推动德国初创企业创纪录增长；雷军回应SkyNomad上市时间</title>
-<link>https://36kr.com/p/3886678879727880?f=rss</link>
-<guid isPermaLink="true">https://36kr.com/p/3886678879727880?f=rss</guid>
-<pubDate>Wed, 08 Jul 2026 08:01:28 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>氪星晚报｜德国：人工智能推动德国初创企业创纪录增长；雷军回应SkyNomad上市时间；SpaceX AI将于明日向公众开放Grok4.5</strong></p><p>Germany reports record growth for AI startups, while Xiaomi&#x27;s Lei Jun hints at the upcoming SkyNomad release. Other updates include SpaceX&#x27;s Grok 4.5 public release and corporate labor news.</p><p>德国人工智能初创企业实现创纪录增长，小米雷军透露SkyNomad发布在即。此外，SpaceX的Grok 4.5即将对公众开放。</p><p>Tags: news · xiaomi · ai</p>]]></description>
-</item>
-<item>
-<title>我的出行好伙伴，用iPhone一站式解决旅途痛点</title>
-<link>https://sspai.com/post/112044</link>
-<guid isPermaLink="true">https://sspai.com/post/112044</guid>
-<pubDate>Wed, 08 Jul 2026 07:14:26 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>我的出行好伙伴，用 iPhone 一站式解决旅途痛点</strong></p><p>An iPhone user shares tips on how to utilize Apple&#x27;s ecosystem to manage travel logistics effectively. The guide covers everything from preparation to navigating while on the road.</p><p>一位iPhone用户分享了如何利用苹果生态系统高效处理旅途中的各类物流与琐事。指南涵盖了从出发准备到路途导航的全面建议。</p><p>Tags: iphone · travel · tips</p>]]></description>
-</item>
-<item>
-<title>北约盟国宣布为新导弹项目投入370亿英镑</title>
-<link>https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Wed, 08 Jul 2026 05:57:53 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Nato allies announce £37bn for new missile project</strong></p><p>NATO allies have pledged £37 billion for a new missile development program. Prime Minister Keir Starmer will lead discussions on this initiative in Ankara.</p><p>北约盟国承诺投入370亿英镑用于新的导弹开发项目。英国首相斯塔默将在安卡拉主持相关讨论。</p><p>Tags: nato · military · politics</p>]]></description>
-</item>
-<item>
-<title>GitLost：我们欺骗了GitHub的AI代理并窃取了私有仓库</title>
-<link>https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/</link>
-<guid isPermaLink="true">https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/</guid>
-<pubDate>Wed, 08 Jul 2026 05:25:35 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>GitLost: We Tricked GitHub&#x27;s AI Agent into Leaking Private Repos</strong></p><p>Security researchers successfully tricked GitHub&#x27;s AI agent, exposing a vulnerability that led to unauthorized access to private repositories. This highlights risks in AI-integrated development platforms.</p><p>安全研究人员成功诱骗了GitHub的AI代理，暴露了可导致访问私有仓库的漏洞。这凸显了AI集成开发平台存在的安全风险。</p><p>Tags: github · ai · security</p>]]></description>
-</item>
-<item>
-<title>俄罗斯燃料短缺加剧——普京会在乌克兰战争中改变策略吗？</title>
-<link>https://www.bbc.co.uk/news/articles/cr7xk8j0j2do?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cr7xk8j0j2do?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Wed, 08 Jul 2026 05:05:31 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Russian fuel shortages bite – but will Putin change tack in Ukraine war?</strong></p><p>Fuel shortages in Russia are causing domestic instability, raising questions about whether this will affect the ongoing war in Ukraine. Authorities are struggling to maintain consistent energy supplies.</p><p>俄罗斯国内燃料短缺引发局势动荡，引发了外界关于其是否会改变乌克兰战争策略的猜测。当局目前难以保障能源供应。</p><p>Tags: russia · war · energy</p>]]></description>
-</item>
-<item>
-<title>如何构建一个极简的ZFS NAS（无需群晖、威联通、TrueNAS）</title>
-<link>https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/</link>
-<guid isPermaLink="true">https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/</guid>
-<pubDate>Wed, 08 Jul 2026 03:59:35 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)</strong></p><p>A guide for enthusiasts on building a custom, minimalist ZFS-based network-attached storage system without using standard proprietary software. This offers more control and flexibility for power users.</p><p>为硬件爱好者提供的指南，介绍如何在不使用群晖或TrueNAS等商业软件的情况下构建极简ZFS网络存储系统。此方案为用户提供了更高的灵活性。</p><p>Tags: nas · zfs · linux</p>]]></description>
-</item>
-<item>
-<title>勒庞会东山再起吗？法国民族主义领袖在法院裁决后表示不服</title>
-<link>https://www.bbc.co.uk/news/articles/cvgdlprp1r3o?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cvgdlprp1r3o?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Wed, 08 Jul 2026 03:22:46 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Will Le Pen rise again? French nationalist leader defiant after court&#x27;s ruling</strong></p><p>Following a court ruling against her, Marine Le Pen has defiantly launched a new presidential campaign. Her political future remains a focal point in French national discourse.</p><p>在法院对其作出不利裁决后，法国民族主义领袖勒庞表现强硬，并迅速启动了新一轮总统竞选。她的政治未来仍是法国关注的焦点。</p><p>Tags: france · politics · election</p>]]></description>
-</item>
-<item>
-<title>复制软盘：剑桥关于保护脆弱软盘数据的指南</title>
-<link>https://www.digipres.org/the-floppy-guide/</link>
-<guid isPermaLink="true">https://www.digipres.org/the-floppy-guide/</guid>
-<pubDate>Wed, 08 Jul 2026 03:22:31 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks</strong></p><p>Cambridge researchers have released a guide on preserving data from fragile, aging floppy disks. This project aims to save historical digital data before it is lost forever.</p><p>剑桥研究人员发布了一份关于从脆弱老旧软盘中提取并保存数据的指南。该项目旨在抢救历史数字数据，防止其永久丢失。</p><p>Tags: data · archiving · history</p>]]></description>
-</item>
-<item>
-<title>AI视频全面成熟：Seedance 2.0领衔，6款主流工具深度横评</title>
-<link>https://36kr.com/p/3886403765596418?f=rss</link>
-<guid isPermaLink="true">https://36kr.com/p/3886403765596418?f=rss</guid>
-<pubDate>Wed, 08 Jul 2026 03:03:34 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>AI 视频全面成熟：Seedance 2.0 领衔，6 款主流工具深度横评</strong></p><p>The AI video generation field has matured significantly, with tools like Seedance 2.0 leading the way. This review evaluates six prominent tools for various professional and personal use cases.</p><p>AI视频生成领域已日趋成熟，Seedance 2.0处于领先地位。文章深度测评了六款主流工具，旨在帮助用户选择适合的创作方案。</p><p>Tags: ai · video · creativity</p>]]></description>
-</item>
-<item>
-<title>嫌疑人在枪击前吃了Chick-fil-A并与查理·柯克的员工有过互动，法庭获悉</title>
-<link>https://www.bbc.co.uk/news/articles/cr5j983p046o?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cr5j983p046o?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Wed, 08 Jul 2026 02:46:14 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Suspect ate Chick-fil-A and interacted with Charlie Kirk staff before shooting, court hears</strong></p><p>During a preliminary hearing, court testimony revealed that the suspect ate at Chick-fil-A and interacted with Charlie Kirk&#x27;s staff before the shooting incident. This evidence is crucial for the upcoming trial.</p><p>法庭初步听证会上获悉，枪击案嫌疑人在行凶前曾食用Chick-fil-A，并与查理·柯克的员工有过接触。该证词对后续审判具有关键意义。</p><p>Tags: crime · court · news</p>]]></description>
-</item>
-<item>
-<title>36氪首发 | 获上海国投领投，这家量子传感企业产品已落地</title>
-<link>https://36kr.com/p/3886301334630407?f=rss</link>
-<guid isPermaLink="true">https://36kr.com/p/3886301334630407?f=rss</guid>
-<pubDate>Wed, 08 Jul 2026 01:10:36 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>36氪首发 | 获上海国投领投，这家量子传感企业产品已落地惯性导航、气体监测等</strong></p><p>Quantum sensing startup Lianggan Intelligence has raised millions in angel funding led by Shanghai State-owned Capital Investment. Their technology is already applied in navigation and gas monitoring.</p><p>量子传感初创企业量感智能获得由上海国投领投的数千万元天使轮融资。其技术已在惯性导航及气体监测领域实现商业落地。</p><p>Tags: quantum · startup · funding</p>]]></description>
-</item>
-<item>
-<title>“水涨得太快了”：台风在中国引发洪水和罕见龙卷风</title>
-<link>https://www.bbc.co.uk/news/articles/c79ygnv9e93o?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c79ygnv9e93o?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Wed, 08 Jul 2026 00:49:07 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>&#x27;The water just came so fast&#x27;: Typhoon triggers floods and rare tornadoes in China</strong></p><p>Typhoons have caused severe flooding and rare tornadoes across parts of China, leaving families stranded. Local residents are reporting difficulties in accessing food and emergency assistance.</p><p>台风导致中国部分地区出现严重洪水及罕见龙卷风，导致居民受困。目前当地正面临物资短缺及救援难题。</p><p>Tags: typhoon · floods · disaster</p>]]></description>
-</item>
-<item>
-<title>Meta的新Muse图像模型可以将Instagram用户拉入AI照片中</title>
-<link>https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram</link>
-<guid isPermaLink="true">https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram</guid>
-<pubDate>Tue, 07 Jul 2026 20:31:58 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>Meta’s new Muse Image model can pull other Instagram users into AI photos</strong></p><p>Meta&#x27;s new Muse Image model, developed by its Superintelligence Labs, allows users to integrate people into AI-generated photos. The tool is being rolled out across Meta&#x27;s app ecosystem.</p><p>Meta旗下的超智能实验室推出了Muse图像模型，允许用户将他人整合进AI生成的照片中。该工具正逐步集成至Meta旗下的应用生态中。</p><p>Tags: meta · ai · instagram</p>]]></description>
-</item>
-<item>
-<title>彼得·肖尔的算法可能破解互联网——但他并不担心</title>
-<link>https://www.newscientist.com/article/2533218-peter-shors-algorithm-could-break-the-internet-but-hes-not-worried/?utm_campaign=RSS%7CNSNS&amp;utm_source=NSNS&amp;utm_medium=RSS&amp;utm_content=home</link>
-<guid isPermaLink="true">https://www.newscientist.com/article/2533218-peter-shors-algorithm-could-break-the-internet-but-hes-not-worried/?utm_campaign=RSS%7CNSNS&amp;utm_source=NSNS&amp;utm_medium=RSS&amp;utm_content=home</guid>
-<pubDate>Tue, 07 Jul 2026 18:00:57 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>Peter Shor’s algorithm could break the internet – but he&#x27;s not worried</strong></p><p>Quantum computing pioneer Peter Shor, known for the algorithm that could crack current encryption, shares his thoughts on the risks. Surprisingly, he remains optimistic about the future of cybersecurity.</p><p>量子计算先驱彼得·肖尔分享了他对量子计算可能破解加密技术的看法。令人意外的是，他对网络安全的未来持乐观态度。</p><p>Tags: quantum · algorithm · encryption</p>]]></description>
-</item>
-<item>
-<title>时间是否来自整个宇宙的计算运行？</title>
-<link>https://www.newscientist.com/article/2532871-does-time-come-from-the-entire-universe-running-computations/?utm_campaign=RSS%7CNSNS&amp;utm_source=NSNS&amp;utm_medium=RSS&amp;utm_content=home</link>
-<guid isPermaLink="true">https://www.newscientist.com/article/2532871-does-time-come-from-the-entire-universe-running-computations/?utm_campaign=RSS%7CNSNS&amp;utm_source=NSNS&amp;utm_medium=RSS&amp;utm_content=home</guid>
-<pubDate>Tue, 07 Jul 2026 18:00:36 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>Does time come from the entire universe running computations?</strong></p><p>Physicist Stephen Wolfram proposes a radical theory suggesting that the passage of time is a result of computations occurring across the universe. He explores the implications of this idea for physics and free will.</p><p>物理学家史蒂芬·沃尔夫勒姆提出了一个激进理论，认为时间流逝是宇宙中计算过程的产物。他探讨了该理论对物理学及自由意志的意义。</p><p>Tags: physics · time · computation</p>]]></description>
-</item>
-<item>
-<title>[问与答] 软文投放平台资源哪来的？</title>
-<link>https://www.v2ex.com/t/1225646#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1225646#reply0</guid>
-<pubDate>Tue, 07 Jul 2026 10:16:21 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[问与答] 软文投放平台资源哪来的？</strong></p><p>The author discovers that mainstream media platforms often have standardized pricing for publishing advertorials. These agency resources allow brands to quickly boost their online rankings through paid placements.</p><p>作者发现主流媒体通过明码标价提供软文投放服务。这种媒介资源能帮助品牌快速提升网媒排名。</p><p>Tags: marketing · media · pr</p>]]></description>
-</item>
-<item>
-<title>[宽带症候群] 223.5.5.5 解析挂啦？</title>
-<link>https://www.v2ex.com/t/1225645#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1225645#reply0</guid>
-<pubDate>Tue, 07 Jul 2026 10:16:08 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[宽带症候群] 223.5.5.5 解析挂啦？</strong></p><p>A user reports an issue where the DNS service 223.5.5.5 appears to be malfunctioning. The post serves as a real-time inquiry about service stability.</p><p>用户反映DNS服务223.5.5.5出现解析故障。该帖用于询问服务状态是否异常。</p><p>Tags: dns · network · v2ex</p>]]></description>
-</item>
-<item>
-<title>马克龙访问大马士革期间发生爆炸，18人受伤</title>
-<link>https://www.bbc.co.uk/news/articles/c2eylx1jj9ko?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c2eylx1jj9ko?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Tue, 07 Jul 2026 10:12:27 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Explosions injure 18 in Damascus during Macron&#x27;s visit</strong></p><p>Explosions occurred in Damascus during French President Macron&#x27;s visit, resulting in 18 injuries. Syrian state media confirmed that the President had welcomed Macron at the palace despite the incident.</p><p>马克龙访问大马士革期间发生爆炸，造成18人受伤。叙利亚官方称总统当时正在总统府迎接马克龙。</p><p>Tags: france · syria · politics</p>]]></description>
-</item>
-<item>
-<title>不做fast follow的人，都想创造一个新的世界丨36氪离线聚会第三期</title>
-<link>https://36kr.com/p/3885415199076352?f=rss</link>
-<guid isPermaLink="true">https://36kr.com/p/3885415199076352?f=rss</guid>
-<pubDate>Tue, 07 Jul 2026 10:11:27 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>不做fast follow的人，都想创造一个新的世界丨36氪离线聚会第三期</strong></p><p>The article discusses how Chinese tech startups are moving away from &#x27;fast following&#x27; Silicon Valley models. Entrepreneurs are increasingly focused on creating original products and finding unique market opportunities.</p><p>文章探讨了中国科技企业如何摆脱硅谷“快跟随”模式。创业者们正致力于打造原创产品以发掘独特市场机会。</p><p>Tags: startup · entrepreneurship · innovation</p>]]></description>
-</item>
-<item>
-<title>2026年中期美国零售/餐饮展望</title>
-<link>https://seekingalpha.com/article/4920260-mid-year-2026-us-retailrestaurant-outlook?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4920260-mid-year-2026-us-retailrestaurant-outlook?source=feed_all_articles</guid>
-<pubDate>Tue, 07 Jul 2026 10:10:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Mid-Year 2026 U.S. Retail/Restaurant Outlook</strong></p><p>The article provides a mid-year outlook for the retail and restaurant sectors in the US for 2026. It analyzes market trends and future growth expectations for investors.</p><p>文章对2026年美国零售与餐饮业进行了年中展望。分析了市场趋势及投资者对未来增长的预期。</p><p>Tags: retail · finance · investment</p>]]></description>
-</item>
-<item>
-<title>[分享创造] 搭了个 LongCat 2.0 在线试玩站，分享下大致踩的坑</title>
-<link>https://www.v2ex.com/t/1225644#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1225644#reply0</guid>
-<pubDate>Tue, 07 Jul 2026 10:09:24 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>[分享创造] 搭了个 LongCat 2.0 在线试玩站，分享下大致踩的坑，希望对大家有启发</strong></p><p>The developer shares their experience creating an online demo for the open-source project LongCat 2.0. They highlight technical challenges like implementing streaming and SEO optimization.</p><p>开发者分享了构建LongCat 2.0在线演示站的经验。重点介绍了流式传输及SEO优化等技术挑战。</p><p>Tags: ai · opensource · webdev</p>]]></description>
-</item>
-<item>
-<title>[华为] 改正对部分华为产品的一些偏见</title>
-<link>https://www.v2ex.com/t/1225643#reply1</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1225643#reply1</guid>
-<pubDate>Tue, 07 Jul 2026 10:09:10 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[华为] 改正对部分华为产品的一些偏见</strong></p><p>A user shares a positive experience with the Huawei MatePad Mini, noting its thin design and smooth performance. The user clarifies that this review is based on hardware quality rather than brand sentiment.</p><p>用户分享了对华为MatePad Mini的正面使用体验，称赞其机身轻薄及系统流畅。用户强调评价仅基于硬件质量而非品牌立场。</p><p>Tags: huawei · tablet · review</p>]]></description>
-</item>
-<item>
-<title>北斗人创业，要建太空数据中心，「星际原点」连续完成两轮数千万元融资</title>
-<link>https://36kr.com/p/3885413484163074?f=rss</link>
-<guid isPermaLink="true">https://36kr.com/p/3885413484163074?f=rss</guid>
-<pubDate>Tue, 07 Jul 2026 10:07:53 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>北斗人创业，要建太空数据中心，「星际原点」连续完成两轮数千万元融资｜36氪首发</strong></p><p>The space startup Star Origin has secured multi-million yuan funding to build a space-based data center. The team, composed of experts from the Beidou project, aims to provide satellite computing solutions.</p><p>太空算力初创公司“星际原点”近期完成两轮数千万元融资。团队由北斗项目专家组成，致力于构建太空数据中心。</p><p>Tags: space · funding · tech</p>]]></description>
-</item>
-<item>
-<title>伊贝德罗拉：未来确定性更高！</title>
-<link>https://seekingalpha.com/article/4920246-iberdrola-even-more-predictability-ahead?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4920246-iberdrola-even-more-predictability-ahead?source=feed_all_articles</guid>
-<pubDate>Tue, 07 Jul 2026 10:06:30 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Iberdrola: Even More Predictability Ahead!</strong></p><p>The article discusses the positive financial outlook and predictability for Iberdrola. It suggests the company remains a stable option for utility investors.</p><p>文章探讨了伊贝德罗拉公司积极的财务前景与确定性。建议其对公用事业投资者而言仍是稳健的选择。</p><p>Tags: finance · utility · energy</p>]]></description>
-</item>
-<item>
-<title>‘I make my own pizza.’ What’s the best way you’ve found to save money?</title>
-<link>https://www.marketwatch.com/story/i-make-my-own-pizza-whats-the-best-way-youve-found-to-save-money-25412399?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/i-make-my-own-pizza-whats-the-best-way-youve-found-to-save-money-25412399?mod=mw_rss_topstories</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>‘I make my own pizza.’ What’s the best way you’ve found to save money?</strong></p><p>The article explores various personal finance strategies for saving money beyond just cooking at home. It emphasizes that minor lifestyle adjustments can lead to significant long-term savings.</p><p>文章探讨了除在家做饭外多种个人理财省钱策略。强调微小的生活习惯调整能带来长期的显著积蓄。</p><p>Tags: finance · saving · lifestyle</p>]]></description>
-</item>
-<item>
-<title>[问与答] Claude 被封有无可能跟使用什么模型有关？</title>
-<link>https://www.v2ex.com/t/1225642#reply1</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1225642#reply1</guid>
-<pubDate>Tue, 07 Jul 2026 09:57:59 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>[问与答] Claude 被封有无可能跟使用什么模型有关？</strong></p><p>A user asks if account bans on the Claude AI platform are correlated with the specific model version used. They speculate whether premium models might trigger more frequent security flags.</p><p>用户询问Claude账号封禁是否与使用的模型版本相关。猜测高端模型是否更容易触发安全机制。</p><p>Tags: claude · ai · security</p>]]></description>
-</item>
-<item>
-<title>Marvell与Credo：哪只网络连接股票更好？</title>
-<link>https://seekingalpha.com/article/4920244-marvell-vs-credo-the-better-network-connectivity-stock?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4920244-marvell-vs-credo-the-better-network-connectivity-stock?source=feed_all_articles</guid>
-<pubDate>Tue, 07 Jul 2026 09:49:03 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Marvell Vs. Credo: The Better Network Connectivity Stock</strong></p><p>The article compares Marvell and Credo to determine the better investment in the network connectivity sector. It analyzes their market positions and growth potential.</p><p>文章对比了Marvell和Credo，以评估网络连接领域的投资价值。分析了两者的市场地位与增长潜力。</p><p>Tags: stocks · tech · investment</p>]]></description>
 </item>
 </channel>
 </rss>
