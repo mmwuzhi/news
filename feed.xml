@@ -6,7 +6,207 @@
 <atom:link href="https://news.wuwuwu.cc/feed.xml" rel="self" type="application/rss+xml"/>
 <description>每日中英双语科技与世界新闻摘要 · summarized by Gemini</description>
 <language>zh-cn</language>
-<lastBuildDate>Sat, 18 Jul 2026 08:45:12 +0000</lastBuildDate>
+<lastBuildDate>Sun, 19 Jul 2026 09:02:30 +0000</lastBuildDate>
+<item>
+<title>对冲并投资于石油与黄金的相互依赖性（技术分析）</title>
+<link>https://seekingalpha.com/article/4923293-hedging-on-and-investing-in-the-interdependence-of-oil-and-gold?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4923293-hedging-on-and-investing-in-the-interdependence-of-oil-and-gold?source=feed_all_articles</guid>
+<pubDate>Sun, 19 Jul 2026 08:57:54 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Hedging On And Investing In The Interdependence Of Oil And Gold (Technical Analysis)</strong></p><p>This article provides a technical analysis of the complex relationship between oil and gold markets. It explores investment strategies for hedging risks associated with their price fluctuations.</p><p>本文对石油与黄金市场之间的复杂关系进行了技术分析。文章探讨了对冲与这两种大宗商品价格波动相关风险的投资策略。</p><p>Tags: oil · gold · investing</p>]]></description>
+</item>
+<item>
+<title>[程序员] 如果一个 claude 号被 ban，那用过这个号的 pc 是否也被标黑了？</title>
+<link>https://www.v2ex.com/t/1228362#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1228362#reply0</guid>
+<pubDate>Sun, 19 Jul 2026 08:55:02 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[程序员] 如果一个 claude 号被 ban，那用过这个号的 pc 是否也被标黑了？</strong></p><p>A user asks if using a banned Claude account compromises their computer&#x27;s security or leads to the device being blacklisted. They are considering buying a pre-registered account but are concerned about potential hardware-level consequences.</p><p>有用户询问使用被封禁的 Claude 账号是否会导致其电脑被关联拉黑。用户正考虑购买成品号，但担心会有硬件层面的封禁风险。</p><p>Tags: claude · security · account</p>]]></description>
+</item>
+<item>
+<title>Molina Healthcare：市场误解了这家公司的故事</title>
+<link>https://seekingalpha.com/article/4923292-molina-healthcare-stock-market-story-backwards?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4923292-molina-healthcare-stock-market-story-backwards?source=feed_all_articles</guid>
+<pubDate>Sun, 19 Jul 2026 08:50:29 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Molina Healthcare: The Market Has The Story Backwards</strong></p><p>The author argues that the market has fundamentally misunderstood the growth narrative of Molina Healthcare. The piece suggests that current pricing does not reflect the company&#x27;s true value.</p><p>作者认为市场从根本上误解了 Molina Healthcare 的增长叙事。文章指出当前股价并未反映该公司的真实价值。</p><p>Tags: healthcare · stocks · market</p>]]></description>
+</item>
+<item>
+<title>[分享发现] 用 Claude Design 等工具为游戏做技能特效的流水线实践</title>
+<link>https://www.v2ex.com/t/1228361#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1228361#reply0</guid>
+<pubDate>Sun, 19 Jul 2026 08:48:34 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[分享发现] 用 Claude Design / GPT-5.6-sol / Kimi K3 给我的游戏做技能特效，附三份可玩的 standalone</strong></p><p>The author shares a pipeline for creating game VFX using AI tools like Claude Design and Kimi K3. The process involves turning design requirements into standalone, interactive prototypes for efficient testing.</p><p>作者分享了一套利用 Claude Design 和 Kimi K3 等 AI 工具制作游戏技能特效的流水线。该方案通过将设计需求转化为独立可交互原型，极大地提高了验收效率。</p><p>Tags: ai · gamedev · vfx</p>]]></description>
+</item>
+<item>
+<title>[程序员] Cloudflare 的新博客页面设计受到批评</title>
+<link>https://www.v2ex.com/t/1228360#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1228360#reply0</guid>
+<pubDate>Sun, 19 Jul 2026 08:45:34 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[程序员] cloudflare 的新博客好难看</strong></p><p>Users discuss the poor readability of Cloudflare&#x27;s redesigned blog, specifically citing thin grey text. The post suggests that over-reliance on AI for quick UI changes might be compromising product quality.</p><p>用户批评了 Cloudflare 重构后博客页面的可读性，特别是灰色的细字体。文章暗示过度依赖 AI 进行快速 UI 修改可能会降低产品质量。</p><p>Tags: cloudflare · ui · design</p>]]></description>
+</item>
+<item>
+<title>Qwen3.8 即将发布并开放权重</title>
+<link>https://twitter.com/Alibaba_Qwen/status/2078759124914098291</link>
+<guid isPermaLink="true">https://twitter.com/Alibaba_Qwen/status/2078759124914098291</guid>
+<pubDate>Sun, 19 Jul 2026 08:44:57 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Qwen3.8 is launching and going open-weight soon</strong></p><p>The Qwen 3.8 large language model is scheduled to launch soon with open-weight access. This release aims to provide more flexibility for developers and researchers in the AI community.</p><p>Qwen 3.8 大语言模型即将发布，并将采用开源权重模式。此举旨在为 AI 社区的开发者和研究人员提供更多灵活性。</p><p>Tags: qwen · llm · ai</p>]]></description>
+</item>
+<item>
+<title>俄罗斯对基辅发动大规模弹道导弹袭击</title>
+<link>https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sun, 19 Jul 2026 08:37:48 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Russia launches major ballistic missile attack on Kyiv</strong></p><p>Russia launched a massive ballistic missile attack on Kyiv, resulting in at least one death. President Zelensky described the strike as one of the largest against the Ukrainian capital.</p><p>俄罗斯对基辅发动了大规模弹道导弹袭击，造成至少一人死亡。泽连斯基总统称这是针对乌克兰首都最猛烈的攻击之一。</p><p>Tags: russia · ukraine · war</p>]]></description>
+</item>
+<item>
+<title>[硬件] 寻求 AI 图像识别播报玩具的开发建议</title>
+<link>https://www.v2ex.com/t/1228359#reply1</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1228359#reply1</guid>
+<pubDate>Sun, 19 Jul 2026 08:35:04 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[硬件] 想用 AI 给孩子搓个识别播报的玩具，请教下要买什么</strong></p><p>A user is looking for advice on building an AI-powered toy that can recognize animal cards and announce matches. They are seeking guidance on hardware and software stack recommendations for beginners.</p><p>一名用户寻求开发建议，希望制作一款能通过 AI 识别卡片并播报匹配结果的玩具。用户正在寻求适合初学者的硬件和软件选型推荐。</p><p>Tags: ai · hardware · kids</p>]]></description>
+</item>
+<item>
+<title>[分享创造] 开发了一款让图片局部“抖动”的小工具</title>
+<link>https://www.v2ex.com/t/1228358#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1228358#reply0</guid>
+<pubDate>Sun, 19 Jul 2026 08:33:13 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[分享创造] 做了一个让图片局部“抖起来”的小工具</strong></p><p>The developer shares a web tool created for adding a &#x27;puru-puru&#x27; (shaking) effect to specific areas of anime-style images. The tool is available online for users to experiment with.</p><p>开发者分享了一个网页小工具，旨在为二次元图片的指定区域添加“抖动”效果。目前该工具已上线供用户尝试。</p><p>Tags: web · tools · creative</p>]]></description>
+</item>
+<item>
+<title>Dundee Precious Metals：市场低估了其净资产创造引擎</title>
+<link>https://seekingalpha.com/article/4923291-dpm-metals-stock-market-underpricing-nav-creation?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4923291-dpm-metals-stock-market-underpricing-nav-creation?source=feed_all_articles</guid>
+<pubDate>Sun, 19 Jul 2026 08:32:10 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Dundee Precious Metals: The Market Is Underpricing Its NAV Creation Engine</strong></p><p>This financial analysis argues that Dundee Precious Metals is undervalued by the market. The author highlights the company&#x27;s strong ability to generate net asset value as a key investment driver.</p><p>该财务分析认为 Dundee Precious Metals 的市场估值偏低。作者强调了该公司强大的净资产价值创造能力是其核心投资动力。</p><p>Tags: mining · stocks · finance</p>]]></description>
+</item>
+<item>
+<title>BDC 每周回顾：SaaS 行业的“末日”论已解除</title>
+<link>https://seekingalpha.com/article/4923290-bdc-weekly-review-saaspocalypse-is-cancelled?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4923290-bdc-weekly-review-saaspocalypse-is-cancelled?source=feed_all_articles</guid>
+<pubDate>Sun, 19 Jul 2026 08:03:33 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>BDC Weekly Review: SaaSpocalypse Is Cancelled</strong></p><p>This weekly review explores current trends in business development companies, noting that fears of a &#x27;SaaS apocalypse&#x27; have subsided. Financial outlooks for the sector appear more positive.</p><p>本周回顾探讨了商业发展公司的最新趋势，指出关于“SaaS 行业末日”的担忧已经消退。该行业的财务前景看起来更加乐观。</p><p>Tags: saas · finance · market</p>]]></description>
+</item>
+<item>
+<title>百胜中国第二季度前瞻：宏观逆风对冲了必胜客的催化剂</title>
+<link>https://seekingalpha.com/article/4923289-yum-china-q2-preview-pizza-hut-catalyst-balanced-by-macro-headwinds?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4923289-yum-china-q2-preview-pizza-hut-catalyst-balanced-by-macro-headwinds?source=feed_all_articles</guid>
+<pubDate>Sun, 19 Jul 2026 08:00:36 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Yum China Q2 Preview: Pizza Hut Catalyst Balanced By Macro Headwinds (Rating Downgrade)</strong></p><p>The article previews Yum China&#x27;s Q2 earnings, noting that growth catalysts like Pizza Hut are being balanced by macro headwinds. This analysis leads to a downgrade in the company&#x27;s rating.</p><p>文章预测了百胜中国第二季度的财报，指出必胜客等增长催化剂正受到宏观经济逆风的制约。该分析导致了公司评级的下调。</p><p>Tags: yum · stocks · earnings</p>]]></description>
+</item>
+<item>
+<title>古巴持不同政见者路易斯·曼努埃尔·奥特罗·阿尔坎塔拉流亡美国</title>
+<link>https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sun, 19 Jul 2026 07:47:02 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Cuban dissident Luis Manuel Otero Alcántara goes into exile in US</strong></p><p>Luis Manuel Otero Alcántara, a prominent Cuban dissident, has arrived in the US after being released from prison. He was previously detained for participating in anti-government protests.</p><p>古巴著名异见人士路易斯·曼努埃尔·奥特罗·阿尔坎塔拉在获释后抵达美国。他此前因参与反政府抗议活动而被监禁。</p><p>Tags: cuba · politics · exile</p>]]></description>
+</item>
+<item>
+<title>美伊在两名美军在约旦遇害后相互打击</title>
+<link>https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sun, 19 Jul 2026 05:10:57 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>US and Iran exchange strikes after two US soldiers killed in Jordan</strong></p><p>Following the death of two US soldiers in Jordan, the US and Iran have exchanged military strikes. US forces have targeted Iranian sites for eight consecutive nights in retaliation.</p><p>在两名美军于约旦遇害后，美国与伊朗相互进行了军事打击。作为报复，美军已连续八晚袭击伊朗目标。</p><p>Tags: us · iran · conflict</p>]]></description>
+</item>
+<item>
+<title>TDS REVIEW | 索尼 WH-1000XM5 无线降噪头戴耳机体验</title>
+<link>https://sspai.com/post/112374</link>
+<guid isPermaLink="true">https://sspai.com/post/112374</guid>
+<pubDate>Sun, 19 Jul 2026 03:00:00 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>TDS REVIEW | 索尼 WH-1000XX 无线降噪头戴耳机体验</strong></p><p>A detailed review of the Sony WH-1000XM5 wireless noise-canceling headphones. The article covers its performance and improvements in the context of the series&#x27; tenth anniversary.</p><p>这是一篇关于索尼 WH-1000XM5 无线降噪头戴耳机的详细评测。文章从该系列十周年纪念的角度回顾了其性能和改进。</p><p>Tags: sony · review · audio</p>]]></description>
+</item>
+<item>
+<title>安德鲁·塔特兄弟在英国面临更多指控后在美国被捕</title>
+<link>https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sun, 19 Jul 2026 02:17:07 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Andrew Tate and brother arrested in US after more charges laid against them in UK</strong></p><p>Andrew Tate and his brother have been arrested in the US following new charges laid against them in the UK. The Crown Prosecution Service is seeking their extradition to face justice.</p><p>安德鲁·塔特及其兄弟在英国面临新的指控后，在美国被捕。英国皇家检察署正寻求将其引渡回国受审。</p><p>Tags: arrest · legal · news</p>]]></description>
+</item>
+<item>
+<title>机场负责人称新的欧盟边境系统导致护照检查时间增加三倍</title>
+<link>https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sun, 19 Jul 2026 01:47:59 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>New EU border system tripling time at passport control, airport boss says</strong></p><p>A new EU border control system is significantly increasing wait times at airports, according to industry executives. Ryanair has warned passengers to expect extended delays this summer.</p><p>机场负责人表示，新的欧盟边境系统导致机场等待时间大幅增加。瑞安航空警告乘客今夏出行需预留更多时间。</p><p>Tags: eu · travel · border</p>]]></description>
+</item>
+<item>
+<title>Transcribe.cpp 项目动态</title>
+<link>https://workshop.cjpais.com/projects/transcribe-cpp</link>
+<guid isPermaLink="true">https://workshop.cjpais.com/projects/transcribe-cpp</guid>
+<pubDate>Sun, 19 Jul 2026 00:38:26 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Transcribe.cpp</strong></p><p>This project offers an efficient C++ implementation for audio transcription tasks. It provides high-performance alternatives for processing speech-to-text workflows.</p><p>该项目提供了一个高效的 C++ 音频转写实现。它为语音转文字工作流提供了高性能的替代方案。</p><p>Tags: c++ · transcription · dev</p>]]></description>
+</item>
+<item>
+<title>Codex 模型重置</title>
+<link>https://codex-resets.com/</link>
+<guid isPermaLink="true">https://codex-resets.com/</guid>
+<pubDate>Sat, 18 Jul 2026 23:24:26 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Codex Resets</strong></p><p>OpenAI has performed a reset of the Codex API, affecting users who rely on it for code generation. This update marks a transition in the underlying infrastructure for developers.</p><p>OpenAI 对 Codex API 进行了重置，影响了依赖其进行代码生成的开发者。此次更新标志着底层基础设施的调整。</p><p>Tags: openai · codex · api</p>]]></description>
+</item>
+<item>
+<title>戴夫·艾格斯告诉 OpenAI 员工 ChatGPT 正在“让一代人失声”</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation</link>
+<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation</guid>
+<pubDate>Sat, 18 Jul 2026 20:54:42 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’</strong></p><p>Author Dave Eggers warned OpenAI employees that ChatGPT might stifle creativity and authentic expression. He expressed concerns about the cultural impact of AI on writing and storytelling.</p><p>作家戴夫·艾格斯警告 OpenAI 员工，ChatGPT 可能会抑制创造力和真实表达。他表达了对 AI 对写作和叙事文化影响的担忧。</p><p>Tags: openai · chatgpt · culture</p>]]></description>
+</item>
+<item>
+<title>‘尊重很重要’：如果我的理财顾问叫我‘嘿’，我会直接走人</title>
+<link>https://www.marketwatch.com/story/respect-is-important-if-my-financial-adviser-said-hey-my-wife-and-i-would-walk-out-where-do-you-draw-the-line-5fbf5879?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/respect-is-important-if-my-financial-adviser-said-hey-my-wife-and-i-would-walk-out-where-do-you-draw-the-line-5fbf5879?mod=mw_rss_topstories</guid>
+<pubDate>Sat, 18 Jul 2026 19:16:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>‘Respect is important’: If my financial adviser said, ‘Hey,’ my wife and I would walk out. Where do you draw the line?</strong></p><p>A discussion on professional boundaries and etiquette in financial advisory services. The author debates what level of formality clients should expect from their financial representatives.</p><p>本文讨论了理财服务中的专业边界和礼仪问题。作者探讨了客户应该期望理财代表具备何种程度的礼貌。</p><p>Tags: finance · etiquette · advice</p>]]></description>
+</item>
+<item>
+<title>‘他们很无情’：骗子试图更改我空置的 Robinhood 账户</title>
+<link>https://www.marketwatch.com/story/they-are-relentless-a-scammer-is-trying-to-change-the-email-on-my-empty-robinhood-account-what-do-they-have-to-gain-26103dac?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/they-are-relentless-a-scammer-is-trying-to-change-the-email-on-my-empty-robinhood-account-what-do-they-have-to-gain-26103dac?mod=mw_rss_topstories</guid>
+<pubDate>Sat, 18 Jul 2026 19:00:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>‘They are relentless’: A scammer is trying to change the email on my empty Robinhood account. What do they have to gain?</strong></p><p>An investor reports ongoing scam attempts on a dormant Robinhood account. The article discusses why scammers might target inactive financial accounts and how to protect them.</p><p>一名投资者报告了针对其闲置 Robinhood 账户的诈骗企图。文章探讨了骗子为何盯上此类账户，以及如何保护个人财务安全。</p><p>Tags: scam · robinhood · finance</p>]]></description>
+</item>
+<item>
+<title>Netflix 在体育领域投入巨资，这是明智之举吗？</title>
+<link>https://www.marketwatch.com/story/netflix-is-paying-up-for-costly-sports-rights-is-the-company-making-the-right-bets-9ce54df7?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/netflix-is-paying-up-for-costly-sports-rights-is-the-company-making-the-right-bets-9ce54df7?mod=mw_rss_topstories</guid>
+<pubDate>Sat, 18 Jul 2026 18:54:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Netflix is spending big money on sports. Is the company making the right bets?</strong></p><p>Netflix is aggressively expanding into live sports programming to attract subscribers. Investors are debating if this strategy is sustainable given broader engagement challenges.</p><p>Netflix 正积极进军体育直播领域以吸引订阅者。投资者们正在讨论，考虑到更广泛的参与度挑战，这一战略是否可持续。</p><p>Tags: netflix · sports · business</p>]]></description>
+</item>
+<item>
+<title>谷歌可能不会用老旧处理器削弱 Pixel 11a 的性能</title>
+<link>https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak</link>
+<guid isPermaLink="true">https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak</guid>
+<pubDate>Sat, 18 Jul 2026 18:25:08 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Google might not kneecap the Pixel 11a with an old processor</strong></p><p>Leaks suggest Google will equip the upcoming Pixel 11a with a flagship-grade Tensor G6 processor. This represents a strategic shift from the &#x27;a&#x27; series&#x27; typical use of older components.</p><p>泄露消息称谷歌将为即将推出的 Pixel 11a 配备旗舰级 Tensor G6 处理器。这标志着 Pixel A 系列不再使用旧款零部件的战略转变。</p><p>Tags: google · pixel · hardware</p>]]></description>
+</item>
+<item>
+<title>《卫报》卡特·谢尔曼回忆《时之笛》带来的恐怖感</title>
+<link>https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview</link>
+<guid isPermaLink="true">https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview</guid>
+<pubDate>Sat, 18 Jul 2026 14:30:00 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>The Guardian’s Carter Sherman fondly remembers being terrified by Ocarina of Time</strong></p><p>Journalist Carter Sherman reflects on the deep impact of playing Zelda: Ocarina of Time in childhood. She discusses how the game&#x27;s atmosphere instilled a lasting sense of wonder and fear.</p><p>记者卡特·谢尔曼回顾了童年玩《塞尔达传说：时之笛》带来的深刻影响。她探讨了游戏氛围如何给她留下了持久的奇迹与恐惧感。</p><p>Tags: gaming · zelda · culture</p>]]></description>
+</item>
 <item>
 <title>印度黄金市场更新：需求信号喜忧参半</title>
 <link>https://seekingalpha.com/article/4923205-india-gold-market-update-mixed-demand-signals?source=feed_all_articles</link>
@@ -238,6 +438,14 @@
 <pubDate>Fri, 17 Jul 2026 13:00:00 +0000</pubDate>
 <category>SCI</category>
 <description><![CDATA[<p><strong>Supplement that binds to microplastics may remove them from our body</strong></p><p>Researchers have developed a supplement using inactive bacteria that attracts and removes microplastics from the body. This could offer a potential solution to reduce plastic accumulation in human tissues.</p><p>研究人员开发了一种使用失活细菌的补充剂，可吸附并清除体内的微塑料。这或将成为减少人体组织塑料积累的潜在解决方案。</p><p>Tags: science · health · microplastics</p>]]></description>
+</item>
+<item>
+<title>MIT 科技评论：围绝经期虚假信息与中国 AI 的新飞跃</title>
+<link>https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/</link>
+<guid isPermaLink="true">https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/</guid>
+<pubDate>Fri, 17 Jul 2026 12:10:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>The Download: perimenopause misinformation and China’s latest AI leap</strong></p><p>The daily download highlights the spread of health misinformation regarding perimenopause and analyzes China&#x27;s latest developments in AI technology.</p><p>MIT 科技评论的每日简报重点关注围绝经期健康虚假信息的传播，并分析了中国在 AI 技术领域的最新突破。</p><p>Tags: mit · ai · health</p>]]></description>
 </item>
 <item>
 <title>对话森博科技董事长于林义：AI应用拼的不只是技术，更是实证有效的业务闭环</title>
@@ -1398,214 +1606,6 @@
 <pubDate>Mon, 13 Jul 2026 05:15:14 +0000</pubDate>
 <category>TECH</category>
 <description><![CDATA[<p><strong>Beavis Ultrasound PnP ISA Sound Card Replica</strong></p><p>An enthusiast has successfully replicated the classic Beavis Ultrasound PnP ISA sound card. This project brings retro hardware back to life for vintage computing fans.</p><p>一名爱好者成功复刻了经典的Beavis Ultrasound PnP ISA声卡。该项目为复古电脑爱好者提供了一次重温旧日硬件的机会。</p><p>Tags: retro · hardware · pc · audio</p>]]></description>
-</item>
-<item>
-<title>法国巴黎附近部署飞机扑灭“超大规模”野火</title>
-<link>https://www.bbc.co.uk/news/articles/clye4z168edo?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/clye4z168edo?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Mon, 13 Jul 2026 03:36:09 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Planes sent to tackle wildfires of &#x27;exceptional scale&#x27; near Paris</strong></p><p>Firefighting planes have been deployed near Paris for the first time to combat wildfires of exceptional scale. The extreme conditions are testing the regional response capabilities.</p><p>巴黎附近首次调动消防飞机以扑灭大规模野火。极端的天气条件对该地区的应急响应能力提出了巨大挑战。</p><p>Tags: paris · wildfire · environment</p>]]></description>
-</item>
-<item>
-<title>你这图「保真」吗？AI 生图时代的信息防伪</title>
-<link>https://sspai.com/post/112185</link>
-<guid isPermaLink="true">https://sspai.com/post/112185</guid>
-<pubDate>Mon, 13 Jul 2026 02:52:47 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>你这图「保真」吗？AI 生图时代的信息防伪</strong></p><p>As AI-generated images become indistinguishable from reality, the need for information authenticity verification grows. This article examines the technological and social challenges of detecting AI forgeries.</p><p>在人工智能生成图片难以辨别的时代，信息真伪验证变得至关重要。本文深入探讨了在AI浪潮下防范虚假信息的技术与社会挑战。</p><p>Tags: ai · security · photography · verification</p>]]></description>
-</item>
-<item>
-<title>英国夫妇重返致命西班牙野火肆虐的村庄</title>
-<link>https://www.bbc.co.uk/news/articles/cx24e09x79no?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cx24e09x79no?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Mon, 13 Jul 2026 00:29:21 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>British couple return to village at heart of deadly Spanish wildfire</strong></p><p>A British couple has returned to the site of a deadly wildfire in Spain that claimed 13 lives. The tragedy has left a significant impact on both the local community and international visitors.</p><p>一对英国夫妇重返西班牙一处致命野火现场，该事故共造成13人遇难。这场灾难给当地居民和外来游客留下了深刻的伤痛。</p><p>Tags: spain · wildfire · tragedy</p>]]></description>
-</item>
-<item>
-<title>比亚迪出口增长面临现金流与资产负债表风险</title>
-<link>https://seekingalpha.com/article/4921404-byd-stock-growing-exports-cash-flow-balance-sheet-risks-growth-pains?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4921404-byd-stock-growing-exports-cash-flow-balance-sheet-risks-growth-pains?source=feed_all_articles</guid>
-<pubDate>Sun, 12 Jul 2026 08:35:50 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>BYD&#x27;s Growing Exports Meet Cash Flow/Balance Sheet Risks - Growth Pains Persist</strong></p><p>BYD&#x27;s export expansion is currently encountering significant cash flow and balance sheet challenges. These growing pains highlight the difficulties the company faces while scaling its global operations.</p><p>比亚迪的出口扩张正面临严重的现金流和资产负债表挑战。这些增长带来的阵痛凸显了该公司在全球业务扩展过程中所遭遇的困境。</p><p>Tags: byd · ev · finance</p>]]></description>
-</item>
-<item>
-<title>美国参议员林赛·格雷厄姆因病去世</title>
-<link>https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Sun, 12 Jul 2026 08:14:08 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>US Senator Lindsey Graham dies after &#x27;brief and sudden illness&#x27;, his office says</strong></p><p>Influential US Senator Lindsey Graham has passed away following a brief and sudden illness. His death follows a recent official trip to Kyiv to meet with President Zelensky.</p><p>美国影响力人物林赛·格雷厄姆参议员因突发疾病不幸去世。就在此前的周五，他刚结束了对基辅的访问并会见了泽连斯基总统。</p><p>Tags: politics · usa · obituary</p>]]></description>
-</item>
-<item>
-<title>万能的AI，有什么实现高保真UI的途径吗？</title>
-<link>https://www.v2ex.com/t/1226723#reply2</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1226723#reply2</guid>
-<pubDate>Sun, 12 Jul 2026 08:13:38 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[前端开发] 万能的 AI，有什么实现高保真 UI 的途径吗？</strong></p><p>The author struggles with AI-generated UI designs that look too cluttered and lacks a professional aesthetic. They are seeking advice from front-end experts on how to use AI to achieve high-fidelity user interfaces.</p><p>作者对于AI生成的界面过于花哨且缺乏审美感到头疼，难以实现高保真UI。他正在向资深前端开发者请教如何正确使用AI进行设计。</p><p>Tags: ai · ui · frontend</p>]]></description>
-</item>
-<item>
-<title>7月大理与丽江旅游行程建议</title>
-<link>https://www.v2ex.com/t/1226722#reply2</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1226722#reply2</guid>
-<pubDate>Sun, 12 Jul 2026 08:12:23 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>[旅行] 7 月 21 想和对象去大理和丽江玩五六天，从上海出发，有什么建议吗</strong></p><p>A couple plans a relaxed 5-6 day trip from Shanghai to Dali and Lijiang. They are seeking advice on itinerary planning, transportation, and must-visit spots for their leisure-focused vacation.</p><p>一对情侣计划从上海出发，进行为期五六天的大理和丽江休闲游。他们正在寻求关于交通衔接和景点安排的建议，主打轻松自在。</p><p>Tags: travel · tourism · china</p>]]></description>
-</item>
-<item>
-<title>有关Opencode与OMO使用的疑问</title>
-<link>https://www.v2ex.com/t/1226720#reply7</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1226720#reply7</guid>
-<pubDate>Sun, 12 Jul 2026 08:03:08 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>[问与答] 有使用 opencode+omo 的吗？</strong></p><p>The user is encountering quota issues while using Opencode with OMO configurations. They are questioning if their usage method is incorrect due to rapid consumption of limits.</p><p>用户在使用Opencode配合OMO配置时遇到了额度迅速耗尽的问题。他们怀疑是自己的使用姿势不对，正在寻求相关经验。</p><p>Tags: opencode · llm · api</p>]]></description>
-</item>
-<item>
-<title>腾讯重仓的云豹智能冲刺IPO</title>
-<link>https://36kr.com/p/3892352153942530?f=rss</link>
-<guid isPermaLink="true">https://36kr.com/p/3892352153942530?f=rss</guid>
-<pubDate>Sun, 12 Jul 2026 07:59:37 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>腾讯重仓一个IPO</strong></p><p>Shenzhen-based Cloud Leopard Intelligence is seeking an IPO on the ChiNext board as a leading domestic DPU developer. Tencent has emerged as the company&#x27;s largest shareholder, underscoring its strategic importance in the semiconductor sector.</p><p>总部位于深圳的云豹智能正在冲刺创业板IPO，力争成为“国产DPU第一股”。腾讯作为其最大股东，展现了该项目在半导体领域的重要布局。</p><p>Tags: ipo · tencent · semiconductor</p>]]></description>
-</item>
-<item>
-<title>Lumen：入场紧急但回报滞后的耐心买入机会</title>
-<link>https://seekingalpha.com/article/4921403-lumen-stock-patient-buy-entry-urgent-but-payoff-isnt?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4921403-lumen-stock-patient-buy-entry-urgent-but-payoff-isnt?source=feed_all_articles</guid>
-<pubDate>Sun, 12 Jul 2026 07:58:33 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Lumen: A Patient Buy Where The Entry Is Urgent But The Payoff Isn&#x27;t</strong></p><p>Lumen presents a patient investment opportunity where immediate entry is advised. However, significant financial rewards are not expected in the short term.</p><p>Lumen目前是一个适合耐心持有者的投资标的，建议立即买入。但投资者不应预期短期内会有巨额回报。</p><p>Tags: lumen · stocks · investment</p>]]></description>
-</item>
-<item>
-<title>Vibe Coding之后，会不会出现Vibe Building？</title>
-<link>https://www.v2ex.com/t/1226718#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1226718#reply0</guid>
-<pubDate>Sun, 12 Jul 2026 07:58:17 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[奇思妙想] Vibe Coding 之后，会不会出现 Vibe Building？</strong></p><p>The author explores the potential for &#x27;Vibe Building,&#x27; where natural language is used to guide the entire construction process. This concept envisions an AI-integrated system that handles design, structural analysis, and site management.</p><p>作者探讨了“Vibe Building”的可能性，即通过自然语言驱动建筑的全流程，包括设计、分析及现场管理。这预示着AI将深度参与物理空间的创造。</p><p>Tags: ai · architecture · innovation</p>]]></description>
-</item>
-<item>
-<title>远程使用家里电脑上的AI Agent：PocketPilot</title>
-<link>https://www.v2ex.com/t/1226717#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1226717#reply0</guid>
-<pubDate>Sun, 12 Jul 2026 07:55:53 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[问与答] 人在外面，怎么继续家里电脑上的 Cursor / Codex？我做了一个本地 AI Agent Gateway-PocketPilot</strong></p><p>The author introduced PocketPilot, an open-source local AI Agent Gateway. It allows users to manage and access locally running coding agents like Cursor or Claude from remote devices via a web interface.</p><p>作者开发了PocketPilot，这是一个开源的本地AI Agent网关。它允许用户通过网页远程访问并管理家里电脑上运行的Cursor或Claude Agent。</p><p>Tags: github · ai · agent</p>]]></description>
-</item>
-<item>
-<title>Mar Vista Q2 2026投资组合活动</title>
-<link>https://seekingalpha.com/article/4921402-mar-vista-us-quality-premier-portfolio-q2-2026-portfolio-activity?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4921402-mar-vista-us-quality-premier-portfolio-q2-2026-portfolio-activity?source=feed_all_articles</guid>
-<pubDate>Sun, 12 Jul 2026 07:42:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Mar Vista U.S. Quality Premier Portfolio Q2 2026 Portfolio Activity</strong></p><p>Mar Vista has disclosed its portfolio activities for the second quarter of 2026. This report details the adjustments made within their U.S. Quality Premier fund.</p><p>Mar Vista公布了其2026年第二季度的投资组合调整情况。该报告详细说明了其优质美股基金的操作动态。</p><p>Tags: finance · portfolio · investment</p>]]></description>
-</item>
-<item>
-<title>中国疏散近两百万人以应对强台风登陆</title>
-<link>https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Sun, 12 Jul 2026 07:39:45 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>China evacuates nearly two million people as powerful typhoon makes landfall</strong></p><p>China has evacuated nearly two million people in anticipation of a powerful typhoon. Operations in Zhejiang province have been suspended to ensure public safety.</p><p>为应对强台风登陆，中国已紧急疏散近两百万人。浙江省内的学校、交通及户外活动均已暂停，以保障安全。</p><p>Tags: typhoon · china · climate</p>]]></description>
-</item>
-<item>
-<title>Mar Vista Q2 2026投资组合评论</title>
-<link>https://seekingalpha.com/article/4921400-mar-vista-us-quality-premier-portfolio-q2-2026-commentary?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4921400-mar-vista-us-quality-premier-portfolio-q2-2026-commentary?source=feed_all_articles</guid>
-<pubDate>Sun, 12 Jul 2026 07:34:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Mar Vista U.S. Quality Premier Portfolio Q2 2026 Commentary</strong></p><p>This commentary provides analysis on Mar Vista&#x27;s U.S. Quality Premier portfolio performance during Q2 2026. It highlights market trends and the firm&#x27;s strategic outlook.</p><p>本文提供了Mar Vista对2026年第二季度其美股优质投资组合的评论。分析了市场趋势及公司的战略展望。</p><p>Tags: finance · market · analysis</p>]]></description>
-</item>
-<item>
-<title>凯文·沃什的首次FOMC会议表现分析</title>
-<link>https://seekingalpha.com/article/4921398-kevin-warshs-first-fomc-meeting-was-a-success-but-where-does-it-lead?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4921398-kevin-warshs-first-fomc-meeting-was-a-success-but-where-does-it-lead?source=feed_all_articles</guid>
-<pubDate>Sun, 12 Jul 2026 07:17:37 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Kevin Warsh&#x27;s First FOMC Meeting Was A Success - But Where Does It Lead?</strong></p><p>Kevin Warsh&#x27;s debut at the FOMC meeting is considered a success by observers. The article discusses the potential long-term implications of his policy approach.</p><p>凯文·沃什在FOMC会议上的首次亮相被市场视为成功。文章进一步探讨了他未来政策路径的潜在影响。</p><p>Tags: fomc · economy · fed</p>]]></description>
-</item>
-<item>
-<title>消失的150亿美元事件有新进展</title>
-<link>https://36kr.com/p/3892321158773251?f=rss</link>
-<guid isPermaLink="true">https://36kr.com/p/3892321158773251?f=rss</guid>
-<pubDate>Sun, 12 Jul 2026 07:16:34 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>消失的150亿美元，有下文了</strong></p><p>The legal battle surrounding LVMH&#x27;s secret acquisition of Hermès shares continues, with new disclosures surfacing in a French court. A separate case involves LV suing a Chinese tea brand for trademark infringement.</p><p>LVMH秘密增持爱马仕股份的法律纠纷在法国法院有了新披露。同时，LV在中国起诉茉莉奶白商标侵权一案也引发了广泛关注。</p><p>Tags: lvmh · hermes · lawsuit</p>]]></description>
-</item>
-<item>
-<title>美国发起新一轮袭击，伊朗关闭霍尔木兹海峡</title>
-<link>https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Sun, 12 Jul 2026 06:49:46 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>US launches fresh strikes as Iran closes Strait of Hormuz</strong></p><p>Following an attack on a Cyprus-flagged vessel, the US has launched strikes in the region. Iran has responded by closing the strategic Strait of Hormuz.</p><p>在一艘塞浦路斯籍船只遭袭后，美国在该地区发动了袭击。作为回应，伊朗关闭了极具战略意义的霍尔木兹海峡。</p><p>Tags: iran · usa · conflict</p>]]></description>
-</item>
-<item>
-<title>Mindwalk：在代码库3D地图上重放AI编码会话</title>
-<link>https://github.com/cosmtrek/mindwalk</link>
-<guid isPermaLink="true">https://github.com/cosmtrek/mindwalk</guid>
-<pubDate>Sun, 12 Jul 2026 05:51:32 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase</strong></p><p>Mindwalk is a new tool that allows developers to replay AI coding sessions visually on a 3D map of their codebase. This provides a unique way to audit and understand agent behavior.</p><p>Mindwalk是一款新工具，允许开发者以3D地图的形式可视化重放AI编码过程。这为审计和理解AI智能体的行为提供了独特视角。</p><p>Tags: ai · coding · visualization</p>]]></description>
-</item>
-<item>
-<title>Anthropic澄清：Claude变笨的真正原因</title>
-<link>https://36kr.com/p/3892222176574211?f=rss</link>
-<guid isPermaLink="true">https://36kr.com/p/3892222176574211?f=rss</guid>
-<pubDate>Sun, 12 Jul 2026 05:47:23 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>全网骂Claude变笨，Anthropic下场揭秘：坑你的不是模型</strong></p><p>Anthropic has addressed user concerns regarding Claude&#x27;s performance, clarifying that model effectiveness depends on &#x27;Effort&#x27; settings rather than just choosing a larger model. Misunderstandings about these parameters led to negative feedback.</p><p>Anthropic回应了用户对Claude表现下降的关切，澄清模型效能取决于“努力度”设置而非单纯的模型规模。对参数配置的误解导致了用户的负面反馈。</p><p>Tags: anthropic · claude · llm</p>]]></description>
-</item>
-<item>
-<title>多伦多街头音乐节发生枪击案，致两人死亡</title>
-<link>https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Sun, 12 Jul 2026 03:56:02 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>At least two killed in Toronto street festival shooting</strong></p><p>A shooting during a street festival in Toronto resulted in at least two deaths. Police have recovered two firearms from the scene after an exchange of gunfire.</p><p>多伦多一场街头节日活动发生枪击事件，造成至少两人死亡。警方在交火现场找回了两支枪支，目前案件正在调查中。</p><p>Tags: toronto · crime · shooting</p>]]></description>
-</item>
-<item>
-<title>科技投资人聚焦成都新能源产业</title>
-<link>https://36kr.com/p/3892096788396806?f=rss</link>
-<guid isPermaLink="true">https://36kr.com/p/3892096788396806?f=rss</guid>
-<pubDate>Sun, 12 Jul 2026 03:27:05 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>这个周末，科技投资人都得飞一趟成都</strong></p><p>Chengdu is attracting significant investment in its green energy sector, with a new 1 billion yuan merger fund established. The move aims to integrate green energy operations and industrial financing.</p><p>成都正吸引大量资本布局新能源产业，新设立了规模达10亿元的并购基金。此举旨在推动绿色能源运营与产业金融的深度协同。</p><p>Tags: chengdu · energy · investment</p>]]></description>
-</item>
-<item>
-<title>具身智能数据采集行业现状：融资火热</title>
-<link>https://36kr.com/p/3892027841362694?f=rss</link>
-<guid isPermaLink="true">https://36kr.com/p/3892027841362694?f=rss</guid>
-<pubDate>Sun, 12 Jul 2026 02:16:07 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>近百名玩家涌入具身数据 : 一年融资44.7亿，谁能真靠“卖数据”赚钱？</strong></p><p>The embodied AI data collection industry has seen massive investment, with nearly 4.5 billion yuan raised in a year. The report analyzes various data acquisition techniques and market players.</p><p>具身智能数据采集行业在一年内融资近45亿元，热度高涨。本文详细梳理了该行业的各种采集路径及主要参与者现状。</p><p>Tags: robotics · ai · data</p>]]></description>
-</item>
-<item>
-<title>6月精选：17张不可错过的音乐专辑</title>
-<link>https://sspai.com/post/112035</link>
-<guid isPermaLink="true">https://sspai.com/post/112035</guid>
-<pubDate>Sun, 12 Jul 2026 02:03:12 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>6月音乐精选：不得不听的 17 张……没错 17 张专辑！</strong></p><p>This article highlights 17 notable music albums released in June. The selections span various genres and are recommended for music enthusiasts.</p><p>本文精选了6月份值得关注的17张音乐专辑。这些作品涵盖多种风格，诚意推荐给广大音乐爱好者收听。</p><p>Tags: music · album · recommendation</p>]]></description>
-</item>
-<item>
-<title>霸王龙化石可能成为史上最贵化石</title>
-<link>https://www.bbc.co.uk/news/articles/c4gykgyn1r4o?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c4gykgyn1r4o?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Sat, 11 Jul 2026 23:58:40 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>T. rex could become most expensive fossil ever - but it&#x27;s a ​problem for scientists</strong></p><p>A 67 million-year-old T. rex fossil is set for auction in New York with a $30 million valuation. Scientists express concern that high prices may hinder research accessibility.</p><p>一具拥有6700万年历史的霸王龙化石将在纽约拍卖，估价高达3000万美元。科学家担心高昂的价格会阻碍化石的科研价值普及。</p><p>Tags: paleontology · auction · science</p>]]></description>
-</item>
-<item>
-<title>Mesh LLM：基于Iroh的分布式AI计算</title>
-<link>https://www.iroh.computer/blog/mesh-llm</link>
-<guid isPermaLink="true">https://www.iroh.computer/blog/mesh-llm</guid>
-<pubDate>Sat, 11 Jul 2026 22:38:57 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>Mesh LLM: distributed AI computing on iroh</strong></p><p>Mesh LLM utilizes Iroh for distributed artificial intelligence computing. This approach aims to decentralize the workload for large language models.</p><p>Mesh LLM利用Iroh技术实现分布式人工智能计算。该方法旨在分散大语言模型的计算负载，提升效率。</p><p>Tags: llm · distributed · tech</p>]]></description>
 </item>
 </channel>
 </rss>
