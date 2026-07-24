@@ -6,6 +6,448 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1229612#reply0",
+      "url": "https://www.v2ex.com/t/1229612#reply0",
+      "title": "[问与答] AI 只能提高效率不能替代人",
+      "content_html": "<p><strong>[问与答] AI 只能提高效率不能替代人</strong></p><p>The user shares frustrations with AI-assisted programming, noting that lack of technical knowledge leads to repetitive errors. They emphasize that AI is an efficiency tool rather than a replacement for human expertise and review.</p><p>用户分享了在缺乏编程基础时使用AI开发的挫败感，指出AI难以处理复杂需求且容易产生Bug。作者认为AI目前仅是提高效率的工具，无法完全取代人工。</p><p>Tags: ai · programming · productivity</p>",
+      "date_published": "2026-07-24T09:15:20+00:00",
+      "tags": [
+        "ai",
+        "programming",
+        "productivity"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4925205-oil-drives-rates-more-than-ecb-speak?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4925205-oil-drives-rates-more-than-ecb-speak?source=feed_all_articles",
+      "title": "利率刺激：油价对利率的影响超过了欧洲央行的言论",
+      "content_html": "<p><strong>Rates Spark: Oil Drives Rates More Than ECB Speak</strong></p><p>The article discusses how oil price fluctuations currently exert a stronger influence on market interest rates than the public statements made by the European Central Bank. This highlights the sensitivity of financial markets to energy costs over policy rhetoric.</p><p>文章分析称，目前油价波动对利率的影响力超过了欧洲央行的政策表态。这反映了金融市场对能源价格变动的敏感度高于央行言论。</p><p>Tags: rates · oil · ecb</p>",
+      "date_published": "2026-07-24T09:15:00+00:00",
+      "tags": [
+        "rates",
+        "oil",
+        "ecb"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
+      "title": "法国下令疏散游客：数百人乘船逃离野火",
+      "content_html": "<p><strong>France orders evacuation of tourist spot as hundreds flee wildfires by boat</strong></p><p>Severe wildfires have forced officials to order the evacuation of the Cap Ferret peninsula in France. Hundreds of tourists have fled the danger zone by boat as the situation intensifies.</p><p>法国因野火肆虐下令疏散费雷角半岛，数百名游客被迫乘船逃离。当地火势持续失控，官方已采取紧急撤离措施。</p><p>Tags: france · wildfire · evacuation</p>",
+      "date_published": "2026-07-24T09:13:32+00:00",
+      "tags": [
+        "france",
+        "wildfire",
+        "evacuation"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1229611#reply0",
+      "url": "https://www.v2ex.com/t/1229611#reply0",
+      "title": "[Claude] fable5+gpt sol max， 2 个该怎么无缝切换/合用？",
+      "content_html": "<p><strong>[Claude] fable5+gpt sol max， 2 个该怎么无缝切换/合用？</strong></p><p>A user asks about the best workflow for alternating between Claude and Sol models within a single project. They are looking for ways to maintain context consistency when switching between different AI tools.</p><p>用户咨询如何在同一项目中无缝切换或结合使用Claude和Sol模型。重点在于探讨如何确保模型切换过程中的上下文连续性。</p><p>Tags: claude · llm · workflow</p>",
+      "date_published": "2026-07-24T09:07:19+00:00",
+      "tags": [
+        "claude",
+        "llm",
+        "workflow"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4925182-ermenegildo-zegna-improving-momentum-but-valuation-and-brand-complexity-limit-upside?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4925182-ermenegildo-zegna-improving-momentum-but-valuation-and-brand-complexity-limit-upside?source=feed_all_articles",
+      "title": "杰尼亚（Ermenegildo Zegna）：势头改善，但估值和品牌复杂性限制了上涨空间",
+      "content_html": "<p><strong>Ermenegildo Zegna: Improving Momentum, But Valuation And Brand Complexity Limit Upside</strong></p><p>Ermenegildo Zegna is seeing improved operational momentum, though analysts remain cautious about the stock. Current valuation and the complexity of managing their brand portfolio are cited as limiting factors for growth.</p><p>杰尼亚集团近期经营势头向好，但分析师对其股价前景持谨慎态度。估值水平及品牌管理的复杂性被视为制约其进一步上涨的关键因素。</p><p>Tags: zegna · valuation · stocks</p>",
+      "date_published": "2026-07-24T09:07:08+00:00",
+      "tags": [
+        "zegna",
+        "valuation",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1229610#reply0",
+      "url": "https://www.v2ex.com/t/1229610#reply0",
+      "title": "[问与答] 老哥们， Safari 用不了 Web 版的 Apifox 吗？",
+      "content_html": "<p><strong>[问与答] 老哥们， Safari 用不了 Web 版的 Apifox 吗？</strong></p><p>A user reports issues with using the web version of Apifox in the Safari browser despite disabling local file and cross-origin restrictions. They are seeking troubleshooting advice from the community.</p><p>用户反映Safari浏览器即使禁用了跨源限制，仍无法正常使用Apifox网页版。他们正寻求社区提供解决方案。</p><p>Tags: safari · apifox · web</p>",
+      "date_published": "2026-07-24T09:06:15+00:00",
+      "tags": [
+        "safari",
+        "apifox",
+        "web"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1229609#reply0",
+      "url": "https://www.v2ex.com/t/1229609#reply0",
+      "title": "[问与答] 如何在多仓库VSCode工作区中切换CC扩展资源？",
+      "content_html": "<p><strong>[问与答] vscode+cc 扩展,打开一个 workspace,包含多个 git 仓库的情况下,cc 默认工作目录在第一个(包括特有的项目级 mcp/skill),他不能识别到另一个仓库的资源,再不用 cli 的情况下,如何能够在多个项目间切换?</strong></p><p>The user is struggling to manage AI resources and MCP skills in VSCode workspaces containing multiple Git repositories. They are seeking ways to switch between project-level configurations without using the CLI.</p><p>用户询问在包含多个Git仓库的VSCode工作区中，如何无需通过命令行即可在不同项目间切换资源。目前CC扩展默认仅识别第一个仓库。</p><p>Tags: vscode · git · developer</p>",
+      "date_published": "2026-07-24T09:05:52+00:00",
+      "tags": [
+        "vscode",
+        "git",
+        "developer"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4925203-vontobel-holding-ag-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4925203-vontobel-holding-ag-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "title": "冯托贝尔控股（Vontobel Holding AG）2026年第二季度业绩报告及电话会议演示",
+      "content_html": "<p><strong>Vontobel Holding AG 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>Vontobel Holding AG released its Q2 2026 financial results during an earnings call. The presentation outlines the company&#x27;s performance and strategic outlook for the upcoming quarters.</p><p>冯托贝尔控股发布了2026年第二季度财务业绩报告及分析师电话会议材料。报告概括了公司近期表现及未来财务展望。</p><p>Tags: vontobel · earnings · finance</p>",
+      "date_published": "2026-07-24T09:03:11+00:00",
+      "tags": [
+        "vontobel",
+        "earnings",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/hollywood-home-of-martin-shorts-late-daughter-is-listed-for-1-8-million-632e4a12?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/hollywood-home-of-martin-shorts-late-daughter-is-listed-for-1-8-million-632e4a12?mod=mw_rss_topstories",
+      "title": "马丁·肖特女儿故居以180万美元挂牌出售",
+      "content_html": "<p><strong>Hollywood home of Martin Short’s late daughter is listed for $1.8 million</strong></p><p>The California home where Katherine Short, daughter of actor Martin Short, passed away has been listed for sale. The property is on the market just five months after her untimely death.</p><p>演员马丁·肖特的女儿凯瑟琳去世后的加州故居近日挂牌出售。该房产在其去世仅五个月后即被推向市场。</p><p>Tags: realestate · martinshort · california</p>",
+      "date_published": "2026-07-24T09:03:00+00:00",
+      "tags": [
+        "realestate",
+        "martinshort",
+        "california"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4925202-wal-mart-de-mexico-s-a-b-de-c-v-adr-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4925202-wal-mart-de-mexico-s-a-b-de-c-v-adr-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "title": "沃尔玛墨西哥（Wal-Mart De Mexico）2026年第二季度业绩报告及电话会议演示",
+      "content_html": "<p><strong>Wal-Mart De Mexico S.A.B. de C.V. ADR 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>Wal-Mart De Mexico presented its financial performance for the second quarter of 2026. The earnings call covers growth metrics and operational updates for the Latin American market.</p><p>沃尔玛墨西哥公司公布了2026年第二季度财务业绩并举行分析师会议。内容涵盖了其在拉美市场的增长指标及运营更新。</p><p>Tags: walmart · mexico · earnings</p>",
+      "date_published": "2026-07-24T09:02:45+00:00",
+      "tags": [
+        "walmart",
+        "mexico",
+        "earnings"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1229608#reply0",
+      "url": "https://www.v2ex.com/t/1229608#reply0",
+      "title": "[问与答] 现在还有 gpt 注册机可用吗",
+      "content_html": "<p><strong>[问与答] 现在还有 gpt 注册机可用吗</strong></p><p>A user is inquiring about the current availability of automated tools for registering OpenAI accounts. They appear to be seeking ways to bypass manual registration processes.</p><p>用户咨询目前市面上是否还有可用的GPT自动注册工具。这反映了用户试图绕过手动注册流程的诉求。</p><p>Tags: openai · gpt · registration</p>",
+      "date_published": "2026-07-24T09:02:16+00:00",
+      "tags": [
+        "openai",
+        "gpt",
+        "registration"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4925201-jakks-pacific-inc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4925201-jakks-pacific-inc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "title": "JAKKS Pacific, Inc. 2026年第二季度业绩报告及电话会议演示",
+      "content_html": "<p><strong>JAKKS Pacific, Inc. 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>JAKKS Pacific released their Q2 2026 financial results during an earnings call. The discussion focuses on revenue, toy sales, and general corporate performance.</p><p>JAKKS Pacific发布了2026年第二季度财报。电话会议主要讨论了公司的营收状况、玩具销售数据及整体表现。</p><p>Tags: jakks · earnings · finance</p>",
+      "date_published": "2026-07-24T09:02:06+00:00",
+      "tags": [
+        "jakks",
+        "earnings",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2580928-we-now-know-how-a-black-hole-can-be-flung-across-the-universe/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2580928-we-now-know-how-a-black-hole-can-be-flung-across-the-universe/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "科学家揭示黑洞被“甩出”银河系的机制",
+      "content_html": "<p><strong>We now know how a black hole can be flung across the universe</strong></p><p>Researchers have discovered why some black holes are ejected from their host galaxies at high speeds. This new explanation resolves a long-standing mystery regarding black hole dynamics in the universe.</p><p>研究人员揭开了部分黑洞以高速被甩出其宿主星系的谜团。这项发现解释了宇宙中黑洞动力学的关键机制。</p><p>Tags: blackhole · astrophysics · science</p>",
+      "date_published": "2026-07-24T09:00:00+00:00",
+      "tags": [
+        "blackhole",
+        "astrophysics",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+      "title": "美国对多国实施新一轮关税政策",
+      "content_html": "<p><strong>US hits dozens of countries with new wave of tariffs</strong></p><p>The U.S. has imposed new tariffs on dozens of countries, citing forced labor concerns. These measures replace previous global duties that were struck down by the Supreme Court earlier this year.</p><p>美国以强迫劳动为由，对多个国家实施了新一轮关税。此举旨在取代此前被最高法院驳回的临时性全球关税政策。</p><p>Tags: usa · tariffs · trade</p>",
+      "date_published": "2026-07-24T08:59:31+00:00",
+      "tags": [
+        "usa",
+        "tariffs",
+        "trade"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ckg68jky65eo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/ckg68jky65eo?at_medium=RSS&at_campaign=rss",
+      "title": "韩国科技巨头被法院判决向离婚的前妻支付6.44亿美元",
+      "content_html": "<p><strong>Tech titan ordered to pay ex-wife $644m in divorce settlement</strong></p><p>The chairman of a major South Korean company has been ordered to pay $644 million in a high-profile divorce settlement. The case has garnered significant public and media attention in South Korea.</p><p>韩国某科技巨头董事长在离婚诉讼中被判支付6.44亿美元的赔偿金。此案引发了韩国社会的广泛关注。</p><p>Tags: divorce · korea · settlement</p>",
+      "date_published": "2026-07-24T08:30:58+00:00",
+      "tags": [
+        "divorce",
+        "korea",
+        "settlement"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://36kr.com/p/3909358392988806?f=rss",
+      "url": "https://36kr.com/p/3909358392988806?f=rss",
+      "title": "对话曾鸣教授：AI时代，企业竞争的关键是构建智能复利",
+      "content_html": "<p><strong>对话曾鸣教授：AI时代，企业竞争的关键是构建智能复利，让AI真正进入业务流程</strong></p><p>Professor Zeng Ming argues that the key to competition in the AI era is building &#x27;intelligent compound interest&#x27; by integrating AI into core business processes. He suggests that AI is redefining business models and organizational structures.</p><p>曾鸣教授指出，AI时代的竞争核心在于构建“智能复利”，通过让AI深入业务流程实现价值。他认为AI正在从根本上重塑企业的商业模式与组织形态。</p><p>Tags: ai · strategy · business</p>",
+      "date_published": "2026-07-24T08:06:05+00:00",
+      "tags": [
+        "ai",
+        "strategy",
+        "business"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/wise-group-shares-tank-after-u-s-bank-charter-rejected-whats-next-for-the-fintech-91be430f?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/wise-group-shares-tank-after-u-s-bank-charter-rejected-whats-next-for-the-fintech-91be430f?mod=mw_rss_topstories",
+      "title": "Wise Group股价因美国银行牌照申请被拒而大跌",
+      "content_html": "<p><strong>Wise Group shares tank after U.S. bank charter rejected. What’s next for the fintech.</strong></p><p>Wise Group shares dropped by 11% after regulators denied their application for a national bank charter in the U.S. The fintech firm is now evaluating its next strategic steps in the American market.</p><p>Wise Group因申请美国国家银行牌照被拒，股价下跌11%。这家金融科技公司目前正在评估其在美国市场的后续战略方向。</p><p>Tags: wise · fintech · stocks</p>",
+      "date_published": "2026-07-24T08:06:00+00:00",
+      "tags": [
+        "wise",
+        "fintech",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2581110-there-are-only-a-few-anti-ageing-supplements-that-actually-work/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2581110-there-are-only-a-few-anti-ageing-supplements-that-actually-work/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "只有少数抗衰老补品真正有效",
+      "content_html": "<p><strong>There are only a few anti-ageing supplements that actually work</strong></p><p>Science columnist Graham Lawton examines the market for anti-aging supplements and finds that only a few have scientific evidence backing their efficacy. Despite widespread skepticism, some supplements may improve biological age markers.</p><p>专栏作家Graham Lawton对市面上的抗衰老补品进行了测评，发现仅有少数具备科学依据。尽管存在质疑，部分补品确实在改善生物学年龄指标方面显示出一定潜力。</p><p>Tags: science · health · longevity</p>",
+      "date_published": "2026-07-24T08:00:00+00:00",
+      "tags": [
+        "science",
+        "health",
+        "longevity"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/",
+      "url": "https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/",
+      "title": "PImpl 惯用法与 C++26 的 std::indirect 类型",
+      "content_html": "<p><strong>The PImpl idiom and the C++26 std:indirect type</strong></p><p>This technical discussion explores the PImpl idiom in C++ and how the upcoming C++26 std::indirect type may affect memory management and compilation times. The post highlights evolving practices in modern C++ programming.</p><p>文章探讨了C++中的PImpl惯用法，以及即将推出的C++26标准中std::indirect类型对编译和内存管理的影响。这展示了现代C++编程实践的演进。</p><p>Tags: cpp · programming · coding</p>",
+      "date_published": "2026-07-24T07:02:43+00:00",
+      "tags": [
+        "cpp",
+        "programming",
+        "coding"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://sspai.com/post/112232",
+      "url": "https://sspai.com/post/112232",
+      "title": "角落新声｜数字与实体、有线与无线：我的多场景有声角落构建",
+      "content_html": "<p><strong>角落新声｜数字与实体、有线与无线：我的多场景有声角落构建</strong></p><p>The author shares their experience in building a versatile audio setup for various scenarios. The article focuses on blending digital and physical hardware to create a perfect personal listening environment.</p><p>作者分享了构建多场景音频空间的心得，探讨了如何结合数字与实体、有线与无线设备，打造专属的音乐聆听角落。</p><p>Tags: audio · hifi · lifestyle</p>",
+      "date_published": "2026-07-24T07:00:00+00:00",
+      "tags": [
+        "audio",
+        "hifi",
+        "lifestyle"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://bfl.ai/blog/flux-3",
+      "url": "https://bfl.ai/blog/flux-3",
+      "title": "Flux 3 模型讨论",
+      "content_html": "<p><strong>Flux 3</strong></p><p>Hacker News community discusses the latest developments and releases regarding the Flux 3 model. Users analyze its performance and technical implementation.</p><p>Hacker News社区讨论了Flux 3模型的最新进展。用户对该模型的表现及技术实现方式进行了深度分析。</p><p>Tags: flux · ai · llm</p>",
+      "date_published": "2026-07-24T06:17:08+00:00",
+      "tags": [
+        "flux",
+        "ai",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://36kr.com/p/3909084356433025?f=rss",
+      "url": "https://36kr.com/p/3909084356433025?f=rss",
+      "title": "DeepSeek：服务于理想的现实主义公司",
+      "content_html": "<p><strong>DeepSeek不是理想主义公司，它只是把现实服务于理想</strong></p><p>The article profiles DeepSeek, highlighting its shift from a mysterious research team to a company balancing long-term AGI goals with practical revenue generation. The leadership is focused on building sustainable growth.</p><p>文章分析了DeepSeek公司，称其通过平衡长期的通用人工智能愿景与现实的商业交付，在AI领域取得了成功。公司目前正致力于构建可持续的增长模式。</p><p>Tags: deepseek · agi · business</p>",
+      "date_published": "2026-07-24T04:26:38+00:00",
+      "tags": [
+        "deepseek",
+        "agi",
+        "business"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://sspai.com/post/112679",
+      "url": "https://sspai.com/post/112679",
+      "title": "赛博对话｜电子产品真的在悄悄变贵吗？",
+      "content_html": "<p><strong>赛博对话｜对话潘玮哲x老麦煮机：电子产品在悄悄变贵！</strong></p><p>The conversation explores the recent trend of rising prices in consumer electronics despite the promise of AI-driven efficiency. Analysts discuss market factors affecting hardware affordability.</p><p>对话探讨了为何在AI技术驱动效率提升的背景下，电子产品价格却在持续上涨。分析师对此进行了多维度的市场解读。</p><p>Tags: electronics · price · market</p>",
+      "date_published": "2026-07-24T03:00:00+00:00",
+      "tags": [
+        "electronics",
+        "price",
+        "market"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://36kr.com/p/3909033052722310?f=rss",
+      "url": "https://36kr.com/p/3909033052722310?f=rss",
+      "title": "带着AI去前线：2026世界人工智能大会全行业趋势观察",
+      "content_html": "<p><strong>带着AI去前线！36氪逛透WAIC，带你看懂2026全行业AI最真实走向！</strong></p><p>Reporting from WAIC 2026, this article highlights the shift in AI industry focus from technical benchmarks to real-world business application and system delivery. AI is increasingly viewed as an operational partner.</p><p>36氪深入2026世界人工智能大会，指出AI行业正从追求模型参数转向关注真实场景的应用交付。AI正在成为企业业务流程中的智能伙伴。</p><p>Tags: waic · ai · business</p>",
+      "date_published": "2026-07-24T02:37:12+00:00",
+      "tags": [
+        "waic",
+        "ai",
+        "business"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://sspai.com/post/112677",
+      "url": "https://sspai.com/post/112677",
+      "title": "派早报：Acrab 发布边缘 AI 芯片及个人 AI 系统",
+      "content_html": "<p><strong>派早报：Acrab 发布边缘 AI 芯片 GELIX 1 和个人 AI 系统 Agent Box 等</strong></p><p>Daily tech news summary covering Acrab&#x27;s new edge AI hardware and EU fines for Google. Also notes Anthropic&#x27;s expansion of Claude voice mode features.</p><p>今日科技快报涵盖Acrab发布边缘AI芯片及个人智能系统，欧盟对Google罚款，以及Anthropic扩大Claude语音功能支持范围的消息。</p><p>Tags: news · hardware · ai</p>",
+      "date_published": "2026-07-24T00:33:05+00:00",
+      "tags": [
+        "news",
+        "hardware",
+        "ai"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://36kr.com/p/3908881985901959?f=rss",
+      "url": "https://36kr.com/p/3908881985901959?f=rss",
+      "title": "8点1氪｜段永平谈投资；中国数学家获菲尔兹奖",
+      "content_html": "<p><strong>8点1氪丨段永平称10年内大概率不会卖泡泡玛特；中国数学家王虹、邓煜获得菲尔兹奖；宜家回应甩卖8处物业：不代表退出中国市场</strong></p><p>Highlights include Duan Yongping’s outlook on Pop Mart, Chinese mathematicians winning the Fields Medal, and IKEA’s response to property sell-offs. The tech industry also sees leadership changes.</p><p>摘要包括段永平对泡泡玛特的投资观点、中国数学家获得菲尔兹奖，以及宜家对物业出售的回应。科技圈动态包括重要人才流动及行业新闻。</p><p>Tags: news · investment · math</p>",
+      "date_published": "2026-07-24T00:00:48+00:00",
+      "tags": [
+        "news",
+        "investment",
+        "math"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/peptides-could-soon-become-widely-available-in-the-u-s-heres-what-happens-next-ead02287?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/peptides-could-soon-become-widely-available-in-the-u-s-heres-what-happens-next-ead02287?mod=mw_rss_topstories",
+      "title": "FDA 顾问建议将 BPC-157 等肽类药物合法化",
+      "content_html": "<p><strong>Most FDA advisers say peptides like BPC-157 and TB-500 should be made available in the U.S. Here’s what happens next.</strong></p><p>FDA advisers are recommending that specific peptides like BPC-157 be made available for compounding in the U.S. This decision could significantly impact medical treatments involving performance-enhancing or healing substances.</p><p>FDA顾问组建议将BPC-157等七种肽类物质纳入合法复配范围。此举可能显著改变美国对特定功能性药物的医疗监管格局。</p><p>Tags: fda · medicine · peptides</p>",
+      "date_published": "2026-07-23T23:43:00+00:00",
+      "tags": [
+        "fda",
+        "medicine",
+        "peptides"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
+      "title": "印度尼西亚婴儿被贩卖至新加坡：后续处理不明",
+      "content_html": "<p><strong>Indonesian babies were trafficked to Singapore. What happens to them now?</strong></p><p>Investigations have revealed that at least 12 babies were trafficked from Indonesia to Singapore. The legal status and future of these infants remain uncertain as officials investigate the criminal network.</p><p>调查显示至少有12名印尼婴儿被贩卖至新加坡。目前相关部门正在调查犯罪网络，受害婴儿的法律归属与后续安置尚不明朗。</p><p>Tags: trafficking · singapore · indonesia</p>",
+      "date_published": "2026-07-23T23:19:58+00:00",
+      "tags": [
+        "trafficking",
+        "singapore",
+        "indonesia"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "title": "Alexa Plus 更新引入更复杂的 AI 指令处理功能",
+      "content_html": "<p><strong>Alexa Plus is getting an AI update to handle more complicated instructions</strong></p><p>Amazon is enhancing Alexa Plus with AI updates that allow the assistant to interact more intelligently with a wider range of smart home devices. The feature is currently in preview.</p><p>亚马逊为Alexa Plus推送AI更新，支持其更智能地联动多品牌智能家居设备。该功能目前处于预览阶段。</p><p>Tags: amazon · alexa · smarthome</p>",
+      "date_published": "2026-07-23T21:15:06+00:00",
+      "tags": [
+        "amazon",
+        "alexa",
+        "smarthome"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/gadgets/970254/amazon-echo-show-21-deal-sale",
+      "url": "https://www.theverge.com/gadgets/970254/amazon-echo-show-21-deal-sale",
+      "title": "Echo Show 21 智能屏幕降价 80 美元",
+      "content_html": "<p><strong>The Echo Show 21 is a great smart home hub that’s $80 off</strong></p><p>The Echo Show 21 smart display is currently discounted, making it a competitive option as a multi-functional smart home hub. The device integrates TV, smart controls, and productivity tools.</p><p>Echo Show 21智能显示屏近期优惠80美元。该设备整合了电视、智能家居控制及生产力工具，性价比进一步提升。</p><p>Tags: amazon · echoshow · discount</p>",
+      "date_published": "2026-07-23T20:36:40+00:00",
+      "tags": [
+        "amazon",
+        "echoshow",
+        "discount"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/policy/970284/brendan-carr-fcc-chairman-first-amendment",
+      "url": "https://www.theverge.com/policy/970284/brendan-carr-fcc-chairman-first-amendment",
+      "title": "FCC 主席 Brendan Carr 对言论自由的挑战",
+      "content_html": "<p><strong>FCC Chairman Brendan Carr’s war on the First Amendment</strong></p><p>Critics accuse FCC Chairman Brendan Carr of using his regulatory power to threaten broadcasters who exercise free speech. The situation highlights tensions regarding media independence and government pressure.</p><p>FCC主席Brendan Carr因利用监管权力威胁行使言论自由的广播公司而饱受争议。这引发了关于媒体独立性与行政压力的深刻讨论。</p><p>Tags: fcc · policy · freespeech</p>",
+      "date_published": "2026-07-23T19:46:11+00:00",
+      "tags": [
+        "fcc",
+        "policy",
+        "freespeech"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49026810",
+      "url": "https://news.ycombinator.com/item?id=49026810",
+      "title": "Echo：以三分之一的成本实现媲美 Fable 的 AI 结果",
+      "content_html": "<p><strong>Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models</strong></p><p>Developers are sharing a new project, Echo, which claims to match the AI performance of Fable while significantly reducing operational costs. The open-weight model approach is the key to this efficiency.</p><p>开发者展示了新项目Echo，宣称能在降低成本至三分之一的情况下，实现媲美Fable的AI结果。开放权重模型是实现高效率的关键。</p><p>Tags: ai · opensource · efficiency</p>",
+      "date_published": "2026-07-23T19:26:01+00:00",
+      "tags": [
+        "ai",
+        "opensource",
+        "efficiency"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2581151-this-el-nino-will-be-the-hottest-by-a-huge-margin/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2581151-this-el-nino-will-be-the-hottest-by-a-huge-margin/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "厄尔尼诺现象加剧，全球气温或创历史新高",
+      "content_html": "<p><strong>This El Niño will be the hottest by a huge margin</strong></p><p>A super El Niño event is developing in the Pacific with a 90% chance of becoming the strongest in 150 years. This weather pattern is expected to trigger record-breaking global temperatures and extreme conditions.</p><p>太平洋正在形成超级厄尔尼诺现象，有90%的概率成为150年最强。预计这将导致全球气温打破纪录并引发极端天气。</p><p>Tags: climate · elnino · weather</p>",
+      "date_published": "2026-07-23T18:00:39+00:00",
+      "tags": [
+        "climate",
+        "elnino",
+        "weather"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+      "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+      "title": "过冷肾脏移植成功进入猪体，实现“里程碑式成就”",
+      "content_html": "<p><strong>Supercooled kidneys have been transplanted into pigs in a “landmark achievement”</strong></p><p>Surgeons have successfully transplanted kidneys that were preserved via supercooling into pigs. This breakthrough could drastically extend the viability of donor organs and increase transplant success rates.</p><p>外科医生成功将过冷保存的肾脏移植到猪体内，取得了里程碑式进展。该技术有望显著延长捐赠器官的保存时间，提升移植成功率。</p><p>Tags: medicine · transplant · science</p>",
+      "date_published": "2026-07-23T16:58:28+00:00",
+      "tags": [
+        "medicine",
+        "transplant",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
       "id": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
       "url": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
       "title": "美国与沙特签署里程碑式核能协议",
@@ -2176,448 +2618,6 @@
         "rocket"
       ],
       "_category": "SCI"
-    },
-    {
-      "id": "https://www.theverge.com/tech/966964/emtb-riders-are-not-cheaters",
-      "url": "https://www.theverge.com/tech/966964/emtb-riders-are-not-cheaters",
-      "title": "好吧，电动山地车确实不烂",
-      "content_html": "<p><strong>Fine, electric mountain bikes don’t suck</strong></p><p>The author shares a personal realization that electric mountain bikes are actually enjoyable to ride. Despite previous skepticism from a purist perspective, the experience with new models has changed their mind.</p><p>作者分享了其对电动山地车的改观，认为它们实际上非常有趣。尽管此前持纯粹主义者的怀疑态度，但新款车型的体验改变了看法。</p><p>Tags: ebike · cycling · lifestyle</p>",
-      "date_published": "2026-07-18T07:00:00+00:00",
-      "tags": [
-        "ebike",
-        "cycling",
-        "lifestyle"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://maurycyz.com/projects/bad_jpeg/",
-      "url": "https://maurycyz.com/projects/bad_jpeg/",
-      "title": "回归JPEG格式",
-      "content_html": "<p><strong>Regressive JPEGs</strong></p><p>A discussion regarding the technical merits and historical context of JPEG compression. The conversation highlights why this format remains relevant despite the emergence of newer image standards.</p><p>关于JPEG压缩技术的优劣及历史背景的讨论。讨论强调了尽管出现了较新的图像标准，JPEG格式为何依然具有实用价值。</p><p>Tags: jpeg · image · compression</p>",
-      "date_published": "2026-07-18T03:14:20+00:00",
-      "tags": [
-        "jpeg",
-        "image",
-        "compression"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://sspai.com/post/112398",
-      "url": "https://sspai.com/post/112398",
-      "title": "小米NAS拆解与初步上手：它会是你的第一台NAS吗？",
-      "content_html": "<p><strong>小米 NAS 拆解与初步上手：它会是你的第一台 NAS 吗？</strong></p><p>An in-depth review and teardown of the new Xiaomi NAS device. It is positioned as an ideal storage solution for existing Xiaomi ecosystem users.</p><p>对小米新款NAS设备的深度评测与拆解。该产品被定位为小米生态系统用户理想的入门级存储解决方案。</p><p>Tags: xiaomi · nas · hardware</p>",
-      "date_published": "2026-07-18T03:10:35+00:00",
-      "tags": [
-        "xiaomi",
-        "nas",
-        "hardware"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
-      "title": "特朗普威胁对加拿大加征新关税，因火灾向美国城市排放“肮脏”空气",
-      "content_html": "<p><strong>Trump threatens new Canada tariffs over fires sending &#x27;filthy&#x27; air into US cities</strong></p><p>Donald Trump has threatened to impose new tariffs on Canada, citing air pollution caused by wildfires. Canadian officials emphasize that both nations share responsibility for addressing climate change.</p><p>特朗普威胁因野火产生的空气污染对加拿大加征关税。加拿大官员则强调两国均有责任共同应对气候变化。</p><p>Tags: trump · canada · climate</p>",
-      "date_published": "2026-07-18T01:29:47+00:00",
-      "tags": [
-        "trump",
-        "canada",
-        "climate"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/meet-kimi-k3-the-newest-chinese-ai-model-haunting-silicon-valley-755ed738?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/meet-kimi-k3-the-newest-chinese-ai-model-haunting-silicon-valley-755ed738?mod=mw_rss_topstories",
-      "title": "遇见Kimi K3，这款让硅谷担忧的最新中国AI模型",
-      "content_html": "<p><strong>Meet Kimi K3, the newest Chinese AI model haunting Silicon Valley</strong></p><p>Moonshot AI has released Kimi K3, a new open model that is rapidly closing the gap with major Western AI labs. Its performance is raising questions about the future of the international AI race.</p><p>月之暗面发布了Kimi K3，这一新款开源模型正迅速缩小与西方顶尖AI实验室的差距。其表现引发了关于全球AI竞赛未来的讨论。</p><p>Tags: kimi · moonshot · llm</p>",
-      "date_published": "2026-07-18T01:17:00+00:00",
-      "tags": [
-        "kimi",
-        "moonshot",
-        "llm"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://36kr.com/p/3900449325287305?f=rss",
-      "url": "https://36kr.com/p/3900449325287305?f=rss",
-      "title": "9点1氪丨ofo停更5年突然发文，运营主体仍处存续状态；苹果市值重返全球第一",
-      "content_html": "<p><strong>9点1氪丨ofo停更5年突然发文，运营主体仍处存续状态；苹果市值重返全球第一；乐事回应“蓝色薯片”来源</strong></p><p>Ofo has unexpectedly updated its WeChat account after five years of silence, though the company remains in a difficult financial state. Meanwhile, Apple has reclaimed its position as the world&#x27;s most valuable company.</p><p>ofo在沉寂五年后意外更新公众号，尽管运营主体仍深陷财务困境。与此同时，苹果公司市值已重返全球第一。</p><p>Tags: ofo · apple · news</p>",
-      "date_published": "2026-07-18T01:05:45+00:00",
-      "tags": [
-        "ofo",
-        "apple",
-        "news"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://36kr.com/p/3900439867147909?f=rss",
-      "url": "https://36kr.com/p/3900439867147909?f=rss",
-      "title": "印奇在 WAIC 2026 开幕式主论坛发表主题演讲：当智能体走进物理世界",
-      "content_html": "<p><strong>印奇在 WAIC 2026 开幕式主论坛发表主题演讲：当智能体走进物理世界</strong></p><p>At WAIC 2026, Yin Qi discussed the transition of AI from digital tools to physical world agents. He emphasized that AI capability is reaching a critical threshold to perform autonomous long-term tasks.</p><p>在WAIC 2026大会上，印奇探讨了AI从数字工具向物理世界智能体的转型。他强调AI能力已达到临界点，能独立执行长周期任务。</p><p>Tags: waic · agent · ai</p>",
-      "date_published": "2026-07-18T00:53:35+00:00",
-      "tags": [
-        "waic",
-        "agent",
-        "ai"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/the-world-cupwinning-side-will-make-50-million-and-the-irs-gets-a-cut-10f0780b?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/the-world-cupwinning-side-will-make-50-million-and-the-irs-gets-a-cut-10f0780b?mod=mw_rss_topstories",
-      "title": "世界杯冠军球队将获得5000万美元奖金，但美国国税局要分一杯羹",
-      "content_html": "<p><strong>The World Cup–winning side will make $50 million — and the IRS gets a cut</strong></p><p>The winning team of the World Cup stands to earn $50 million, yet the IRS will claim a portion as tax. This report highlights the significant financial implications of global tournament winnings.</p><p>世界杯冠军球队将获得5000万美元奖金，但美国国税局将从中征税。该报道强调了全球赛事奖金背后的重大税务影响。</p><p>Tags: tax · worldcup · finance</p>",
-      "date_published": "2026-07-17T23:05:00+00:00",
-      "tags": [
-        "tax",
-        "worldcup",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/spacex-postponed-a-crucial-launch-now-its-stock-is-set-to-slide-even-further-below-the-ipo-price-143adfe0?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/spacex-postponed-a-crucial-launch-now-its-stock-is-set-to-slide-even-further-below-the-ipo-price-143adfe0?mod=mw_rss_topstories",
-      "title": "SpaceX推迟了一次关键发射，其股价连续第二天收于IPO价格以下",
-      "content_html": "<p><strong>SpaceX postponed a crucial launch — and its stock went on to close below IPO price for second day</strong></p><p>SpaceX faced a setback after postponing a critical launch mission, leading to a drop in its stock price. Shares closed below their IPO level for the second consecutive day.</p><p>SpaceX因推迟关键发射任务面临挫折，导致股价下跌。公司股价已连续两个交易日收于IPO价格之下。</p><p>Tags: spacex · stock · space</p>",
-      "date_published": "2026-07-17T22:55:00+00:00",
-      "tags": [
-        "spacex",
-        "stock",
-        "space"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cx2rmjk0740o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cx2rmjk0740o?at_medium=RSS&at_campaign=rss",
-      "title": "白宫为阿根廷队辩护，回应马岛旗帜争议",
-      "content_html": "<p><strong>White House defends Argentina team over Falklands banner</strong></p><p>The White House has weighed in on the controversy regarding an Argentine team&#x27;s banner referencing the Falklands. This involvement threatens to escalate diplomatic tensions surrounding the incident.</p><p>白宫针对阿根廷球队涉及马岛主权的旗帜争议发表了评论。这一介入可能进一步加剧围绕此事件的外交紧张局势。</p><p>Tags: argentina · politics · falklands</p>",
-      "date_published": "2026-07-17T22:12:54+00:00",
-      "tags": [
-        "argentina",
-        "politics",
-        "falklands"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce",
-      "url": "https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce",
-      "title": "Taylor Farms因环孢子虫病爆发从美国市场召回卷心莴苣",
-      "content_html": "<p><strong>Taylor Farms pulls iceberg lettuce from the US market after cyclosporiasis outbreak</strong></p><p>Taylor Farms is voluntarily recalling iceberg lettuce from the US market following an outbreak of cyclosporiasis. The company is coordinating with major distributors to ensure consumer safety.</p><p>因爆发环孢子虫病，Taylor Farms正主动从美国市场召回卷心莴苣。公司正与大型分销商合作以确保消费者安全。</p><p>Tags: food · safety · recall</p>",
-      "date_published": "2026-07-17T22:09:47+00:00",
-      "tags": [
-        "food",
-        "safety",
-        "recall"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/the-average-stock-is-having-a-moment-as-semiconductors-struggle-its-a-sign-of-a-healthy-market-0dc01e9a?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/the-average-stock-is-having-a-moment-as-semiconductors-struggle-its-a-sign-of-a-healthy-market-0dc01e9a?mod=mw_rss_topstories",
-      "title": "半导体类股表现挣扎，普通股票迎来高光时刻，这是市场健康的迹象",
-      "content_html": "<p><strong>The average stock is having a moment as semiconductors struggle. It’s a sign of a healthy market.</strong></p><p>While semiconductor stocks are facing volatility, the broader market is showing healthy signs as average stocks gain momentum. This shift suggests a more balanced investment landscape.</p><p>尽管半导体类股表现挣扎，但普通股的上涨显示市场整体走势健康。这种轮动表明投资环境正趋向平衡。</p><p>Tags: stocks · market · semiconductors</p>",
-      "date_published": "2026-07-17T21:55:00+00:00",
-      "tags": [
-        "stocks",
-        "market",
-        "semiconductors"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-      "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-      "title": "TikTok正在测试AI肖像检测工具",
-      "content_html": "<p><strong>TikTok is testing an AI likeness detection tool</strong></p><p>TikTok has begun testing a tool that allows creators to identify and report AI-generated likenesses. This move aims to increase transparency and combat non-consensual deepfake content.</p><p>TikTok已开始测试一款允许创作者识别并举报AI生成肖像的工具。此举旨在提高平台透明度并打击非自愿的深度伪造内容。</p><p>Tags: tiktok · ai · deepfake</p>",
-      "date_published": "2026-07-17T19:34:30+00:00",
-      "tags": [
-        "tiktok",
-        "ai",
-        "deepfake"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cvg8w4dpjkwo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cvg8w4dpjkwo?at_medium=RSS&at_campaign=rss",
-      "title": "许多乌克兰士兵对国防部长被免职表示愤怒",
-      "content_html": "<p><strong>Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC</strong></p><p>The removal of Ukraine’s defense minister has sparked outrage among soldiers on the front lines. Troops have expressed concerns about the impact of this leadership change on the war effort.</p><p>乌克兰国防部长的免职引起了前线士兵的愤怒。部队担心此次领导层更迭会对战争局势产生负面影响。</p><p>Tags: ukraine · war · politics</p>",
-      "date_published": "2026-07-17T19:04:09+00:00",
-      "tags": [
-        "ukraine",
-        "war",
-        "politics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2580262-using-ai-for-creative-pursuits-moderation-is-key/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2580262-using-ai-for-creative-pursuits-moderation-is-key/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "利用AI进行创造性工作？适度是关键",
-      "content_html": "<p><strong>Using AI for creative pursuits? Moderation is key</strong></p><p>Research suggests that moderate use of AI yields the most creative results. Over-reliance on AI models may limit human innovation, according to the study.</p><p>研究表明，适度使用AI能产生最佳的创造性成果。根据该研究，过度依赖AI模型可能会限制人类的创新能力。</p><p>Tags: ai · creativity · research</p>",
-      "date_published": "2026-07-17T16:47:17+00:00",
-      "tags": [
-        "ai",
-        "creativity",
-        "research"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.com/news/articles/cy4kdd1e0ejo",
-      "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo",
-      "title": "首次在遥远恒星宜居带的类地行星上发现大气层",
-      "content_html": "<p><strong>First atmosphere found on Earth-like planet in habitable zone of distant star</strong></p><p>Scientists have detected an atmosphere on an Earth-like planet within a habitable zone. This discovery is a significant milestone in the search for extraterrestrial life.</p><p>科学家在宜居带的一颗类地行星上首次发现了大气层。这一发现是搜寻地外生命过程中的重要里程碑。</p><p>Tags: space · exoplanet · science</p>",
-      "date_published": "2026-07-17T14:06:13+00:00",
-      "tags": [
-        "space",
-        "exoplanet",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2580139-supplement-that-binds-to-microplastics-may-remove-them-from-our-body/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2580139-supplement-that-binds-to-microplastics-may-remove-them-from-our-body/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "能结合微塑料的补充剂可能将其从我们体内清除",
-      "content_html": "<p><strong>Supplement that binds to microplastics may remove them from our body</strong></p><p>Researchers have developed a supplement using inactive bacteria that attracts and removes microplastics from the body. This could offer a potential solution to reduce plastic accumulation in human tissues.</p><p>研究人员开发了一种使用失活细菌的补充剂，可吸附并清除体内的微塑料。这或将成为减少人体组织塑料积累的潜在解决方案。</p><p>Tags: science · health · microplastics</p>",
-      "date_published": "2026-07-17T13:00:00+00:00",
-      "tags": [
-        "science",
-        "health",
-        "microplastics"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/",
-      "url": "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/",
-      "title": "MIT 科技评论：围绝经期虚假信息与中国 AI 的新飞跃",
-      "content_html": "<p><strong>The Download: perimenopause misinformation and China’s latest AI leap</strong></p><p>The daily download highlights the spread of health misinformation regarding perimenopause and analyzes China&#x27;s latest developments in AI technology.</p><p>MIT 科技评论的每日简报重点关注围绝经期健康虚假信息的传播，并分析了中国在 AI 技术领域的最新突破。</p><p>Tags: mit · ai · health</p>",
-      "date_published": "2026-07-17T12:10:00+00:00",
-      "tags": [
-        "mit",
-        "ai",
-        "health"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://36kr.com/p/3899556701128578?f=rss",
-      "url": "https://36kr.com/p/3899556701128578?f=rss",
-      "title": "对话森博科技董事长于林义：AI应用拼的不只是技术，更是实证有效的业务闭环",
-      "content_html": "<p><strong>对话森博科技董事长于林义：AI应用拼的不只是技术，更是实证有效的业务闭环</strong></p><p>The CEO of Senbo Tech emphasizes that successful enterprise AI application requires proven business results rather than just advanced technology. Integrating industry know-how is essential for creating true ROI.</p><p>森博科技董事长强调，成功的企业级AI应用需要经过验证的业务结果，而非仅仅依靠技术。结合行业Know-how对于实现真实的ROI至关重要。</p><p>Tags: ai · business · enterprise</p>",
-      "date_published": "2026-07-17T10:51:22+00:00",
-      "tags": [
-        "ai",
-        "business",
-        "enterprise"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://36kr.com/p/3899597215745664?f=rss",
-      "url": "https://36kr.com/p/3899597215745664?f=rss",
-      "title": "2026最受投资人关注人工智能/具身智能企业50揭晓",
-      "content_html": "<p><strong>2026最受投资人关注人工智能/具身智能企业50揭晓</strong></p><p>A list of the top 50 AI and embodied intelligence companies has been revealed, reflecting strong investor interest. Despite the hype, the industry is shifting focus towards commercializing practical applications.</p><p>2026年度受投资人关注的50家AI与具身智能企业榜单公布，反映了强劲的投资热度。尽管热点不断，行业重心正转向商业化应用。</p><p>Tags: ai · investment · robotics</p>",
-      "date_published": "2026-07-17T10:45:58+00:00",
-      "tags": [
-        "ai",
-        "investment",
-        "robotics"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "title": "OpenAI时代的计分卡",
-      "content_html": "<p><strong>A scorecard for the AI age</strong></p><p>OpenAI’s CFO has introduced a scorecard to measure the ROI of AI projects. The system focuses on practical metrics like dependability and the cost of successful task completion.</p><p>OpenAI首席财务官引入了一套计分卡来衡量AI项目的投资回报率。该系统聚焦于可靠性及任务完成成本等实用指标。</p><p>Tags: openai · roi · metrics</p>",
-      "date_published": "2026-07-17T10:00:00+00:00",
-      "tags": [
-        "openai",
-        "roi",
-        "metrics"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2580002-why-a-ukrainian-cruise-missile-is-flying-with-hobby-drone-hardware/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2580002-why-a-ukrainian-cruise-missile-is-flying-with-hobby-drone-hardware/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "为什么乌克兰巡航导弹使用业余无人机硬件？",
-      "content_html": "<p><strong>Why a Ukrainian cruise missile is flying with hobby drone hardware</strong></p><p>Ukraine is incorporating consumer-grade drone hardware into its cruise missiles to reduce costs and increase availability. This highlights how low-cost technology is redefining modern warfare logistics.</p><p>乌克兰正将消费级无人机硬件集成到其巡航导弹中，以降低成本并提升供应速度。这突显了低成本技术如何重塑现代战争的后勤保障。</p><p>Tags: ukraine · military · drone</p>",
-      "date_published": "2026-07-17T10:00:00+00:00",
-      "tags": [
-        "ukraine",
-        "military",
-        "drone"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1228063#reply1",
-      "url": "https://www.v2ex.com/t/1228063#reply1",
-      "title": "投资最近几天爽爆了",
-      "content_html": "<p><strong>[投资] 最近几天爽爆了</strong></p><p>The author shares their positive experience with a recovering stock portfolio despite market declines. They emphasize the importance of dividends and maintaining a resilient account balance during downturns.</p><p>作者分享了在市场持续下跌的情况下，个人股票账户依然保持盈利的喜悦。文中提到分红到账以及坚守长线投资策略的重要性。</p><p>Tags: stock · investment · portfolio</p>",
-      "date_published": "2026-07-17T09:02:41+00:00",
-      "tags": [
-        "stock",
-        "investment",
-        "portfolio"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/buyer-snaps-up-josh-duhamels-3-million-l-a-home-as-actor-embraces-his-minnesota-doomsday-prepper-cabin-6666879e?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/buyer-snaps-up-josh-duhamels-3-million-l-a-home-as-actor-embraces-his-minnesota-doomsday-prepper-cabin-6666879e?mod=mw_rss_topstories",
-      "title": "买家抢购乔什·杜哈明300万美元的洛杉矶住宅，演员拥抱他明尼苏达州的“末日生存”小屋",
-      "content_html": "<p><strong>Buyer snaps up Josh Duhamel’s $3 million L.A. home as actor embraces his Minnesota ‘doomsday prepper’ cabin</strong></p><p>Actor Josh Duhamel has found a buyer for his Los Angeles home shortly after listing it. The actor and his family are increasingly prioritizing time at their off-grid cabin.</p><p>演员乔什·杜哈明挂牌不久后，其洛杉矶住宅便迅速售出。他正逐渐将重心转移到其偏远乡村的离网生活中。</p><p>Tags: realestate · celebrity · lifestyle</p>",
-      "date_published": "2026-07-17T09:01:00+00:00",
-      "tags": [
-        "realestate",
-        "celebrity",
-        "lifestyle"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2533621-why-the-upcoming-eclipse-is-still-vital-in-the-age-of-solar-probes/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2533621-why-the-upcoming-eclipse-is-still-vital-in-the-age-of-solar-probes/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "为什么即将到来的日食在太阳探测器时代依然至关重要",
-      "content_html": "<p><strong>Why the upcoming eclipse is still vital in the age of solar probes</strong></p><p>Scientists are preparing to use August&#x27;s solar eclipse to conduct low-cost experiments. This event remains a valuable opportunity to study the Sun and Earth’s atmosphere.</p><p>科学家们计划利用八月的日食进行低成本实验。尽管探测技术不断进步，但日食仍是研究太阳与地球交互的重要契机。</p><p>Tags: eclipse · astronomy · sun</p>",
-      "date_published": "2026-07-17T09:00:42+00:00",
-      "tags": [
-        "eclipse",
-        "astronomy",
-        "sun"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4922882-2-dividog-buys-by-barron-s-mid-year-round-table-pros?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4922882-2-dividog-buys-by-barron-s-mid-year-round-table-pros?source=feed_all_articles",
-      "title": "巴伦周刊年中圆桌会议专家推荐两只分红股",
-      "content_html": "<p><strong>2 DiviDog Buys By Barron&#x27;s Mid-Year Round Table Pros</strong></p><p>Barron’s mid-year round table experts have identified two dividend stocks as promising investments. These selections aim to provide stability and income in the current market environment.</p><p>巴伦周刊圆桌会议的专家们推荐了两只值得投资的分红股票。这些建议旨在当前市场环境下为投资者提供稳定的收益。</p><p>Tags: dividend · stocks · investing</p>",
-      "date_published": "2026-07-17T09:00:07+00:00",
-      "tags": [
-        "dividend",
-        "stocks",
-        "investing"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4922910-decoding-investment-signals-from-ai-buildout?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4922910-decoding-investment-signals-from-ai-buildout?source=feed_all_articles",
-      "title": "解码人工智能建设中的投资信号",
-      "content_html": "<p><strong>Decoding Investment Signals From The AI Buildout</strong></p><p>Analysts are examining the investment trends emerging from the massive buildup of AI infrastructure. Understanding these signals is crucial for identifying long-term growth opportunities in the tech sector.</p><p>分析师们正在研究人工智能基础设施建设中涌现的投资趋势。理解这些信号对于捕捉科技行业的长期增长机遇至关重要。</p><p>Tags: ai · investment · infrastructure</p>",
-      "date_published": "2026-07-17T09:00:00+00:00",
-      "tags": [
-        "ai",
-        "investment",
-        "infrastructure"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4922911-citizens-financial-group-inc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4922911-citizens-financial-group-inc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "title": "Citizens Financial Group, Inc. 2026年第二季度财报会议",
-      "content_html": "<p><strong>Citizens Financial Group, Inc. 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>Citizens Financial Group presented its Q2 2026 financial results during an earnings call. The discussion covered operational performance and future outlook for the banking institution.</p><p>Citizens Financial Group 召开了 2026 年第二季度财报电话会议。会上讨论了该银行的经营表现及未来前景。</p><p>Tags: earnings · banking · finance</p>",
-      "date_published": "2026-07-17T08:58:24+00:00",
-      "tags": [
-        "earnings",
-        "banking",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4922881-nexa-resources-the-zinc-upswing-is-not-fully-captured-yet?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4922881-nexa-resources-the-zinc-upswing-is-not-fully-captured-yet?source=feed_all_articles",
-      "title": "Nexa Resources：锌价上涨潜力尚未被充分挖掘",
-      "content_html": "<p><strong>Nexa Resources: The Zinc Upswing Is Not Fully Captured Yet</strong></p><p>Nexa Resources is viewed as having unrealized potential as the zinc market continues its upward trend. Analysts suggest that the company&#x27;s valuation may not yet fully reflect current commodity prices.</p><p>随着锌市场持续走高，Nexa Resources 的潜力被认为尚未得到充分体现。分析师认为市场对其估值可能存在滞后。</p><p>Tags: zinc · mining · commodities</p>",
-      "date_published": "2026-07-17T08:56:19+00:00",
-      "tags": [
-        "zinc",
-        "mining",
-        "commodities"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1228062#reply0",
-      "url": "https://www.v2ex.com/t/1228062#reply0",
-      "title": "分享发现一直以为微信读书书币没什么用",
-      "content_html": "<p><strong>[分享发现] 一直以为微信读书书币没什么用</strong></p><p>The user realized that WeChat Reading &#x27;book coins&#x27; are actually useful for unlocking serial novel chapters. Previously, they had undervalued these credits, often letting them expire.</p><p>用户发现微信读书的“书币”实际上可以用来解锁连载小说的章节。此前他们一直低估了书币的价值，甚至任由其过期。</p><p>Tags: wechat · reading · tips</p>",
-      "date_published": "2026-07-17T08:53:38+00:00",
-      "tags": [
-        "wechat",
-        "reading",
-        "tips"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1228061#reply0",
-      "url": "https://www.v2ex.com/t/1228061#reply0",
-      "title": "问与答关于WAICO创始成员的探讨",
-      "content_html": "<p><strong>[问与答] 不是不想一起玩，是人家有话说在前，不带我们玩吧，这一点没问题吧？</strong></p><p>A discussion on why global south nations founded WAICO highlights a move towards inclusive AI governance. The organization aims to bridge the digital divide without ideological barriers.</p><p>关于全球南方国家创立 WAICO 的讨论表明了其推动包容性 AI 治理的愿景。该组织旨在弥合数字鸿沟，且不设意识形态门槛。</p><p>Tags: waico · ai · governance</p>",
-      "date_published": "2026-07-17T08:49:23+00:00",
-      "tags": [
-        "waico",
-        "ai",
-        "governance"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1228060#reply0",
-      "url": "https://www.v2ex.com/t/1228060#reply0",
-      "title": "分享创造做了一个将所有软件画中画的工具",
-      "content_html": "<p><strong>[分享创造] 做了一个将所有软件画中画的工具</strong></p><p>A developer created PiPanel, a tool that turns any active window into an interactive picture-in-picture view on macOS. It allows users to maintain focus while managing multiple tasks.</p><p>开发者制作了 PiPanel 工具，能将 macOS 上任意窗口转化为可交互的画中画。该软件旨在帮助用户在处理多任务时保持专注。</p><p>Tags: macos · productivity · software</p>",
-      "date_published": "2026-07-17T08:48:46+00:00",
-      "tags": [
-        "macos",
-        "productivity",
-        "software"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4922889-nolato-ab-publ-nltbf-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4922889-nolato-ab-publ-nltbf-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "title": "Nolato AB (publ) 2026年第二季度财报会议记录",
-      "content_html": "<p><strong>Nolato AB (publ) (NLTBF) Q2 2026 Earnings Call Transcript</strong></p><p>The transcript for Nolato AB’s Q2 2026 earnings call is now available. It details the company&#x27;s performance, strategic goals, and market challenges during the quarter.</p><p>Nolato AB 2026 年第二季度财报电话会议实录现已发布。内容详述了公司在当季的业绩、战略目标及市场挑战。</p><p>Tags: earnings · nolato · report</p>",
-      "date_published": "2026-07-17T08:46:21+00:00",
-      "tags": [
-        "earnings",
-        "nolato",
-        "report"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1228059#reply1",
-      "url": "https://www.v2ex.com/t/1228059#reply1",
-      "title": "投资半年前的帖子关于两三年内翻倍的票",
-      "content_html": "<p><strong>[投资] 半年前发了个帖子：两三年内翻倍的票</strong></p><p>The author reflects on their previous market predictions, noting that successful long-term investing requires patience and portfolio management. They are now seeking new recommendations for the second half of the year.</p><p>作者反思了之前的选股建议，强调长期投资需要耐心与合理的仓位管理。目前，他们正在寻找下半年的市场机会与推荐。</p><p>Tags: stocks · investing · market</p>",
-      "date_published": "2026-07-17T08:42:29+00:00",
-      "tags": [
-        "stocks",
-        "investing",
-        "market"
-      ],
-      "_category": "FINA"
     }
   ]
 }
