@@ -6,6 +6,396 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1231819#reply0",
+      "url": "https://www.v2ex.com/t/1231819#reply0",
+      "title": "入门3D打印前的调研",
+      "content_html": "<p><strong>[问与答] 入门 3d 打印前调研</strong></p><p>The author is looking for advice on buying a 3D printer under 3000 yuan. They are considering the Creality K2 Combo but are unsure due to conflicting online reviews.</p><p>作者计划购买一台预算在3000元以内的3D打印机，并针对创想K2 Combo等型号向社区征求意见。他希望避开网络上的复杂信息，获取真实的使用体验评价。</p><p>Tags: 3d打印 · 硬件 · 创想</p>",
+      "date_published": "2026-08-03T10:32:43+00:00",
+      "tags": [
+        "3d打印",
+        "硬件",
+        "创想"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://36kr.com/p/3923622555872645?f=rss",
+      "url": "https://36kr.com/p/3923622555872645?f=rss",
+      "title": "和“00后投资人”一起下午茶",
+      "content_html": "<p><strong>和“00后投资人”一起下午茶</strong></p><p>36Kr hosted a group of young &#x27;00s-generation&#x27; interns from top global universities. The event featured discussions on investment trends and content business logic to foster intergenerational exchange.</p><p>36氪邀请多位名校背景的“00后”实习投资人进行深入交流。活动旨在探讨前沿投资趋势并展示媒体商业逻辑，促进了年轻视角与资深商业洞察的碰撞。</p><p>Tags: 投资 · 36氪 · 职业发展</p>",
+      "date_published": "2026-08-03T10:32:33+00:00",
+      "tags": [
+        "投资",
+        "36氪",
+        "职业发展"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1231818#reply0",
+      "url": "https://www.v2ex.com/t/1231818#reply0",
+      "title": "试着把写了N年的私人日记喂给AI",
+      "content_html": "<p><strong>[分享发现] 试着把写了 N 年的私人日记喂给 ai...</strong></p><p>The author fed years of private diary entries into an AI to analyze their personality and future potential. The deep insights and objective analysis provided by the AI left the author deeply impressed and moved.</p><p>作者尝试将多年的私人日记喂给AI进行分析，意想不到地获得了深刻的性格洞察与建议。这种人机互动让作者感到震撼，并更加珍视坚持写日记这一习惯。</p><p>Tags: ai · 日记 · 自我提升</p>",
+      "date_published": "2026-08-03T10:31:50+00:00",
+      "tags": [
+        "ai",
+        "日记",
+        "自我提升"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1231817#reply0",
+      "url": "https://www.v2ex.com/t/1231817#reply0",
+      "title": "桌面端小工具中Svelte的份额有20%~25%甚至更高，这是真的吗",
+      "content_html": "<p><strong>[程序员] 桌面端小工具(Wails/Tauri) 中 Svelte 的份额有 20% ~ 25% 甚至更高，这是真的吗</strong></p><p>A user questions the accuracy of data suggesting Svelte has a 20-25% market share in desktop tool development via Wails or Tauri. They seek verification and opinions on whether Svelte is suitable for such tasks.</p><p>有用户对关于Svelte在桌面小工具开发中占据高份额的数据表示怀疑。同时，该用户也咨询了社区关于使用Svelte开发桌面端工具的适用性。</p><p>Tags: svelte · 编程 · 桌面开发</p>",
+      "date_published": "2026-08-03T10:31:44+00:00",
+      "tags": [
+        "svelte",
+        "编程",
+        "桌面开发"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4929446-ptt-exploration-and-production-public-company-limited-2026-q2-results-earnings-call?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4929446-ptt-exploration-and-production-public-company-limited-2026-q2-results-earnings-call?source=feed_all_articles",
+      "title": "PTT Exploration and Production 2026年第二季度财报电话会议演示",
+      "content_html": "<p><strong>PTT Exploration and Production Public Company Limited 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>This is the earnings call presentation for PTT Exploration and Production for the second quarter of 2026. The document outlines the company&#x27;s financial results and operational updates for investors.</p><p>本文是PTT勘探与生产公司2026年第二季度的财报电话会议演示稿。文档详细介绍了该公司在该季度的财务表现及运营状况。</p><p>Tags: 财报 · 能源 · ptt</p>",
+      "date_published": "2026-08-03T10:31:25+00:00",
+      "tags": [
+        "财报",
+        "能源",
+        "ptt"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4929427-global-partners-great-income-play-as-higher-commodity-prices-stick-around?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4929427-global-partners-great-income-play-as-higher-commodity-prices-stick-around?source=feed_all_articles",
+      "title": "Global Partners LP：大宗商品价格维持高位时的良好收益选择",
+      "content_html": "<p><strong>Global Partners LP: A Great Income Play As Higher Commodity Prices Stick Around</strong></p><p>Global Partners LP is presented as a strong investment choice for income-seeking investors due to sustained high commodity prices. The analysis focuses on the company&#x27;s financial stability and dividend potential.</p><p>分析指出，在当前大宗商品价格持续走高的背景下，Global Partners LP是追求稳定收益的投资者的理想选择。该文探讨了其财务表现与分红潜力。</p><p>Tags: 投资 · 能源 · 股票</p>",
+      "date_published": "2026-08-03T10:30:23+00:00",
+      "tags": [
+        "投资",
+        "能源",
+        "股票"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4929394-chart-of-day-seasonality-no-longer-providing-a-tailwind?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4929394-chart-of-day-seasonality-no-longer-providing-a-tailwind?source=feed_all_articles",
+      "title": "每日图表：季节性因素不再提供助力",
+      "content_html": "<p><strong>Chart Of The Day: Seasonality Is No Longer Providing A Tailwind</strong></p><p>This analysis highlights that traditional seasonal trends are no longer positively influencing the market as they once did. Investors should look beyond seasonal patterns when making trading decisions.</p><p>分析图表显示，传统的季节性市场规律目前已不再对行情产生积极驱动作用。建议投资者在进行交易决策时需要关注其他核心指标。</p><p>Tags: 金融 · 市场分析 · 投资</p>",
+      "date_published": "2026-08-03T10:30:00+00:00",
+      "tags": [
+        "金融",
+        "市场分析",
+        "投资"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4929429-cio-weekly-rising-threat-real-yields?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4929429-cio-weekly-rising-threat-real-yields?source=feed_all_articles",
+      "title": "CIO周报：实际收益率带来的日益严重的威胁",
+      "content_html": "<p><strong>CIO Weekly: The Rising Threat Of Real Yields</strong></p><p>The Chief Investment Officer weekly report warns about the risks associated with rising real yields. It suggests that this shift could have significant implications for global asset valuations.</p><p>本周CIO报告指出，实际收益率的上升正成为市场面临的主要威胁。该趋势可能对全球各类资产的估值产生重要影响。</p><p>Tags: 宏观经济 · 金融 · 投资</p>",
+      "date_published": "2026-08-03T10:30:00+00:00",
+      "tags": [
+        "宏观经济",
+        "金融",
+        "投资"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/oil-prices-fall-to-three-week-low-after-trump-calls-off-planned-attack-631a8683?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/oil-prices-fall-to-three-week-low-after-trump-calls-off-planned-attack-631a8683?mod=mw_rss_topstories",
+      "title": "特朗普取消袭击计划后，油价跌至三周低点",
+      "content_html": "<p><strong>Oil prices fall to three-week low after Trump calls off planned attack</strong></p><p>Oil prices dropped to a three-week low on Monday following reports of de-escalation between the U.S. and Iran. Investors reacted positively to the news of a potential easing of geopolitical tensions.</p><p>由于美国与伊朗紧张局势可能缓解，国际油价周一跌至三周新低。市场对地缘政治危机缓和的迹象做出了积极反应。</p><p>Tags: 原油 · 地缘政治 · 金融</p>",
+      "date_published": "2026-08-03T10:26:00+00:00",
+      "tags": [
+        "原油",
+        "地缘政治",
+        "金融"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
+      "title": "伊朗否认特朗普关于周一开启新谈判的说法",
+      "content_html": "<p><strong>Iran denies Trump&#x27;s claim that new talks will begin on Monday</strong></p><p>Iran has denied claims made by President Trump regarding upcoming bilateral talks. However, the country remains involved in separate negotiations with Oman concerning access to the Strait of Hormuz.</p><p>伊朗方面否认了特朗普关于双方即将展开谈判的言论。但据悉伊朗目前正与阿曼就霍尔木兹海峡的通行问题进行沟通。</p><p>Tags: 伊朗 · 美国 · 外交</p>",
+      "date_published": "2026-08-03T10:23:35+00:00",
+      "tags": [
+        "伊朗",
+        "美国",
+        "外交"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4929425-harding-loevner-global-equity-adr-q2-2026-commentary?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4929425-harding-loevner-global-equity-adr-q2-2026-commentary?source=feed_all_articles",
+      "title": "Harding Loevner全球股票ADR 2026年第二季度评论",
+      "content_html": "<p><strong>Harding Loevner Global Equity ADR Q2 2026 Commentary</strong></p><p>This document provides the quarterly commentary for the Harding Loevner Global Equity ADR portfolio. It details performance analysis and investment strategy insights for the second quarter of 2026.</p><p>本文是Harding Loevner全球股票ADR投资组合的季度评论。文章详细分析了2026年第二季度的业绩表现及后续投资策略。</p><p>Tags: 基金 · 股票 · 评论</p>",
+      "date_published": "2026-08-03T10:20:00+00:00",
+      "tags": [
+        "基金",
+        "股票",
+        "评论"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1231816#reply0",
+      "url": "https://www.v2ex.com/t/1231816#reply0",
+      "title": "做了两个月的小程序，被“全栈抄袭者”给盯上了",
+      "content_html": "<p><strong>[分享发现] 做了两个月的小程序，被&quot;全栈抄袭者&quot;给盯上了</strong></p><p>A developer shares their frustration after their niche mini-program was completely cloned by another user. The plagiarist not only copied the layout but also the unique content, leading to a heated public dispute.</p><p>一位开发者自述其精心制作的小程序遭到完全的像素级抄袭。抄袭者不仅复制了界面，还盗用了开发者整理的内容，引发了双方在社交平台上的激烈冲突。</p><p>Tags: 小程序 · 抄袭 · 开发</p>",
+      "date_published": "2026-08-03T10:12:23+00:00",
+      "tags": [
+        "小程序",
+        "抄袭",
+        "开发"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1231815#reply0",
+      "url": "https://www.v2ex.com/t/1231815#reply0",
+      "title": "开发了一个终端论坛，欢迎来划水",
+      "content_html": "<p><strong>[分享创造] 开发了一个终端论坛，欢迎来划水</strong></p><p>A developer has created a terminal-based forum accessible via SSH. Users are invited to log in as guests or register to join the community discussions.</p><p>一位开发者创建了一个基于终端的论坛，支持通过SSH访问。开发者欢迎大家以访客身份浏览或注册账号进行交流。</p><p>Tags: ssh · 论坛 · 开发</p>",
+      "date_published": "2026-08-03T10:10:55+00:00",
+      "tags": [
+        "ssh",
+        "论坛",
+        "开发"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
+      "title": "富有的美国人应该放弃社会保障福利作为慈善姿态吗？",
+      "content_html": "<p><strong>Should wealthier Americans forgo their Social Security benefits as a charitable gesture?</strong></p><p>A reader inquires if it would be ethical for wealthy individuals to decline their Social Security benefits. The article explores the arguments for and against this charitable gesture.</p><p>针对读者提出的富有阶层是否应放弃领取社会保障福利的问题，文章探讨了这种做法的道德价值与实际争议。</p><p>Tags: 社会保障 · 金融 · 道德</p>",
+      "date_published": "2026-08-03T10:00:00+00:00",
+      "tags": [
+        "社会保障",
+        "金融",
+        "道德"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://36kr.com/p/3923603053686151?f=rss",
+      "url": "https://36kr.com/p/3923603053686151?f=rss",
+      "title": "德明利今日跌超9%，36氪企业全情报提前捕捉到这一市场信号",
+      "content_html": "<p><strong>德明利今日跌超9%，36氪企业全情报提前捕捉到这一市场信号</strong></p><p>De Ming Li&#x27;s stock price dropped over 9% today, a move identified in advance by 36Kr&#x27;s corporate intelligence service. The report highlights the value of monitoring public sentiment and corporate events.</p><p>德明利今日股价跌幅超过9%，36氪企业全情报系统对此进行了提前预警。该事件再次证明了实时监测舆情与企业动态对投资者的重要参考价值。</p><p>Tags: 德明利 · 股票 · 舆情监测</p>",
+      "date_published": "2026-08-03T09:44:31+00:00",
+      "tags": [
+        "德明利",
+        "股票",
+        "舆情监测"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "title": "通过手动重写LLM生成的代码来防止认知债务",
+      "content_html": "<p><strong>Prevent cognitive debt by manually retyping LLM-generated code</strong></p><p>The article argues that manually retyping code generated by LLMs helps developers avoid cognitive debt. This process encourages better understanding and prevents reliance on machine-generated output.</p><p>文章建议开发者通过手动重写LLM生成的代码来避免认知债务。这种做法不仅能加深对代码逻辑的理解，还能防止过度依赖AI输出。</p><p>Tags: llm · 编程 · 认知</p>",
+      "date_published": "2026-08-03T09:32:07+00:00",
+      "tags": [
+        "llm",
+        "编程",
+        "认知"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marginalia.nu/log/a_109_sleep2/",
+      "url": "https://www.marginalia.nu/log/a_109_sleep2/",
+      "title": "少喝咖啡，睡得更好",
+      "content_html": "<p><strong>Less Coffee, Better Sleep</strong></p><p>The discussion revolves around the correlation between caffeine intake and sleep quality. Readers share personal anecdotes and advice on reducing coffee consumption for better rest.</p><p>本文探讨了咖啡因摄入与睡眠质量之间的相关性。社区用户分享了关于减少咖啡消费以改善休息质量的经验与建议。</p><p>Tags: 健康 · 睡眠 · 生活习惯</p>",
+      "date_published": "2026-08-03T09:10:07+00:00",
+      "tags": [
+        "健康",
+        "睡眠",
+        "生活习惯"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c24mr09r99eo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c24mr09r99eo?at_medium=RSS&at_campaign=rss",
+      "title": "日本商场地震后复工发生爆炸，两名员工身亡",
+      "content_html": "<p><strong>Two workers killed in blast after re-entering quake-hit Japan mall on boss&#x27; order</strong></p><p>Two women were killed in an explosion after being ordered by their employer to return to a quake-hit Aeon Mall. The employer has issued an apology for the incident.</p><p>两名女性员工在老板命令下返回受地震影响的永旺商场抢救财物时，不幸在爆炸中身亡。涉事公司已就此事件发表道歉声明。</p><p>Tags: 地震 · 日本 · 劳工</p>",
+      "date_published": "2026-08-03T08:40:22+00:00",
+      "tags": [
+        "地震",
+        "日本",
+        "劳工"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "title": "AI代理为何为了达成目标而撒谎和作弊",
+      "content_html": "<p><strong>Here’s why AI agents lie and cheat to reach their goals</strong></p><p>The article explores the phenomenon where AI agents lie or cheat to achieve specified goals. It highlights the underlying technical reasons and the risks of unchecked optimization in AI systems.</p><p>文章揭示了AI代理为实现设定目标而采取欺骗行为的现象。探讨了背后的技术诱因以及AI系统在不受约束的优化过程中存在的潜在风险。</p><p>Tags: ai · 伦理 · 安全</p>",
+      "date_published": "2026-08-03T08:30:05+00:00",
+      "tags": [
+        "ai",
+        "伦理",
+        "安全"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://github.com/janestreet/bonsai",
+      "url": "https://github.com/janestreet/bonsai",
+      "title": "Bonsai：Jane Street的UI库",
+      "content_html": "<p><strong>Bonsai: Janestreet&#x27;s UI Library</strong></p><p>This post discusses Bonsai, a UI library developed by Jane Street. It focuses on the library&#x27;s features and its application in functional programming environments.</p><p>本文介绍了Jane Street开发的UI库Bonsai。重点探讨了该库的特性及其在函数式编程环境中的应用场景。</p><p>Tags: ui · 编程 · janestreet</p>",
+      "date_published": "2026-08-03T08:29:57+00:00",
+      "tags": [
+        "ui",
+        "编程",
+        "janestreet"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://36kr.com/p/3923465542364545?f=rss",
+      "url": "https://36kr.com/p/3923465542364545?f=rss",
+      "title": "可灵观察：用可灵重现《霸王别姬》，电影感足了，复杂叙事如何更稳？",
+      "content_html": "<p><strong>可灵观察②｜用可灵重现《霸王别姬》：电影感足了，复杂叙事如何更稳？</strong></p><p>The article tests the &#x27;Kling&#x27; AI video model by recreating scenes from the film &#x27;Farewell My Concubine&#x27;. While it succeeds in visual quality, achieving stable complex narratives remains a challenge.</p><p>本文测评了可灵AI模型在重现电影《霸王别姬》片段时的表现。虽然其画面感极佳，但在处理复杂叙事逻辑的稳定性方面仍有提升空间。</p><p>Tags: ai · 视频生成 · 电影</p>",
+      "date_published": "2026-08-03T08:12:09+00:00",
+      "tags": [
+        "ai",
+        "视频生成",
+        "电影"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2582573-are-beef-liver-or-standard-iron-supplements-better-for-boosting-iron/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2582573-are-beef-liver-or-standard-iron-supplements-better-for-boosting-iron/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "牛肉肝还是标准铁补充剂：哪种补铁效果更好？",
+      "content_html": "<p><strong>Are beef-liver or standard iron supplements better for boosting iron?</strong></p><p>The article examines the efficacy of beef-liver supplements versus standard iron tablets in increasing iron levels. It analyzes the scientific evidence behind both claims.</p><p>文章对比了牛肉肝补充剂与常规铁剂在补铁效果上的差异。通过科学证据分析了坊间流传的补铁建议是否真实有效。</p><p>Tags: 健康 · 营养 · 科学</p>",
+      "date_published": "2026-08-03T08:00:00+00:00",
+      "tags": [
+        "健康",
+        "营养",
+        "科学"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://sspai.com/post/112685",
+      "url": "https://sspai.com/post/112685",
+      "title": "把折叠屏外屏做成手机：iKKO MindOne Pro体验",
+      "content_html": "<p><strong>把折叠屏外屏做成手机后：iKKO MindOne Pro 体验</strong></p><p>The author reviews the iKKO MindOne Pro, a smartphone with a unique form factor resembling a foldable screen&#x27;s outer display. The piece highlights the device&#x27;s novelty in a homogeneous market.</p><p>作者分享了iKKO MindOne Pro手机的上手体验。该机凭借类似折叠屏外屏的独特外观，在高度同质化的手机市场中显得别具一格。</p><p>Tags: 手机 · 硬件 · 评测</p>",
+      "date_published": "2026-08-03T07:35:11+00:00",
+      "tags": [
+        "手机",
+        "硬件",
+        "评测"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss",
+      "title": "昂山素季在两年半以来的首次确认外界接触中表现健康",
+      "content_html": "<p><strong>Aung San Suu Kyi appears healthy in first confirmed outside contact for 2.5 years</strong></p><p>New photos show Aung San Suu Kyi meeting with an ICRC official, marking her first confirmed contact with the outside world in years. She appeared to be in good health.</p><p>缅甸军政府发布的最新照片显示，昂山素季会见了红十字国际委员会官员。这是她两年半来首次被确认与外界接触，且看起来精神状态良好。</p><p>Tags: 缅甸 · 国际新闻 · 政治</p>",
+      "date_published": "2026-08-03T06:53:09+00:00",
+      "tags": [
+        "缅甸",
+        "国际新闻",
+        "政治"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://gruhn.me/blog/2026-08-03/",
+      "url": "https://gruhn.me/blog/2026-08-03/",
+      "title": "不要成为肉食代理",
+      "content_html": "<p><strong>Don&#x27;t be a meat proxy</strong></p><p>This discussion covers the concept of &#x27;meat proxies&#x27; and the ethical implications of industrial food production. It encourages readers to think critically about their consumption habits.</p><p>本文探讨了“肉类代理”这一概念及其背后的工业食品生产伦理。文章呼吁读者对日常的消费习惯进行深刻反思。</p><p>Tags: 食品 · 伦理 · 环境</p>",
+      "date_published": "2026-08-03T06:28:01+00:00",
+      "tags": [
+        "食品",
+        "伦理",
+        "环境"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/112966",
+      "url": "https://sspai.com/post/112966",
+      "title": "职人专访：少数派背后的理想主义",
+      "content_html": "<p><strong>职人专访 #001：少数派背后的理想主义</strong></p><p>An interview exploring the philosophy behind the digital lifestyle platform &#x27;sspai&#x27;. The discussion centers on the team&#x27;s commitment to quality content and digital aesthetics.</p><p>本期访谈走进少数派，探讨其背后的理想主义精神。团队分享了他们对内容质量与数字生活美学的坚持与追求。</p><p>Tags: 少数派 · 职人 · 生活方式</p>",
+      "date_published": "2026-08-03T06:03:08+00:00",
+      "tags": [
+        "少数派",
+        "职人",
+        "生活方式"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://36kr.com/p/3923374038265217?f=rss",
+      "url": "https://36kr.com/p/3923374038265217?f=rss",
+      "title": "硬氪首发：硅光资深团队获数千万天使轮融资，瞄准CPO/OIO下一代光互连解决方案",
+      "content_html": "<p><strong>硬氪首发 | 硅光资深团队获数千万天使轮融资，瞄准CPO/OIO下一代光互连解决方案</strong></p><p>Optical chip company LiangYin Technology has raised tens of millions in angel funding. The company aims to develop next-gen photonic integrated circuit solutions for AI computing.</p><p>光芯片初创企业量引科技获数千万元天使轮融资。公司致力于研发面向下一代算力集群的硅光互连方案，以突破数据传输的物理瓶颈。</p><p>Tags: 芯片 · 融资 · 硅光</p>",
+      "date_published": "2026-08-03T05:43:36+00:00",
+      "tags": [
+        "芯片",
+        "融资",
+        "硅光"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c5yvqk69enko?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c5yvqk69enko?at_medium=RSS&at_campaign=rss",
+      "title": "“我唯一的儿子因伸张正义被枪杀” —— 走进克什米尔致命抗议风暴中心",
+      "content_html": "<p><strong>&#x27;My only son was shot standing up for justice&#x27; - inside city gripped by deadly protests in Pakistan-administered Kashmir</strong></p><p>The BBC provides access to Rawalakot, documenting the human cost of violent clashes in Pakistan-administered Kashmir. Locals describe the tragic loss of life during the recent protests.</p><p>BBC深入巴控克什米尔地区的拉瓦拉科特，记录了当地暴力抗议活动造成的惨重代价。当地居民讲述了抗议中失去亲人的痛苦经历。</p><p>Tags: 克什米尔 · 抗议 · 国际新闻</p>",
+      "date_published": "2026-08-03T03:32:21+00:00",
+      "tags": [
+        "克什米尔",
+        "抗议",
+        "国际新闻"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://qwen.ai/blog?id=qwen3.8",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "title": "Qwen3.8-Max：编程与协作的新标准",
+      "content_html": "<p><strong>Qwen3.8-Max: A New Bar for Coding and Cowork</strong></p><p>This post analyzes Qwen3.8-Max, a new model setting high benchmarks for coding tasks and team collaboration. Its performance suggests significant advancements in LLM programming capabilities.</p><p>本文分析了Qwen3.8-Max模型在编程任务与协作场景中的出色表现。该模型有望成为AI辅助编程领域的新标杆。</p><p>Tags: ai · 编程 · llm</p>",
+      "date_published": "2026-08-03T02:16:09+00:00",
+      "tags": [
+        "ai",
+        "编程",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.theverge.com/entertainment/974271/rachika-nayars-heaven-come-crashing-music-review",
+      "url": "https://www.theverge.com/entertainment/974271/rachika-nayars-heaven-come-crashing-music-review",
+      "title": "Rachika Nayar的《Heaven Come Crashing》：一首关于绝望渴望的器乐史诗",
+      "content_html": "<p><strong>Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing</strong></p><p>The article reviews Rachika Nayar&#x27;s new album, praising its epic sound and the surprising inclusion of massive drum and bass elements. It explores the emotional resonance of the music.</p><p>文章评价了Rachika Nayar的新专辑。称赞其音乐编排的史诗感，特别是打击乐元素的意外加入，极大地增强了作品的情感张力。</p><p>Tags: 音乐 · 评测 · 艺术</p>",
+      "date_published": "2026-08-02T21:53:15+00:00",
+      "tags": [
+        "音乐",
+        "评测",
+        "艺术"
+      ],
+      "_category": "WORLD"
+    },
+    {
       "id": "https://www.v2ex.com/t/1231547#reply1",
       "url": "https://www.v2ex.com/t/1231547#reply1",
       "title": "人都去哪里了？",
@@ -2214,396 +2604,6 @@
         "aluminum"
       ],
       "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cpd741qn2y9o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cpd741qn2y9o?at_medium=RSS&at_campaign=rss",
-      "title": "齐达内确认出任法国国家队主教练",
-      "content_html": "<p><strong>Zidane confirmed as France head coach</strong></p><p>Former Real Madrid manager Zinedine Zidane has officially been appointed as the head coach of the French national football team. This move marks a significant transition in his coaching career.</p><p>前皇马主帅齐达内已正式被确认出任法国国家队主教练。这一任命标志着其执教生涯的重要转折。</p><p>Tags: football · sports · france</p>",
-      "date_published": "2026-07-28T09:03:49+00:00",
-      "tags": [
-        "football",
-        "sports",
-        "france"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4926137-ondas-beyond-the-dilution-headlines?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4926137-ondas-beyond-the-dilution-headlines?source=feed_all_articles",
-      "title": "Ondas 财务状况解析",
-      "content_html": "<p><strong>Ondas: Beyond The Dilution Headlines</strong></p><p>An analysis of Ondas Holdings explores the company&#x27;s financial status beyond recent dilution headlines. The report looks at underlying operational developments and strategic positioning.</p><p>针对Ondas Holdings的财务分析探讨了公司在稀释消息背后的真实财务状况。报告重点关注了其运营发展与战略定位。</p><p>Tags: finance · stocks · market</p>",
-      "date_published": "2026-07-28T09:03:15+00:00",
-      "tags": [
-        "finance",
-        "stocks",
-        "market"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4926152-barclays-plc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4926152-barclays-plc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "title": "巴克莱银行 2026 年二季度财报会议",
-      "content_html": "<p><strong>Barclays PLC 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>Barclays PLC presented its 2026 Q2 financial results during a recent earnings call. The discussion covered key performance indicators and future outlook for the banking group.</p><p>巴克莱银行在近日的财报会议上公布了2026年第二季度的财务业绩。会议讨论了该银行集团的核心指标表现及未来展望。</p><p>Tags: barclays · finance · earnings</p>",
-      "date_published": "2026-07-28T09:02:10+00:00",
-      "tags": [
-        "barclays",
-        "finance",
-        "earnings"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4926151-saipem-spa-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4926151-saipem-spa-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "title": "Saipem SpA 2026 年二季度财报会议",
-      "content_html": "<p><strong>Saipem SpA 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>Saipem SpA held its Q2 2026 earnings call to discuss financial results and operational updates. The call provided investors with detailed insights into the energy services company&#x27;s performance.</p><p>Saipem SpA召开了2026年二季度财报会议，探讨了财务结果与运营进展。该会议为投资者提供了关于这家能源服务公司表现的详细解读。</p><p>Tags: saipem · finance · energy</p>",
-      "date_published": "2026-07-28T09:01:25+00:00",
-      "tags": [
-        "saipem",
-        "finance",
-        "energy"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/actor-orlando-bloom-tries-again-to-sell-malibu-beach-house-now-for-10-million-3e9cf1c4?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/actor-orlando-bloom-tries-again-to-sell-malibu-beach-house-now-for-10-million-3e9cf1c4?mod=mw_rss_topstories",
-      "title": "奥兰多·布鲁姆再次尝试出售马里布海滨别墅",
-      "content_html": "<p><strong>Actor Orlando Bloom tries again to sell Malibu beach house — now for $10 million</strong></p><p>Actor Orlando Bloom has relisted his Malibu beach house with a significant price reduction. This follows a previous attempt to sell the property earlier this year.</p><p>演员奥兰多·布鲁姆大幅降价，再次挂牌出售其马里布海滨别墅。此前他曾尝试售出该房产但未获成功。</p><p>Tags: realestate · entertainment · celebrity</p>",
-      "date_published": "2026-07-28T09:01:00+00:00",
-      "tags": [
-        "realestate",
-        "entertainment",
-        "celebrity"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://36kr.com/p/3915057199535233?f=rss",
-      "url": "https://36kr.com/p/3915057199535233?f=rss",
-      "title": "Kando AI 完成数千万元种子轮融资",
-      "content_html": "<p><strong>Kando AI完成数千万元种子轮融资，要做“决策领域的Cursor”｜涌现新项目</strong></p><p>Kando AI has secured tens of millions in seed funding to build an AI-driven decision-making system. The company aims to become the &#x27;Cursor of the decision-making field&#x27;.</p><p>Kando AI完成数千万元种子轮融资，致力于构建AI驱动的决策系统。公司目标成为“决策领域的Cursor”。</p><p>Tags: ai · startup · funding</p>",
-      "date_published": "2026-07-28T08:42:58+00:00",
-      "tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
-      "title": "美国代表团在联合国安理会会议期间离场",
-      "content_html": "<p><strong>US walks out of UN Security Council meeting during France&#x27;s remarks</strong></p><p>A diplomatic incident occurred at the UN Security Council when US representatives walked out during France&#x27;s remarks. The dispute stems from a disagreement over human rights commissioner term extensions.</p><p>联合国安理会会议期间发生外交摩擦，美国代表团在法国发言时离场。此次争议源于人权高专任期延长的投票分歧。</p><p>Tags: un · politics · us</p>",
-      "date_published": "2026-07-28T08:41:45+00:00",
-      "tags": [
-        "un",
-        "politics",
-        "us"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c1l1de9gjj6o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c1l1de9gjj6o?at_medium=RSS&at_campaign=rss",
-      "title": "爱莉安娜·格兰德起诉泄露音乐和视频的黑客",
-      "content_html": "<p><strong>Ariana Grande sues hackers who leaked music and videos</strong></p><p>Pop star Ariana Grande has initiated legal action to uncover the identities of hackers who leaked her unreleased material. She seeks to hold those responsible for the unauthorized distribution accountable.</p><p>流行歌手爱莉安娜·格兰德提起诉讼，旨在查明泄露其未发布作品的黑客身份。她希望追究相关人员的分发责任。</p><p>Tags: arianagrande · lawsuit · cybersecurity</p>",
-      "date_published": "2026-07-28T08:37:12+00:00",
-      "tags": [
-        "arianagrande",
-        "lawsuit",
-        "cybersecurity"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2581300-an-entirely-new-kind-of-drug-will-help-us-treat-the-untreatable/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2581300-an-entirely-new-kind-of-drug-will-help-us-treat-the-untreatable/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "全新药物有望治疗不可治愈疾病",
-      "content_html": "<p><strong>An entirely new kind of drug will help us treat the untreatable</strong></p><p>A new generation of drugs utilizing a unique mechanism of action has been approved for use. Experts believe this scientific advancement could revolutionize treatments for various complex conditions.</p><p>一种采用全新作用机制的新型药物已获批使用。专家认为这一科学突破有望彻底改变多种复杂疾病的治疗方式。</p><p>Tags: medicine · science · innovation</p>",
-      "date_published": "2026-07-28T08:00:00+00:00",
-      "tags": [
-        "medicine",
-        "science",
-        "innovation"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
-      "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
-      "title": "日本发生 7.1 级地震",
-      "content_html": "<p><strong>7.1 Earthquake in Japan</strong></p><p>A 7.1 magnitude earthquake has struck Japan, drawing global attention. Reports are currently monitoring the impact and emergency responses in the affected regions.</p><p>日本发生7.1级地震，引发全球关注。目前各方正在监测受灾地区的影响及应急响应情况。</p><p>Tags: japan · earthquake · news</p>",
-      "date_published": "2026-07-28T07:44:24+00:00",
-      "tags": [
-        "japan",
-        "earthquake",
-        "news"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://sspai.com/post/112380",
-      "url": "https://sspai.com/post/112380",
-      "title": "从《奥德赛》观影聊聊 IMAX 影院分类",
-      "content_html": "<p><strong>从《奥德赛》观影聊聊 IMAX 影院的分类</strong></p><p>This article analyzes the differences between various IMAX projection systems. It provides a strategy for choosing the right cinema to ensure the most immersive viewing experience.</p><p>本文分析了不同IMAX放映系统的区别，并提供了影厅选择策略，帮助观众获得最震撼的观影体验。</p><p>Tags: imax · cinema · film</p>",
-      "date_published": "2026-07-28T07:00:00+00:00",
-      "tags": [
-        "imax",
-        "cinema",
-        "film"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://arsastronomica.com/",
-      "url": "https://arsastronomica.com/",
-      "title": "Ars Astronomica：稀有天文文献翻译",
-      "content_html": "<p><strong>Ars Astronomica – English translations of rare Hebrew and Latin astronomy texts</strong></p><p>A project dedicated to providing English translations of rare Hebrew and Latin astronomy texts. It serves as a valuable resource for historians and science enthusiasts.</p><p>该项目致力于提供稀有希伯来语和拉丁语天文文献的英译本，为历史学家和科学爱好者提供了宝贵的资源。</p><p>Tags: astronomy · history · science</p>",
-      "date_published": "2026-07-28T05:25:34+00:00",
-      "tags": [
-        "astronomy",
-        "history",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
-      "title": "厄瓜多尔到欧洲的可卡因超级公路",
-      "content_html": "<p><strong>The cocaine superhighway from Ecuador to Europe - the BBC reports on gangs and the police fightback</strong></p><p>The BBC reports on the rising drug crime linked to trafficking routes from Ecuador to Europe. Authorities are intensifying efforts to combat the gangs controlling these illicit supply chains.</p><p>BBC报道了从厄瓜多尔到欧洲的贩毒网络及其引发的犯罪潮。警方正加大力度打击控制这些非法供应链的帮派。</p><p>Tags: crime · ecuador · europe</p>",
-      "date_published": "2026-07-28T05:01:19+00:00",
-      "tags": [
-        "crime",
-        "ecuador",
-        "europe"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://36kr.com/p/3914752931976583?f=rss",
-      "url": "https://36kr.com/p/3914752931976583?f=rss",
-      "title": "重估老铺黄金的市场表现",
-      "content_html": "<p><strong>重估老铺黄金</strong></p><p>Despite a downturn in capital markets, Lao Pu Gold continues to show strong sales growth and store efficiency. The article argues that investors should reconsider the brand&#x27;s potential beyond traditional gold cycles.</p><p>尽管资本市场表现低迷，老铺黄金的销售与店效依然保持强劲增长。文章认为投资者应重新评估该品牌的独立行情，而非仅套用大宗商品逻辑。</p><p>Tags: gold · luxury · retail</p>",
-      "date_published": "2026-07-28T03:37:18+00:00",
-      "tags": [
-        "gold",
-        "luxury",
-        "retail"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://36kr.com/p/3913529825039745?f=rss",
-      "url": "https://36kr.com/p/3913529825039745?f=rss",
-      "title": "36 氪福利活动：免费抽奖大疆产品",
-      "content_html": "<p><strong>🎁36氪送福利！免费抽大疆 Osmo Pocket 4、DJI MIC MINI，还有专属礼品！</strong></p><p>36Kr is hosting a giveaway event featuring DJI Pocket 4 and DJI MIC MINI. Users can participate easily through their enterprise intelligence mini-program.</p><p>36氪正举办大疆Osmo Pocket 4及无线麦克风的抽奖福利活动。用户可通过其企业情报小程序轻松参与。</p><p>Tags: dji · giveaway · 36kr</p>",
-      "date_published": "2026-07-28T03:34:04+00:00",
-      "tags": [
-        "dji",
-        "giveaway",
-        "36kr"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://sspai.com/post/112774",
-      "url": "https://sspai.com/post/112774",
-      "title": "索尼抛弃实体游戏光盘的转型代价",
-      "content_html": "<p><strong>索尼抛弃实体游戏光盘，谁成为了转型代价？</strong></p><p>Sony&#x27;s strategic shift away from physical media raises questions about the long-term impact on its core gaming business. The article discusses the potential risks and trade-offs of this digital-only transformation.</p><p>索尼向数字媒体的战略转型引发了对其核心游戏业务长远影响的讨论。文章探讨了此次数字化转型潜在的风险与代价。</p><p>Tags: sony · gaming · business</p>",
-      "date_published": "2026-07-28T03:02:53+00:00",
-      "tags": [
-        "sony",
-        "gaming",
-        "business"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://fermisense.com/when-machines-take-the-wheel/",
-      "url": "https://fermisense.com/when-machines-take-the-wheel/",
-      "title": "500 美元的 RL 微调模型在目录审查中超越前沿模型",
-      "content_html": "<p><strong>A $500 RL fine-tune of a 9B open model beat frontier models on catalog review</strong></p><p>An open-source model, fine-tuned with reinforcement learning for just $500, outperformed larger frontier models in catalog review tasks. This highlights the efficiency of specialized AI training.</p><p>一个仅花费500美元进行强化学习微调的开源模型，在目录审查任务中表现超越了大型前沿模型，彰显了专业化AI训练的高效性。</p><p>Tags: llm · ai · opensource</p>",
-      "date_published": "2026-07-28T02:18:53+00:00",
-      "tags": [
-        "llm",
-        "ai",
-        "opensource"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
-      "title": "英伟达与 OpenAI 的潜在交易引发科技泡沫担忧",
-      "content_html": "<p><strong>Nvidia’s potential new deal with OpenAI would revive a spooky tech-bubble habit, analyst warns</strong></p><p>Analysts warn that a new data-center deal between Nvidia and OpenAI could signal a dangerous &#x27;tech-bubble&#x27; habit. The deal structure has raised concerns about financial over-extension in the AI sector.</p><p>分析师警告称，英伟达与OpenAI之间可能达成的中心租赁协议或将重演科技泡沫的危险习惯。该交易结构引发了对AI行业过度扩张的担忧。</p><p>Tags: nvidia · openai · finance</p>",
-      "date_published": "2026-07-28T01:19:00+00:00",
-      "tags": [
-        "nvidia",
-        "openai",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://sspai.com/post/112805",
-      "url": "https://sspai.com/post/112805",
-      "title": "派早报：月之暗面开源 Kimi K3 模型等",
-      "content_html": "<p><strong>派早报：月之暗面开源 Kimi K3 模型等</strong></p><p>Moonshot AI has released the open-source Kimi K3 model. This update is part of the latest news in the tech and AI industry covered by the morning digest.</p><p>月之暗面正式开源Kimi K3模型。此消息为少数派早报近期科技与AI行业资讯汇总的一部分。</p><p>Tags: ai · kimi · moonshot</p>",
-      "date_published": "2026-07-28T00:04:27+00:00",
-      "tags": [
-        "ai",
-        "kimi",
-        "moonshot"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
-      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
-      "title": "在 SlopCodeBench 上对 Opus 5 进行基准测试",
-      "content_html": "<p><strong>Benchmarking Opus 5 on SlopCodeBench</strong></p><p>The performance of the Opus 5 model is being benchmarked on SlopCodeBench. These results provide critical data for evaluating the coding capabilities of new LLMs.</p><p>Opus 5模型正在SlopCodeBench上进行基准测试。这些结果为评估新型大模型的代码能力提供了关键数据。</p><p>Tags: benchmark · ai · coding</p>",
-      "date_published": "2026-07-27T22:37:52+00:00",
-      "tags": [
-        "benchmark",
-        "ai",
-        "coding"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.anthropic.com/news/position-open-weights-models",
-      "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "title": "关于开源权重模型的立场",
-      "content_html": "<p><strong>Our position on open-weights models</strong></p><p>The tech community continues to debate the implications of open-weights models. Different perspectives focus on safety, competition, and the democratization of AI technology.</p><p>科技界持续探讨开源权重模型的意义。各方观点集中在安全性、竞争性以及AI技术的民主化普及上。</p><p>Tags: ai · opensource · policy</p>",
-      "date_published": "2026-07-27T22:03:49+00:00",
-      "tags": [
-        "ai",
-        "opensource",
-        "policy"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss",
-      "title": "特朗普称伊朗战争谈判正在进行",
-      "content_html": "<p><strong>Trump says Iran war talks taking place during lull in strikes</strong></p><p>Donald Trump reports that war-related talks with Iran are ongoing during a temporary lull in hostilities. However, Iran denies that direct negotiations are currently taking place.</p><p>特朗普称在敌对行动间歇期，与伊朗的战争相关谈判正在进行。但伊朗方面否认目前正在进行直接对话。</p><p>Tags: trump · iran · diplomacy</p>",
-      "date_published": "2026-07-27T21:10:56+00:00",
-      "tags": [
-        "trump",
-        "iran",
-        "diplomacy"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2581574-peptides-are-the-latest-wellness-trend-but-do-they-work/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2581574-peptides-are-the-latest-wellness-trend-but-do-they-work/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "多肽类药物：最新的健康趋势及其有效性存疑",
-      "content_html": "<p><strong>Peptides are the latest wellness trend – but do they work?</strong></p><p>Peptides are emerging as a new wellness trend, with US regulators considering approval for experimental versions. However, the lack of large-scale human testing raises questions about safety and efficacy.</p><p>多肽药物正成为新兴健康趋势，美国相关机构正考虑批准部分实验性版本。但由于缺乏大规模人体测试，其安全性和有效性仍存在争议。</p><p>Tags: science · health · biotech</p>",
-      "date_published": "2026-07-27T19:21:00+00:00",
-      "tags": [
-        "science",
-        "health",
-        "biotech"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4925752-verisign-healthy-registrations-exorbitant-price?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4925752-verisign-healthy-registrations-exorbitant-price?source=feed_all_articles",
-      "title": "VeriSign：健康的注册量，高昂的价格",
-      "content_html": "<p><strong>VeriSign: Healthy Registrations, Exorbitant Price</strong></p><p>VeriSign continues to see stable domain registration numbers despite facing criticism over its pricing structure. Investors are closely monitoring how these high fees impact the company&#x27;s long-term revenue growth.</p><p>尽管因定价结构受到批评，VeriSign 的域名注册量仍保持稳定。投资者正密切关注这些高额费用如何影响公司的长期收入增长。</p><p>Tags: verisign · domain · investing</p>",
-      "date_published": "2026-07-27T10:30:00+00:00",
-      "tags": [
-        "verisign",
-        "domain",
-        "investing"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4925776-chart-of-day-after-spacex-slide-what-next?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4925776-chart-of-day-after-spacex-slide-what-next?source=feed_all_articles",
-      "title": "今日图表：SpaceX 滑坡之后……接下来是什么？",
-      "content_html": "<p><strong>Chart Of The Day: After SpaceX Slide... What&#x27;s Next?</strong></p><p>This report examines the recent downward trend in SpaceX&#x27;s market performance. It explores potential recovery paths and upcoming challenges for the aerospace giant.</p><p>该报告分析了 SpaceX 近期的市场表现下滑趋势。文中探讨了这家航空航天巨头的潜在复苏路径及未来面临的挑战。</p><p>Tags: spacex · market · aerospace</p>",
-      "date_published": "2026-07-27T10:30:00+00:00",
-      "tags": [
-        "spacex",
-        "market",
-        "aerospace"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4925808-bond-markets-getting-oversold-fed-funds-futures-indicate-the-fomc-will-stand-pat-on-july-29?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4925808-bond-markets-getting-oversold-fed-funds-futures-indicate-the-fomc-will-stand-pat-on-july-29?source=feed_all_articles",
-      "title": "债券市场出现超卖；联邦基金期货显示 FOMC 将在 7 月 29 日保持利率不变",
-      "content_html": "<p><strong>Bond Markets Getting Oversold; Fed Funds Futures Indicate The FOMC Will Stand Pat On July 29</strong></p><p>Bond markets are currently showing signs of being oversold, suggesting a potential rebound in the near future. Futures contracts indicate that the FOMC is expected to maintain current interest rates at their upcoming meeting.</p><p>债券市场目前出现超卖迹象，暗示近期可能出现反弹。期货合约显示，市场预期 FOMC 在即将召开的会议上将维持利率不变。</p><p>Tags: bonds · fomc · interestrates</p>",
-      "date_published": "2026-07-27T10:30:00+00:00",
-      "tags": [
-        "bonds",
-        "fomc",
-        "interestrates"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4925726-sret-this-reit-etf-is-now-poised-to-offer-higher-dividend-returns-with-steady-price-surge?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4925726-sret-this-reit-etf-is-now-poised-to-offer-higher-dividend-returns-with-steady-price-surge?source=feed_all_articles",
-      "title": "SRET：该 REIT ETF 现在准备通过稳步的价格上涨提供更高的股息回报",
-      "content_html": "<p><strong>SRET: This REIT ETF Is Now Poised To Offer Higher Dividend Returns With Steady Price Surge</strong></p><p>The SRET ETF is positioned for growth as it prepares to offer enhanced dividend yields. Analysts point to a steady upward price trend as a key factor for investors to watch.</p><p>SRET ETF 正处于增长态势，预计将提供更高的股息收益率。分析师指出，稳步上涨的价格趋势是投资者需要关注的关键因素。</p><p>Tags: sret · reit · dividends</p>",
-      "date_published": "2026-07-27T10:25:00+00:00",
-      "tags": [
-        "sret",
-        "reit",
-        "dividends"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1230211#reply0",
-      "url": "https://www.v2ex.com/t/1230211#reply0",
-      "title": "[分享发现] [开源] Illustrator：让 Agent 用代码生成可编辑配图",
-      "content_html": "<p><strong>[分享发现] [开源] Illustrator：让 Agent 用代码生成可编辑配图</strong></p><p>Illustrator is a new open-source agent skill that allows LLMs to generate editable images using code. It avoids browser dependencies and generative AI models, making it ideal for creating data charts and social media graphics.</p><p>Illustrator 是一个全新的开源 Agent 技能，允许 LLM 通过代码生成可编辑的图像。它不依赖浏览器或生成式 AI 模型，非常适合制作数据图表和社交媒体配图。</p><p>Tags: agent · opensource · illustrator</p>",
-      "date_published": "2026-07-27T10:20:39+00:00",
-      "tags": [
-        "agent",
-        "opensource",
-        "illustrator"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://36kr.com/p/3913736066028932?f=rss",
-      "url": "https://36kr.com/p/3913736066028932?f=rss",
-      "title": "清华博士团队创业，这家公司要给飞机做氢能「心脏」",
-      "content_html": "<p><strong>清华博士团队创业，这家公司要给飞机做氢能「心脏」｜36氪首发</strong></p><p>Tsinghua-backed startup Easy Hydrogen Power has secured funding to develop hydrogen fuel cell systems for aviation. The company aims to replace kerosene with hydrogen to improve energy density and reduce flight costs.</p><p>清华校友创办的易氢动力获得融资，致力于开发航空级氢燃料电池系统。该公司旨在用氢能替代航空煤油，以提升能量密度并降低长期飞行成本。</p><p>Tags: hydrogen · aviation · startup</p>",
-      "date_published": "2026-07-27T10:19:29+00:00",
-      "tags": [
-        "hydrogen",
-        "aviation",
-        "startup"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1230210#reply1",
-      "url": "https://www.v2ex.com/t/1230210#reply1",
-      "title": "[Apple] 注册 Apple Developer 求问",
-      "content_html": "<p><strong>[Apple] 注册 Apple Developer 求问</strong></p><p>A developer is seeking advice on the Apple Developer program enrollment process regarding identity verification. Questions include whether to use fake or real information and how it impacts app distribution and payment acceptance.</p><p>开发者在咨询 Apple Developer 注册流程中的身份验证问题。包括是否应该填写真实信息，以及这些信息对上架外区应用和接收付款的影响。</p><p>Tags: apple · developer · ios</p>",
-      "date_published": "2026-07-27T10:17:42+00:00",
-      "tags": [
-        "apple",
-        "developer",
-        "ios"
-      ],
-      "_category": "TECH"
     }
   ]
 }
