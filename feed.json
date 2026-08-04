@@ -6,6 +6,448 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1232070#reply0",
+      "url": "https://www.v2ex.com/t/1232070#reply0",
+      "title": "安装技能/db-ops，你真的没必要开发运营后台了",
+      "content_html": "<p><strong>[分享创造] 安装技能/db-ops，你真的没必要开发运营后台了</strong></p><p>The db-ops tool allows independent developers to manage databases directly via AI, eliminating the need for building custom admin dashboards. This open-source AI skill set integrates with coding assistants to handle data operations efficiently.</p><p>db-ops 工具允许独立开发者通过 AI 直接管理数据库，从而无需开发专门的运营后台。这一开源 AI 技能包可与编程助手集成，高效处理数据增删改查。</p><p>Tags: ai · database · developer-tools</p>",
+      "date_published": "2026-08-04T09:34:23+00:00",
+      "tags": [
+        "ai",
+        "database",
+        "developer-tools"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1232069#reply0",
+      "url": "https://www.v2ex.com/t/1232069#reply0",
+      "title": "广州外资招实习生/兼职 AI 自动化提效方向",
+      "content_html": "<p><strong>[酷工作] [广州外资]招实习生\\兼职 AI 自动化提效方向(龙虾 openClaw、爱马仕 Hermes 之类)|把重复文书工作做成一键化，需要坐班</strong></p><p>A foreign enterprise in Guangzhou is seeking an intern or part-time assistant to optimize repetitive administrative tasks using AI tools. The role focuses on automating workflows and improving efficiency without requiring a background in HR.</p><p>一家广州的外企正在招聘实习生或兼职，负责利用 AI 工具优化行政人事工作。该职位侧重于自动化重复性任务，无需 HR 背景，看重应聘者的工具使用能力。</p><p>Tags: ai · automation · hiring</p>",
+      "date_published": "2026-08-04T09:31:37+00:00",
+      "tags": [
+        "ai",
+        "automation",
+        "hiring"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4929717-nanr-a-proven-inflation-hedge?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4929717-nanr-a-proven-inflation-hedge?source=feed_all_articles",
+      "title": "NANR：一种经过验证的通胀对冲工具",
+      "content_html": "<p><strong>NANR: A Proven Inflation Hedge</strong></p><p>This article discusses how NANR serves as an effective investment hedge against inflation. It highlights the strategic benefits of including such assets in a portfolio to mitigate rising costs.</p><p>本文探讨了 NANR 如何作为一种有效的抗通胀投资工具。文中强调了在投资组合中配置此类资产以对冲通胀风险的战略优势。</p><p>Tags: finance · investing · inflation</p>",
+      "date_published": "2026-08-04T09:30:00+00:00",
+      "tags": [
+        "finance",
+        "investing",
+        "inflation"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/energy-shock-delivers-144-boost-in-profits-for-bp-a5337d03?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/energy-shock-delivers-144-boost-in-profits-for-bp-a5337d03?mod=mw_rss_topstories",
+      "title": "能源冲击助力英国石油公司利润激增 144%",
+      "content_html": "<p><strong>Energy shock delivers 144% boost in profits for BP</strong></p><p>BP reported a strong second quarter with a net profit of $5.7 billion, driven by global energy market volatility. These earnings significantly outperformed Wall Street analysts&#x27; consensus expectations.</p><p>受全球能源市场波动影响，英国石油公司（BP）第二季度净利润达到 57 亿美元。这一业绩表现大幅超出了华尔街分析师的预期。</p><p>Tags: bp · energy · earnings</p>",
+      "date_published": "2026-08-04T09:25:00+00:00",
+      "tags": [
+        "bp",
+        "energy",
+        "earnings"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c80n33lrnm5o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c80n33lrnm5o?at_medium=RSS&at_campaign=rss",
+      "title": "俄占克里米亚发生枪击事件，士兵杀害四人",
+      "content_html": "<p><strong>Soldier kills four in gun rampage in Russian-occupied Crimea</strong></p><p>A soldier in the Russian-occupied Crimea region opened fire, resulting in the deaths of four people. Local authorities confirmed the gunman was detained after the violent incident.</p><p>俄占克里米亚地区一名士兵发动枪击事件，造成四人死亡。当地亲俄政府表示，枪手已被逮捕。</p><p>Tags: russia · crimea · conflict</p>",
+      "date_published": "2026-08-04T09:23:06+00:00",
+      "tags": [
+        "russia",
+        "crimea",
+        "conflict"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1232068#reply0",
+      "url": "https://www.v2ex.com/t/1232068#reply0",
+      "title": "寻找一位 AI 测评与平台技术负责人",
+      "content_html": "<p><strong>[创业组队] [北京 / AI] 寻找一位 AI 测评与平台技术负责人：把检测做成产品</strong></p><p>A Beijing-based national research institute is seeking a technical lead to develop a standardized AI testing and validation platform. The goal is to move beyond simple rankings toward practical, commercial-grade AI verification services.</p><p>北京一家国家级科研机构正寻找一位技术负责人，旨在开发标准化的 AI 测评与验证平台。该项目目标是为企业提供可商业化的 AI 交付验证服务，而非简单的排行榜。</p><p>Tags: ai · testing · hiring</p>",
+      "date_published": "2026-08-04T09:22:45+00:00",
+      "tags": [
+        "ai",
+        "testing",
+        "hiring"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1232067#reply3",
+      "url": "https://www.v2ex.com/t/1232067#reply3",
+      "title": "上裁员名单了，还没和 HR 面谈，接下来怎么办",
+      "content_html": "<p><strong>[职场话题] 上裁员名单了，还没和 HR 面谈，接下来怎么办</strong></p><p>An employee shares their concern after being notified of an impending layoff but before the formal HR discussion. The post seeks advice on how to handle the situation professionally and protect their rights.</p><p>一名员工在得知自己进入裁员名单但尚未与 HR 面谈后表达了担忧。文中寻求如何专业处理该情况并保障自身权益的建议。</p><p>Tags: workplace · career · layoff</p>",
+      "date_published": "2026-08-04T09:20:52+00:00",
+      "tags": [
+        "workplace",
+        "career",
+        "layoff"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4929776-porch-group-a-unique-insurance-play-through-reciprocal?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4929776-porch-group-a-unique-insurance-play-through-reciprocal?source=feed_all_articles",
+      "title": "Porch Group：通过相互保险进行独特布局",
+      "content_html": "<p><strong>Porch Group: A Unique Insurance Play Through Reciprocal</strong></p><p>This article analyzes Porch Group&#x27;s business strategy, focusing on its unique approach to the insurance market. It suggests that their model offers specific growth opportunities for investors.</p><p>本文分析了 Porch Group 的商业战略，重点介绍了其在保险市场的独特运作方式。文章认为其商业模式为投资者提供了特定的增长机会。</p><p>Tags: insurance · investing · stock</p>",
+      "date_published": "2026-08-04T09:20:08+00:00",
+      "tags": [
+        "insurance",
+        "investing",
+        "stock"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1232066#reply1",
+      "url": "https://www.v2ex.com/t/1232066#reply1",
+      "title": "保定长城汽车诚聘资深 Java 后端",
+      "content_html": "<p><strong>[酷工作] 保定-长城汽车 诚聘资深 Java 后端 (2 人) 5 年+经验 系统研发 薪资 HR 面议</strong></p><p>Great Wall Motor in Baoding is hiring two senior Java backend developers with over five years of experience. The roles focus on system core component development, performance optimization, and architectural design.</p><p>保定长城汽车正在招聘两名具有 5 年以上经验的资深 Java 后端开发人员。该岗位负责核心组件开发、性能调优及业务架构设计。</p><p>Tags: java · hiring · automotive</p>",
+      "date_published": "2026-08-04T09:18:19+00:00",
+      "tags": [
+        "java",
+        "hiring",
+        "automotive"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/videos/c9d8662gyx5o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/videos/c9d8662gyx5o?at_medium=RSS&at_campaign=rss",
+      "title": "马来西亚籍飞行员在印尼机场被捕，随身携带 7 万颗摇头丸",
+      "content_html": "<p><strong>Moment pilot caught with 70,000 ecstasy pills at Indonesian airport</strong></p><p>A Malaysian pilot was arrested at a Jakarta airport after customs discovered 26kg of ecstasy pills in his luggage. The incident highlights ongoing drug smuggling enforcement efforts in Indonesia.</p><p>一名马来西亚飞行员在雅加达机场被捕，其行李中被发现藏有 26 公斤摇头丸。该事件凸显了印尼对毒品走私的严厉打击。</p><p>Tags: crime · indonesia · aviation</p>",
+      "date_published": "2026-08-04T09:18:03+00:00",
+      "tags": [
+        "crime",
+        "indonesia",
+        "aviation"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4929775-vietnam-manufacturing-hub-companies-leaving-china-what-means-investors?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4929775-vietnam-manufacturing-hub-companies-leaving-china-what-means-investors?source=feed_all_articles",
+      "title": "越南作为制造中心：为何企业离开中国及其对投资者的意义",
+      "content_html": "<p><strong>Vietnam As A Manufacturing Hub: Why Companies Are Leaving China And What It Means For Investors</strong></p><p>This report examines the trend of companies shifting manufacturing operations from China to Vietnam. It explores the implications for global supply chains and investment strategies.</p><p>本文探讨了企业将制造业务从中国转移至越南的趋势。文章分析了该现象对全球供应链及投资者策略的影响。</p><p>Tags: manufacturing · investment · vietnam</p>",
+      "date_published": "2026-08-04T09:13:00+00:00",
+      "tags": [
+        "manufacturing",
+        "investment",
+        "vietnam"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cgjed2q2l0xo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cgjed2q2l0xo?at_medium=RSS&at_campaign=rss",
+      "title": "分析：特朗普面临顶级盟友带来的残酷现实",
+      "content_html": "<p><strong>Analysis: Trump challenged by cold reality from top allies</strong></p><p>Donald Trump is facing significant political setbacks as some of his top allies challenge his influence. The analysis suggests he is struggling to maintain the same level of control over US politics.</p><p>唐纳德·特朗普正面临严峻的政治挑战，其核心盟友对其影响力的质疑日益增加。分析指出，他在掌控美国政局方面正遭遇困难。</p><p>Tags: trump · politics · usa</p>",
+      "date_published": "2026-08-04T09:11:39+00:00",
+      "tags": [
+        "trump",
+        "politics",
+        "usa"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4929774-everpure-memory-shortages-are-creating-an-unexpected-opportunity-strong-buy?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4929774-everpure-memory-shortages-are-creating-an-unexpected-opportunity-strong-buy?source=feed_all_articles",
+      "title": "Everpure：存储器短缺带来了意想不到的机遇",
+      "content_html": "<p><strong>Everpure: Memory Shortages Are Creating An Unexpected Opportunity - Strong Buy</strong></p><p>The article suggests that the current global memory hardware shortage has created a strong buying opportunity. Investors are encouraged to look at specific companies positioned to benefit from this supply gap.</p><p>文章指出，当前的全球内存硬件短缺为投资者创造了强劲的买入机会。建议投资者关注那些能从这一供给缺口中获利的特定企业。</p><p>Tags: investing · tech · hardware</p>",
+      "date_published": "2026-08-04T09:11:23+00:00",
+      "tags": [
+        "investing",
+        "tech",
+        "hardware"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4929786-global-pmi-data-point-to-sustained-manufacturing-growth-spurt-in-july-momentum-slows-amid-high-prices-uncertainty?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4929786-global-pmi-data-point-to-sustained-manufacturing-growth-spurt-in-july-momentum-slows-amid-high-prices-uncertainty?source=feed_all_articles",
+      "title": "全球 PMI 数据显示七月制造业增长放缓",
+      "content_html": "<p><strong>Global PMI Data Point To Sustained Manufacturing Growth Spurt In July, But Momentum Slows Amid High Prices, Uncertainty And Reduced Stock Building</strong></p><p>Global manufacturing PMI data indicates that growth is continuing but momentum is slowing due to high prices and economic uncertainty. Stock building has also decreased during this period.</p><p>全球 PMI 数据显示，尽管制造业仍在增长，但受高物价和经济不确定性影响，增长势头有所放缓。企业库存积累也在此期间减少。</p><p>Tags: pmi · economy · manufacturing</p>",
+      "date_published": "2026-08-04T09:10:00+00:00",
+      "tags": [
+        "pmi",
+        "economy",
+        "manufacturing"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss",
+      "title": "莫斯科地区五人死亡，乌克兰持续袭击俄仓库",
+      "content_html": "<p><strong>Five dead in Moscow region as Ukraine continues warehouse strikes</strong></p><p>Ukraine continued its military campaign by striking ammunition and supply warehouses across Russia. The attacks caused casualties in the Moscow region and significant damage to military facilities.</p><p>乌克兰持续发动军事行动，打击俄罗斯境内的补给仓库。袭击在莫斯科地区造成了人员伤亡，并对军事设施造成重大破坏。</p><p>Tags: ukraine · russia · war</p>",
+      "date_published": "2026-08-04T09:04:49+00:00",
+      "tags": [
+        "ukraine",
+        "russia",
+        "war"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/meg-ryan-finds-a-buyer-for-picturesque-15-25-million-hamptons-property-7d40dda5?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/meg-ryan-finds-a-buyer-for-picturesque-15-25-million-hamptons-property-7d40dda5?mod=mw_rss_topstories",
+      "title": "梅格·瑞恩以 1525 万美元出售其汉普顿豪宅",
+      "content_html": "<p><strong>Meg Ryan finds a buyer for picturesque $15.25 million Hamptons property</strong></p><p>Actress Meg Ryan successfully sold her luxury estate in the Hamptons for $15.25 million. The deal was finalized just weeks after the property was listed on the market.</p><p>女演员梅格·瑞恩以 1525 万美元的价格成功售出了其位于汉普顿的豪宅。该房产在挂牌仅数周后便迅速成交。</p><p>Tags: real-estate · celebrity · hamptons</p>",
+      "date_published": "2026-08-04T09:01:00+00:00",
+      "tags": [
+        "real-estate",
+        "celebrity",
+        "hamptons"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2583057-parts-of-the-uk-endure-first-ever-month-without-any-rain/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2583057-parts-of-the-uk-endure-first-ever-month-without-any-rain/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "英国部分地区经历史上首个无雨月",
+      "content_html": "<p><strong>Parts of the UK endure first ever month without any rain</strong></p><p>Parts of southern England and Wales recorded zero rainfall during July for the first time in history. Scientists described this extreme heat and dry spell as truly exceptional.</p><p>英国南部和威尔士的部分地区在七月经历了有记录以来首次无降水月。科学家称这段极度干旱和高温的时期非常罕见。</p><p>Tags: climate · weather · uk</p>",
+      "date_published": "2026-08-04T08:47:42+00:00",
+      "tags": [
+        "climate",
+        "weather",
+        "uk"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://36kr.com/p/3924953058605444?f=rss",
+      "url": "https://36kr.com/p/3924953058605444?f=rss",
+      "title": "巽霖科技获近 2 亿元 B 轮融资，聚焦玻璃基板",
+      "content_html": "<p><strong>一层“布”涨价270%之后，投资机构用数亿元投票玻璃基板，巽霖科技完成近2亿元B轮融资</strong></p><p>Xunlin Technology has secured nearly 200 million RMB in Series B funding to expand production of glass substrates. The company aims to address the supply crisis in semiconductor packaging materials.</p><p>巽霖科技完成了近 2 亿元人民币的 B 轮融资，将用于扩大玻璃基板产能。此举旨在解决半导体封装材料领域持续深化的供给危机。</p><p>Tags: semiconductor · funding · manufacturing</p>",
+      "date_published": "2026-08-04T08:31:59+00:00",
+      "tags": [
+        "semiconductor",
+        "funding",
+        "manufacturing"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://36kr.com/p/3924913931679877?f=rss",
+      "url": "https://36kr.com/p/3924913931679877?f=rss",
+      "title": "东山精密涨停背后：36氪企业全情报捕捉市场机会",
+      "content_html": "<p><strong>东山精密涨停背后：36氪企业全情报捕捉市场机会</strong></p><p>Dongshan Precision hit the daily limit, and analysis suggests the trend is driven by positive sentiment in the storage industry chain. 36Kr offers data tools to help investors spot such opportunities.</p><p>东山精密股价触及涨停，分析认为这得益于存储产业链的积极舆情。36氪通过企业全情报工具帮助投资者捕捉此类市场机会。</p><p>Tags: stock · analysis · tech</p>",
+      "date_published": "2026-08-04T08:18:21+00:00",
+      "tags": [
+        "stock",
+        "analysis",
+        "tech"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://36kr.com/p/3924826666301831?f=rss",
+      "url": "https://36kr.com/p/3924826666301831?f=rss",
+      "title": "Kimi K3 与 DeepSeek V4 之间：原生多模态的时间差",
+      "content_html": "<p><strong>Kimi K3与DeepSeek V4之间，隔着原生多模态的时间差</strong></p><p>The article discusses the importance of native multimodal capabilities in AI models like Kimi K3. It highlights how integrating visual feedback improves reasoning in long-chain tasks compared to traditional text-only models.</p><p>本文探讨了像 Kimi K3 这类 AI 模型中原生多模态能力的重要性。文章指出，与传统纯文本模型相比，集成视觉反馈能有效提升长链任务的推理效果。</p><p>Tags: ai · multimodal · llm</p>",
+      "date_published": "2026-08-04T06:32:05+00:00",
+      "tags": [
+        "ai",
+        "multimodal",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "title": "工程化自我改进",
+      "content_html": "<p><strong>Harness Engineering for Self-Improvement</strong></p><p>This discussion explores methodologies for engineering self-improvement systems, likely within a software or AI context. It invites community debate on practical implementation and iterative development.</p><p>本文探讨了在软件或 AI 环境中构建工程化自我改进系统的方法论。社区成员围绕其实践实施和迭代开发展开了讨论。</p><p>Tags: engineering · self-improvement · development</p>",
+      "date_published": "2026-08-04T06:17:54+00:00",
+      "tags": [
+        "engineering",
+        "self-improvement",
+        "development"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://36kr.com/p/3924634192673153?f=rss",
+      "url": "https://36kr.com/p/3924634192673153?f=rss",
+      "title": "清博空天获数千万天使+轮融资，发力空间态势感知",
+      "content_html": "<p><strong>3氪首发 | 两位“三清”博士联合创业做空间态势感知服务，完成数千万天使+轮融资</strong></p><p>Qingbo Aerospace has raised tens of millions in Series Angel+ funding to enhance space situational awareness services. The startup provides collision warnings and satellite monitoring for commercial space operators.</p><p>清博空天近日完成数千万元天使+轮融资，专注于空间态势感知服务。该公司为商业航天运营商提供碰撞预警及卫星监测解决方案。</p><p>Tags: aerospace · funding · satellites</p>",
+      "date_published": "2026-08-04T03:05:05+00:00",
+      "tags": [
+        "aerospace",
+        "funding",
+        "satellites"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://36kr.com/p/3924628805351811?f=rss",
+      "url": "https://36kr.com/p/3924628805351811?f=rss",
+      "title": "陶世智能完成超亿元融资，供货人形机器人领域",
+      "content_html": "<p><strong>36氪首发 | 为果链、头部灵巧手公司供货，新型减速器厂商完成超亿元融资，估值破10亿</strong></p><p>Precision reducer manufacturer Taoshi Intelligence has completed a funding round exceeding 100 million RMB. The company serves the humanoid robot market, including major tech supply chains.</p><p>精密减速器厂商陶世智能完成超亿元融资。该公司主要为人形机器人领域提供关键零部件，并已进入头部科技企业供应链。</p><p>Tags: robotics · funding · manufacturing</p>",
+      "date_published": "2026-08-04T02:59:50+00:00",
+      "tags": [
+        "robotics",
+        "funding",
+        "manufacturing"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://sspai.com/post/112738",
+      "url": "https://sspai.com/post/112738",
+      "title": "角落新声｜成年的快乐，是可以将角落铺满全家",
+      "content_html": "<p><strong>角落新声｜成年的快乐，是可以将角落铺满全家</strong></p><p>The article reflects on the personal significance of quiet spaces at home. It suggests that finding joy in small, private corners contributes to adult well-being.</p><p>本文感悟了家中安静角落对个人生活的意义。作者认为，在小而私密的角落里寻找快乐有助于提升成人的幸福感。</p><p>Tags: lifestyle · home · reflection</p>",
+      "date_published": "2026-08-04T02:59:26+00:00",
+      "tags": [
+        "lifestyle",
+        "home",
+        "reflection"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/113053",
+      "url": "https://sspai.com/post/113053",
+      "title": "派早报：MiniMax H3 开源、Qwen3.8-Max 发布等",
+      "content_html": "<p><strong>派早报：MiniMax H3 开源、Qwen3.8-Max 发布等</strong></p><p>This roundup covers major AI industry updates, including the open-sourcing of MiniMax H3 and the release of Qwen3.8-Max. It also highlights ongoing community writing contests.</p><p>本篇早报汇总了 AI 行业的重要动态，包括 MiniMax H3 的开源和 Qwen3.8-Max 的发布。同时提到社区正在进行的征文活动。</p><p>Tags: ai · news · llm</p>",
+      "date_published": "2026-08-04T00:13:40+00:00",
+      "tags": [
+        "ai",
+        "news",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.theverge.com/entertainment/974505/beast-of-reincarnation-review-ps5-xbox",
+      "url": "https://www.theverge.com/entertainment/974505/beast-of-reincarnation-review-ps5-xbox",
+      "title": "宝可梦开发商在《Beast of Reincarnation》中难以找到自身定位",
+      "content_html": "<p><strong>The studio behind Pokémon struggles to find its voice in Beast of Reincarnation</strong></p><p>Game Freak, the studio behind Pokémon, is experimenting with new titles but struggling to find consistent creative voice outside their main franchise. Their latest project shows the difficulty of diversifying beyond their core hit.</p><p>宝可梦开发商 Game Freak 正在尝试新项目，但在核心系列之外难以保持一贯的创意风格。其最新作品反映了工作室在核心业务之外拓展的困难。</p><p>Tags: gaming · gamefreak · pokemon</p>",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "tags": [
+        "gaming",
+        "gamefreak",
+        "pokemon"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/we-have-always-been-civil-my-sister-refuses-to-replace-me-as-executor-can-i-step-down-before-she-dies-84a835a9?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/we-have-always-been-civil-my-sister-refuses-to-replace-me-as-executor-can-i-step-down-before-she-dies-84a835a9?mod=mw_rss_topstories",
+      "title": "遗嘱执行人纠纷：我能在我姐姐去世前辞职吗？",
+      "content_html": "<p><strong>‘We have always been civil’: My sister refuses to replace me as executor. Can I step down before she dies?</strong></p><p>The author explores legal and personal complexities regarding their role as an executor for an estranged sister. They seek advice on whether it is possible to resign before the responsibility takes effect.</p><p>作者探讨了在与疏远的姐姐关系下，担任遗嘱执行人的法律和个人复杂性。文中咨询了在责任生效前辞去该职位的可能性。</p><p>Tags: legal · family · advice</p>",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "tags": [
+        "legal",
+        "family",
+        "advice"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://openai.com/index/apple-is-getting-this-wrong",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "title": "苹果在这一问题上错了",
+      "content_html": "<p><strong>Apple is getting this wrong</strong></p><p>OpenAI addresses Apple&#x27;s lawsuit, characterizing it as baseless. The company shares internal documentation to clarify the facts regarding their employees and the nature of the dispute.</p><p>OpenAI 回应了苹果的诉讼，称其毫无根据。该公司公开了内部文件，以澄清有关员工及纠纷性质的事实。</p><p>Tags: openai · apple · lawsuit</p>",
+      "date_published": "2026-08-03T22:00:00+00:00",
+      "tags": [
+        "openai",
+        "apple",
+        "lawsuit"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss",
+      "title": "休达移民穿越事件后，欧盟呼吁加强边境管理",
+      "content_html": "<p><strong>EU calls for stronger borders after Ceuta migrant crossings</strong></p><p>Following a surge in migrant crossings at Ceuta, the EU is calling for urgent measures to strengthen border security. Ministers are meeting to discuss policy shifts to address the situation.</p><p>在休达发生移民潮后，欧盟呼吁采取紧急措施加强边境安全。各国部长正举行会议讨论政策调整以应对该情况。</p><p>Tags: eu · migration · politics</p>",
+      "date_published": "2026-08-03T21:43:10+00:00",
+      "tags": [
+        "eu",
+        "migration",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "title": "大模型奖励专业知识",
+      "content_html": "<p><strong>LLMs reward expertise</strong></p><p>This discussion examines how Large Language Models increasingly demonstrate a correlation between performance and high-quality, expert-level training data. It suggests that depth of domain knowledge is key to model success.</p><p>本讨论考察了大型语言模型表现与高质量、专家级训练数据之间的关联。文中指出，领域知识的深度是模型成功的关键。</p><p>Tags: llm · ai · data</p>",
+      "date_published": "2026-08-03T21:13:53+00:00",
+      "tags": [
+        "llm",
+        "ai",
+        "data"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+      "title": "特朗普的 AI 保护主义已波及机器人行业",
+      "content_html": "<p><strong>Trump’s AI protectionism has come for robotics</strong></p><p>The article discusses how protectionist policies under the Trump era are impacting the emerging humanoid robotics industry. It suggests these trade barriers may hinder innovation and global supply chains.</p><p>本文讨论了特朗普时代的保护主义政策如何影响新兴的人形机器人行业。文章指出这些贸易壁垒可能会阻碍创新和全球供应链的发展。</p><p>Tags: ai · robotics · politics</p>",
+      "date_published": "2026-08-03T18:43:30+00:00",
+      "tags": [
+        "ai",
+        "robotics",
+        "politics"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "title": "欧洲的 AI 标签和透明度规则现已生效",
+      "content_html": "<p><strong>Europe’s AI labeling and transparency rules are now in effect</strong></p><p>The EU&#x27;s AI Act has implemented new transparency rules requiring companies to label AI-generated content and chatbots. The policy aims to protect users by ensuring they know when they are interacting with AI.</p><p>欧盟《人工智能法案》已实施新的透明度规则，要求企业标注 AI 生成的内容和聊天机器人。此举旨在确保用户了解自己何时在与 AI 交互。</p><p>Tags: ai · regulation · eu</p>",
+      "date_published": "2026-08-03T17:38:45+00:00",
+      "tags": [
+        "ai",
+        "regulation",
+        "eu"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2582780-why-winner-of-biggest-prize-in-maths-has-decided-to-work-on-ai-instead/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2582780-why-winner-of-biggest-prize-in-maths-has-decided-to-work-on-ai-instead/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "菲尔兹奖得主为何决定投身 AI 研究",
+      "content_html": "<p><strong>Why winner of biggest prize in maths has decided to work on AI instead</strong></p><p>Fields Medal winner Jacob Tsimerman is stepping away from pure mathematics to focus on AI safety. His shift highlights the growing trend of top academic mathematicians moving into the AI field.</p><p>菲尔兹奖得主雅各布·齐默尔曼正离开纯数学领域，转而投身于 AI 安全研究。他的职业转型凸显了顶尖数学家进入 AI 领域的增长趋势。</p><p>Tags: math · ai · career</p>",
+      "date_published": "2026-08-03T17:00:00+00:00",
+      "tags": [
+        "math",
+        "ai",
+        "career"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://github.com/leonickson1/Swiftlet",
+      "url": "https://github.com/leonickson1/Swiftlet",
+      "title": "数学与理论计算机科学的十大进展",
+      "content_html": "<p><strong>Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone</strong></p><p>A summary of recent breakthroughs in mathematics and theoretical computer science. The list highlights major theoretical advancements and their potential impact on future technologies.</p><p>本文总结了数学和理论计算机科学领域的最新突破。清单涵盖了主要的理论进展及其对未来技术的潜在影响。</p><p>Tags: math · science · research</p>",
+      "date_published": "2026-08-03T16:54:15+00:00",
+      "tags": [
+        "math",
+        "science",
+        "research"
+      ],
+      "_category": "SCI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1231819#reply0",
       "url": "https://www.v2ex.com/t/1231819#reply0",
       "title": "入门3D打印前的调研",
@@ -2162,448 +2604,6 @@
         "workflow"
       ],
       "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1230783#reply0",
-      "url": "https://www.v2ex.com/t/1230783#reply0",
-      "title": "程序员：没编程基础，靠AI搓了个插件",
-      "content_html": "<p><strong>[程序员] 没编程基础，靠 AI 搓了个自动填外链表单的 Chrome 插件，送 30 天 Plus 体验</strong></p><p>A product manager with no coding experience developed a Chrome extension for automated form filling using AI tools. They are currently seeking feedback and users for their early-stage SEO and web development tool.</p><p>一名无编程经验的产品经理利用AI开发了一款自动填表Chrome插件。他们目前正在为这款SEO和网页开发工具征集用户反馈。</p><p>Tags: ai · chrome · extension</p>",
-      "date_published": "2026-07-29T09:15:35+00:00",
-      "tags": [
-        "ai",
-        "chrome",
-        "extension"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
-      "title": "60岁有150万美元，如何防止家庭遗产纠纷？",
-      "content_html": "<p><strong>‘We already have wills’: We’re in our 60s with $1.5 million. How do we prevent family drama among our heirs?</strong></p><p>A couple in their 60s with $1.5 million in assets is seeking advice on estate planning. They want to avoid the potential public and costly nature of probate while preventing future family drama.</p><p>一对60多岁拥有150万美元资产的夫妇正在寻求遗产规划建议。他们希望避免冗长昂贵的遗嘱认证过程，并防止未来的家庭纠纷。</p><p>Tags: finance · estate · retirement</p>",
-      "date_published": "2026-07-29T09:15:00+00:00",
-      "tags": [
-        "finance",
-        "estate",
-        "retirement"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/actress-elisha-cuthbert-sells-her-west-hollywood-home-for-1-9-million-after-price-cut-dc6bca46?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/actress-elisha-cuthbert-sells-her-west-hollywood-home-for-1-9-million-after-price-cut-dc6bca46?mod=mw_rss_topstories",
-      "title": "演员Elisha Cuthbert降价卖房",
-      "content_html": "<p><strong>Actress Elisha Cuthbert sells her West Hollywood home for $1.9 million after price cut</strong></p><p>Actress Elisha Cuthbert successfully sold her West Hollywood property for $1.93 million. The sale concluded shortly after a price reduction was applied to the listing.</p><p>演员Elisha Cuthbert以193万美元的价格成功售出了其位于西好莱坞的房产。此次交易在房产降价后不久达成。</p><p>Tags: realestate · hollywood · celeb</p>",
-      "date_published": "2026-07-29T08:59:00+00:00",
-      "tags": [
-        "realestate",
-        "hollywood",
-        "celeb"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
-      "title": "沙特与美国联手打击伊拉克的伊朗支持民兵",
-      "content_html": "<p><strong>Saudi Arabia joins US in strikes on Iran-backed militias in Iraq</strong></p><p>Saudi Arabia and the US have coordinated strikes against proxy militias in Iraq. The move comes in response to attacks targeting US bases and Saudi energy infrastructure.</p><p>沙特与美国联手打击了伊拉克境内的伊朗支持民兵。此举是对针对美国基地和沙特能源基础设施攻击的报复。</p><p>Tags: saudi · usa · iraq</p>",
-      "date_published": "2026-07-29T08:43:46+00:00",
-      "tags": [
-        "saudi",
-        "usa",
-        "iraq"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-      "title": "AI炒作指数：不那么性感的AI",
-      "content_html": "<p><strong>The AI Hype Index: Unsexy AI</strong></p><p>The article explores the practical side of AI beyond the hype, focusing on robots like those from 1X. It highlights how AI is being applied to mundane, physical tasks that were previously considered too difficult.</p><p>文章探讨了炒作之外的实用AI，重点介绍了1X等公司的机器人。它强调了AI如何被应用于以往认为过于困难的日常体力任务。</p><p>Tags: ai · robotics · 1x</p>",
-      "date_published": "2026-07-29T08:42:57+00:00",
-      "tags": [
-        "ai",
-        "robotics",
-        "1x"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://36kr.com/p/3916187215408776?f=rss",
-      "url": "https://36kr.com/p/3916187215408776?f=rss",
-      "title": "AI智能浪潮重塑母婴赛道",
-      "content_html": "<p><strong>AI智能浪潮重塑母婴赛道，吸牛裤如何实现 “智能育儿”？</strong></p><p>The maternal and infant industry is adopting AI technology to meet the demands of modern parents for scientific care. New brands are leveraging AI-integrated diapers and monitoring systems to reduce parenting stress.</p><p>母婴行业正引入AI技术以满足现代父母对科学育儿的需求。新品牌通过整合AI尿裤和监测系统，旨在减轻育儿压力。</p><p>Tags: ai · maternal · innovation</p>",
-      "date_published": "2026-07-29T08:30:52+00:00",
-      "tags": [
-        "ai",
-        "maternal",
-        "innovation"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers",
-      "url": "https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers",
-      "title": "生产环境下的SQLite优化",
-      "content_html": "<p><strong>SQLite in Production: Optimizing WAL Mode, Concurrency, and VFS Layers</strong></p><p>This discussion focuses on optimizing SQLite performance in production environments. Key areas include WAL mode, concurrency management, and VFS layer configurations.</p><p>本次讨论聚焦于生产环境下的SQLite性能优化。核心内容涵盖WAL模式、并发管理及VFS层配置。</p><p>Tags: sqlite · database · backend</p>",
-      "date_published": "2026-07-29T07:18:24+00:00",
-      "tags": [
-        "sqlite",
-        "database",
-        "backend"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://sspai.com/post/112761",
-      "url": "https://sspai.com/post/112761",
-      "title": "陕北看海，黄土难寻",
-      "content_html": "<p><strong>陕北看海，黄土难寻</strong></p><p>A travel essay reflecting on the changing landscape and personal experience of visiting northern Shaanxi. It captures the contrast between the traditional loess plateau and modern travel perspectives.</p><p>这是一篇关于陕北旅游的随笔，记录了作者对当地地貌变迁的个人感悟，捕捉了传统黄土高原与现代旅游视角的反差。</p><p>Tags: travel · shaanxi · culture</p>",
-      "date_published": "2026-07-29T07:00:51+00:00",
-      "tags": [
-        "travel",
-        "shaanxi",
-        "culture"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/videos/c3r0pg0dgrgo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/videos/c3r0pg0dgrgo?at_medium=RSS&at_campaign=rss",
-      "title": "日本地震救援与时间赛跑",
-      "content_html": "<p><strong>Japan in a ‘race against time’ to rescue people trapped beneath rubble after quake</strong></p><p>Emergency responders are racing against time to rescue individuals trapped under rubble following a major earthquake in Kyushu. At least 13 casualties have been reported so far.</p><p>日本九州发生大地震后，救援人员正在与时间赛跑以营救被困人员。目前已确认至少13人死亡。</p><p>Tags: japan · earthquake · rescue</p>",
-      "date_published": "2026-07-29T06:10:19+00:00",
-      "tags": [
-        "japan",
-        "earthquake",
-        "rescue"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://36kr.com/p/3916108853521792?f=rss",
-      "url": "https://36kr.com/p/3916108853521792?f=rss",
-      "title": "华辰芯光完成超亿元融资",
-      "content_html": "<p><strong>华辰芯光完成超亿元融资，全栈技术能力突破高端激光芯片封锁</strong></p><p>Zhejiang Huachen Xinguang has secured over 100 million RMB to advance its high-end laser chip production. The company focuses on IDM models to reduce import reliance in optical communications.</p><p>浙江华辰芯光完成超亿元融资，旨在推进高端激光芯片生产。公司通过IDM模式致力于减少光通信领域对进口的依赖。</p><p>Tags: laser · chips · funding</p>",
-      "date_published": "2026-07-29T05:38:46+00:00",
-      "tags": [
-        "laser",
-        "chips",
-        "funding"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cd7lg2nz2x2o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cd7lg2nz2x2o?at_medium=RSS&at_campaign=rss",
-      "title": "四名女性指控Jared Leto性犯罪",
-      "content_html": "<p><strong>Four women accuse Jared Leto of criminal sexual conduct</strong></p><p>Actor and musician Jared Leto is facing allegations of criminal sexual conduct from multiple women. The total number of complainants has reached 10, citing incidents dating back to their youth.</p><p>演员兼音乐人Jared Leto面临多名女性对其性犯罪行为的指控。目前投诉者总数已达10人，称事件发生于她们的青少年时期。</p><p>Tags: law · hollywood · jaredleto</p>",
-      "date_published": "2026-07-29T05:00:07+00:00",
-      "tags": [
-        "law",
-        "hollywood",
-        "jaredleto"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
-      "url": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
-      "title": "Kindle越狱后的Tailscale技巧",
-      "content_html": "<p><strong>More Tailscale tricks for your jailbroken Kindle</strong></p><p>A technical guide on how to utilize Tailscale on jailbroken Kindles. It provides methods to improve connectivity and manage remote access for custom reader setups.</p><p>一份关于在越狱Kindle上使用Tailscale的技术指南。内容提供了改善连接性和管理自定义阅读器远程访问的方法。</p><p>Tags: kindle · tailscale · jailbreak</p>",
-      "date_published": "2026-07-29T04:58:46+00:00",
-      "tags": [
-        "kindle",
-        "tailscale",
-        "jailbreak"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss",
-      "title": "法国南部山火与热浪警告",
-      "content_html": "<p><strong>Wildfires in south-west France flare up as region braces for new 40C heatwave</strong></p><p>Firefighters are struggling to contain wildfires in France&#x27;s Gironde region amid a new 40C heatwave. The extreme weather conditions pose a significant threat to containment efforts.</p><p>在40摄氏度的新一轮热浪下，法国吉伦特地区的消防员正全力扑救山火。极端天气为灭火工作带来了巨大挑战。</p><p>Tags: france · wildfire · climate</p>",
-      "date_published": "2026-07-29T04:43:36+00:00",
-      "tags": [
-        "france",
-        "wildfire",
-        "climate"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.datagubbe.se/scenegui/",
-      "url": "https://www.datagubbe.se/scenegui/",
-      "title": "演示场景（Demo Scene）的用户界面",
-      "content_html": "<p><strong>User Interfaces of the Demo Scene</strong></p><p>A deep dive into the historical and creative UI design found in the &#x27;demo scene&#x27; subculture. It examines how technical constraints pushed artists to innovate in visual interface creation.</p><p>深入剖析“演示场景”（demo scene）亚文化中独特的UI设计。探讨了技术限制如何推动艺术家在视觉界面创作上的创新。</p><p>Tags: ui · demoscene · design</p>",
-      "date_published": "2026-07-29T04:30:36+00:00",
-      "tags": [
-        "ui",
-        "demoscene",
-        "design"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://36kr.com/p/3916202023660929?f=rss",
-      "url": "https://36kr.com/p/3916202023660929?f=rss",
-      "title": "Mind Lab：中国AI持续学习初创公司",
-      "content_html": "<p><strong>在大模型的下一阶段议题上，我们找到了一家做持续学习的中国Neo Lab</strong></p><p>Mind Lab, a Beijing-based AI startup, is focusing on &#x27;continual learning&#x27; as the next frontier for models. Led by experienced developers, the company aims to move beyond static training data.</p><p>北京AI初创公司Mind Lab正致力于将“持续学习”作为AI模型的下一个前沿方向。团队由资深开发者组成，旨在超越静态训练数据。</p><p>Tags: ai · startup · learning</p>",
-      "date_published": "2026-07-29T04:10:36+00:00",
-      "tags": [
-        "ai",
-        "startup",
-        "learning"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://sspai.com/post/112715",
-      "url": "https://sspai.com/post/112715",
-      "title": "角落新声：黑胶爱好者的音乐空间",
-      "content_html": "<p><strong>角落新声｜没有书房，也要给音乐留一个角落：聊聊我的黑胶「窝棚」</strong></p><p>A personal reflection on the importance of creating a dedicated music space, even in small living environments. The author shares their experience of building a vinyl corner to maintain a sense of personal well-being.</p><p>作者分享了即使在狭小居住空间中也应开辟音乐角落的感悟。文章记录了其建立黑胶聆听区以维护内心平静的个人体验。</p><p>Tags: music · vinyl · lifestyle</p>",
-      "date_published": "2026-07-29T03:00:01+00:00",
-      "tags": [
-        "music",
-        "vinyl",
-        "lifestyle"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://36kr.com/p/3915175290901889?f=rss",
-      "url": "https://36kr.com/p/3915175290901889?f=rss",
-      "title": "尧乐科技获融资，推进柔性触觉感知技术",
-      "content_html": "<p><strong>柔性触觉感知企业获新一轮融资，预计2026年公司营收翻10倍｜硬氪首发</strong></p><p>Yaole Technology has raised funds for its flexible tactile sensing technology. The company plans to apply these sensors to robotics and intelligent cockpits, addressing the data gap in embodied AI.</p><p>尧乐科技完成融资，将推进柔性触觉传感技术。公司计划将其应用于具身智能与智能座舱，以填补机器人感知数据缺口。</p><p>Tags: robotics · ai · sensing</p>",
-      "date_published": "2026-07-29T01:30:00+00:00",
-      "tags": [
-        "robotics",
-        "ai",
-        "sensing"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/saudi-arabia-has-a-new-and-pricier-workaround-to-export-its-oil-fb5085a5?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/saudi-arabia-has-a-new-and-pricier-workaround-to-export-its-oil-fb5085a5?mod=mw_rss_topstories",
-      "title": "派早报：微软与美团发布AI新工具",
-      "content_html": "<p><strong>Saudi Arabia has a new, and pricier, workaround to export its oil</strong></p><p>This tech briefing highlights Microsoft’s new cybersecurity model and Meituan’s AI Agent platform. It also covers community updates and recent industry discussions from the minority-focused platform.</p><p>本期科技早报介绍了微软的网络安全模型及美团的AI Agent平台。同时涵盖了社区动态及行业讨论。</p><p>Tags: ai · microsoft · meituan</p>",
-      "date_published": "2026-07-29T01:28:00+00:00",
-      "tags": [
-        "ai",
-        "microsoft",
-        "meituan"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://sspai.com/post/112837",
-      "url": "https://sspai.com/post/112837",
-      "title": "Seagate财报超出预期，提振AI板块",
-      "content_html": "<p><strong>派早报：微软发布网络安全模型 MAI-Cyber-1-Flash、美团发布 AI Agent 平台等</strong></p><p>Seagate&#x27;s latest quarterly results have beaten expectations, leading to a rally in its stock. The news provides a positive signal for the broader AI-linked hardware market.</p><p>希捷最新季度财报超出预期，推动股价上涨。这一消息为更广泛的AI相关硬件市场提供了积极信号。</p><p>Tags: seagate · ai · finance</p>",
-      "date_published": "2026-07-29T00:39:00+00:00",
-      "tags": [
-        "seagate",
-        "ai",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/seagates-earnings-are-welcome-news-for-the-battered-ai-trade-92dfc30f?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/seagates-earnings-are-welcome-news-for-the-battered-ai-trade-92dfc30f?mod=mw_rss_topstories",
-      "title": "米能科技：专注医疗类脑芯片研发",
-      "content_html": "<p><strong>Seagate’s earnings are welcome news for the battered AI trade</strong></p><p>Minen Tech has secured funding to scale its SNN brain-inspired chips for medical devices. Their platform aims to improve the efficiency and latency of real-time physiological signal monitoring.</p><p>米能科技获得融资，用于扩展其医疗设备类脑脉冲神经网络芯片。该平台旨在提升实时生理信号监测的效率与响应速度。</p><p>Tags: ai · medtech · chips</p>",
-      "date_published": "2026-07-29T00:21:00+00:00",
-      "tags": [
-        "ai",
-        "medtech",
-        "chips"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://36kr.com/p/3878652674715905?f=rss",
-      "url": "https://36kr.com/p/3878652674715905?f=rss",
-      "title": "墨西哥贩毒集团向尼日利亚外包冰毒实验室",
-      "content_html": "<p><strong>自研SNN类脑芯片、做医疗设备的“上游大脑”，「米能科技」获数千万元融资｜36氪首发</strong></p><p>Reports indicate that Mexican drug cartels are establishing meth labs in West Africa. Nigeria has become a strategic hub for illicit drug production and international distribution.</p><p>报告显示墨西哥贩毒集团正在西非建立冰毒实验室。尼日利亚已成为非法毒品生产与国际分销的战略中心。</p><p>Tags: crime · mexico · nigeria</p>",
-      "date_published": "2026-07-29T00:15:00+00:00",
-      "tags": [
-        "crime",
-        "mexico",
-        "nigeria"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/tech/972209/ebay-cyberstalking-harassment-settlement",
-      "url": "https://www.theverge.com/tech/972209/ebay-cyberstalking-harassment-settlement",
-      "title": "Codex安全与隐忧",
-      "content_html": "<p><strong>eBay&amp;#8217;s bizarre cyberstalking saga ends with a $56 million settlement</strong></p><p>The discussion revolves around the security implications of using AI coding assistants like Codex. Participants exchange experiences on mitigating risks related to generated code vulnerabilities.</p><p>讨论围绕使用Codex等AI编码助手的安全影响展开。参与者交流了降低代码漏洞风险的相关经验。</p><p>Tags: ai · security · coding</p>",
-      "date_published": "2026-07-28T21:11:11+00:00",
-      "tags": [
-        "ai",
-        "security",
-        "coding"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://github.com/openai/codex-security",
-      "url": "https://github.com/openai/codex-security",
-      "title": "AI领军者呼吁政府加强监管",
-      "content_html": "<p><strong>Codex Security</strong></p><p>Leaders from major AI labs including OpenAI, Anthropic, and Google have signed a statement urging global governance for frontier AI. They emphasize the need for coordinated oversight as AI capabilities advance.</p><p>OpenAI、Anthropic及谷歌等顶级AI实验室的领导者签署声明，呼吁全球加强对前沿AI的监管。他们强调了随着技术进步，协调监管的必要性。</p><p>Tags: ai · governance · policy</p>",
-      "date_published": "2026-07-28T20:52:55+00:00",
-      "tags": [
-        "ai",
-        "governance",
-        "policy"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
-      "title": "AI Agent时代的科学计算",
-      "content_html": "<p><strong>AI leaders sign a statement asking the government to do something about automated AI</strong></p><p>OpenAI explores how scientists are leveraging agentic AI to revolutionize computing in fields like genomics. These coding agents are significantly accelerating software development and research breakthroughs.</p><p>OpenAI探讨了科学家如何利用AI Agent在基因组学等领域革新计算。这些编程Agent正大幅加速软件开发与科研突破。</p><p>Tags: ai · science · agents</p>",
-      "date_published": "2026-07-28T19:46:43+00:00",
-      "tags": [
-        "ai",
-        "science",
-        "agents"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1230483#reply0",
-      "url": "https://www.v2ex.com/t/1230483#reply0",
-      "title": "“用银行短信自动记账”功能的 iOS App 已上线 App Store",
-      "content_html": "<p><strong>[分享创造] “用银行短信自动记账”功能的 ios app 已上线 appstore 欢迎使用和提建议</strong></p><p>A new iOS app that automatically logs bank transactions via SMS has been launched on the App Store. It is currently available with a limited-time free offer before moving to a one-time purchase model.</p><p>一款通过自动识别银行短信进行记账的iOS应用已上架AppStore。该应用目前处于限免期，后续将改为买断制收费。</p><p>Tags: ios · app · finance</p>",
-      "date_published": "2026-07-28T09:27:43+00:00",
-      "tags": [
-        "ios",
-        "app",
-        "finance"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1230482#reply0",
-      "url": "https://www.v2ex.com/t/1230482#reply0",
-      "title": "取消打卡制度可能弊大于利",
-      "content_html": "<p><strong>[分享发现] 经常有老哥讨论打卡问题，说个反直觉的点不知道会不会被骂，目前环境取消打卡弊大于利</strong></p><p>Some argue that removing work clock-in requirements can negatively impact employees by blurring the line between work and personal life. The lack of a ritualistic end to the workday often keeps individuals in a state of constant standby.</p><p>有观点认为取消打卡制度弊大于利，因为它模糊了工作与生活的边界。失去下班的仪式感会导致员工长期处于待命状态。</p><p>Tags: work · management · culture</p>",
-      "date_published": "2026-07-28T09:27:02+00:00",
-      "tags": [
-        "work",
-        "management",
-        "culture"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://36kr.com/p/3913637793059968?f=rss",
-      "url": "https://36kr.com/p/3913637793059968?f=rss",
-      "title": "沃尔沃中国全面“吉利化”，筹备对标尊界 S800 的旗舰轿车",
-      "content_html": "<p><strong>沃尔沃中国全面&quot;吉利化&quot;，首款超豪轿车对标尊界S800｜36氪独家</strong></p><p>Volvo is developing a new D-segment luxury sedan, codenamed 556, specifically for the Chinese market. The project is heavily supported by Geely&#x27;s resources to compete against high-end rivals like the ZunJie S800.</p><p>沃尔沃正在研发内部代号为“556”的D级旗舰轿车，旨在通过中国市场专属定位对标尊界S800。该项目得到了吉利集团的全力资源支持。</p><p>Tags: volvo · geely · automotive</p>",
-      "date_published": "2026-07-28T09:24:01+00:00",
-      "tags": [
-        "volvo",
-        "geely",
-        "automotive"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
-      "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
-      "title": "三星芯片工程师跳槽竞争对手 SK 海力士",
-      "content_html": "<p><strong>Samsung’s chip workers are jumping ship to rival SK Hynix</strong></p><p>Semiconductor engineers at Samsung are increasingly leaving for their rival SK Hynix. This shift reflects a trend of talent migration within the competitive South Korean chip industry.</p><p>三星半导体部门的工程师正纷纷跳槽至竞争对手SK海力士。这反映了韩国芯片产业内激烈的人才竞争趋势。</p><p>Tags: samsung · skhynix · semiconductor</p>",
-      "date_published": "2026-07-28T09:18:57+00:00",
-      "tags": [
-        "samsung",
-        "skhynix",
-        "semiconductor"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1230481#reply3",
-      "url": "https://www.v2ex.com/t/1230481#reply3",
-      "title": "iOS App 返回按钮设计缺陷吐槽",
-      "content_html": "<p><strong>[吐槽] 我总觉得 iOS 版很多软件的左上角返回按钮肯定是有设计缺陷的，因为太难按</strong></p><p>Users frequently report difficulty pressing back buttons in the top-left corner of various iOS applications. This persistent UI design issue often forces users to force-close apps to navigate out of specific pages.</p><p>许多iOS应用左上角的返回按钮存在交互设计缺陷，用户经常无法点击。该问题常导致用户被迫强制关闭应用以退出当前页面。</p><p>Tags: ios · ui · ux</p>",
-      "date_published": "2026-07-28T09:15:28+00:00",
-      "tags": [
-        "ios",
-        "ui",
-        "ux"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/im-in-my-peak-earning-years-im-working-beyond-70-will-that-help-increase-my-social-security-b0fd84da?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/im-in-my-peak-earning-years-im-working-beyond-70-will-that-help-increase-my-social-security-b0fd84da?mod=mw_rss_topstories",
-      "title": "70岁以上仍在工作对社保是否有帮助？",
-      "content_html": "<p><strong>‘I’m in my peak earning years’: I’m working beyond 70. Will that help increase my Social Security?</strong></p><p>An individual working past the age of 70 inquires about the impact on their Social Security benefits. Experts evaluate whether continuing to work during peak earning years influences long-term retirement planning.</p><p>一名70岁以上仍在工作的人士咨询其对社保福利的影响。专家正在评估在收入高峰期继续工作是否能优化养老金规划。</p><p>Tags: retirement · finance · socialsecurity</p>",
-      "date_published": "2026-07-28T09:15:00+00:00",
-      "tags": [
-        "retirement",
-        "finance",
-        "socialsecurity"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1230480#reply0",
-      "url": "https://www.v2ex.com/t/1230480#reply0",
-      "title": "上班闲暇时间能否通过 Vibe Coding 挣钱",
-      "content_html": "<p><strong>[问与答] 上班闲暇时间能否通过 vibe coding 挣点小钱</strong></p><p>A user asks if they can utilize office downtime and free AI tokens to earn extra income via &#x27;vibe coding&#x27;. They are seeking practical advice on leveraging AI tools for small-scale projects.</p><p>有用户询问能否利用工作闲暇及公司提供的免费Token，通过“vibe coding”赚取额外收入。他们正在寻求利用AI工具进行小额变现的建议。</p><p>Tags: ai · coding · sidehustle</p>",
-      "date_published": "2026-07-28T09:13:40+00:00",
-      "tags": [
-        "ai",
-        "coding",
-        "sidehustle"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1230478#reply0",
-      "url": "https://www.v2ex.com/t/1230478#reply0",
-      "title": "通勤与短途出游双肩包推荐",
-      "content_html": "<p><strong>[问与答] [求推荐通勤双肩包] 大家通勤或者出游 2-3 天的双肩包推荐一个吧</strong></p><p>A user is seeking a durable, budget-friendly backpack for commuting and short trips. They require a laptop compartment for 14-inch devices and high-quality materials that won&#x27;t peel over time.</p><p>有用户在寻求一款性价比高、耐用的双肩包用于通勤和短途旅行。要求包含14英寸笔记本隔层，且材质需耐用不脱皮。</p><p>Tags: recommendation · hardware · lifestyle</p>",
-      "date_published": "2026-07-28T09:09:41+00:00",
-      "tags": [
-        "recommendation",
-        "hardware",
-        "lifestyle"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4926156-maplight-therapeutics-inc-mplt-discusses-top-line-results-of-phase-2-zephyr-study-of-mlminus?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4926156-maplight-therapeutics-inc-mplt-discusses-top-line-results-of-phase-2-zephyr-study-of-mlminus?source=feed_all_articles",
-      "title": "MapLight Therapeutics 公布精神分裂症药物二期试验结果",
-      "content_html": "<p><strong>MapLight Therapeutics, Inc. (MPLT) Discusses Top Line Results of Phase 2 ZEPHYR Study of ML-007C-MA in Schizophrenia - Slideshow</strong></p><p>MapLight Therapeutics has released top-line results for its Phase 2 ZEPHYR study of ML-007C-MA. The data provides insights into the potential treatment efficacy for schizophrenia.</p><p>MapLight Therapeutics公布了其治疗精神分裂症药物ML-007C-MA的二期临床试验初步结果。该数据展示了药物治疗潜力的评估情况。</p><p>Tags: biotech · pharma · medicine</p>",
-      "date_published": "2026-07-28T09:09:37+00:00",
-      "tags": [
-        "biotech",
-        "pharma",
-        "medicine"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4926138-century-aluminum-trading-at-a-slight-discount-and-set-to-grow?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4926138-century-aluminum-trading-at-a-slight-discount-and-set-to-grow?source=feed_all_articles",
-      "title": "Century Aluminum：估值折扣与增长潜力",
-      "content_html": "<p><strong>Century Aluminum: Trading At A Slight Discount And Set To Grow</strong></p><p>Century Aluminum is currently trading at a discount and shows strong signs of future growth. Market analysts are optimistic about the company&#x27;s trajectory in the aluminum sector.</p><p>Century Aluminum目前处于估值折扣状态，并显示出显著的增长潜力。市场分析师对其在该铝业领域的发展前景持乐观态度。</p><p>Tags: finance · stocks · aluminum</p>",
-      "date_published": "2026-07-28T09:08:52+00:00",
-      "tags": [
-        "finance",
-        "stocks",
-        "aluminum"
-      ],
-      "_category": "FINA"
     }
   ]
 }
