@@ -6,6 +6,461 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1233868#reply0",
+      "url": "https://www.v2ex.com/t/1233868#reply0",
+      "title": "OpenAI Codex雷达上线一个月复盘",
+      "content_html": "<p><strong>[OpenAI] Codex 雷达上线一段时间了,做个月度复盘</strong></p><p>The Codex Radar project was launched to track the performance and &#x27;IQ&#x27; of various AI models. Due to high operational costs, the team moved to a distributed model where users contribute tokens for real-time monitoring.</p><p>Codex雷达项目旨在追踪各大AI模型的性能与“智商”表现。由于运营成本高昂，团队转为分布式模式，由用户贡献Token以维持实时监测。</p><p>Tags: openai · llm · monitoring</p>",
+      "date_published": "2026-08-12T08:09:28+00:00",
+      "tags": [
+        "openai",
+        "llm",
+        "monitoring"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1233867#reply0",
+      "url": "https://www.v2ex.com/t/1233867#reply0",
+      "title": "有什么不抽卡还上头的手机游戏推荐吗？",
+      "content_html": "<p><strong>[问与答] 有什么不抽卡的手游还上头的么？</strong></p><p>The user is looking for mobile game recommendations that do not rely on gacha mechanics. They find the current landscape of second-dimensional mobile games increasingly boring.</p><p>用户正在寻找不依赖抽卡机制的手机游戏。他们认为目前二次元手游市场趋于无聊，希望能获得一些有趣的推荐。</p><p>Tags: gaming · mobile · recommendation</p>",
+      "date_published": "2026-08-12T08:04:37+00:00",
+      "tags": [
+        "gaming",
+        "mobile",
+        "recommendation"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4935204-sampo-oyj-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4935204-sampo-oyj-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "title": "Sampo Oyj 2026年第二季度财报演示",
+      "content_html": "<p><strong>Sampo Oyj 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>This document outlines the financial results and earnings presentation for Sampo Oyj for the second quarter of 2026. It provides key performance metrics and strategic outlook for investors.</p><p>该文档汇总了Sampo Oyj公司2026年第二季度的财务业绩及财报演示内容。文件中包含了关键绩效指标及面向投资者的战略展望。</p><p>Tags: earnings · finance · sampo</p>",
+      "date_published": "2026-08-12T08:02:16+00:00",
+      "tags": [
+        "earnings",
+        "finance",
+        "sampo"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4935202-pet-valu-holdings-ltd-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4935202-pet-valu-holdings-ltd-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "title": "Pet Valu Holdings 2026年第二季度财报演示",
+      "content_html": "<p><strong>Pet Valu Holdings Ltd. 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>Pet Valu Holdings presented its second-quarter 2026 earnings results, detailing the company&#x27;s financial standing and operational updates. The report serves as a briefing for stakeholders regarding the company&#x27;s progress.</p><p>Pet Valu Holdings发布了2026年第二季度财报，详细说明了公司的财务状况及业务进展。该报告为利益相关方提供了公司经营情况的简报。</p><p>Tags: earnings · finance · petvalu</p>",
+      "date_published": "2026-08-12T08:00:46+00:00",
+      "tags": [
+        "earnings",
+        "finance",
+        "petvalu"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4935187-edwards-lifesciences-cheap-against-itself-expensive-against-everything-else?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4935187-edwards-lifesciences-cheap-against-itself-expensive-against-everything-else?source=feed_all_articles",
+      "title": "爱德华生命科学：与自身比便宜，与大盘比昂贵",
+      "content_html": "<p><strong>Edwards Lifesciences: Cheap Against Itself, Expensive Against Everything Else</strong></p><p>An analysis of Edwards Lifesciences suggests that while the stock appears cheap relative to its historical valuation, it remains expensive compared to the broader market. Investors are advised to weigh these conflicting valuation signals.</p><p>对爱德华生命科学公司的分析指出，尽管该股票相对于其历史估值偏低，但与整体市场相比仍然昂贵。建议投资者权衡这些相互矛盾的估值信号。</p><p>Tags: stocks · finance · analysis</p>",
+      "date_published": "2026-08-12T07:55:05+00:00",
+      "tags": [
+        "stocks",
+        "finance",
+        "analysis"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://discoveredmaterials.com/research/",
+      "url": "https://discoveredmaterials.com/research/",
+      "title": "Discovered Materials：利用AI智能体发现新材料",
+      "content_html": "<p><strong>Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials</strong></p><p>Discovered Materials is a startup using AI agents to accelerate the discovery and development of new materials. The project aims to streamline scientific research processes through automation.</p><p>Discovered Materials是一家利用AI智能体加速新材料研发的初创公司。该项目旨在通过自动化手段优化科学研究流程。</p><p>Tags: ai · materials · startup</p>",
+      "date_published": "2026-08-12T07:51:20+00:00",
+      "tags": [
+        "ai",
+        "materials",
+        "startup"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1233864#reply0",
+      "url": "https://www.v2ex.com/t/1233864#reply0",
+      "title": "Somio 2.1发布：一款照片与视频回顾管理的App",
+      "content_html": "<p><strong>[分享创造] [iOS/MacOS 送码] Somio2.1 发布：一款专上下滑动随机浏览照片和视频的回顾管理 App</strong></p><p>Somio is an iOS and MacOS app designed to help users rediscover their photos and videos through a seamless, swipeable interface. It emphasizes privacy by ensuring all data remains on the local device.</p><p>Somio是一款为iOS和MacOS设计的照片与视频回顾应用，通过流畅的上下滑动界面帮助用户重温记忆。该应用强调隐私保护，所有数据均存储在本地设备中。</p><p>Tags: ios · macos · app</p>",
+      "date_published": "2026-08-12T07:51:18+00:00",
+      "tags": [
+        "ios",
+        "macos",
+        "app"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1233863#reply0",
+      "url": "https://www.v2ex.com/t/1233863#reply0",
+      "title": "支付宝AI产品“阿宝”存在的意义是什么？",
+      "content_html": "<p><strong>[分享发现] 支付宝的 AI 产品“阿宝”存在的意义是什么？</strong></p><p>A user expresses frustration with Alipay&#x27;s new AI feature &#x27;Abao,&#x27; claiming it complicates simple tasks like checking earnings or paying bills. The critique highlights the importance of user-centric design over forced AI integration.</p><p>用户对支付宝推出的AI功能“阿宝”表示失望，认为它反而让查看收益和缴费等简单操作变得复杂。此评价强调了产品设计应以用户为中心，而非盲目集成AI。</p><p>Tags: alipay · ai · product</p>",
+      "date_published": "2026-08-12T07:50:18+00:00",
+      "tags": [
+        "alipay",
+        "ai",
+        "product"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1233862#reply0",
+      "url": "https://www.v2ex.com/t/1233862#reply0",
+      "title": "手机截屏生成笔记的小工具",
+      "content_html": "<p><strong>[分享创造] 如果你也需要在手机上快速地从截屏生成笔记，那你可以来看看我写的这个小工具～</strong></p><p>The developer created an iOS app that uses local OCR and LLM to transform screenshots into structured notes. It includes support for Shortcuts to streamline the note-taking workflow.</p><p>开发者制作了一款利用本地OCR与大模型将截图转换为结构化笔记的iOS应用。该工具支持快捷指令，旨在简化学习笔记的工作流。</p><p>Tags: ios · ocr · llm</p>",
+      "date_published": "2026-08-12T07:49:30+00:00",
+      "tags": [
+        "ios",
+        "ocr",
+        "llm"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4935185-ge-vernova-hard-to-see-much-upside-with-expectations-this-high?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4935185-ge-vernova-hard-to-see-much-upside-with-expectations-this-high?source=feed_all_articles",
+      "title": "GE Vernova：高预期下难见上涨空间",
+      "content_html": "<p><strong>GE Vernova: Hard To See Much Upside With Expectations This High</strong></p><p>Market analysis indicates that GE Vernova&#x27;s stock valuation is already very high, leaving little room for further upside. Investors are urged to be cautious given the lofty market expectations.</p><p>市场分析显示，GE Vernova的股票估值已处于极高水平，进一步上涨的空间有限。鉴于市场预期过高，建议投资者保持谨慎。</p><p>Tags: stocks · finance · gevernova</p>",
+      "date_published": "2026-08-12T07:48:10+00:00",
+      "tags": [
+        "stocks",
+        "finance",
+        "gevernova"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4935195-telecom-argentina-s-a-teo-q2-2026-earnings-call-prepared-remarks-transcript?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4935195-telecom-argentina-s-a-teo-q2-2026-earnings-call-prepared-remarks-transcript?source=feed_all_articles",
+      "title": "阿根廷电信2026年第二季度财报电话会议记录",
+      "content_html": "<p><strong>Telecom Argentina S.A. (TEO) Q2 2026 Earnings Call Prepared Remarks Transcript</strong></p><p>This transcript captures the prepared remarks from Telecom Argentina&#x27;s Q2 2026 earnings call. It provides insights into the company&#x27;s operational performance and regional market strategy.</p><p>此份纪要记录了阿根廷电信2026年第二季度财报电话会议的发言内容。它提供了关于公司运营表现及区域市场战略的洞察。</p><p>Tags: earnings · telecom · finance</p>",
+      "date_published": "2026-08-12T07:47:18+00:00",
+      "tags": [
+        "earnings",
+        "telecom",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://sspai.com/post/113352",
+      "url": "https://sspai.com/post/113352",
+      "title": "对话少数派老麦：不愿成为多数派",
+      "content_html": "<p><strong>对话少数派老麦：从 Palm、WebOS 到 AI 硬件，依然不想成为多数派</strong></p><p>An interview with the founder of sspai.com explores his two decades in tech media and the evolution of the brand. It covers the transition from content-focused media to a platform with integrated products.</p><p>本期访谈与少数派创始人老麦探讨了他深耕科技媒体二十年的历程。内容涵盖了该品牌如何从纯内容媒体转型为具备软硬件产品的垂直平台。</p><p>Tags: media · sspai · tech</p>",
+      "date_published": "2026-08-12T07:00:00+00:00",
+      "tags": [
+        "media",
+        "sspai",
+        "tech"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://llama.app",
+      "url": "https://llama.app",
+      "title": "llama.cpp项目简介",
+      "content_html": "<p><strong>llama.cpp</strong></p><p>llama.cpp is a popular project focused on running large language models efficiently on local hardware. It has become a cornerstone tool for the local AI community.</p><p>llama.cpp是一个专注于在本地硬件上高效运行大模型的流行项目。它已成为本地AI社区的核心工具。</p><p>Tags: llm · ai · opensource</p>",
+      "date_published": "2026-08-12T04:51:59+00:00",
+      "tags": [
+        "llm",
+        "ai",
+        "opensource"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
+      "title": "特朗普确认在北约峰会后因安全威胁更换飞机",
+      "content_html": "<p><strong>Trump confirms he switched planes after Nato summit because of possible threat</strong></p><p>Former US President Donald Trump confirmed he switched planes following the NATO summit due to a potential security threat. Staff members on board were reportedly unaware of the change until later.</p><p>美国前总统特朗普确认，由于潜在的安全威胁，他在北约峰会后更换了座机。据报道，随行工作人员直到事后才获悉该变动。</p><p>Tags: trump · nato · politics</p>",
+      "date_published": "2026-08-12T03:44:55+00:00",
+      "tags": [
+        "trump",
+        "nato",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/videos/cvg7zrxknvno?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/videos/cvg7zrxknvno?at_medium=RSS&at_campaign=rss",
+      "title": "“鲨鱼宝宝”男孩准备以K-pop身份出道",
+      "content_html": "<p><strong>Baby Shark boy set to make K-pop debut</strong></p><p>The boy who starred in the viral &#x27;Baby Shark&#x27; YouTube video is now 17 and pursuing a career in K-pop. His transition marks a new chapter for the face behind the world&#x27;s most-watched video.</p><p>曾在YouTube爆火视频“鲨鱼宝宝”中出镜的男孩现已17岁，并准备进军K-pop行业。他的转型标志着这个全球播放量最高视频背后的主角开启了人生新篇章。</p><p>Tags: kpop · babyshark · entertainment</p>",
+      "date_published": "2026-08-12T03:26:32+00:00",
+      "tags": [
+        "kpop",
+        "babyshark",
+        "entertainment"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/112880",
+      "url": "https://sspai.com/post/112880",
+      "title": "我与“唯一”的iPhone Air",
+      "content_html": "<p><strong>我，与「唯一」的 iPhone Air</strong></p><p>A reflection on the iPhone Air highlights how specific tech products can help users identify their true needs. The author discusses the philosophical impact of hardware simplicity.</p><p>关于iPhone Air的深度思考，探讨了某些科技产品如何帮助用户认清真实需求。作者讨论了硬件极简主义带来的哲学影响。</p><p>Tags: iphone · apple · experience</p>",
+      "date_published": "2026-08-12T03:04:34+00:00",
+      "tags": [
+        "iphone",
+        "apple",
+        "experience"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://sspai.com/post/113343",
+      "url": "https://sspai.com/post/113343",
+      "title": "派早报：微软上调Win11授权费，Claude添加水印",
+      "content_html": "<p><strong>派早报：微软已上调 Windows 11 OEM 授权费用、Claude 将为所有生成内容附加隐水印等</strong></p><p>This news summary covers Microsoft increasing Windows 11 OEM licensing fees and Claude&#x27;s new policy of adding hidden watermarks to AI-generated content. Other hardware updates are also mentioned.</p><p>本期早报涵盖了微软上调Windows 11 OEM授权费用，以及Claude将为AI生成内容添加隐形水印的消息。此外还简报了其他硬件动态。</p><p>Tags: microsoft · claude · news</p>",
+      "date_published": "2026-08-12T00:44:13+00:00",
+      "tags": [
+        "microsoft",
+        "claude",
+        "news"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
+      "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
+      "title": "Saber否认用ChatGPT取代《Rideshare Stimulator》编剧",
+      "content_html": "<p><strong>Saber denies replacing Rideshare Stimulator&amp;#8217;s writers with ChatGPT</strong></p><p>Saber&#x27;s CEO has denied claims that writers were replaced by ChatGPT for the game &#x27;Rideshare Stimulator.&#x27; The controversy highlights the ongoing tension between AI automation and creative labor.</p><p>Saber公司CEO否认了游戏中编剧被ChatGPT取代的说法。该争议凸显了AI自动化与创意劳工之间持续存在的矛盾。</p><p>Tags: ai · gaming · saber</p>",
+      "date_published": "2026-08-12T00:39:26+00:00",
+      "tags": [
+        "ai",
+        "gaming",
+        "saber"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
+      "title": "CoreWeave股价飙升，财报显示AI强劲势头",
+      "content_html": "<p><strong>CoreWeave’s stock soars as earnings show major AI momentum</strong></p><p>AI cloud provider CoreWeave exceeded revenue and earnings expectations, signaling strong market demand. The CEO noted the company has reached an important inflection point in its growth.</p><p>AI云服务商CoreWeave财报超出营收预期，显示出强劲的市场需求。公司CEO称其已达到发展的关键转折点。</p><p>Tags: coreweave · ai · finance</p>",
+      "date_published": "2026-08-12T00:17:00+00:00",
+      "tags": [
+        "coreweave",
+        "ai",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
+      "title": "超微电脑财报传佳音，股价攀升",
+      "content_html": "<p><strong>Super Micro’s earnings report brings more good news, and the stock is climbing</strong></p><p>Super Micro&#x27;s latest earnings report and forecast exceeded market expectations, leading to a climb in its stock price. The company had previously teased improved profitability trajectories.</p><p>超微电脑最新的财报与预期均好于市场估计，带动股价上涨。该公司此前曾预告了其盈利能力的改善。</p><p>Tags: supermicro · stocks · finance</p>",
+      "date_published": "2026-08-12T00:16:00+00:00",
+      "tags": [
+        "supermicro",
+        "stocks",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
+      "title": "Lumentum因AI需求激增营收翻倍",
+      "content_html": "<p><strong>Lumentum sees sales more than double as AI demand swells</strong></p><p>Lumentum reported blowout earnings driven by surging AI infrastructure demand. Despite the strong performance and outlook, the stock price remained relatively flat after hours.</p><p>得益于AI基础设施需求的飙升，Lumentum财报表现强劲。尽管业绩与前景看好，但其盘后股价波动较小。</p><p>Tags: lumentum · ai · finance</p>",
+      "date_published": "2026-08-12T00:15:00+00:00",
+      "tags": [
+        "lumentum",
+        "ai",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
+      "title": "特朗普更换座机暗示与伊朗冲突的风险",
+      "content_html": "<p><strong>Trump&#x27;s dramatic plane swap hints at personal stakes of Iran war</strong></p><p>The dramatic change of planes during Trump&#x27;s travel highlights the heightened geopolitical stakes regarding Iran. It adds another layer of tension to the complex history between the two.</p><p>特朗普行程中突然更换座机，凸显了与伊朗相关的地缘政治风险加剧。这为其两国复杂历史增添了新的紧张维度。</p><p>Tags: trump · iran · geopolitics</p>",
+      "date_published": "2026-08-12T00:14:42+00:00",
+      "tags": [
+        "trump",
+        "iran",
+        "geopolitics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/games/978374/xbox-elite-3-prototype-pad-leaks-with-tiny-built-in-screen",
+      "url": "https://www.theverge.com/games/978374/xbox-elite-3-prototype-pad-leaks-with-tiny-built-in-screen",
+      "title": "Xbox Elite 3原型手柄泄露，内置小屏幕",
+      "content_html": "<p><strong>Xbox Elite 3 prototype pad leaks with tiny built-in screen</strong></p><p>Photos of a prototype Xbox controller, likely the Elite Series 3, have surfaced online. The device features a unique built-in screen and was reportedly purchased on a secondary marketplace.</p><p>疑似Xbox Elite 3原型的控制器照片在网上曝光。该设备配有一个独特的内置屏幕，据称是在二手平台购得。</p><p>Tags: xbox · hardware · gaming</p>",
+      "date_published": "2026-08-11T22:36:35+00:00",
+      "tags": [
+        "xbox",
+        "hardware",
+        "gaming"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "title": "WorldClaw：大规模智能体3D开放世界生成",
+      "content_html": "<p><strong>WorldClaw Agentic 3D open-world generation at scale</strong></p><p>WorldClaw is a new technology platform aimed at generating complex 3D open-world environments using AI agents at scale. It represents a significant step forward in procedural world-building.</p><p>WorldClaw是一个旨在利用AI智能体大规模生成复杂3D开放世界环境的新技术平台。它代表了程序化世界构建的重大进展。</p><p>Tags: ai · 3d · gaming</p>",
+      "date_published": "2026-08-11T21:56:18+00:00",
+      "tags": [
+        "ai",
+        "3d",
+        "gaming"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss",
+      "title": "美国称直升机击毁了违反伊朗禁运的货船",
+      "content_html": "<p><strong>US says helicopter fired missiles to disable ship breaking Iran blockade</strong></p><p>US Central Command confirmed that a helicopter disabled a Panama-flagged vessel in the Gulf of Oman. The ship was allegedly involved in breaking the international blockade against Iran.</p><p>美国中央司令部证实，一架直升机在阿曼湾瘫痪了一艘悬挂巴拿马旗的货船。该船被指控涉嫌违反针对伊朗的国际封锁禁令。</p><p>Tags: iran · us · military</p>",
+      "date_published": "2026-08-11T21:14:56+00:00",
+      "tags": [
+        "iran",
+        "us",
+        "military"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://ngrok.com/blog/compression-is-prediction",
+      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "title": "压缩即预测",
+      "content_html": "<p><strong>Compression is prediction</strong></p><p>This discussion explores the theory that data compression and predictive modeling are fundamentally linked. It highlights how compressing information effectively requires predicting its patterns.</p><p>此讨论探讨了数据压缩与预测建模在本质上是关联的这一理论。它强调了有效压缩信息通常需要对其中的模式进行准确预测。</p><p>Tags: theory · compression · data</p>",
+      "date_published": "2026-08-11T19:49:44+00:00",
+      "tags": [
+        "theory",
+        "compression",
+        "data"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+      "title": "ChatGPT和Gemini用户量均突破10亿",
+      "content_html": "<p><strong>ChatGPT and Gemini both just passed 1 billion users</strong></p><p>Both ChatGPT and Gemini have surpassed the 1 billion monthly active user milestone. This highlights the rapid mass adoption of consumer-facing AI applications worldwide.</p><p>ChatGPT和Gemini的月活跃用户量均已突破10亿大关。这凸显了全球范围内消费者对AI应用的高速接纳。</p><p>Tags: openai · google · ai</p>",
+      "date_published": "2026-08-11T19:41:42+00:00",
+      "tags": [
+        "openai",
+        "google",
+        "ai"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
+      "title": "哥伦比亚地震造成180人死亡，救援行动持续",
+      "content_html": "<p><strong>Rescuers scramble for survivors with 180 dead in Colombia earthquake</strong></p><p>A devastating earthquake in Colombia has left 180 people dead, with rescuers searching for survivors amidst aftershocks. International attention is focused on the recovery efforts.</p><p>哥伦比亚发生的强震已造成180人死亡，救援人员在余震中持续搜救幸存者。国际社会正密切关注当地的救援进展。</p><p>Tags: earthquake · colombia · disaster</p>",
+      "date_published": "2026-08-11T19:09:52+00:00",
+      "tags": [
+        "earthquake",
+        "colombia",
+        "disaster"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
+      "url": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
+      "title": "“审查工业复合体”如何改变互联网与美国政策",
+      "content_html": "<p><strong>How the “censorship-industrial complex” is changing the Internet and US policy</strong></p><p>The article examines the impact of the &#x27;censorship-industrial complex&#x27; on internet governance and US policy. It investigates the closure of offices dedicated to countering foreign disinformation.</p><p>本文探讨了“审查工业复合体”对互联网治理及美国政策的影响。文章调查了针对反外国虚假信息办公机构的关闭事件。</p><p>Tags: politics · internet · policy</p>",
+      "date_published": "2026-08-11T17:58:57+00:00",
+      "tags": [
+        "politics",
+        "internet",
+        "policy"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2584196-crispr-armed-phages-help-treat-severe-superbug-infection/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2584196-crispr-armed-phages-help-treat-severe-superbug-infection/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "CRISPR噬菌体助力治疗严重超级细菌感染",
+      "content_html": "<p><strong>CRISPR-armed phages help treat severe superbug infection</strong></p><p>Researchers have successfully used CRISPR-modified phages to treat antibiotic-resistant E. coli infections. This breakthrough offers a potential new path to combat dangerous superbugs.</p><p>研究人员已成功利用CRISPR改造的噬菌体治疗抗药性大肠杆菌感染。这一突破为对抗危险的“超级细菌”提供了潜在的新途径。</p><p>Tags: crispr · science · medicine</p>",
+      "date_published": "2026-08-11T16:43:32+00:00",
+      "tags": [
+        "crispr",
+        "science",
+        "medicine"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2584182-heart-surgery-cured-a-mans-skin-cancer-and-gave-him-a-bee-allergy/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2584182-heart-surgery-cured-a-mans-skin-cancer-and-gave-him-a-bee-allergy/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "心脏手术治愈了男子的皮肤癌，却引发了蜜蜂过敏",
+      "content_html": "<p><strong>Heart surgery cured a man’s skin cancer – and gave him a bee allergy</strong></p><p>A man undergoing heart surgery experienced an unexpected immune response that cured his severe skin cancer. However, the procedure also resulted in the development of a life-threatening bee sting allergy.</p><p>一名男子在接受心脏手术后，意外引发的免疫反应治愈了他的严重皮肤癌。然而，该手术也导致他患上了致命的蜜蜂蜇伤过敏症。</p><p>Tags: medicine · health · science</p>",
+      "date_published": "2026-08-11T16:17:05+00:00",
+      "tags": [
+        "medicine",
+        "health",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2584057-weve-now-had-a-good-look-at-a-rainbow-made-from-sound/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2584057-weve-now-had-a-good-look-at-a-rainbow-made-from-sound/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "科学家用声音创造出了更完美的“彩虹”",
+      "content_html": "<p><strong>Rainbows can be made from sounds – and we’ve created the best ones yet</strong></p><p>Researchers have developed devices that separate sound waves by frequency to create &#x27;sound rainbows.&#x27; These are the most advanced visual-like representations of sound frequency bands created to date.</p><p>研究人员开发出通过频率分离声波来创造“声音彩虹”的设备。这是迄今为止创造的最先进、类似视觉呈现的声音频率带。</p><p>Tags: physics · sound · science</p>",
+      "date_published": "2026-08-11T15:30:22+00:00",
+      "tags": [
+        "physics",
+        "sound",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
+      "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
+      "title": "Download通讯：LLM的下一个大事件与AI学术研究的变迁",
+      "content_html": "<p><strong>The Download: the next big thing in LLMs and how AI academic research is shifting</strong></p><p>This newsletter tracks emerging trends in Large Language Models and shifts in academic research culture. It explores how transformer networks continue to influence tech development.</p><p>本期通讯追踪了大模型的新兴趋势及学术研究文化的变迁。文章探讨了Transformer网络如何持续影响技术发展。</p><p>Tags: ai · research · llm</p>",
+      "date_published": "2026-08-11T12:10:00+00:00",
+      "tags": [
+        "ai",
+        "research",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2584088-denisovans-may-have-dwarfed-other-ancient-humans/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2584088-denisovans-may-have-dwarfed-other-ancient-humans/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "丹尼索瓦人可能比其他古代人类更魁梧",
+      "content_html": "<p><strong>Denisovans may have dwarfed other ancient humans</strong></p><p>New fossil evidence from Taiwan suggests that Denisovans may have stood up to 190cm tall. This finding implies they were significantly larger than other ancient human species.</p><p>来自台湾的新化石证据表明，丹尼索瓦人的身高可能达到190厘米。这一发现暗示他们比其他古代人类物种体型更庞大。</p><p>Tags: science · evolution · archaeology</p>",
+      "date_published": "2026-08-11T11:12:43+00:00",
+      "tags": [
+        "science",
+        "evolution",
+        "archaeology"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2531639-where-when-and-how-to-watch-the-2026-solar-eclipse/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2531639-where-when-and-how-to-watch-the-2026-solar-eclipse/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "2026年日全食：观赏指南",
+      "content_html": "<p><strong>Where, when and how to watch the 2026 solar eclipse</strong></p><p>A total solar eclipse is scheduled for 2026, visible across parts of Europe. This guide provides details on how and when to view the event safely.</p><p>2026年将迎来一场日全食，欧洲部分地区可见。本指南提供了如何安全观测该天文现象的时间与方法详情。</p><p>Tags: science · astronomy · eclipse</p>",
+      "date_published": "2026-08-11T11:09:30+00:00",
+      "tags": [
+        "science",
+        "astronomy",
+        "eclipse"
+      ],
+      "_category": "SCI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1233587#reply0",
       "url": "https://www.v2ex.com/t/1233587#reply0",
       "title": "推广：全网兼容 AI 工具代理 ZooProxy 全线降价",
@@ -2148,461 +2603,6 @@
         "伊朗",
         "体育",
         "移民"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/spacex-insiders-get-their-first-chance-to-cash-out-but-the-stocks-slide-will-limit-their-opportunity-5c94b0f5?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/spacex-insiders-get-their-first-chance-to-cash-out-but-the-stocks-slide-will-limit-their-opportunity-5c94b0f5?mod=mw_rss_topstories",
-      "title": "SpaceX 内部人士迎来抛售机会，但股价下跌限制了规模",
-      "content_html": "<p><strong>SpaceX insiders get their first chance to cash out — but the stock’s slide will limit their opportunity</strong></p><p>SpaceX employees are allowed to sell a portion of their shares, but recent stock performance has limited the scope. A large number of shares remain locked due to market conditions.</p><p>SpaceX员工迎来抛售股票的机会，但股价表现疲软限制了出售规模。由于市场情况，大量股票仍处于锁定状态。</p><p>Tags: spacex · 股票 · 马斯克</p>",
-      "date_published": "2026-08-06T09:00:00+00:00",
-      "tags": [
-        "spacex",
-        "股票",
-        "马斯克"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/bill-cosby-takes-6-million-new-york-city-home-off-the-market-11ba015f?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/bill-cosby-takes-6-million-new-york-city-home-off-the-market-11ba015f?mod=mw_rss_topstories",
-      "title": "比尔·科斯比再次撤销其纽约房产上市信息",
-      "content_html": "<p><strong>Bill Cosby takes $6 million New York City home off the market</strong></p><p>Bill Cosby has removed his $6 million townhouse from the market once again. This comes shortly after he canceled a deposition due to health concerns.</p><p>比尔·科斯比再次将其价值600万美元的联排别墅撤出市场。此前他因健康问题取消了与性侵指控相关的证词录制。</p><p>Tags: 比尔科斯比 · 地产 · 新闻</p>",
-      "date_published": "2026-08-06T08:58:00+00:00",
-      "tags": [
-        "比尔科斯比",
-        "地产",
-        "新闻"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2583039-timeline-of-human-evolution/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2583039-timeline-of-human-evolution/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "人类进化 8500 万年的时间线",
-      "content_html": "<p><strong>The 85-million-year timeline of human evolution</strong></p><p>A new study integrates archaeological evidence with ancient DNA and climate data to reconstruct human evolution. It traces the long, complex history from the first primates to modern humans.</p><p>一项新研究结合了考古证据、古代DNA和气候数据来重构人类进化史。研究追溯了从灵长类出现到现代人类的漫长演变历程。</p><p>Tags: 人类进化 · 生物 · 科学</p>",
-      "date_published": "2026-08-06T08:00:00+00:00",
-      "tags": [
-        "人类进化",
-        "生物",
-        "科学"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://buttondown.com/blog/what-i-love-about-django",
-      "url": "https://buttondown.com/blog/what-i-love-about-django",
-      "title": "我为什么喜欢 Django",
-      "content_html": "<p><strong>What I love about Django</strong></p><p>A discussion on Hacker News exploring the reasons behind the popularity of the Django web framework. Developers share their experiences and preferences for using it in projects.</p><p>这是一篇关于Django Web框架的讨论。开发者们在Hacker News上分享了他们喜爱该框架的原因及实际项目中的应用经验。</p><p>Tags: django · python · 后端</p>",
-      "date_published": "2026-08-06T07:34:06+00:00",
-      "tags": [
-        "django",
-        "python",
-        "后端"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cx2v551w9v8o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cx2v551w9v8o?at_medium=RSS&at_campaign=rss",
-      "title": "印度记者 Tarun Tejpal 2013 年性侵案定罪",
-      "content_html": "<p><strong>Indian journalist Tarun Tejpal convicted in 2013 rape case</strong></p><p>The Bombay High Court has convicted Indian journalist Tarun Tejpal in a 2013 rape case. This decision overturns a previous trial court verdict that had cleared him of all charges.</p><p>孟买高等法院判定印度记者Tarun Tejpal 2013年性侵罪名成立。该判决推翻了初审法院此前宣布其无罪的裁决。</p><p>Tags: 法律 · 印度 · 社会新闻</p>",
-      "date_published": "2026-08-06T07:27:17+00:00",
-      "tags": [
-        "法律",
-        "印度",
-        "社会新闻"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://sspai.com/post/112916",
-      "url": "https://sspai.com/post/112916",
-      "title": "TDS 评测：vivo TWS 5 Pro 降噪耳机体验",
-      "content_html": "<p><strong>TDS REVIEW | vivo TWS 5 Pro 降噪真无线耳机体验</strong></p><p>This review evaluates the performance of the vivo TWS 5 Pro earbuds, focusing on its noise-cancellation capabilities. The author highlights its competitive advantages in the mid-range market.</p><p>本文详细评测了vivo TWS 5 Pro降噪耳机，重点分析了其降噪表现。作者认为该产品在中端市场具有显著的竞争优势。</p><p>Tags: vivo · 耳机 · 测评</p>",
-      "date_published": "2026-08-06T07:00:00+00:00",
-      "tags": [
-        "vivo",
-        "耳机",
-        "测评"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://blog.gingerbeardman.com/2026/08/06/lets-all-meet-up-in-the-y2k/",
-      "url": "https://blog.gingerbeardman.com/2026/08/06/lets-all-meet-up-in-the-y2k/",
-      "title": "Let's all meet up in the Y2K",
-      "content_html": "<p><strong>Let&#x27;s all meet up in the Y2K</strong></p><p>A retrospective look at the Y2K era, discussing the cultural and technological nostalgia surrounding the turn of the millennium. The article engages readers in a nostalgic journey.</p><p>这是一篇关于千禧年文化的怀旧文章，探讨了Y2K时代的流行元素与科技氛围。文章引发了读者对那个时代的共同记忆。</p><p>Tags: 文化 · 科技 · 怀旧</p>",
-      "date_published": "2026-08-06T06:43:38+00:00",
-      "tags": [
-        "文化",
-        "科技",
-        "怀旧"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cy8ev4y172yo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cy8ev4y172yo?at_medium=RSS&at_campaign=rss",
-      "title": "犯罪赚钱，植物学不赚钱",
-      "content_html": "<p><strong>In Odesa, no-one is safe from Russia&#x27;s new Black Sea strikes</strong></p><p>A provocative title discussing the career prospects in botany versus criminal activities. It humorously compares the financial viability of scientific passion against illicit gains.</p><p>这篇文章以幽默的方式对比了植物学职业与非法活动之间的经济回报。文章引发了关于科学价值与职业选择的深入思考。</p><p>Tags: 植物学 · 职业 · 观点</p>",
-      "date_published": "2026-08-06T05:00:54+00:00",
-      "tags": [
-        "植物学",
-        "职业",
-        "观点"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
-      "url": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
-      "title": "蕾哈娜在录音室，A$AP Rocky 称其正在创作",
-      "content_html": "<p><strong>Crime Pays but Botany Doesn&#x27;t</strong></p><p>A$AP Rocky confirmed that his partner, Rihanna, is back in the recording studio. Fans are eagerly anticipating a new album following her long hiatus since 2016.</p><p>A$AP Rocky证实蕾哈娜已重返录音室进行创作。歌迷们对她自2016年以来的首张新专辑充满期待。</p><p>Tags: 蕾哈娜 · 音乐 · 娱乐</p>",
-      "date_published": "2026-08-06T04:46:35+00:00",
-      "tags": [
-        "蕾哈娜",
-        "音乐",
-        "娱乐"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c4gwvvw9k1xo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c4gwvvw9k1xo?at_medium=RSS&at_campaign=rss",
-      "title": "角落新声：音乐，刻在时光里的私人地图",
-      "content_html": "<p><strong>Rihanna is &#x27;in the studio&#x27;, says partner A$AP Rocky</strong></p><p>The author reflects on how music serves as a personal record of life experiences. It emphasizes the emotional connection between specific songs and memories.</p><p>作者分享了音乐如何作为个人生命体验的印记，记录不同阶段的感受。文章强调了音乐与私人记忆之间的深厚情感联系。</p><p>Tags: 音乐 · 生活 · 随笔</p>",
-      "date_published": "2026-08-06T04:44:22+00:00",
-      "tags": [
-        "音乐",
-        "生活",
-        "随笔"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://sspai.com/post/113017",
-      "url": "https://sspai.com/post/113017",
-      "title": "收到朋友的邮件邀请，是钓鱼诈骗还是我突然受欢迎了？",
-      "content_html": "<p><strong>角落新声｜音乐，刻在时光里的私人地图</strong></p><p>A user questions the legitimacy of an unexpected guest list invitation. The article explores the prevalence of phishing scams disguised as social invitations.</p><p>一名用户怀疑收到的一封意外邀请函是否为诈骗邮件。文章探讨了目前伪装成社交邀请的钓鱼欺诈现象。</p><p>Tags: 网络安全 · 钓鱼 · 社交</p>",
-      "date_published": "2026-08-06T02:14:58+00:00",
-      "tags": [
-        "网络安全",
-        "钓鱼",
-        "社交"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss",
-      "title": "派早报：华为发布尊界 MPV 及多款新品",
-      "content_html": "<p><strong>Iran says deal with Oman on Strait of Hormuz is in final stages</strong></p><p>This daily digest covers the latest tech news, including the launch of Huawei&#x27;s ZunJie MPV and Nvidia&#x27;s AI announcements. It provides a quick summary of major industry updates.</p><p>本期早报汇总了华为尊界MPV发布及英伟达AI商业化等科技新闻。文章为读者快速盘点了行业主要动态。</p><p>Tags: 华为 · 科技 · 新闻</p>",
-      "date_published": "2026-08-06T01:19:59+00:00",
-      "tags": [
-        "华为",
-        "科技",
-        "新闻"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://sspai.com/post/113110",
-      "url": "https://sspai.com/post/113110",
-      "title": "埃隆·马斯克的 AI 维基百科已数月未更新",
-      "content_html": "<p><strong>派早报：华为发布尊界 MPV 及多款新品等</strong></p><p>Grokipedia, an AI-powered encyclopedia initiated by Elon Musk, has not seen updates in over three months. Analysts highlight the discrepancy between the initial promise and current status.</p><p>埃隆·马斯克的AI百科项目Grokipedia已超过三个月未更新。分析人士指出该项目目前处于停滞状态，与其最初承诺相去甚远。</p><p>Tags: xai · 马斯克 · ai</p>",
-      "date_published": "2026-08-06T00:42:08+00:00",
-      "tags": [
-        "xai",
-        "马斯克",
-        "ai"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
-      "title": "X 产品主管 Nikita Bier 上任一年后离职",
-      "content_html": "<p><strong>Elon Musk&amp;#8217;s attempt at an AI Wikipedia hasn&amp;#8217;t been updated in months</strong></p><p>Nikita Bier, the head of product at X, is stepping down from his role after one year. He intends to move into an advisory position to focus on posting content.</p><p>X产品主管Nikita Bier在任职一年后宣布离职。他表示将转型为顾问，并将精力回归到个人创作上。</p><p>Tags: x · 社交平台 · 人事变动</p>",
-      "date_published": "2026-08-06T00:25:10+00:00",
-      "tags": [
-        "x",
-        "社交平台",
-        "人事变动"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/tech/975955/x-twitter-nikita-bier-leaving",
-      "url": "https://www.theverge.com/tech/975955/x-twitter-nikita-bier-leaving",
-      "title": "中年三个因素可将痴呆症发病推迟 13 年",
-      "content_html": "<p><strong>X product chief Nikita Bier is leaving after one year</strong></p><p>A study of 12,000 US adults shows that lifestyle changes in one&#x27;s 50s can significantly delay dementia. Preventing cognitive decline early is crucial for long-term brain health.</p><p>一项针对12,000名美国成年人的研究显示，50多岁时的生活方式调整可将痴呆症发病推迟13年。早期预防对于脑健康至关重要。</p><p>Tags: 健康 · 科学 · 痴呆症</p>",
-      "date_published": "2026-08-05T22:19:55+00:00",
-      "tags": [
-        "健康",
-        "科学",
-        "痴呆症"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2583480-three-factors-in-midlife-can-delay-the-onset-of-dementia-by-13-years/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2583480-three-factors-in-midlife-can-delay-the-onset-of-dementia-by-13-years/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "粪便胶囊临床试验减轻了 6 名成人的花生过敏",
-      "content_html": "<p><strong>Three factors in midlife can delay the onset of dementia by 13 years</strong></p><p>A clinical trial showed that fecal microbiota transplantation improved peanut tolerance in adults. This suggests gut microbiome modulation could be a viable allergy treatment.</p><p>临床试验表明，粪便微生物移植改善了成人的花生耐受性。这暗示通过调节肠道菌群可能是治疗过敏的可行方案。</p><p>Tags: 医学 · 过敏 · 临床试验</p>",
-      "date_published": "2026-08-05T20:00:00+00:00",
-      "tags": [
-        "医学",
-        "过敏",
-        "临床试验"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership",
-      "url": "https://www.theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership",
-      "title": "我们必须适应气候变化，同时解决根本原因",
-      "content_html": "<p><strong>Uber CEO brushes off reports of a Waymo break-up</strong></p><p>The article calls for immediate landscape resilience measures against wildfires while emphasizing the need to reduce fossil fuel use. It outlines a two-pronged approach to the climate crisis.</p><p>文章呼吁采取即时措施提高土地抗灾能力，同时强调减少化石燃料使用的必要性。这提出了应对气候危机的双管齐下策略。</p><p>Tags: 气候变化 · 环境 · 科学</p>",
-      "date_published": "2026-08-05T17:34:48+00:00",
-      "tags": [
-        "气候变化",
-        "环境",
-        "科学"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/",
-      "url": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/",
-      "title": "下载：NASA 新望远镜与中国科技进口限制",
-      "content_html": "<p><strong>Puzzle Corner</strong></p><p>This newsletter covers the launch of NASA&#x27;s Nancy Grace Roman Space Telescope and current issues regarding technology import curbs in China. It provides a snapshot of global tech headlines.</p><p>本期简报涵盖了NASA南希·格蕾丝·罗曼空间望远镜的发射及中国科技进口限制的相关问题。文章提供了全球科技头条的简报。</p><p>Tags: nasa · 科技 · 空间探索</p>",
-      "date_published": "2026-08-05T14:56:29+00:00",
-      "tags": [
-        "nasa",
-        "科技",
-        "空间探索"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1232284#reply0",
-      "url": "https://www.v2ex.com/t/1232284#reply0",
-      "title": "对低认知人群的无奈吐槽",
-      "content_html": "<p><strong>[生活] 实在看不下去了，本身认知低的人是不会承认自己认知低的~</strong></p><p>A user expresses frustration over people who refuse to acknowledge their lack of cognitive depth. They urge others to consult official government statistics rather than dismissing systematic data.</p><p>用户对拒绝承认自身认知局限的人群表示无奈。作者呼吁大家应尊重官方统计数据，而非盲目归咎于个人。</p><p>Tags: social · cognition · statistics</p>",
-      "date_published": "2026-08-05T09:29:17+00:00",
-      "tags": [
-        "social",
-        "cognition",
-        "statistics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4930574-rbb-bancorp-stock-strong-projected-growth?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4930574-rbb-bancorp-stock-strong-projected-growth?source=feed_all_articles",
-      "title": "RBB Bancorp：强劲的增长预期",
-      "content_html": "<p><strong>RBB Bancorp: Strong Projected Growth</strong></p><p>RBB Bancorp shows promising signs of growth according to recent financial analysis. The report highlights favorable projections for the company&#x27;s future performance.</p><p>最新的财务分析显示 RBB Bancorp 展现出良好的增长势头。报告强调了该公司未来业绩的积极预测。</p><p>Tags: finance · stocks · growth</p>",
-      "date_published": "2026-08-05T09:26:25+00:00",
-      "tags": [
-        "finance",
-        "stocks",
-        "growth"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1232282#reply0",
-      "url": "https://www.v2ex.com/t/1232282#reply0",
-      "title": "除了上班和创业，还有什么生存之道？",
-      "content_html": "<p><strong>[生活] 有没有不上班不创业也能正常生活的法子</strong></p><p>A user reflects on the conventional life path of studying, working, and retiring, and asks for alternative ways to live. They are seeking advice on how to escape the cycle of employment.</p><p>用户反思了传统的“求学-工作-退休”模式，寻求不上班或不创业的生存方式。作者表达了对职场枷锁的厌倦及对生活意义的探讨。</p><p>Tags: lifestyle · career · philosophy</p>",
-      "date_published": "2026-08-05T09:25:02+00:00",
-      "tags": [
-        "lifestyle",
-        "career",
-        "philosophy"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4930573-firstservice-a-leader-in-a-fragmented-industry?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4930573-firstservice-a-leader-in-a-fragmented-industry?source=feed_all_articles",
-      "title": "FirstService：碎片化行业中的领军者",
-      "content_html": "<p><strong>FirstService: A Leader In A Fragmented Industry</strong></p><p>FirstService is identified as a dominant player in a highly fragmented market sector. The analysis suggests its leadership position provides a distinct competitive advantage.</p><p>FirstService 被公认为高度碎片化行业中的领军企业。分析指出其市场地位为公司带来了显著的竞争优势。</p><p>Tags: business · investment · analysis</p>",
-      "date_published": "2026-08-05T09:21:28+00:00",
-      "tags": [
-        "business",
-        "investment",
-        "analysis"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1232281#reply0",
-      "url": "https://www.v2ex.com/t/1232281#reply0",
-      "title": "开发了一个聚合常用工具的热榜网站",
-      "content_html": "<p><strong>[分享创造] vibe 了一个热榜类网站，聚合了些常用工具</strong></p><p>The creator built a lightweight website called DailyHot that aggregates trending topics using API data. It currently provides historical data for most categories and is open for community suggestions.</p><p>开发者利用 API 构建了一个名为 DailyHot 的轻量级热榜聚合网站。该平台提供历史数据查询，并欢迎社区反馈新需求。</p><p>Tags: web · api · tools</p>",
-      "date_published": "2026-08-05T09:21:07+00:00",
-      "tags": [
-        "web",
-        "api",
-        "tools"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1232280#reply0",
-      "url": "https://www.v2ex.com/t/1232280#reply0",
-      "title": "程序员转行后的创业经历分享",
-      "content_html": "<p><strong>[问与答] 大家不干程序员后？有没有进行创业呢？创业成功和失败的都聊聊？</strong></p><p>This post invites former programmers to discuss their experiences with entrepreneurship after leaving the tech industry. It encourages sharing both successful and failed ventures.</p><p>本帖邀请已转行的程序员分享离开技术行业后的创业经历。旨在探讨成功与失败案例，为他人提供参考。</p><p>Tags: career · entrepreneurship · programming</p>",
-      "date_published": "2026-08-05T09:19:38+00:00",
-      "tags": [
-        "career",
-        "entrepreneurship",
-        "programming"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4930571-microns-pullback-may-be-the-markets-biggest-mistake-rating-upgrade?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4930571-microns-pullback-may-be-the-markets-biggest-mistake-rating-upgrade?source=feed_all_articles",
-      "title": "美光科技的回调或是市场最大的误判",
-      "content_html": "<p><strong>Micron&#x27;s Pullback May Be The Market&#x27;s Biggest Mistake (Rating Upgrade)</strong></p><p>Financial analysts suggest the recent dip in Micron&#x27;s stock price is a potential market mistake. The report includes a rating upgrade based on long-term growth expectations.</p><p>金融分析认为美光科技近期的股价回调是市场误判。基于长期增长预期，分析师上调了其评级。</p><p>Tags: micron · stocks · investment</p>",
-      "date_published": "2026-08-05T09:18:35+00:00",
-      "tags": [
-        "micron",
-        "stocks",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4930570-nomura-emerging-markets-fund-q2-2026-commentary?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4930570-nomura-emerging-markets-fund-q2-2026-commentary?source=feed_all_articles",
-      "title": "野村新兴市场基金 2026 年第二季度评述",
-      "content_html": "<p><strong>Nomura Emerging Markets Fund Q2 2026 Commentary</strong></p><p>The Q2 2026 commentary from Nomura Emerging Markets Fund reviews market performance and strategy. It offers insights into navigating current economic shifts in developing regions.</p><p>野村新兴市场基金 2026 年二季度评述回顾了市场表现及策略。文中探讨了如何应对发展中地区当前的经济转型。</p><p>Tags: finance · emergingmarkets · fund</p>",
-      "date_published": "2026-08-05T09:17:00+00:00",
-      "tags": [
-        "finance",
-        "emergingmarkets",
-        "fund"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4930569-btz-rates-are-attractive-spreads-are-not?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4930569-btz-rates-are-attractive-spreads-are-not?source=feed_all_articles",
-      "title": "BTZ：利率诱人，但价差风险依旧",
-      "content_html": "<p><strong>BTZ: Rates Are Attractive, Spreads Are Not</strong></p><p>The analysis of BTZ highlights that while interest rates remain attractive, current spreads present risks. Investors are cautioned to carefully evaluate the yield environment.</p><p>对 BTZ 的分析指出，虽然目前利率颇具吸引力，但利差带来的风险不容忽视。投资者需审慎评估收益环境。</p><p>Tags: finance · interestrates · investing</p>",
-      "date_published": "2026-08-05T09:15:28+00:00",
-      "tags": [
-        "finance",
-        "interestrates",
-        "investing"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
-      "title": "无力照料年迈亲属，交由政府处理是否冷漠？",
-      "content_html": "<p><strong>‘I don’t wish to be cold-hearted’: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?</strong></p><p>A person asks if they are morally wrong for leaving the care of an ungenerous elderly relative to the state. The dilemma highlights the tension between family duty and personal well-being.</p><p>一名用户询问将缺乏慷慨之心的长辈交由国家照料是否属于冷漠。此问题引发了关于家庭责任与个人生活边界的思考。</p><p>Tags: family · ethics · social</p>",
-      "date_published": "2026-08-05T09:15:00+00:00",
-      "tags": [
-        "family",
-        "ethics",
-        "social"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1232279#reply0",
-      "url": "https://www.v2ex.com/t/1232279#reply0",
-      "title": "上海开奶茶店的实战经历（四）",
-      "content_html": "<p><strong>[上海] 开奶茶店经历（四）</strong></p><p>The author shares their fourth update on trying to open a milk tea shop in Shanghai. After a failed attempt with a major franchise due to strict location standards, they explore new branding opportunities.</p><p>作者分享了在上海筹备奶茶店的系列经历。因品牌方严格的选址要求导致申请被拒，作者目前正转向新的品牌考察。</p><p>Tags: business · shanghai · retail</p>",
-      "date_published": "2026-08-05T09:10:00+00:00",
-      "tags": [
-        "business",
-        "shanghai",
-        "retail"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/this-is-the-whopping-amount-joe-rogan-earns-from-the-podcast-he-airs-at-his-14-4-million-austin-home-0fccf407?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/this-is-the-whopping-amount-joe-rogan-earns-from-the-podcast-he-airs-at-his-14-4-million-austin-home-0fccf407?mod=mw_rss_topstories",
-      "title": "Joe Rogan 的惊人播客收入",
-      "content_html": "<p><strong>This is the whopping amount Joe Rogan earns from the podcast he airs at his $14.4 million Austin home</strong></p><p>Forbes has named Joe Rogan the top-earning podcaster of 2026. The article details his substantial income generated from his popular podcast, often recorded at his Austin home.</p><p>《福布斯》将 Joe Rogan 评为 2026 年收入最高的播客主持人。文章详细介绍了其凭借热门节目获得的巨额报酬。</p><p>Tags: podcast · finance · media</p>",
-      "date_published": "2026-08-05T09:02:00+00:00",
-      "tags": [
-        "podcast",
-        "finance",
-        "media"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-      "title": "俄军袭击造成至少 17 人死亡，泽连斯基呼吁加强拦截",
-      "content_html": "<p><strong>Russian strike kills at least 17 as Zelensky says interceptors could have saved lives</strong></p><p>A Russian strike on logistics hubs in Kyiv has resulted in at least 17 deaths. President Zelensky stated that improved interception capabilities could have saved lives.</p><p>俄罗斯对基辅物流中心的袭击导致至少 17 人丧生。泽连斯基表示，若拦截能力更强，本可避免此类伤亡。</p><p>Tags: ukraine · russia · war</p>",
-      "date_published": "2026-08-05T08:29:40+00:00",
-      "tags": [
-        "ukraine",
-        "russia",
-        "war"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cly5kvdkyjro?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cly5kvdkyjro?at_medium=RSS&at_campaign=rss",
-      "title": "Perez Hilton 在直播自残报道后住院康复",
-      "content_html": "<p><strong>Perez Hilton recovering in hospital after reports he self-harmed during livestream</strong></p><p>Celebrity blogger Perez Hilton is recovering in the hospital following concerns over a self-harm incident during a livestream. Local police confirmed he was safely retrieved from his home.</p><p>名博主 Perez Hilton 因直播期间疑似自残被送医治疗。警方证实已将其安全救出并进行康复中。</p><p>Tags: news · celebrity · health</p>",
-      "date_published": "2026-08-05T08:29:30+00:00",
-      "tags": [
-        "news",
-        "celebrity",
-        "health"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
-      "url": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
-      "title": "NASA 新型暗能量望远镜亦能探测杀手级小行星",
-      "content_html": "<p><strong>NASA’s new dark energy space telescope can also detect killer asteroids</strong></p><p>NASA is launching the Nancy Grace Roman Space Telescope to study dark matter and energy. Its capabilities also allow for the detection of potentially dangerous asteroids near Earth.</p><p>NASA 即将发射罗曼太空望远镜以研究暗物质。该设备同时具备探测威胁地球的潜在小行星的能力。</p><p>Tags: nasa · space · astronomy</p>",
-      "date_published": "2026-08-05T08:06:40+00:00",
-      "tags": [
-        "nasa",
-        "space",
-        "astronomy"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://sspai.com/post/112953",
-      "url": "https://sspai.com/post/112953",
-      "title": "Bookology：打造私人阅读档案",
-      "content_html": "<p><strong>Bookology：从藏书到笔记，打造你的私人阅读档案</strong></p><p>The author discusses methods for managing a personal library and reading notes. They recommend tools like Calibre to track data and organize digital reading lists.</p><p>作者探讨了如何管理私人藏书与阅读笔记。通过使用 Calibre 等工具，可以有效追踪阅读数据并组织书单。</p><p>Tags: books · productivity · management</p>",
-      "date_published": "2026-08-05T07:15:56+00:00",
-      "tags": [
-        "books",
-        "productivity",
-        "management"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c0kmd4xpr46o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c0kmd4xpr46o?at_medium=RSS&at_campaign=rss",
-      "title": "韩国星巴克因“坦克日”风波遭警方突击搜查",
-      "content_html": "<p><strong>Police raid Starbucks Korea headquarters over &#x27;Tank Day&#x27; fiasco</strong></p><p>Starbucks Korea is facing police investigation following public complaints. The incident involves allegations that the company made light of the tragic Gwangju Uprising.</p><p>韩国星巴克因被指轻视“光州起义”而引发不满，现正面临警方调查。该公司目前受到当地公众的强烈谴责。</p><p>Tags: starbucks · korea · news</p>",
-      "date_published": "2026-08-05T07:04:45+00:00",
-      "tags": [
-        "starbucks",
-        "korea",
-        "news"
       ],
       "_category": "WORLD"
     }
