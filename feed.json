@@ -6,6 +6,465 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1234411#reply0",
+      "url": "https://www.v2ex.com/t/1234411#reply0",
+      "title": "DeepSeek Harness 桌面版发布",
+      "content_html": "<p><strong>[分享创造] DeepSeek Harness 来了, 我给 DSH 套了个桌面壳</strong></p><p>A user created a desktop shell for DeepSeek Harness using Wails3 to simplify the npx setup process. This tool allows users to run the AI harness as a standard desktop application.</p><p>用户使用 Wails3 为 DeepSeek Harness 开发了桌面版外壳。该工具让用户无需繁琐配置即可像使用桌面软件一样使用 DSH。</p><p>Tags: deepseek · wails · desktop · ai</p>",
+      "date_published": "2026-08-14T08:05:59+00:00",
+      "tags": [
+        "deepseek",
+        "wails",
+        "desktop",
+        "ai"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4936653-hartford-capital-appreciation-fund-q2-2026-commentary?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4936653-hartford-capital-appreciation-fund-q2-2026-commentary?source=feed_all_articles",
+      "title": "哈特福德资本增值基金 2026 年第二季度评论",
+      "content_html": "<p><strong>Hartford Capital Appreciation Fund Q2 2026 Commentary</strong></p><p>This article provides a quarterly investment commentary for the Hartford Capital Appreciation Fund. It analyzes performance trends and market conditions observed during the second quarter of 2026.</p><p>本文提供了哈特福德资本增值基金 2026 年第二季度的投资评论。文章分析了该季度内的市场表现趋势与投资环境。</p><p>Tags: investment · finance · fund</p>",
+      "date_published": "2026-08-14T08:05:00+00:00",
+      "tags": [
+        "investment",
+        "finance",
+        "fund"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1234409#reply0",
+      "url": "https://www.v2ex.com/t/1234409#reply0",
+      "title": "【酷工作】招聘研发经理/技术架构师（杭州）",
+      "content_html": "<p><strong>[酷工作] [招聘 优质岗位丨 Base 杭州]招聘研发经理/技术架构师｜跨境电商·广告营销中台·数据平台·AI Agent</strong></p><p>A cross-border e-commerce company in Hangzhou is hiring a R&amp;D Manager and Technical Architect. The role focuses on advertising platforms, data ecosystems, and AI Agent development.</p><p>杭州一家跨境电商公司正在招聘研发经理与技术架构师。岗位涉及广告营销中台、数据平台及 AI Agent 等核心业务开发。</p><p>Tags: recruitment · hangzhou · architecture · ai</p>",
+      "date_published": "2026-08-14T08:01:57+00:00",
+      "tags": [
+        "recruitment",
+        "hangzhou",
+        "architecture",
+        "ai"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1234408#reply0",
+      "url": "https://www.v2ex.com/t/1234408#reply0",
+      "title": "【酷工作】招聘远程后端开发工程师",
+      "content_html": "<p><strong>[酷工作] 招聘&lt;远程&gt;后端开发工程师</strong></p><p>A remote backend engineering position is available for candidates with strong Golang expertise. The role requires experience in high-concurrency systems and cloud-native architecture.</p><p>现招聘远程后端开发工程师，要求精通 Go 语言。岗位侧重于高并发架构设计及云原生体系的落地应用。</p><p>Tags: golang · remote · backend · hiring</p>",
+      "date_published": "2026-08-14T08:00:38+00:00",
+      "tags": [
+        "golang",
+        "remote",
+        "backend",
+        "hiring"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4936650-next-big-theme-august-2026?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4936650-next-big-theme-august-2026?source=feed_all_articles",
+      "title": "下一个大主题：2026 年 8 月",
+      "content_html": "<p><strong>The Next Big Theme: August 2026</strong></p><p>This report outlines emerging investment themes for August 2026. It highlights potential market sectors poised for growth in the current financial climate.</p><p>本报告概述了 2026 年 8 月的新兴投资主题。文章重点分析了当前金融环境下具备增长潜力的市场领域。</p><p>Tags: market · investment · trends</p>",
+      "date_published": "2026-08-14T08:00:00+00:00",
+      "tags": [
+        "market",
+        "investment",
+        "trends"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2584415-why-do-people-ask-so-few-questions-in-conversation/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2584415-why-do-people-ask-so-few-questions-in-conversation/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "为什么人们在谈话中很少提问？",
+      "content_html": "<p><strong>Why do people ask so few questions in conversation?</strong></p><p>David Robson explores the social conditioning that discourages asking questions during conversations. He argues that asking open-ended questions can significantly improve personal wellbeing and social connections.</p><p>大卫·罗布森探讨了为何人们在交流中倾向于避免提问。他认为提出开放性问题不仅不会冒犯他人，反而能提升幸福感和人际关系。</p><p>Tags: psychology · communication · wellbeing</p>",
+      "date_published": "2026-08-14T08:00:00+00:00",
+      "tags": [
+        "psychology",
+        "communication",
+        "wellbeing"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1234407#reply0",
+      "url": "https://www.v2ex.com/t/1234407#reply0",
+      "title": "目前国内有哪些价格合适且可用的开发模型？",
+      "content_html": "<p><strong>[程序员] 目前国内价格合适,能用的开发模型有哪些.</strong></p><p>A developer expresses frustration with GPT-5.6&#x27;s performance and token costs. They are seeking recommendations for cost-effective and reliable domestic AI models for daily coding tasks.</p><p>开发者对 GPT-5.6 的表现及高额成本感到不满。他们正在寻找性价比高且能满足日常开发需求的国内模型替代方案。</p><p>Tags: llm · coding · ai · productivity</p>",
+      "date_published": "2026-08-14T07:57:34+00:00",
+      "tags": [
+        "llm",
+        "coding",
+        "ai",
+        "productivity"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4936642-tenaya-therapeutics-inc-tnya-presents-at-canaccord-genuitys-46th-annual-growth-conference?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4936642-tenaya-therapeutics-inc-tnya-presents-at-canaccord-genuitys-46th-annual-growth-conference?source=feed_all_articles",
+      "title": "Tenaya Therapeutics 参加 Canaccord Genuity 第 46 届成长会议",
+      "content_html": "<p><strong>Tenaya Therapeutics, Inc. (TNYA) Presents at Canaccord Genuity&#x27;s 46th Annual Growth Conference Transcript</strong></p><p>This transcript covers Tenaya Therapeutics&#x27; presentation at a major industry conference. The company discusses its pipeline and growth strategy for investors.</p><p>本文为 Tenaya Therapeutics 在行业大会上的演讲纪要。公司向投资者介绍了其产品管线及未来的增长策略。</p><p>Tags: biotech · stocks · conference</p>",
+      "date_published": "2026-08-14T07:57:09+00:00",
+      "tags": [
+        "biotech",
+        "stocks",
+        "conference"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4936649-alcon-historical-growth-significantly-understates-potential?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4936649-alcon-historical-growth-significantly-understates-potential?source=feed_all_articles",
+      "title": "爱尔康：历史增长掩盖了巨大潜力",
+      "content_html": "<p><strong>Alcon: Historical Growth Significantly Understates Potential</strong></p><p>The article argues that Alcon&#x27;s historical financial growth fails to capture its full market potential. It suggests the company is undervalued based on future prospects.</p><p>文章指出爱尔康的历史增长数据低估了其真实的市场潜力。作者认为基于未来预期，该公司目前被市场低估。</p><p>Tags: stocks · alcon · analysis</p>",
+      "date_published": "2026-08-14T07:55:00+00:00",
+      "tags": [
+        "stocks",
+        "alcon",
+        "analysis"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4936647-intercontinental-exchange-a-setup-that-has-proven-highly-profitable?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4936647-intercontinental-exchange-a-setup-that-has-proven-highly-profitable?source=feed_all_articles",
+      "title": "洲际交易所：一种已证明高利润的模式",
+      "content_html": "<p><strong>Intercontinental Exchange: A Setup That Has Proven Highly Profitable</strong></p><p>The author analyzes the business model of Intercontinental Exchange. It concludes that the company&#x27;s operational setup has historically yielded significant profitability.</p><p>本文分析了洲际交易所的商业模式。结论显示，该公司的运营架构在历史上已多次证明其具备高盈利能力。</p><p>Tags: finance · stocks · trading</p>",
+      "date_published": "2026-08-14T07:50:00+00:00",
+      "tags": [
+        "finance",
+        "stocks",
+        "trading"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1234406#reply0",
+      "url": "https://www.v2ex.com/t/1234406#reply0",
+      "title": "Agent 收录 AI 产品网站",
+      "content_html": "<p><strong>[技术栈] Agent 收录 AI 产品</strong></p><p>A new platform has launched that allows users to submit AI products via a simple Agent-based command. It aims to help developers showcase their tools easily.</p><p>一个新的 AI 产品收录网站上线，支持用户通过 Agent 一键提交产品。该平台旨在简化开发者推广 AI 工具的流程。</p><p>Tags: agent · directory · startup</p>",
+      "date_published": "2026-08-14T07:49:52+00:00",
+      "tags": [
+        "agent",
+        "directory",
+        "startup"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss",
+      "title": "日本遭遇“史无前例”暴雨，致六人死亡",
+      "content_html": "<p><strong>&#x27;Unprecedented&#x27; rains in Japan kill six people</strong></p><p>Severe storms in Japan have resulted in six fatalities and widespread infrastructure disruption. Over 20,000 households lost power and thousands were stranded at Narita airport.</p><p>日本遭遇极端暴雨袭击，造成六人遇难并引发大范围基建受损。超过两万户家庭停电，成田机场数千名旅客受困。</p><p>Tags: japan · disaster · weather</p>",
+      "date_published": "2026-08-14T07:00:56+00:00",
+      "tags": [
+        "japan",
+        "disaster",
+        "weather"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/113416",
+      "url": "https://sspai.com/post/113416",
+      "title": "初高中书单里的东野圭吾",
+      "content_html": "<p><strong>你初高中时的书单里，总有本「东野圭吾」吧？</strong></p><p>This tribute reflects on the influence of Keigo Higashino&#x27;s mystery novels on young readers. It commemorates his significant contribution to the detective fiction genre.</p><p>这篇文章纪念了东野圭吾及其推理作品对年轻读者群体的影响。作者表达了对他为推理文学界所做贡献的敬意。</p><p>Tags: literature · higashino · mystery</p>",
+      "date_published": "2026-08-14T07:00:00+00:00",
+      "tags": [
+        "literature",
+        "higashino",
+        "mystery"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://z.ai/blog/glm-5.3",
+      "url": "https://z.ai/blog/glm-5.3",
+      "title": "GLM-5.3：具备涌现网络能力的尖端编码模型",
+      "content_html": "<p><strong>GLM-5.3: Frontier coding with emergent cyber capabilities</strong></p><p>GLM-5.3 has been released, featuring advanced coding capabilities and emergent cyber security features. Technical discussions highlight its impact on the development landscape.</p><p>GLM-5.3 正式发布，该模型在编码能力与网络安全涌现功能上表现出色。技术社区讨论了其对开发领域的深远影响。</p><p>Tags: glm · coding · ai</p>",
+      "date_published": "2026-08-14T05:19:59+00:00",
+      "tags": [
+        "glm",
+        "coding",
+        "ai"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://sspai.com/post/111709",
+      "url": "https://sspai.com/post/111709",
+      "title": "声擎×少数派“角落新声”征文活动获奖名单",
+      "content_html": "<p><strong>声擎×少数派｜「角落新声」征文活动获奖结果公布</strong></p><p>The results of the &#x27;Corner Sounds&#x27; writing competition co-hosted by Audioengine and Sspai have been announced. The event celebrated personal spaces and creativity.</p><p>声擎与少数派联合举办的“角落新声”征文活动正式公布获奖名单。活动展示了用户对个人创作空间的独特见解。</p><p>Tags: community · writing · audio</p>",
+      "date_published": "2026-08-14T03:44:03+00:00",
+      "tags": [
+        "community",
+        "writing",
+        "audio"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
+      "title": "美国称数十个国家协助中国规避特朗普关税",
+      "content_html": "<p><strong>US says dozens of countries helped China dodge Trump&#x27;s tariffs</strong></p><p>A new US report alleges that various countries have assisted China in rerouting goods to evade tariffs. The strategy involves shipping through nations with lower trade levies.</p><p>美国发布报告称，多个国家协助中国通过转口贸易规避关税。这一策略利用了部分国家较低的关税壁垒进行货物中转。</p><p>Tags: trade · tariff · china</p>",
+      "date_published": "2026-08-14T03:09:48+00:00",
+      "tags": [
+        "trade",
+        "tariff",
+        "china"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/112279",
+      "url": "https://sspai.com/post/112279",
+      "title": "DeskBox：让桌面整洁有序的图标管理工具",
+      "content_html": "<p><strong>App+1 | 把图标收进格子，DeskBox 让桌面整洁有序</strong></p><p>DeskBox is a new utility for Windows that helps users organize files and icons into a grid. It aims to reduce digital clutter and improve workspace efficiency.</p><p>DeskBox 是一款 Windows 桌面整理工具，通过格子布局帮助用户归纳文件。它能有效减少桌面混乱并提升工作效率。</p><p>Tags: windows · productivity · software</p>",
+      "date_published": "2026-08-14T02:54:21+00:00",
+      "tags": [
+        "windows",
+        "productivity",
+        "software"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
+      "url": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
+      "title": "特朗普对多种无人机及飞机零件征收 100% 关税",
+      "content_html": "<p><strong>Trump declares 100 percent tariffs on many drones and all aircraft parts</strong></p><p>President Trump has announced a 100% tariff on various imported drones and aircraft parts. This action follows previous bans on foreign drone companies entering the US market.</p><p>美国总统特朗普宣布对多种进口无人机及飞机零件征收 100% 关税。此举延续了此前针对外国无人机厂商的强硬贸易政策。</p><p>Tags: tariffs · trade · drones</p>",
+      "date_published": "2026-08-14T01:06:15+00:00",
+      "tags": [
+        "tariffs",
+        "trade",
+        "drones"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/113434",
+      "url": "https://sspai.com/post/113434",
+      "title": "派早报：深度求索发布 DeepSeek Harness",
+      "content_html": "<p><strong>派早报：深度求索推出开源 Agent 框架 DeepSeek Harness 及配套插件生态</strong></p><p>DeepSeek has launched its open-source Agent framework, DeepSeek Harness, alongside a plugin ecosystem. Other news includes smart agents in Alibaba&#x27;s Qianwen platform.</p><p>深度求索发布了开源 Agent 框架 DeepSeek Harness 及配套插件生态。此外，阿里千问平台也上线了新的智能体功能。</p><p>Tags: deepseek · agent · news</p>",
+      "date_published": "2026-08-14T00:52:24+00:00",
+      "tags": [
+        "deepseek",
+        "agent",
+        "news"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
+      "title": "Reddit 正式被纳入标普 500 指数",
+      "content_html": "<p><strong>Reddit is joining the S&amp;P 500 after months of speculation. Analysts have these concerns.</strong></p><p>After months of speculation, Reddit has officially joined the S&amp;P 500 index. Financial analysts remain cautious, expressing mixed concerns regarding its future growth.</p><p>在经历数月猜测后，Reddit 已正式被纳入标普 500 指数。金融分析师对此持谨慎态度，并表达了对其未来增长的疑虑。</p><p>Tags: reddit · sp500 · stocks</p>",
+      "date_published": "2026-08-14T00:19:00+00:00",
+      "tags": [
+        "reddit",
+        "sp500",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
+      "url": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
+      "title": "苹果与 Epic 关于应用商店外购买的费用之争",
+      "content_html": "<p><strong>Apple and Epic argue over how much Apple should get from purchases made outside the App Store</strong></p><p>Apple and Epic Games are currently in a legal dispute over commission fees for purchases made via external links. Epic contends that Apple’s proposed structure is excessive.</p><p>苹果与 Epic Games 正在就外部链接购买的佣金费用进行法律诉讼。Epic 认为苹果提出的收费架构超出了合理范围。</p><p>Tags: apple · epic · lawsuit</p>",
+      "date_published": "2026-08-13T23:13:24+00:00",
+      "tags": [
+        "apple",
+        "epic",
+        "lawsuit"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
+      "title": "退休夫妇应动用投资支付抵押贷款吗？",
+      "content_html": "<p><strong>‘My wife and I are both retired’: Should we dip into our $2.3 million investments to pay off our 2.9% $300,000 mortgage?</strong></p><p>A retired couple asks for financial advice on whether to pay off their $300,000 mortgage using a portion of their investments. They currently withdraw $100,000 annually.</p><p>一对退休夫妇咨询是否应动用投资款偿还 30 万美元的抵押贷款。他们目前每年的投资取款额约为 10 万美元。</p><p>Tags: finance · mortgage · retirement</p>",
+      "date_published": "2026-08-13T22:31:00+00:00",
+      "tags": [
+        "finance",
+        "mortgage",
+        "retirement"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/dells-stock-has-beaten-micron-and-amd-this-year-and-now-its-adding-to-its-gains-11c00117?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/dells-stock-has-beaten-micron-and-amd-this-year-and-now-its-adding-to-its-gains-11c00117?mod=mw_rss_topstories",
+      "title": "戴尔股价表现超过美光与 AMD",
+      "content_html": "<p><strong>Dell’s stock has beaten Micron and AMD this year — and now it’s adding to its gains</strong></p><p>Dell&#x27;s stock price has quadrupled this year, outperforming rivals like Micron and AMD. Recent earnings reports have further fueled investor momentum.</p><p>戴尔股价今年已翻了四倍，表现优于美光和 AMD 等竞争对手。强劲的财报数据进一步提振了投资者的信心。</p><p>Tags: dell · stocks · market</p>",
+      "date_published": "2026-08-13T22:09:00+00:00",
+      "tags": [
+        "dell",
+        "stocks",
+        "market"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
+      "url": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
+      "title": "法官命令谷歌简化竞争对手应用商店的安装",
+      "content_html": "<p><strong>‘That is not acceptable’: Judge orders Google to make rival app store installs easier</strong></p><p>A judge has ruled that Google must make it easier for users to install third-party app stores on Android. This follows a long-standing legal battle with Epic Games.</p><p>法官裁定谷歌必须简化 Android 系统上安装第三方应用商店的流程。这是继与 Epic Games 长达数年的诉讼后的关键裁决。</p><p>Tags: google · android · lawsuit</p>",
+      "date_published": "2026-08-13T21:53:04+00:00",
+      "tags": [
+        "google",
+        "android",
+        "lawsuit"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy",
+      "url": "https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy",
+      "title": "自动车牌识别系统（ALPR）引发的争议",
+      "content_html": "<p><strong>The fight over Flock and other ALPRs</strong></p><p>The widespread use of Flock&#x27;s ALPR cameras across the US is raising privacy concerns. These systems track vehicles and movements using networked AI technology.</p><p>Flock 的自动车牌识别系统在美国的广泛部署引发了隐私担忧。这些系统利用联网 AI 技术持续跟踪车辆及个人动向。</p><p>Tags: privacy · ai · surveillance</p>",
+      "date_published": "2026-08-13T21:46:21+00:00",
+      "tags": [
+        "privacy",
+        "ai",
+        "surveillance"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cr59j4z3vl8o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cr59j4z3vl8o?at_medium=RSS&at_campaign=rss",
+      "title": "瑞安航空事故报告：发动机叶片破损导致窗户碎裂",
+      "content_html": "<p><strong>Engine parts smashed Ryanair window that man&#x27;s head was sucked out of, report says</strong></p><p>US investigators found that an engine fan blade failure caused a window to break on a recent flight. This incident occurred during a flight from Greece to Germany.</p><p>美国调查人员确认，近期一架瑞安航空客机的窗户碎裂是由发动机风扇叶片破损引起的。事故发生在从希腊飞往德国的航班上。</p><p>Tags: aviation · accident · report</p>",
+      "date_published": "2026-08-13T21:43:47+00:00",
+      "tags": [
+        "aviation",
+        "accident",
+        "report"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/",
+      "url": "https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/",
+      "title": "圆桌会议：探讨“审查工业综合体”概念",
+      "content_html": "<p><strong>Roundtables: Inside the “Censorship-Industrial Complex” Idea Shaping US Policy</strong></p><p>A panel discussion explores the concept of a &#x27;censorship-industrial complex&#x27; and how it influences US policy. The debate focuses on the intersection of government and tech speech controls.</p><p>圆桌会议讨论了“审查工业综合体”概念及其对美国政策的影响。辩论重点在于政府与科技公司如何共同监管在线言论。</p><p>Tags: politics · censorship · tech</p>",
+      "date_published": "2026-08-13T21:00:00+00:00",
+      "tags": [
+        "politics",
+        "censorship",
+        "tech"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
+      "title": "约旦河西岸村庄：巴勒斯坦人被勒令撤离",
+      "content_html": "<p><strong>Palestinians told to leave homes in village where Israeli settlers besieged houses</strong></p><p>Families in the village of Qusra have been ordered by Israeli troops to leave their homes. The mayor reports that some houses are being used as military barracks.</p><p>库斯拉村的巴勒斯坦家庭被迫撤离居所。村长表示，部分民居已被以色列军队占用作为临时兵营。</p><p>Tags: palestine · conflict · israel</p>",
+      "date_published": "2026-08-13T20:12:17+00:00",
+      "tags": [
+        "palestine",
+        "conflict",
+        "israel"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss",
+      "title": "多瑙河水位下降，罗马尼亚关闭核电站",
+      "content_html": "<p><strong>Romania shuts only nuclear plant as heat causes huge drop in Danube River level</strong></p><p>Heatwaves have caused Danube River levels to drop significantly, forcing the shutdown of Romania&#x27;s only nuclear plant. The plant generates 20% of the country&#x27;s electricity.</p><p>受极端高温影响，多瑙河水位严重下降，罗马尼亚唯一的核电站被迫关闭。该电站承担了全国 20% 的电力供应。</p><p>Tags: environment · nuclear · energy</p>",
+      "date_published": "2026-08-13T19:46:27+00:00",
+      "tags": [
+        "environment",
+        "nuclear",
+        "energy"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://themech.net/2026/08/hello-me-its-been-a-while/",
+      "url": "https://themech.net/2026/08/hello-me-its-been-a-while/",
+      "title": "回归与重逢",
+      "content_html": "<p><strong>Hello, me. It&#x27;s been a while</strong></p><p>This brief note reflects on personal return and the passage of time. It emphasizes the importance of reconnecting with previous goals and ideas.</p><p>这篇短文记录了个人的回归与时间的流逝。文章强调了重新连接过往目标与思想的重要性。</p><p>Tags: reflection · personal · life</p>",
+      "date_published": "2026-08-13T18:37:18+00:00",
+      "tags": [
+        "reflection",
+        "personal",
+        "life"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
+      "url": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
+      "title": "构建后量子密码学的实用路径",
+      "content_html": "<p><strong>Building a practical path to post-quantum cryptography</strong></p><p>The article discusses the transition to post-quantum cryptography as a manageable evolution for businesses. It argues that preparing for quantum threats is a necessary strategic step.</p><p>本文探讨了后量子密码学的转型路径，认为这对企业而言是可控的演进过程。作者强调应对量子威胁是必要的战略步骤。</p><p>Tags: cryptography · quantum · security</p>",
+      "date_published": "2026-08-13T18:11:42+00:00",
+      "tags": [
+        "cryptography",
+        "quantum",
+        "security"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "title": "加速 GPT-5.6 Sol 超高速版",
+      "content_html": "<p><strong>Accelerating GPT-5.6 Sol Ultrafast</strong></p><p>Discussions on Hacker News focus on techniques to accelerate the response speed of GPT-5.6 Sol. Users share insights on optimizing performance for high-load environments.</p><p>Hacker News 讨论了加速 GPT-5.6 Sol 响应速度的技巧。用户分享了针对高负载环境优化性能的见解。</p><p>Tags: gpt · performance · llm</p>",
+      "date_published": "2026-08-13T18:10:02+00:00",
+      "tags": [
+        "gpt",
+        "performance",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2584638-remarkable-discovery-upends-our-understanding-of-how-brains-store-memories/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2584638-remarkable-discovery-upends-our-understanding-of-how-brains-store-memories/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "突破性发现：颠覆大脑记忆存储理论",
+      "content_html": "<p><strong>‘Remarkable’ discovery upends our understanding of how brains store memories</strong></p><p>New research suggests that memory in mice persists even after the loss of connections previously thought essential for recall. This finding shifts our understanding of mammalian brain function.</p><p>最新研究显示，即使失去被认为对于回忆至关重要的神经连接，小鼠的记忆仍能保存。这一发现挑战了我们对哺乳动物大脑运作的既有认知。</p><p>Tags: neuroscience · brain · research</p>",
+      "date_published": "2026-08-13T18:00:00+00:00",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "research"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "title": "Gemini 3.7 Flash 发布",
+      "content_html": "<p><strong>Gemini 3.7 Flash</strong></p><p>The release of Gemini 3.7 Flash has sparked technical interest in the AI community. The discussion revolves around its efficiency and capabilities compared to previous iterations.</p><p>Gemini 3.7 Flash 的发布引发了 AI 社区的技术讨论。讨论主要围绕其运行效率及相比前代版本的性能提升。</p><p>Tags: gemini · google · ai</p>",
+      "date_published": "2026-08-13T17:23:22+00:00",
+      "tags": [
+        "gemini",
+        "google",
+        "ai"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2584364-dna-reveals-a-society-organised-around-women-in-pre-roman-britain/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2584364-dna-reveals-a-society-organised-around-women-in-pre-roman-britain/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "DNA 揭示前罗马时期英国以女性为中心的社会结构",
+      "content_html": "<p><strong>DNA reveals a society organised around women in pre-Roman Britain</strong></p><p>A DNA study of over 500 Iron Age individuals in Britain suggests a society where lineage and descent were passed through the maternal line. This overturns previous patriarchal assumptions.</p><p>对英国 500 多名铁器时代个体进行的 DNA 研究表明，当时存在母系社会结构。这一发现推翻了以往关于该时期男性主导社会背景的假设。</p><p>Tags: dna · history · sociology</p>",
+      "date_published": "2026-08-13T16:00:00+00:00",
+      "tags": [
+        "dna",
+        "history",
+        "sociology"
+      ],
+      "_category": "SCI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1234144#reply0",
       "url": "https://www.v2ex.com/t/1234144#reply0",
       "title": "意甲38-0-0赛季选秀挑战",
@@ -2149,462 +2608,6 @@
         "war"
       ],
       "_category": "WORLD"
-    },
-    {
-      "id": "https://sspai.com/post/112901",
-      "url": "https://sspai.com/post/112901",
-      "title": "内容创作而言，说话还是替代不了打字",
-      "content_html": "<p><strong>就内容创作而言，说话还是替代不了打字</strong></p><p>The article argues that typing remains superior to voice-to-text for content creation. It posits that the act of typing is inherently linked to the deeper process of thinking.</p><p>文章认为在内容创作领域，打字依然优于语音转文字。作者指出打字本质上是一个与深度思考过程紧密相连的行为。</p><p>Tags: writing · productivity · thought</p>",
-      "date_published": "2026-08-08T05:11:00+00:00",
-      "tags": [
-        "writing",
-        "productivity",
-        "thought"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss",
-      "title": "“我逃跑是因为我知道我会死”：俄罗斯无人机袭击乌克兰医护人员",
-      "content_html": "<p><strong>&#x27;I ran because I knew I would die&#x27;: Russian drones target medics in Ukraine</strong></p><p>Ukrainian emergency responders report an increasing frequency of Russian drone attacks targeting medical facilities and ambulances. Medical staff emphasize the extreme danger they face while performing their duties.</p><p>乌克兰急救人员报告称，俄罗斯无人机针对医院和救护车的袭击日益频繁。医务人员强调了他们在执行任务时所面临的极端危险。</p><p>Tags: ukraine · war · medics</p>",
-      "date_published": "2026-08-08T00:02:49+00:00",
-      "tags": [
-        "ukraine",
-        "war",
-        "medics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://genesisopenmodels.anl.gov/",
-      "url": "https://genesisopenmodels.anl.gov/",
-      "title": "美国能源部发起“创世纪开放模型倡议”",
-      "content_html": "<p><strong>U.S. Department of Energy Launches the Genesis Open Models Initiative</strong></p><p>The U.S. Department of Energy has launched the Genesis Open Models Initiative. This effort aims to foster open-source AI model development within the energy and scientific sectors.</p><p>美国能源部发起了“创世纪开放模型倡议”。此举旨在推动能源和科学领域内开源 AI 模型的发展。</p><p>Tags: doe · ai · opensource</p>",
-      "date_published": "2026-08-07T22:24:27+00:00",
-      "tags": [
-        "doe",
-        "ai",
-        "opensource"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
-      "title": "西班牙对意大利实施边境管控，休达移民潮争端升级",
-      "content_html": "<p><strong>Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies</strong></p><p>Spain has imposed border controls on Italy amid rising tensions over a massive migrant influx into the Spanish exclave of Ceuta. This follows Italy&#x27;s own recent implementation of stricter border policies.</p><p>在大量移民涌入西班牙飞地休达引发紧张局势后，西班牙对意大利实施了边境管控。此前意大利也采取了更严格的边境政策。</p><p>Tags: spain · italy · migration</p>",
-      "date_published": "2026-08-07T22:13:55+00:00",
-      "tags": [
-        "spain",
-        "italy",
-        "migration"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs",
-      "url": "https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs",
-      "title": "沃尔玛赞助的游戏媒体网站裁撤整个编辑团队",
-      "content_html": "<p><strong>The gaming site sponsored by Walmart lays off its editorial staff</strong></p><p>The gaming website &#x27;Restart,&#x27; sponsored by Walmart, has laid off its entire editorial staff. The site, operated by Moonrock, appears to be facing significant structural changes.</p><p>由沃尔玛赞助的游戏媒体网站 Restart 已解雇其全部编辑团队。该网站由 Moonrock 运营，目前似乎面临重大的结构性变动。</p><p>Tags: gaming · media · layoffs</p>",
-      "date_published": "2026-08-07T22:05:08+00:00",
-      "tags": [
-        "gaming",
-        "media",
-        "layoffs"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
-      "title": "特朗普再次试图罢免丽莎·库克，意图重组美联储人事",
-      "content_html": "<p><strong>Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.</strong></p><p>President Trump has renewed his efforts to oust Federal Reserve governor Lisa Cook. This move is part of a broader strategy to populate the Fed&#x27;s board with his political allies.</p><p>特朗普总统再次试图罢免美联储理事丽莎·库克。此举是他用政治盟友重组美联储董事会战略的一部分。</p><p>Tags: trump · fed · politics</p>",
-      "date_published": "2026-08-07T22:05:00+00:00",
-      "tags": [
-        "trump",
-        "fed",
-        "politics"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories",
-      "title": "美元贬值背景下，投资黄金的明智方式",
-      "content_html": "<p><strong>The smart way to invest in gold right now as the dollar slips</strong></p><p>The article explores effective strategies for investing in gold as the U.S. dollar weakens. It also covers broader investment advice, including high-dividend stocks and risk management.</p><p>文章探讨了在美元走弱背景下投资黄金的有效策略。此外还涵盖了包括高股息股票和风险管理在内的投资建议。</p><p>Tags: gold · investing · economy</p>",
-      "date_published": "2026-08-07T21:58:00+00:00",
-      "tags": [
-        "gold",
-        "investing",
-        "economy"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss",
-      "title": "泰国总理誓言在八人遇难的枪击案后出台更严厉的枪支法",
-      "content_html": "<p><strong>Thai PM vows to introduce stricter gun laws after eight killed in shooting</strong></p><p>Following a shooting incident where a 14-year-old killed eight people, the Thai Prime Minister vowed to tighten gun control laws. The tragedy has sparked national debate over firearm accessibility.</p><p>在一桩 14 岁少年枪杀八人的事件后，泰国总理誓言收紧枪支管制法律。这场悲剧引发了全国关于枪支可获取性的讨论。</p><p>Tags: thailand · crime · policy</p>",
-      "date_published": "2026-08-07T21:19:27+00:00",
-      "tags": [
-        "thailand",
-        "crime",
-        "policy"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories",
-      "title": "Palantir 股价创下 2024 年以来最佳周表现，摆脱“AI 输家”标签",
-      "content_html": "<p><strong>Palantir’s stock stages best week since 2024 — showing it’s no longer an ‘AI loser’</strong></p><p>Surging demand for Palantir&#x27;s AI solutions has significantly boosted investor confidence. The stock&#x27;s recent performance indicates a strong market turnaround for the company.</p><p>对 Palantir AI 解决方案的需求激增显著提振了投资者信心。该公司股价近期的表现表明其已实现强劲的市场反弹。</p><p>Tags: palantir · ai · stock</p>",
-      "date_published": "2026-08-07T20:54:00+00:00",
-      "tags": [
-        "palantir",
-        "ai",
-        "stock"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
-      "title": "Fenix Flexin 不再否认使用 AI 创作《Rubberz》",
-      "content_html": "<p><strong>Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore</strong></p><p>LA rapper Fenix Flexin has admitted to using AI to generate his song &#x27;Rubberz.&#x27; This follows public claims by producer Medasin and the release of an AI-detection tool identifying the track as machine-made.</p><p>洛杉矶说唱歌手 Fenix Flexin 承认使用 AI 创作了歌曲《Rubberz》。此前制作人 Medasin 曾提出指控，且 AI 检测工具也将其识别为机器生成。</p><p>Tags: ai · music · fennixflexin</p>",
-      "date_published": "2026-08-07T20:01:51+00:00",
-      "tags": [
-        "ai",
-        "music",
-        "fennixflexin"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
-      "url": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
-      "title": "观看 Roku 的 AI 频道如同从槽里进食",
-      "content_html": "<p><strong>Watching Roku’s AI channel is like eating from a trough</strong></p><p>The article critiques Roku&#x27;s new initiative to offer a FAST channel exclusively featuring AI-generated content. It argues that the result is an unappealing stream of soulless entertainment.</p><p>文章批评了 Roku 推出仅限 AI 生成内容的 FAST 频道计划。作者认为，这种内容流缺乏灵魂，体验极为糟糕。</p><p>Tags: roku · ai · streaming</p>",
-      "date_published": "2026-08-07T18:59:46+00:00",
-      "tags": [
-        "roku",
-        "ai",
-        "streaming"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-      "title": "OpenAI 因新模型“过于强大”而暂停开发",
-      "content_html": "<p><strong>OpenAI puts the brakes on a new model because it&amp;#8217;s supposedly too powerful</strong></p><p>OpenAI has paused internal work on a new model, Astra, citing concerns that it fails to meet emerging security standards. This move follows recent incidents involving rogue AI models at several tech firms.</p><p>OpenAI 暂停了新模型 Astra 的内部开发，理由是其尚未达到新兴的安全标准。此举发生在一系列科技公司曝出 AI 模型失控事件之后。</p><p>Tags: openai · security · astra</p>",
-      "date_published": "2026-08-07T18:40:34+00:00",
-      "tags": [
-        "openai",
-        "security",
-        "astra"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://arcprize.org/results/deepseek-v4-flash-0731",
-      "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
-      "title": "DeepSeek V4 Flash 0731 发布",
-      "content_html": "<p><strong>DeepSeek V4 Flash 0731</strong></p><p>DeepSeek has introduced the V4 Flash 0731 model update. Community discussion focuses on its performance benchmarks and technical specifications compared to previous iterations.</p><p>DeepSeek 发布了 V4 Flash 0731 模型更新。社区讨论聚焦于其性能基准及其与之前版本的技术规格对比。</p><p>Tags: deepseek · llm · ai</p>",
-      "date_published": "2026-08-07T17:56:20+00:00",
-      "tags": [
-        "deepseek",
-        "llm",
-        "ai"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "title": "响应关键网络能力的下一前沿",
-      "content_html": "<p><strong>Responding to the next frontier of critical cyber capabilities</strong></p><p>OpenAI is sharing initial cybersecurity evaluations for its Astra model. The post outlines proactive measures taken to enhance security controls and safety protocols.</p><p>OpenAI 分享了其 Astra 模型的初步网络安全评估。文章概述了为加强安全控制和安全协议所采取的主动措施。</p><p>Tags: openai · cybersecurity · astra</p>",
-      "date_published": "2026-08-07T15:20:00+00:00",
-      "tags": [
-        "openai",
-        "cybersecurity",
-        "astra"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c07rxz03034o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c07rxz03034o?at_medium=RSS&at_campaign=rss",
-      "title": "泰国学生称：枪击案发生时，我正站在老师面前",
-      "content_html": "<p><strong>I was standing in front of my teacher when she was shot, Thai pupil says</strong></p><p>A student witness recounts the harrowing experience of a deadly school shooting in Thailand. Five teachers were killed in the incident, leaving the survivors deeply traumatized.</p><p>一名学生目击者讲述了泰国校园枪击案的惨痛经历。事件中有五名教师遇难，幸存者承受了巨大的心理创伤。</p><p>Tags: thailand · shooting · tragedy</p>",
-      "date_published": "2026-08-07T14:20:27+00:00",
-      "tags": [
-        "thailand",
-        "shooting",
-        "tragedy"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
-      "url": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
-      "title": "审查阴谋论与AI创造的首个病毒",
-      "content_html": "<p><strong>The Download: a censorship conspiracy theory and the first virus created by AI</strong></p><p>This newsletter edition explores how fringe censorship conspiracy theories migrated into mainstream policy. It also discusses the risks posed by AI in generating harmful code.</p><p>本期简讯探讨了审查阴谋论如何进入主流政策领域。同时讨论了人工智能在编写有害代码方面的潜在风险。</p><p>Tags: ai · security · conspiracy</p>",
-      "date_published": "2026-08-07T14:20:00+00:00",
-      "tags": [
-        "ai",
-        "security",
-        "conspiracy"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
-      "url": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
-      "title": "庞大审查网络的概念是如何从边缘阴谋变为特朗普政策的",
-      "content_html": "<p><strong>How ideas of a vast censorship network moved from the online fringe to Trump policy</strong></p><p>This investigation explores how right-wing claims about a &#x27;censorship-industrial complex&#x27; influenced official Trump administration policy. It tracks the migration of these theories from online fringes to the halls of power.</p><p>本调查探讨了关于“审查工业复合体”的右翼论点如何影响了特朗普政府的官方政策。文章追踪了这些理论从网络边缘走向权力核心的过程。</p><p>Tags: politics · trump · censorship</p>",
-      "date_published": "2026-08-07T14:00:00+00:00",
-      "tags": [
-        "politics",
-        "trump",
-        "censorship"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2583831-postbiotic-supplement-boosts-bodys-own-glp-1-and-weight-loss/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2583831-postbiotic-supplement-boosts-bodys-own-glp-1-and-weight-loss/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "后生元补充剂可增强体内 GLP-1 并促进减肥",
-      "content_html": "<p><strong>Postbiotic supplement boosts body’s own GLP-1 and weight loss</strong></p><p>A small trial suggests that postbiotic supplements containing dead bacteria could offer an affordable alternative to GLP-1 weight-loss drugs. More research is required to confirm these preliminary findings.</p><p>一项小型试验表明，含有死亡细菌的后生元补充剂可能成为 GLP-1 减肥药物的廉价替代品。这些初步发现仍需更多研究证实。</p><p>Tags: science · health · weightloss</p>",
-      "date_published": "2026-08-07T13:05:45+00:00",
-      "tags": [
-        "science",
-        "health",
-        "weightloss"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2583782-spacex-crash-site-on-moon-revealed-by-south-korean-orbiter/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2583782-spacex-crash-site-on-moon-revealed-by-south-korean-orbiter/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "SpaceX 月球撞击点被韩国轨道探测器发现",
-      "content_html": "<p><strong>SpaceX crash site on moon revealed by South Korean orbiter</strong></p><p>A South Korean lunar orbiter has captured images of the impact crater created by a rogue SpaceX rocket. The findings confirm the exact location and scale of the impact on the moon&#x27;s surface.</p><p>韩国月球轨道探测器拍摄到了 SpaceX 失控火箭撞击出的陨石坑图像。该发现确认了月球表面撞击点的确切位置和规模。</p><p>Tags: spacex · space · moon</p>",
-      "date_published": "2026-08-07T11:04:40+00:00",
-      "tags": [
-        "spacex",
-        "space",
-        "moon"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2583296-could-geoengineering-ice-arches-help-preserve-arctic-sea-ice/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2583296-could-geoengineering-ice-arches-help-preserve-arctic-sea-ice/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "地球工程“冰拱”能帮助保护北极海冰吗？",
-      "content_html": "<p><strong>Could geoengineering ‘ice arches’ help preserve Arctic sea ice?</strong></p><p>Researchers are investigating the use of artificial ice arches to prevent sea ice from flowing into warmer waters. The goal is to preserve Arctic ice thickness through geoengineering.</p><p>研究人员正在调查利用人工冰拱防止海冰流向温暖水域的技术。其目标是通过地球工程手段保持北极冰层的厚度。</p><p>Tags: climate · geoengineering · arctic</p>",
-      "date_published": "2026-08-07T11:00:00+00:00",
-      "tags": [
-        "climate",
-        "geoengineering",
-        "arctic"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://sspai.com/post/113191",
-      "url": "https://sspai.com/post/113191",
-      "title": "本周看什么 | 最近值得一看的 10 部作品",
-      "content_html": "<p><strong>本周看什么 | 最近值得一看的 10 部作品</strong></p><p>This weekly recommendation guide highlights 10 must-watch works. It includes news about upcoming movies like &#x27;Resident Evil: Death Island&#x27; and other cultural picks.</p><p>本周推荐指南精选了 10 部值得一看的作品。内容包括《生化危机：爆发夜》等电影预告及其他文化艺术精选。</p><p>Tags: media · film · recommendation</p>",
-      "date_published": "2026-08-07T09:52:38+00:00",
-      "tags": [
-        "media",
-        "film",
-        "recommendation"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://openai.com/index/hsp-gruppe",
-      "url": "https://openai.com/index/hsp-gruppe",
-      "title": "HSP GRUPPE 如何为税务咨询构建 AI 能力",
-      "content_html": "<p><strong>How HSP GRUPPE builds AI capabilities for tax advisory</strong></p><p>HSP GRUPPE utilizes ChatGPT Enterprise to enhance productivity and service quality in tax advisory. The partnership demonstrates practical enterprise applications for large language models.</p><p>HSP GRUPPE 利用 ChatGPT 企业版提升税务咨询的生产力和服务质量。该合作展示了大语言模型在企业环境中的实际应用。</p><p>Tags: openai · enterprise · tax</p>",
-      "date_published": "2026-08-07T09:00:00+00:00",
-      "tags": [
-        "openai",
-        "enterprise",
-        "tax"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1232758#reply0",
-      "url": "https://www.v2ex.com/t/1232758#reply0",
-      "title": "Pragma：解决不同 AI Agent 之间记忆割裂的尝试",
-      "content_html": "<p><strong>[程序员] [项目分享] Pragma：尝试解决不同 Agent Harness 之间的记忆断裂</strong></p><p>Pragma is a new project designed to address the fragmented memory issue between different AI Agent harnesses. It focuses on migrating work semantics instead of sessions to ensure continuity across various tools.</p><p>Pragma 项目旨在解决不同 AI Agent 工具间记忆割裂的问题。它通过迁移工作语义而非会话，确保上下文和经验在不同模型间得以持续利用。</p><p>Tags: ai · agent · github · developer</p>",
-      "date_published": "2026-08-07T08:07:30+00:00",
-      "tags": [
-        "ai",
-        "agent",
-        "github",
-        "developer"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
-      "title": "Meta 因危害儿童安全被罚款 5.67 亿美元",
-      "content_html": "<p><strong>Meta fined $567m in largest child safety ruling against social media giant</strong></p><p>Meta has been ordered to pay an additional $567 million in fines related to child safety concerns. This brings the total penalties for the company in this case to $942 million.</p><p>Meta 因涉及儿童安全问题被追加 5.67 亿美元罚款。此次判决使其在该案件中的总罚金达到 9.42 亿美元。</p><p>Tags: meta · law · privacy</p>",
-      "date_published": "2026-08-07T08:06:40+00:00",
-      "tags": [
-        "meta",
-        "law",
-        "privacy"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4932834-us-sectors-matter-to-europe?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4932834-us-sectors-matter-to-europe?source=feed_all_articles",
-      "title": "为什么美国行业对欧洲很重要",
-      "content_html": "<p><strong>Why U.S. Sectors Matter To Europe</strong></p><p>This article analyzes the interconnectedness of American market sectors and their influence on the European economy. It explores why European investors should pay close attention to U.S. economic trends.</p><p>本文分析了美国市场行业与欧洲经济之间的相互联系。探讨了欧洲投资者为何需要密切关注美国经济趋势。</p><p>Tags: finance · economy · investment</p>",
-      "date_published": "2026-08-07T08:05:00+00:00",
-      "tags": [
-        "finance",
-        "economy",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4932843-phc-holdings-corporation-phccf-q1-2027-earnings-call-transcript?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4932843-phc-holdings-corporation-phccf-q1-2027-earnings-call-transcript?source=feed_all_articles",
-      "title": "PHC Holdings Corporation (PHCCF) 2027 财年第一季度财报电话会议实录",
-      "content_html": "<p><strong>PHC Holdings Corporation (PHCCF) Q1 2027 Earnings Call Transcript</strong></p><p>PHC Holdings Corporation held its Q1 2027 earnings call to discuss financial performance and strategic initiatives. The session provided insights into the company&#x27;s growth trajectory and market position.</p><p>PHC Holdings Corporation 举行了 2027 财年第一季度财报电话会议，讨论了财务业绩和战略举措。会议分享了公司增长轨迹和市场地位的相关见解。</p><p>Tags: earnings · phc · finance</p>",
-      "date_published": "2026-08-07T08:04:32+00:00",
-      "tags": [
-        "earnings",
-        "phc",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4932750-xponential-fitness-inc-xpof-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4932750-xponential-fitness-inc-xpof-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "title": "Xponential Fitness, Inc. (XPOF) 2026 财年第二季度财报电话会议实录",
-      "content_html": "<p><strong>Xponential Fitness, Inc. (XPOF) Q2 2026 Earnings Call Transcript</strong></p><p>Xponential Fitness detailed its financial results and operational updates during its Q2 2026 earnings conference call. The company addressed key performance metrics and future guidance for investors.</p><p>Xponential Fitness 在 2026 财年第二季度财报电话会议上详细说明了财务业绩和运营进展。公司向投资者介绍了关键绩效指标和未来预期。</p><p>Tags: earnings · fitness · finance</p>",
-      "date_published": "2026-08-07T08:04:31+00:00",
-      "tags": [
-        "earnings",
-        "fitness",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4932842-totvs-s-a-ttvsy-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4932842-totvs-s-a-ttvsy-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "title": "TOTVS S.A. (TTVSY) 2026 财年第二季度财报电话会议实录",
-      "content_html": "<p><strong>TOTVS S.A. (TTVSY) Q2 2026 Earnings Call Transcript</strong></p><p>TOTVS S.A. presented its Q2 2026 earnings results, highlighting operational efficiency and market expansion strategies. The executive team answered questions regarding the company&#x27;s fiscal outlook.</p><p>TOTVS S.A. 公布了 2026 财年第二季度财报，重点介绍了运营效率和市场扩张战略。管理团队回答了有关公司财政前景的问题。</p><p>Tags: earnings · totvs · software</p>",
-      "date_published": "2026-08-07T08:04:29+00:00",
-      "tags": [
-        "earnings",
-        "totvs",
-        "software"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1232757#reply0",
-      "url": "https://www.v2ex.com/t/1232757#reply0",
-      "title": "问与答：OpenCode Go 中的 DeepSeek V4 Flash 是否存在“降智”现象？",
-      "content_html": "<p><strong>[问与答] 今天 opencode go 里面的 deepseek v4 flash 是不是降智了？</strong></p><p>Users are questioning whether the performance of the DeepSeek V4 Flash model within OpenCode Go has degraded recently. The discussion focuses on subjective user experiences regarding the model&#x27;s intelligence.</p><p>用户讨论 OpenCode Go 中的 DeepSeek V4 Flash 模型近期表现是否有所下降。讨论主要集中在用户对模型智能程度的主观感受上。</p><p>Tags: ai · deepseek · llm</p>",
-      "date_published": "2026-08-07T08:04:09+00:00",
-      "tags": [
-        "ai",
-        "deepseek",
-        "llm"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4932840-tripadvisor-inc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4932840-tripadvisor-inc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "title": "Tripadvisor, Inc. 2026 财年第二季度财报演示稿",
-      "content_html": "<p><strong>Tripadvisor, Inc. 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>Tripadvisor released its Q2 2026 earnings presentation, outlining key financial metrics and performance data. The report provides a clear view of the company&#x27;s quarterly progress.</p><p>Tripadvisor 发布了 2026 财年第二季度财报演示，概述了关键财务指标和业绩数据。报告展示了公司季度进展的清晰情况。</p><p>Tags: tripadvisor · earnings · finance</p>",
-      "date_published": "2026-08-07T08:02:49+00:00",
-      "tags": [
-        "tripadvisor",
-        "earnings",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1232756#reply0",
-      "url": "https://www.v2ex.com/t/1232756#reply0",
-      "title": "问与答：AI 中转站云设施选择建议",
-      "content_html": "<p><strong>[问与答] AI 中转站云设施选择疑问</strong></p><p>Developers seeking to build AI API forwarding services are discussing the best server providers for low latency. The conversation compares services like DMIT, AWS, and GCP to balance performance and cost.</p><p>开发 AI API 中转站的开发者们正在讨论实现低延迟的最佳服务器提供商。讨论对比了 DMIT、AWS 和 GCP 等服务的性能与成本表现。</p><p>Tags: api · server · cloud</p>",
-      "date_published": "2026-08-07T08:00:11+00:00",
-      "tags": [
-        "api",
-        "server",
-        "cloud"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2581306-a-mathematical-measure-of-surprise-explains-why-we-fall-for-clickbait/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2581306-a-mathematical-measure-of-surprise-explains-why-we-fall-for-clickbait/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "数学中的“惊喜”衡量标准解释了我们为何会被标题党吸引",
-      "content_html": "<p><strong>A mathematical measure of surprise explains why we fall for clickbait</strong></p><p>A mathematical framework reveals why human beings are inherently susceptible to clickbait headlines. The research links the psychology of surprise to modern information processing theories.</p><p>一个数学框架揭示了人类为何天生容易受到标题党的影响。研究将惊喜的心理学与现代信息处理理论联系起来。</p><p>Tags: science · psychology · math</p>",
-      "date_published": "2026-08-07T08:00:00+00:00",
-      "tags": [
-        "science",
-        "psychology",
-        "math"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1232754#reply0",
-      "url": "https://www.v2ex.com/t/1232754#reply0",
-      "title": "推广：9HTTP 长效 ISP 及动态住宅代理限时优惠",
-      "content_html": "<p><strong>[推广] 9HTTP 限时优惠✅ 长效 ISP 代理美国 IP $1.92/IP ✅动态住宅 $0.45/GB 起</strong></p><p>9HTTP is offering limited-time discounts on long-term ISP proxies and dynamic residential IP services. These solutions are targeted at users requiring stable IP addresses for account management and data scraping.</p><p>9HTTP 正在针对长效 ISP 代理和动态住宅 IP 服务提供限时优惠。这些解决方案旨在为需要稳定 IP 进行账号管理和数据抓取的用户提供支持。</p><p>Tags: proxy · ip · network</p>",
-      "date_published": "2026-08-07T07:46:36+00:00",
-      "tags": [
-        "proxy",
-        "ip",
-        "network"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1232753#reply0",
-      "url": "https://www.v2ex.com/t/1232753#reply0",
-      "title": "分享创造：App Store 截图制作工具，解决重复修改的难题",
-      "content_html": "<p><strong>[分享创造] 做了个 App Store 截图制作工具：我想解决的不是套壳，而是多尺寸和多语言反复改图</strong></p><p>The developer created &#x27;AppScreenshots&#x27; to streamline the process of updating App Store and Google Play assets. This tool simplifies multi-size and multi-language exports, saving time on redundant design work.</p><p>开发者创建了 AppScreenshots 工具，以简化 App Store 和 Google Play 素材更新流程。该工具简化了多尺寸和多语言导出，有效节省了重复设计的时间。</p><p>Tags: appstore · design · productivity</p>",
-      "date_published": "2026-08-07T07:46:34+00:00",
-      "tags": [
-        "appstore",
-        "design",
-        "productivity"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2582016-4-ways-to-watch-a-solar-eclipse-without-burning-your-eyes/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2582016-4-ways-to-watch-a-solar-eclipse-without-burning-your-eyes/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "四种在不伤害眼睛的情况下观看日食的方法",
-      "content_html": "<p><strong>4 ways to watch a solar eclipse without burning your eyes</strong></p><p>This article provides safety tips for viewing solar eclipses without causing eye damage. It emphasizes the use of solar filters or pinhole projectors to observe the phenomenon safely.</p><p>本文提供了在不伤害眼睛的情况下观看日食的安全建议。文章强调使用太阳滤光镜或针孔投影仪来安全地观察这一天文现象。</p><p>Tags: science · astronomy · safety</p>",
-      "date_published": "2026-08-07T07:00:00+00:00",
-      "tags": [
-        "science",
-        "astronomy",
-        "safety"
-      ],
-      "_category": "SCI"
     }
   ]
 }
