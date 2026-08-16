@@ -6,6 +6,318 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1234751#reply0",
+      "url": "https://www.v2ex.com/t/1234751#reply0",
+      "title": "开源了一个 agent skills 管理/环境切换/聊天查询的桌面软件",
+      "content_html": "<p><strong>[分享创造] 开源了个 agent skills 管理/环境切换/聊天查询的桌面软件</strong></p><p>The developer released an open-source desktop tool to manage CLI-based agent skills and history. It solves issues like fragmented skill management and difficulty in searching past conversations across different agents.</p><p>开发者开源了一款桌面工具，用于统一管理不同 CLI agent 的技能和对话历史。该软件解决了技能管理分散及历史记录难以查找的痛点。</p><p>Tags: github · agent · desktop</p>",
+      "date_published": "2026-08-16T07:07:10+00:00",
+      "tags": [
+        "github",
+        "agent",
+        "desktop"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1234750#reply0",
+      "url": "https://www.v2ex.com/t/1234750#reply0",
+      "title": "MacBook 变色好离谱",
+      "content_html": "<p><strong>[MacBook] MacBook 变色好离谱</strong></p><p>A MacBook user reports severe discoloration on the laptop&#x27;s lid and palm rest areas. The user suspects sun exposure and daily use have permanently altered the device&#x27;s finish.</p><p>一名 MacBook 用户反映其电脑外壳和掌托位置出现严重变色。用户怀疑是阳光照射和长期使用导致的漆面受损。</p><p>Tags: apple · macbook · hardware</p>",
+      "date_published": "2026-08-16T07:06:03+00:00",
+      "tags": [
+        "apple",
+        "macbook",
+        "hardware"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4937101-logan-energy-stock-earnings-surprise?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4937101-logan-energy-stock-earnings-surprise?source=feed_all_articles",
+      "title": "Logan Energy：盈利意外",
+      "content_html": "<p><strong>Logan Energy: Earnings Surprise</strong></p><p>Logan Energy reported earnings that exceeded analyst expectations. The positive surprise has captured the attention of investors monitoring the energy sector.</p><p>Logan Energy 公布的财报业绩超出了分析师预期。这一盈利惊喜吸引了关注能源行业的投资者的目光。</p><p>Tags: stocks · earnings · energy</p>",
+      "date_published": "2026-08-16T07:05:14+00:00",
+      "tags": [
+        "stocks",
+        "earnings",
+        "energy"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4937100-utg-retirees-got-a-well-supported-income-raise?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4937100-utg-retirees-got-a-well-supported-income-raise?source=feed_all_articles",
+      "title": "UTG：退休人员获得了充足的收入增长",
+      "content_html": "<p><strong>UTG: Retirees Got A Well-Supported Income Raise</strong></p><p>UTG shareholders, many of whom are retirees, have seen a well-supported increase in their income. This development provides financial relief for investors relying on dividend distributions.</p><p>UTG 的股东（许多是退休人员）获得了稳定的收入增长。这一进展为依赖股息分配的投资者提供了财务支持。</p><p>Tags: finance · dividend · investing</p>",
+      "date_published": "2026-08-16T07:04:19+00:00",
+      "tags": [
+        "finance",
+        "dividend",
+        "investing"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss",
+      "title": "波兰旅游巴士在匈牙利高速公路翻车，导致十二人死亡",
+      "content_html": "<p><strong>Twelve killed as Polish bus veers off Hungarian motorway</strong></p><p>A tourist bus crash in Hungary has resulted in at least twelve deaths and dozens of serious injuries. Authorities are currently investigating the circumstances behind the accident.</p><p>一辆旅游巴士在匈牙利高速公路翻车，导致至少十二人死亡，数十人受重伤。有关部门正在调查事故的具体原因。</p><p>Tags: hungary · accident · news</p>",
+      "date_published": "2026-08-16T07:04:17+00:00",
+      "tags": [
+        "hungary",
+        "accident",
+        "news"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1234749#reply3",
+      "url": "https://www.v2ex.com/t/1234749#reply3",
+      "title": "iPhone 18 Pro 想买首发，非国行版本有什么渠道吗？",
+      "content_html": "<p><strong>[Apple] iPhone 18 Pro 想买首发 想买非国行版本 有什么渠道吗？</strong></p><p>A potential buyer is looking for ways to purchase an international version of the iPhone 18 Pro at launch. The user is seeking alternatives to traveling to Hong Kong due to high costs.</p><p>一名消费者正咨询在 iPhone 18 Pro 发售时购买海外版本的渠道。由于前往香港旅行成本较高，用户正在寻找其他可行途径。</p><p>Tags: iphone · apple · shopping</p>",
+      "date_published": "2026-08-16T06:59:34+00:00",
+      "tags": [
+        "iphone",
+        "apple",
+        "shopping"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://github.com/jitpass/jit",
+      "url": "https://github.com/jitpass/jit",
+      "title": "Show HN：笔记本电脑是你的秘密最后以明文形式存在的地方",
+      "content_html": "<p><strong>Show HN: Laptop is the last place your secrets are still in plaintext</strong></p><p>This discussion highlights the persistent security risks of storing sensitive data in plaintext on laptops. It advocates for better encryption practices to protect personal information.</p><p>此讨论强调了笔记本电脑中明文存储敏感数据的持续安全风险。文章呼吁采取更好的加密措施来保护个人信息安全。</p><p>Tags: security · privacy · laptop</p>",
+      "date_published": "2026-08-16T06:55:04+00:00",
+      "tags": [
+        "security",
+        "privacy",
+        "laptop"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+      "title": "夏威夷遭遇强风大雨，飓风“拉拉”威胁逼近",
+      "content_html": "<p><strong>Hawaii battles strong winds and rain as Hurricane Lala threat looms</strong></p><p>Hawaii is bracing for potential landfall from Hurricane Lala, which could be the first direct hit in 34 years. Emergency measures are currently underway to manage heavy winds and rain.</p><p>夏威夷正严阵以待飓风“拉拉”的威胁，这可能是该地区 34 年来首次遭遇直接袭击。目前正采取紧急措施应对强风和降雨。</p><p>Tags: hawaii · hurricane · weather</p>",
+      "date_published": "2026-08-16T06:53:22+00:00",
+      "tags": [
+        "hawaii",
+        "hurricane",
+        "weather"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1234747#reply2",
+      "url": "https://www.v2ex.com/t/1234747#reply2",
+      "title": "联通宽带备份数据到百度网盘结果被限速",
+      "content_html": "<p><strong>[宽带症候群] 联通宽带备份数据到百度网盘结果被限速</strong></p><p>A broadband user reports experiencing severe upload speed throttling when backing up data to Baidu Netdisk. The user claims that despite having a gigabit connection, the ISP or service provider is artificially limiting throughput.</p><p>一名联通宽带用户反映在备份数据至百度网盘时遭遇严重限速。尽管用户拥有千兆带宽，但其上传速度仍受到人为限制。</p><p>Tags: broadband · network · isp</p>",
+      "date_published": "2026-08-16T06:52:02+00:00",
+      "tags": [
+        "broadband",
+        "network",
+        "isp"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4937099-xunlei-limited-stock-what-to-happen-if-stock-to-get-going?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4937099-xunlei-limited-stock-what-to-happen-if-stock-to-get-going?source=feed_all_articles",
+      "title": "迅雷有限公司：股价若要起飞需要发生什么",
+      "content_html": "<p><strong>Xunlei Limited: What Needs To Happen If The Stock Is To Get Going</strong></p><p>This analysis explores the factors necessary for Xunlei to see a significant recovery in its stock price. It discusses potential strategic shifts and market conditions required for growth.</p><p>该分析探讨了迅雷股价实现大幅回升所需的关键因素。文章讨论了公司实现增长可能需要的战略转型和市场环境。</p><p>Tags: xunlei · stocks · market</p>",
+      "date_published": "2026-08-16T06:50:52+00:00",
+      "tags": [
+        "xunlei",
+        "stocks",
+        "market"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1234746#reply0",
+      "url": "https://www.v2ex.com/t/1234746#reply0",
+      "title": "分享创造：一个类 Overleaf 的 LaTeX 写作平台",
+      "content_html": "<p><strong>[分享创造] 一个类 overleaf 的 latex 写作平台</strong></p><p>A developer has introduced a lightweight, self-hosted LaTeX writing platform similar to Overleaf. The project is open-source and intended for users who prefer a simpler setup.</p><p>开发者推出了一款轻量级的自托管 LaTeX 写作平台，类似于 Overleaf。该项目已开源，旨在满足用户对简化部署的需求。</p><p>Tags: latex · opensource · writing</p>",
+      "date_published": "2026-08-16T06:45:13+00:00",
+      "tags": [
+        "latex",
+        "opensource",
+        "writing"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4937096-bdc-weekly-review-market-is-surprised-by-private-credit-resilience?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4937096-bdc-weekly-review-market-is-surprised-by-private-credit-resilience?source=feed_all_articles",
+      "title": "BDC 每周回顾：市场对私人信贷的韧性感到惊讶",
+      "content_html": "<p><strong>BDC Weekly Review: Market Is Surprised By Private Credit Resilience</strong></p><p>The private credit market has demonstrated surprising resilience, defying recent investor pessimism. This weekly review examines why BDCs are performing better than expected.</p><p>私人信贷市场表现出惊人的韧性，打破了近期投资者的悲观预期。本周回顾分析了 BDC 表现优于预期的原因。</p><p>Tags: finance · credit · market</p>",
+      "date_published": "2026-08-16T06:26:27+00:00",
+      "tags": [
+        "finance",
+        "credit",
+        "market"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4937095-fastly-ai-traffic-surging?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4937095-fastly-ai-traffic-surging?source=feed_all_articles",
+      "title": "Fastly：AI 流量激增",
+      "content_html": "<p><strong>Fastly: AI Traffic Is Surging</strong></p><p>Fastly reports a significant surge in traffic driven by AI-related demands. The company highlights how the expansion of AI services is influencing their network performance and revenue.</p><p>Fastly 报告称由人工智能需求驱动的网络流量出现激增。公司强调了 AI 服务的扩张如何影响其网络性能及业务收入。</p><p>Tags: fastly · ai · cloud</p>",
+      "date_published": "2026-08-16T06:24:50+00:00",
+      "tags": [
+        "fastly",
+        "ai",
+        "cloud"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://sspai.com/post/113495",
+      "url": "https://sspai.com/post/113495",
+      "title": "浏览器扩展合集：我们为你找到了这 6 款实用、有趣的“新玩意”",
+      "content_html": "<p><strong>浏览器扩展合集： 我们为你找到了这 6 款实用、 有趣的「新玩意」</strong></p><p>This article highlights six innovative and practical browser extensions recently released. These tools aim to improve productivity and user experience through creative features.</p><p>本文推荐了六款近期推出的实用且有趣的浏览器扩展。这些工具旨在通过创新功能提升用户的生产力和使用体验。</p><p>Tags: browser · extension · productivity</p>",
+      "date_published": "2026-08-16T04:48:21+00:00",
+      "tags": [
+        "browser",
+        "extension",
+        "productivity"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
+      "title": "救援人员搜寻印尼强震幸存者",
+      "content_html": "<p><strong>Rescuers search for survivors of powerful Indonesia earthquake</strong></p><p>Authorities in Indonesia are conducting rapid assessments following a powerful earthquake that destroyed hundreds of buildings. Rescue teams are actively searching for survivors among the rubble.</p><p>印尼发生强震并摧毁了数百座建筑，当地政府正在进行快速评估。救援队正在废墟中全力搜寻幸存者。</p><p>Tags: indonesia · earthquake · disaster</p>",
+      "date_published": "2026-08-16T04:13:32+00:00",
+      "tags": [
+        "indonesia",
+        "earthquake",
+        "disaster"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.anthropic.com/research/multiagent-systems",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "title": "多智能体系统中的模式与问题",
+      "content_html": "<p><strong>Patterns and problems in emerging multi-agent systems</strong></p><p>This article discusses the emerging patterns and technical challenges associated with multi-agent systems. It emphasizes the complexity of coordinating autonomous agents in various applications.</p><p>本文讨论了多智能体系统中的新兴模式与技术挑战。文章强调了在各种应用中协调自主智能体的复杂性。</p><p>Tags: ai · multi-agent · systems</p>",
+      "date_published": "2026-08-16T02:12:53+00:00",
+      "tags": [
+        "ai",
+        "multi-agent",
+        "systems"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
+      "title": "据报道，摩洛哥拘留了数十名试图越境进入休达的移民",
+      "content_html": "<p><strong>Morocco detains dozens of migrants trying to cross into Ceuta, reports say</strong></p><p>Security forces in Morocco have detained numerous migrants attempting to cross into the Spanish enclave of Ceuta. The action follows social media rumors of another mass crossing attempt.</p><p>摩洛哥安全部队拘留了多名试图越境进入西班牙飞地休达的移民。此前社交媒体上流传着关于再次大规模越境的传闻。</p><p>Tags: morocco · immigration · news</p>",
+      "date_published": "2026-08-15T20:58:31+00:00",
+      "tags": [
+        "morocco",
+        "immigration",
+        "news"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "title": "通过扮演聊天机器人来嘲笑 AI",
+      "content_html": "<p><strong>Have a laugh at AI’s expense by roleplaying as a chatbot</strong></p><p>A new web tool allows users to roleplay as AI chatbots, highlighting the absurdity of current AI interactions. It features a simple interface where humans simulate both sides of a conversation.</p><p>一个新上线的网页工具允许用户扮演 AI 聊天机器人，从而凸显当前 AI 交互的荒谬性。该工具提供了一个简单的界面，让人类模拟对话的双方。</p><p>Tags: ai · chatbots · humor</p>",
+      "date_published": "2026-08-15T20:45:00+00:00",
+      "tags": [
+        "ai",
+        "chatbots",
+        "humor"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
+      "title": "“这是把双刃剑”：我丈夫拿到了 4.2 万美元奖金，这会影响我们的医保补贴吗？",
+      "content_html": "<p><strong>‘It’s a double-edged sword’: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?</strong></p><p>A reader asks about the potential impact of a significant work bonus on their Affordable Care Act subsidy eligibility. Financial experts provide guidance on how to manage the tax and benefit implications.</p><p>读者询问大额奖金是否会影响其医保补贴资格。财务专家就如何处理奖金带来的税收和福利影响提供了建议。</p><p>Tags: finance · insurance · taxes</p>",
+      "date_published": "2026-08-15T20:30:00+00:00",
+      "tags": [
+        "finance",
+        "insurance",
+        "taxes"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
+      "title": "我 63 岁，退休会计师，有 120 万美元 401(k)，还需要进行 Roth 转换吗？",
+      "content_html": "<p><strong>I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?</strong></p><p>A retired CPA considers whether a Roth IRA conversion makes sense given their current financial standing. The article weighs tax implications for those nearing or in retirement.</p><p>一名退休会计师咨询现在进行 Roth IRA 转换是否合理。文章分析了退休前后人群面临的税务考量。</p><p>Tags: retirement · roth · 401k</p>",
+      "date_published": "2026-08-15T20:00:00+00:00",
+      "tags": [
+        "retirement",
+        "roth",
+        "401k"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cn9nnxrxg4qo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cn9nnxrxg4qo?at_medium=RSS&at_campaign=rss",
+      "title": "列支敦士登修改王位继承法，允许女性登基",
+      "content_html": "<p><strong>Liechtenstein changes succession rule to allow women to ascend the throne</strong></p><p>The small European nation of Liechtenstein has updated its succession laws to ensure gender equality in royal inheritance. This historic change was announced during their national day celebrations.</p><p>欧洲小国列支敦士登修改了继承法，确保王位继承的性别平等。这一历史性变革是在其国庆日庆祝活动中宣布的。</p><p>Tags: liechtenstein · royalty · law</p>",
+      "date_published": "2026-08-15T19:41:57+00:00",
+      "tags": [
+        "liechtenstein",
+        "royalty",
+        "law"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories",
+      "title": "觉得现在利率很高？这些图表提供了不同的视角",
+      "content_html": "<p><strong>Think interest rates are high now? These charts offer a different perspective.</strong></p><p>This article provides a historical context for current interest rates, arguing that today&#x27;s levels are not unprecedented. It includes charts to help readers better understand long-term economic trends.</p><p>本文提供了当前利率的历史背景，指出目前的利率水平并非史无前例。文章通过图表帮助读者更好地理解长期经济趋势。</p><p>Tags: finance · interestrates · economy</p>",
+      "date_published": "2026-08-15T19:01:00+00:00",
+      "tags": [
+        "finance",
+        "interestrates",
+        "economy"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/owning-a-home-is-overrated-renting-is-now-often-a-much-better-money-move-711288a6?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/owning-a-home-is-overrated-renting-is-now-often-a-much-better-money-move-711288a6?mod=mw_rss_topstories",
+      "title": "买房被高估了，租房通常是更好的理财选择",
+      "content_html": "<p><strong>Owning a home is overrated. Renting is now often a much better money move.</strong></p><p>The article argues that homeownership is often considered a poor investment compared to renting and investing the difference. It encourages readers to rethink the financial benefits of owning property.</p><p>文章认为与租房并将差额资金进行投资相比，买房往往是一种被高估的投资方式。它鼓励读者重新审视住房拥有权的经济价值。</p><p>Tags: realestate · finance · renting</p>",
+      "date_published": "2026-08-15T18:23:00+00:00",
+      "tags": [
+        "realestate",
+        "finance",
+        "renting"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
+      "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
+      "title": "Semaglutide 与预测的痴呆症风险降低相关",
+      "content_html": "<p><strong>Semaglutide linked to lower predicted dementia risk</strong></p><p>New research suggests that the drug Semaglutide, typically used for diabetes and weight loss, may lower the risk of dementia. The findings could open new avenues for neurological disease prevention.</p><p>最新研究表明，通常用于糖尿病和减肥的药物司美格鲁肽可能降低痴呆症风险。这一发现可能为神经系统疾病预防开辟新路径。</p><p>Tags: health · science · semaglutide</p>",
+      "date_published": "2026-08-15T15:58:53+00:00",
+      "tags": [
+        "health",
+        "science",
+        "semaglutide"
+      ],
+      "_category": "SCI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1234608#reply0",
       "url": "https://www.v2ex.com/t/1234608#reply0",
       "title": "一个提供持续更新的生活经历和记忆的灵魂插件",
@@ -381,6 +693,32 @@
         "indonesia"
       ],
       "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2584619-how-bad-is-the-uk-drought-and-how-long-will-it-continue/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2584619-how-bad-is-the-uk-drought-and-how-long-will-it-continue/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "英国的干旱有多严重？将持续多久？",
+      "content_html": "<p><strong>How bad is the UK drought and how long will it continue?</strong></p><p>Large parts of England are experiencing severe drought conditions, leading to water restrictions and wildfires. Experts are assessing the long-term impact on agriculture and local wildlife.</p><p>英国大部分地区正经历严重干旱，导致用水限制和森林大火频发。专家正在评估此情况对农业及当地野生生物的长期影响。</p><p>Tags: environment · uk · climate</p>",
+      "date_published": "2026-08-14T10:18:23+00:00",
+      "tags": [
+        "environment",
+        "uk",
+        "climate"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/113459",
+      "url": "https://sspai.com/post/113459",
+      "title": "本周看什么 | 最近值得一看的 9 部作品",
+      "content_html": "<p><strong>本周看什么 | 最近值得一看的 9 部作品</strong></p><p>This weekly recommendation guide highlights nine must-watch films and artistic works. It provides insights into upcoming releases and current cultural highlights.</p><p>本周推荐指南精选了九部值得一看的电影与艺术作品。文章提供了即将发布的作品信息及当前文化热点。</p><p>Tags: movies · culture · recommendations</p>",
+      "date_published": "2026-08-14T09:50:02+00:00",
+      "tags": [
+        "movies",
+        "culture",
+        "recommendations"
+      ],
+      "_category": "WORLD"
     },
     {
       "id": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
@@ -2270,344 +2608,6 @@
         "depreciation"
       ],
       "_category": "WORLD"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1233285#reply3",
-      "url": "https://www.v2ex.com/t/1233285#reply3",
-      "title": "生活随笔：又一次约会记录",
-      "content_html": "<p><strong>[生活] 生活随笔日记 25 记又一次约会</strong></p><p>The author reflects on a recent dating experience, comparing their social interactions to those of peers. They share personal anecdotes about navigating restaurant choices and managing expectations during dates.</p><p>作者分享了一次约会经历，并探讨了在社交互动中的感受与选择。文中记录了关于餐厅筛选及约会心态的个人思考。</p><p>Tags: lifestyle · dating · reflections</p>",
-      "date_published": "2026-08-10T08:09:31+00:00",
-      "tags": [
-        "lifestyle",
-        "dating",
-        "reflections"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4934000-pt-bank-negara-indonesia-persero-tbk-ptbry-q2-2026-earnings-call-prepared-remarks-transcript?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4934000-pt-bank-negara-indonesia-persero-tbk-ptbry-q2-2026-earnings-call-prepared-remarks-transcript?source=feed_all_articles",
-      "title": "印尼国家银行（PTBRY）2026年第二季度财报会议记录",
-      "content_html": "<p><strong>PT Bank Negara Indonesia (Persero) Tbk (PTBRY) Q2 2026 Earnings Call Prepared Remarks Transcript</strong></p><p>The transcript provides details on PT Bank Negara Indonesia&#x27;s second-quarter financial results for 2026. Management reviewed growth targets and banking sector challenges.</p><p>该会议记录提供了印尼国家银行2026年第二季度的财务业绩详情。管理层回顾了增长目标及银行业面临的挑战。</p><p>Tags: bni · finance · banking</p>",
-      "date_published": "2026-08-10T07:58:19+00:00",
-      "tags": [
-        "bni",
-        "finance",
-        "banking"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1233284#reply20",
-      "url": "https://www.v2ex.com/t/1233284#reply20",
-      "title": "程序员讨论：有人把“词元（Token）”一词强塞进了OpenCode",
-      "content_html": "<p><strong>[程序员] 有人把「词元」一词塞进了 opencode</strong></p><p>Developers are debating a recent translation choice in the OpenCode project, where the term &#x27;Token&#x27; was translated in a way some find inappropriate. The discussion highlights growing concerns over technical terminology localization.</p><p>开发者正就OpenCode项目中“Token”一词的翻译展开讨论，部分人员认为该译法并不恰当。此争议反映了社区对技术术语本土化处理的关注。</p><p>Tags: opencode · translation · programming</p>",
-      "date_published": "2026-08-10T07:58:13+00:00",
-      "tags": [
-        "opencode",
-        "translation",
-        "programming"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://sspai.com/post/113115",
-      "url": "https://sspai.com/post/113115",
-      "title": "写给“跑两步就喘”的你：调整跑步姿势，舒适开跑",
-      "content_html": "<p><strong>写给「跑两步就喘」的你：调整跑步姿势，舒适开跑</strong></p><p>This guide provides tips on improving running form, breathing techniques, and managing intensity for beginners. The goal is to help those who struggle with endurance to enjoy running more comfortably.</p><p>这份指南介绍了初学者如何通过调整跑步姿势、呼吸节奏及运动强度来提升耐力。旨在帮助容易喘气的跑者更舒适地开始运动。</p><p>Tags: running · fitness · health</p>",
-      "date_published": "2026-08-10T07:00:00+00:00",
-      "tags": [
-        "running",
-        "fitness",
-        "health"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.docker.com/products/docker-sandboxes/",
-      "url": "https://www.docker.com/products/docker-sandboxes/",
-      "title": "Docker沙箱：为AI代理提供一次性、隔离的运行环境",
-      "content_html": "<p><strong>Docker Sandboxes – Disposable, isolated sandboxes for AI agents</strong></p><p>Developers are utilizing Docker to create disposable and isolated sandboxes specifically for AI agents. This approach improves security and simplifies the testing of autonomous AI operations.</p><p>开发者正在利用Docker为AI代理构建一次性且相互隔离的沙箱环境。该方案显著提升了安全性，并简化了自动化AI任务的测试流程。</p><p>Tags: docker · ai · sandbox</p>",
-      "date_published": "2026-08-10T06:02:38+00:00",
-      "tags": [
-        "docker",
-        "ai",
-        "sandbox"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.economist.com/asia/2026/08/06/the-philippines-big-offshoring-industry-is-growing-despite-ai",
-      "url": "https://www.economist.com/asia/2026/08/06/the-philippines-big-offshoring-industry-is-growing-despite-ai",
-      "title": "尽管有AI，菲律宾的离岸外包产业仍在持续增长",
-      "content_html": "<p><strong>The Philippines&#x27; big offshoring industry is growing despite AI</strong></p><p>Despite the rise of artificial intelligence, the offshoring industry in the Philippines continues to expand. The sector is adapting by integrating new technologies rather than being replaced by them.</p><p>尽管人工智能不断崛起，菲律宾的离岸外包产业依然在持续增长。该行业通过整合新技术而非被替代，实现了自我适应与发展。</p><p>Tags: offshoring · philippines · ai</p>",
-      "date_published": "2026-08-10T04:35:24+00:00",
-      "tags": [
-        "offshoring",
-        "philippines",
-        "ai"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.whodunnitai.com/",
-      "url": "https://www.whodunnitai.com/",
-      "title": "展示：语音驱动的谋杀推理游戏，用你的声音审问AI嫌疑人",
-      "content_html": "<p><strong>Show HN: Voice driven murder mystery, Interview AI suspects with your voice</strong></p><p>A new project allows users to interview AI-generated suspects in a murder mystery game using their own voice. This interactive experience showcases the potential of voice recognition in gaming.</p><p>一个新项目允许用户通过语音与谋杀推理游戏中的AI嫌疑人进行审问交互。这一体验展示了语音识别技术在游戏领域的应用潜力。</p><p>Tags: ai · gaming · voice</p>",
-      "date_published": "2026-08-10T03:18:40+00:00",
-      "tags": [
-        "ai",
-        "gaming",
-        "voice"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://github.com/shinyquagsire23/Klepton",
-      "url": "https://github.com/shinyquagsire23/Klepton",
-      "title": "在Apple Vision Pro上运行Android ARM64 VR APK",
-      "content_html": "<p><strong>Run Android ARM64 VR APKs on Apple Vision Pro</strong></p><p>Technological progress has enabled users to run Android ARM64 VR applications on the Apple Vision Pro headset. This crossover capability opens new possibilities for VR content accessibility.</p><p>技术进步使得用户能够在Apple Vision Pro头显上运行Android ARM64 VR应用程序。这一跨平台能力为VR内容的可访问性提供了新可能。</p><p>Tags: visionpro · android · vr</p>",
-      "date_published": "2026-08-10T03:12:48+00:00",
-      "tags": [
-        "visionpro",
-        "android",
-        "vr"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
-      "title": "美股期货持平，投资者等待通胀数据并关注伊朗局势",
-      "content_html": "<p><strong>U.S. stock futures flat as investors await inflation data, grapple with more Iran uncertainty</strong></p><p>U.S. stock futures remain stable as the market awaits key inflation reports. Geopolitical uncertainty regarding Iran continues to weigh on investor sentiment.</p><p>美股期货保持平稳，市场静候关键通胀数据。同时，关于伊朗的地缘政治不确定性持续影响着投资者的情绪。</p><p>Tags: finance · stocks · inflation</p>",
-      "date_published": "2026-08-10T03:02:00+00:00",
-      "tags": [
-        "finance",
-        "stocks",
-        "inflation"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://sspai.com/post/113202",
-      "url": "https://sspai.com/post/113202",
-      "title": "我与Pixel 10 Pro的生活：写在Pixel 11系列发布前夕",
-      "content_html": "<p><strong>我与Pixel 10 Pro的生活：写在Pixel 11系列手机发布前夕</strong></p><p>The author shares personal experiences using the Pixel 10 Pro ahead of the upcoming Pixel 11 release. The piece reflects on the daily utility and evolution of the Pixel smartphone series.</p><p>作者分享了在Pixel 11系列发布前夕使用Pixel 10 Pro的个人心得。文章回顾了Pixel系列手机的日常使用体验与进化。</p><p>Tags: pixel · google · smartphone</p>",
-      "date_published": "2026-08-10T03:00:56+00:00",
-      "tags": [
-        "pixel",
-        "google",
-        "smartphone"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
-      "url": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
-      "title": "HackerOne发生了什么？",
-      "content_html": "<p><strong>What Happened to HackerOne?</strong></p><p>The article investigates recent events and changes surrounding the vulnerability coordination platform HackerOne. It explores the implications of these shifts for the cybersecurity community.</p><p>本文探讨了漏洞协作平台HackerOne近期发生的变化与事件。文章分析了这些变动对网络安全社区的影响。</p><p>Tags: hackerone · cybersecurity · tech</p>",
-      "date_published": "2026-08-10T02:23:17+00:00",
-      "tags": [
-        "hackerone",
-        "cybersecurity",
-        "tech"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
-      "title": "退休理财建议：我拿到8万美元养老金，如何安全投资？",
-      "content_html": "<p><strong>‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?</strong></p><p>An individual planning for retirement asks for advice on how to invest an $80,000 pension payout safely. Financial experts weigh in on preserving capital for the long term.</p><p>一名计划退休的人士咨询如何安全投资8万美元的养老金收益。财务专家就长期资本保值提出了建议。</p><p>Tags: retirement · investing · finance</p>",
-      "date_published": "2026-08-10T00:00:00+00:00",
-      "tags": [
-        "retirement",
-        "investing",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://sspai.com/post/113268",
-      "url": "https://sspai.com/post/113268",
-      "title": "派早报：央视曝光酒店评级陷阱，Edge将禁用Manifest V2",
-      "content_html": "<p><strong>派早报：央视曝光酒店评级标识消费陷阱</strong></p><p>This roundup covers hotel rating deception exposed by CCTV, Edge&#x27;s move to disable Manifest V2, and investigations into Chinese AI firms using Nvidia chips. Other news includes market shifts and safety alerts.</p><p>早报内容涵盖央视曝光酒店评级陷阱、Edge浏览器禁用Manifest V2、中国AI企业使用英伟达芯片受调查等热点，以及其他市场与科技资讯。</p><p>Tags: news · tech · security</p>",
-      "date_published": "2026-08-09T23:08:03+00:00",
-      "tags": [
-        "news",
-        "tech",
-        "security"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&at_campaign=rss",
-      "title": "BBC报道：南非特种部队谋杀顶尖侦探的证据被提交",
-      "content_html": "<p><strong>Evidence that South African special forces murdered top detective shared with BBC</strong></p><p>Evidence linking South African special forces to the murder of a top detective has been shared with the BBC. The prosecution is moving forward against the accused individuals.</p><p>有证据显示南非特种部队与一名顶尖侦探被杀案有关，相关材料已提交给BBC。检方正推进对涉案人员的起诉工作。</p><p>Tags: south-africa · crime · investigation</p>",
-      "date_published": "2026-08-09T23:05:29+00:00",
-      "tags": [
-        "south-africa",
-        "crime",
-        "investigation"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss",
-      "title": "内塔尼亚胡称以色列拒绝特朗普的加沙15点计划",
-      "content_html": "<p><strong>Israel rejects Trump&#x27;s 15-point plan for Gaza, Netanyahu says</strong></p><p>Israeli Prime Minister Benjamin Netanyahu has formally rejected a 15-point peace plan for Gaza proposed by Donald Trump. Israel insists it will not withdraw until Hamas is fully disarmed.</p><p>以色列总理内塔尼亚胡正式拒绝了特朗普提出的加沙15点和平计划。以色列坚持除非哈马斯完全解除武装，否则不会撤军。</p><p>Tags: israel · gaza · politics</p>",
-      "date_published": "2026-08-09T21:25:04+00:00",
-      "tags": [
-        "israel",
-        "gaza",
-        "politics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
-      "title": "涉嫌犯罪集团头目丹尼尔·基纳汉引渡后出庭",
-      "content_html": "<p><strong>Suspected crime boss Daniel Kinahan appears in court after extradition</strong></p><p>Suspected crime boss Daniel Kinahan appeared in court following his extradition from Dubai. Authorities used heavy security measures to transport him to face charges.</p><p>涉嫌犯罪集团头目丹尼尔·基纳汉在被从迪拜引渡回国后出庭受审。当局采取了严密的安保措施以确保其顺利到庭。</p><p>Tags: crime · court · justice</p>",
-      "date_published": "2026-08-09T20:58:18+00:00",
-      "tags": [
-        "crime",
-        "court",
-        "justice"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast",
-      "url": "https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast",
-      "title": "《No Dogs in Space》：专为硬核音乐迷准备的音乐史播客",
-      "content_html": "<p><strong>No Dogs in Space is a music history podcast for true obsessives</strong></p><p>The music history podcast &#x27;No Dogs in Space&#x27; has become a cult favorite for its deep dives into experimental rock. Fans are awaiting new content after the most recent season concluded.</p><p>音乐历史播客《No Dogs in Space》因对实验摇滚的深入挖掘而深受粉丝喜爱。听众正期待该系列在最新一季结束后推出更多内容。</p><p>Tags: podcast · music · history</p>",
-      "date_published": "2026-08-09T20:28:31+00:00",
-      "tags": [
-        "podcast",
-        "music",
-        "history"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/tech/977161/mark-zuckerberg-yacht-wilderness-legacy-stranded-boat",
-      "url": "https://www.theverge.com/tech/977161/mark-zuckerberg-yacht-wilderness-legacy-stranded-boat",
-      "title": "扎克伯格游艇更近，但营救搁浅船只的是他人",
-      "content_html": "<p><strong>Zuckerberg&amp;#8217;s yacht was closer, but someone else saved a stranded boat</strong></p><p>Despite Mark Zuckerberg&#x27;s super yacht being the closest vessel, a cruise ship conducted the rescue of a stranded boat. The incident highlights the logistics of maritime assistance.</p><p>尽管扎克伯格的超级游艇是最近的船只，但实际实施救援的是一艘客轮。该事件突显了海上救援的复杂性。</p><p>Tags: zuckerberg · maritime · news</p>",
-      "date_published": "2026-08-09T17:20:30+00:00",
-      "tags": [
-        "zuckerberg",
-        "maritime",
-        "news"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss",
-      "title": "德国基地上空发现无人机，此前莱比锡发生爆炸事件",
-      "content_html": "<p><strong>Drones spotted over German base days after Leipzig bomb incident</strong></p><p>Police are investigating drone sightings over a German military base shortly after a bomb incident in Leipzig. Authorities are determining if the events are connected.</p><p>警方正在调查德国一处军事基地上空的无人机踪迹，此前莱比锡刚发生爆炸事件。相关部门正核实两者是否有关联。</p><p>Tags: germany · military · security</p>",
-      "date_published": "2026-08-09T16:18:10+00:00",
-      "tags": [
-        "germany",
-        "military",
-        "security"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cvgx1kpz17go?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cvgx1kpz17go?at_medium=RSS&at_campaign=rss",
-      "title": "西西里海岸发现古罗马沉船",
-      "content_html": "<p><strong>Ancient Roman shipwreck discovered off Sicily coast</strong></p><p>A significant ancient Roman shipwreck has been discovered off the coast of Sicily. Italian officials believe it is one of the most important underwater archaeological finds in recent years.</p><p>西西里海岸附近发现了一艘重要的古罗马沉船。意大利官方认为，这是近年来最重要的水下考古发现之一。</p><p>Tags: archaeology · rome · history</p>",
-      "date_published": "2026-08-09T12:27:26+00:00",
-      "tags": [
-        "archaeology",
-        "rome",
-        "history"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
-      "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
-      "title": "AI检测器正在引发新的信任危机",
-      "content_html": "<p><strong>AI detectors are creating a new era of distrust</strong></p><p>The increasing use of AI detection tools is creating a climate of distrust in academia and the workplace. This piece analyzes how these imperfect tools affect human integrity.</p><p>AI检测工具的泛用正在学术界和职场引发信任危机。本文分析了这些不完善的工具如何影响人们对诚信的判断。</p><p>Tags: ai · detection · ethics</p>",
-      "date_published": "2026-08-09T12:00:00+00:00",
-      "tags": [
-        "ai",
-        "detection",
-        "ethics"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1233042#reply1",
-      "url": "https://www.v2ex.com/t/1233042#reply1",
-      "title": "大家还有在坚持使用QQ吗？",
-      "content_html": "<p><strong>[问与答] 大家还有在坚持使用 qq 嘛？为什么？</strong></p><p>Many people still use QQ for group chats, especially students and young workers. This discussion explores why the platform remains relevant for certain demographics.</p><p>尽管社交软件众多，许多学生和年轻人仍在使用QQ进行群聊。本文探讨了该平台在特定人群中维持粘性的原因。</p><p>Tags: qq · social · internet</p>",
-      "date_published": "2026-08-09T07:43:07+00:00",
-      "tags": [
-        "qq",
-        "social",
-        "internet"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4933853-kaspikz-betting-on-a-proven-playbook-in-a-much-larger-market?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4933853-kaspikz-betting-on-a-proven-playbook-in-a-much-larger-market?source=feed_all_articles",
-      "title": "Kaspi.kz：在更大的市场中押注成熟模式",
-      "content_html": "<p><strong>Kaspi.kz: Betting On A Proven Playbook In A Much Larger Market</strong></p><p>Kaspi.kz is leveraging its proven operational playbook to expand its influence within a significantly larger market. This analysis examines the potential risks and rewards of their growth strategy.</p><p>Kaspi.kz正通过其经过验证的商业模式向更大市场扩张。本文分析了其增长战略背后的潜力与风险。</p><p>Tags: kaspi · finance · market</p>",
-      "date_published": "2026-08-09T07:37:51+00:00",
-      "tags": [
-        "kaspi",
-        "finance",
-        "market"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1233041#reply1",
-      "url": "https://www.v2ex.com/t/1233041#reply1",
-      "title": "大家是自建代理还是购买服务？",
-      "content_html": "<p><strong>[问与答] 大家用自建的梯子多还是买的多，我想自建一个不知道和买的相比哪个更好希望给点建议</strong></p><p>This inquiry seeks advice on whether building a personal proxy server is superior to purchasing a commercial service. The discussion highlights the trade-offs between cost, convenience, and technical effort.</p><p>用户探讨了自建网络代理与购买现成服务的优劣。讨论重点在于成本、易用性与技术维护之间的权衡。</p><p>Tags: proxy · vps · network</p>",
-      "date_published": "2026-08-09T07:23:58+00:00",
-      "tags": [
-        "proxy",
-        "vps",
-        "network"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1233040#reply0",
-      "url": "https://www.v2ex.com/t/1233040#reply0",
-      "title": "推荐几个好用的eSIM，适合全球流量与保号",
-      "content_html": "<p><strong>[分享发现] 第二版：推荐几个 eSIM，全球流量·便宜保号·接码</strong></p><p>This guide provides recommendations for affordable eSIM options suitable for maintaining foreign phone numbers and accessing global data. It emphasizes cost-effectiveness and simple setup for non-expert users.</p><p>本文分享了几种高性价比的eSIM方案，旨在帮助用户实现低成本保号及获取全球流量。内容侧重于简单易用与经济性。</p><p>Tags: esim · mobile · roaming</p>",
-      "date_published": "2026-08-09T07:23:10+00:00",
-      "tags": [
-        "esim",
-        "mobile",
-        "roaming"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4933857-wall-street-week-ahead?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4933857-wall-street-week-ahead?source=feed_all_articles",
-      "title": "华尔街周报展望",
-      "content_html": "<p><strong>Wall Street Week Ahead</strong></p><p>This report provides an outlook on the upcoming week for Wall Street, focusing on key market drivers and economic events. Investors look to these insights to navigate potential volatility.</p><p>本周华尔街周报展望了市场走势，重点关注驱动因素与经济事件。投资者利用此类分析应对市场波动。</p><p>Tags: wallstreet · stocks · economy</p>",
-      "date_published": "2026-08-09T07:11:49+00:00",
-      "tags": [
-        "wallstreet",
-        "stocks",
-        "economy"
-      ],
-      "_category": "FINA"
     }
   ]
 }
