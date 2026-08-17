@@ -6,7 +6,247 @@
 <atom:link href="https://news.wuwuwu.cc/feed.xml" rel="self" type="application/rss+xml"/>
 <description>每日中英双语科技与世界新闻摘要 · summarized by Gemini</description>
 <language>zh-cn</language>
-<lastBuildDate>Sun, 16 Aug 2026 07:25:44 +0000</lastBuildDate>
+<lastBuildDate>Mon, 17 Aug 2026 07:46:04 +0000</lastBuildDate>
+<item>
+<title>Loop解决“继续”，Graph解决“协作”，那“完成”由谁负责？</title>
+<link>https://www.v2ex.com/t/1235026#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1235026#reply0</guid>
+<pubDate>Mon, 17 Aug 2026 07:45:13 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>[推广] Loop 解决“继续”， Graph 解决“协作”，那“完成”由谁负责？</strong></p><p>The article discusses the limitations of current AI Agents in software engineering, noting that simple loops are insufficient for complex tasks. It proposes a hierarchical framework where graphs manage execution, while additional components handle project states and validation to ensure completion.</p><p>文章探讨了AI Agent在复杂工程任务中的局限性，提出Loop和Graph虽能解决行动与协作，但仍需分层架构来管理状态与验证以确保任务真正完成。</p><p>Tags: ai · agents · software-engineering</p>]]></description>
+</item>
+<item>
+<title>分享一个AI产品分析站</title>
+<link>https://www.v2ex.com/t/1235025#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1235025#reply0</guid>
+<pubDate>Mon, 17 Aug 2026 07:44:42 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[分享创造] 因为公司在做 Workbuddy Agent，总要做产品分析，所以做了一个 AI 产品分析站，分享给大家。</strong></p><p>The author created a website to provide clear, simplified analyses of new AI products. It aims to help users understand what these tools do and whether they are suitable for specific needs.</p><p>作者建立了一个AI产品分析网站，通过简洁的语言拆解新产品的功能与适用场景。该站旨在解决用户面对海量AI工具时的选择困难。</p><p>Tags: ai · product · analysis</p>]]></description>
+</item>
+<item>
+<title>code-deep：为编码Agent提供两个MCP工具</title>
+<link>https://www.v2ex.com/t/1235024#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1235024#reply0</guid>
+<pubDate>Mon, 17 Aug 2026 07:44:13 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[分享创造] code-deep：给 Coding Agent 的两个 MCP 工具 —— 改代码前 explore，改完 review</strong></p><p>This project introduces two new MCP tools for coding agents: explore and review. These tools help agents better understand codebases before editing and verify the impact of changes afterward.</p><p>该项目为编码Agent推出了两个MCP工具，用于在修改代码前进行探索和修改后进行审查。这能有效提升Agent开发工作的准确性与安全性。</p><p>Tags: coding · mcp · ai-agent</p>]]></description>
+</item>
+<item>
+<title>完全隐蔽，在终端里打德州扑克</title>
+<link>https://www.v2ex.com/t/1235023#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1235023#reply0</guid>
+<pubDate>Mon, 17 Aug 2026 07:43:00 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[分享创造] 完全隐蔽，终端里打德州扑克</strong></p><p>This project enables users to play Texas Hold&#x27;em directly within the terminal via SSH. It is designed as a discreet, text-based experience for users in professional or restrictive environments.</p><p>该项目提供了一个基于SSH的终端命令行德州扑克游戏。它通过纯文字界面实现，适合在工作环境中进行隐蔽的社交娱乐。</p><p>Tags: terminal · ssh · gaming</p>]]></description>
+</item>
+<item>
+<title>乌克兰袭击导致俄罗斯六人死亡</title>
+<link>https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Mon, 17 Aug 2026 07:41:24 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Ukrainian strikes kill six in Russia, acting governor says</strong></p><p>The acting governor of Russia&#x27;s Belgorod region reported that Ukrainian strikes resulted in six deaths. Among those injured in the incident was a 14-year-old child.</p><p>俄罗斯别尔哥罗德州代理州长称，乌克兰的袭击造成六人死亡。伤者中包括一名14岁的儿童。</p><p>Tags: russia · ukraine · conflict</p>]]></description>
+</item>
+<item>
+<title>坐标长沙，社招投简历投到怀疑人生</title>
+<link>https://www.v2ex.com/t/1235022#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1235022#reply0</guid>
+<pubDate>Mon, 17 Aug 2026 07:41:02 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>[职场话题] [讨论] 坐标长沙，社招投简历投到怀疑人生，其他地方今年也这样吗？</strong></p><p>A software engineer with three years of experience shares frustrations regarding the current job market. Despite having a solid background in C++ and C#, they have struggled to secure interviews, highlighting a potential cooling in the tech sector.</p><p>一名拥有三年经验的软件工程师分享了其在长沙求职的困境。尽管技术背景扎实，却难以获得面试机会，反映了当前就业市场的严峻形势。</p><p>Tags: career · job-market · tech</p>]]></description>
+</item>
+<item>
+<title>恶意AI改变了网络安全格局</title>
+<link>https://www.newscientist.com/article/2583927-rogue-hacking-ais-have-changed-the-cybersecurity-landscape/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2583927-rogue-hacking-ais-have-changed-the-cybersecurity-landscape/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Mon, 17 Aug 2026 07:00:00 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Rogue hacking AIs have changed the cybersecurity landscape</strong></p><p>The rise of AI tools enables non-technical attackers to execute sophisticated cyberattacks at scale. This development leaves organizations with limited security budgets increasingly vulnerable to automated threats.</p><p>AI工具的普及使缺乏技术背景的攻击者也能大规模发动网络攻击。这导致防御预算有限的组织面临前所未有的安全风险。</p><p>Tags: cybersecurity · ai · security</p>]]></description>
+</item>
+<item>
+<title>我迷上了Peak Design的新款城市包</title>
+<link>https://www.theverge.com/tech/980137/peak-design-city-line-review</link>
+<guid isPermaLink="true">https://www.theverge.com/tech/980137/peak-design-city-line-review</guid>
+<pubDate>Mon, 17 Aug 2026 07:00:00 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>I’m hooked on Peak Design’s new City bags</strong></p><p>Peak Design has released a new line of bags featuring an integrated hook called BagLev. This simple yet innovative feature keeps bags off the dirty ground, earning praise from users.</p><p>Peak Design推出了带有“BagLev”挂钩设计的新款城市包。这一创新功能可以防止包底接触地面，获得了用户的积极评价。</p><p>Tags: design · gear · bags</p>]]></description>
+</item>
+<item>
+<title>特朗普称将减少与韩国的军事演习</title>
+<link>https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Mon, 17 Aug 2026 06:24:31 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Trump says US to reduce military drills with South Korea after it stayed out of Iran war</strong></p><p>President Trump announced plans to reduce military drills with South Korea. He cited his strong relationship with North Korean leadership as a key factor in this decision.</p><p>特朗普宣布将减少与韩国的联合军演。他表示，与朝鲜领导人的良好关系是做出此决定的关键因素。</p><p>Tags: trump · south-korea · politics</p>]]></description>
+</item>
+<item>
+<title>Insight Enterprises：令人印象深刻的表现</title>
+<link>https://seekingalpha.com/article/4937227-insight-enterprises-an-impressive-performance?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4937227-insight-enterprises-an-impressive-performance?source=feed_all_articles</guid>
+<pubDate>Mon, 17 Aug 2026 06:24:16 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Insight Enterprises: An Impressive Performance</strong></p><p>Insight Enterprises has delivered strong financial performance, attracting attention from investors. The company continues to show growth and operational excellence in the current market.</p><p>Insight Enterprises近期展现出强劲的财务表现，引起了投资者的广泛关注。公司在当前市场环境下保持了增长态势。</p><p>Tags: finance · stocks · earnings</p>]]></description>
+</item>
+<item>
+<title>Chord Energy：Q2财报增强了回购与自由现金流的论点</title>
+<link>https://seekingalpha.com/article/4937225-chord-energy-stock-q2-strengthens-buyback-fcf-thesis?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4937225-chord-energy-stock-q2-strengthens-buyback-fcf-thesis?source=feed_all_articles</guid>
+<pubDate>Mon, 17 Aug 2026 06:19:10 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Chord Energy: Q2 Strengthens The Buyback And FCF Per Share Thesis</strong></p><p>Chord Energy’s second-quarter earnings report has strengthened investor confidence in its share buyback program. The company’s free cash flow generation remains a key highlight of its financial health.</p><p>Chord Energy的第二季度财报进一步增强了投资者对股票回购的信心。其稳健的自由现金流表现成为公司财务健康的核心亮点。</p><p>Tags: energy · finance · earnings</p>]]></description>
+</item>
+<item>
+<title>GPT Group (GPTGF) 2026年第二季度财报电话会议实录</title>
+<link>https://seekingalpha.com/article/4937229-gpt-group-gptgf-q2-2026-earnings-call-transcript?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4937229-gpt-group-gptgf-q2-2026-earnings-call-transcript?source=feed_all_articles</guid>
+<pubDate>Mon, 17 Aug 2026 05:57:04 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>GPT Group (GPTGF) Q2 2026 Earnings Call Transcript</strong></p><p>This transcript covers the details of GPT Group’s Q2 2026 earnings call. Analysts and executives discussed the firm&#x27;s financial trajectory and strategic outlook for the coming months.</p><p>本文为GPT Group 2026年第二季度财报电话会议的实录。文中讨论了公司的财务轨迹及未来几个月的战略展望。</p><p>Tags: earnings · finance · gpt-group</p>]]></description>
+</item>
+<item>
+<title>当陶瓷水杯遇上像素屏：PixelMug 体验</title>
+<link>https://sspai.com/post/113448</link>
+<guid isPermaLink="true">https://sspai.com/post/113448</guid>
+<pubDate>Mon, 17 Aug 2026 05:55:17 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>当陶瓷水杯遇上像素屏：PixelMug 体验</strong></p><p>PixelMug combines traditional ceramic cup craftsmanship with a customizable pixel display. It serves as an example of tech products designed to add playfulness to daily life.</p><p>PixelMug将传统的陶瓷工艺与可自定义的像素显示屏相结合。这款产品展示了科技如何为日常生活增添趣味性。</p><p>Tags: lifestyle · gadgets · design</p>]]></description>
+</item>
+<item>
+<title>NICE发布又一份亮眼的财报</title>
+<link>https://seekingalpha.com/article/4937222-nice-stock-nice-earnings-beat-ai-driven-software-enterprise-demand?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4937222-nice-stock-nice-earnings-beat-ai-driven-software-enterprise-demand?source=feed_all_articles</guid>
+<pubDate>Mon, 17 Aug 2026 05:38:28 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>NICE Posts Another Nice Earnings Beat, As AI-Driven Software Sees Enterprise Demand</strong></p><p>NICE reported another earnings beat, driven by strong enterprise demand for its AI-powered software solutions. The company continues to outperform market expectations in the AI sector.</p><p>NICE再次交出亮眼的财报，得益于企业对其AI驱动软件方案的强劲需求。公司在AI领域的表现持续超出市场预期。</p><p>Tags: ai · finance · software</p>]]></description>
+</item>
+<item>
+<title>Digi Power X：电力短缺使Cerebras合同价值被低估</title>
+<link>https://seekingalpha.com/article/4937221-digi-power-x-power-scarcity-makes-cerebras-contract-more-valuable-than-market-thinks?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4937221-digi-power-x-power-scarcity-makes-cerebras-contract-more-valuable-than-market-thinks?source=feed_all_articles</guid>
+<pubDate>Mon, 17 Aug 2026 05:37:46 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Digi Power X: Power Scarcity Makes Cerebras Contract More Valuable Than Market Thinks</strong></p><p>Market analysts argue that the scarcity of power for data centers makes Cerebras&#x27;s specialized AI hardware contracts more valuable than currently recognized. The company is positioned to benefit from shifting infrastructure needs.</p><p>分析师指出，电力短缺提升了Cerebras专用AI硬件合同的战略价值。随着基础设施需求变化，该公司或将迎来更大的发展空间。</p><p>Tags: ai · hardware · finance</p>]]></description>
+</item>
+<item>
+<title>线性代数应该这样学 - Sheldon Axler</title>
+<link>https://linear.axler.net/</link>
+<guid isPermaLink="true">https://linear.axler.net/</guid>
+<pubDate>Mon, 17 Aug 2026 05:21:34 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Linear Algebra Done Right – Sheldon Axler</strong></p><p>This classic textbook offers a unique approach to learning linear algebra by focusing on operators rather than matrices. It remains a foundational resource for mathematics students and professionals.</p><p>这本经典教材通过关注算子而非矩阵，为学习线性代数提供了独特的视角。它是数学学生与专业人士的必备参考书。</p><p>Tags: math · education · textbook</p>]]></description>
+</item>
+<item>
+<title>特朗普特使库什纳抵达以色列</title>
+<link>https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Mon, 17 Aug 2026 04:50:56 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Trump envoy Kushner arrives in Israel after rare Hamas talks on Gaza peace plan</strong></p><p>Jared Kushner, serving as a US presidential envoy, arrived in Israel following discussions with Hamas regarding a Gaza peace plan. He is scheduled to meet with Prime Minister Netanyahu to discuss the progress.</p><p>美国总统特使库什纳在与哈马斯讨论加沙和平计划后抵达以色列。他计划与内塔尼亚胡总理会面，商讨相关进展。</p><p>Tags: israel · gaza · politics</p>]]></description>
+</item>
+<item>
+<title>刚果民主共和国埃博拉疫情成为史上最致命</title>
+<link>https://www.bbc.co.uk/news/articles/cvgll74vvydo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cvgll74vvydo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Mon, 17 Aug 2026 04:41:31 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Ebola outbreak in DR Congo becomes deadliest in its history</strong></p><p>An outbreak of a rare Ebola species, Bundibugyo, has become the deadliest in the Democratic Republic of Congo&#x27;s history. It is also currently the fastest-spreading outbreak on record.</p><p>刚果民主共和国爆发了一种罕见的埃博拉病毒，已成为该国历史上最致命的疫情。这也是目前记录中传播速度最快的埃博拉疫情。</p><p>Tags: health · ebola · congo</p>]]></description>
+</item>
+<item>
+<title>破纪录降雨袭击韩国城市，滑坡造成一人死亡</title>
+<link>https://www.bbc.co.uk/news/articles/cvgww971nn2o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cvgww971nn2o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Mon, 17 Aug 2026 04:34:09 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Record rains drench South Korean city as landslide kills one</strong></p><p>Heavy, record-breaking rainfall has hit South Korea, leading to significant flooding and a landslide that killed one person. Similar severe weather patterns are currently impacting much of East and Southeast Asia.</p><p>破纪录的强降雨袭击了韩国，引发洪涝灾害并导致一起山体滑坡，造成一人死亡。目前东亚及东南亚多地均受此类极端天气影响。</p><p>Tags: weather · korea · climate</p>]]></description>
+</item>
+<item>
+<title>GIMP开发进展更新</title>
+<link>https://www.gimp.org/news/2026/08/16/dev-update-august-2026/</link>
+<guid isPermaLink="true">https://www.gimp.org/news/2026/08/16/dev-update-august-2026/</guid>
+<pubDate>Mon, 17 Aug 2026 03:08:47 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>GIMP Development Update</strong></p><p>The GIMP development team has released an update regarding the latest progress on the image editing software. Improvements include better performance, new features, and bug fixes for users.</p><p>GIMP开发团队发布了关于该图像编辑软件的最新进展。本次更新涵盖了性能优化、新功能引入及多项错误修复。</p><p>Tags: gimp · software · opensource</p>]]></description>
+</item>
+<item>
+<title>美国股指期货波动不大，投资者静候美联储下一步行动</title>
+<link>https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories</guid>
+<pubDate>Mon, 17 Aug 2026 03:02:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>U.S. stock futures little changed as investors ponder the Fed’s next move</strong></p><p>U.S. stock futures remained stable as investors look for signs regarding future interest rate policies. The market is waiting for commentary from the Federal Reserve following a quiet week.</p><p>美国股指期货保持平稳，投资者正在关注美联储关于利率政策的暗示。在经历了一周的平静后，市场正等待政策动向。</p><p>Tags: finance · stocks · fed</p>]]></description>
+</item>
+<item>
+<title>成年人包里的唯一一支笔：模块笔入门导购</title>
+<link>https://sspai.com/post/113445</link>
+<guid isPermaLink="true">https://sspai.com/post/113445</guid>
+<pubDate>Mon, 17 Aug 2026 03:00:00 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>成年人包里的唯一一支笔：模块笔入门导购</strong></p><p>Modular pens offer a versatile and compact solution for those who want to carry just one writing tool. This guide explores the benefits and various configurations of these modular systems.</p><p>模块笔为只需携带一支笔的用户提供了灵活且紧凑的解决方案。本导购文章探讨了模块笔的优势及其多种配置组合。</p><p>Tags: writing · stationery · design</p>]]></description>
+</item>
+<item>
+<title>直接文件的生与死</title>
+<link>https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf</link>
+<guid isPermaLink="true">https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf</guid>
+<pubDate>Mon, 17 Aug 2026 00:17:57 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>The Life and Death of Direct File [pdf]</strong></p><p>This paper examines the history and technical evolution of direct file systems. It provides insights into how early data management techniques have influenced modern storage structures.</p><p>本文探讨了直接文件系统的历史及技术演变。文章深入剖析了早期数据管理技术如何影响了现代存储结构的设计。</p><p>Tags: cs · storage · research</p>]]></description>
+</item>
+<item>
+<title>Qwen 3.8 27B模型很棒，但容易过度思考</title>
+<link>https://simonwillison.net/2026/Aug/16/qwen-38-27b/</link>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/16/qwen-38-27b/</guid>
+<pubDate>Sun, 16 Aug 2026 23:45:09 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Qwen 3.8 27B is excellent, but it defaults to overthinking things</strong></p><p>The Qwen 3.8 27B model is highly capable but tends to overcomplicate simple tasks due to its deep reasoning tendencies. Users should adjust their prompts to get more concise outputs.</p><p>Qwen 3.8 27B模型性能卓越，但常因过度推理而使简单任务复杂化。用户可以通过优化提示词来获得更简洁的结果。</p><p>Tags: qwen · llm · ai</p>]]></description>
+</item>
+<item>
+<title>派早报：😭（放声大哭）成为最流行 emoji</title>
+<link>https://sspai.com/post/113524</link>
+<guid isPermaLink="true">https://sspai.com/post/113524</guid>
+<pubDate>Sun, 16 Aug 2026 22:54:56 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>派早报：😭（放声大哭）成为最流行 emoji</strong></p><p>This daily digest covers various tech and cultural news, including the rise of the &#x27;loudly crying&#x27; emoji. Other topics include AI competition tensions and browser extension updates.</p><p>本期早报涵盖了科技与文化动态，包括😭表情符号的流行。文中还探讨了AI竞赛的国际压力及浏览器扩展更新等资讯。</p><p>Tags: news · tech · emoji</p>]]></description>
+</item>
+<item>
+<title>OpenAI据报道解散了其防灾团队</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team</link>
+<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team</guid>
+<pubDate>Sun, 16 Aug 2026 21:32:56 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>OpenAI reportedly disbanded its preparedness team</strong></p><p>OpenAI reportedly disbanded its preparedness team, which was responsible for assessing long-term risks of their AI models. The decision has raised concerns about the company&#x27;s commitment to AI safety.</p><p>据报道，OpenAI解散了负责评估AI模型长期风险的防灾团队。此举引发了外界对其AI安全承诺的担忧。</p><p>Tags: openai · ai-safety · ethics</p>]]></description>
+</item>
+<item>
+<title>Open Mike Eagle与Kenny Segal打造的嘻哈分手杰作</title>
+<link>https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review</link>
+<guid isPermaLink="true">https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review</guid>
+<pubDate>Sun, 16 Aug 2026 20:31:37 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece</strong></p><p>The album explores the emotional weight of breakups through poetic lyrics and sophisticated production. It is being hailed as a masterpiece that finds artistic beauty in personal pain.</p><p>该专辑通过深情的歌词与精巧的制作探讨了分手的沉重情感。它被誉为一部在个人伤痛中发掘艺术之美的杰作。</p><p>Tags: music · hiphop · culture</p>]]></description>
+</item>
+<item>
+<title>我可以先领取丈夫50%的社会保障金，70岁时再切换到我更高的福利吗？</title>
+<link>https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories</guid>
+<pubDate>Sun, 16 Aug 2026 18:15:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Can I claim 50% of my husband’s Social Security now — and switch to my higher benefit at 70?</strong></p><p>A reader asks about the feasibility of claiming spousal social security benefits while deferring their own to maximize future payments. Financial experts emphasize the rules regarding age and eligibility.</p><p>读者询问关于领取配偶社保金并在70岁时切换至更高额度福利的可能性。金融专家强调了有关年龄与资格的政策规定。</p><p>Tags: finance · social-security · retirement</p>]]></description>
+</item>
+<item>
+<title>朋友的母亲去世了，她能阻止医疗补助计划收回家庭住房吗？</title>
+<link>https://www.marketwatch.com/story/shes-desperate-my-friends-mother-died-can-she-stop-medicaid-from-taking-the-family-home-394fb6e9?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/shes-desperate-my-friends-mother-died-can-she-stop-medicaid-from-taking-the-family-home-394fb6e9?mod=mw_rss_topstories</guid>
+<pubDate>Sun, 16 Aug 2026 17:30:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>My friend’s mother died. Can she stop Medicaid from taking the family home?</strong></p><p>The article discusses the legal complexities surrounding Medicaid estate recovery claims on family homes. It offers advice on how to navigate communication with lenders and government agencies.</p><p>本文讨论了医疗补助计划（Medicaid）收回家庭遗产住房的法律复杂性。文章为如何处理贷款方与政府部门的沟通提供了建议。</p><p>Tags: finance · medicaid · legal</p>]]></description>
+</item>
+<item>
+<title>ChatGPT的电脑历史功能跟踪你的点击和按键</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes</link>
+<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes</guid>
+<pubDate>Sun, 16 Aug 2026 14:56:40 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>ChatGPT’s Computer History tracks your clicks and keystrokes</strong></p><p>OpenAI&#x27;s desktop app now includes a feature that tracks user activity to provide more intelligent task automation. While convenient, this functionality raises significant privacy concerns.</p><p>OpenAI的桌面端应用新增了跟踪用户操作的功能，以提供更智能的自动化任务支持。虽然便捷，但这引发了严峻的隐私担忧。</p><p>Tags: openai · privacy · automation</p>]]></description>
+</item>
 <item>
 <title>开源了一个 agent skills 管理/环境切换/聊天查询的桌面软件</title>
 <link>https://www.v2ex.com/t/1234751#reply0</link>
@@ -238,6 +478,14 @@
 <pubDate>Sat, 15 Aug 2026 07:16:02 +0000</pubDate>
 <category>TECH</category>
 <description><![CDATA[<p><strong>[推广] 🎉周六福利｜ Proxy001 住宅代理： 1 亿 + 真实 IP / 230 + 国家 / 低至 $0.55GB，注册送 500M！</strong></p><p>Proxy001 is promoting its residential proxy service, claiming over 100 million IPs across 230 countries. They offer competitive pricing and a free trial for new users to facilitate cross-border business and data scraping.</p><p>Proxy001推广其住宅代理服务，拥有覆盖230个国家的1亿多IP资源。平台提供低价套餐及免费试用流量，旨在服务跨境电商与数据采集需求。</p><p>Tags: proxy · networking · ip</p>]]></description>
+</item>
+<item>
+<title>有毒职场正在炼成：OKR变成KPI，敏捷开发变成切碎的瀑布</title>
+<link>https://sspai.com/post/111974</link>
+<guid isPermaLink="true">https://sspai.com/post/111974</guid>
+<pubDate>Sat, 15 Aug 2026 07:07:54 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>有毒职场正在炼成：OKR 变成 KPI，敏捷开发变成切碎的瀑布</strong></p><p>The article critiques how modern management methodologies like OKR and Agile are often misused in workplaces. It argues that this leads to toxic environments and lost productivity.</p><p>本文批判了OKR与敏捷开发在职场中被误用的现象。作者认为这些原本高效的工具在错误操作下，反而会导致职场压抑与生产力下降。</p><p>Tags: management · workplace · productivity</p>]]></description>
 </item>
 <item>
 <title>程序员：小学生开发“班级宠物园”，一个月爆卖40万</title>
@@ -1358,254 +1606,6 @@
 <pubDate>Tue, 11 Aug 2026 07:47:45 +0000</pubDate>
 <category>FINA</category>
 <description><![CDATA[<p><strong>SpaceX: The IPO Hangover Is Real, But So Is The Next Sugar Rush</strong></p><p>This analysis discusses the post-IPO challenges faced by SpaceX and its future growth prospects. It examines the market volatility and the company&#x27;s ambitious trajectory.</p><p>本文分析了 SpaceX 在 IPO 后所面临的挑战及其未来的增长前景。文章探讨了市场波动以及该公司宏伟的发展规划。</p><p>Tags: spacex · ipo · finance</p>]]></description>
-</item>
-<item>
-<title>哥伦比亚国际股息收入基金 2026 年 Q2 评述</title>
-<link>https://seekingalpha.com/article/4934542-columbia-international-dividend-income-fund-q2-2026-commentary?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4934542-columbia-international-dividend-income-fund-q2-2026-commentary?source=feed_all_articles</guid>
-<pubDate>Tue, 11 Aug 2026 07:45:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Columbia International Dividend Income Fund Q2 2026 Commentary</strong></p><p>The Q2 2026 commentary for the Columbia International Dividend Income Fund reviews its portfolio performance. It provides insights into international market trends and investment strategies.</p><p>哥伦比亚国际股息收入基金 2026 年第二季度评述回顾了其投资组合表现。报告分析了国际市场趋势与投资策略。</p><p>Tags: investment · finance · funds</p>]]></description>
-</item>
-<item>
-<title>第一鹰黄金基金 2026 年 Q2 评述</title>
-<link>https://seekingalpha.com/article/4934537-first-eagle-gold-fund-q2-2026-commentary?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4934537-first-eagle-gold-fund-q2-2026-commentary?source=feed_all_articles</guid>
-<pubDate>Tue, 11 Aug 2026 07:40:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>First Eagle Gold Fund Q2 2026 Commentary</strong></p><p>First Eagle Gold Fund releases its quarterly report analyzing market dynamics for precious metals. The commentary focuses on gold&#x27;s performance amidst global economic shifts.</p><p>第一鹰黄金基金发布了季度报告，分析了贵金属的市场动态。评述重点关注了黄金在全球经济波动中的表现。</p><p>Tags: gold · finance · investment</p>]]></description>
-</item>
-<item>
-<title>Bessent 债券市场记分卡表现不及预期</title>
-<link>https://www.marketwatch.com/story/the-bessent-bond-market-scorecard-doesnt-look-as-strong-as-it-once-did-afe2f93e?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/the-bessent-bond-market-scorecard-doesnt-look-as-strong-as-it-once-did-afe2f93e?mod=mw_rss_topstories</guid>
-<pubDate>Tue, 11 Aug 2026 07:35:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>The Bessent bond-market scorecard doesn’t look as strong as it once did</strong></p><p>U.S. Treasury securities have underperformed compared to most global bond indices since President Trump’s inauguration. The market is struggling to maintain the strength previously attributed to it.</p><p>自特朗普总统就职以来，美国国债表现落后于除日本外的大多数全球债券指数。市场难以维持此前被认为的强劲势头。</p><p>Tags: finance · bonds · economy</p>]]></description>
-</item>
-<item>
-<title>受芯片制造商提振，三星关联保险公司盈利强劲</title>
-<link>https://seekingalpha.com/article/4934534-boosted-by-chipmaker-samsung-affiliated-insurers-post-strong-returns?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4934534-boosted-by-chipmaker-samsung-affiliated-insurers-post-strong-returns?source=feed_all_articles</guid>
-<pubDate>Tue, 11 Aug 2026 07:35:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Boosted By Chipmaker, Samsung-Affiliated Insurers Post Strong Returns</strong></p><p>Samsung-affiliated insurance firms are reporting robust financial returns, driven by strong growth in the semiconductor sector. This growth highlights the interdependency within the conglomerate&#x27;s business arms.</p><p>得益于半导体行业的强劲增长，三星关联保险公司公布了亮眼的财务回报。此次增长凸显了该集团内部业务部门间的协同作用。</p><p>Tags: samsung · insurance · finance</p>]]></description>
-</item>
-<item>
-<title>市场火热：动用 1000 美元经纪账户余额支付车贷明智吗？</title>
-<link>https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories</guid>
-<pubDate>Tue, 11 Aug 2026 06:15:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>‘The market is obviously on fire’: Is it a mistake to take $1,000 from my brokerage account to pay my car loan?</strong></p><p>An investor questions the financial impact of withdrawing $1,000 from their brokerage account to pay off a car loan. Experts analyze the trade-off between paying debt and leaving money in a bull market.</p><p>一位投资者咨询是否应动用 1000 美元经纪账户余额偿还车贷。专家分析了在牛市中还债与保留投资资金之间的权衡。</p><p>Tags: finance · debt · investment</p>]]></description>
-</item>
-<item>
-<title>鸿蒙应用上架指南：拥抱新兴生态</title>
-<link>https://sspai.com/post/112887</link>
-<guid isPermaLink="true">https://sspai.com/post/112887</guid>
-<pubDate>Tue, 11 Aug 2026 05:59:27 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>走通上架流程，拥抱新兴生态：《鸿蒙应用上架指南》上线</strong></p><p>As HarmonyOS NEXT matures, more independent developers are targeting this ecosystem. The article provides a guide on the submission process, emphasizing how AI tools lower development barriers.</p><p>随着 HarmonyOS NEXT 的成熟，越来越多的独立开发者转向该生态。本文提供了应用上架指南，并强调了 AI 工具如何降低开发门槛。</p><p>Tags: harmonyos · development · huawei</p>]]></description>
-</item>
-<item>
-<title>Show HN: Mcptoon – 高效 Token 的 MCP CLI 客户端</title>
-<link>https://github.com/activeing123/mcptoon</link>
-<guid isPermaLink="true">https://github.com/activeing123/mcptoon</guid>
-<pubDate>Tue, 11 Aug 2026 05:26:58 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Show HN: Mcptoon – Token-efficient MCP CLI client</strong></p><p>Mcptoon is a new command-line client designed to be token-efficient for the Model Context Protocol (MCP). It aims to optimize LLM interactions for developers.</p><p>Mcptoon 是一款全新的命令行客户端，专为模型上下文协议 (MCP) 设计，注重 token 效率。旨在为开发者优化 LLM 交互体验。</p><p>Tags: mcp · cli · ai</p>]]></description>
-</item>
-<item>
-<title>哥伦比亚地震造成至少 132 人死亡</title>
-<link>https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Tue, 11 Aug 2026 04:06:07 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>At least 132 killed in Colombia&#x27;s largest  earthquake in years</strong></p><p>A massive earthquake in Colombia has resulted in at least 132 deaths and over 480 injuries. Rescue efforts are ongoing as many remain trapped under collapsed buildings.</p><p>哥伦比亚发生多年来最强地震，造成至少 132 人死亡，480 多人受伤。救援工作仍在进行中，仍有人被困在废墟下。</p><p>Tags: colombia · earthquake · disaster</p>]]></description>
-</item>
-<item>
-<title>Quote/0：让墨水屏回归本质</title>
-<link>https://sspai.com/post/113288</link>
-<guid isPermaLink="true">https://sspai.com/post/113288</guid>
-<pubDate>Tue, 11 Aug 2026 04:00:00 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>从内容工坊到 Dot Skill，Quote/0 开始把屏幕交还给你</strong></p><p>Quote/0 has evolved from a content workshop into a tool called Dot Skill, focusing on minimalist information display. It aims to return control of screen time to the user without distractions.</p><p>Quote/0 已从内容工坊进化为名为 Dot Skill 的工具，致力于极简信息展示。它旨在让屏幕回归用户，提供无干扰的信息阅读体验。</p><p>Tags: hardware · minimalism · e-ink</p>]]></description>
-</item>
-<item>
-<title>英伟达联手华尔街为 AI 基础设施融资 5000 亿美元</title>
-<link>https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories</guid>
-<pubDate>Tue, 11 Aug 2026 02:28:00 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure</strong></p><p>Nvidia has partnered with seven financial institutions to raise $500 billion for AI infrastructure expansion. This massive funding initiative aims to accelerate the development of global AI capabilities.</p><p>英伟达与七家金融机构达成合作，计划筹集 5000 亿美元资金用于 AI 基础设施建设。此举旨在加速全球 AI 能力的扩展。</p><p>Tags: nvidia · finance · infrastructure</p>]]></description>
-</item>
-<item>
-<title>Ovid：按需查看原版书籍的译文</title>
-<link>https://sspai.com/post/113263</link>
-<guid isPermaLink="true">https://sspai.com/post/113263</guid>
-<pubDate>Tue, 11 Aug 2026 02:17:21 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>不喜欢对照式译文的阅读体验？Ovid 让你「按需」查看原版书籍</strong></p><p>Ovid is a new reading tool designed to provide on-demand translations for foreign language books. It avoids the cluttered experience of traditional side-by-side bilingual translations.</p><p>Ovid 是一款全新的阅读工具，支持对原版书籍进行按需翻译。它避免了传统双语对照书籍杂乱的阅读体验。</p><p>Tags: reading · translation · software</p>]]></description>
-</item>
-<item>
-<title>H3-metal：Apple Silicon 平台的 MiniMax-H3 推理实现</title>
-<link>https://github.com/antirez/h3.c</link>
-<guid isPermaLink="true">https://github.com/antirez/h3.c</guid>
-<pubDate>Tue, 11 Aug 2026 01:22:09 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>H3-metal – Native MiniMax-H3 inference for Apple Silicon</strong></p><p>H3-metal provides a native implementation for running MiniMax-H3 inference on Apple Silicon hardware. This allows for more efficient model execution on macOS devices.</p><p>H3-metal 实现了 MiniMax-H3 模型在 Apple Silicon 硬件上的原生推理。这使得模型能在 macOS 设备上实现更高效的运行。</p><p>Tags: apple · llm · inference</p>]]></description>
-</item>
-<item>
-<title>Chicken Scheme 6.0 版本发布</title>
-<link>https://code.call-cc.org/releases/6.0.0/NEWS</link>
-<guid isPermaLink="true">https://code.call-cc.org/releases/6.0.0/NEWS</guid>
-<pubDate>Tue, 11 Aug 2026 00:24:15 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Chicken Scheme 6.0</strong></p><p>The developers of Chicken Scheme have released version 6.0 of their programming language compiler. This update brings significant improvements and language feature enhancements.</p><p>Chicken Scheme 开发者发布了该编程语言编译器的 6.0 版本。此更新带来了重大性能改进和语言特性增强。</p><p>Tags: programming · scheme · compilers</p>]]></description>
-</item>
-<item>
-<title>派早报：Meta 发布开源 AI 代理模型，阿里千问平台上线</title>
-<link>https://sspai.com/post/113301</link>
-<guid isPermaLink="true">https://sspai.com/post/113301</guid>
-<pubDate>Tue, 11 Aug 2026 00:09:35 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>派早报：Meta 发布开源本地 AI 智能体大模型 Muse Glimmer、阿里千问开放平台上线等</strong></p><p>The daily roundup features Meta&#x27;s new open-source AI agent model, Muse Glimmer, and the launch of Alibaba&#x27;s Qwen platform. It also highlights new features for the Quote/0 e-ink screen.</p><p>每日简报涵盖 Meta 发布开源 AI 智能体模型 Muse Glimmer，以及阿里千问平台的上线。同时介绍了 Quote/0 墨水屏的新功能。</p><p>Tags: meta · llm · qwen</p>]]></description>
-</item>
-<item>
-<title>扎克伯格不懂如何生活</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision</link>
-<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision</guid>
-<pubDate>Mon, 10 Aug 2026 22:00:00 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Mark Zuckerberg doesn’t understand how to live</strong></p><p>This opinion piece critiques Mark Zuckerberg’s lifestyle and his reliance on AI-generated motivations. The author reflects on the superficiality of modern tech culture.</p><p>本篇评论文章批评了马克·扎克伯格的生活方式及其对 AI 生成动机的依赖。作者反思了现代科技文化的肤浅性。</p><p>Tags: zuckerberg · tech · lifestyle</p>]]></description>
-</item>
-<item>
-<title>因儿童拒绝系安全带，加拿大航班被迫取消</title>
-<link>https://www.bbc.co.uk/news/articles/cj6307x3wdgo?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cj6307x3wdgo?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Mon, 10 Aug 2026 21:06:27 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Canada flight cancelled after child refuses to wear seat belt</strong></p><p>A flight in Canada was cancelled after a child refused to wear a seat belt, sparking a national debate on aircraft safety. Airline protocols are being scrutinized following the incident.</p><p>加拿大一架航班因儿童拒绝系安全带而被迫取消，引发了全国对航空安全的争论。事件发生后，航空公司的执勤规范受到审查。</p><p>Tags: aviation · safety · canada</p>]]></description>
-</item>
-<item>
-<title>图帕克谋杀案嫌疑人 Duane Davis 受审</title>
-<link>https://www.bbc.co.uk/news/videos/cjd48zkg5n9o?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/videos/cjd48zkg5n9o?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Mon, 10 Aug 2026 20:45:29 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Watch: What we know about Tupac murder suspect Duane &#x27;Keffe D&#x27; Davis</strong></p><p>The trial of former gang boss Duane &#x27;Keffe D&#x27; Davis has begun, with the defendant pleading not guilty to the murder of Tupac Shakur. This high-profile case marks a major legal development.</p><p>前帮派头目 Duane &#x27;Keffe D&#x27; Davis 的审判已开始，被告对杀害图帕克·夏库尔的指控拒不认罪。此案标志着重大的法律进展。</p><p>Tags: tupac · crime · trial</p>]]></description>
-</item>
-<item>
-<title>AI 教授们正协商学术研究的新现实</title>
-<link>https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/</link>
-<guid isPermaLink="true">https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/</guid>
-<pubDate>Mon, 10 Aug 2026 20:00:00 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>AI professors are negotiating the new realities of academic research</strong></p><p>Top AI researchers are gathering to discuss how the field&#x27;s rapid commercialization is reshaping academic inquiry. The conversation focuses on balancing innovation with ethical research standards.</p><p>顶级 AI 研究人员汇聚一堂，讨论 AI 领域的快速商业化如何重塑学术探索。对话聚焦于创新与道德研究标准之间的平衡。</p><p>Tags: academia · ai · research</p>]]></description>
-</item>
-<item>
-<title>灵长类动物与人类宠物豢养的起源</title>
-<link>https://www.newscientist.com/article/2583030-what-primates-tell-us-about-the-evolutionary-origins-of-keeping-pets/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
-<guid isPermaLink="true">https://www.newscientist.com/article/2583030-what-primates-tell-us-about-the-evolutionary-origins-of-keeping-pets/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
-<pubDate>Mon, 10 Aug 2026 17:00:00 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>What primates tell us about the evolutionary origins of keeping pets</strong></p><p>Research into primates suggests that the human impulse to keep pets may be deeply rooted in evolutionary history. Scientists are comparing modern behaviors with our ancestors&#x27; social patterns.</p><p>对灵长类动物的研究表明，人类饲养宠物的冲动可能植根于进化史中。科学家们正在对比现代行为与祖先的社会模式。</p><p>Tags: evolution · science · primates</p>]]></description>
-</item>
-<item>
-<title>灯泡如何损害你的新陈代谢？</title>
-<link>https://www.newscientist.com/article/2582914-the-shock-revelation-that-light-bulbs-are-wrecking-your-metabolism/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
-<guid isPermaLink="true">https://www.newscientist.com/article/2582914-the-shock-revelation-that-light-bulbs-are-wrecking-your-metabolism/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
-<pubDate>Mon, 10 Aug 2026 15:00:00 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>The shock revelation that light bulbs are wrecking your metabolism</strong></p><p>Modern energy-efficient lighting may be negatively impacting human mitochondria. Researchers are investigating how these light sources contribute to health issues like dementia and diabetes.</p><p>现代节能灯可能正在对人体线粒体造成负面影响。研究人员正在探讨这些光源如何导致痴呆症和糖尿病等健康问题。</p><p>Tags: science · health · lighting</p>]]></description>
-</item>
-<item>
-<title>内塔尼亚胡拒绝特朗普的加沙方案并非最终定论</title>
-<link>https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Mon, 10 Aug 2026 14:43:08 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Netanyahu&#x27;s rejection of Trump&#x27;s 15-point Gaza plan unlikely to be final word</strong></p><p>Israel’s rejection of a 15-point Gaza peace plan is viewed by the Trump administration as campaign rhetoric. Diplomats believe discussions will continue despite the public disagreement.</p><p>以色列对特朗普 15 点加沙和平方案的拒绝，被特朗普政府视为竞选辞令。外交官认为，尽管存在公开分歧，协商仍将继续。</p><p>Tags: gaza · israel · politics</p>]]></description>
-</item>
-<item>
-<title>乌克兰无人机袭击俄罗斯境内，致至少 13 人死亡</title>
-<link>https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Mon, 10 Aug 2026 14:34:25 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>At least 13 killed in Ukrainian drone strike deep into Russia</strong></p><p>A lethal Ukrainian drone strike in Russia has caused 13 deaths and 75 injuries. This incident represents one of the most intense cross-border attacks since the invasion began.</p><p>乌克兰对俄罗斯境内发动的致命无人机袭击造成 13 人死亡，75 人受伤。这是自战争爆发以来最激烈的跨境袭击之一。</p><p>Tags: ukraine · russia · drone</p>]]></description>
-</item>
-<item>
-<title>OpenAI 致信德州州长，承诺支持 AI 基础设施</title>
-<link>https://openai.com/index/responsible-ai-infrastructure-texas</link>
-<guid isPermaLink="true">https://openai.com/index/responsible-ai-infrastructure-texas</guid>
-<pubDate>Mon, 10 Aug 2026 14:00:00 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas</strong></p><p>OpenAI sent a formal letter to Governor Greg Abbott emphasizing its commitment to developing responsible AI infrastructure in Texas. The company aims for transparent and sustainable growth in the state.</p><p>OpenAI 致信德州州长 Greg Abbott，承诺在德州开发负责任的 AI 基础设施。公司旨在推动该州 AI 产业的透明与可持续增长。</p><p>Tags: openai · infrastructure · texas</p>]]></description>
-</item>
-<item>
-<title>程序员吐槽：AI不友好的文档是在浪费开发者时间</title>
-<link>https://www.v2ex.com/t/1233288#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1233288#reply0</guid>
-<pubDate>Mon, 10 Aug 2026 08:21:51 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[程序员] 简要吐槽 ai 的文档都不是 ai 友好的</strong></p><p>The author expresses frustration over documentation that isn&#x27;t AI-friendly, noting that time-consuming tasks like bypassing logins or manual conversion to Markdown are inefficient. They advocate for &#x27;AI-friendly&#x27; documentation where URLs can serve as direct skills for AI agents.</p><p>作者吐槽文档对AI不友好，导致开发者需耗费大量时间进行手动格式转换或登录操作。呼吁构建“AI友好型”文档，以便AI能直接高效地调用信息。</p><p>Tags: ai · documentation · developer-experience</p>]]></description>
-</item>
-<item>
-<title>伯克希尔哈撒韦开始使用近4000亿美元现金回购自家股票</title>
-<link>https://www.marketwatch.com/story/berkshire-hathaway-finally-started-spending-its-nearly-400-billion-in-cash-on-one-stock-it-knows-very-well-f9d56389?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/berkshire-hathaway-finally-started-spending-its-nearly-400-billion-in-cash-on-one-stock-it-knows-very-well-f9d56389?mod=mw_rss_topstories</guid>
-<pubDate>Mon, 10 Aug 2026 08:21:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Berkshire Hathaway finally started spending its nearly $400 billion in cash — on one stock it knows very well</strong></p><p>After years of accumulating a massive cash reserve, Berkshire Hathaway has begun using its funds to buy back its own shares. The move has drawn mixed reactions from the investment community.</p><p>伯克希尔哈撒韦在积累了巨额现金储备后，终于开始回购自家股票。这一决定在投资界引发了不同声音。</p><p>Tags: berkshire · stocks · investing</p>]]></description>
-</item>
-<item>
-<title>QDTE：市场动态已改变（评级下调）</title>
-<link>https://seekingalpha.com/article/4933995-qdte-market-dynamic-has-now-changed-rating-downgrade?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4933995-qdte-market-dynamic-has-now-changed-rating-downgrade?source=feed_all_articles</guid>
-<pubDate>Mon, 10 Aug 2026 08:18:55 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>QDTE: The Market Dynamic Has Now Changed (Rating Downgrade)</strong></p><p>The financial rating for QDTE has been downgraded due to shifts in current market dynamics. Investors are advised to reassess their positions in light of this change.</p><p>由于市场动态发生变化，QDTE的金融评级已被下调。建议投资者根据这一变动重新评估其持仓情况。</p><p>Tags: qdte · finance · downgrade</p>]]></description>
-</item>
-<item>
-<title>菲律宾Globe Telecom公司2026年第二季度财报电话会议实录</title>
-<link>https://seekingalpha.com/article/4933963-globe-telecom-inc-gtmey-q2-2026-earnings-call-transcript?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4933963-globe-telecom-inc-gtmey-q2-2026-earnings-call-transcript?source=feed_all_articles</guid>
-<pubDate>Mon, 10 Aug 2026 08:18:18 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Globe Telecom, Inc. (GTMEY) Q2 2026 Earnings Call Transcript</strong></p><p>Globe Telecom held its Q2 2026 earnings call to discuss financial performance and strategic growth. The transcript outlines key operational updates for the telecommunications provider.</p><p>Globe Telecom召开了2026年第二季度财报电话会议，讨论了财务表现及战略增长。会议实录概述了该运营商的关键运营情况。</p><p>Tags: globe-telecom · earnings · telecom</p>]]></description>
-</item>
-<item>
-<title>现在是入手iPhone 17 Pro的时机吗？理性讨论</title>
-<link>https://www.v2ex.com/t/1233287#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1233287#reply0</guid>
-<pubDate>Mon, 10 Aug 2026 08:17:11 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[iPhone] 现在这个时间收/买 17pro 512 还是等等看？理性讨论。</strong></p><p>The user is considering upgrading from an iPhone 13 to an iPhone 17 Pro and is debating whether to buy now or wait. They are concerned about memory constraints, battery life, and the potential impact of the upcoming 18 series release on prices.</p><p>用户正在权衡是否将iPhone 13升级为17 Pro，并纠结于购买时机。主要顾虑包括内存需求、续航表现以及iPhone 18发布对现有型号价格的影响。</p><p>Tags: iphone · apple · smartphones</p>]]></description>
-</item>
-<item>
-<title>俄亥俄州Consumers Bancorp在创纪录财年后被低估</title>
-<link>https://seekingalpha.com/article/4933994-ohios-consumers-bancorp-appears-undervalued-after-wrapping-up-record-fiscal-year?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4933994-ohios-consumers-bancorp-appears-undervalued-after-wrapping-up-record-fiscal-year?source=feed_all_articles</guid>
-<pubDate>Mon, 10 Aug 2026 08:15:26 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Ohio&#x27;s Consumers Bancorp Appears Undervalued After Wrapping Up Record Fiscal Year</strong></p><p>Following a record-breaking fiscal year, Consumers Bancorp appears to be trading below its actual value. Analysts suggest the bank may be an undervalued opportunity for investors.</p><p>在经历了创纪录的财年表现后，Consumers Bancorp的股价似乎被低估。分析师认为该行可能是一个被忽视的投资机会。</p><p>Tags: bancorp · finance · stocks</p>]]></description>
-</item>
-<item>
-<title>Northern Star Resources：资本支出峰值正转化为加工护城河</title>
-<link>https://seekingalpha.com/article/4933993-northern-star-resources-capex-peak-is-becoming-a-processing-moat?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4933993-northern-star-resources-capex-peak-is-becoming-a-processing-moat?source=feed_all_articles</guid>
-<pubDate>Mon, 10 Aug 2026 08:11:38 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Northern Star Resources: The Capex Peak Is Becoming A Processing Moat</strong></p><p>Northern Star Resources is reaching a peak in capital expenditures, which analysts argue will strengthen its competitive advantage. This investment is viewed as a future processing moat for the company.</p><p>Northern Star Resources的资本支出已达峰值，分析认为这将增强其竞争优势。这项投资被视为公司未来的加工业护城河。</p><p>Tags: mining · finance · capex</p>]]></description>
-</item>
-<item>
-<title>问与答：你们的车还能卖多少钱？</title>
-<link>https://www.v2ex.com/t/1233286#reply10</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1233286#reply10</guid>
-<pubDate>Mon, 10 Aug 2026 08:10:17 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>[问与答] 你们的车还能卖多少钱？</strong></p><p>The discussion revolves around the rapid depreciation of vehicles in recent years. Users share their experiences regarding the resale value of both traditional fuel cars and new energy vehicles.</p><p>该讨论探讨了近年来汽车贬值严重的问题。用户分享了关于燃油车和新能源汽车残值的实际经验。</p><p>Tags: cars · resale · depreciation</p>]]></description>
 </item>
 </channel>
 </rss>
