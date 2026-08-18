@@ -6,6 +6,384 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1235316#reply0",
+      "url": "https://www.v2ex.com/t/1235316#reply0",
+      "title": "程序员兼职接单，提供 Java/Python/AI/Next.js 等开发服务",
+      "content_html": "<p><strong>[求职] [接单] 程序员业余接单， Java / Python / AI / Next.js</strong></p><p>A backend developer with expertise in Java, Python, and AI integration is offering freelance services for small projects. Services range from RAG and Agent development to full-stack Web/SaaS solutions.</p><p>一位具备 Java、Python 及 AI 开发经验的后端工程师正在寻找业余外包项目。服务范围涵盖 RAG、智能体开发及全栈 SaaS 应用构建。</p><p>Tags: freelance · ai · java · nextjs</p>",
+      "date_published": "2026-08-18T07:29:04+00:00",
+      "tags": [
+        "freelance",
+        "ai",
+        "java",
+        "nextjs"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1235315#reply0",
+      "url": "https://www.v2ex.com/t/1235315#reply0",
+      "title": "a➗也出 Bug 了？高频使用 Opus 5 却仅消耗少量额度",
+      "content_html": "<p><strong>[分享发现] a➗也 bug 了?猛猛蹬了一整天 opus5,用量就涨了 3 个点</strong></p><p>A user reports a potential bug after noticing their token usage for Opus 5 remained unexpectedly low despite a full day of heavy testing. This contrasts with previous experiences where they typically hit rate limits much sooner.</p><p>有用户反馈在使用 Opus 5 模型进行高强度测试时，额度消耗异常缓慢。相比以往频繁触发频率限制的情况，此次似乎出现了系统层面的统计故障。</p><p>Tags: bug · opus · llm</p>",
+      "date_published": "2026-08-18T07:28:59+00:00",
+      "tags": [
+        "bug",
+        "opus",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1235314#reply1",
+      "url": "https://www.v2ex.com/t/1235314#reply1",
+      "title": "27岁税后月薪未达2万，是否意味着职业发展缓慢？",
+      "content_html": "<p><strong>[职场话题] 27 岁还没做到税后 2W，是不是发展得有点慢了？</strong></p><p>A programmer is feeling anxious about their income level compared to peers at age 27. They are seeking community insights on salary benchmarks and career growth factors.</p><p>一位27岁的程序员对其收入水平感到焦虑，并在社区寻求同龄人的薪资现状及职业发展经验参考。讨论重点在于跳槽、技术深度及行业红利对涨薪的影响。</p><p>Tags: career · salary · programmer</p>",
+      "date_published": "2026-08-18T07:28:58+00:00",
+      "tags": [
+        "career",
+        "salary",
+        "programmer"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1235313#reply0",
+      "url": "https://www.v2ex.com/t/1235313#reply0",
+      "title": "推广：Zooproxy 免费赠送住宅 IP，欢迎注册体验",
+      "content_html": "<p><strong>[推广] Zooproxy 免费送住宅 IP，试了再说</strong></p><p>Zooproxy is offering free residential IP packages for users to test their services, suitable for AI tools and account registration. Interested users can redeem provided codes or contact them via Telegram.</p><p>Zooproxy 提供免费住宅 IP 以供用户测试，适用于 AI 工具使用及账号注册。用户可通过兑换码或联系其 Telegram 获取。</p><p>Tags: proxy · ip · network</p>",
+      "date_published": "2026-08-18T07:23:34+00:00",
+      "tags": [
+        "proxy",
+        "ip",
+        "network"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4937586-lazard-enhanced-opportunities-portfolio-q2-2026-commentary?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4937586-lazard-enhanced-opportunities-portfolio-q2-2026-commentary?source=feed_all_articles",
+      "title": "Lazard 增强机会投资组合 2026 年第二季度评论",
+      "content_html": "<p><strong>Lazard Enhanced Opportunities Portfolio Q2 2026 Commentary</strong></p><p>This article provides a quarterly analysis of the Lazard Enhanced Opportunities Portfolio performance. It evaluates market conditions and investment strategies for Q2 2026.</p><p>本文针对 Lazard 增强机会投资组合的 2026 年第二季度表现进行了深入评估。报告总结了该时期的市场环境及投资策略执行情况。</p><p>Tags: investment · finance · portfolio</p>",
+      "date_published": "2026-08-18T07:20:00+00:00",
+      "tags": [
+        "investment",
+        "finance",
+        "portfolio"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4937576-hydro-one-limited-quality-electric-utility-but-not-cheap?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4937576-hydro-one-limited-quality-electric-utility-but-not-cheap?source=feed_all_articles",
+      "title": "Hydro One Limited：优质电力公用事业，但价格不便宜",
+      "content_html": "<p><strong>Hydro One Limited: Quality Electric Utility But Not Cheap</strong></p><p>Hydro One is considered a high-quality electric utility company for investors. However, the analysis warns that its current valuation may be too high to be attractive.</p><p>Hydro One 被视为一家优质的电力公用事业公司。分析建议投资者注意其当前的估值水平，认为目前的价格缺乏吸引力。</p><p>Tags: stocks · utilities · investment</p>",
+      "date_published": "2026-08-18T07:18:39+00:00",
+      "tags": [
+        "stocks",
+        "utilities",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1235312#reply1",
+      "url": "https://www.v2ex.com/t/1235312#reply1",
+      "title": "上海求职：AI 应用开发/后端全栈/3年经验/随时到岗",
+      "content_html": "<p><strong>[求职] [求职] 上海 / AI 应用开发 · LLM Agent 方向 / 3 年后端全栈 / 离职随时到岗 / 00 后</strong></p><p>A 24-year-old backend/full-stack developer with three years of experience is seeking AI-focused roles in Shanghai. Their expertise includes LLM agents, financial data analysis, and Rust-based projects.</p><p>一位具备3年后端全栈经验的开发者正在上海寻找 AI 应用及智能体开发岗位。其背景涵盖金融数据分析及大模型评测体系构建。</p><p>Tags: hiring · ai · fullstack</p>",
+      "date_published": "2026-08-18T07:15:36+00:00",
+      "tags": [
+        "hiring",
+        "ai",
+        "fullstack"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4937581-credit-market-lens-what-bdc-markets-are-signaling-about-private-credit-valuations?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4937581-credit-market-lens-what-bdc-markets-are-signaling-about-private-credit-valuations?source=feed_all_articles",
+      "title": "信贷市场分析：BDC 市场揭示的私人信贷估值信号",
+      "content_html": "<p><strong>The Credit Market Lens: What BDC Markets Are Signaling About Private Credit Valuations</strong></p><p>The article examines how Business Development Company (BDC) market data serves as a proxy for valuing private credit assets. It highlights signals regarding market sentiment and risk levels.</p><p>本文分析了业务发展公司（BDC）市场数据如何作为评估私人信贷资产的晴雨表。文章揭示了当前私人信贷市场的风险偏好与估值趋势。</p><p>Tags: credit · finance · bdc</p>",
+      "date_published": "2026-08-18T07:10:00+00:00",
+      "tags": [
+        "credit",
+        "finance",
+        "bdc"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4937575-why-i-bought-nike-after-a-6-year-hiatus?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4937575-why-i-bought-nike-after-a-6-year-hiatus?source=feed_all_articles",
+      "title": "我为什么在远离 6 年后重新买入耐克股票",
+      "content_html": "<p><strong>Why I Bought Nike After A 6-Year Hiatus</strong></p><p>The author explains their investment thesis for re-entering a position in Nike after a six-year break. The decision is based on a reassessment of the company&#x27;s long-term competitive advantages.</p><p>作者解释了为何在时隔六年之后重新买入耐克股票。该决策基于对耐克长期竞争优势及市场前景的重新评估。</p><p>Tags: nike · investing · stocks</p>",
+      "date_published": "2026-08-18T07:02:11+00:00",
+      "tags": [
+        "nike",
+        "investing",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2584689-physicists-may-have-solved-a-30-year-mystery-over-missing-neutrinos/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2584689-physicists-may-have-solved-a-30-year-mystery-over-missing-neutrinos/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "物理学家可能解决了困扰 30 年的中微子失踪之谜",
+      "content_html": "<p><strong>Physicists may have solved a 30-year mystery over missing neutrinos</strong></p><p>Researchers have proposed that revising calculations could explain the anomaly in gallium-based neutrino detectors, which has been suspected as evidence of a new particle since the 1990s. This suggests that the mystery may stem from measurement interpretation rather than exotic physics.</p><p>研究人员提出，通过修订计算方法可以解释镓基中微子探测器中长期存在的异常现象，此前这被视为新粒子的潜在证据。这一发现表明该谜题可能源于数据解读而非新物理现象。</p><p>Tags: physics · neutrinos · science</p>",
+      "date_published": "2026-08-18T07:00:00+00:00",
+      "tags": [
+        "physics",
+        "neutrinos",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4937535-srg-global-limited-srggf-q4-2026-earnings-call-transcript?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4937535-srg-global-limited-srggf-q4-2026-earnings-call-transcript?source=feed_all_articles",
+      "title": "SRG Global Limited 2026 年第四季度财报会议记录",
+      "content_html": "<p><strong>SRG Global Limited (SRGGF) Q4 2026 Earnings Call Transcript</strong></p><p>This transcript covers the financial results and strategic outlook for SRG Global Limited during Q4 2026. It includes management&#x27;s commentary on performance and market challenges.</p><p>本文档记录了 SRG Global Limited 2026 年第四季度的财务业绩及战略展望。包含管理层对运营表现及市场挑战的说明。</p><p>Tags: earnings · finance · transcript</p>",
+      "date_published": "2026-08-18T06:58:40+00:00",
+      "tags": [
+        "earnings",
+        "finance",
+        "transcript"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
+      "title": "俄罗斯称英国将为向乌克兰供应无人机付出代价",
+      "content_html": "<p><strong>Russia says UK &#x27;will pay&#x27; for supplying drones to Ukraine</strong></p><p>Russia has issued a warning to the UK regarding its support for Ukraine through drone supplies. The UK Ministry of Defence responded by affirming its unwavering solidarity with Ukraine.</p><p>俄罗斯就英国向乌克兰供应无人机一事发出警告。英国国防部对此回应称，英国将继续与乌克兰坚定站在一起。</p><p>Tags: ukraine · russia · geopolitics</p>",
+      "date_published": "2026-08-18T06:40:00+00:00",
+      "tags": [
+        "ukraine",
+        "russia",
+        "geopolitics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/113438",
+      "url": "https://sspai.com/post/113438",
+      "title": "App+1：让任务栏变得更有用：WindowSill",
+      "content_html": "<p><strong>App+1 | 让任务栏更有用：WindowSill</strong></p><p>WindowSill is a utility app designed to enhance the functionality and utility of the taskbar. It helps users make better use of screen real estate in non-attention areas.</p><p>WindowSill 是一款旨在提升任务栏实用性的工具应用。它帮助用户更好地利用屏幕边缘空间，实现更高效的信息管理。</p><p>Tags: windows · app · productivity</p>",
+      "date_published": "2026-08-18T06:30:00+00:00",
+      "tags": [
+        "windows",
+        "app",
+        "productivity"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko?at_medium=RSS&at_campaign=rss",
+      "title": "图帕克谋杀案审判：证人讲述说唱歌手枪击之夜的混乱现场",
+      "content_html": "<p><strong>Tupac murder trial: &#x27;All hell broke loose&#x27; night of rapper&#x27;s shooting, witness says</strong></p><p>During the trial for Tupac Shakur&#x27;s murder, a witness testified about the chaotic events of the night the rapper was shot. Evidence suggests that even after being wounded, Tupac initially refused police cooperation.</p><p>在图帕克谋杀案审判中，证人还原了枪击案当晚的混乱现场。证词指出，图帕克在身中多枪后仍拒绝与警方合作。</p><p>Tags: crime · tupac · trial</p>",
+      "date_published": "2026-08-18T05:24:15+00:00",
+      "tags": [
+        "crime",
+        "tupac",
+        "trial"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cpq809zrvqdo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cpq809zrvqdo?at_medium=RSS&at_campaign=rss",
+      "title": "德国突袭打击偷渡团伙，仓库内搜出大量橡皮艇和救生衣",
+      "content_html": "<p><strong>Inside secret police warehouse as Germany targets small boats gangs</strong></p><p>German authorities have conducted their first raids under a new anti-smuggling law. They seized equipment including dinghies and life jackets used by human smuggling gangs.</p><p>德国当局根据新反走私法开展了首次突袭行动。执法人员在仓库中查获了大量偷渡团伙使用的橡皮艇和救生衣。</p><p>Tags: germany · smuggling · police</p>",
+      "date_published": "2026-08-18T05:02:58+00:00",
+      "tags": [
+        "germany",
+        "smuggling",
+        "police"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c75gv9xnr3po?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c75gv9xnr3po?at_medium=RSS&at_campaign=rss",
+      "title": "北塞浦路斯 IVF 机构被指控欺骗父母，混淆捐赠者精子和卵子",
+      "content_html": "<p><strong>IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus</strong></p><p>A fertility clinic in Northern Cyprus is accused of misleading parents regarding the origin of donor sperm and eggs. There are concerns that many children were conceived using unselected donor materials.</p><p>北塞浦路斯一家 IVF 机构被控向家长隐瞒捐赠者信息。多名儿童被疑使用的是未经家长挑选的精子或卵子。</p><p>Tags: ivf · healthcare · scandal</p>",
+      "date_published": "2026-08-18T05:00:04+00:00",
+      "tags": [
+        "ivf",
+        "healthcare",
+        "scandal"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/113454",
+      "url": "https://sspai.com/post/113454",
+      "title": "7 月音乐精选：夏天赠予我们的 9 张专辑",
+      "content_html": "<p><strong>7月音乐精选：夏天赠予我们的 9张专辑</strong></p><p>This curated list recommends nine high-quality Chinese independent and pop music albums for July. The collection is presented as part of a revived music recommendation series.</p><p>本期精选推荐了 9 张优质华语独立及流行专辑，为读者带来夏日音乐享受。该内容标志着少数派音乐栏目的重启。</p><p>Tags: music · recommendation · culture</p>",
+      "date_published": "2026-08-18T02:52:11+00:00",
+      "tags": [
+        "music",
+        "recommendation",
+        "culture"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://danluu.com/benchpocalypse/",
+      "url": "https://danluu.com/benchpocalypse/",
+      "title": "基准测试末日（The Benchmarkpocalypse）",
+      "content_html": "<p><strong>The Benchmarkpocalypse</strong></p><p>This article explores the growing trend of unreliable benchmarks in the software and AI industry. It discusses the implications of inflated metrics on developer decision-making.</p><p>文章探讨了软件及人工智能行业中基准测试结果日益不可靠的现象。作者分析了虚高指标对开发者决策带来的负面影响。</p><p>Tags: benchmark · ai · software</p>",
+      "date_published": "2026-08-18T02:11:02+00:00",
+      "tags": [
+        "benchmark",
+        "ai",
+        "software"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://sspai.com/post/113566",
+      "url": "https://sspai.com/post/113566",
+      "title": "派早报：阿里巴巴出售灵犀互娱，Linux 7.2 内核发布",
+      "content_html": "<p><strong>派早报：阿里巴巴出售灵犀互娱，Linux 7.2 内核稳定版发布等</strong></p><p>This morning briefing covers key tech news including Alibaba selling Lingxi Games and the release of the Linux 7.2 stable kernel. It also updates readers on new member benefits.</p><p>今日早报涵盖了阿里巴巴出售灵犀互娱及 Linux 7.2 内核正式发布等科技新闻。此外，还介绍了少数派会员的最新权益。</p><p>Tags: alibaba · linux · news</p>",
+      "date_published": "2026-08-18T00:04:07+00:00",
+      "tags": [
+        "alibaba",
+        "linux",
+        "news"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/981289/reddit-ai-text-video-posts",
+      "url": "https://www.theverge.com/tech/981289/reddit-ai-text-video-posts",
+      "title": "Reddit 利用 AI 将帖子转化为播客和短视频",
+      "content_html": "<p><strong>Reddit’s AI is turning posts into podcasts and short videos</strong></p><p>Reddit is experimenting with a new feature that uses AI voices to convert text posts into audio and video content. This aims to provide users with new ways to consume popular discussions.</p><p>Reddit 正在测试一项新功能，利用 AI 语音将热门帖子转化为音视频内容。此举旨在为用户提供更多样化的信息消费方式。</p><p>Tags: reddit · ai · video</p>",
+      "date_published": "2026-08-17T23:46:01+00:00",
+      "tags": [
+        "reddit",
+        "ai",
+        "video"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss",
+      "title": "视频：特朗普在朝鲜问题上的立场为何转变？",
+      "content_html": "<p><strong>Watch: Why has Trump shifted on North Korea?</strong></p><p>This report analyzes why Donald Trump has significantly shifted his rhetoric and policy regarding North Korea. It highlights the role of his relationship with Kim Jong Un in reducing military exercises.</p><p>本篇报道分析了特朗普在朝鲜问题上政策立场发生重大转变的原因。重点探讨了他与金正恩的关系对削减美韩联合军演的影响。</p><p>Tags: trump · northkorea · politics</p>",
+      "date_published": "2026-08-17T23:42:38+00:00",
+      "tags": [
+        "trump",
+        "northkorea",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/why-this-popular-treasury-bond-etf-is-trading-at-its-lowest-since-2004-27de9a77?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/why-this-popular-treasury-bond-etf-is-trading-at-its-lowest-since-2004-27de9a77?mod=mw_rss_topstories",
+      "title": "为何这只热门国债 ETF 跌至 2004 年以来的最低水平",
+      "content_html": "<p><strong>Why this popular Treasury-bond ETF is trading at its lowest since 2004</strong></p><p>A highly liquid U.S. Treasury ETF has hit its lowest price level since 2004. Analysts point to shifting interest rate expectations as the primary driver for this decline.</p><p>某高流动性美国国债 ETF 价格跌至 2004 年以来最低点。分析认为，利率预期变动是导致该资产价格下挫的主要原因。</p><p>Tags: etf · finance · bonds</p>",
+      "date_published": "2026-08-17T22:33:00+00:00",
+      "tags": [
+        "etf",
+        "finance",
+        "bonds"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://timmarinin.net/2026/bluesky-screenshots/",
+      "url": "https://timmarinin.net/2026/bluesky-screenshots/",
+      "title": "Bluesky 如何在截图上绘制其标志",
+      "content_html": "<p><strong>How Bluesky draws its logo on screenshots</strong></p><p>This technical note discusses the methods used by Bluesky to overlay its logo on screenshots within its application interface. It delves into the UI implementation details.</p><p>本文探讨了 Bluesky 如何在其应用截图功能中实现 logo 叠加效果。分析了其界面开发的具体技术细节。</p><p>Tags: bluesky · ui · development</p>",
+      "date_published": "2026-08-17T22:20:40+00:00",
+      "tags": [
+        "bluesky",
+        "ui",
+        "development"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "title": "GPT-5.6 Sol API 定价下调 50%",
+      "content_html": "<p><strong>GPT-5.6 Sol Pricing Cut by 50%</strong></p><p>OpenAI has reduced the pricing for its GPT-5.6 Sol model API by 50%. This cut is expected to lower development costs for those building applications on their infrastructure.</p><p>OpenAI 将 GPT-5.6 Sol 模型 API 的定价下调了 50%。此举旨在降低基于该模型构建应用的开发者的运营成本。</p><p>Tags: openai · api · gpt</p>",
+      "date_published": "2026-08-17T21:03:18+00:00",
+      "tags": [
+        "openai",
+        "api",
+        "gpt"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show",
+      "url": "https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show",
+      "title": "ABC 的直播新闻节目由热点话题驱动",
+      "content_html": "<p><strong>ABC&amp;#8217;s livestreamed news show is powered by trending topics</strong></p><p>ABC News has launched &#x27;Searched,&#x27; a livestreamed program that generates content based on social media trends and search engine data. The show aims to capture viewer interest by focusing on what&#x27;s currently popular online.</p><p>ABC 新闻推出了名为“Searched”的直播节目，内容完全由社交媒体趋势及搜索数据驱动。该节目旨在通过捕捉在线热点来吸引观众。</p><p>Tags: media · news · streaming</p>",
+      "date_published": "2026-08-17T20:59:23+00:00",
+      "tags": [
+        "media",
+        "news",
+        "streaming"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "title": "画布（Canvases）如何让智能体工作流变得可见、可控且高效",
+      "content_html": "<p><strong>How canvases make agentic workflows visible, steerable, and cost-efficient</strong></p><p>The GitHub Blog explains how using &#x27;canvases&#x27; improves agentic workflows by providing a persistent space for interaction beyond simple chat. It argues this makes AI task management more visible and steerable.</p><p>GitHub 官方博客探讨了“画布”如何通过提供持久化交互空间来优化智能体工作流。文章指出，这使得 AI 任务管理更加清晰、直观且易于控制。</p><p>Tags: github · ai · workflow</p>",
+      "date_published": "2026-08-17T16:00:00+00:00",
+      "tags": [
+        "github",
+        "ai",
+        "workflow"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2585005-britains-only-desalination-plant-remains-idle-during-drought/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2585005-britains-only-desalination-plant-remains-idle-during-drought/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "英国唯一的海水淡化厂在旱灾期间仍处于闲置状态",
+      "content_html": "<p><strong>Britain’s only desalination plant remains idle during drought</strong></p><p>Despite low water levels in the Thames requiring additional supply, England&#x27;s only large-scale desalination plant has remained unused all year. The situation highlights operational or policy failures in water management.</p><p>尽管泰晤士河水位告急，但英格兰唯一的大型海水淡化厂全年未曾启用。这一现状揭示了当地水资源管理中存在的政策或运营问题。</p><p>Tags: water · environment · drought</p>",
+      "date_published": "2026-08-17T15:48:20+00:00",
+      "tags": [
+        "water",
+        "environment",
+        "drought"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2583945-why-women-with-adhd-feel-overwhelmingly-controlled-by-their-hormones/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2583945-why-women-with-adhd-feel-overwhelmingly-controlled-by-their-hormones/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "为什么患有 ADHD 的女性会感到被荷尔蒙彻底“掌控”",
+      "content_html": "<p><strong>Why women with ADHD feel overwhelmingly ‘controlled’ by their hormones</strong></p><p>Research indicates that women with ADHD are unusually sensitive to hormonal fluctuations. Psychiatrists are developing new strategies to address the emotional and cognitive challenges linked to these hormonal cycles.</p><p>研究表明，患有 ADHD 的女性对荷尔蒙变化异常敏感。精神科医生正致力于开发针对性策略，以应对荷尔蒙周期带来的情绪与认知挑战。</p><p>Tags: adhd · health · science</p>",
+      "date_published": "2026-08-17T15:00:00+00:00",
+      "tags": [
+        "adhd",
+        "health",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2584965-our-bloods-body-clock-may-be-causing-anaemia-cases-to-be-missed/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2584965-our-bloods-body-clock-may-be-causing-anaemia-cases-to-be-missed/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "血液的生物钟可能导致贫血病例被漏诊",
+      "content_html": "<p><strong>Our blood’s body clock may be causing anaemia cases to be missed</strong></p><p>A study suggests that blood test results can fluctuate based on the time of day or year. Ignoring these biological rhythms might lead to missed diagnoses for conditions like anaemia.</p><p>研究发现，血液检测结果可能随时间或季节波动。忽视这些生物钟节律可能导致医疗机构错过贫血等疾病的诊断。</p><p>Tags: health · biology · science</p>",
+      "date_published": "2026-08-17T12:58:26+00:00",
+      "tags": [
+        "health",
+        "biology",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1235026#reply0",
       "url": "https://www.v2ex.com/t/1235026#reply0",
       "title": "Loop解决“继续”，Graph解决“协作”，那“完成”由谁负责？",
@@ -2231,383 +2609,6 @@
         "politics"
       ],
       "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/videos/cvg7zrxknvno?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/videos/cvg7zrxknvno?at_medium=RSS&at_campaign=rss",
-      "title": "“鲨鱼宝宝”男孩准备以K-pop身份出道",
-      "content_html": "<p><strong>Baby Shark boy set to make K-pop debut</strong></p><p>The boy who starred in the viral &#x27;Baby Shark&#x27; YouTube video is now 17 and pursuing a career in K-pop. His transition marks a new chapter for the face behind the world&#x27;s most-watched video.</p><p>曾在YouTube爆火视频“鲨鱼宝宝”中出镜的男孩现已17岁，并准备进军K-pop行业。他的转型标志着这个全球播放量最高视频背后的主角开启了人生新篇章。</p><p>Tags: kpop · babyshark · entertainment</p>",
-      "date_published": "2026-08-12T03:26:32+00:00",
-      "tags": [
-        "kpop",
-        "babyshark",
-        "entertainment"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://sspai.com/post/112880",
-      "url": "https://sspai.com/post/112880",
-      "title": "我与“唯一”的iPhone Air",
-      "content_html": "<p><strong>我，与「唯一」的 iPhone Air</strong></p><p>A reflection on the iPhone Air highlights how specific tech products can help users identify their true needs. The author discusses the philosophical impact of hardware simplicity.</p><p>关于iPhone Air的深度思考，探讨了某些科技产品如何帮助用户认清真实需求。作者讨论了硬件极简主义带来的哲学影响。</p><p>Tags: iphone · apple · experience</p>",
-      "date_published": "2026-08-12T03:04:34+00:00",
-      "tags": [
-        "iphone",
-        "apple",
-        "experience"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://sspai.com/post/113343",
-      "url": "https://sspai.com/post/113343",
-      "title": "派早报：微软上调Win11授权费，Claude添加水印",
-      "content_html": "<p><strong>派早报：微软已上调 Windows 11 OEM 授权费用、Claude 将为所有生成内容附加隐水印等</strong></p><p>This news summary covers Microsoft increasing Windows 11 OEM licensing fees and Claude&#x27;s new policy of adding hidden watermarks to AI-generated content. Other hardware updates are also mentioned.</p><p>本期早报涵盖了微软上调Windows 11 OEM授权费用，以及Claude将为AI生成内容添加隐形水印的消息。此外还简报了其他硬件动态。</p><p>Tags: microsoft · claude · news</p>",
-      "date_published": "2026-08-12T00:44:13+00:00",
-      "tags": [
-        "microsoft",
-        "claude",
-        "news"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
-      "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
-      "title": "Saber否认用ChatGPT取代《Rideshare Stimulator》编剧",
-      "content_html": "<p><strong>Saber denies replacing Rideshare Stimulator&amp;#8217;s writers with ChatGPT</strong></p><p>Saber&#x27;s CEO has denied claims that writers were replaced by ChatGPT for the game &#x27;Rideshare Stimulator.&#x27; The controversy highlights the ongoing tension between AI automation and creative labor.</p><p>Saber公司CEO否认了游戏中编剧被ChatGPT取代的说法。该争议凸显了AI自动化与创意劳工之间持续存在的矛盾。</p><p>Tags: ai · gaming · saber</p>",
-      "date_published": "2026-08-12T00:39:26+00:00",
-      "tags": [
-        "ai",
-        "gaming",
-        "saber"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
-      "title": "CoreWeave股价飙升，财报显示AI强劲势头",
-      "content_html": "<p><strong>CoreWeave’s stock soars as earnings show major AI momentum</strong></p><p>AI cloud provider CoreWeave exceeded revenue and earnings expectations, signaling strong market demand. The CEO noted the company has reached an important inflection point in its growth.</p><p>AI云服务商CoreWeave财报超出营收预期，显示出强劲的市场需求。公司CEO称其已达到发展的关键转折点。</p><p>Tags: coreweave · ai · finance</p>",
-      "date_published": "2026-08-12T00:17:00+00:00",
-      "tags": [
-        "coreweave",
-        "ai",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
-      "title": "超微电脑财报传佳音，股价攀升",
-      "content_html": "<p><strong>Super Micro’s earnings report brings more good news, and the stock is climbing</strong></p><p>Super Micro&#x27;s latest earnings report and forecast exceeded market expectations, leading to a climb in its stock price. The company had previously teased improved profitability trajectories.</p><p>超微电脑最新的财报与预期均好于市场估计，带动股价上涨。该公司此前曾预告了其盈利能力的改善。</p><p>Tags: supermicro · stocks · finance</p>",
-      "date_published": "2026-08-12T00:16:00+00:00",
-      "tags": [
-        "supermicro",
-        "stocks",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
-      "title": "Lumentum因AI需求激增营收翻倍",
-      "content_html": "<p><strong>Lumentum sees sales more than double as AI demand swells</strong></p><p>Lumentum reported blowout earnings driven by surging AI infrastructure demand. Despite the strong performance and outlook, the stock price remained relatively flat after hours.</p><p>得益于AI基础设施需求的飙升，Lumentum财报表现强劲。尽管业绩与前景看好，但其盘后股价波动较小。</p><p>Tags: lumentum · ai · finance</p>",
-      "date_published": "2026-08-12T00:15:00+00:00",
-      "tags": [
-        "lumentum",
-        "ai",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
-      "title": "特朗普更换座机暗示与伊朗冲突的风险",
-      "content_html": "<p><strong>Trump&#x27;s dramatic plane swap hints at personal stakes of Iran war</strong></p><p>The dramatic change of planes during Trump&#x27;s travel highlights the heightened geopolitical stakes regarding Iran. It adds another layer of tension to the complex history between the two.</p><p>特朗普行程中突然更换座机，凸显了与伊朗相关的地缘政治风险加剧。这为其两国复杂历史增添了新的紧张维度。</p><p>Tags: trump · iran · geopolitics</p>",
-      "date_published": "2026-08-12T00:14:42+00:00",
-      "tags": [
-        "trump",
-        "iran",
-        "geopolitics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/games/978374/xbox-elite-3-prototype-pad-leaks-with-tiny-built-in-screen",
-      "url": "https://www.theverge.com/games/978374/xbox-elite-3-prototype-pad-leaks-with-tiny-built-in-screen",
-      "title": "Xbox Elite 3原型手柄泄露，内置小屏幕",
-      "content_html": "<p><strong>Xbox Elite 3 prototype pad leaks with tiny built-in screen</strong></p><p>Photos of a prototype Xbox controller, likely the Elite Series 3, have surfaced online. The device features a unique built-in screen and was reportedly purchased on a secondary marketplace.</p><p>疑似Xbox Elite 3原型的控制器照片在网上曝光。该设备配有一个独特的内置屏幕，据称是在二手平台购得。</p><p>Tags: xbox · hardware · gaming</p>",
-      "date_published": "2026-08-11T22:36:35+00:00",
-      "tags": [
-        "xbox",
-        "hardware",
-        "gaming"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
-      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
-      "title": "WorldClaw：大规模智能体3D开放世界生成",
-      "content_html": "<p><strong>WorldClaw Agentic 3D open-world generation at scale</strong></p><p>WorldClaw is a new technology platform aimed at generating complex 3D open-world environments using AI agents at scale. It represents a significant step forward in procedural world-building.</p><p>WorldClaw是一个旨在利用AI智能体大规模生成复杂3D开放世界环境的新技术平台。它代表了程序化世界构建的重大进展。</p><p>Tags: ai · 3d · gaming</p>",
-      "date_published": "2026-08-11T21:56:18+00:00",
-      "tags": [
-        "ai",
-        "3d",
-        "gaming"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss",
-      "title": "美国称直升机击毁了违反伊朗禁运的货船",
-      "content_html": "<p><strong>US says helicopter fired missiles to disable ship breaking Iran blockade</strong></p><p>US Central Command confirmed that a helicopter disabled a Panama-flagged vessel in the Gulf of Oman. The ship was allegedly involved in breaking the international blockade against Iran.</p><p>美国中央司令部证实，一架直升机在阿曼湾瘫痪了一艘悬挂巴拿马旗的货船。该船被指控涉嫌违反针对伊朗的国际封锁禁令。</p><p>Tags: iran · us · military</p>",
-      "date_published": "2026-08-11T21:14:56+00:00",
-      "tags": [
-        "iran",
-        "us",
-        "military"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://ngrok.com/blog/compression-is-prediction",
-      "url": "https://ngrok.com/blog/compression-is-prediction",
-      "title": "压缩即预测",
-      "content_html": "<p><strong>Compression is prediction</strong></p><p>This discussion explores the theory that data compression and predictive modeling are fundamentally linked. It highlights how compressing information effectively requires predicting its patterns.</p><p>此讨论探讨了数据压缩与预测建模在本质上是关联的这一理论。它强调了有效压缩信息通常需要对其中的模式进行准确预测。</p><p>Tags: theory · compression · data</p>",
-      "date_published": "2026-08-11T19:49:44+00:00",
-      "tags": [
-        "theory",
-        "compression",
-        "data"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-      "title": "ChatGPT和Gemini用户量均突破10亿",
-      "content_html": "<p><strong>ChatGPT and Gemini both just passed 1 billion users</strong></p><p>Both ChatGPT and Gemini have surpassed the 1 billion monthly active user milestone. This highlights the rapid mass adoption of consumer-facing AI applications worldwide.</p><p>ChatGPT和Gemini的月活跃用户量均已突破10亿大关。这凸显了全球范围内消费者对AI应用的高速接纳。</p><p>Tags: openai · google · ai</p>",
-      "date_published": "2026-08-11T19:41:42+00:00",
-      "tags": [
-        "openai",
-        "google",
-        "ai"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
-      "title": "哥伦比亚地震造成180人死亡，救援行动持续",
-      "content_html": "<p><strong>Rescuers scramble for survivors with 180 dead in Colombia earthquake</strong></p><p>A devastating earthquake in Colombia has left 180 people dead, with rescuers searching for survivors amidst aftershocks. International attention is focused on the recovery efforts.</p><p>哥伦比亚发生的强震已造成180人死亡，救援人员在余震中持续搜救幸存者。国际社会正密切关注当地的救援进展。</p><p>Tags: earthquake · colombia · disaster</p>",
-      "date_published": "2026-08-11T19:09:52+00:00",
-      "tags": [
-        "earthquake",
-        "colombia",
-        "disaster"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
-      "url": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
-      "title": "“审查工业复合体”如何改变互联网与美国政策",
-      "content_html": "<p><strong>How the “censorship-industrial complex” is changing the Internet and US policy</strong></p><p>The article examines the impact of the &#x27;censorship-industrial complex&#x27; on internet governance and US policy. It investigates the closure of offices dedicated to countering foreign disinformation.</p><p>本文探讨了“审查工业复合体”对互联网治理及美国政策的影响。文章调查了针对反外国虚假信息办公机构的关闭事件。</p><p>Tags: politics · internet · policy</p>",
-      "date_published": "2026-08-11T17:58:57+00:00",
-      "tags": [
-        "politics",
-        "internet",
-        "policy"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2584196-crispr-armed-phages-help-treat-severe-superbug-infection/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2584196-crispr-armed-phages-help-treat-severe-superbug-infection/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "CRISPR噬菌体助力治疗严重超级细菌感染",
-      "content_html": "<p><strong>CRISPR-armed phages help treat severe superbug infection</strong></p><p>Researchers have successfully used CRISPR-modified phages to treat antibiotic-resistant E. coli infections. This breakthrough offers a potential new path to combat dangerous superbugs.</p><p>研究人员已成功利用CRISPR改造的噬菌体治疗抗药性大肠杆菌感染。这一突破为对抗危险的“超级细菌”提供了潜在的新途径。</p><p>Tags: crispr · science · medicine</p>",
-      "date_published": "2026-08-11T16:43:32+00:00",
-      "tags": [
-        "crispr",
-        "science",
-        "medicine"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2584182-heart-surgery-cured-a-mans-skin-cancer-and-gave-him-a-bee-allergy/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2584182-heart-surgery-cured-a-mans-skin-cancer-and-gave-him-a-bee-allergy/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "心脏手术治愈了男子的皮肤癌，却引发了蜜蜂过敏",
-      "content_html": "<p><strong>Heart surgery cured a man’s skin cancer – and gave him a bee allergy</strong></p><p>A man undergoing heart surgery experienced an unexpected immune response that cured his severe skin cancer. However, the procedure also resulted in the development of a life-threatening bee sting allergy.</p><p>一名男子在接受心脏手术后，意外引发的免疫反应治愈了他的严重皮肤癌。然而，该手术也导致他患上了致命的蜜蜂蜇伤过敏症。</p><p>Tags: medicine · health · science</p>",
-      "date_published": "2026-08-11T16:17:05+00:00",
-      "tags": [
-        "medicine",
-        "health",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2584057-weve-now-had-a-good-look-at-a-rainbow-made-from-sound/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2584057-weve-now-had-a-good-look-at-a-rainbow-made-from-sound/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "科学家用声音创造出了更完美的“彩虹”",
-      "content_html": "<p><strong>Rainbows can be made from sounds – and we’ve created the best ones yet</strong></p><p>Researchers have developed devices that separate sound waves by frequency to create &#x27;sound rainbows.&#x27; These are the most advanced visual-like representations of sound frequency bands created to date.</p><p>研究人员开发出通过频率分离声波来创造“声音彩虹”的设备。这是迄今为止创造的最先进、类似视觉呈现的声音频率带。</p><p>Tags: physics · sound · science</p>",
-      "date_published": "2026-08-11T15:30:22+00:00",
-      "tags": [
-        "physics",
-        "sound",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
-      "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
-      "title": "Download通讯：LLM的下一个大事件与AI学术研究的变迁",
-      "content_html": "<p><strong>The Download: the next big thing in LLMs and how AI academic research is shifting</strong></p><p>This newsletter tracks emerging trends in Large Language Models and shifts in academic research culture. It explores how transformer networks continue to influence tech development.</p><p>本期通讯追踪了大模型的新兴趋势及学术研究文化的变迁。文章探讨了Transformer网络如何持续影响技术发展。</p><p>Tags: ai · research · llm</p>",
-      "date_published": "2026-08-11T12:10:00+00:00",
-      "tags": [
-        "ai",
-        "research",
-        "llm"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2584088-denisovans-may-have-dwarfed-other-ancient-humans/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2584088-denisovans-may-have-dwarfed-other-ancient-humans/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "丹尼索瓦人可能比其他古代人类更魁梧",
-      "content_html": "<p><strong>Denisovans may have dwarfed other ancient humans</strong></p><p>New fossil evidence from Taiwan suggests that Denisovans may have stood up to 190cm tall. This finding implies they were significantly larger than other ancient human species.</p><p>来自台湾的新化石证据表明，丹尼索瓦人的身高可能达到190厘米。这一发现暗示他们比其他古代人类物种体型更庞大。</p><p>Tags: science · evolution · archaeology</p>",
-      "date_published": "2026-08-11T11:12:43+00:00",
-      "tags": [
-        "science",
-        "evolution",
-        "archaeology"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2531639-where-when-and-how-to-watch-the-2026-solar-eclipse/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2531639-where-when-and-how-to-watch-the-2026-solar-eclipse/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "2026年日全食：观赏指南",
-      "content_html": "<p><strong>Where, when and how to watch the 2026 solar eclipse</strong></p><p>A total solar eclipse is scheduled for 2026, visible across parts of Europe. This guide provides details on how and when to view the event safely.</p><p>2026年将迎来一场日全食，欧洲部分地区可见。本指南提供了如何安全观测该天文现象的时间与方法详情。</p><p>Tags: science · astronomy · eclipse</p>",
-      "date_published": "2026-08-11T11:09:30+00:00",
-      "tags": [
-        "science",
-        "astronomy",
-        "eclipse"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1233587#reply0",
-      "url": "https://www.v2ex.com/t/1233587#reply0",
-      "title": "推广：全网兼容 AI 工具代理 ZooProxy 全线降价",
-      "content_html": "<p><strong>[推广] [AI 刚需神器] 全网兼容各类 AI 工具代理 ZooProxy 全线降价｜稳定不跳区、不封 IP✨</strong></p><p>ZooProxy offers a cost-effective proxy service for AI tools, promising stability without IP bans or region-switching issues. New users can take advantage of promotional offers and residential IP traffic credits.</p><p>ZooProxy 提供全网兼容的 AI 工具代理服务，主打稳定不跳区且不封 IP。目前该平台正进行全线降价促销，并向新用户提供住宅 IP 流量福利。</p><p>Tags: ai · proxy · networking</p>",
-      "date_published": "2026-08-11T08:04:26+00:00",
-      "tags": [
-        "ai",
-        "proxy",
-        "networking"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1233586#reply0",
-      "url": "https://www.v2ex.com/t/1233586#reply0",
-      "title": "职场话题：大家上班空闲时都在干什么？",
-      "content_html": "<p><strong>[职场话题] 大家上班空闲时都在干什么？</strong></p><p>A developer working on a project break wonders how others spend their downtime. They express hesitation about learning new programming languages given the rapid advancement of AI tools.</p><p>一名开发者在项目间歇期咨询大家的摸鱼习惯。面对 AI 的快速发展，他对是否继续投入时间学习编程语言产生了困惑。</p><p>Tags: workplace · career · programming</p>",
-      "date_published": "2026-08-11T08:03:42+00:00",
-      "tags": [
-        "workplace",
-        "career",
-        "programming"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1233585#reply0",
-      "url": "https://www.v2ex.com/t/1233585#reply0",
-      "title": "分享创造：复刻 Twitter 上的注视鼠标小黄狗效果",
-      "content_html": "<p><strong>[分享创造] twitter 上看到一网站挺有意思的效果，注视鼠标的小黄狗，复刻了下便于集成到自己网站</strong></p><p>A developer has recreated a popular mouse-tracking dog animation seen on Twitter. The project is open-sourced on GitHub, allowing others to easily integrate it into their own websites.</p><p>开发者复刻了一个 Twitter 上流行的鼠标追踪小狗动效。该项目已开源在 GitHub 上，方便他人轻松集成到个人网站中。</p><p>Tags: frontend · animation · javascript</p>",
-      "date_published": "2026-08-11T08:01:54+00:00",
-      "tags": [
-        "frontend",
-        "animation",
-        "javascript"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2582036-could-we-eliminate-any-particles-from-the-standard-model-of-physics/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2582036-could-we-eliminate-any-particles-from-the-standard-model-of-physics/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "物理学标准模型是否包含冗余粒子？",
-      "content_html": "<p><strong>Could we eliminate any particles from the standard model of physics?</strong></p><p>Physicists are questioning whether the current standard model of particle physics carries unnecessary elements. Columnist Chanda Prescod-Weinstein explores the possibility of simplifying this foundational theory.</p><p>物理学家们正在讨论标准模型是否包含多余的粒子。专栏作家 Chanda Prescod-Weinstein 探讨了精简这一基础理论的可能性。</p><p>Tags: physics · science · research</p>",
-      "date_published": "2026-08-11T08:00:00+00:00",
-      "tags": [
-        "physics",
-        "science",
-        "research"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4934506-fractyl-health-inc-guts-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4934506-fractyl-health-inc-guts-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "title": "Fractyl Health (GUTS) 2026 年第二季度财报电话会议实录",
-      "content_html": "<p><strong>Fractyl Health, Inc. (GUTS) Q2 2026 Earnings Call Transcript</strong></p><p>This transcript covers the financial performance and strategic updates for Fractyl Health during Q2 2026. The company discusses its ongoing medical developments and fiscal health.</p><p>本实录整理了 Fractyl Health 在 2026 年第二季度的财务表现和战略进展。公司讨论了其医疗项目进展及财务状况。</p><p>Tags: finance · earnings · healthcare</p>",
-      "date_published": "2026-08-11T07:58:40+00:00",
-      "tags": [
-        "finance",
-        "earnings",
-        "healthcare"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1233583#reply0",
-      "url": "https://www.v2ex.com/t/1233583#reply0",
-      "title": "诚寻海外项目合伙人（全职，线上）",
-      "content_html": "<p><strong>[创业组队] 诚寻创业(搞钱)海外项目合伙人(全职，线上)</strong></p><p>An entrepreneur is seeking a full-time, remote technical partner to build a new overseas software product. The project is based on an existing profitable model and offers a 50/50 profit share.</p><p>一位创业者正在寻找全职线上技术合伙人开发新海外项目。项目基于已有盈利模式，承诺提供五五分成。</p><p>Tags: startup · recruitment · entrepreneurship</p>",
-      "date_published": "2026-08-11T07:56:07+00:00",
-      "tags": [
-        "startup",
-        "recruitment",
-        "entrepreneurship"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1233582#reply1",
-      "url": "https://www.v2ex.com/t/1233582#reply1",
-      "title": "Claude API 企业级中转服务，加群送 10 美元额度",
-      "content_html": "<p><strong>[推广] Claude API 企业级中转服务，加群送 10 美元额度</strong></p><p>Aicoding.inc provides enterprise-grade Claude API relay services with low latency and high availability. They are currently offering new users $10 in credits for testing their infrastructure.</p><p>Aicoding.inc 提供企业级 Claude API 中转服务，具备低延迟和高可用性。目前入群的新用户可获赠 10 美元额度进行测试。</p><p>Tags: claude · api · enterprise</p>",
-      "date_published": "2026-08-11T07:52:50+00:00",
-      "tags": [
-        "claude",
-        "api",
-        "enterprise"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4934519-spacex-the-ipo-hangover-is-real-but-so-is-the-next-sugar-rush?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4934519-spacex-the-ipo-hangover-is-real-but-so-is-the-next-sugar-rush?source=feed_all_articles",
-      "title": "SpaceX：IPO 后的后遗症与新增长空间",
-      "content_html": "<p><strong>SpaceX: The IPO Hangover Is Real, But So Is The Next Sugar Rush</strong></p><p>This analysis discusses the post-IPO challenges faced by SpaceX and its future growth prospects. It examines the market volatility and the company&#x27;s ambitious trajectory.</p><p>本文分析了 SpaceX 在 IPO 后所面临的挑战及其未来的增长前景。文章探讨了市场波动以及该公司宏伟的发展规划。</p><p>Tags: spacex · ipo · finance</p>",
-      "date_published": "2026-08-11T07:47:45+00:00",
-      "tags": [
-        "spacex",
-        "ipo",
-        "finance"
-      ],
-      "_category": "FINA"
     }
   ]
 }
