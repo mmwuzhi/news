@@ -6,6 +6,396 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1236396#reply0",
+      "url": "https://www.v2ex.com/t/1236396#reply0",
+      "title": "WebRTC moq/dev 正式上线付费 CDN",
+      "content_html": "<p><strong>[WebRTC] moq/dev 正式上线了付费 CDN</strong></p><p>The moq/dev platform has officially launched a paid CDN service. However, it is likely inaccessible in China due to the lack of local nodes.</p><p>moq/dev 平台正式上线了付费 CDN 服务。由于缺乏国内节点，该服务在国内大概率无法正常使用。</p><p>Tags: webrtc · cdn · moq</p>",
+      "date_published": "2026-08-22T07:19:21+00:00",
+      "tags": [
+        "webrtc",
+        "cdn",
+        "moq"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4939303-ecora-royalties-cobalt-shift-still-needs-proof?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4939303-ecora-royalties-cobalt-shift-still-needs-proof?source=feed_all_articles",
+      "title": "Ecora Royalties：钴市场的转变仍需验证",
+      "content_html": "<p><strong>Ecora Royalties: The Cobalt Shift Still Needs Proof</strong></p><p>Ecora Royalties faces uncertainty as the shift in the cobalt market requires further proof of sustainability. Investors remain cautious about its long-term performance.</p><p>Ecora Royalties 面临不确定性，因为钴市场的转变仍需进一步验证。投资者对其长期表现持谨慎态度。</p><p>Tags: ecora · cobalt · investing</p>",
+      "date_published": "2026-08-22T07:11:59+00:00",
+      "tags": [
+        "ecora",
+        "cobalt",
+        "investing"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1236395#reply0",
+      "url": "https://www.v2ex.com/t/1236395#reply0",
+      "title": "程序员讨论：目前拥有 token 资源，中转站生意还能做吗？",
+      "content_html": "<p><strong>[程序员] 目前拥有 token 的资源，中转站这个事情到底能不能做？</strong></p><p>Developers are discussing the viability of creating API relay services using existing token resources. The focus is on whether such a business model can still succeed against competition.</p><p>程序员们正在讨论利用现有 token 资源搭建 API 中转站的可行性。核心问题在于这种商业模式在当前竞争环境下是否仍有利润空间。</p><p>Tags: token · api · llm</p>",
+      "date_published": "2026-08-22T07:00:39+00:00",
+      "tags": [
+        "token",
+        "api",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4939302-neurocrine-biosciences-house-full-of-options?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4939302-neurocrine-biosciences-house-full-of-options?source=feed_all_articles",
+      "title": "Neurocrine Biosciences：充满选择的局面",
+      "content_html": "<p><strong>Neurocrine Biosciences: &#x27;House Full Of Options&#x27;</strong></p><p>Neurocrine Biosciences is navigating a complex landscape with numerous strategic options ahead. The company&#x27;s future direction remains a focal point for market analysts.</p><p>Neurocrine Biosciences 正处于充满复杂战略选择的局面。公司的未来方向依然是市场分析师关注的焦点。</p><p>Tags: neurocrine · biotech · stocks</p>",
+      "date_published": "2026-08-22T06:57:57+00:00",
+      "tags": [
+        "neurocrine",
+        "biotech",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1236394#reply19",
+      "url": "https://www.v2ex.com/t/1236394#reply19",
+      "title": "程序员讨论：开梯子会被反诈中心电话警告吗？",
+      "content_html": "<p><strong>[程序员] 你们开梯子会有反诈中心的电话打来吗</strong></p><p>Users on domestic smartphones are concerned about receiving scam prevention calls after using VPN services. The discussion centers on whether such activities trigger automated alerts.</p><p>国产手机用户担心使用翻墙软件后会接到反诈中心的预警电话。讨论重点在于此类行为是否会触发官方的自动预警系统。</p><p>Tags: vpn · privacy · security</p>",
+      "date_published": "2026-08-22T06:49:52+00:00",
+      "tags": [
+        "vpn",
+        "privacy",
+        "security"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1236393#reply0",
+      "url": "https://www.v2ex.com/t/1236393#reply0",
+      "title": "推广：差任务 0 元领 200M 服务器",
+      "content_html": "<p><strong>[推广] 差任务， 0 元领一台 200M 服务器</strong></p><p>A new promotion offers a server with 200M peak bandwidth for free for one year. Interested users can find more details on the specified developer blog.</p><p>一项新的推广活动提供了一台一年期、200M 峰值带宽的免费服务器。感兴趣的用户可以在指定的博主文章中查看详情。</p><p>Tags: server · aliyun · promotion</p>",
+      "date_published": "2026-08-22T06:47:35+00:00",
+      "tags": [
+        "server",
+        "aliyun",
+        "promotion"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4939304-investor-mentality?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4939304-investor-mentality?source=feed_all_articles",
+      "title": "投资者心态分析",
+      "content_html": "<p><strong>The Investor Mentality</strong></p><p>This article explores the psychological aspects of investing and the importance of maintaining a disciplined mindset. Understanding market behavior is key to long-term success.</p><p>本文探讨了投资的心理层面以及保持纪律性心态的重要性。理解市场行为是实现长期投资成功的关键。</p><p>Tags: investing · psychology · finance</p>",
+      "date_published": "2026-08-22T06:45:00+00:00",
+      "tags": [
+        "investing",
+        "psychology",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1236392#reply0",
+      "url": "https://www.v2ex.com/t/1236392#reply0",
+      "title": "Claude：本周的账号表现异常聪明",
+      "content_html": "<p><strong>[Claude] 这周这个号的 claude fable5 很聪明，也许是上个号被偷偷降级了？</strong></p><p>A user reports that their Claude account has become notably smarter this week. There is speculation about whether previous accounts were quietly downgraded.</p><p>有用户反馈其 Claude 账号本周表现得异常聪明。大家猜测之前的账号是否被官方悄悄进行了降级处理。</p><p>Tags: claude · llm · ai</p>",
+      "date_published": "2026-08-22T06:43:14+00:00",
+      "tags": [
+        "claude",
+        "llm",
+        "ai"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+      "title": "乌克兰商场遭俄军二次打击，16 人死亡，搜救工作持续",
+      "content_html": "<p><strong>Search for survivors after 16 killed by Russian double-tap strike on Ukraine mall</strong></p><p>A Russian double-tap strike on a Ukrainian mall has left 16 people dead and 130 injured. Search and rescue operations are ongoing as nine individuals remain missing.</p><p>俄军对乌克兰某商场进行二次打击，造成 16 人死亡，130 人受伤。由于仍有 9 人下落不明，现场搜救工作正在紧张进行。</p><p>Tags: ukraine · russia · conflict</p>",
+      "date_published": "2026-08-22T06:40:30+00:00",
+      "tags": [
+        "ukraine",
+        "russia",
+        "conflict"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4939294-general-dynamics-why-q2-results-and-market-cap-weighted-multiples-trigger-an-upgrade?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4939294-general-dynamics-why-q2-results-and-market-cap-weighted-multiples-trigger-an-upgrade?source=feed_all_articles",
+      "title": "通用动力：为何二季度财报和市值加权乘数触发评级上调",
+      "content_html": "<p><strong>General Dynamics: Why Q2 Results And Market-Cap Weighted Multiples Trigger An Upgrade (Rating Upgrade)</strong></p><p>General Dynamics has received a rating upgrade following its second-quarter earnings report. Market-cap weighted multiples were key factors in this positive adjustment.</p><p>通用动力因二季度财报和市值加权乘数表现，获得了评级上调。这些财务指标是此次正面调整的关键因素。</p><p>Tags: generaldynamics · stocks · rating</p>",
+      "date_published": "2026-08-22T06:00:39+00:00",
+      "tags": [
+        "generaldynamics",
+        "stocks",
+        "rating"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4939301-canadian-commodity-plays-or-american-ai-stocks?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4939301-canadian-commodity-plays-or-american-ai-stocks?source=feed_all_articles",
+      "title": "加拿大商品股票还是美国 AI 股票？",
+      "content_html": "<p><strong>Canadian Commodity Plays Or American AI Stocks?</strong></p><p>Investors are weighing the benefits of Canadian commodity stocks against the growth potential of US AI companies. Both sectors offer unique risks and rewards.</p><p>投资者正在权衡加拿大大宗商品股票与美国人工智能股票的投资潜力。这两个领域各自提供了不同的风险和回报。</p><p>Tags: stocks · ai · commodity</p>",
+      "date_published": "2026-08-22T06:00:00+00:00",
+      "tags": [
+        "stocks",
+        "ai",
+        "commodity"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
+      "title": "贸易谈判破裂，加拿大称将对美国关税进行对等反击",
+      "content_html": "<p><strong>Canada says it will match US tariffs &#x27;dollar for dollar&#x27; as trade talks break down</strong></p><p>Canada has announced it will match US tariffs dollar-for-dollar following the collapse of trade negotiations. A new 50% levy on $20 billion worth of Canadian imports is now effective.</p><p>贸易谈判破裂后，加拿大宣布将对美国关税进行对等反击。目前，针对 200 亿美元加拿大进口商品的 50% 新关税已经生效。</p><p>Tags: trade · canada · usa</p>",
+      "date_published": "2026-08-22T04:46:33+00:00",
+      "tags": [
+        "trade",
+        "canada",
+        "usa"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c62xpre63j2o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c62xpre63j2o?at_medium=RSS&at_campaign=rss",
+      "title": "法庭聆讯：Lindsay Clancy 杀害子女时受“命令幻听”影响",
+      "content_html": "<p><strong>Lindsay Clancy suffering &#x27;command hallucination&#x27; when she killed children, court hears</strong></p><p>A forensic psychiatrist testified that Lindsay Clancy was suffering from postpartum psychosis when she killed her children. The defense is using this to explain the command hallucination.</p><p>法医精神科医生在庭审中表示，Lindsay Clancy 在杀害子女时正遭受产后精神病引发的“命令幻听”。辩方以此作为案件的关键解释。</p><p>Tags: law · psychology · trial</p>",
+      "date_published": "2026-08-22T03:43:26+00:00",
+      "tags": [
+        "law",
+        "psychology",
+        "trial"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/113675",
+      "url": "https://sspai.com/post/113675",
+      "title": "线下活动：Echoes Remain 迈克尔杰克逊 68 周年诞辰唱片展",
+      "content_html": "<p><strong>线下活动｜Echoes Remain：迈克尔杰克逊 68 周年诞辰唱片展</strong></p><p>Minority is hosting an exhibition in Guangzhou to celebrate the 68th birthday of Michael Jackson. The event aims to provide a space for music and digital enthusiasts.</p><p>少数派将在广州举办线下展览，纪念迈克尔·杰克逊 68 周岁诞辰。该活动旨在为数字与音乐爱好者提供一个交流空间。</p><p>Tags: mj · music · exhibition</p>",
+      "date_published": "2026-08-22T03:00:00+00:00",
+      "tags": [
+        "mj",
+        "music",
+        "exhibition"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://danluu.com/perf-opt/",
+      "url": "https://danluu.com/perf-opt/",
+      "title": "软件没有理由再变慢了",
+      "content_html": "<p><strong>There&#x27;s no reason for software to be slow anymore</strong></p><p>This discussion argues that modern hardware and optimization techniques should make slow software obsolete. Developers are urged to prioritize performance in new projects.</p><p>本文讨论认为，依托现代硬件和优化技术，软件变慢已不再是常态。开发者被敦促在项目中应优先考虑性能表现。</p><p>Tags: software · performance · optimization</p>",
+      "date_published": "2026-08-22T01:06:17+00:00",
+      "tags": [
+        "software",
+        "performance",
+        "optimization"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
+      "title": "TikTok 因侵犯儿童隐私支付 4 亿美元达成和解",
+      "content_html": "<p><strong>TikTok to pay $400m to US in one of largest child privacy settlements</strong></p><p>TikTok and its parent company ByteDance have agreed to pay $400 million to settle a lawsuit regarding the collection of data from children under 13. This marks one of the largest settlements of its kind.</p><p>TikTok 及其母公司字节跳动同意支付 4 亿美元，以就其非法收集 13 岁以下儿童数据的诉讼达成和解。这是该领域最大的和解案之一。</p><p>Tags: tiktok · privacy · lawsuit</p>",
+      "date_published": "2026-08-21T22:36:12+00:00",
+      "tags": [
+        "tiktok",
+        "privacy",
+        "lawsuit"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/983500/hoverair-versa-halted-us-fcc-drone-ban-indiegogo",
+      "url": "https://www.theverge.com/tech/983500/hoverair-versa-halted-us-fcc-drone-ban-indiegogo",
+      "title": "HoverAir 模块化无人机在美国遭禁",
+      "content_html": "<p><strong>HoverAir’s transforming modular drone has already been halted in the US</strong></p><p>The HoverAir Versa has halted US orders due to a new FCC drone ban. The modular device faces shipping uncertainties just days after its launch.</p><p>受美国 FCC 无人机禁令影响，HoverAir Versa 模块化无人机已停止在美国接单。该产品在发布仅三天后便陷入发货危机。</p><p>Tags: drone · fcc · hoverair</p>",
+      "date_published": "2026-08-21T22:14:11+00:00",
+      "tags": [
+        "drone",
+        "fcc",
+        "hoverair"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa",
+      "url": "https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa",
+      "title": "TikTok 向美国司法部支付 4 亿美元以解决儿童隐私诉讼",
+      "content_html": "<p><strong>TikTok will pay $400 million to settle DOJ child privacy lawsuit</strong></p><p>TikTok will pay $400 million to settle a DOJ lawsuit alleging violations of the Children&#x27;s Online Privacy Protection Act. The company is accused of collecting child data without parental consent.</p><p>TikTok 将支付 4 亿美元与美国司法部达成和解，解决关于违反《儿童在线隐私保护法》的诉讼。公司被指在未获家长同意的情况下收集儿童数据。</p><p>Tags: tiktok · privacy · lawsuit</p>",
+      "date_published": "2026-08-21T22:13:34+00:00",
+      "tags": [
+        "tiktok",
+        "privacy",
+        "lawsuit"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/should-you-venmo-your-tuition-heres-what-to-know-as-colleges-add-new-payment-options-1a70ae96?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/should-you-venmo-your-tuition-heres-what-to-know-as-colleges-add-new-payment-options-1a70ae96?mod=mw_rss_topstories",
+      "title": "现在可以用 Venmo 支付学费了，但应该这样做吗？",
+      "content_html": "<p><strong>You can now Venmo your kid’s college tuition. But should you?</strong></p><p>Some universities are now accepting Venmo for tuition payments to offer more flexibility. However, financial experts question the wisdom of using such platforms for high-value transactions.</p><p>一些大学开始接受使用 Venmo 支付学费，以提供支付灵活性。但金融专家质疑通过此类平台进行大额交易的安全性与合理性。</p><p>Tags: venmo · finance · education</p>",
+      "date_published": "2026-08-21T21:20:00+00:00",
+      "tags": [
+        "venmo",
+        "finance",
+        "education"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/soon-you-can-buy-medicare-advantage-plans-at-costco-what-you-need-to-know-34e03242?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/soon-you-can-buy-medicare-advantage-plans-at-costco-what-you-need-to-know-34e03242?mod=mw_rss_topstories",
+      "title": "Costco 即将开始销售 Medicare Advantage 医保计划",
+      "content_html": "<p><strong>Soon you can buy Medicare Advantage plans at Costco. What you need to know.</strong></p><p>Costco is expanding its services by offering Medicare Advantage health insurance plans to members. This move marks the retailer&#x27;s latest step into the healthcare industry.</p><p>Costco 正在通过向会员销售 Medicare Advantage 医保计划来扩展业务。此举标志着该零售商在医疗行业的最新尝试。</p><p>Tags: costco · medicare · insurance</p>",
+      "date_published": "2026-08-21T21:17:00+00:00",
+      "tags": [
+        "costco",
+        "medicare",
+        "insurance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/im-leaving-my-grandkids-money-but-they-must-pass-financial-literacy-classes-to-get-it-is-that-fair-8a630648?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/im-leaving-my-grandkids-money-but-they-must-pass-financial-literacy-classes-to-get-it-is-that-fair-8a630648?mod=mw_rss_topstories",
+      "title": "要把遗产留给孙辈，但要求他们必须通过理财课程，这公平吗？",
+      "content_html": "<p><strong>I plan to leave money to grandkids — but they must pass financial-literacy classes to get it. Is that fair?</strong></p><p>A grandparent is conditioning their inheritance on the grandkids completing financial literacy courses. The debate focuses on whether such constraints are fair or beneficial.</p><p>一位祖辈要求孙辈必须通过理财课程才能获得遗产。这引发了关于此类限制条件是否公平或具有教育意义的讨论。</p><p>Tags: finance · family · education</p>",
+      "date_published": "2026-08-21T20:11:00+00:00",
+      "tags": [
+        "finance",
+        "family",
+        "education"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2586031-off-the-charts-el-nino-is-already-the-strongest-since-records-began/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2586031-off-the-charts-el-nino-is-already-the-strongest-since-records-began/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "厄尔尼诺现象打破纪录，成为有记录以来最强",
+      "content_html": "<p><strong>‘Off the charts’ El Niño is already the strongest since records began</strong></p><p>Climate scientist James Hansen warns that the current &#x27;super El Niño&#x27; has surpassed all previous records. The climate event is expected to continue with severe impacts.</p><p>气候科学家詹姆斯·汉森警告称，当前的“超级厄尔尼诺”现象已打破以往所有纪录。预计该气候事件将持续并产生严重影响。</p><p>Tags: climate · elnino · environment</p>",
+      "date_published": "2026-08-21T17:00:00+00:00",
+      "tags": [
+        "climate",
+        "elnino",
+        "environment"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2585659-greenland-meltwater-is-intensifying-european-heatwaves/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2585659-greenland-meltwater-is-intensifying-european-heatwaves/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "格陵兰岛融水正在加剧欧洲热浪",
+      "content_html": "<p><strong>Greenland meltwater is intensifying European heatwaves</strong></p><p>A new study indicates that meltwater from Greenland is altering North Atlantic currents and weather patterns. This is contributing to more intense heatwaves across Europe.</p><p>一项新研究表明，格陵兰岛的融水正在改变北大西洋的洋流和天气模式。这导致了欧洲各地热浪的加剧。</p><p>Tags: climate · greenland · heatwave</p>",
+      "date_published": "2026-08-21T16:00:00+00:00",
+      "tags": [
+        "climate",
+        "greenland",
+        "heatwave"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.felonybench.com/",
+      "url": "https://www.felonybench.com/",
+      "title": "重罪长椅（法律专栏）",
+      "content_html": "<p><strong>Felony Bench</strong></p><p>This article explores the legal complexities and proceedings associated with felony cases in courtrooms. It provides insight into the judicial process for serious crimes.</p><p>本文探讨了法庭上重罪案件相关的法律复杂性与程序。文章深入剖析了严重犯罪案件的司法审判过程。</p><p>Tags: law · justice · court</p>",
+      "date_published": "2026-08-21T15:17:04+00:00",
+      "tags": [
+        "law",
+        "justice",
+        "court"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2586000-burns-heal-more-rapidly-after-treatment-with-fish-skin/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2586000-burns-heal-more-rapidly-after-treatment-with-fish-skin/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "鱼皮治疗烧伤效果更佳",
+      "content_html": "<p><strong>Burns improve more rapidly after treatment with fish skin</strong></p><p>Research suggests that using minimally processed fish skin is more effective for treating severe burns than traditional synthetic grafts. This method promotes faster healing.</p><p>研究表明，使用经过轻度加工的鱼皮治疗严重烧伤比传统的合成植皮效果更好。该方法有助于促进伤口更快愈合。</p><p>Tags: health · science · medicine</p>",
+      "date_published": "2026-08-21T15:00:00+00:00",
+      "tags": [
+        "health",
+        "science",
+        "medicine"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2585948-super-el-nino-could-lead-to-mega-co2-emissions-from-indonesian-fires/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2585948-super-el-nino-could-lead-to-mega-co2-emissions-from-indonesian-fires/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "超级厄尔尼诺可能导致印尼火灾引发巨量二氧化碳排放",
+      "content_html": "<p><strong>Super El Niño could lead to mega CO2 emissions from fires in Indonesia</strong></p><p>The strengthening super El Niño is expected to worsen wildfires in Indonesia. This could lead to massive CO2 emissions, significantly impacting the global climate.</p><p>日益强化的超级厄尔尼诺现象预计将加剧印尼的森林火灾。这可能导致大规模二氧化碳排放，对全球气候产生重大影响。</p><p>Tags: climate · indonesia · environment</p>",
+      "date_published": "2026-08-21T12:45:00+00:00",
+      "tags": [
+        "climate",
+        "indonesia",
+        "environment"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+      "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+      "title": "当 AI 设计药物时，功劳归谁？",
+      "content_html": "<p><strong>When AI designs a drug, who gets the credit?</strong></p><p>The rise of AI-designed drugs raises ethical questions about intellectual property and credit. Companies often claim AI discoveries as their own, sparking debate.</p><p>AI 设计药物的兴起引发了关于知识产权与贡献归属的道德问题。制药公司往往将 AI 的发现成果归于自身，引发了广泛争议。</p><p>Tags: ai · pharma · ethics</p>",
+      "date_published": "2026-08-21T09:00:00+00:00",
+      "tags": [
+        "ai",
+        "pharma",
+        "ethics"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
+      "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
+      "title": "空间镜计划可能威胁夜空安全",
+      "content_html": "<p><strong>This company’s plans to deploy space mirrors could jeopardize the night sky for many</strong></p><p>Reflect Orbital’s plans to launch space mirrors to beam sunlight have drawn criticism. Studies suggest this could unintentionally bright the night sky for millions.</p><p>Reflect Orbital 计划发射空间镜以向地球投射阳光，此举引发了批评。研究表明这可能会意外地照亮全球数百万人的夜空。</p><p>Tags: space · astronomy · environment</p>",
+      "date_published": "2026-08-21T09:00:00+00:00",
+      "tags": [
+        "space",
+        "astronomy",
+        "environment"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/21/1141726/mother-tongue-fiction/",
+      "url": "https://www.technologyreview.com/2026/08/21/1141726/mother-tongue-fiction/",
+      "title": "母语（思考随笔）",
+      "content_html": "<p><strong>Mother tongue</strong></p><p>An introspective essay exploring the nature of language and its impact on human connection. The author reflects on how children perceive the meaning and existence of words.</p><p>这是一篇探索语言本质及其对人际连接影响的随笔。作者反思了儿童如何感知词汇的意义与存在。</p><p>Tags: language · culture · essay</p>",
+      "date_published": "2026-08-21T09:00:00+00:00",
+      "tags": [
+        "language",
+        "culture",
+        "essay"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2585285-how-long-could-we-possibly-live-a-new-estimate-is-mind-boggling/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2585285-how-long-could-we-possibly-live-a-new-estimate-is-mind-boggling/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "人类寿命极限有多长？最新估计令人震惊",
+      "content_html": "<p><strong>How long could we possibly live? A new estimate is mind-boggling</strong></p><p>Biogerontologists are pushing the boundaries of human lifespan research. Recent studies suggest a potential limit near 200 years, though many remain skeptical.</p><p>生物老年学专家正在探索人类寿命的研究极限。最新研究指出人类寿命上限可能接近 200 岁，但许多学者对此仍表示怀疑。</p><p>Tags: health · science · biology</p>",
+      "date_published": "2026-08-21T08:00:00+00:00",
+      "tags": [
+        "health",
+        "science",
+        "biology"
+      ],
+      "_category": "SCI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1236202#reply0",
       "url": "https://www.v2ex.com/t/1236202#reply0",
       "title": "Apple iOS 有没有适配 Liquid Glass 效果的第三方输入法？",
@@ -2215,396 +2605,6 @@
         "disaster"
       ],
       "_category": "WORLD"
-    },
-    {
-      "id": "https://www.anthropic.com/research/multiagent-systems",
-      "url": "https://www.anthropic.com/research/multiagent-systems",
-      "title": "多智能体系统中的模式与问题",
-      "content_html": "<p><strong>Patterns and problems in emerging multi-agent systems</strong></p><p>This article discusses the emerging patterns and technical challenges associated with multi-agent systems. It emphasizes the complexity of coordinating autonomous agents in various applications.</p><p>本文讨论了多智能体系统中的新兴模式与技术挑战。文章强调了在各种应用中协调自主智能体的复杂性。</p><p>Tags: ai · multi-agent · systems</p>",
-      "date_published": "2026-08-16T02:12:53+00:00",
-      "tags": [
-        "ai",
-        "multi-agent",
-        "systems"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
-      "title": "据报道，摩洛哥拘留了数十名试图越境进入休达的移民",
-      "content_html": "<p><strong>Morocco detains dozens of migrants trying to cross into Ceuta, reports say</strong></p><p>Security forces in Morocco have detained numerous migrants attempting to cross into the Spanish enclave of Ceuta. The action follows social media rumors of another mass crossing attempt.</p><p>摩洛哥安全部队拘留了多名试图越境进入西班牙飞地休达的移民。此前社交媒体上流传着关于再次大规模越境的传闻。</p><p>Tags: morocco · immigration · news</p>",
-      "date_published": "2026-08-15T20:58:31+00:00",
-      "tags": [
-        "morocco",
-        "immigration",
-        "news"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-      "title": "通过扮演聊天机器人来嘲笑 AI",
-      "content_html": "<p><strong>Have a laugh at AI’s expense by roleplaying as a chatbot</strong></p><p>A new web tool allows users to roleplay as AI chatbots, highlighting the absurdity of current AI interactions. It features a simple interface where humans simulate both sides of a conversation.</p><p>一个新上线的网页工具允许用户扮演 AI 聊天机器人，从而凸显当前 AI 交互的荒谬性。该工具提供了一个简单的界面，让人类模拟对话的双方。</p><p>Tags: ai · chatbots · humor</p>",
-      "date_published": "2026-08-15T20:45:00+00:00",
-      "tags": [
-        "ai",
-        "chatbots",
-        "humor"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
-      "title": "“这是把双刃剑”：我丈夫拿到了 4.2 万美元奖金，这会影响我们的医保补贴吗？",
-      "content_html": "<p><strong>‘It’s a double-edged sword’: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?</strong></p><p>A reader asks about the potential impact of a significant work bonus on their Affordable Care Act subsidy eligibility. Financial experts provide guidance on how to manage the tax and benefit implications.</p><p>读者询问大额奖金是否会影响其医保补贴资格。财务专家就如何处理奖金带来的税收和福利影响提供了建议。</p><p>Tags: finance · insurance · taxes</p>",
-      "date_published": "2026-08-15T20:30:00+00:00",
-      "tags": [
-        "finance",
-        "insurance",
-        "taxes"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
-      "title": "我 63 岁，退休会计师，有 120 万美元 401(k)，还需要进行 Roth 转换吗？",
-      "content_html": "<p><strong>I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?</strong></p><p>A retired CPA considers whether a Roth IRA conversion makes sense given their current financial standing. The article weighs tax implications for those nearing or in retirement.</p><p>一名退休会计师咨询现在进行 Roth IRA 转换是否合理。文章分析了退休前后人群面临的税务考量。</p><p>Tags: retirement · roth · 401k</p>",
-      "date_published": "2026-08-15T20:00:00+00:00",
-      "tags": [
-        "retirement",
-        "roth",
-        "401k"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cn9nnxrxg4qo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cn9nnxrxg4qo?at_medium=RSS&at_campaign=rss",
-      "title": "列支敦士登修改王位继承法，允许女性登基",
-      "content_html": "<p><strong>Liechtenstein changes succession rule to allow women to ascend the throne</strong></p><p>The small European nation of Liechtenstein has updated its succession laws to ensure gender equality in royal inheritance. This historic change was announced during their national day celebrations.</p><p>欧洲小国列支敦士登修改了继承法，确保王位继承的性别平等。这一历史性变革是在其国庆日庆祝活动中宣布的。</p><p>Tags: liechtenstein · royalty · law</p>",
-      "date_published": "2026-08-15T19:41:57+00:00",
-      "tags": [
-        "liechtenstein",
-        "royalty",
-        "law"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories",
-      "title": "觉得现在利率很高？这些图表提供了不同的视角",
-      "content_html": "<p><strong>Think interest rates are high now? These charts offer a different perspective.</strong></p><p>This article provides a historical context for current interest rates, arguing that today&#x27;s levels are not unprecedented. It includes charts to help readers better understand long-term economic trends.</p><p>本文提供了当前利率的历史背景，指出目前的利率水平并非史无前例。文章通过图表帮助读者更好地理解长期经济趋势。</p><p>Tags: finance · interestrates · economy</p>",
-      "date_published": "2026-08-15T19:01:00+00:00",
-      "tags": [
-        "finance",
-        "interestrates",
-        "economy"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/owning-a-home-is-overrated-renting-is-now-often-a-much-better-money-move-711288a6?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/owning-a-home-is-overrated-renting-is-now-often-a-much-better-money-move-711288a6?mod=mw_rss_topstories",
-      "title": "买房被高估了，租房通常是更好的理财选择",
-      "content_html": "<p><strong>Owning a home is overrated. Renting is now often a much better money move.</strong></p><p>The article argues that homeownership is often considered a poor investment compared to renting and investing the difference. It encourages readers to rethink the financial benefits of owning property.</p><p>文章认为与租房并将差额资金进行投资相比，买房往往是一种被高估的投资方式。它鼓励读者重新审视住房拥有权的经济价值。</p><p>Tags: realestate · finance · renting</p>",
-      "date_published": "2026-08-15T18:23:00+00:00",
-      "tags": [
-        "realestate",
-        "finance",
-        "renting"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
-      "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
-      "title": "Semaglutide 与预测的痴呆症风险降低相关",
-      "content_html": "<p><strong>Semaglutide linked to lower predicted dementia risk</strong></p><p>New research suggests that the drug Semaglutide, typically used for diabetes and weight loss, may lower the risk of dementia. The findings could open new avenues for neurological disease prevention.</p><p>最新研究表明，通常用于糖尿病和减肥的药物司美格鲁肽可能降低痴呆症风险。这一发现可能为神经系统疾病预防开辟新路径。</p><p>Tags: health · science · semaglutide</p>",
-      "date_published": "2026-08-15T15:58:53+00:00",
-      "tags": [
-        "health",
-        "science",
-        "semaglutide"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1234608#reply0",
-      "url": "https://www.v2ex.com/t/1234608#reply0",
-      "title": "一个提供持续更新的生活经历和记忆的灵魂插件",
-      "content_html": "<p><strong>[分享创造] 一个提供 [持续更新的生活经历和记忆] 的灵魂插件</strong></p><p>This project introduces an MCP server that adds dynamic life experiences and memories to language model characters. It allows users to interact with evolving AI personas that maintain a consistent, shared background history.</p><p>该项目通过MCP服务器为语言模型角色注入动态的生活经历与记忆。用户可以与拥有持续背景和日常社交互动的AI人格进行交流。</p><p>Tags: llm · mcp · ai-agent</p>",
-      "date_published": "2026-08-15T07:23:42+00:00",
-      "tags": [
-        "llm",
-        "mcp",
-        "ai-agent"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss",
-      "title": "印尼发生7.7级地震，至少14人死亡",
-      "content_html": "<p><strong>At least 14 dead after 7.7-magnitude earthquake strikes Indonesia</strong></p><p>A powerful 7.7-magnitude earthquake struck off the coast of Flores island in eastern Indonesia early Saturday morning. At least 14 fatalities have been reported following the disaster.</p><p>周六清晨，印尼东部弗洛勒斯岛附近海域发生7.7级强震。目前已有至少14人在地震中不幸遇难。</p><p>Tags: earthquake · indonesia · disaster</p>",
-      "date_published": "2026-08-15T07:22:22+00:00",
-      "tags": [
-        "earthquake",
-        "indonesia",
-        "disaster"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1234607#reply1",
-      "url": "https://www.v2ex.com/t/1234607#reply1",
-      "title": "推荐我的下一个项目：ai.rich AI造富俱乐部",
-      "content_html": "<p><strong>[分享创造] 推荐一下我的下一个项目 ai.rich AI 造富俱乐部</strong></p><p>China Ciyuan Cloud Computing has acquired the ai.rich domain for 10 million HKD to expand its AI service capabilities. The company is also receiving additional funding to bolster its computing resources and technology infrastructure.</p><p>中国词元云计算斥资千万港币收购ai.rich域名，旨在拓展人工智能服务布局。公司同步获得增资，将重点投向算力资源建设及技术平台升级。</p><p>Tags: acquisition · ai · investment</p>",
-      "date_published": "2026-08-15T07:16:55+00:00",
-      "tags": [
-        "acquisition",
-        "ai",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1234606#reply0",
-      "url": "https://www.v2ex.com/t/1234606#reply0",
-      "title": "智友社新上架：GPT PLUS 稳定月卡成品号",
-      "content_html": "<p><strong>[推广] 智友社上新啦， GPT PLUS 稳定特殊渠道独享月卡成品号 6（日区，支持反代，购买 24 小时内非禁止网络账号问题可免费更换一次），欢迎您的试用反馈！</strong></p><p>A service provider is offering stable, exclusive GPT Plus monthly accounts specifically for the Japanese region. They claim to support reverse proxies and provide a 24-hour guarantee for account replacements.</p><p>服务商现提供面向日区的稳定GPT Plus月卡成品号。该服务支持反代，并承诺购买24小时内非违规封号可免费换新。</p><p>Tags: gpt-plus · openai · account</p>",
-      "date_published": "2026-08-15T07:16:46+00:00",
-      "tags": [
-        "gpt-plus",
-        "openai",
-        "account"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1234605#reply0",
-      "url": "https://www.v2ex.com/t/1234605#reply0",
-      "title": "周末福利：Proxy001 住宅代理服务",
-      "content_html": "<p><strong>[推广] 🎉周六福利｜ Proxy001 住宅代理： 1 亿 + 真实 IP / 230 + 国家 / 低至 $0.55GB，注册送 500M！</strong></p><p>Proxy001 is promoting its residential proxy service, claiming over 100 million IPs across 230 countries. They offer competitive pricing and a free trial for new users to facilitate cross-border business and data scraping.</p><p>Proxy001推广其住宅代理服务，拥有覆盖230个国家的1亿多IP资源。平台提供低价套餐及免费试用流量，旨在服务跨境电商与数据采集需求。</p><p>Tags: proxy · networking · ip</p>",
-      "date_published": "2026-08-15T07:16:02+00:00",
-      "tags": [
-        "proxy",
-        "networking",
-        "ip"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://sspai.com/post/111974",
-      "url": "https://sspai.com/post/111974",
-      "title": "有毒职场正在炼成：OKR变成KPI，敏捷开发变成切碎的瀑布",
-      "content_html": "<p><strong>有毒职场正在炼成：OKR 变成 KPI，敏捷开发变成切碎的瀑布</strong></p><p>The article critiques how modern management methodologies like OKR and Agile are often misused in workplaces. It argues that this leads to toxic environments and lost productivity.</p><p>本文批判了OKR与敏捷开发在职场中被误用的现象。作者认为这些原本高效的工具在错误操作下，反而会导致职场压抑与生产力下降。</p><p>Tags: management · workplace · productivity</p>",
-      "date_published": "2026-08-15T07:07:54+00:00",
-      "tags": [
-        "management",
-        "workplace",
-        "productivity"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1234604#reply3",
-      "url": "https://www.v2ex.com/t/1234604#reply3",
-      "title": "程序员：小学生开发“班级宠物园”，一个月爆卖40万",
-      "content_html": "<p><strong>[程序员] 小学生开发“班级宠物园”，一个月爆卖 40 万🔥</strong></p><p>A fifth-grade student reportedly earned 400,000 in revenue within 30 days by developing a website called &#x27;Classroom Pet Garden&#x27;. The project utilized AI programming tools and minimal server costs to achieve success.</p><p>一名五年级小学生通过独立开发“班级宠物园”网站，在30天内实现40万元收入。该项目主要依靠AI编程辅助，开发成本极低。</p><p>Tags: ai · development · entrepreneurship</p>",
-      "date_published": "2026-08-15T07:05:00+00:00",
-      "tags": [
-        "ai",
-        "development",
-        "entrepreneurship"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4937023-whale-insight-bitcoin-spot-volume-hits-7-year-low-late-stage-bear?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4937023-whale-insight-bitcoin-spot-volume-hits-7-year-low-late-stage-bear?source=feed_all_articles",
-      "title": "鲸鱼观察：比特币现货交易量跌至七年低点，处于熊市后期？",
-      "content_html": "<p><strong>Whale&#x27;s Insight: Bitcoin Spot Volume Hits A 7-Year Low, A Late-Stage Bear?</strong></p><p>Bitcoin spot trading volume has hit a seven-year low, sparking debate about market sentiment. Analysts are questioning whether this indicates the late stages of a prolonged bear market.</p><p>比特币现货交易量降至七年来的最低水平，引发市场关注。分析师正在评估这一现象是否标志着长期熊市已进入尾声。</p><p>Tags: bitcoin · crypto · market</p>",
-      "date_published": "2026-08-15T07:05:00+00:00",
-      "tags": [
-        "bitcoin",
-        "crypto",
-        "market"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4937014-vvr-improving-do-not-expect-distribution-hike?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4937014-vvr-improving-do-not-expect-distribution-hike?source=feed_all_articles",
-      "title": "VVR：情况有所好转，但不要指望派息增加",
-      "content_html": "<p><strong>VVR: Improving, But Don&#x27;t Expect A Distribution Hike</strong></p><p>VVR shows signs of operational improvement, but shareholders should remain cautious regarding income expectations. The analysis suggests that investors should not anticipate an increase in distribution payouts anytime soon.</p><p>尽管VVR运营状况有所改善，但股东对分红的预期仍需谨慎。分析建议投资者不应指望短期内会增加派息。</p><p>Tags: vvr · finance · dividends</p>",
-      "date_published": "2026-08-15T06:50:26+00:00",
-      "tags": [
-        "vvr",
-        "finance",
-        "dividends"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4937020-global-layers-of-ai-investment-cycle?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4937020-global-layers-of-ai-investment-cycle?source=feed_all_articles",
-      "title": "AI投资周期的全球层级",
-      "content_html": "<p><strong>The Global Layers Of The AI Investment Cycle</strong></p><p>This article explores the multi-layered nature of the current AI investment cycle. It breaks down how capital flows from infrastructure to applications across the global economy.</p><p>文章深入探讨了当前AI投资周期的多个层级。分析了资本如何从全球经济的基础设施流向各种应用场景。</p><p>Tags: ai · investment · economy</p>",
-      "date_published": "2026-08-15T06:50:00+00:00",
-      "tags": [
-        "ai",
-        "investment",
-        "economy"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4937018-china-gold-market-update-strong-official-sector-buying-in-july?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4937018-china-gold-market-update-strong-official-sector-buying-in-july?source=feed_all_articles",
-      "title": "中国黄金市场更新：七月官方部门购买强劲",
-      "content_html": "<p><strong>China Gold Market Update: Strong Official Sector Buying In July</strong></p><p>Data indicates that China&#x27;s official sector continued its strong streak of gold purchases throughout July. This trend reflects broader efforts in central bank reserves and market strategy.</p><p>数据显示，中国官方部门在七月份持续强力增持黄金。这一趋势反映了央行在储备管理及市场策略上的布局。</p><p>Tags: gold · china · finance</p>",
-      "date_published": "2026-08-15T06:45:00+00:00",
-      "tags": [
-        "gold",
-        "china",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4937017-what-is-economy-really-telling-us?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4937017-what-is-economy-really-telling-us?source=feed_all_articles",
-      "title": "经济究竟在向我们传达什么？",
-      "content_html": "<p><strong>What Is The Economy Really Telling Us?</strong></p><p>The article analyzes current economic indicators to interpret underlying trends. It attempts to decode whether the market signals a period of growth or looming instability.</p><p>文章通过分析当前经济指标来解读潜在趋势。试图判断市场信号所指向的是增长周期还是即将到来的不稳定期。</p><p>Tags: economy · analysis · macro</p>",
-      "date_published": "2026-08-15T06:20:00+00:00",
-      "tags": [
-        "economy",
-        "analysis",
-        "macro"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
-      "url": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
-      "title": "另一个肖恩·伯恩并不存在",
-      "content_html": "<p><strong>The other Sean Byrne doesn&#x27;t exist</strong></p><p>A brief discussion regarding the existence of individuals sharing common names. It concludes that the specific individual referred to as &#x27;the other Sean Byrne&#x27; is non-existent.</p><p>关于是否存在重名者的简短讨论。结论确认了文中提到的“另一个肖恩·伯恩”并不存在。</p><p>Tags: identity · names · discussion</p>",
-      "date_published": "2026-08-15T04:18:44+00:00",
-      "tags": [
-        "identity",
-        "names",
-        "discussion"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
-      "title": "印尼恩德西北偏北68公里处发生7.7级地震",
-      "content_html": "<p><strong>Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia</strong></p><p>A 7.7-magnitude earthquake occurred 68 kilometers northwest of Ende, Indonesia. Emergency response teams are monitoring the situation for casualties and damage.</p><p>印尼恩德西北偏北68公里处监测到7.7级地震。应急响应部门正密切关注震区伤亡情况及损失。</p><p>Tags: earthquake · indonesia · news</p>",
-      "date_published": "2026-08-15T01:14:05+00:00",
-      "tags": [
-        "earthquake",
-        "indonesia",
-        "news"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cd69ely319eo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cd69ely319eo?at_medium=RSS&at_campaign=rss",
-      "title": "BBC寻求在全景节目诉讼中传唤特朗普家人",
-      "content_html": "<p><strong>BBC seeks to subpoena Trump&#x27;s family members in Panorama lawsuit</strong></p><p>BBC lawyers are attempting to subpoena members of Donald Trump&#x27;s family. They argue that these individuals possess personal knowledge regarding the events of January 6, 2021.</p><p>BBC律师团队正试图传唤特朗普的家庭成员。理由是这些成员对2021年1月6日的事件拥有关键的知情权。</p><p>Tags: bbc · trump · lawsuit</p>",
-      "date_published": "2026-08-15T00:01:53+00:00",
-      "tags": [
-        "bbc",
-        "trump",
-        "lawsuit"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/berkshire-hathaway-doubles-down-on-the-u-s-housing-market-with-a-fresh-bet-on-this-stock-e5c8484a?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/berkshire-hathaway-doubles-down-on-the-u-s-housing-market-with-a-fresh-bet-on-this-stock-e5c8484a?mod=mw_rss_topstories",
-      "title": "伯克希尔·哈撒韦加码美国房地产市场，押注该股票",
-      "content_html": "<p><strong>Berkshire Hathaway doubles down on the U.S. housing market with a fresh bet on this stock</strong></p><p>Berkshire Hathaway has increased its investment in the U.S. housing market by purchasing more shares in a specific company. Additionally, the firm boosted stakes in Alphabet and Delta Air Lines.</p><p>伯克希尔·哈撒韦通过增持相关股票，进一步加大对美国房地产市场的押注。同时，公司还增加了对谷歌母公司Alphabet和达美航空的持股。</p><p>Tags: berkshire · housing · investment</p>",
-      "date_published": "2026-08-14T21:34:00+00:00",
-      "tags": [
-        "berkshire",
-        "housing",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
-      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
-      "title": "“去暗网”与执法部门黑客攻击时代",
-      "content_html": "<p><strong>Going Dark, and the era of law enforcement hacking</strong></p><p>This article discusses the rise of law enforcement using hacking techniques to combat digital crime. It explores the implications of this shift in the &#x27;going dark&#x27; era.</p><p>文章探讨了执法部门利用黑客技术打击数字犯罪的趋势。分析了在“去暗网”时代下，此类执法手段所带来的影响。</p><p>Tags: security · hacking · law-enforcement</p>",
-      "date_published": "2026-08-14T20:52:44+00:00",
-      "tags": [
-        "security",
-        "hacking",
-        "law-enforcement"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cwy0nlq1l2wo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cwy0nlq1l2wo?at_medium=RSS&at_campaign=rss",
-      "title": "曼吉奥内承认杀害医疗公司CEO并对联邦指控认罪",
-      "content_html": "<p><strong>Mangione admits killing healthcare CEO and pleads guilty to federal charges</strong></p><p>The 28-year-old suspect has pleaded guilty to federal charges for the killing of a healthcare CEO. He admitted to stalking the victim before committing the murder in Manhattan.</p><p>28岁的嫌疑人已就谋杀医疗公司CEO的联邦指控认罪。他承认在曼哈顿作案前曾对受害者进行了跟踪。</p><p>Tags: crime · manhattan · justice</p>",
-      "date_published": "2026-08-14T19:20:43+00:00",
-      "tags": [
-        "crime",
-        "manhattan",
-        "justice"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/gadgets/980547/samsung-galaxy-h1-over-ear-headphones",
-      "url": "https://www.theverge.com/gadgets/980547/samsung-galaxy-h1-over-ear-headphones",
-      "title": "三星正在研发新型Galaxy耳机",
-      "content_html": "<p><strong>Samsung has new Galaxy headphones in the works</strong></p><p>Samsung is reportedly developing over-ear headphones, identified as the &#x27;Galaxy H1&#x27;, according to code found in the Galaxy Wearable app. The product is expected to compete with AirPods Max and may launch in 2027.</p><p>据Galaxy Wearable应用代码显示，三星正在研发代号为“Galaxy H1”的头戴式耳机。这款产品预计于2027年发布，旨在与AirPods Max竞争。</p><p>Tags: samsung · audio · headphones</p>",
-      "date_published": "2026-08-14T19:18:45+00:00",
-      "tags": [
-        "samsung",
-        "audio",
-        "headphones"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/16-beaten-down-ai-stocks-that-are-beloved-by-bofa-analysts-3423dab2?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/16-beaten-down-ai-stocks-that-are-beloved-by-bofa-analysts-3423dab2?mod=mw_rss_topstories",
-      "title": "美银分析师青睐的16只受挫AI股票",
-      "content_html": "<p><strong>16 beaten-down AI stocks that are beloved by BofA analysts</strong></p><p>Bank of America analysts identify 16 AI-related stocks that have been oversold but show potential for recovery. The recommendations span across the hardware, internet, and energy sectors.</p><p>美国银行分析师盘点了16只被超卖但具备复苏潜力的AI相关股票。这些建议涵盖了硬件、互联网及能源领域。</p><p>Tags: ai · stocks · bofa</p>",
-      "date_published": "2026-08-14T19:09:00+00:00",
-      "tags": [
-        "ai",
-        "stocks",
-        "bofa"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.theverge.com/tech/979996/best-laptops-students-middle-high-school",
-      "url": "https://www.theverge.com/tech/979996/best-laptops-students-middle-high-school",
-      "title": "返校季笔记本电脑选购的“内存大灾难”指南",
-      "content_html": "<p><strong>A RAMageddon guide to back-to-school laptop shopping</strong></p><p>Rising RAM and storage prices have complicated laptop shopping for students this back-to-school season. This guide explains how to navigate the market to find affordable options despite the hardware crunch.</p><p>返校季期间，内存和存储价格的上涨使学生购机变得更加困难。本指南旨在帮助用户在硬件涨价的市场环境中找到性价比高的笔记本电脑。</p><p>Tags: laptop · hardware · student</p>",
-      "date_published": "2026-08-14T18:32:47+00:00",
-      "tags": [
-        "laptop",
-        "hardware",
-        "student"
-      ],
-      "_category": "TECH"
     }
   ]
 }
