@@ -6,6 +6,344 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1238212#reply2",
+      "url": "https://www.v2ex.com/t/1238212#reply2",
+      "title": "不消费不结婚之类的都是“果”，那么“因”是什么？",
+      "content_html": "<p><strong>[生活] 不消费不结婚之类的都是“果”，那么“因”是什么？</strong></p><p>The article explores the root causes behind contemporary social trends such as choosing not to consume or marry. It questions what underlying structural factors have driven people to adopt these lifestyle choices.</p><p>文章探讨了不消费、不结婚等现代社会现象背后的深层原因。分析了究竟是什么结构性因素导致人们选择了这些生活方式。</p><p>Tags: social · trends · economy</p>",
+      "date_published": "2026-08-30T12:22:42+00:00",
+      "tags": [
+        "social",
+        "trends",
+        "economy"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1238211#reply1",
+      "url": "https://www.v2ex.com/t/1238211#reply1",
+      "title": "从通用软件到工业软件 - 工业智能体",
+      "content_html": "<p><strong>[职场话题] 从通用软件到工业软件 - 工业智能体</strong></p><p>An entrepreneur discusses the shift from general software to industrial applications, focusing on building &#x27;industrial agents&#x27;. The author highlights the importance of deep domain expertise when developing AI solutions for manufacturing.</p><p>作者分享了从通用软件转型至工业软件的创业经验，重点关注“工业智能体”的开发。强调了在制造业AI领域，深入理解行业知识至关重要。</p><p>Tags: industrial · ai · startup</p>",
+      "date_published": "2026-08-30T12:19:37+00:00",
+      "tags": [
+        "industrial",
+        "ai",
+        "startup"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1238210#reply3",
+      "url": "https://www.v2ex.com/t/1238210#reply3",
+      "title": "App 上架 Apple AppStore，会员只接入支付宝是不是必通不过审核",
+      "content_html": "<p><strong>[程序员] App 上架 Apple AppStore，会员只接入支付宝是不是必通不过审核</strong></p><p>A developer asks if using only Alipay for in-app purchases will result in rejection by the Apple App Store. The discussion touches on the common requirement of using Apple&#x27;s IAP system.</p><p>开发者询问仅接入支付宝作为App内购支付方式是否会导致无法通过苹果商店审核。探讨了是否必须集成Apple IAP的问题。</p><p>Tags: ios · appstore · payment</p>",
+      "date_published": "2026-08-30T12:19:22+00:00",
+      "tags": [
+        "ios",
+        "appstore",
+        "payment"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+      "title": "载有约 270 人的船只在北塞浦路斯附近倾覆",
+      "content_html": "<p><strong>Boat carrying some 270 people capsizes off northern Cyprus</strong></p><p>A boat carrying approximately 270 people capsized off the coast of northern Cyprus. Rescue operations are currently underway, with 159 passengers confirmed to have been reached.</p><p>一艘载有约270人的船只在北塞浦路斯附近海域倾覆。目前救援行动正在进行中，已有159名乘客获救。</p><p>Tags: accident · rescue · cyprus</p>",
+      "date_published": "2026-08-30T12:15:50+00:00",
+      "tags": [
+        "accident",
+        "rescue",
+        "cyprus"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1238208#reply0",
+      "url": "https://www.v2ex.com/t/1238208#reply0",
+      "title": "我的自选股（第二期）",
+      "content_html": "<p><strong>[投资] 我的自选股（第二期）</strong></p><p>The author shares their latest curated stock list, focusing on low-risk assets and ETFs. They use pseudonyms for stocks to encourage objective analysis without bias.</p><p>作者发布了最新一期的自选股列表，主要涵盖低风险资产和ETF。为了客观分析，作者使用假名来替代真实股票名称。</p><p>Tags: stock · investment · etf</p>",
+      "date_published": "2026-08-30T12:15:32+00:00",
+      "tags": [
+        "stock",
+        "investment",
+        "etf"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1238207#reply0",
+      "url": "https://www.v2ex.com/t/1238207#reply0",
+      "title": "小孩子照片多，听人劝，吃饱饭，做了如下部署",
+      "content_html": "<p><strong>[Apple] 小孩子照片多，听人劝，吃饱饭，做了如下部署</strong></p><p>A user shares an elegant technical setup for managing children&#x27;s photos using a combination of iCloud, a custom NAS setup, and Immich. The workflow automates backups and enhances photo searching capabilities.</p><p>用户分享了一套优雅的照片管理方案，结合了iCloud、黑群晖和Immich。该流程实现了照片的自动化备份与智能化管理。</p><p>Tags: nas · photography · backup</p>",
+      "date_published": "2026-08-30T12:03:12+00:00",
+      "tags": [
+        "nas",
+        "photography",
+        "backup"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+      "url": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+      "title": "中国的机器人产业竞速前行",
+      "content_html": "<p><strong>China’s robots race ahead</strong></p><p>This article discusses the rapid advancement of the robotics industry in China. It explores the broader implications of the US-China race for AI dominance.</p><p>文章讨论了中国机器人产业的快速进步。同时也探讨了中美在人工智能领域竞争的深远影响。</p><p>Tags: robotics · china · ai</p>",
+      "date_published": "2026-08-30T12:00:00+00:00",
+      "tags": [
+        "robotics",
+        "china",
+        "ai"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/986280/mac-mini-studio-star-wars-zero-company-wyze-camera",
+      "url": "https://www.theverge.com/tech/986280/mac-mini-studio-star-wars-zero-company-wyze-camera",
+      "title": "两款全新的小型强力 Mac",
+      "content_html": "<p><strong>Two new small, powerful Macs</strong></p><p>A brief overview of the new compact and powerful Mac hardware released by Apple. It serves as a guide for users looking for high performance in a small form factor.</p><p>简要介绍了苹果新推出的两款小型且性能强大的Mac产品。为追求小体积高性能的用户提供了选购参考。</p><p>Tags: apple · mac · hardware</p>",
+      "date_published": "2026-08-30T12:00:00+00:00",
+      "tags": [
+        "apple",
+        "mac",
+        "hardware"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories",
+      "title": "AI 并没有吞噬软件行业——该行业的“史诗级”反弹可能持续到十月",
+      "content_html": "<p><strong>AI isn’t eating software after all — and the sector’s ‘epic’ rally could run through October</strong></p><p>The long-standing market fear that AI would replace subscription software is dissipating after strong earnings reports. Analysts suggest the current software sector rally may continue through October.</p><p>随着软件行业财报表现强劲，此前市场关于AI将取代订阅制软件的担忧正在消退。分析人士认为，该行业的上涨趋势可能会持续到十月。</p><p>Tags: ai · software · stocks</p>",
+      "date_published": "2026-08-30T12:00:00+00:00",
+      "tags": [
+        "ai",
+        "software",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4941395-miller-industries-isnt-cheap-enough-to-justify-an-upgrade?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4941395-miller-industries-isnt-cheap-enough-to-justify-an-upgrade?source=feed_all_articles",
+      "title": "Miller Industries 的价格不足以证明升级的合理性",
+      "content_html": "<p><strong>Miller Industries Isn&#x27;t Cheap Enough To Justify An Upgrade</strong></p><p>An investment analysis suggesting that Miller Industries&#x27; current valuation does not justify a stock upgrade. The author implies the stock is not &#x27;cheap enough&#x27; for purchase.</p><p>一份投资分析显示，Miller Industries目前的估值不足以支撑上调投资评级。作者认为该股票价格尚不够便宜。</p><p>Tags: finance · stocks · analysis</p>",
+      "date_published": "2026-08-30T12:00:00+00:00",
+      "tags": [
+        "finance",
+        "stocks",
+        "analysis"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4941543-my-reit-dream-team-part-i?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4941543-my-reit-dream-team-part-i?source=feed_all_articles",
+      "title": "我的 REIT 梦之队（第一部分）",
+      "content_html": "<p><strong>My REIT Dream Team (Part I)</strong></p><p>The first part of a series detailing the author&#x27;s preferred Real Estate Investment Trusts (REITs). It provides insights into building a dream portfolio of income-generating real estate assets.</p><p>这是作者关于心目中房地产投资信托（REITs）系列文章的第一部分。分享了如何构建以收益为核心的房地产投资组合。</p><p>Tags: reit · realestate · investment</p>",
+      "date_published": "2026-08-30T12:00:00+00:00",
+      "tags": [
+        "reit",
+        "realestate",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4941561-edenred-close-to-90-percent-since-march-approaching-pt?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4941561-edenred-close-to-90-percent-since-march-approaching-pt?source=feed_all_articles",
+      "title": "Edenred：自三月以来增长近 90%，接近目标价",
+      "content_html": "<p><strong>Edenred: Close To 90% Since March, Approaching PT</strong></p><p>An update on Edenred&#x27;s stock performance, noting it has gained nearly 90% since March. The analysis indicates the stock is currently approaching its defined target price.</p><p>关于Edenred股价表现的更新，指出其自三月以来已上涨近90%。分析认为该股目前正接近目标价格。</p><p>Tags: stock · edenred · market</p>",
+      "date_published": "2026-08-30T11:55:58+00:00",
+      "tags": [
+        "stock",
+        "edenred",
+        "market"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4941233-income-trap-is-getting-worse-and-good-options-are-running-out?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4941233-income-trap-is-getting-worse-and-good-options-are-running-out?source=feed_all_articles",
+      "title": "收益陷阱日益严重，好的选择正在枯竭",
+      "content_html": "<p><strong>The Income Trap Is Getting Worse - And Good Options Are Running Out</strong></p><p>The article warns that high-yield investment traps are becoming more prevalent. It suggests that good, reliable income-generating opportunities are harder to find.</p><p>文章警告称，高收益投资陷阱正变得越来越普遍。作者指出，优质且可靠的收益来源正变得越来越稀缺。</p><p>Tags: finance · investment · yield</p>",
+      "date_published": "2026-08-30T11:30:00+00:00",
+      "tags": [
+        "finance",
+        "investment",
+        "yield"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
+      "title": "瑞士狂欢派对发生枪击案，一名 22 岁女性死亡，五人受伤",
+      "content_html": "<p><strong>Manhunt after shooting at Swiss rave kills woman, 22, and injures five</strong></p><p>A shooting occurred at a techno rave near Zurich, resulting in the death of a 22-year-old woman. Five others were injured, and a manhunt for the shooter is underway.</p><p>苏黎世附近的一场电音派对发生枪击事件，导致一名22岁女性死亡，另有五人受伤。目前警方正在搜捕凶手。</p><p>Tags: crime · shooting · switzerland</p>",
+      "date_published": "2026-08-30T11:25:11+00:00",
+      "tags": [
+        "crime",
+        "shooting",
+        "switzerland"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4941560-druckenmiller-warning-bond-market-already-priced-it?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4941560-druckenmiller-warning-bond-market-already-priced-it?source=feed_all_articles",
+      "title": "Druckenmiller 警告：债券市场已经定价了",
+      "content_html": "<p><strong>Druckenmiller Warning: The Bond Market Already Priced It</strong></p><p>Investor Stanley Druckenmiller warns about market conditions, noting that the bond market has already priced in current economic expectations. This suggests limited room for surprises.</p><p>投资人德鲁肯米勒对市场发出警告，指出债券市场已经计入了当前的经济预期。这意味着市场出现意外变动的空间有限。</p><p>Tags: bonds · market · economy</p>",
+      "date_published": "2026-08-30T11:10:00+00:00",
+      "tags": [
+        "bonds",
+        "market",
+        "economy"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+      "title": "冰岛投票反对重启加入欧盟的谈判",
+      "content_html": "<p><strong>Iceland votes against restarting talks on joining EU</strong></p><p>Icelandic voters have rejected the government&#x27;s proposal to resume negotiations for joining the European Union. Approximately 52.8% of voters voted against the initiative.</p><p>冰岛选民投票拒绝了政府重启加入欧盟谈判的提议。约52.8%的选民投票反对这一举措。</p><p>Tags: iceland · eu · politics</p>",
+      "date_published": "2026-08-30T10:49:11+00:00",
+      "tags": [
+        "iceland",
+        "eu",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://git.zx2c4.com/spark/about/",
+      "url": "https://git.zx2c4.com/spark/about/",
+      "title": "Spark：在终端中使用的迷你图",
+      "content_html": "<p><strong>Spark: Sparklines in your shell</strong></p><p>A tool that generates sparklines directly within the command line shell. It is a useful utility for visualizing data trends in terminal environments.</p><p>介绍了一款可以在命令行终端中生成迷你图的工具。对于在终端环境中可视化数据趋势非常实用。</p><p>Tags: cli · terminal · visualization</p>",
+      "date_published": "2026-08-30T10:02:16+00:00",
+      "tags": [
+        "cli",
+        "terminal",
+        "visualization"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://blog.lyc8503.net/en/post/dn42-2-dnet/",
+      "url": "https://blog.lyc8503.net/en/post/dn42-2-dnet/",
+      "title": "每个人都应该构建自己的网络栈",
+      "content_html": "<p><strong>Everyone Should Build Their Own Network Stack</strong></p><p>A technical discussion advocating for the personal development of network stacks. It encourages developers to understand the foundational layers of communication protocols.</p><p>技术讨论，倡导开发者亲自构建自己的网络栈。鼓励开发者通过实践深入理解通信协议的基础层面。</p><p>Tags: networking · programming · protocols</p>",
+      "date_published": "2026-08-30T09:52:15+00:00",
+      "tags": [
+        "networking",
+        "programming",
+        "protocols"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+      "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+      "title": "英国人希望他们的私人信息保持私密",
+      "content_html": "<p><strong>Brits would quite like their private messages to stay private</strong></p><p>The article discusses public sentiment in the UK regarding the privacy of digital communications. Most Brits emphasize the importance of keeping their private messages confidential.</p><p>讨论了英国公众对于数字通讯隐私的态度。大多数英国人强调保持私人信息机密的重要性。</p><p>Tags: privacy · security · uk</p>",
+      "date_published": "2026-08-30T09:26:08+00:00",
+      "tags": [
+        "privacy",
+        "security",
+        "uk"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+      "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+      "title": "QubesOS 中通过复制到虚拟机错误报告反向通道的任意代码执行漏洞",
+      "content_html": "<p><strong>Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel</strong></p><p>A security advisory detailing a vulnerability in QubesOS. An attacker can execute arbitrary code by exploiting a specific backchannel in the error reporting mechanism.</p><p>披露了QubesOS中存在的一个安全漏洞。攻击者可通过利用错误报告机制中的特定反向通道来执行任意代码。</p><p>Tags: security · qubesos · vulnerability</p>",
+      "date_published": "2026-08-30T08:51:39+00:00",
+      "tags": [
+        "security",
+        "qubesos",
+        "vulnerability"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://arxiv.org/abs/1804.07389",
+      "url": "https://arxiv.org/abs/1804.07389",
+      "title": "地球上最长的水上或陆地直线路径 (2018)",
+      "content_html": "<p><strong>Longest Straight Line Paths on Water or Land on the Earth (2018)</strong></p><p>An exploration of the longest straight-line paths one can travel on Earth across land or water. It uses geographic data to map out these extreme routes.</p><p>探讨了地球上可以在陆地或水域上行进的最长直线路径。利用地理数据规划出了这些极致的路线。</p><p>Tags: geography · earth · data</p>",
+      "date_published": "2026-08-30T08:23:26+00:00",
+      "tags": [
+        "geography",
+        "earth",
+        "data"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://sspai.com/post/113974",
+      "url": "https://sspai.com/post/113974",
+      "title": "城市漫步指南 | 佛罗伦萨：来自六月的梦幻艺术夏令营",
+      "content_html": "<p><strong>城市漫步指南 | 佛罗伦萨：来自六月的梦幻艺术夏令营</strong></p><p>A travel guide to Florence, inspired by its appearance in a popular travel variety show. It captures the artistic atmosphere and beauty of the city during the summer.</p><p>一份受综艺节目启发而撰写的佛罗伦萨城市漫步指南。捕捉了这座城市在夏日的艺术气息与魅力。</p><p>Tags: travel · florence · guide</p>",
+      "date_published": "2026-08-30T07:00:00+00:00",
+      "tags": [
+        "travel",
+        "florence",
+        "guide"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&at_campaign=rss",
+      "title": "WhatsApp 聊天记录被用于洗钱和极端主义活动",
+      "content_html": "<p><strong>WhatsApp chat used to send cash for crime and extremism</strong></p><p>Criminal groups are using WhatsApp to launder money and organize extremist activities globally. The lack of a paper trail makes these transactions difficult to trace.</p><p>犯罪集团正利用WhatsApp在世界各地进行洗钱和组织极端主义活动。由于缺乏书面记录，此类交易极难被追踪。</p><p>Tags: crime · whatsapp · security</p>",
+      "date_published": "2026-08-30T04:59:56+00:00",
+      "tags": [
+        "crime",
+        "whatsapp",
+        "security"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cpq09594vw7o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cpq09594vw7o?at_medium=RSS&at_campaign=rss",
+      "title": "加拿大在安大略湖安装大型标志，最新挑衅美国",
+      "content_html": "<p><strong>Large Lake Ontario sign installed in Canada in latest jab at US</strong></p><p>Ontario has installed a prominent sign along the shoreline labeled &#x27;Lake Ontario&#x27;, perceived as a jab at the US. This highlights ongoing regional border tensions.</p><p>安大略省在湖岸安装了一个显眼的“安大略湖”标志，被视为对美国的一次挑衅。这凸显了地区间的边界紧张关系。</p><p>Tags: politics · canada · usa</p>",
+      "date_published": "2026-08-30T00:17:25+00:00",
+      "tags": [
+        "politics",
+        "canada",
+        "usa"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "title": "索尼音乐和华纳查佩尔起诉 Anthropic",
+      "content_html": "<p><strong>Sony Music and Warner Chappell are suing Anthropic</strong></p><p>Major music labels are suing AI company Anthropic for copyright infringement. They seek damages for the unauthorized use of their copyrighted works in AI training.</p><p>大型音乐公司正起诉AI公司Anthropic侵犯版权。诉讼涉及在其AI训练中使用受版权保护的作品，并要求赔偿。</p><p>Tags: anthropic · copyright · lawsuit</p>",
+      "date_published": "2026-08-29T18:19:53+00:00",
+      "tags": [
+        "anthropic",
+        "copyright",
+        "lawsuit"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
+      "title": "我 84 岁，妻子 77 岁，存款 800 万美元，我太老而不能进行罗斯转换了吗？",
+      "content_html": "<p><strong>Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.</strong></p><p>An elderly couple with significant savings inquires about the viability of Roth conversions. They are also concerned about high financial advisory fees.</p><p>一对拥有大量积蓄的老年夫妇咨询进行罗斯转换的可行性。同时也表达了对高昂财务咨询费用的担忧。</p><p>Tags: retirement · roth · finance</p>",
+      "date_published": "2026-08-29T16:30:00+00:00",
+      "tags": [
+        "retirement",
+        "roth",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
       "id": "https://seekingalpha.com/article/4941461-element-solutions-the-merger-was-noise-the-case-still-stands?source=feed_all_articles",
       "url": "https://seekingalpha.com/article/4941461-element-solutions-the-merger-was-noise-the-case-still-stands?source=feed_all_articles",
       "title": "Element Solutions：合并只是杂音，投资逻辑依然成立",
@@ -2266,344 +2604,6 @@
         "geopolitics"
       ],
       "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cx2z889l0dxo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z889l0dxo?at_medium=RSS&at_campaign=rss",
-      "title": "前板球队长敦促为伊姆兰·汗提供适当医疗护理",
-      "content_html": "<p><strong>Ex-cricket captains urge &#x27;proper medical care&#x27; for Imran Khan</strong></p><p>Former cricket captains have called for Pakistan to provide proper medical care for Imran Khan. They emphasize that complying with court-ordered assessments is a matter of basic decency.</p><p>多名前板球队长呼吁巴基斯坦为伊姆兰·汗提供适当医疗护理。他们强调遵守法院指令进行医疗评估是基本准则。</p><p>Tags: pakistan · politics · humanrights</p>",
-      "date_published": "2026-08-24T03:55:35+00:00",
-      "tags": [
-        "pakistan",
-        "politics",
-        "humanrights"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://sspai.com/post/112983",
-      "url": "https://sspai.com/post/112983",
-      "title": "快捷指令：在 iPhone 上实现特定 App 的独立音量控制",
-      "content_html": "<p><strong>快捷指令 | 让特定 app 小点声：在 iPhone 上实现独立音量控制</strong></p><p>This guide explains how to use iOS Shortcuts to set specific volume levels for individual apps. Although native support is lacking, this workaround provides a functional solution.</p><p>本指南介绍了如何利用 iOS 快捷指令为特定 App 设置独立音量。尽管系统原生不支持，但该方法提供了有效的替代方案。</p><p>Tags: ios · shortcut · iphone</p>",
-      "date_published": "2026-08-24T03:30:44+00:00",
-      "tags": [
-        "ios",
-        "shortcut",
-        "iphone"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
-      "title": "股市期货平稳，美加贸易战一触即发",
-      "content_html": "<p><strong>Stock futures flat as U.S. and Canada appear headed for trade war</strong></p><p>U.S. stock futures remain flat as tensions escalate with Canada. Observers fear the two nations are on the verge of an all-out trade war.</p><p>由于与加拿大的紧张局势加剧，美股期货表现平稳。市场担忧美加两国正处于全面贸易战的边缘。</p><p>Tags: stocks · trade · economy</p>",
-      "date_published": "2026-08-24T03:02:00+00:00",
-      "tags": [
-        "stocks",
-        "trade",
-        "economy"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://sspai.com/post/113767",
-      "url": "https://sspai.com/post/113767",
-      "title": "派早报：九家车企召回 430 万辆汽车，英伟达达成 70 亿合作",
-      "content_html": "<p><strong>派早报：九家车企召回近 430 万辆不易识别应急拉手汽车</strong></p><p>This morning briefing covers the recall of 4.3 million cars by nine automakers and Nvidia&#x27;s new $7 billion partnership. It also mentions legal updates on copyright and consumer protection.</p><p>早报汇总了九家车企召回 430 万辆汽车的消息及英伟达 70 亿美元的合作。同时提到了著作权司法解释及消费欺诈处罚。</p><p>Tags: tech · news · industry</p>",
-      "date_published": "2026-08-23T23:13:55+00:00",
-      "tags": [
-        "tech",
-        "news",
-        "industry"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://schlarp.com/posts/everything-i-own-owned/",
-      "url": "https://schlarp.com/posts/everything-i-own-owned/",
-      "title": "我所拥有的一切，曾被拥有",
-      "content_html": "<p><strong>Everything I own, owned</strong></p><p>A reflective piece on the transient nature of material possessions and the digital age. It explores the concept of ownership in an era where assets are increasingly temporary.</p><p>这是一篇关于物质所有权与数字时代本质的反思文章。探讨了在资产日益临时化的时代，“拥有”这一概念的变迁。</p><p>Tags: philosophy · lifestyle · digital</p>",
-      "date_published": "2026-08-23T22:41:04+00:00",
-      "tags": [
-        "philosophy",
-        "lifestyle",
-        "digital"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://twitter.com/paulg/status/2091544343589060625",
-      "url": "https://twitter.com/paulg/status/2091544343589060625",
-      "title": "如果我 17 岁，我会学习从零构建大模型",
-      "content_html": "<p><strong>I were 17, I&#x27;d learn how to build LLMs from scratch</strong></p><p>A discussion on the importance of learning to build LLMs from scratch. Experts argue that understanding the fundamentals is crucial for the next generation of developers.</p><p>讨论了从零开始构建大模型的重要性。专家认为，掌握底层逻辑对下一代开发者至关重要。</p><p>Tags: llm · education · coding</p>",
-      "date_published": "2026-08-23T20:38:09+00:00",
-      "tags": [
-        "llm",
-        "education",
-        "coding"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
-      "url": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
-      "title": "GTA VI：Rockstar 下一部大作的最新新闻",
-      "content_html": "<p><strong>GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series</strong></p><p>Grand Theft Auto VI has faced multiple delays, with the release date now pushed to late 2026. Fans and analysts continue to track the development progress of this highly anticipated title.</p><p>《GTA VI》经历多次跳票，发售日期已推迟至 2026 年底。玩家与分析师持续关注这一备受瞩目大作的开发进度。</p><p>Tags: gta · gaming · rockstar</p>",
-      "date_published": "2026-08-23T19:14:37+00:00",
-      "tags": [
-        "gta",
-        "gaming",
-        "rockstar"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/entertainment/983177/jane-schoenbrun-were-all-going-to-the-worlds-fair-horror-movie-review",
-      "url": "https://www.theverge.com/entertainment/983177/jane-schoenbrun-were-all-going-to-the-worlds-fair-horror-movie-review",
-      "title": "《我们都要去世界博览会》：一部私密的青春恐怖片",
-      "content_html": "<p><strong>We’re All Going to the World’s Fair is an intimate coming-of-age horror film</strong></p><p>A revisit of the indie horror film &#x27;We’re All Going to the World’s Fair&#x27;. The article explores its themes of coming-of-age and the unsettling nature of internet subcultures.</p><p>回顾独立恐怖片《我们都要去世界博览会》。文章探讨了其成长主题及互联网亚文化中令人不安的特质。</p><p>Tags: film · horror · review</p>",
-      "date_published": "2026-08-23T15:00:00+00:00",
-      "tags": [
-        "film",
-        "horror",
-        "review"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
-      "url": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
-      "title": "《GTA VI》存在于它自己的宇宙中",
-      "content_html": "<p><strong>Grand Theft Auto VI exists in its own universe</strong></p><p>This article discusses the narrative scope and universe of Grand Theft Auto VI. It highlights the game&#x27;s unique place within the current gaming industry landscape.</p><p>本文讨论了《GTA VI》的叙事规模及其宇宙观，强调了该游戏在当前游戏产业中的独特地位。</p><p>Tags: gta · gaming · industry</p>",
-      "date_published": "2026-08-23T12:00:00+00:00",
-      "tags": [
-        "gta",
-        "gaming",
-        "industry"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1236568#reply0",
-      "url": "https://www.v2ex.com/t/1236568#reply0",
-      "title": "MakePaper 重磅新功能即将上线，把你的图片变成油画风",
-      "content_html": "<p><strong>[分享创造] [送码] MakePaper 重磅新功能即将上线，把你的图片变成油画风</strong></p><p>MakePaper is a wallpaper creation app that allows users to customize backgrounds and foreground text. It has recently introduced a new feature that transforms user photos into an oil painting style with adjustable brushes and brightness.</p><p>MakePaper 是一款支持自定义背景和文字的壁纸创作应用。最新推出的油画风功能允许用户通过笔刷和亮度设置将图片转化为艺术风格。</p><p>Tags: app · design · wallpaper</p>",
-      "date_published": "2026-08-23T07:22:59+00:00",
-      "tags": [
-        "app",
-        "design",
-        "wallpaper"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1236567#reply0",
-      "url": "https://www.v2ex.com/t/1236567#reply0",
-      "title": "有没有过了 CVP/cyber 认证的中转站？",
-      "content_html": "<p><strong>[OpenAI] 有没有过了 CVP/cyber 认证的中转站？</strong></p><p>A user is seeking a ChatGPT proxy service that has passed CVP/cyber security verification. They need a system that can bypass strict corporate security filters to access advanced AI models for research.</p><p>用户寻找已通过 CVP/cyber 安全认证的 ChatGPT 中转站。其目的是规避严格的网络审查，以便正常使用前沿人工智能模型。</p><p>Tags: openai · proxy · security</p>",
-      "date_published": "2026-08-23T07:16:44+00:00",
-      "tags": [
-        "openai",
-        "proxy",
-        "security"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4939395-scott-bessent-might-have-started-the-bitcoin-bull-cycle?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4939395-scott-bessent-might-have-started-the-bitcoin-bull-cycle?source=feed_all_articles",
-      "title": "斯科特·贝森特可能开启了比特币牛市周期",
-      "content_html": "<p><strong>Scott Bessent Might Have Started The Bitcoin Bull Cycle</strong></p><p>Scott Bessent&#x27;s market influence might be signaling the beginning of a new Bitcoin bull run. This analysis explores the potential macroeconomic catalysts driving current cryptocurrency trends.</p><p>斯科特·贝森特的市场影响力可能标志着比特币新一轮牛市的开始。本文分析了推动当前加密货币趋势的宏观经济催化剂。</p><p>Tags: bitcoin · crypto · finance</p>",
-      "date_published": "2026-08-23T07:16:31+00:00",
-      "tags": [
-        "bitcoin",
-        "crypto",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1236566#reply0",
-      "url": "https://www.v2ex.com/t/1236566#reply0",
-      "title": "有没有 OpenAI 下一代模型发布的消息吗？",
-      "content_html": "<p><strong>[OpenAI] 有 openai 的下一代模型发布的消息吗？ 5.6 之后还要等多久？</strong></p><p>Users are inquiring about the release schedule for OpenAI&#x27;s next-generation model. Speculation persists regarding how long it will take for successors to the current version to launch.</p><p>用户正在询问 OpenAI 下一代模型的发布时间表。关于当前版本后继者何时发布的问题引发了广泛讨论。</p><p>Tags: openai · llm · ai</p>",
-      "date_published": "2026-08-23T07:12:03+00:00",
-      "tags": [
-        "openai",
-        "llm",
-        "ai"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1236565#reply1",
-      "url": "https://www.v2ex.com/t/1236565#reply1",
-      "title": "ChatGPT 提示请求过于频繁",
-      "content_html": "<p><strong>[问与答] chatgpt: 你的请求过于频繁。为保障数据安全，我们已暂时限制你访问对话记录。</strong></p><p>A user reports being restricted from accessing ChatGPT conversation logs due to frequent request errors. The issue persists despite using a clean IP and having sufficient usage quotas.</p><p>用户反映因请求过于频繁而被限制访问 ChatGPT 对话记录。尽管 IP 环境正常且配额充足，该限制问题仍持续存在。</p><p>Tags: chatgpt · openai · bug</p>",
-      "date_published": "2026-08-23T07:08:44+00:00",
-      "tags": [
-        "chatgpt",
-        "openai",
-        "bug"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1236564#reply0",
-      "url": "https://www.v2ex.com/t/1236564#reply0",
-      "title": "X Premium 3 个月 6 刀的优惠是否便宜？",
-      "content_html": "<p><strong>[Twitter] 找到个 x premium3 个月 6 刀的优惠，算便宜吗？之前听说是 3 个月 3 刀？</strong></p><p>A user is questioning whether a promotional deal for X Premium at $6 for three months is considered a good price. They recall hearing about a cheaper $3 deal in the past.</p><p>用户咨询 X Premium 三个月 6 美元的促销活动是否优惠。他们此前曾听说过更便宜的 3 美元订阅价格。</p><p>Tags: twitter · subscription · x</p>",
-      "date_published": "2026-08-23T07:08:43+00:00",
-      "tags": [
-        "twitter",
-        "subscription",
-        "x"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4939392-hewlett-packard-enterprise-ai-infrastructure-and-juniper-could-unlock-the-next-growth-phase?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4939392-hewlett-packard-enterprise-ai-infrastructure-and-juniper-could-unlock-the-next-growth-phase?source=feed_all_articles",
-      "title": "慧与科技：AI 基础设施与瞻博网络可能解锁下一增长阶段",
-      "content_html": "<p><strong>Hewlett Packard Enterprise: AI Infrastructure And Juniper Could Unlock The Next Growth Phase</strong></p><p>HPE&#x27;s integration of AI infrastructure and the acquisition of Juniper Networks are seen as key growth drivers. This strategy positions the company to better compete in the evolving enterprise tech market.</p><p>慧与科技（HPE）的 AI 基础设施布局及对瞻博网络的收购被视为增长动力。这一战略使公司在企业科技市场更具竞争力。</p><p>Tags: hpe · juniper · ai</p>",
-      "date_published": "2026-08-23T06:33:40+00:00",
-      "tags": [
-        "hpe",
-        "juniper",
-        "ai"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4939393-week-ahead-warsh-at-jackson-hole?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4939393-week-ahead-warsh-at-jackson-hole?source=feed_all_articles",
-      "title": "本周前瞻：Warsh 在杰克逊霍尔会议",
-      "content_html": "<p><strong>Week Ahead: Warsh At Jackson Hole</strong></p><p>The financial world is looking ahead to Warsh&#x27;s appearance at the Jackson Hole economic symposium. His insights are expected to influence market expectations regarding monetary policy.</p><p>金融界正关注 Warsh 在杰克逊霍尔经济研讨会上的发言。他的观点预计将影响市场对货币政策的预期。</p><p>Tags: finance · economy · jacksonhole</p>",
-      "date_published": "2026-08-23T06:05:00+00:00",
-      "tags": [
-        "finance",
-        "economy",
-        "jacksonhole"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://malisper.me/jit-compiling-code-in-5-us/",
-      "url": "https://malisper.me/jit-compiling-code-in-5-us/",
-      "title": "5微秒内进行 JIT 代码编译",
-      "content_html": "<p><strong>JIT Compiling Code in 5μs</strong></p><p>This article discusses technical methods for achieving extremely fast JIT compilation. It highlights how developers are optimizing code execution to meet high-performance requirements.</p><p>本文讨论了实现极速 JIT 编译的技术方法。文章重点介绍了开发者如何通过优化代码执行以满足高性能需求。</p><p>Tags: jit · programming · performance</p>",
-      "date_published": "2026-08-23T06:04:51+00:00",
-      "tags": [
-        "jit",
-        "programming",
-        "performance"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4939391-novanta-a-strong-year-so-far-fully-priced-in?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4939391-novanta-a-strong-year-so-far-fully-priced-in?source=feed_all_articles",
-      "title": "Novanta：表现强劲的一年，估值已充分反映",
-      "content_html": "<p><strong>Novanta: A Strong Year So Far, Fully Priced In</strong></p><p>Novanta has experienced a successful year, but current stock prices are believed to fully account for its achievements. Investors are advised to be cautious given the limited upside potential.</p><p>Novanta 今年表现出色，但目前的股价被认为已充分反映了其业绩。鉴于上涨空间有限，投资者被建议保持谨慎。</p><p>Tags: novanta · stocks · finance</p>",
-      "date_published": "2026-08-23T05:51:44+00:00",
-      "tags": [
-        "novanta",
-        "stocks",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "http://www.os2museum.com/wp/the-end-of-an-athlon/",
-      "url": "http://www.os2museum.com/wp/the-end-of-an-athlon/",
-      "title": "Athlon 的终结",
-      "content_html": "<p><strong>The End of an Athlon</strong></p><p>The article marks the historical end of the Athlon processor brand. It reflects on the legacy and impact this CPU line had on the computing landscape.</p><p>本文纪念了 Athlon 处理器品牌的历史终结。文章回顾了该 CPU 系列对计算领域产生的深远影响。</p><p>Tags: amd · cpu · hardware</p>",
-      "date_published": "2026-08-23T05:51:01+00:00",
-      "tags": [
-        "amd",
-        "cpu",
-        "hardware"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-      "title": "特朗普称贸易谈判破裂后加拿大想获得美国州份的“福利”",
-      "content_html": "<p><strong>Trump says Canada wants &#x27;benefits&#x27; of being US state after trade talks collapse</strong></p><p>Following the collapse of trade negotiations, Donald Trump remarked that Canada seeks the benefits of being a U.S. state. The situation has heightened tensions between the two nations.</p><p>贸易谈判破裂后，特朗普称加拿大想要获得作为美国州份的福利。这一言论加剧了两国之间的紧张局势。</p><p>Tags: trump · canada · trade</p>",
-      "date_published": "2026-08-23T05:46:43+00:00",
-      "tags": [
-        "trump",
-        "canada",
-        "trade"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4939390-even-after-doubling-seneca-foods-corporation-offers-tasty-upside?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4939390-even-after-doubling-seneca-foods-corporation-offers-tasty-upside?source=feed_all_articles",
-      "title": "股价翻倍后，Seneca Foods 公司仍提供诱人的上行空间",
-      "content_html": "<p><strong>Even After Doubling, Seneca Foods Corporation Offers Tasty Upside</strong></p><p>Despite recent stock gains, Seneca Foods is still considered an attractive investment. Financial analysis suggests potential for further growth for interested stakeholders.</p><p>尽管股价近期翻倍，Seneca Foods 仍被认为具有投资吸引力。金融分析表明其未来仍有增长空间。</p><p>Tags: stocks · finance · investing</p>",
-      "date_published": "2026-08-23T05:24:58+00:00",
-      "tags": [
-        "stocks",
-        "finance",
-        "investing"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
-      "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
-      "title": "成为更好作家的黄金法则",
-      "content_html": "<p><strong>The Golden Rule for Becoming a Better Writer</strong></p><p>This piece outlines core principles for improving writing quality. It focuses on practice, consistency, and clarity as the fundamental pillars for aspiring authors.</p><p>本文概述了提升写作质量的核心原则。文章强调练习、坚持和清晰度是作者成长的根本支柱。</p><p>Tags: writing · skills · productivity</p>",
-      "date_published": "2026-08-23T03:32:25+00:00",
-      "tags": [
-        "writing",
-        "skills",
-        "productivity"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://martypc.net/",
-      "url": "https://martypc.net/",
-      "title": "MartyPC 是一个用 Rust 编写的跨平台早期 PC 模拟器",
-      "content_html": "<p><strong>MartyPC is a cross-platform emulator of early PCs written in Rust</strong></p><p>MartyPC is a cross-platform emulator designed to recreate early PC environments. It is built using the Rust programming language for enhanced stability and performance.</p><p>MartyPC 是一款旨在复现早期 PC 环境的跨平台模拟器。它使用 Rust 编程语言构建，以提升稳定性和性能。</p><p>Tags: rust · emulator · retro</p>",
-      "date_published": "2026-08-23T03:13:16+00:00",
-      "tags": [
-        "rust",
-        "emulator",
-        "retro"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://sspai.com/post/113002",
-      "url": "https://sspai.com/post/113002",
-      "title": "让 PC 与 HomePod 互联：音频串流工具 WinAirCast",
-      "content_html": "<p><strong>让 PC 与 HomePod 互联：音频串流工具 WinAirCast</strong></p><p>WinAirCast provides a solution for Windows users to stream audio to HomePods. It aims to bridge ecosystem gaps with low latency and high stability.</p><p>WinAirCast 为 Windows 用户提供了向 HomePod 串流音频的解决方案。该工具旨在通过低延迟和高稳定性打破生态壁垒。</p><p>Tags: windows · audio · homepod</p>",
-      "date_published": "2026-08-23T03:00:00+00:00",
-      "tags": [
-        "windows",
-        "audio",
-        "homepod"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://henry.codes/writing/i-dream-of-quieter-computing/",
-      "url": "https://henry.codes/writing/i-dream-of-quieter-computing/",
-      "title": "我梦想更安静的计算",
-      "content_html": "<p><strong>I Dream of Quieter Computing</strong></p><p>The author discusses the desire for quieter computing environments and hardware design. It explores the intersection of noise reduction and modern PC performance.</p><p>作者探讨了对更安静计算环境和硬件设计的渴望。文章分析了降噪与现代 PC 性能之间的平衡。</p><p>Tags: computing · hardware · design</p>",
-      "date_published": "2026-08-23T02:33:22+00:00",
-      "tags": [
-        "computing",
-        "hardware",
-        "design"
-      ],
-      "_category": "TECH"
     }
   ]
 }
