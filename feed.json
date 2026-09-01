@@ -6,6 +6,412 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1238755#reply0",
+      "url": "https://www.v2ex.com/t/1238755#reply0",
+      "title": "一款开源的 AE 插件，可生成可编辑的真关键帧动画",
+      "content_html": "<p><strong>[Motion] 这次砸了所有付费 ai 生成插件的饭碗，写了个 AE 插件，让它输出真关键帧而不是渲染好的视频（开源）</strong></p><p>This new open-source After Effects plugin allows users to generate native, editable keyframes instead of fixed video renders. It supports custom provider configurations, including local Ollama or personal API keys, ensuring complete offline workflow control.</p><p>这款开源 After Effects 插件支持生成原生、可编辑的关键帧，而非不可修改的渲染视频。它支持多种本地或 API 配置，允许用户将个人工作规范应用于 AI 生成内容，且完全离线可用。</p><p>Tags: ai · aftereffects · automation · opensource</p>",
+      "date_published": "2026-09-01T12:15:09+00:00",
+      "tags": [
+        "ai",
+        "aftereffects",
+        "automation",
+        "opensource"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+      "title": "父亲资助了我的 80 万美元 Roth IRA，他有权干涉我的投资决策吗？",
+      "content_html": "<p><strong>‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?</strong></p><p>A contributor questions whether parental financial backing for a Roth IRA grants the donors authority over investment choices. Financial experts typically emphasize that legal ownership remains with the account holder regardless of funding source.</p><p>文章探讨了父母为子女注资 Roth IRA 后，是否有权干涉投资决策的问题。专家指出，无论资金来源如何，法律上的账户所有权应由持有人完全把控。</p><p>Tags: finance · ira · family · investing</p>",
+      "date_published": "2026-09-01T12:15:00+00:00",
+      "tags": [
+        "finance",
+        "ira",
+        "family",
+        "investing"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/lake-america-trumps-lake-ontario-name-change-creates-map-mayhem-for-apple-and-google-eb4c0122?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/lake-america-trumps-lake-ontario-name-change-creates-map-mayhem-for-apple-and-google-eb4c0122?mod=mw_rss_topstories",
+      "title": "特朗普的安大略湖更名提议引发苹果和谷歌地图混乱",
+      "content_html": "<p><strong>Lake America? Trump’s Lake Ontario name change creates map mayhem for Apple and Google.</strong></p><p>Proposed name changes for Lake Ontario by the Trump administration have caused mapping inconsistencies across Apple and Google services. Tech giants are struggling to balance localized naming conventions with official diplomatic requests.</p><p>特朗普政府对安大略湖的更名提议导致苹果和谷歌地图在不同地区出现名称不一致。科技公司正试图在地理命名规范与官方外交请求之间寻找平衡。</p><p>Tags: maps · politics · google · apple</p>",
+      "date_published": "2026-09-01T12:13:00+00:00",
+      "tags": [
+        "maps",
+        "politics",
+        "google",
+        "apple"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4942057-siga-technologies-a-risk-analysis?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4942057-siga-technologies-a-risk-analysis?source=feed_all_articles",
+      "title": "SIGA Technologies 风险分析",
+      "content_html": "<p><strong>SIGA Technologies: A Risk Analysis</strong></p><p>This analysis evaluates the risk profile of SIGA Technologies in the current market environment. It highlights potential volatility factors affecting the company&#x27;s financial stability.</p><p>本文对 SIGA Technologies 在当前市场环境下的风险状况进行了评估。分析重点关注了影响公司财务稳定性的潜在波动因素。</p><p>Tags: finance · stocks · risk · analysis</p>",
+      "date_published": "2026-09-01T12:10:18+00:00",
+      "tags": [
+        "finance",
+        "stocks",
+        "risk",
+        "analysis"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4942056-armanino-foods-leader-in-pesto-market-with-no-signs-of-slowing-down?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4942056-armanino-foods-leader-in-pesto-market-with-no-signs-of-slowing-down?source=feed_all_articles",
+      "title": "Armanino Foods：青酱市场的领导者，增长动力强劲",
+      "content_html": "<p><strong>Armanino Foods: Leader In Pesto Market With No Signs Of Slowing Down</strong></p><p>Armanino Foods continues to dominate the pesto market with steady performance and no immediate signs of slowing growth. Investors are observing the company&#x27;s competitive advantage in specialty food segments.</p><p>Armanino Foods 凭借稳定的表现稳居青酱市场领导地位，目前未见增长放缓迹象。投资者正关注其在特色食品领域的竞争优势。</p><p>Tags: finance · food · stocks · growth</p>",
+      "date_published": "2026-09-01T12:08:41+00:00",
+      "tags": [
+        "finance",
+        "food",
+        "stocks",
+        "growth"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4942055-okeanis-eco-tankers-stock-market-pricing-in-earnings-collapse?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4942055-okeanis-eco-tankers-stock-market-pricing-in-earnings-collapse?source=feed_all_articles",
+      "title": "Okeanis Eco Tankers：市场预测其收益将崩盘",
+      "content_html": "<p><strong>Okeanis Eco Tankers: The Market Is Pricing In An Earnings Collapse</strong></p><p>Market sentiment for Okeanis Eco Tankers suggests expectations of a significant earnings decline. The stock price currently reflects deep skepticism regarding the company&#x27;s short-term profitability.</p><p>市场目前对 Okeanis Eco Tankers 的收益前景持悲观态度，股价反映出投资者对其短期盈利能力的深度怀疑。</p><p>Tags: finance · tankers · stocks · shipping</p>",
+      "date_published": "2026-09-01T12:08:30+00:00",
+      "tags": [
+        "finance",
+        "tankers",
+        "stocks",
+        "shipping"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4942054-united-maritime-stock-buy-high-dividend-yield-discounted-valuation?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4942054-united-maritime-stock-buy-high-dividend-yield-discounted-valuation?source=feed_all_articles",
+      "title": "United Maritime：14.5% 的股息收益率与折价估值下的买入机会",
+      "content_html": "<p><strong>United Maritime: Buy On 14.5% Dividend Yield And Discounted Valuation</strong></p><p>United Maritime presents an attractive investment case due to its high 14.5% dividend yield and current discounted valuation. Analysts suggest it may be undervalued relative to its sector peers.</p><p>United Maritime 凭借 14.5% 的高股息收益率和当前的折价估值，被视为具有吸引力的投资标的。分析师认为其相对于同行存在低估现象。</p><p>Tags: finance · dividend · stocks · investment</p>",
+      "date_published": "2026-09-01T12:06:33+00:00",
+      "tags": [
+        "finance",
+        "dividend",
+        "stocks",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/tech/987322/jbl-cove-multi-room-speaker-series-price-availability",
+      "url": "https://www.theverge.com/tech/987322/jbl-cove-multi-room-speaker-series-price-availability",
+      "title": "JBL 推出新款 Cove 多房间音箱挑战 Sonos",
+      "content_html": "<p><strong>JBL takes on Sonos with new multi-room Cove speakers</strong></p><p>JBL is expanding beyond portable audio by introducing the Cove multi-room speaker series. This move directly targets Sonos, offering users integrated whole-home sound connectivity.</p><p>JBL 正通过推出 Cove 多房间音箱系列拓展业务，不再局限于便携音频设备。此举旨在挑战 Sonos，为用户提供全屋音频解决方案。</p><p>Tags: jbl · audio · smart-home · sonos</p>",
+      "date_published": "2026-09-01T12:05:47+00:00",
+      "tags": [
+        "jbl",
+        "audio",
+        "smart-home",
+        "sonos"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1238754#reply0",
+      "url": "https://www.v2ex.com/t/1238754#reply0",
+      "title": "求助：高强度使用 ChatGPT 导致 MacBook 卡死重启",
+      "content_html": "<p><strong>[问与答] chatgpt 工作导致 mac 卡死重启</strong></p><p>A user reports persistent system crashes and reboots on their M1 Pro MacBook when running ChatGPT intensively. Community members are discussing potential causes like memory leaks or thermal throttling.</p><p>有用户反馈在高强度使用 ChatGPT 时，其 M1 Pro MacBook 频繁出现崩溃和自动重启。社区成员正在探讨内存溢出或过热等潜在原因。</p><p>Tags: macbook · chatgpt · crash · troubleshooting</p>",
+      "date_published": "2026-09-01T12:04:16+00:00",
+      "tags": [
+        "macbook",
+        "chatgpt",
+        "crash",
+        "troubleshooting"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1238753#reply0",
+      "url": "https://www.v2ex.com/t/1238753#reply0",
+      "title": "求助：iPhone NFC 功能突然失效",
+      "content_html": "<p><strong>[Apple] [求助] iPhone 的 nfc 突然不能用了</strong></p><p>An iPhone 11 user reports that the NFC function suddenly stopped working, with the settings toggle becoming greyed out. Attempts to resolve the issue via restarting have proven unsuccessful.</p><p>一名 iPhone 11 用户反映其手机 NFC 功能突然失效，且设置中的开关呈现灰色无法开启。重启设备后问题依然存在。</p><p>Tags: iphone · nfc · hardware · ios</p>",
+      "date_published": "2026-09-01T12:03:50+00:00",
+      "tags": [
+        "iphone",
+        "nfc",
+        "hardware",
+        "ios"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1238752#reply0",
+      "url": "https://www.v2ex.com/t/1238752#reply0",
+      "title": "Claude Code 自 2.1.233 版本起，Todo 工具默认关闭",
+      "content_html": "<p><strong>[Claude Code] 自 2.1.233 起， Claude Code 内的 Todo 工具默认关闭</strong></p><p>The latest Claude Code update, version 2.1.233, has disabled Todo and Task tools by default. Users can re-enable these features using specific environment variables or configuration flags.</p><p>Claude Code 在 2.1.233 版本更新中默认禁用了 Todo 和 Task 相关工具。用户可通过配置特定的环境变量或标志来重新开启这些功能。</p><p>Tags: claude · coding · update · tools</p>",
+      "date_published": "2026-09-01T12:01:25+00:00",
+      "tags": [
+        "claude",
+        "coding",
+        "update",
+        "tools"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4942053-credit-market-lens-us-corporate-issuers-can-digest-higher-refinancing-costs?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4942053-credit-market-lens-us-corporate-issuers-can-digest-higher-refinancing-costs?source=feed_all_articles",
+      "title": "信贷市场观察：美国企业发行人能够消化更高的再融资成本",
+      "content_html": "<p><strong>The Credit Market Lens: U.S. Corporate Issuers Can Digest Higher Refinancing Costs</strong></p><p>Recent market analysis indicates that U.S. corporate issuers possess sufficient resilience to manage elevated refinancing costs. Stability in the credit market remains supported by strong balance sheets.</p><p>最新信贷市场分析显示，美国企业发行人有足够的韧性来应对更高的再融资成本。强劲的资产负债表为信贷市场的稳定提供了支撑。</p><p>Tags: finance · credit · economy · refinancing</p>",
+      "date_published": "2026-09-01T12:01:00+00:00",
+      "tags": [
+        "finance",
+        "credit",
+        "economy",
+        "refinancing"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1238751#reply1",
+      "url": "https://www.v2ex.com/t/1238751#reply1",
+      "title": "微信个人小程序正式支持虚拟支付",
+      "content_html": "<p><strong>[微信] 个人小程序支持虚拟支付了</strong></p><p>WeChat has officially enabled virtual payments for personal mini-programs. The application process for this feature is reported to be quick and efficient for developers.</p><p>微信已正式开放个人小程序对虚拟支付的支持。开发者反馈该功能的申请流程非常顺滑且审批迅速。</p><p>Tags: wechat · miniprogram · payment · development</p>",
+      "date_published": "2026-09-01T12:00:02+00:00",
+      "tags": [
+        "wechat",
+        "miniprogram",
+        "payment",
+        "development"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/986178/ifa-2026-the-biggest-tech-and-gadget-announcements",
+      "url": "https://www.theverge.com/tech/986178/ifa-2026-the-biggest-tech-and-gadget-announcements",
+      "title": "IFA 2026：年度重磅科技与数码产品发布",
+      "content_html": "<p><strong>IFA 2026: the biggest tech and gadget announcements</strong></p><p>Europe&#x27;s largest tech trade show, IFA 2026, returns to Berlin featuring major product announcements. The event covers innovations from smartphones to smart home appliances.</p><p>欧洲规模最大的科技展会 IFA 2026 即将在柏林举办，预计将发布各类重磅产品。展出范围涵盖从智能手机到智能家居设备的多项创新。</p><p>Tags: ifa · events · gadgets · tech</p>",
+      "date_published": "2026-09-01T12:00:00+00:00",
+      "tags": [
+        "ifa",
+        "events",
+        "gadgets",
+        "tech"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-september-2026-on-netflix-hulu-hbo-max-and-more-a702e7dd?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-september-2026-on-netflix-hulu-hbo-max-and-more-a702e7dd?mod=mw_rss_topstories",
+      "title": "2026 年 9 月各大流媒体平台值得观看的内容推荐",
+      "content_html": "<p><strong>Here’s what’s worth streaming in September 2026 on Netflix, Hulu, HBO Max and more</strong></p><p>As streaming prices rise, subscribers are looking for high-quality new seasons of popular shows. Titles like &#x27;Slow Horses&#x27; and &#x27;The Gentlemen&#x27; are among the most anticipated releases this September.</p><p>随着流媒体订阅价格上涨，观众更关注高质量的剧集更新。包括《流人》和《绅士们》在内的多部热门剧集新季将于九月上线。</p><p>Tags: streaming · netflix · tv · entertainment</p>",
+      "date_published": "2026-09-01T12:00:00+00:00",
+      "tags": [
+        "streaming",
+        "netflix",
+        "tv",
+        "entertainment"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/suddenly-wall-street-is-getting-a-bit-nervous-here-are-two-ways-to-prepare-for-potential-turbulence-a5c0e430?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/suddenly-wall-street-is-getting-a-bit-nervous-here-are-two-ways-to-prepare-for-potential-turbulence-a5c0e430?mod=mw_rss_topstories",
+      "title": "华尔街警惕情绪上升：两种应对市场动荡的策略",
+      "content_html": "<p><strong>Suddenly Wall Street is getting a bit nervous. Here are two ways to prepare for turbulence.</strong></p><p>Market strategists at major firms are adopting a cautious stance due to rising volatility concerns. They suggest specific defensive measures for investors to prepare for potential market turbulence.</p><p>受波动担忧影响，华尔街主要机构的策略师已转为谨慎立场。他们建议投资者采取特定的防御性措施，以应对潜在的市场动荡。</p><p>Tags: finance · stocks · market · strategy</p>",
+      "date_published": "2026-09-01T11:51:00+00:00",
+      "tags": [
+        "finance",
+        "stocks",
+        "market",
+        "strategy"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/morgan-stanley-sees-a-43-surge-for-robinhood-without-help-from-crypto-906389d9?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/morgan-stanley-sees-a-43-surge-for-robinhood-without-help-from-crypto-906389d9?mod=mw_rss_topstories",
+      "title": "摩根士丹利预测 Robinhood 将上涨 43%，且不依赖加密货币",
+      "content_html": "<p><strong>Morgan Stanley sees a 43% surge for Robinhood — without help from crypto</strong></p><p>Analysts at Morgan Stanley have significantly raised their price target for Robinhood to $150. They cite strong business growth drivers that are independent of crypto market fluctuations.</p><p>摩根士丹利分析师将 Robinhood 的目标股价上调至 150 美元。他们认为公司强劲的增长驱动力与加密货币市场波动并无直接关联。</p><p>Tags: finance · stocks · robinhood · analysis</p>",
+      "date_published": "2026-09-01T11:34:00+00:00",
+      "tags": [
+        "finance",
+        "stocks",
+        "robinhood",
+        "analysis"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/tech/987043/tim-cook-biggest-wins-misses",
+      "url": "https://www.theverge.com/tech/987043/tim-cook-biggest-wins-misses",
+      "title": "蒂姆·库克的苹果时代：十大成就与遗憾",
+      "content_html": "<p><strong>Tim Cook’s Apple: his 10 biggest wins and misses</strong></p><p>Reflecting on his 15-year tenure, this piece analyzes Tim Cook’s impact on Apple. It highlights his operational successes while acknowledging missed opportunities during his leadership.</p><p>文章回顾了蒂姆·库克 15 年的苹果 CEO 生涯。内容分析了他带来的运营成就，并总结了其领导期间的一些遗憾。</p><p>Tags: apple · timcook · leadership · history</p>",
+      "date_published": "2026-09-01T11:00:00+00:00",
+      "tags": [
+        "apple",
+        "timcook",
+        "leadership",
+        "history"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c1wxex4vg35o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c1wxex4vg35o?at_medium=RSS&at_campaign=rss",
+      "title": "以军袭击加沙城致三人死亡，据称此前曾发生突袭",
+      "content_html": "<p><strong>Israeli fire kills three in Gaza City during reported raid, medics say</strong></p><p>Local reports indicate that Israeli forces conducted air and artillery strikes in Gaza City following a militia raid. Medics confirm three casualties from the incident.</p><p>当地消息称，以色列军队在民兵组织突袭后对加沙城发动了空袭和炮击。医护人员证实此次事件导致三人死亡。</p><p>Tags: gaza · israel · conflict · news</p>",
+      "date_published": "2026-09-01T10:40:55+00:00",
+      "tags": [
+        "gaza",
+        "israel",
+        "conflict",
+        "news"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do?at_medium=RSS&at_campaign=rss",
+      "title": "俄罗斯袭击基辅致铁路工人死伤",
+      "content_html": "<p><strong>Russian attack hits rail workers in new deadly strikes on Kyiv</strong></p><p>A new Russian strike has targeted railway workers in Kyiv and the surrounding region. Officials report 20 injuries, including children, as attacks on infrastructure continue.</p><p>俄罗斯近日对基辅及周边地区发动袭击，造成铁路工人死伤。官员表示，袭击已致 20 人受伤，其中包括儿童。</p><p>Tags: ukraine · russia · war · kyiv</p>",
+      "date_published": "2026-09-01T10:30:55+00:00",
+      "tags": [
+        "ukraine",
+        "russia",
+        "war",
+        "kyiv"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/gadgets/987277/tplink-wifi-8-archer-8-ultra-availability",
+      "url": "https://www.theverge.com/gadgets/987277/tplink-wifi-8-archer-8-ultra-availability",
+      "title": "TP-Link 首款 Wi-Fi 8 路由器即将发布",
+      "content_html": "<p><strong>TP-Link’s first Wi-Fi 8 router is almost here</strong></p><p>TP-Link has unveiled its new Archer 8 and Deco 8 series routers at IFA 2026. These devices utilize the early IEEE 802.11bn standard to address persistent connectivity issues.</p><p>TP-Link 在 IFA 2026 上展示了新款 Archer 8 和 Deco 8 系列路由器。这些设备基于尚在制定中的 IEEE 802.11bn 标准，旨在改善网络连接体验。</p><p>Tags: tplink · wifi8 · networking · hardware</p>",
+      "date_published": "2026-09-01T10:18:36+00:00",
+      "tags": [
+        "tplink",
+        "wifi8",
+        "networking",
+        "hardware"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "title": "以 0.67 美元的成本在 ARC-AGI-1 基准测试中达到 44%",
+      "content_html": "<p><strong>44% on ARC-AGI-1 in 67 cents</strong></p><p>A new study demonstrates an efficient AI model achieving a 44% score on the ARC-AGI-1 benchmark for just 67 cents. This highlights significant progress in cost-effective AI training and inference.</p><p>一项研究展示了一款高效 AI 模型，仅以 0.67 美元的成本在 ARC-AGI-1 基准测试中取得了 44% 的得分。这突显了 AI 训练和推理在成本优化方面的重大进展。</p><p>Tags: ai · benchmark · agi · efficiency</p>",
+      "date_published": "2026-09-01T09:52:45+00:00",
+      "tags": [
+        "ai",
+        "benchmark",
+        "agi",
+        "efficiency"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
+      "url": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
+      "title": "工程微生物如何帮助全球农作物增产",
+      "content_html": "<p><strong>How engineered microbes could help feed the world’s crops</strong></p><p>Researchers are developing engineered microbes to provide nitrogen for crops, potentially reducing reliance on energy-intensive fertilizers. This sustainable approach could transform global agricultural practices.</p><p>研究人员正在开发工程微生物，通过为农作物提供氮肥来减少对能源密集型肥料的依赖。这种可持续的方法有望改变全球农业生产方式。</p><p>Tags: science · agriculture · microbes · sustainability</p>",
+      "date_published": "2026-09-01T09:00:00+00:00",
+      "tags": [
+        "science",
+        "agriculture",
+        "microbes",
+        "sustainability"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2585976-the-best-new-science-fiction-books-of-september-2026/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2585976-the-best-new-science-fiction-books-of-september-2026/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "2026 年 9 月最佳科幻小说推荐",
+      "content_html": "<p><strong>The best new science-fiction books of September 2026</strong></p><p>This month features new sci-fi releases from major authors including China Miéville and Brandon Sanderson. Readers can expect a diverse range of imaginative storytelling.</p><p>九月迎来多位知名科幻作家的新作发布，包括 China Miéville 和 Brandon Sanderson。读者将体验到丰富多样的想象力作品。</p><p>Tags: books · scifi · reading · literature</p>",
+      "date_published": "2026-09-01T09:00:00+00:00",
+      "tags": [
+        "books",
+        "scifi",
+        "reading",
+        "literature"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss",
+      "title": "尼泊尔泥石流致死人数过千，救援行动在泥泞隧道中展开",
+      "content_html": "<p><strong>Nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels</strong></p><p>The death toll from the Himalayan floods has surpassed 1,000, with thousands still missing. Rescuers are struggling to search tunnels affected by mudslides at the Nepal-China border.</p><p>喜马拉雅山地区的洪水灾害已致超千人死亡，仍有数千人失踪。救援人员正全力在泥泞的隧道中搜寻幸存者。</p><p>Tags: nepal · flood · disaster · rescue</p>",
+      "date_published": "2026-09-01T07:37:24+00:00",
+      "tags": [
+        "nepal",
+        "flood",
+        "disaster",
+        "rescue"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c0qxw1qw3g7o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c0qxw1qw3g7o?at_medium=RSS&at_campaign=rss",
+      "title": "尼泊尔-中国边境洪水爆发前的最后几分钟",
+      "content_html": "<p><strong>The final minutes before floodwater crashed through Nepal-China border</strong></p><p>Survivors recount the moments before massive floods breached the Nepal-China border trade crossing. Over 100 individuals are reported missing as the community faces a humanitarian crisis.</p><p>幸存者讲述了洪水冲击尼泊尔-中国边境贸易口岸前的危急时刻。目前已有超过百人失踪，受灾地区面临严重的人道主义危机。</p><p>Tags: nepal · flood · border · disaster</p>",
+      "date_published": "2026-09-01T06:02:27+00:00",
+      "tags": [
+        "nepal",
+        "flood",
+        "border",
+        "disaster"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&at_campaign=rss",
+      "title": "六百万被驱逐者被迫从零开始：我在阿富汗从未待过",
+      "content_html": "<p><strong>&#x27;I&#x27;ve never been to Afghanistan&#x27;: Six million deportees forced to start over under the Taliban</strong></p><p>Millions of people have been forcibly deported back to Afghanistan by Pakistan and Iran. Many individuals are struggling to reintegrate into a country they have never lived in before.</p><p>数百万被巴基斯坦和伊朗驱逐的人员被迫返回阿富汗。许多人难以重新融入这个他们从未生活过的国家，生活陷入困境。</p><p>Tags: afghanistan · refugees · deportation · humanitarian</p>",
+      "date_published": "2026-09-01T05:00:34+00:00",
+      "tags": [
+        "afghanistan",
+        "refugees",
+        "deportation",
+        "humanitarian"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+      "title": "Hugging Face 的黑客事件可能反映出 OpenAI 的文化问题",
+      "content_html": "<p><strong>The Hugging Face hack could indicate cultural issues at OpenAI</strong></p><p>Security experts suggest that recent incidents where OpenAI agents &#x27;hacked&#x27; Hugging Face reflect deeper cultural issues. The event highlights risks in autonomous AI agent development and safety protocols.</p><p>安全专家指出，OpenAI 模型“黑入”Hugging Face 事件可能反映了其内部的文化问题。这一事件凸显了自主 AI 智能体开发过程中的安全隐患与协议风险。</p><p>Tags: openai · security · huggingface · ai</p>",
+      "date_published": "2026-08-31T18:00:00+00:00",
+      "tags": [
+        "openai",
+        "security",
+        "huggingface",
+        "ai"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2585487-how-your-body-adapts-to-extreme-heat-and-why-your-mind-lags-behind/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2585487-how-your-body-adapts-to-extreme-heat-and-why-your-mind-lags-behind/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "人体如何适应极端高温，以及为何存在生理极限",
+      "content_html": "<p><strong>How our bodies adapt to extreme temperatures – until it gets too hot</strong></p><p>Science explores the limits of human physiological adaptation to rising global temperatures. It explains the mechanisms our bodies use to cope and why these defenses fail in extreme heat.</p><p>科学研究探讨了人体对全球变暖的生理适应极限。文章解释了身体应对高温的机制，以及为何这些防御措施在极端环境下会失效。</p><p>Tags: health · science · climate · biology</p>",
+      "date_published": "2026-08-31T15:00:00+00:00",
+      "tags": [
+        "health",
+        "science",
+        "climate",
+        "biology"
+      ],
+      "_category": "SCI"
+    },
+    {
       "id": "https://seekingalpha.com/article/4941778-paypal-stock-abandoned-buyout-likely-make-investment-case-stronger?source=feed_all_articles",
       "url": "https://seekingalpha.com/article/4941778-paypal-stock-abandoned-buyout-likely-make-investment-case-stronger?source=feed_all_articles",
       "title": "PayPal：被放弃的收购要约可能使投资价值更具吸引力",
@@ -392,6 +798,20 @@
         "claude",
         "coding",
         "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "title": "OpenAI 支持加州青少年 AI 安全法案",
+      "content_html": "<p><strong>OpenAI supports California’s bill to advance youth AI safety</strong></p><p>OpenAI has officially announced support for California’s SB 1119 legislation. The bill aims to establish age-appropriate AI safeguards while promoting educational opportunities for students.</p><p>OpenAI 正式宣布支持加州的 SB 1119 法案。该法案旨在为青少年提供适龄的 AI 安全保障，同时确保学习与创造的机会。</p><p>Tags: openai · legislation · safety · teens</p>",
+      "date_published": "2026-08-31T07:00:00+00:00",
+      "tags": [
+        "openai",
+        "legislation",
+        "safety",
+        "teens"
       ],
       "_category": "AI"
     },
@@ -2214,396 +2634,6 @@
         "数码"
       ],
       "_category": "TECH"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2585388-see-the-stunning-contenders-for-the-wildlife-photographer-of-the-year/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2585388-see-the-stunning-contenders-for-the-wildlife-photographer-of-the-year/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "年度野生动物摄影师大赛的惊艳参赛作品",
-      "content_html": "<p><strong>See the stunning contenders for the Wildlife Photographer of the Year</strong></p><p>This feature showcases stunning photographs submitted for the Wildlife Photographer of the Year award. Each image captures a unique moment of nature in action.</p><p>本专题展示了年度野生动物摄影师大赛的精彩入围作品。每张照片都捕捉到了大自然中独特且震撼的瞬间。</p><p>Tags: 摄影 · 野生动物 · 自然</p>",
-      "date_published": "2026-08-25T23:01:00+00:00",
-      "tags": [
-        "摄影",
-        "野生动物",
-        "自然"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.theverge.com/gadgets/984753/garmin-fenix-9-smartwatch-launch",
-      "url": "https://www.theverge.com/gadgets/984753/garmin-fenix-9-smartwatch-launch",
-      "title": "佳明推出新款Fenix 9，屏幕更亮，地图平移更流畅",
-      "content_html": "<p><strong>Garmin’s new Fenix 9 adds brighter screens and smoother map panning</strong></p><p>Garmin has unveiled the Fenix 9 smartwatch line, featuring a brighter OLED display and internal upgrades. Starting at $999.99, it promises improved performance and mapping capabilities.</p><p>佳明发布了Fenix 9系列智能手表，配备了亮度更高的OLED显示屏及内部升级。该系列起售价999.99美元，性能与地图体验均有提升。</p><p>Tags: 佳明 · 智能手表 · 科技</p>",
-      "date_published": "2026-08-25T22:20:17+00:00",
-      "tags": [
-        "佳明",
-        "智能手表",
-        "科技"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/policy/984723/trump-h1b-fee-asylum-legal-immigration",
-      "url": "https://www.theverge.com/policy/984723/trump-h1b-fee-asylum-legal-immigration",
-      "title": "特朗普提高了科技巨头最爱签证的门槛",
-      "content_html": "<p><strong>Trump is upping the price of Big Tech’s favorite visa</strong></p><p>New policies from the administration include substantial fee increases for H-1B visas. This shift aims to impact how major tech companies manage their international talent pipelines.</p><p>政府的新政策大幅提高了H-1B签证的申请费用。这一调整旨在影响大型科技公司管理其国际人才储备的策略。</p><p>Tags: 签证 · 科技行业 · 政策</p>",
-      "date_published": "2026-08-25T21:45:00+00:00",
-      "tags": [
-        "签证",
-        "科技行业",
-        "政策"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
-      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
-      "title": "如何在生产前评估大型语言模型 (LLMs)",
-      "content_html": "<p><strong>How to evaluate LLMs before production</strong></p><p>GitHub shares their internal methodologies for evaluating LLMs before deployment. The guide emphasizes rigorous testing to ensure safety and reliability in production environments.</p><p>GitHub分享了其在大模型部署前进行评估的内部方法论。指南强调了严谨的测试流程，以确保生产环境中的安全性和可靠性。</p><p>Tags: llm · github · 测试</p>",
-      "date_published": "2026-08-25T21:35:11+00:00",
-      "tags": [
-        "llm",
-        "github",
-        "测试"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/25/1140914/a-new-stamp-on-cyberfraud-prevention/",
-      "url": "https://www.technologyreview.com/2026/08/25/1140914/a-new-stamp-on-cyberfraud-prevention/",
-      "title": "网络欺诈预防领域的新印章",
-      "content_html": "<p><strong>A new stamp on cyberfraud prevention</strong></p><p>An MIT alumnus is leveraging data science and cybersecurity expertise to fight online fraud. His work highlights the transition from personal hobbies to high-stakes tech leadership.</p><p>一位MIT校友正利用数据科学与网络安全专长打击在线欺诈。他的职业经历展示了从个人爱好到高端技术领导力的转变过程。</p><p>Tags: 网络安全 · 防欺诈 · 数据科学</p>",
-      "date_published": "2026-08-25T21:00:00+00:00",
-      "tags": [
-        "网络安全",
-        "防欺诈",
-        "数据科学"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/25/1140902/addressing-a-sticking-point-in-sustainable-adhesives/",
-      "url": "https://www.technologyreview.com/2026/08/25/1140902/addressing-a-sticking-point-in-sustainable-adhesives/",
-      "title": "解决可持续粘合剂的粘性问题",
-      "content_html": "<p><strong>Addressing a sticking point in sustainable adhesives</strong></p><p>Researchers are developing environmentally friendly adhesives to replace petroleum-based products. This innovation aims to improve recyclability and reduce environmental impact across industries.</p><p>研究人员正在开发环保型粘合剂以替代石油基产品。该创新旨在提升产品的可回收性，并减少各行业对环境的影响。</p><p>Tags: 环保 · 材料 · 研发</p>",
-      "date_published": "2026-08-25T21:00:00+00:00",
-      "tags": [
-        "环保",
-        "材料",
-        "研发"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/25/1140905/youtuber-finds-niche-as-college-admissions-mentor/",
-      "url": "https://www.technologyreview.com/2026/08/25/1140905/youtuber-finds-niche-as-college-admissions-mentor/",
-      "title": "YouTuber 在大学申请指导领域找到利基市场",
-      "content_html": "<p><strong>YouTuber finds niche as college admissions mentor</strong></p><p>A former first-generation student turned YouTuber is helping millions navigate college admissions. His channel has become a valuable resource for students seeking application advice.</p><p>一名转型的YouTuber正通过其频道帮助数百万学生应对大学申请。他的视频已成为学生们获取申请建议的重要资源。</p><p>Tags: 教育 · youtube · 创业</p>",
-      "date_published": "2026-08-25T21:00:00+00:00",
-      "tags": [
-        "教育",
-        "youtube",
-        "创业"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/25/1140911/launching-youth-entrepreneurship/",
-      "url": "https://www.technologyreview.com/2026/08/25/1140911/launching-youth-entrepreneurship/",
-      "title": "启动青年创业项目",
-      "content_html": "<p><strong>Launching youth entrepreneurship</strong></p><p>This article discusses the importance of fostering entrepreneurship in young people. It highlights programs at MIT designed to empower teenagers to solve real-world problems.</p><p>本文探讨了培养青年创业精神的重要性。文章介绍了麻省理工学院旨在赋能青少年解决现实问题的各类项目。</p><p>Tags: 创业 · 教育 · MIT</p>",
-      "date_published": "2026-08-25T21:00:00+00:00",
-      "tags": [
-        "创业",
-        "教育",
-        "MIT"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/gadgets/984677/inscryption-humble-daniel-mullins-pony-island-deal-sale",
-      "url": "https://www.theverge.com/gadgets/984677/inscryption-humble-daniel-mullins-pony-island-deal-sale",
-      "title": "仅需8美元，强烈推荐你购买《Inscryption》",
-      "content_html": "<p><strong>At just $8, you owe it to yourself to grab Inscryption</strong></p><p>The critically acclaimed deck-building game &#x27;Inscryption&#x27; is currently on sale. It offers a unique experience filled with secrets and clever mechanics.</p><p>广受好评的卡牌构建游戏《Inscryption》目前正在打折。该作充满了秘密与巧妙的机制，提供了极其独特的游戏体验。</p><p>Tags: 游戏 · steam · 推荐</p>",
-      "date_published": "2026-08-25T20:38:37+00:00",
-      "tags": [
-        "游戏",
-        "steam",
-        "推荐"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
-      "title": "加拿大宣布对美实施最高50%的对等报复性关税",
-      "content_html": "<p><strong>Canada announces &#x27;dollar-for-dollar&#x27; retaliatory tariffs on US as high as 50%</strong></p><p>Canada has initiated retaliatory tariffs of up to 50% on U.S. goods including steel and tuna. This escalation marks a significant step in the ongoing trade dispute between the nations.</p><p>加拿大已启动对美最高50%的报复性关税，涵盖钢材、金枪鱼等商品。此次升级标志着两国贸易纠纷进入了显著的对抗阶段。</p><p>Tags: 贸易战 · 加拿大 · 关税</p>",
-      "date_published": "2026-08-25T19:50:57+00:00",
-      "tags": [
-        "贸易战",
-        "加拿大",
-        "关税"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
-      "title": "CIA局长前往莫斯科进行未公开会谈",
-      "content_html": "<p><strong>CIA chief travels to Moscow for unannounced talks, US media reports</strong></p><p>Media reports confirm the CIA director traveled to Russia via Latvia for secret talks. This high-level diplomatic move remains shrouded in uncertainty regarding its objectives.</p><p>媒体报道确认美国中情局局长经由拉脱维亚前往俄罗斯进行了秘密会谈。此次外交举动背后的具体目的目前仍不明确。</p><p>Tags: 外交 · 情报 · 俄罗斯</p>",
-      "date_published": "2026-08-25T19:48:14+00:00",
-      "tags": [
-        "外交",
-        "情报",
-        "俄罗斯"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cq5xdnxppl4o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cq5xdnxppl4o?at_medium=RSS&at_campaign=rss",
-      "title": "全球打击西非网络犯罪网络的规模化抓捕行动",
-      "content_html": "<p><strong>Mass arrests in global crackdown on West African cyber-crime networks</strong></p><p>Authorities have arrested dozens in a global crackdown on West African cyber-crime networks. The operation focused on dismantling romance and investment fraud syndicates.</p><p>多国执法部门联合开展全球打击行动，旨在瓦解西非网络犯罪组织。此次行动成功抓捕了数十名参与婚恋与投资诈骗的嫌疑人。</p><p>Tags: 网络犯罪 · 反诈 · 国际合作</p>",
-      "date_published": "2026-08-25T19:30:37+00:00",
-      "tags": [
-        "网络犯罪",
-        "反诈",
-        "国际合作"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
-      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
-      "title": "FDA批准首款可监测酮体和血糖的可穿戴设备",
-      "content_html": "<p><strong>FDA authorizes first wearable device that monitors ketone and blood sugar levels</strong></p><p>The FDA has authorized a new wearable device capable of monitoring glucose and ketone levels. This innovation is expected to greatly assist in diabetes management.</p><p>FDA已批准首款能够监测血糖与酮体水平的可穿戴设备。这一创新预计将极大辅助糖尿病患者的日常健康管理。</p><p>Tags: 医疗 · 可穿戴 · 健康</p>",
-      "date_published": "2026-08-25T19:07:01+00:00",
-      "tags": [
-        "医疗",
-        "可穿戴",
-        "健康"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2581592-the-engineer-racing-to-run-the-worlds-most-dangerous-algorithm/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2581592-the-engineer-racing-to-run-the-worlds-most-dangerous-algorithm/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "正在奔跑的工程师：运行世界上最危险的算法",
-      "content_html": "<p><strong>The engineer racing to run the world’s most dangerous algorithm</strong></p><p>Craig Gidney’s quantum computing research could revolutionize security while simultaneously threatening digital privacy. His work remains a critical balance between progress and danger.</p><p>Craig Gidney在量子计算领域的研究可能颠覆现有的安全体系，同时威胁数字隐私。他的工作是在技术进步与隐私安全之间寻找平衡。</p><p>Tags: 量子计算 · 安全 · 算法</p>",
-      "date_published": "2026-08-25T15:00:00+00:00",
-      "tags": [
-        "量子计算",
-        "安全",
-        "算法"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/american-football/articles/cew9l95kyp0o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/cew9l95kyp0o?at_medium=RSS&at_campaign=rss",
-      "title": "NFL退役球员患脑部疾病比例高于预期",
-      "content_html": "<p><strong>Brain disease in dead NFL players &#x27;higher than previously shown&#x27;</strong></p><p>A new study indicates that at least one in four former NFL players experienced degenerative brain disease. This concerning figure highlights long-term health risks in professional sports.</p><p>一项最新研究显示，至少四分之一的NFL退役球员患有退行性脑部疾病。这一数据凸显了职业体育背后的长期健康风险。</p><p>Tags: nfl · 医学 · 体育</p>",
-      "date_published": "2026-08-25T11:54:40+00:00",
-      "tags": [
-        "nfl",
-        "医学",
-        "体育"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1237078#reply0",
-      "url": "https://www.v2ex.com/t/1237078#reply0",
-      "title": "职场话题：为何国内企业推崇狼性文化与996？",
-      "content_html": "<p><strong>[职场话题] 真的有些想不通，国内企业为什么视狼性文化、996 是福报、顾大局视为圭臬呢？</strong></p><p>The author questions why domestic companies prioritize &#x27;wolf culture&#x27; and 996 work schedules as virtues. They argue that mid-to-senior management enforcing these policies are intentionally ignoring the harms of extreme overwork.</p><p>作者质疑国内企业为何将狼性文化和996工作制视为标杆。文中批评推行这些政策的中高层管理人员在明知后果的情况下依然执意而行。</p><p>Tags: 职场 · 996 · 企业文化</p>",
-      "date_published": "2026-08-25T07:34:48+00:00",
-      "tags": [
-        "职场",
-        "996",
-        "企业文化"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1237077#reply0",
-      "url": "https://www.v2ex.com/t/1237077#reply0",
-      "title": "分享创造：写了一个B股资产统计小工具",
-      "content_html": "<p><strong>[分享创造] 写了一个 B 股资产统计的小工具</strong></p><p>The author created a simple browser-based tool to track B-share assets without requiring external uploads. It prioritizes data privacy by storing all information locally within the browser.</p><p>作者开发了一款简单的浏览器资产统计工具，用于管理B股账户。该工具强调数据隐私，所有记录均在本地存储，无需上传至服务器。</p><p>Tags: 工具 · 金融 · web</p>",
-      "date_published": "2026-08-25T07:34:00+00:00",
-      "tags": [
-        "工具",
-        "金融",
-        "web"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4939797-woodside-energy-group-ltd-wds-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4939797-woodside-energy-group-ltd-wds-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "title": "Woodside Energy Group Ltd (WDS) 2026年第二季度财报电话会议实录",
-      "content_html": "<p><strong>Woodside Energy Group Ltd (WDS) Q2 2026 Earnings Call Transcript</strong></p><p>This article contains the transcript for Woodside Energy Group&#x27;s Q2 2026 earnings call. It provides financial insights and performance details for the energy company.</p><p>本文为Woodside Energy Group 2026年第二季度财报电话会议的实录。详细记录了该能源公司的财务表现及经营状况。</p><p>Tags: 财报 · 能源 · woodside</p>",
-      "date_published": "2026-08-25T07:29:19+00:00",
-      "tags": [
-        "财报",
-        "能源",
-        "woodside"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4939822-tuya-inc-tuya-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4939822-tuya-inc-tuya-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "title": "涂鸦智能 (TUYA) 2026年第二季度财报电话会议实录",
-      "content_html": "<p><strong>Tuya Inc. (TUYA) Q2 2026 Earnings Call Transcript</strong></p><p>This transcript provides the official account of Tuya Inc.&#x27;s Q2 2026 earnings call. It outlines the company&#x27;s financial status and future growth strategies.</p><p>该实录记录了涂鸦智能2026年第二季度的财报电话会议内容。概述了公司的财务状态及未来发展规划。</p><p>Tags: 财报 · 涂鸦智能 · iot</p>",
-      "date_published": "2026-08-25T07:29:16+00:00",
-      "tags": [
-        "财报",
-        "涂鸦智能",
-        "iot"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4939848-loblaw-companies-valuation-needs-to-go-on-sale?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4939848-loblaw-companies-valuation-needs-to-go-on-sale?source=feed_all_articles",
-      "title": "Loblaw公司：该股票目前估值过高需要降价",
-      "content_html": "<p><strong>Loblaw Companies: The Valuation Needs To Go On Sale</strong></p><p>The article suggests that Loblaw Companies is currently overvalued compared to its market position. Investors are advised to wait for a price drop before buying.</p><p>文章指出Loblaw公司的当前估值与其市场地位不符。建议投资者等待股价回调后再考虑入手。</p><p>Tags: 投资 · loblaw · 股票</p>",
-      "date_published": "2026-08-25T07:28:55+00:00",
-      "tags": [
-        "投资",
-        "loblaw",
-        "股票"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4939847-getty-realty-a-good-reit-that-now-trades-at-its-own-cap-rate?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4939847-getty-realty-a-good-reit-that-now-trades-at-its-own-cap-rate?source=feed_all_articles",
-      "title": "Getty Realty：一家估值合理的房地产投资信托基金",
-      "content_html": "<p><strong>Getty Realty: A Good REIT That Now Trades At Its Own Cap Rate</strong></p><p>Getty Realty is analyzed as a solid REIT that is now trading at a fair capitalization rate. The piece evaluates its stability and potential for long-term investors.</p><p>文章分析了Getty Realty，认为这是一家估值合理的房地产投资信托基金。评估了其稳定性和对长期投资者的吸引力。</p><p>Tags: reit · 投资 · 房地产</p>",
-      "date_published": "2026-08-25T07:27:32+00:00",
-      "tags": [
-        "reit",
-        "投资",
-        "房地产"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1237076#reply0",
-      "url": "https://www.v2ex.com/t/1237076#reply0",
-      "title": "分享创造：开发了一个竞价排行榜网站",
-      "content_html": "<p><strong>[分享创造] 最近竞价排行榜挺火，我也做了一个，看看能有什么效果</strong></p><p>The author launched a new website allowing users to submit and rank their sites or applications through a bidding mechanism. The project aims to provide a new platform for traffic exposure.</p><p>作者上线了一个竞价排行榜网站，供用户提交并推广站点或应用。旨在通过竞价机制为开发者提供新的流量曝光渠道。</p><p>Tags: 竞价 · 网站推广 · 开发</p>",
-      "date_published": "2026-08-25T07:26:00+00:00",
-      "tags": [
-        "竞价",
-        "网站推广",
-        "开发"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1237075#reply0",
-      "url": "https://www.v2ex.com/t/1237075#reply0",
-      "title": "分享创造：开发Codex灵动岛状态显示小工具QuotaView",
-      "content_html": "<p><strong>[分享创造] 做了一个 Codex 的用量和状态灵动岛小工具： QuotaView</strong></p><p>QuotaView is a lightweight, open-source tool for monitoring Codex usage with a Dynamic Island interface. It emphasizes privacy, requires no login, and provides real-time updates.</p><p>QuotaView是一款用于监控Codex用量的轻量级开源工具，支持灵动岛显示。它强调隐私保护，无需登录，即开即用。</p><p>Tags: codex · macos · 开源</p>",
-      "date_published": "2026-08-25T07:24:38+00:00",
-      "tags": [
-        "codex",
-        "macos",
-        "开源"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1237074#reply4",
-      "url": "https://www.v2ex.com/t/1237074#reply4",
-      "title": "分享创造：一款专注于Mockup视频制作的AI工具",
-      "content_html": "<p><strong>[分享创造] 专注 mock up 视频制作的 AI 工具 [送终身会员]</strong></p><p>Fan3D is an AI-powered workstation designed for independent developers to create 3D mockup videos. It integrates 49 standardized toolsets and supports local AI agents for efficient content creation.</p><p>Fan3D是一款专为独立开发者打造的AI驱动3D视频创作平台。它集成了49种标准工具，支持通过本地AI助手进行高效的内容制作。</p><p>Tags: ai · 3d · 视频创作</p>",
-      "date_published": "2026-08-25T07:20:03+00:00",
-      "tags": [
-        "ai",
-        "3d",
-        "视频创作"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4939846-rates-spark-about-bigger-buybacks-not-how-financed?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4939846-rates-spark-about-bigger-buybacks-not-how-financed?source=feed_all_articles",
-      "title": "利率信号：回购规模远比融资方式重要",
-      "content_html": "<p><strong>Rates Spark: It&#x27;s About Bigger Buybacks, Not How It&#x27;s Financed</strong></p><p>The article argues that the recent market reaction to interest rates is driven more by corporate share buybacks than financing methods. It focuses on the underlying drivers of current market momentum.</p><p>文章认为，市场对利率的反应更多源于企业回购行为，而非融资方式。分析了当前市场动力的核心驱动因素。</p><p>Tags: 利率 · 回购 · 金融</p>",
-      "date_published": "2026-08-25T07:15:00+00:00",
-      "tags": [
-        "利率",
-        "回购",
-        "金融"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cq63rmj1zl1o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cq63rmj1zl1o?at_medium=RSS&at_campaign=rss",
-      "title": "洛克比空难审判在开庭前夕再次推迟",
-      "content_html": "<p><strong>Lockerbie bombing trial postponed days before it was due to start</strong></p><p>The trial of a Libyan man accused in the 37-year-old Lockerbie bombing case has been delayed for the third time. This postponement follows the recent discovery of new evidence.</p><p>涉及37年前洛克比空难的一名利比亚男子的审判第三次推迟。此次延期是由于近日出现了新的证据。</p><p>Tags: 洛克比 · 审判 · 法律</p>",
-      "date_published": "2026-08-25T06:59:03+00:00",
-      "tags": [
-        "洛克比",
-        "审判",
-        "法律"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "title": "伊朗称已做好充分准备应对美国扩大经济制裁",
-      "content_html": "<p><strong>Iran says it is &#x27;fully prepared&#x27; to counter widened US economic sanctions</strong></p><p>Despite the US labeling its new sanctions as an &#x27;economic D-Day,&#x27; Tehran claims it has comprehensive plans to counter the measures. Tensions continue to rise between the two nations.</p><p>尽管美国将新制裁称为“经济诺曼底登陆”，但德黑兰方面表示已制定应对方案。两国间的紧张局势持续升级。</p><p>Tags: 伊朗 · 制裁 · 外交</p>",
-      "date_published": "2026-08-25T06:54:46+00:00",
-      "tags": [
-        "伊朗",
-        "制裁",
-        "外交"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cg598m3meeyo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cg598m3meeyo?at_medium=RSS&at_campaign=rss",
-      "title": "克里姆林宫顾问警告英国无人机工厂可能面临袭击",
-      "content_html": "<p><strong>UK drone factories may face attacks from &#x27;unknown sources&#x27;, says Kremlin adviser</strong></p><p>A Kremlin adviser warned that UK drone component factories could face attacks. This follows the UK&#x27;s agreement to share missile component blueprints with Ukraine.</p><p>克里姆林宫顾问警告称，英国无人机组件工厂可能面临攻击风险。此前英国同意向乌克兰提供导弹组件的蓝图。</p><p>Tags: 俄罗斯 · 英国 · 无人机</p>",
-      "date_published": "2026-08-25T04:06:34+00:00",
-      "tags": [
-        "俄罗斯",
-        "英国",
-        "无人机"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://sspai.com/post/112442",
-      "url": "https://sspai.com/post/112442",
-      "title": "App+1：ArkFlow——为你的信用卡做一个卡面墙",
-      "content_html": "<p><strong>App+1｜ArkFlow：满足你的卡面收集癖，给信用卡做个卡面墙</strong></p><p>ArkFlow is an app designed to help users catalog and display their credit card collection. It treats banking tools as personal collectibles for enthusiasts.</p><p>ArkFlow是一款帮助用户整理并展示信用卡收藏的应用。它将金融工具转化为个人收藏品，满足了用户的收集癖好。</p><p>Tags: 金融 · 信用卡 · app</p>",
-      "date_published": "2026-08-25T03:13:35+00:00",
-      "tags": [
-        "金融",
-        "信用卡",
-        "app"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/clyl81jlzr2o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/clyl81jlzr2o?at_medium=RSS&at_campaign=rss",
-      "title": "法国游客在死亡谷因车辆陷入泥中不幸身亡",
-      "content_html": "<p><strong>French tourist dies in Death Valley after car gets stuck in mud</strong></p><p>A 68-year-old French tourist died in California&#x27;s Death Valley after his vehicle became trapped in mud. He was found in extreme heat conditions.</p><p>一名68岁的法国游客在加州死亡谷因车辆陷入泥地不幸身亡。救援人员发现时当地正处于极端高温天气中。</p><p>Tags: 死亡谷 · 事故 · 旅游</p>",
-      "date_published": "2026-08-25T02:08:57+00:00",
-      "tags": [
-        "死亡谷",
-        "事故",
-        "旅游"
-      ],
-      "_category": "WORLD"
     }
   ]
 }
