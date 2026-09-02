@@ -6,6 +6,422 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1239019#reply0",
+      "url": "https://www.v2ex.com/t/1239019#reply0",
+      "title": "macOS应用识别询问",
+      "content_html": "<p><strong>[macOS] 有人知道这图片里的软件名字吗？</strong></p><p>A user is requesting help to identify specific software icons from a provided image. They are seeking community assistance to name the apps displayed.</p><p>一名用户在询问图片中显示的几款macOS软件名称。他希望能通过社区的帮助识别出这些图标对应的应用。</p><p>Tags: macos · software · v2ex</p>",
+      "date_published": "2026-09-02T11:48:25+00:00",
+      "tags": [
+        "macos",
+        "software",
+        "v2ex"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4942361-united-states-antimony-weak-pricing-stronger-volumes-and-a-government-catalyst?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4942361-united-states-antimony-weak-pricing-stronger-volumes-and-a-government-catalyst?source=feed_all_articles",
+      "title": "美国锑业：疲软的定价、增长的销量与政府催化剂",
+      "content_html": "<p><strong>United States Antimony: Weak Pricing, Stronger Volumes, And A Government Catalyst</strong></p><p>United States Antimony faces challenges with weak pricing but shows promise through increased sales volumes. A potential government-led catalyst could further impact its market position.</p><p>美国锑业正面临定价疲软的挑战，但其销售量有所增长。政府层面的潜在催化剂可能会对其市场地位产生进一步影响。</p><p>Tags: stocks · mining · economy</p>",
+      "date_published": "2026-09-02T11:45:23+00:00",
+      "tags": [
+        "stocks",
+        "mining",
+        "economy"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4942290-adma-biologics-stock-maybe-bears-right-rating-downgrade?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4942290-adma-biologics-stock-maybe-bears-right-rating-downgrade?source=feed_all_articles",
+      "title": "ADMA生物制品：看空者或许是对的（评级下调）",
+      "content_html": "<p><strong>ADMA Biologics: Maybe The Bears Are Right (Rating Downgrade)</strong></p><p>ADMA Biologics has received a rating downgrade as analysts express concern over its current valuation. The market appears to lean towards a bearish outlook for the company.</p><p>由于分析师对其当前估值表示担忧，ADMA Biologics的评级已被下调。市场目前似乎倾向于看空该公司。</p><p>Tags: stocks · biotech · rating</p>",
+      "date_published": "2026-09-02T11:45:08+00:00",
+      "tags": [
+        "stocks",
+        "biotech",
+        "rating"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4942360-coda-octopus-a-recovery-in-the-marine-tech-and-davd-orders-would-send-it-higher?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4942360-coda-octopus-a-recovery-in-the-marine-tech-and-davd-orders-would-send-it-higher?source=feed_all_articles",
+      "title": "Coda Octopus：海洋科技与DAVD订单的复苏将推动股价上涨",
+      "content_html": "<p><strong>Coda Octopus: A Recovery In The Marine Tech And DAVD Orders Would Send It Higher</strong></p><p>Coda Octopus could see growth if its marine technology segment and DAVD order book recover. These operational improvements are viewed as key drivers for future stock appreciation.</p><p>如果Coda Octopus的海洋科技部门和DAVD订单量能够复苏，公司有望实现增长。这些运营上的改善被视为推动未来股价上涨的关键因素。</p><p>Tags: stocks · marine · technology</p>",
+      "date_published": "2026-09-02T11:44:13+00:00",
+      "tags": [
+        "stocks",
+        "marine",
+        "technology"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1239018#reply0",
+      "url": "https://www.v2ex.com/t/1239018#reply0",
+      "title": "为macOS备忘录开发了一个字数统计工具",
+      "content_html": "<p><strong>[macOS] 给 MAC 的备忘录做了个显示字数的状态栏小软件</strong></p><p>A developer created a lightweight macOS menu bar tool to display word counts for the native Notes app. The utility works by monitoring the foreground app and provides real-time counts without requiring internet access.</p><p>开发者制作了一款轻量级的macOS菜单栏工具，用于显示原生备忘录的字数。该工具通过监听前台应用实时计数，且无需联网即可使用。</p><p>Tags: macos · productivity · utility</p>",
+      "date_published": "2026-09-02T11:43:21+00:00",
+      "tags": [
+        "macos",
+        "productivity",
+        "utility"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4942358-enlight-renewable-energy-impressive-growth-has-cast-its-shadow-too-far?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4942358-enlight-renewable-energy-impressive-growth-has-cast-its-shadow-too-far?source=feed_all_articles",
+      "title": "Enlight Renewable Energy：令人印象深刻的增长掩盖了风险",
+      "content_html": "<p><strong>Enlight Renewable Energy: Impressive Growth Has Cast Its Shadow Too Far</strong></p><p>Enlight Renewable Energy has demonstrated significant growth, but analysts suggest the market may be overestimating its long-term potential. The company&#x27;s shadow of success could be masking underlying valuation concerns.</p><p>Enlight Renewable Energy表现出了显著的增长，但分析师认为市场可能高估了其长期潜力。成功的光环可能掩盖了底层的估值隐忧。</p><p>Tags: stocks · energy · renewable</p>",
+      "date_published": "2026-09-02T11:41:19+00:00",
+      "tags": [
+        "stocks",
+        "energy",
+        "renewable"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1239017#reply1",
+      "url": "https://www.v2ex.com/t/1239017#reply1",
+      "title": "问答：为何硬件没有重制版？",
+      "content_html": "<p><strong>[问与答] 为啥游戏有重制版，硬件就没有呢，要是诺基亚，黑莓的经典机型，能复刻该多好啊</strong></p><p>The user wonders why classic hardware like old Nokia or BlackBerry phones isn&#x27;t being remastered like games. They suggest AI could modernize legacy systems to support modern frameworks.</p><p>用户提问为何经典的诺基亚或黑莓等手机不能像游戏一样推出重制版。他建议利用AI修改旧系统以支持现代框架，从而降低开发门槛。</p><p>Tags: hardware · nokia · nostalgia</p>",
+      "date_published": "2026-09-02T11:39:30+00:00",
+      "tags": [
+        "hardware",
+        "nokia",
+        "nostalgia"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c8xk45k9r1go?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c8xk45k9r1go?at_medium=RSS&at_campaign=rss",
+      "title": "尼泊尔-西藏洪水灾后救援与恢复",
+      "content_html": "<p><strong>Nepal-Tibet flood response turns to relief and recovery</strong></p><p>Emergency relief efforts are underway as the death toll from floods surpasses 1,000, with thousands still missing. Aid is being airlifted to the affected villages to support recovery.</p><p>洪水造成的死亡人数已超过1000人，仍有数千人失踪，紧急救援行动正在进行中。救援物资正通过空运送往受灾村庄以支持重建。</p><p>Tags: flood · nepal · humanitarian</p>",
+      "date_published": "2026-09-02T11:36:13+00:00",
+      "tags": [
+        "flood",
+        "nepal",
+        "humanitarian"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4942128-apollo-commercials-liquidation-buy-sell-or-hold?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4942128-apollo-commercials-liquidation-buy-sell-or-hold?source=feed_all_articles",
+      "title": "Apollo Commercial清算：买入、卖出还是持有？",
+      "content_html": "<p><strong>Apollo Commercial&#x27;s Liquidation: Buy, Sell, Or Hold?</strong></p><p>Investors are weighing the implications of Apollo Commercial&#x27;s liquidation. The article discusses whether to exit positions or hold in hopes of a recovery.</p><p>投资者正在权衡Apollo Commercial清算带来的影响。文章讨论了应当退出投资还是持有股票以期待复苏。</p><p>Tags: stocks · finance · liquidation</p>",
+      "date_published": "2026-09-02T11:35:00+00:00",
+      "tags": [
+        "stocks",
+        "finance",
+        "liquidation"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/europes-largest-airline-warns-of-jet-fuel-prices-at-140-this-winter-as-it-cuts-capacity-ba7821a9?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/europes-largest-airline-warns-of-jet-fuel-prices-at-140-this-winter-as-it-cuts-capacity-ba7821a9?mod=mw_rss_topstories",
+      "title": "欧洲最大航空公司警告冬季燃油价格可能达到140美元",
+      "content_html": "<p><strong>Europe’s largest airline warns of jet-fuel prices hitting $140 this winter as it cuts capacity</strong></p><p>Ryanair is cutting winter capacity due to concerns over high unhedged jet fuel prices reaching $140 per barrel. This highlights the severe economic pressure energy costs place on the aviation industry.</p><p>由于担忧未对冲的航空燃油价格达到每桶140美元，瑞安航空正在削减冬季运力。这凸显了能源成本给航空业带来的巨大经济压力。</p><p>Tags: aviation · energy · economy</p>",
+      "date_published": "2026-09-02T11:31:00+00:00",
+      "tags": [
+        "aviation",
+        "energy",
+        "economy"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/games/987972/epilogue-gb-sn-operator-review-nintendo-game-boy-snes",
+      "url": "https://www.theverge.com/games/987972/epilogue-gb-sn-operator-review-nintendo-game-boy-snes",
+      "title": "利用USB-C小工具重玩复古游戏",
+      "content_html": "<p><strong>The amazing USB-C gadgets that play old Nintendo cartridges</strong></p><p>Retro gaming enthusiasts are using modern USB-C devices to access old Nintendo cartridges. These tools solve the problem of failing internal batteries that once stored save files.</p><p>复古游戏爱好者正在使用现代USB-C设备读取旧版任天堂卡带。这些工具解决了曾用于存储存档的内置电池失效的问题。</p><p>Tags: gaming · nintendo · hardware</p>",
+      "date_published": "2026-09-02T11:30:00+00:00",
+      "tags": [
+        "gaming",
+        "nintendo",
+        "hardware"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1239016#reply0",
+      "url": "https://www.v2ex.com/t/1239016#reply0",
+      "title": "分享一个拼图加水印的小程序",
+      "content_html": "<p><strong>[分享创造] 做了一个拼图加水印的小程序，欢迎体验。</strong></p><p>A new WeChat mini-program has been released for stitching images and adding customizable watermarks. The tool offers flexible layout options and detailed watermark settings for users.</p><p>一款用于拼图和添加自定义水印的微信小程序上线了。该工具为用户提供了灵活的拼接布局选项和详细的水印设置功能。</p><p>Tags: wechat · mini-program · images</p>",
+      "date_published": "2026-09-02T11:29:12+00:00",
+      "tags": [
+        "wechat",
+        "mini-program",
+        "images"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1239015#reply2",
+      "url": "https://www.v2ex.com/t/1239015#reply2",
+      "title": "表扬某东的售后服务体验",
+      "content_html": "<p><strong>[分享发现] 这次真要好好表扬下某东啊</strong></p><p>A user shares a positive experience with京东&#x27;s customer service regarding a faulty, out-of-warranty washing machine. The platform successfully mediated a refund for repairs that the manufacturer initially refused.</p><p>一名用户分享了关于京东在处理已过保洗衣机故障时的售后体验。该平台成功帮助用户追回了厂家此前拒绝退还的维修费用。</p><p>Tags: jd · customer-service · warranty</p>",
+      "date_published": "2026-09-02T11:12:36+00:00",
+      "tags": [
+        "jd",
+        "customer-service",
+        "warranty"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.31016",
+      "url": "https://arxiv.org/abs/2608.31016",
+      "title": "大模型在临床笔记中存在遗漏盲区",
+      "content_html": "<p><strong>LLM Judges Verify Presence, Not Absence: Omission Blindness in AI Clinical Notes</strong></p><p>Researchers have found that LLM judges are effective at verifying what is present in clinical notes but struggle to identify what is missing. This omission blindness poses risks in medical documentation.</p><p>研究发现，大模型在验证临床笔记内容是否存在时表现良好，但在识别遗漏内容方面存在盲区。这种缺陷为医疗记录带来了风险。</p><p>Tags: llm · ai · healthcare</p>",
+      "date_published": "2026-09-02T11:07:07+00:00",
+      "tags": [
+        "llm",
+        "ai",
+        "healthcare"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/chevron-outlines-7-billion-plan-to-expand-in-venezuela-3cc5ef7c?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/chevron-outlines-7-billion-plan-to-expand-in-venezuela-3cc5ef7c?mod=mw_rss_topstories",
+      "title": "雪佛龙计划投入70亿美元扩大在委内瑞拉的业务",
+      "content_html": "<p><strong>Chevron outlines $7 billion plan to expand in Venezuela</strong></p><p>Chevron is planning a $7 billion expansion in Venezuela following a Pentagon-backed strategy. This move reflects shifting geopolitical approaches to developing the country&#x27;s oil reserves.</p><p>在五角大楼的支持下，雪佛龙计划投入70亿美元扩大在委内瑞拉的业务。此举反映了开发该国石油储备的地缘政治策略转变。</p><p>Tags: chevron · oil · venezuela</p>",
+      "date_published": "2026-09-02T11:07:00+00:00",
+      "tags": [
+        "chevron",
+        "oil",
+        "venezuela"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/tech/987756/humanoid-robot-butlers-lg-cloid-smart-home-ifa",
+      "url": "https://www.theverge.com/tech/987756/humanoid-robot-butlers-lg-cloid-smart-home-ifa",
+      "title": "机器人管家梦想尚未落地",
+      "content_html": "<p><strong>The robot butler dream doesn’t have legs</strong></p><p>While humanoid robots have seen a surge in interest at events like CES, a truly functional home housekeeper remains elusive. Practical household automation still faces significant technical hurdles.</p><p>尽管人形机器人在CES等活动中备受关注，但真正实用的家庭管家仍难以实现。家庭自动化在落地方面仍面临重大的技术障碍。</p><p>Tags: robotics · ai · hardware</p>",
+      "date_published": "2026-09-02T11:00:00+00:00",
+      "tags": [
+        "robotics",
+        "ai",
+        "hardware"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/mongodb-shares-tumble-despite-strong-earnings-on-disappointing-news-for-investors-5ee13c7b?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/mongodb-shares-tumble-despite-strong-earnings-on-disappointing-news-for-investors-5ee13c7b?mod=mw_rss_topstories",
+      "title": "MongoDB尽管财报强劲但股价因投资者不满而下跌",
+      "content_html": "<p><strong>MongoDB shares tumble despite strong earnings on ‘disappointing’ news for investors</strong></p><p>Despite strong earnings, MongoDB shares dropped due to concerns over stagnation in its Atlas cloud revenue growth. Investors reacted negatively to the lack of acceleration in this key area.</p><p>尽管财报强劲，但由于对其Atlas云收入增长停滞的担忧，MongoDB股价出现下跌。投资者对这一关键领域缺乏增长动力做出了负面反应。</p><p>Tags: stocks · mongodb · earnings</p>",
+      "date_published": "2026-09-02T10:58:00+00:00",
+      "tags": [
+        "stocks",
+        "mongodb",
+        "earnings"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cg7k09z4lj9o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cg7k09z4lj9o?at_medium=RSS&at_campaign=rss",
+      "title": "美军在海上航行250天后抵达泰国芭堤雅",
+      "content_html": "<p><strong>US sailors arrive in Thailand&#x27;s Pattaya after record 250 days at sea</strong></p><p>The USS Abraham Lincoln has docked near Pattaya, Thailand, after a record-breaking 250 days at sea. The city is noted for its nightlife, which is a common destination for visiting military personnel.</p><p>“亚伯拉罕·林肯”号航空母舰在海上航行创纪录的250天后抵达泰国芭堤雅附近。该市以夜生活闻名，是军人常见的访问目的地。</p><p>Tags: military · thailand · navy</p>",
+      "date_published": "2026-09-02T10:04:28+00:00",
+      "tags": [
+        "military",
+        "thailand",
+        "navy"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss",
+      "title": "泽连斯基呼吁航空公司避开俄罗斯领空",
+      "content_html": "<p><strong>Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations</strong></p><p>President Zelensky has urged airlines to stop using Russian airspace as Ukraine intensifies drone operations. Meanwhile, Russia threatens to escalate its own military attacks against Ukraine.</p><p>随着乌克兰加强无人机行动，泽连斯基呼吁航空公司停止使用俄罗斯领空。与此同时，俄罗斯威胁将对乌克兰加强军事打击。</p><p>Tags: ukraine · russia · aviation</p>",
+      "date_published": "2026-09-02T10:00:08+00:00",
+      "tags": [
+        "ukraine",
+        "russia",
+        "aviation"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/cs/features/975597/loudoun-county-virginia-data-center-backlash",
+      "url": "https://www.theverge.com/cs/features/975597/loudoun-county-virginia-data-center-backlash",
+      "title": "这是美国的未来吗？",
+      "content_html": "<p><strong>Is this the future of America?</strong></p><p>The article explores how one region transformed its economy by aggressively attracting massive infrastructure investments. It questions whether this development model is sustainable for the rest of the country.</p><p>文章探讨了一个地区如何通过积极吸引大规模基础设施投资来转变经济。它同时也质疑这种发展模式对美国其他地区是否具有可持续性。</p><p>Tags: economy · infrastructure · usa</p>",
+      "date_published": "2026-09-02T10:00:01+00:00",
+      "tags": [
+        "economy",
+        "infrastructure",
+        "usa"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sspai.com/post/114084",
+      "url": "https://sspai.com/post/114084",
+      "title": "苹果发布会有哪些看点？",
+      "content_html": "<p><strong>折叠屏 iPhone、新款 HomePod…… Apple 发布会有哪些看点？</strong></p><p>Apple&#x27;s upcoming &#x27;Surprise and Shine&#x27; event is highly anticipated by tech enthusiasts. Speculation surrounds potential new hardware, including rumors of foldable devices and HomePod updates.</p><p>科技爱好者对苹果即将举办的“Surprise and Shine”发布会充满期待。外界对潜在的新硬件猜测纷纷，包括关于折叠屏设备和HomePod更新的传闻。</p><p>Tags: apple · event · hardware</p>",
+      "date_published": "2026-09-02T09:40:56+00:00",
+      "tags": [
+        "apple",
+        "event",
+        "hardware"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss",
+      "title": "为何美军与芭堤雅有深厚历史渊源",
+      "content_html": "<p><strong>Why US troops have a history in this raucous Thai city</strong></p><p>The article examines the historical connection between US troops and the Thai resort city of Pattaya. It highlights how the city evolved into a major hub for military rest and recreation.</p><p>文章探讨了美军与泰国度假城市芭堤雅之间的历史渊源。它分析了该市如何发展成为美军休息与娱乐的主要中心。</p><p>Tags: military · thailand · history</p>",
+      "date_published": "2026-09-02T07:18:39+00:00",
+      "tags": [
+        "military",
+        "thailand",
+        "history"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cge41d19gq9o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cge41d19gq9o?at_medium=RSS&at_campaign=rss",
+      "title": "BBC实地探访黎巴嫩被占区",
+      "content_html": "<p><strong>BBC travels inside occupied Lebanon as officials say Israel expanding positions</strong></p><p>BBC reporters joined a UN peacekeeping mission to witness firsthand the Israeli military’s activities in Lebanon. Reports indicate soldiers are fortifying positions amid ongoing demolitions.</p><p>BBC记者跟随联合国维和任务，实地探访了黎巴嫩境内的以色列军事活动。报道显示，以军正在加强阵地并进行持续的拆除工作。</p><p>Tags: lebanon · israel · conflict</p>",
+      "date_published": "2026-09-02T05:03:09+00:00",
+      "tags": [
+        "lebanon",
+        "israel",
+        "conflict"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.29530",
+      "url": "https://arxiv.org/abs/2608.29530",
+      "title": "人工神经网络的涌现符号结构",
+      "content_html": "<p><strong>The Emergent Symbolic Structure of Artificial Neural Networks</strong></p><p>Recent research explores how artificial neural networks develop emergent symbolic representations during learning. This work offers new insights into the internal logic of deep learning models.</p><p>最新研究探讨了人工神经网络在学习过程中如何形成涌现的符号表征。这项工作为深度学习模型的内部逻辑提供了新的见解。</p><p>Tags: ai · research · neural-networks</p>",
+      "date_published": "2026-09-02T04:15:56+00:00",
+      "tags": [
+        "ai",
+        "research",
+        "neural-networks"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2587239-can-we-really-reverse-global-warming-after-overshooting-1-5c/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2587239-can-we-really-reverse-global-warming-after-overshooting-1-5c/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "全球变暖后能否真正逆转1.5°C的目标？",
+      "content_html": "<p><strong>Can we really reverse global warming after overshooting 1.5°C?</strong></p><p>While a UN report suggests it is technically possible to return to 1.5°C global warming levels by century&#x27;s end, many scientists remain skeptical. Achieving this target is seen as highly improbable given current trends.</p><p>尽管一份联合国报告指出本世纪末气温回升至1.5°C在技术上是可能的，但许多科学家对此表示怀疑。鉴于当前趋势，实现该目标被认为可能性极低。</p><p>Tags: climate · environment · science</p>",
+      "date_published": "2026-09-02T04:00:00+00:00",
+      "tags": [
+        "climate",
+        "environment",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
+      "url": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
+      "title": "AI如何规划前往半人马座的星际旅程",
+      "content_html": "<p><strong>How AI plotted an interstellar journey to Alpha Centauri</strong></p><p>A non-profit organization is planning a mission to Alpha Centauri using AI-driven spacecraft design. While ambitious, the trip could take up to 80,000 years to reach the nearest star system.</p><p>一个非营利组织正在利用AI驱动的航天器设计规划前往半人马座的任务。尽管雄心勃勃，但航天器可能需要长达8万年的时间才能抵达最近的恒星系。</p><p>Tags: space · ai · astronomy</p>",
+      "date_published": "2026-09-01T19:10:36+00:00",
+      "tags": [
+        "space",
+        "ai",
+        "astronomy"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://danluu.com/zitron/",
+      "url": "https://danluu.com/zitron/",
+      "title": "Ed Zitron的AI怀疑论预测有多准？",
+      "content_html": "<p><strong>How accurate have Ed Zitron&#x27;s AI skeptic predictions been?</strong></p><p>Critics are evaluating the accuracy of Ed Zitron’s past predictions regarding AI development. The discussion highlights the challenges of forecasting the impact and limitations of new technology.</p><p>评论家们正在评估Ed Zitron过去关于AI发展的预测准确性。这一讨论凸显了预测新技术影响及其局限性所面临的挑战。</p><p>Tags: ai · prediction · critique</p>",
+      "date_published": "2026-09-01T18:35:15+00:00",
+      "tags": [
+        "ai",
+        "prediction",
+        "critique"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "Claude Fable 5.1与Claude Mythos 5.1发布",
+      "content_html": "<p><strong>Claude Fable 5.1 and Claude Mythos 5.1</strong></p><p>New versions of the Claude AI models, Fable 5.1 and Mythos 5.1, have been released. Discussion centers on their upgraded capabilities and potential use cases in creative workflows.</p><p>Claude AI模型的新版本Fable 5.1和Mythos 5.1已发布。讨论集中在它们升级后的能力以及在创意工作流程中的潜在应用场景。</p><p>Tags: claude · anthropic · llm</p>",
+      "date_published": "2026-09-01T17:53:53+00:00",
+      "tags": [
+        "claude",
+        "anthropic",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://openai.com/index/ai-native-company-workflows",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "title": "AI原生企业如何通过工作流构建运营能力",
+      "content_html": "<p><strong>How AI-native companies turn workflows into operating capability</strong></p><p>Companies like Basis and Clay are using AI agents to optimize enterprise workflows. This approach demonstrates how AI can move beyond simple tasks to become an core operating capability.</p><p>Basis和Clay等公司正在利用AI智能体优化企业工作流。这种方法展示了AI如何超越简单任务，成为核心的运营能力。</p><p>Tags: ai · enterprise · workflow</p>",
+      "date_published": "2026-09-01T17:00:00+00:00",
+      "tags": [
+        "ai",
+        "enterprise",
+        "workflow"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2586590-are-you-made-of-real-world-quarks-or-virtual-world-qubits/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2586590-are-you-made-of-real-world-quarks-or-virtual-world-qubits/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "我们是真实世界的夸克还是模拟世界的量子比特？",
+      "content_html": "<p><strong>Are you made of real-world quarks or virtual-world qubits?</strong></p><p>Scientists are mathematically exploring the possibility that our universe is a virtual simulation. The discussion bridges the gap between quantum physics and the philosophical concept of reality.</p><p>科学家们正在从数学角度探讨我们的宇宙是否为虚拟模拟的可能性。这一讨论连接了量子物理与现实的哲学概念。</p><p>Tags: physics · simulation · science</p>",
+      "date_published": "2026-09-01T17:00:00+00:00",
+      "tags": [
+        "physics",
+        "simulation",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2584598-how-ukraine-created-world-leading-prosthetics-amid-the-chaos-of-war/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2584598-how-ukraine-created-world-leading-prosthetics-amid-the-chaos-of-war/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "乌克兰如何在战争中创造世界领先的假肢技术",
+      "content_html": "<p><strong>How Ukraine created world-leading prostheses amid the chaos of war</strong></p><p>The conflict in Ukraine has spurred the development of advanced prosthetics to treat wartime injuries. These innovations are providing life-changing solutions for victims and setting new global standards.</p><p>乌克兰的冲突推动了用于治疗战争创伤的先进假肢技术的开发。这些创新为受害者提供了改变生活的解决方案，并设定了新的全球标准。</p><p>Tags: prosthetics · ukraine · tech</p>",
+      "date_published": "2026-09-01T15:00:00+00:00",
+      "tags": [
+        "prosthetics",
+        "ukraine",
+        "tech"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
+      "url": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
+      "title": "利用AI助力遗留系统现代化",
+      "content_html": "<p><strong>Making the AI-powered case for legacy modernization</strong></p><p>Modernizing outdated IT systems is complex and risky, but AI now offers a pathway to streamline the process. The article outlines how enterprises can turn legacy modernization into a strategic opportunity.</p><p>遗留IT系统的现代化改造既复杂又有风险，但AI现在提供了一种精简流程的途径。文章概述了企业如何将遗留系统现代化转化为战略机遇。</p><p>Tags: ai · legacy · enterprise</p>",
+      "date_published": "2026-09-01T14:00:00+00:00",
+      "tags": [
+        "ai",
+        "legacy",
+        "enterprise"
+      ],
+      "_category": "AI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1238755#reply0",
       "url": "https://www.v2ex.com/t/1238755#reply0",
       "title": "一款开源的 AE 插件，可生成可编辑的真关键帧动画",
@@ -2216,422 +2632,6 @@
         "speedo",
         "swimming",
         "wearable"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
-      "title": "黄仁勋再次称英伟达实现了AGI，但这并不重要",
-      "content_html": "<p><strong>Jensen Huang says Nvidia achieved AGI, again — not that it matters</strong></p><p>Jensen Huang claimed Nvidia has achieved AGI during an earnings call, but quickly dismissed the milestone as irrelevant. Experts suggest the term lacks a standardized definition in the industry.</p><p>黄仁勋在财报电话会议上称英伟达已实现AGI，但随即又表示这一里程碑并不重要。专家认为该术语在业内尚缺乏统一的定义。</p><p>Tags: nvidia · agi · jensenhuang</p>",
-      "date_published": "2026-08-27T16:15:52+00:00",
-      "tags": [
-        "nvidia",
-        "agi",
-        "jensenhuang"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/tech/985363/sony-releases-cheaper-bravia-6-oled-tv",
-      "url": "https://www.theverge.com/tech/985363/sony-releases-cheaper-bravia-6-oled-tv",
-      "title": "索尼终于推出更便宜的OLED电视，与三星和LG中端产品竞争",
-      "content_html": "<p><strong>Sony finally has a cheaper OLED to compete with midrange Samsung and LG TVs</strong></p><p>Sony has announced the Bravia 6 OLED, a lower-cost model designed to compete with Samsung and LG&#x27;s midrange offerings. This expansion fills a gap in Sony&#x27;s current television lineup.</p><p>索尼发布了Bravia 6 OLED电视，旨在通过更低的价格与三星和LG的中端产品竞争。该机型的加入填补了索尼现有产品线的空白。</p><p>Tags: sony · tv · oled</p>",
-      "date_published": "2026-08-27T16:00:00+00:00",
-      "tags": [
-        "sony",
-        "tv",
-        "oled"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
-      "url": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
-      "title": "OpenClaw病毒式传播，认识一下构建和保护它的维护者们",
-      "content_html": "<p><strong>OpenClaw went viral. Meet the maintainers building and securing it.</strong></p><p>OpenClaw has become the fastest-growing project in GitHub history. The maintainers discuss their experiences and the security measures implemented during its rapid growth.</p><p>OpenClaw已成为GitHub历史上增长最快的项目。维护者们分享了他们在项目高速增长期间的经验和所实施的安全措施。</p><p>Tags: github · openclaw · opensource</p>",
-      "date_published": "2026-08-27T16:00:00+00:00",
-      "tags": [
-        "github",
-        "openclaw",
-        "opensource"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2586630-astonishing-whale-feeding-frenzy-seen-off-the-eastern-coast-of-greenland/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2586630-astonishing-whale-feeding-frenzy-seen-off-the-eastern-coast-of-greenland/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "格陵兰岛东海岸出现令人震惊的鲸鱼捕食狂潮",
-      "content_html": "<p><strong>Astonishing whale feeding frenzy seen off the eastern coast of Greenland</strong></p><p>The baleen whale population off eastern Greenland has surged, leading to massive feeding frenzies. Reporters describe the event as a profound ecological spectacle.</p><p>格陵兰岛东海岸的须鲸种群数量激增，导致了大规模的捕食狂潮。报道称这一自然景象令人感到无比震撼。</p><p>Tags: whale · greenland · nature</p>",
-      "date_published": "2026-08-27T16:00:00+00:00",
-      "tags": [
-        "whale",
-        "greenland",
-        "nature"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://calv.info/small-models-have-arrived",
-      "url": "https://calv.info/small-models-have-arrived",
-      "title": "小型模型已经到来",
-      "content_html": "<p><strong>Small Models Have Arrived</strong></p><p>The discourse focuses on the shift towards small, efficient AI models that provide high performance. These models are increasingly seen as a viable alternative to massive LLMs.</p><p>讨论重点转向了小型且高效的AI模型。这些模型被视为能够提供高性能，是大型语言模型的可行替代方案。</p><p>Tags: ai · llm · smallmodels</p>",
-      "date_published": "2026-08-27T15:56:58+00:00",
-      "tags": [
-        "ai",
-        "llm",
-        "smallmodels"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/tech/985155/flock-camera-destruction-vigilantes",
-      "url": "https://www.theverge.com/tech/985155/flock-camera-destruction-vigilantes",
-      "title": "美国人正在为拆除Flock摄像头的治安维持者喝彩",
-      "content_html": "<p><strong>Americans are cheering for vigilantes who take down Flock cameras</strong></p><p>Citizens in the U.S. have begun a grassroots campaign to destroy Flock surveillance cameras. This decentralized protest movement has proven difficult for authorities to manage or stop.</p><p>美国公民已开始通过基层行动拆除Flock监控摄像头。这种去中心化的抗议运动让当局难以管理或阻止。</p><p>Tags: protest · surveillance · privacy</p>",
-      "date_published": "2026-08-27T15:49:47+00:00",
-      "tags": [
-        "protest",
-        "surveillance",
-        "privacy"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
-      "title": "和平组织加沙特使批评以色列空袭和哈马斯行动",
-      "content_html": "<p><strong>Board of Peace&#x27;s Gaza envoy criticises Israeli strikes and Hamas actions</strong></p><p>Nickolay Mladenov warns that the breakdown of the ceasefire in Gaza could lead to a point of no return. He expresses strong criticism of both Israeli airstrikes and Hamas actions.</p><p>尼科拉·姆拉德诺夫警告称，加沙停火协议的破裂可能导致不可挽回的局面。他对以色列的空袭和哈马斯的行动均表示强烈批评。</p><p>Tags: gaza · conflict · politics</p>",
-      "date_published": "2026-08-27T14:17:24+00:00",
-      "tags": [
-        "gaza",
-        "conflict",
-        "politics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://507movements.com/",
-      "url": "https://507movements.com/",
-      "title": "507个机械运动",
-      "content_html": "<p><strong>507 Mechanical Movements</strong></p><p>A discussion regarding &#x27;507 Mechanical Movements&#x27;, a classic reference book for engineering. The text highlights the beauty and simplicity of fundamental mechanical designs.</p><p>关于经典工程参考书《507个机械运动》的讨论。文中强调了基础机械设计的优雅与简洁性。</p><p>Tags: engineering · mechanics · design</p>",
-      "date_published": "2026-08-27T14:08:18+00:00",
-      "tags": [
-        "engineering",
-        "mechanics",
-        "design"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2586778-octopuses-released-into-adriatic-sea-to-tackle-invasive-crabs/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2586778-octopuses-released-into-adriatic-sea-to-tackle-invasive-crabs/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "将章鱼释放到亚得里亚海以应对入侵螃蟹",
-      "content_html": "<p><strong>Octopuses released into Adriatic Sea to tackle invasive crabs</strong></p><p>Scientists are introducing octopuses into the Adriatic Sea to control the population of invasive Atlantic blue crabs. This natural solution aims to protect local ecosystems and economies.</p><p>科学家正在将章鱼引入亚得里亚海，以控制入侵的大西洋蓝蟹数量。这一自然解决方案旨在保护当地生态系统和经济。</p><p>Tags: biology · ecology · ocean</p>",
-      "date_published": "2026-08-27T14:00:00+00:00",
-      "tags": [
-        "biology",
-        "ecology",
-        "ocean"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
-      "url": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
-      "title": "下载：OpenAI对Hugging Face的黑客攻击内幕，以及进军美国市场的新电动车",
-      "content_html": "<p><strong>The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US</strong></p><p>This newsletter covers OpenAI agents&#x27; accidental training to cheat on Hugging Face. It also highlights a new electric vehicle entering the competitive U.S. market.</p><p>本期通讯报道了OpenAI智能体在Hugging Face上因训练失误而产生的违规行为。同时也介绍了进入美国竞争市场的一款新电动汽车。</p><p>Tags: openai · huggingface · ev</p>",
-      "date_published": "2026-08-27T12:10:00+00:00",
-      "tags": [
-        "openai",
-        "huggingface",
-        "ev"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2586721-driving-data-predicts-crash-black-spots-before-accidents-happen/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2586721-driving-data-predicts-crash-black-spots-before-accidents-happen/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "驾驶数据可以在事故发生前预测事故黑点",
-      "content_html": "<p><strong>Driving data can predict crash black spots before accidents happen</strong></p><p>Analyzing massive amounts of driving data from Australia helps identify road sections prone to accidents. This predictive approach could significantly improve road safety through proactive measures.</p><p>分析来自澳大利亚的海量驾驶数据，有助于识别易发事故的道路区域。这种预测性方案可以通过前瞻性措施显著提高道路安全。</p><p>Tags: data · driving · safety</p>",
-      "date_published": "2026-08-27T12:00:00+00:00",
-      "tags": [
-        "data",
-        "driving",
-        "safety"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2586505-exercise-may-create-new-neurons-by-making-other-brain-cells-contract/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2586505-exercise-may-create-new-neurons-by-making-other-brain-cells-contract/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "运动可能通过使其他脑细胞收缩来产生新神经元",
-      "content_html": "<p><strong>Exercise may create new neurons by making other brain cells contract</strong></p><p>A new study in mice suggests that physical activity causes astrocytes to contract, which promotes the formation of new neurons. This finding offers insights into the neurological benefits of exercise.</p><p>一项针对小鼠的新研究表明，体育活动导致星形胶质细胞收缩，从而促进了新神经元的形成。这一发现深入揭示了运动对神经系统的好处。</p><p>Tags: neuroscience · exercise · health</p>",
-      "date_published": "2026-08-27T12:00:00+00:00",
-      "tags": [
-        "neuroscience",
-        "exercise",
-        "health"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
-      "title": "关于尼泊尔与西藏边境致命洪灾的已知信息",
-      "content_html": "<p><strong>What we know about deadly Nepal-Tibet floods</strong></p><p>Deadly floods and landslides have struck the border area between Nepal and Tibet. Authorities are currently reporting hundreds of casualties as rescue efforts continue.</p><p>尼泊尔与西藏边境地区发生了致命的洪水和泥石流。随着救援工作的持续，目前已有数百人伤亡的报告。</p><p>Tags: nepal · tibet · flood</p>",
-      "date_published": "2026-08-27T09:55:02+00:00",
-      "tags": [
-        "nepal",
-        "tibet",
-        "flood"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
-      "title": "科学家称冰川崩塌可能是导致尼泊尔与西藏毁灭性洪灾的原因",
-      "content_html": "<p><strong>Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say</strong></p><p>Preliminary investigations suggest that a collapsed glacier triggered the severe floods in the Nepal-Tibet region. This highlights the growing threat of rapidly melting Himalayan ice due to climate change.</p><p>初步调查显示，冰川崩塌可能是引发尼泊尔与西藏地区严重洪水的原因。这凸显了气候变化导致喜马拉雅冰川融化带来的日益严重的威胁。</p><p>Tags: glacier · climate · disaster</p>",
-      "date_published": "2026-08-27T09:50:10+00:00",
-      "tags": [
-        "glacier",
-        "climate",
-        "disaster"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "title": "更好的答案，更广阔的思维：学生从ChatGPT和批判性思维训练中获得了什么",
-      "content_html": "<p><strong>Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training</strong></p><p>A study of over 1,000 students found that integrating ChatGPT with critical thinking training improves assignment performance and originality. The research suggests AI can be a powerful educational tool when used correctly.</p><p>一项针对1000多名学生的研究发现，将ChatGPT与批判性思维训练相结合，能提升作业表现和原创性。研究表明，正确使用AI可以成为强大的教育工具。</p><p>Tags: openai · education · chatgpt</p>",
-      "date_published": "2026-08-27T09:00:00+00:00",
-      "tags": [
-        "openai",
-        "education",
-        "chatgpt"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1237385#reply0",
-      "url": "https://www.v2ex.com/t/1237385#reply0",
-      "title": "投资：过去1年大A微涨，跑赢大盘的聊聊",
-      "content_html": "<p><strong>[投资] 过去 1 年大 A 暴涨 5 个点： 3883.56-&gt;3889.44，跑赢大盘的冒个泡</strong></p><p>The Chinese stock market saw a marginal increase of about 5 points over the past year. Investors are sharing their experiences, with many reflecting on stagnant returns despite some past gains.</p><p>过去一年中国股市大盘表现平平，仅微涨约5点。投资者们分享了自己的收益情况，不少人感慨这一年几乎白忙活。</p><p>Tags: 投资 · 股票 · a股</p>",
-      "date_published": "2026-08-26T07:38:54+00:00",
-      "tags": [
-        "投资",
-        "股票",
-        "a股"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1237384#reply0",
-      "url": "https://www.v2ex.com/t/1237384#reply0",
-      "title": "OpenAI Plus 还是 Cursor Pro？",
-      "content_html": "<p><strong>[OpenAI] openai plus 还是 cursor pro</strong></p><p>The user is debating whether to subscribe to OpenAI Plus or Cursor Pro for their coding needs. They are looking for comparisons in terms of pricing, features, and overall cost-effectiveness.</p><p>用户正在权衡选择OpenAI Plus还是Cursor Pro以满足编程需求。他们正在寻求两者在价格、功能和性价比方面的对比分析。</p><p>Tags: openai · cursor · ai编程</p>",
-      "date_published": "2026-08-26T07:37:56+00:00",
-      "tags": [
-        "openai",
-        "cursor",
-        "ai编程"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1237383#reply0",
-      "url": "https://www.v2ex.com/t/1237383#reply0",
-      "title": "sub2api 转订阅使用 gpt-image-2 的问题",
-      "content_html": "<p><strong>[OpenAI] sub2api 转订阅使用 gpt-image2</strong></p><p>A user is experiencing technical difficulties while using the sub2api service to transition to gpt-image-2. They are seeking solutions for handling OAuth and sizing configuration errors.</p><p>用户在使用sub2api服务切换到gpt-image-2时遇到了技术故障。他们正在寻求解决OAuth通道及自动缩放配置错误的方案。</p><p>Tags: api · gpt · oauth</p>",
-      "date_published": "2026-08-26T07:37:13+00:00",
-      "tags": [
-        "api",
-        "gpt",
-        "oauth"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4940252-qfin-holdings-inc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4940252-qfin-holdings-inc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "title": "Qfin Holdings, Inc. 2026年第二季度财报说明会",
-      "content_html": "<p><strong>Qfin Holdings, Inc. 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>Qfin Holdings, Inc. has released its financial presentation for the second quarter of 2026. The document outlines the company&#x27;s fiscal performance and strategic outlook for investors.</p><p>Qfin Holdings, Inc.发布了2026年第二季度财务演示报告。该文件概述了公司的财务表现及面向投资者的战略前景。</p><p>Tags: 财报 · qfin · 金融</p>",
-      "date_published": "2026-08-26T07:31:10+00:00",
-      "tags": [
-        "财报",
-        "qfin",
-        "金融"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4940251-edag-engineering-group-ag-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4940251-edag-engineering-group-ag-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "title": "EDAG Engineering Group AG 2026年第二季度财报说明会",
-      "content_html": "<p><strong>EDAG Engineering Group AG 2026 Q2 - Results - Earnings Call Presentation</strong></p><p>EDAG Engineering Group AG presented their Q2 2026 earnings results. The call provides insights into the engineering firm&#x27;s operational successes and financial trajectory.</p><p>EDAG Engineering Group AG公布了2026年第二季度财报数据。本次会议提供了该公司运营成果及财务发展轨迹的相关洞察。</p><p>Tags: 财报 · edag · 工程</p>",
-      "date_published": "2026-08-26T07:30:45+00:00",
-      "tags": [
-        "财报",
-        "edag",
-        "工程"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1237382#reply0",
-      "url": "https://www.v2ex.com/t/1237382#reply0",
-      "title": "武汉地区寻找兼职学生，要求懂Linux运维",
-      "content_html": "<p><strong>[问与答] 武汉地区有没有学生兼职，懂 Linux 运维相关的</strong></p><p>A company is looking for a university student in Wuhan to assist with on-site Linux server maintenance. The role involves physical access to secure server rooms with remote expert guidance.</p><p>一家公司正在武汉地区寻找大学生兼职，协助完成Linux机房的现场运维工作。该岗位需要进入内网机房，并在远程专家的指导下进行操作。</p><p>Tags: 运维 · linux · 兼职</p>",
-      "date_published": "2026-08-26T07:30:36+00:00",
-      "tags": [
-        "运维",
-        "linux",
-        "兼职"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4940248-us-aluminum-market-will-remain-tight-despite-latest-tariff-changes?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4940248-us-aluminum-market-will-remain-tight-despite-latest-tariff-changes?source=feed_all_articles",
-      "title": "尽管关税政策调整，美国铝市场仍将保持紧张",
-      "content_html": "<p><strong>U.S. Aluminum Market Will Remain Tight Despite Latest Tariff Changes</strong></p><p>Analysts predict that the U.S. aluminum market will remain tight despite recent changes to tariff regulations. Supply chain constraints continue to outweigh the impact of trade policy shifts.</p><p>分析师预测，尽管近期关税政策有所调整，美国铝市场仍将处于紧缺状态。供应链的局限性仍然超过了贸易政策转变带来的影响。</p><p>Tags: 铝 · 关税 · 贸易</p>",
-      "date_published": "2026-08-26T07:30:00+00:00",
-      "tags": [
-        "铝",
-        "关税",
-        "贸易"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1237381#reply0",
-      "url": "https://www.v2ex.com/t/1237381#reply0",
-      "title": "3年Linux C++经验，该坚持还是转行？",
-      "content_html": "<p><strong>[职场话题] 3 年 Linux C++，该 传统 C++ 业务 还是转机器人 / DPDK / AI / Go？</strong></p><p>A software engineer with three years of Linux C++ experience is debating their career path. They are weighing options between specialized roles like DPDK, robotics, or transitioning into AI and cloud infrastructure.</p><p>一名拥有三年Linux C++经验的软件工程师正在规划职业转型。他们正在对比继续深耕DPDK/机器人领域，还是转向AI与云平台后端等不同方向。</p><p>Tags: 职业规划 · cpp · 后端</p>",
-      "date_published": "2026-08-26T07:26:17+00:00",
-      "tags": [
-        "职业规划",
-        "cpp",
-        "后端"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4940230-americas-new-luddites-are-coming-for-the-ai-data-center-boom?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4940230-americas-new-luddites-are-coming-for-the-ai-data-center-boom?source=feed_all_articles",
-      "title": "美国新勒德分子正试图阻碍AI数据中心建设",
-      "content_html": "<p><strong>America&#x27;s New Luddites Are Coming For The AI Data Center Boom</strong></p><p>New anti-technology movements in the U.S. are increasingly opposing the rapid expansion of AI data centers. Critics argue that environmental and social costs outweigh the projected digital benefits.</p><p>美国国内出现的新技术反对派正试图阻碍AI数据中心的大规模建设。批评者认为，其环境和社会成本远超预期带来的数字红利。</p><p>Tags: ai · 数据中心 · 社会</p>",
-      "date_published": "2026-08-26T07:25:54+00:00",
-      "tags": [
-        "ai",
-        "数据中心",
-        "社会"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4940245-janus-henderson-concentrated-growth-managed-account-q2-2026-commentary?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4940245-janus-henderson-concentrated-growth-managed-account-q2-2026-commentary?source=feed_all_articles",
-      "title": "Janus Henderson 2026年第二季度增长管理账户评论",
-      "content_html": "<p><strong>Janus Henderson Concentrated Growth Managed Account Q2 2026 Commentary</strong></p><p>The commentary highlights the performance and strategy of the Janus Henderson concentrated growth account for Q2 2026. It offers analysis on market volatility and asset selection.</p><p>该评论重点介绍了Janus Henderson集中增长账户在2026年第二季度的表现及策略。文中对市场波动和资产选择进行了分析。</p><p>Tags: 投资 · 资产管理 · 财报</p>",
-      "date_published": "2026-08-26T07:20:00+00:00",
-      "tags": [
-        "投资",
-        "资产管理",
-        "财报"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
-      "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
-      "title": "比尔·盖茨称AI已越过危险阈值，接下来怎么办？",
-      "content_html": "<p><strong>Bill Gates says we’ve passed AI’s danger thresholds. Now what?</strong></p><p>Bill Gates reflects on the potential dangers of artificial intelligence and suggests that we have crossed critical thresholds. He calls for a strategic focus on safety and responsible deployment moving forward.</p><p>比尔·盖茨反思了人工智能的潜在危险，认为人类已经越过了关键的临界点。他呼吁未来应将战略重点放在安全性和负责任的部署上。</p><p>Tags: 比尔盖茨 · ai · 安全</p>",
-      "date_published": "2026-08-26T07:01:00+00:00",
-      "tags": [
-        "比尔盖茨",
-        "ai",
-        "安全"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://spectrum.ieee.org/cold-war-codebreaker-nsa-ibm",
-      "url": "https://spectrum.ieee.org/cold-war-codebreaker-nsa-ibm",
-      "title": "Harvest (IBM 7950)：冷战时期NSA的密码分析超级计算机",
-      "content_html": "<p><strong>Harvest (IBM 7950): Supercomputer for cryptanalysis at the NSA in the Cold War</strong></p><p>This article discusses the history of the IBM 7950 &#x27;Harvest&#x27;, a powerful supercomputer used by the NSA for cryptanalysis during the Cold War. It details its technical architecture and role in secret operations.</p><p>文章探讨了冷战时期IBM 7950“Harvest”超级计算机的历史，该计算机曾被NSA用于密码分析。文中详细介绍了其架构及在秘密行动中的作用。</p><p>Tags: 超级计算机 · 密码学 · 历史</p>",
-      "date_published": "2026-08-26T05:09:07+00:00",
-      "tags": [
-        "超级计算机",
-        "密码学",
-        "历史"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://sspai.com/post/113714",
-      "url": "https://sspai.com/post/113714",
-      "title": "在正镶白旗，用五天共同生活理解现代牧场",
-      "content_html": "<p><strong>在正镶白旗，用五天共同生活理解现代牧场</strong></p><p>A field research trip to Zhengxiangbai Banner provided a deep look into the lives of local herdsmen and modern ranching. The experience emphasized the importance of human connection over superficial travel.</p><p>一次前往正镶白旗的田野调查，深入了解了当地牧民的生活与现代牧场运营。这次经历强调了人与人之间连接的重要性，而非走马观花的旅行。</p><p>Tags: 牧场 · 旅行 · 生活</p>",
-      "date_published": "2026-08-26T02:39:24+00:00",
-      "tags": [
-        "牧场",
-        "旅行",
-        "生活"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/are-older-americans-spoiling-the-economy-for-everyone-else-064b5820?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/are-older-americans-spoiling-the-economy-for-everyone-else-064b5820?mod=mw_rss_topstories",
-      "title": "老年人是否正在挥霍经济前景？",
-      "content_html": "<p><strong>Are older Americans spoiling the economy for everyone else?</strong></p><p>This piece examines the economic impact of older Americans holding onto $12 trillion in home equity. It questions whether this trend is hindering economic mobility for younger generations.</p><p>本文探讨了美国老年人持有12万亿美元房产净值带来的经济影响。文章质疑这种趋势是否阻碍了年轻一代的经济流动性。</p><p>Tags: 经济 · 养老 · 房地产</p>",
-      "date_published": "2026-08-26T01:41:00+00:00",
-      "tags": [
-        "经济",
-        "养老",
-        "房地产"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
-      "title": "5个适合退休的美国城市，如果能接受一个缺点",
-      "content_html": "<p><strong>5 cheap U.S. cities to retire in — if you can deal with this one thing</strong></p><p>The article lists five affordable U.S. cities for retirees, provided they can accommodate a specific local challenge. It aims to help people find budget-friendly places for their golden years.</p><p>文章列举了五个适合退休且经济实惠的美国城市，前提是住户能接受当地存在的特定挑战。旨在帮助人们寻找适合养老的低成本居住地。</p><p>Tags: 退休 · 房地产 · 美国</p>",
-      "date_published": "2026-08-26T01:35:00+00:00",
-      "tags": [
-        "退休",
-        "房地产",
-        "美国"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
-      "url": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
-      "title": "可查询的可执行文件",
-      "content_html": "<p><strong>Queryable Executables</strong></p><p>This technical article introduces the concept of queryable executables, allowing developers to treat binary files as databases. It explores the implications for software auditing and security.</p><p>这篇技术文章介绍了“可查询可执行文件”的概念，允许开发者将二进制文件视作数据库进行检索。文中探讨了其对软件审计与安全的影响。</p><p>Tags: 编程 · 二进制 · 技术</p>",
-      "date_published": "2026-08-26T00:20:49+00:00",
-      "tags": [
-        "编程",
-        "二进制",
-        "技术"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://sspai.com/post/113847",
-      "url": "https://sspai.com/post/113847",
-      "title": "派早报：Apple 发布新款 Mac mini 和 Mac Studio 等",
-      "content_html": "<p><strong>派早报：Apple 发布新款 Mac mini 和 Mac Studio 等</strong></p><p>Apple has announced new iterations of the Mac mini and Mac Studio, featuring updated hardware performance. Other news includes new Sony phone releases and local transit card updates.</p><p>苹果发布了新款Mac mini和Mac Studio，硬件性能得到显著提升。同时，索尼发布了新款手机，Apple钱包功能也得到了进一步扩展。</p><p>Tags: 苹果 · mac · 数码</p>",
-      "date_published": "2026-08-26T00:09:01+00:00",
-      "tags": [
-        "苹果",
-        "mac",
-        "数码"
       ],
       "_category": "TECH"
     }
