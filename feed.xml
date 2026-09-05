@@ -6,7 +6,239 @@
 <atom:link href="https://news.wuwuwu.cc/feed.xml" rel="self" type="application/rss+xml"/>
 <description>每日中英双语科技与世界新闻摘要 · summarized by Gemini</description>
 <language>zh-cn</language>
-<lastBuildDate>Fri, 04 Sep 2026 11:55:47 +0000</lastBuildDate>
+<lastBuildDate>Sat, 05 Sep 2026 11:05:06 +0000</lastBuildDate>
+<item>
+<title>机器人出租车进入“反派时代”</title>
+<link>https://www.theverge.com/transportation/989513/road-rage-short-film-robotaxi-autonomous-ai</link>
+<guid isPermaLink="true">https://www.theverge.com/transportation/989513/road-rage-short-film-robotaxi-autonomous-ai</guid>
+<pubDate>Sat, 05 Sep 2026 11:00:00 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Robotaxis enter their villain era</strong></p><p>A new short film portrays autonomous robotaxis as villains in a high-stakes car chase. This cultural depiction highlights how society is increasingly viewing autonomous vehicle technology with suspicion and anxiety.</p><p>一部短片将自动驾驶出租车描绘成追逐戏中的反派角色。这一文化现象反映了公众对自动驾驶技术日益增长的担忧与戒备。</p><p>Tags: robotaxi · ai · autonomous · film</p>]]></description>
+</item>
+<item>
+<title>亚马逊：两大隐忧，三大增长引擎</title>
+<link>https://seekingalpha.com/article/4943329-amazon-2-tiny-fears-3-massive-growth-engines?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4943329-amazon-2-tiny-fears-3-massive-growth-engines?source=feed_all_articles</guid>
+<pubDate>Sat, 05 Sep 2026 10:59:44 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Amazon: 2 Tiny Fears, 3 Massive Growth Engines</strong></p><p>Amazon faces two minor internal challenges while simultaneously accelerating growth through three massive business pillars. Investors remain focused on how these factors will influence the company&#x27;s long-term stock performance.</p><p>亚马逊正面临两大内部隐忧，同时也通过三大核心业务强力推动增长。投资者正在评估这些因素如何影响其股价的长期走势。</p><p>Tags: amazon · stock · growth</p>]]></description>
+</item>
+<item>
+<title>[程序员] 本地 Coding Agent 工作台：CoDock</title>
+<link>https://www.v2ex.com/t/1239712#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1239712#reply0</guid>
+<pubDate>Sat, 05 Sep 2026 10:47:54 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[程序员] 本地 Coding Agent 工作台： CoDock</strong></p><p>CoDock is a local desktop dashboard designed to centralize various AI coding agents in one interface. It solves the issue of terminal clutter and improves developer productivity through task grouping and unified management.</p><p>CoDock 是一款本地桌面工作台，旨在将多种 AI 编程代理聚合在统一界面中。它通过任务分组和集中管理解决了终端窗口杂乱的问题，提升了开发效率。</p><p>Tags: coding · ai · agent · productivity</p>]]></description>
+</item>
+<item>
+<title>Progyny：增长缓慢但持续，资产负债表稳健</title>
+<link>https://seekingalpha.com/article/4943328-progyny-slow-but-consistent-growth-with-pristine-balance-sheet?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4943328-progyny-slow-but-consistent-growth-with-pristine-balance-sheet?source=feed_all_articles</guid>
+<pubDate>Sat, 05 Sep 2026 10:47:07 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Progyny: Slow But Consistent Growth With A Pristine Balance Sheet</strong></p><p>Progyny demonstrates consistent but measured growth alongside a strong financial position. Its pristine balance sheet remains a point of interest for long-term value investors.</p><p>Progyny 展现出缓慢但持续的增长态势，且资产负债表非常稳健。其优异的财务状况吸引了长期价值投资者的关注。</p><p>Tags: progyny · finance · growth</p>]]></description>
+</item>
+<item>
+<title>[分享创造] 为 AI Agent 开发的两款基础设施：gVisor 沙箱与可验证部署</title>
+<link>https://www.v2ex.com/t/1239711#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1239711#reply0</guid>
+<pubDate>Sat, 05 Sep 2026 10:43:46 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[分享创造] 做了两个给 AI Agent 用的基础设施项目： gVisor 沙箱 + 可验证的网站部署，求挑刺</strong></p><p>This project introduces a secure gVisor-based sandbox and a verification system for AI agent deployments. These tools aim to prevent unauthorized system access and ensure deployment success through measurable results.</p><p>该项目推出了基于 gVisor 的安全沙箱和 AI 代理部署验证系统。这些工具旨在防止非法系统访问，并通过可量化的反馈确保部署成功。</p><p>Tags: ai · sandbox · gvisor · devops</p>]]></description>
+</item>
+<item>
+<title>本周市场动向回顾</title>
+<link>https://seekingalpha.com/article/4943332-what-moved-markets-this-week?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4943332-what-moved-markets-this-week?source=feed_all_articles</guid>
+<pubDate>Sat, 05 Sep 2026 10:42:05 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>What Moved Markets This Week</strong></p><p>This report summarizes the key economic events and market shifts that occurred throughout the week. Investors look to these insights to understand current financial trends.</p><p>本报告总结了本周的主要经济事件和市场波动。投资者通过这些见解来把握当前的金融趋势。</p><p>Tags: market · economy · finance</p>]]></description>
+</item>
+<item>
+<title>报道称特朗普特使在乌克兰会谈前抵达莫斯科</title>
+<link>https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sat, 05 Sep 2026 10:34:08 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Trump envoys arrive in Moscow ahead of Ukraine talks, reports say</strong></p><p>特朗普的特使 Steve Witkoff 和 Jared Kushner 已抵达俄罗斯进行会谈。随后他们计划前往乌克兰继续相关外交行程。</p><p>特朗普的特使史蒂夫·维特科夫和贾里德·库什纳已抵达俄罗斯进行磋商。随后，他们计划前往乌克兰继续外交行程。</p><p>Tags: trump · russia · ukraine · diplomacy</p>]]></description>
+</item>
+<item>
+<title>利率上升将持续抑制美国经济</title>
+<link>https://seekingalpha.com/article/4943306-interest-rates-will-increasingly-crimp-the-us-economy?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4943306-interest-rates-will-increasingly-crimp-the-us-economy?source=feed_all_articles</guid>
+<pubDate>Sat, 05 Sep 2026 10:29:16 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Interest Rates Will Increasingly Crimp The U.S. Economy</strong></p><p>High interest rates are expected to place increasing pressure on the U.S. economy in the coming periods. This shift could have significant implications for consumer spending and business investments.</p><p>高利率预计将在未来一段时间内对美国经济施加更大压力。这一趋势可能会对消费支出和企业投资产生深远影响。</p><p>Tags: economy · interest · usa · finance</p>]]></description>
+</item>
+<item>
+<title>Comstock Resources：意外的突破令市场感到惊喜</title>
+<link>https://seekingalpha.com/article/4943326-comstock-resources-potential-unexpected-step-forward-surprises-market?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4943326-comstock-resources-potential-unexpected-step-forward-surprises-market?source=feed_all_articles</guid>
+<pubDate>Sat, 05 Sep 2026 10:28:43 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Comstock Resources: A Potential Unexpected Step Forward Surprises The Market</strong></p><p>Comstock Resources has achieved a surprising operational milestone that caught market analysts off guard. The company&#x27;s recent performance has sparked positive investor sentiment.</p><p>Comstock Resources 近期取得的运营突破令市场分析师感到意外。该公司的表现提振了投资者的市场情绪。</p><p>Tags: stocks · energy · market</p>]]></description>
+</item>
+<item>
+<title>[推广] 免费体验 MiniMax H3 Max：5秒生成768P视频</title>
+<link>https://www.v2ex.com/t/1239709#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1239709#reply0</guid>
+<pubDate>Sat, 05 Sep 2026 09:46:36 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>[推广] 免费用 MiniMax H3 Max： 5 秒 768P 自带同步音频，生成比播放还快 | Try MiniMax H3 Max free — real-time 768P video with audio</strong></p><p>MiniMax H3 Max is a new AI video model offering fast 768P video generation with synchronized audio. It stands out for its extreme inference speed and integrated production features.</p><p>MiniMax H3 Max 是一款全新的 AI 视频模型，支持快速生成 768P 同步音频视频。其极速推理能力和集成化制作功能使其在同类中脱颖而出。</p><p>Tags: minimax · ai · video · generative</p>]]></description>
+</item>
+<item>
+<title>[分享创造] 我开发了一款跨市场跟单工具，支持Web和APP</title>
+<link>https://www.v2ex.com/t/1239708#reply1</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1239708#reply1</guid>
+<pubDate>Sat, 05 Sep 2026 09:29:05 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>[分享创造] 因为自己爱炒股，我做了一个跨市场跟单工具，支持 Web 和 APP</strong></p><p>HyperCopy is a new platform that allows users to analyze and copy trading strategies across multiple markets. It offers comprehensive data and risk control features for investors.</p><p>HyperCopy 是一个全新的跟单平台，允许用户跨多个市场分析并同步交易策略。它为投资者提供了全面的数据分析与风险控制功能。</p><p>Tags: trading · app · crypto · finance</p>]]></description>
+</item>
+<item>
+<title>[分享创造] 汇流直播：一款Apple全家桶直播聚合App</title>
+<link>https://www.v2ex.com/t/1239707#reply12</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1239707#reply12</guid>
+<pubDate>Sat, 05 Sep 2026 09:21:51 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[分享创造] 汇流直播，一个 Apple 全家桶的直播聚合观看 app，上架 Apple Store，抽奖了</strong></p><p>Conflux is a unified live-streaming viewer app designed for the Apple ecosystem. It features cross-device synchronization, custom弹幕 settings, and native integration for iOS, macOS, and tvOS.</p><p>汇流直播是一款专为 Apple 生态系统打造的聚合直播查看应用。它支持多端数据同步、自定义弹幕样式，并完美适配 iOS、macOS 和 tvOS。</p><p>Tags: apple · app · streaming</p>]]></description>
+</item>
+<item>
+<title>特朗普签署行政令，取消对灰狼的濒危物种保护</title>
+<link>https://www.bbc.co.uk/news/articles/c62k677d4lzo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c62k677d4lzo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sat, 05 Sep 2026 09:12:48 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Trump signs order to remove endangered species protection for grey wolves</strong></p><p>President Trump has signed an order to remove endangered species protections for grey wolves. This move aims to assist ranchers, but conservationists argue it threatens population recovery efforts.</p><p>特朗普总统签署行政令，取消了对灰狼的濒危物种保护措施。此举意在支持农场主，但环保人士认为这可能会破坏物种恢复计划。</p><p>Tags: trump · environment · wildlife</p>]]></description>
+</item>
+<item>
+<title>最值得买的顶级公路车？TREK 八代 Madone 评测</title>
+<link>https://sspai.com/post/114040</link>
+<guid isPermaLink="true">https://sspai.com/post/114040</guid>
+<pubDate>Sat, 05 Sep 2026 08:00:01 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>最值得买的顶级公路车？TREK 八代 Madone 评测</strong></p><p>The eighth-generation TREK Madone is reviewed as a top-tier road bike. While it isn&#x27;t the absolute lightest, it offers an excellent balance of performance and aerodynamics.</p><p>第八代 TREK Madone 被评为顶级公路车。虽然它不是最轻的，但在性能表现与气动设计之间取得了极佳的平衡。</p><p>Tags: trek · cycling · bike</p>]]></description>
+</item>
+<item>
+<title>当 AI 处理事件时，工程师逐渐与系统失去联系</title>
+<link>https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems</link>
+<guid isPermaLink="true">https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems</guid>
+<pubDate>Sat, 05 Sep 2026 07:52:50 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>AI handles incidents, engineers lose touch with their systems</strong></p><p>As automation handles more system incidents, engineers risk losing their deep understanding of operational complexities. This trend raises concerns about system maintainability and human expertise.</p><p>随着自动化接管更多系统事件，工程师正面临失去对系统深度理解的风险。这一趋势引发了对系统可维护性和人类专业技能的担忧。</p><p>Tags: ai · engineering · automation</p>]]></description>
+</item>
+<item>
+<title>Nitter 的可用实例数量多于被取缔之前</title>
+<link>https://codeberg.org/mv12star/shitter/wiki/Instances</link>
+<guid isPermaLink="true">https://codeberg.org/mv12star/shitter/wiki/Instances</guid>
+<pubDate>Sat, 05 Sep 2026 00:04:16 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Nitter has more working instances than before the takedowns</strong></p><p>Despite various takedown attempts, Nitter has seen a resurgence in its number of active instances. This highlights the resilience of decentralized front-end projects.</p><p>尽管多次遭遇取缔，Nitter 的活跃实例数量反而有所回升。这凸显了去中心化前端项目的顽强生命力。</p><p>Tags: nitter · twitter · opensource</p>]]></description>
+</item>
+<item>
+<title>Lindsay Clancy 谋杀案陪审团陷入僵局，宣告审判无效</title>
+<link>https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Fri, 04 Sep 2026 22:48:38 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Mistrial declared in Lindsay Clancy murder case, after jury deadlocks</strong></p><p>A mistrial was declared in the Lindsay Clancy murder case following a hung jury. Her legal future regarding the deaths of her children remains uncertain.</p><p>在陪审团无法达成一致后，Lindsay Clancy 谋杀案宣告审判无效。她关于孩子死亡的刑事责任归属目前处于法律真空状态。</p><p>Tags: legal · court · news</p>]]></description>
+</item>
+<item>
+<title>所有 Chromium 版本中发现被积极利用的沙箱 RCE 漏洞</title>
+<link>https://nvd.nist.gov/vuln/detail/cve-2026-85046</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/cve-2026-85046</guid>
+<pubDate>Fri, 04 Sep 2026 21:52:01 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Actively exploited sandbox RCE in all Chromium versions</strong></p><p>A critical remote code execution vulnerability has been discovered in the Chromium sandbox. It is currently being exploited in the wild, necessitating immediate updates for browsers.</p><p>Chromium 沙箱中发现了一个严重的远程代码执行漏洞。由于该漏洞正被恶意利用，相关浏览器需要立即进行更新。</p><p>Tags: security · chromium · vulnerability</p>]]></description>
+</item>
+<item>
+<title>Bloom Energy 等股票加入标普 500 指数</title>
+<link>https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories</guid>
+<pubDate>Fri, 04 Sep 2026 21:46:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Bloom Energy was just named to the S&amp;P 500. These other stocks are joining the index as well.</strong></p><p>Bloom Energy and several other companies are set to join the S&amp;P 500 index. Meanwhile, stocks like Molson Coors will be removed from the benchmark.</p><p>Bloom Energy 及其他几家公司即将加入标普 500 指数。与此同时，Molson Coors 等公司将被移出该基准指数。</p><p>Tags: stock · sp500 · finance</p>]]></description>
+</item>
+<item>
+<title>特斯拉股价因 Cybercab 发布遇冷而下跌</title>
+<link>https://www.marketwatch.com/story/teslas-stock-falls-as-cybercab-launch-lands-with-a-thud-1108376b?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/teslas-stock-falls-as-cybercab-launch-lands-with-a-thud-1108376b?mod=mw_rss_topstories</guid>
+<pubDate>Fri, 04 Sep 2026 20:18:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Tesla’s stock falls as Cybercab launch lands with a thud</strong></p><p>Tesla&#x27;s stock saw a decline as the Cybercab launch failed to meet high investor expectations regarding scale and rollout. The narrow scope of the product introduction disappointed markets.</p><p>由于 Cybercab 的发布规模未能满足投资者的预期，特斯拉股价应声下跌。此次产品发布范围有限，令市场感到失望。</p><p>Tags: tesla · stock · cybercab</p>]]></description>
+</item>
+<item>
+<title>白宫推出的街机游戏被指带有种族歧视色彩</title>
+<link>https://www.theverge.com/policy/990520/trump-arcade-games-maga-copyright</link>
+<guid isPermaLink="true">https://www.theverge.com/policy/990520/trump-arcade-games-maga-copyright</guid>
+<pubDate>Fri, 04 Sep 2026 19:42:54 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>The White House is making arcade games racist</strong></p><p>The White House&#x27;s new policy-themed arcade games have faced backlash for appearing to include racist themes. Some game developers are concerned about potential copyright infringement as well.</p><p>白宫新推出的政策主题街机游戏因被认为包含种族歧视元素而受到抨击。同时，也有开发者对潜在的版权侵权问题表示担忧。</p><p>Tags: whitehouse · games · politics</p>]]></description>
+</item>
+<item>
+<title>费马大定理的形式化研究</title>
+<link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
+<guid isPermaLink="true">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
+<pubDate>Fri, 04 Sep 2026 18:42:56 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Formalizing Fermat&#x27;s Last Theorem</strong></p><p>Researchers are working on the formal verification of Fermat&#x27;s Last Theorem using computerized proofs. This represents a significant step in the intersection of mathematics and computational logic.</p><p>研究人员正致力于通过计算机证明来对费马大定理进行形式化验证。这是数学与计算逻辑交叉领域的一项重要进展。</p><p>Tags: math · logic · research</p>]]></description>
+</item>
+<item>
+<title>罗兰 Roland 进军生成式 AI 音乐领域，推出 Melody Flip</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip</link>
+<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip</guid>
+<pubDate>Fri, 04 Sep 2026 17:51:35 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Roland is getting into generative AI music with Melody Flip</strong></p><p>Roland has introduced Melody Flip, a generative AI music plugin for digital workstations. It allows creators to mix and match musical palettes to spark new ideas.</p><p>罗兰推出了 Melody Flip，这是一款适用于数字音频工作站的生成式 AI 音乐插件。它允许创作者混搭不同的音乐库，以激发新的创作灵感。</p><p>Tags: ai · music · roland</p>]]></description>
+</item>
+<item>
+<title>我们需要担心英国境内的入侵蚊子吗？</title>
+<link>https://www.newscientist.com/article/2587789-how-worried-should-we-be-about-the-invasive-mosquitoes-in-the-uk/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2587789-how-worried-should-we-be-about-the-invasive-mosquitoes-in-the-uk/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Fri, 04 Sep 2026 16:24:46 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>How worried should we be about the invasive mosquitoes in the UK?</strong></p><p>Invasive mosquitoes capable of carrying dangerous viruses have been detected in London. Experts are currently evaluating the public health risks associated with their presence.</p><p>伦敦已发现能携带多种危险病毒的入侵蚊子。专家目前正在评估这些蚊子对公共卫生构成的潜在风险。</p><p>Tags: science · health · mosquito</p>]]></description>
+</item>
+<item>
+<title>HydraFusion 项目：通过多模型编排实现前沿质量</title>
+<link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</link>
+<guid isPermaLink="true">https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</guid>
+<pubDate>Fri, 04 Sep 2026 16:04:14 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Project HydraFusion: Frontier quality via multi-model orchestration</strong></p><p>GitHub has unveiled HydraFusion, a research project designed to improve coding workflows through multi-model orchestration. It offers high performance while optimizing workflow costs.</p><p>GitHub 发布了 HydraFusion 研究项目，旨在通过多模型编排来改善编程工作流。它在保持高性能的同时优化了工作流程成本。</p><p>Tags: ai · github · coding</p>]]></description>
+</item>
+<item>
+<title>超级厄尔尼诺现象可能对英国冬季产生意外影响</title>
+<link>https://www.newscientist.com/article/2587719-super-el-nino-could-have-unexpected-effect-on-uk-winter/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2587719-super-el-nino-could-have-unexpected-effect-on-uk-winter/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Fri, 04 Sep 2026 14:56:07 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Super El Niño could have unexpected effect on UK winter</strong></p><p>Typically, El Niño brings colder winter conditions to the UK, but this year&#x27;s &#x27;Super El Niño&#x27; may lead to different weather patterns. Meteorologists are monitoring the situation closely.</p><p>通常厄尔尼诺现象会导致英国冬季气候变冷，但今年的“超级厄尔尼诺”可能会带来不同的天气模式。气象学家正密切关注事态发展。</p><p>Tags: weather · climate · science</p>]]></description>
+</item>
+<item>
+<title>通过多感官刺激诱导清醒梦</title>
+<link>https://www.newscientist.com/article/2587692-lucid-dreams-induced-via-multisensory-stimulation/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2587692-lucid-dreams-induced-via-multisensory-stimulation/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Fri, 04 Sep 2026 14:00:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Lucid dreams induced via multisensory stimulation</strong></p><p>Researchers have found that multisensory stimulation can help people experience lucid dreams. This technique offers new possibilities for those who rarely have control over their dream states.</p><p>研究人员发现，多感官刺激可以帮助人们体验清醒梦。这一技术为那些很少能掌控梦境的人提供了新的尝试可能。</p><p>Tags: science · sleep · research</p>]]></description>
+</item>
+<item>
+<title>尼泊尔救援人员在发现两名幸存者后，尝试营救隧道内数十人</title>
+<link>https://www.bbc.co.uk/news/articles/c7903j1vpe5o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c7903j1vpe5o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Fri, 04 Sep 2026 12:30:56 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Nepal rescuers try to reach dozens trapped in tunnel after two found alive</strong></p><p>Rescuers in Nepal are working to reach dozens of people trapped in a tunnel after finding two survivors. Hope remains as the search operation continues despite the high casualty count.</p><p>尼泊尔救援人员在隧道中发现两名幸存者后，正全力搜救数十名被困人员。尽管伤亡惨重，搜救行动仍在继续，救援人员仍抱有希望。</p><p>Tags: nepal · rescue · news</p>]]></description>
+</item>
+<item>
+<title>发现新的 OpenAI 代理消息论坛</title>
+<link>https://collusion.wiki/</link>
+<guid isPermaLink="true">https://collusion.wiki/</guid>
+<pubDate>Fri, 04 Sep 2026 11:54:53 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Discovery of a new OpenAI agent message board</strong></p><p>A new online message board dedicated to OpenAI agent discussions has emerged. It is attracting significant attention from the technical community.</p><p>一个专注于 OpenAI 代理讨论的新在线论坛近日出现。它正引起技术社区的广泛关注。</p><p>Tags: openai · ai · forum</p>]]></description>
+</item>
 <item>
 <title>英国政府称在阿根廷重申领土主张后，对福克兰群岛的支持“坚定不移”</title>
 <link>https://www.bbc.co.uk/news/articles/cn45jg3zlz4o?at_medium=RSS&amp;at_campaign=rss</link>
@@ -190,6 +422,14 @@
 <pubDate>Fri, 04 Sep 2026 09:32:48 +0000</pubDate>
 <category>WORLD</category>
 <description><![CDATA[<p><strong>本周看什么 | 最近值得一看的 8 部作品</strong></p><p>This roundup highlights eight recommended works for the week, including the highly anticipated &#x27;Harry Potter&#x27; series. The series is set to debut on HBO Max on December 25th.</p><p>本周推荐了八部值得一看的作品，其中包括备受关注的《哈利·波特》剧集。该剧将于12月25日在HBO Max上线。</p><p>Tags: media · recommendation · harrypotter</p>]]></description>
+</item>
+<item>
+<title>乌克兰无人机数据助推新的“狂野西部”市场</title>
+<link>https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/</link>
+<guid isPermaLink="true">https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/</guid>
+<pubDate>Fri, 04 Sep 2026 09:25:19 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Data from drones in Ukraine is fueling a new Wild West marketplace</strong></p><p>The surplus of drone data from the Ukraine battlefield is fueling a new commercial sector in defense intelligence. Analysts suggest this gold mine of information will have long-term impacts.</p><p>乌克兰战场留下的海量无人机数据正在推动一个全新的国防情报商业市场。分析人士指出，这一信息金矿将产生深远的影响。</p><p>Tags: drone · ukraine · data · defense</p>]]></description>
 </item>
 <item>
 <title>“层层奇迹”：尼泊尔洪水幸存者如何从隧道中获救</title>
@@ -1366,246 +1606,6 @@
 <pubDate>Sun, 30 Aug 2026 11:30:00 +0000</pubDate>
 <category>FINA</category>
 <description><![CDATA[<p><strong>The Income Trap Is Getting Worse - And Good Options Are Running Out</strong></p><p>The article warns that high-yield investment traps are becoming more prevalent. It suggests that good, reliable income-generating opportunities are harder to find.</p><p>文章警告称，高收益投资陷阱正变得越来越普遍。作者指出，优质且可靠的收益来源正变得越来越稀缺。</p><p>Tags: finance · investment · yield</p>]]></description>
-</item>
-<item>
-<title>瑞士狂欢派对发生枪击案，一名 22 岁女性死亡，五人受伤</title>
-<link>https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Sun, 30 Aug 2026 11:25:11 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Manhunt after shooting at Swiss rave kills woman, 22, and injures five</strong></p><p>A shooting occurred at a techno rave near Zurich, resulting in the death of a 22-year-old woman. Five others were injured, and a manhunt for the shooter is underway.</p><p>苏黎世附近的一场电音派对发生枪击事件，导致一名22岁女性死亡，另有五人受伤。目前警方正在搜捕凶手。</p><p>Tags: crime · shooting · switzerland</p>]]></description>
-</item>
-<item>
-<title>Druckenmiller 警告：债券市场已经定价了</title>
-<link>https://seekingalpha.com/article/4941560-druckenmiller-warning-bond-market-already-priced-it?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4941560-druckenmiller-warning-bond-market-already-priced-it?source=feed_all_articles</guid>
-<pubDate>Sun, 30 Aug 2026 11:10:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Druckenmiller Warning: The Bond Market Already Priced It</strong></p><p>Investor Stanley Druckenmiller warns about market conditions, noting that the bond market has already priced in current economic expectations. This suggests limited room for surprises.</p><p>投资人德鲁肯米勒对市场发出警告，指出债券市场已经计入了当前的经济预期。这意味着市场出现意外变动的空间有限。</p><p>Tags: bonds · market · economy</p>]]></description>
-</item>
-<item>
-<title>冰岛投票反对重启加入欧盟的谈判</title>
-<link>https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Sun, 30 Aug 2026 10:49:11 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Iceland votes against restarting talks on joining EU</strong></p><p>Icelandic voters have rejected the government&#x27;s proposal to resume negotiations for joining the European Union. Approximately 52.8% of voters voted against the initiative.</p><p>冰岛选民投票拒绝了政府重启加入欧盟谈判的提议。约52.8%的选民投票反对这一举措。</p><p>Tags: iceland · eu · politics</p>]]></description>
-</item>
-<item>
-<title>Spark：在终端中使用的迷你图</title>
-<link>https://git.zx2c4.com/spark/about/</link>
-<guid isPermaLink="true">https://git.zx2c4.com/spark/about/</guid>
-<pubDate>Sun, 30 Aug 2026 10:02:16 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Spark: Sparklines in your shell</strong></p><p>A tool that generates sparklines directly within the command line shell. It is a useful utility for visualizing data trends in terminal environments.</p><p>介绍了一款可以在命令行终端中生成迷你图的工具。对于在终端环境中可视化数据趋势非常实用。</p><p>Tags: cli · terminal · visualization</p>]]></description>
-</item>
-<item>
-<title>每个人都应该构建自己的网络栈</title>
-<link>https://blog.lyc8503.net/en/post/dn42-2-dnet/</link>
-<guid isPermaLink="true">https://blog.lyc8503.net/en/post/dn42-2-dnet/</guid>
-<pubDate>Sun, 30 Aug 2026 09:52:15 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Everyone Should Build Their Own Network Stack</strong></p><p>A technical discussion advocating for the personal development of network stacks. It encourages developers to understand the foundational layers of communication protocols.</p><p>技术讨论，倡导开发者亲自构建自己的网络栈。鼓励开发者通过实践深入理解通信协议的基础层面。</p><p>Tags: networking · programming · protocols</p>]]></description>
-</item>
-<item>
-<title>英国人希望他们的私人信息保持私密</title>
-<link>https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994</link>
-<guid isPermaLink="true">https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994</guid>
-<pubDate>Sun, 30 Aug 2026 09:26:08 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Brits would quite like their private messages to stay private</strong></p><p>The article discusses public sentiment in the UK regarding the privacy of digital communications. Most Brits emphasize the importance of keeping their private messages confidential.</p><p>讨论了英国公众对于数字通讯隐私的态度。大多数英国人强调保持私人信息机密的重要性。</p><p>Tags: privacy · security · uk</p>]]></description>
-</item>
-<item>
-<title>QubesOS 中通过复制到虚拟机错误报告反向通道的任意代码执行漏洞</title>
-<link>https://www.qubes-os.org/news/2026/08/29/qsb-118/</link>
-<guid isPermaLink="true">https://www.qubes-os.org/news/2026/08/29/qsb-118/</guid>
-<pubDate>Sun, 30 Aug 2026 08:51:39 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel</strong></p><p>A security advisory detailing a vulnerability in QubesOS. An attacker can execute arbitrary code by exploiting a specific backchannel in the error reporting mechanism.</p><p>披露了QubesOS中存在的一个安全漏洞。攻击者可通过利用错误报告机制中的特定反向通道来执行任意代码。</p><p>Tags: security · qubesos · vulnerability</p>]]></description>
-</item>
-<item>
-<title>地球上最长的水上或陆地直线路径 (2018)</title>
-<link>https://arxiv.org/abs/1804.07389</link>
-<guid isPermaLink="true">https://arxiv.org/abs/1804.07389</guid>
-<pubDate>Sun, 30 Aug 2026 08:23:26 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>Longest Straight Line Paths on Water or Land on the Earth (2018)</strong></p><p>An exploration of the longest straight-line paths one can travel on Earth across land or water. It uses geographic data to map out these extreme routes.</p><p>探讨了地球上可以在陆地或水域上行进的最长直线路径。利用地理数据规划出了这些极致的路线。</p><p>Tags: geography · earth · data</p>]]></description>
-</item>
-<item>
-<title>城市漫步指南 | 佛罗伦萨：来自六月的梦幻艺术夏令营</title>
-<link>https://sspai.com/post/113974</link>
-<guid isPermaLink="true">https://sspai.com/post/113974</guid>
-<pubDate>Sun, 30 Aug 2026 07:00:00 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>城市漫步指南 | 佛罗伦萨：来自六月的梦幻艺术夏令营</strong></p><p>A travel guide to Florence, inspired by its appearance in a popular travel variety show. It captures the artistic atmosphere and beauty of the city during the summer.</p><p>一份受综艺节目启发而撰写的佛罗伦萨城市漫步指南。捕捉了这座城市在夏日的艺术气息与魅力。</p><p>Tags: travel · florence · guide</p>]]></description>
-</item>
-<item>
-<title>WhatsApp 聊天记录被用于洗钱和极端主义活动</title>
-<link>https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Sun, 30 Aug 2026 04:59:56 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>WhatsApp chat used to send cash for crime and extremism</strong></p><p>Criminal groups are using WhatsApp to launder money and organize extremist activities globally. The lack of a paper trail makes these transactions difficult to trace.</p><p>犯罪集团正利用WhatsApp在世界各地进行洗钱和组织极端主义活动。由于缺乏书面记录，此类交易极难被追踪。</p><p>Tags: crime · whatsapp · security</p>]]></description>
-</item>
-<item>
-<title>加拿大在安大略湖安装大型标志，最新挑衅美国</title>
-<link>https://www.bbc.co.uk/news/articles/cpq09594vw7o?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cpq09594vw7o?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Sun, 30 Aug 2026 00:17:25 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Large Lake Ontario sign installed in Canada in latest jab at US</strong></p><p>Ontario has installed a prominent sign along the shoreline labeled &#x27;Lake Ontario&#x27;, perceived as a jab at the US. This highlights ongoing regional border tensions.</p><p>安大略省在湖岸安装了一个显眼的“安大略湖”标志，被视为对美国的一次挑衅。这凸显了地区间的边界紧张关系。</p><p>Tags: politics · canada · usa</p>]]></description>
-</item>
-<item>
-<title>索尼音乐和华纳查佩尔起诉 Anthropic</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright</link>
-<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright</guid>
-<pubDate>Sat, 29 Aug 2026 18:19:53 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>Sony Music and Warner Chappell are suing Anthropic</strong></p><p>Major music labels are suing AI company Anthropic for copyright infringement. They seek damages for the unauthorized use of their copyrighted works in AI training.</p><p>大型音乐公司正起诉AI公司Anthropic侵犯版权。诉讼涉及在其AI训练中使用受版权保护的作品，并要求赔偿。</p><p>Tags: anthropic · copyright · lawsuit</p>]]></description>
-</item>
-<item>
-<title>我 84 岁，妻子 77 岁，存款 800 万美元，我太老而不能进行罗斯转换了吗？</title>
-<link>https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories</guid>
-<pubDate>Sat, 29 Aug 2026 16:30:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.</strong></p><p>An elderly couple with significant savings inquires about the viability of Roth conversions. They are also concerned about high financial advisory fees.</p><p>一对拥有大量积蓄的老年夫妇咨询进行罗斯转换的可行性。同时也表达了对高昂财务咨询费用的担忧。</p><p>Tags: retirement · roth · finance</p>]]></description>
-</item>
-<item>
-<title>Element Solutions：合并只是杂音，投资逻辑依然成立</title>
-<link>https://seekingalpha.com/article/4941461-element-solutions-the-merger-was-noise-the-case-still-stands?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4941461-element-solutions-the-merger-was-noise-the-case-still-stands?source=feed_all_articles</guid>
-<pubDate>Sat, 29 Aug 2026 12:45:27 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Element Solutions: The Merger Was Noise, The Case Still Stands</strong></p><p>The recent merger activities surrounding Element Solutions are considered market noise. The underlying fundamental case for the company remains strong despite distractions.</p><p>围绕Element Solutions的合并传闻被视为市场杂音。尽管存在干扰，该公司核心的投资价值逻辑依然稳固。</p><p>Tags: stocks · investing · analysis</p>]]></description>
-</item>
-<item>
-<title>GUG：一个尚可的基金，但债券风险令人担忧</title>
-<link>https://seekingalpha.com/article/4941482-gug-a-decent-fund-but-bond-risks-weigh-on-it?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4941482-gug-a-decent-fund-but-bond-risks-weigh-on-it?source=feed_all_articles</guid>
-<pubDate>Sat, 29 Aug 2026 12:45:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>GUG: A Decent Fund, But Bond Risks Weigh On It</strong></p><p>GUG is viewed as a decent fund choice for investors. However, current bond market risks cast a shadow over its future performance.</p><p>GUG被认为是一只表现尚可的基金。然而，当前债券市场的潜在风险使其未来的表现面临一定挑战。</p><p>Tags: funds · bonds · finance</p>]]></description>
-</item>
-<item>
-<title>英美资源集团：估值重塑已到尽头，评级下调至中性</title>
-<link>https://seekingalpha.com/article/4941478-anglo-american-re-rating-has-run-its-course-downgrade-to-neutral?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4941478-anglo-american-re-rating-has-run-its-course-downgrade-to-neutral?source=feed_all_articles</guid>
-<pubDate>Sat, 29 Aug 2026 12:43:34 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Anglo American: Re-Rating Has Run Its Course, Downgrade To Neutral</strong></p><p>The re-rating process for Anglo American has largely run its course. Consequently, the analyst has downgraded the stock to a neutral rating.</p><p>英美资源集团的估值修复过程已基本结束。因此，分析师将其股票评级下调至中性水平。</p><p>Tags: stocks · mining · rating</p>]]></description>
-</item>
-<item>
-<title>最近越来越明显地感觉到，用 GPT / Codex 写一个小工具的功能部分已经挺省事了</title>
-<link>https://www.v2ex.com/t/1238072#reply1</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1238072#reply1</guid>
-<pubDate>Sat, 29 Aug 2026 12:40:56 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>[OpenAI] 最近越来越明显地感觉到，用 GPT / Codex 写一个小工具的功能部分已经挺省事了</strong></p><p>Using GPT and Codex to build functional backend logic for tools is highly efficient. However, AI-generated frontends often lack design maturity and require manual refinement to avoid a generic look.</p><p>使用GPT和Codex构建工具的功能逻辑非常省事。但AI生成的前端界面往往缺乏设计感，需要人工反复微调才能避免“一眼AI”的廉价感。</p><p>Tags: gpt · frontend · programming</p>]]></description>
-</item>
-<item>
-<title>分享创造：Otterflow：对话只是一个开始</title>
-<link>https://www.v2ex.com/t/1238071#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1238071#reply0</guid>
-<pubDate>Sat, 29 Aug 2026 12:38:51 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>[分享创造] # Otterflow：对话只是一个开始</strong></p><p>Conversational AI is only the first step, and true synergy requires integrating AI into specific professional workflows. The goal is to capture and structure the valuable interaction history between humans and AI.</p><p>对话式AI只是第一步，真正的协同需要将其融入专业工作流。核心在于沉淀人与AI交互中产生的价值，实现知识的可视化管理。</p><p>Tags: workflow · agent · productivity</p>]]></description>
-</item>
-<item>
-<title>iPad Apple Pencil Pro 待机耗电情况</title>
-<link>https://www.v2ex.com/t/1238070#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1238070#reply0</guid>
-<pubDate>Sat, 29 Aug 2026 12:38:48 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[iPad] Apple Pencil Pro 待机耗电情况</strong></p><p>Users are reporting significant battery drain with the Apple Pencil Pro when attached to the iPad Pro M4. The device often runs out of power even when idle in a bag.</p><p>用户反映Apple Pencil Pro吸附在iPad Pro M4上时待机耗电严重。即使放在包里闲置，电量也会迅速耗尽。</p><p>Tags: apple · ipad · hardware</p>]]></description>
-</item>
-<item>
-<title>VCN:CA - 加拿大股票投资者的有力选择</title>
-<link>https://seekingalpha.com/article/4941454-vcnca-a-strong-option-for-canadian-equity-investors?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4941454-vcnca-a-strong-option-for-canadian-equity-investors?source=feed_all_articles</guid>
-<pubDate>Sat, 29 Aug 2026 12:30:40 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>VCN:CA - A Strong Option For Canadian Equity Investors</strong></p><p>VCN:CA provides a compelling investment option for those focused on the Canadian equity market. It stands out as a strong candidate for portfolio diversification.</p><p>对于专注于加拿大市场的投资者而言，VCN:CA是一个极具吸引力的选择。它是实现投资组合多样化的有力工具。</p><p>Tags: canada · stocks · etf</p>]]></description>
-</item>
-<item>
-<title>蒂姆·库克并非“产品专家”，但他重新塑造了苹果公司</title>
-<link>https://www.marketwatch.com/story/tim-cook-wasnt-a-product-guy-so-he-re-engineered-apple-instead-03ca53f4?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/tim-cook-wasnt-a-product-guy-so-he-re-engineered-apple-instead-03ca53f4?mod=mw_rss_topstories</guid>
-<pubDate>Sat, 29 Aug 2026 12:30:00 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Tim Cook wasn’t a ‘product guy’ — so he re-engineered Apple instead</strong></p><p>Although initially dismissed as not a product person, Tim Cook redefined Apple through his mastery of the supply chain. His leadership elevated the company to unprecedented heights.</p><p>尽管起初被质疑不擅长产品，但蒂姆·库克凭借卓越的供应链管理重新定义了苹果。他的领导力将苹果推向了新的高峰。</p><p>Tags: apple · timcook · leadership</p>]]></description>
-</item>
-<item>
-<title>SpaceX：估值与解锁时间表让我保持观望</title>
-<link>https://seekingalpha.com/article/4941382-spacex-the-valuation-and-the-unlock-calendar-keep-me-on-the-sidelines?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4941382-spacex-the-valuation-and-the-unlock-calendar-keep-me-on-the-sidelines?source=feed_all_articles</guid>
-<pubDate>Sat, 29 Aug 2026 12:30:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>SpaceX: The Valuation And The Unlock Calendar Keep Me On The Sidelines</strong></p><p>Current concerns regarding SpaceX&#x27;s valuation and its share unlock timeline make it a risky bet. The author prefers to remain on the sidelines for now.</p><p>出于对SpaceX估值及股票解锁时间表的顾虑，作者认为目前投资风险较高。作者决定暂时保持观望态度。</p><p>Tags: spacex · valuation · investing</p>]]></description>
-</item>
-<item>
-<title>分享一下我的咖啡装备进化史：Flair 58+2 × DF64V3</title>
-<link>https://www.v2ex.com/t/1238069#reply1</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1238069#reply1</guid>
-<pubDate>Sat, 29 Aug 2026 12:24:27 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[咖啡] 分享一下我的咖啡装备进化史： Flair 58+2 × DF64V3 ☕️</strong></p><p>The author shares their journey from simple coffee makers to a professional setup involving the Flair 58+2 and DF64V3. This combination offers great manual control for home espresso enthusiasts.</p><p>作者分享了从简易咖啡壶升级至Flair 58+2和DF64V3专业组合的心路历程。这套设备为家庭意式咖啡提供了极佳的操控感。</p><p>Tags: coffee · lifestyle · gadgets</p>]]></description>
-</item>
-<item>
-<title>基辅仓库遭袭击，造成至少37人死亡，数百人撤离</title>
-<link>https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Sat, 29 Aug 2026 12:22:53 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>At least 37 dead and hundreds evacuated after strike on Kyiv warehouse</strong></p><p>A deadly strike on a warehouse near a residential area in Kyiv has left at least 37 dead. Authorities have launched an investigation into the storage of weapons at the site.</p><p>基辅一处靠近居民区的仓库遭到致命袭击，导致至少37人死亡。当局已就该设施内储存武器的行为展开调查。</p><p>Tags: ukraine · kyiv · war</p>]]></description>
-</item>
-<item>
-<title>音乐家转型侦探，搜寻AI剽窃者</title>
-<link>https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai</link>
-<guid isPermaLink="true">https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai</guid>
-<pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>Musicians-turned-detectives are hunting for AI grifters</strong></p><p>As AI-generated music floods the internet, many artists are acting as detectives to identify stolen work. They are hunting down individuals using generative tools to copy their melodies and vocals.</p><p>随着AI生成音乐充斥互联网，许多音乐人化身“侦探”以识别侵权行为。他们正在追查利用AI工具剽窃其作品的个人。</p><p>Tags: music · copyright · generativeai</p>]]></description>
-</item>
-<item>
-<title>新工作岗位都在哪？招聘再次放缓，短期内难以回暖</title>
-<link>https://www.marketwatch.com/story/where-are-all-the-new-jobs-hiring-slows-again-and-it-probably-wont-speed-up-soon-66920f1d?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/where-are-all-the-new-jobs-hiring-slows-again-and-it-probably-wont-speed-up-soon-66920f1d?mod=mw_rss_topstories</guid>
-<pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Where are all the new jobs? Hiring slows again — and it probably won’t speed up soon.</strong></p><p>The U.S. labor market is cooling down after a brief surge earlier this year. With fewer help-wanted ads, job seekers face a challenging environment that isn&#x27;t expected to improve soon.</p><p>美国就业市场在年初短暂反弹后出现降温。招聘启事减少，求职者面临的严峻环境短期内难以得到改善。</p><p>Tags: economy · jobs · usa</p>]]></description>
-</item>
-<item>
-<title>我正在管理一名撒谎成性且不干活的下属，该怎么办？</title>
-<link>https://www.marketwatch.com/story/im-managing-a-pathological-liar-who-never-does-her-work-how-do-i-deal-with-her-e3c06081?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/im-managing-a-pathological-liar-who-never-does-her-work-how-do-i-deal-with-her-e3c06081?mod=mw_rss_topstories</guid>
-<pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>I’m managing a pathological liar who never does her work. How do I deal with her?</strong></p><p>Managing an employee who lies and fails to perform her duties is a significant professional challenge. The author seeks advice on how to firmly address the situation and protect their reputation.</p><p>管理一名撒谎且怠工的员工是巨大的职场挑战。作者咨询如何妥善应对此类问题，同时维护自己的职场声誉。</p><p>Tags: workplace · management · advice</p>]]></description>
-</item>
-<item>
-<title>冰岛投票决定是否重启加入欧盟的谈判</title>
-<link>https://www.bbc.com/news/articles/cn45vdxyvvlo</link>
-<guid isPermaLink="true">https://www.bbc.com/news/articles/cn45vdxyvvlo</guid>
-<pubDate>Sat, 29 Aug 2026 11:39:38 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Iceland votes on whether to restart talks on joining EU</strong></p><p>Iceland is heading to the polls to decide whether to resume negotiations for EU membership. This vote marks a potential shift in the nation&#x27;s foreign policy.</p><p>冰岛举行投票，决定是否重启加入欧盟的谈判。此举可能标志着该国对外政策的重大转变。</p><p>Tags: iceland · eu · politics</p>]]></description>
-</item>
-<item>
-<title>分享创造：Agenton v0.6.3 新增本地用量统计</title>
-<link>https://www.v2ex.com/t/1238067#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1238067#reply0</guid>
-<pubDate>Sat, 29 Aug 2026 10:58:32 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>[分享创造] Agenton: v0.6.3 新增本地用量统计 - Windows 用户必备小工具</strong></p><p>The latest version of Agenton introduces a dashboard for tracking local token usage and service quotas. It provides a detailed breakdown for users to manage their AI spending.</p><p>Agenton v0.6.3版本新增了用量仪表盘，支持本地Token统计及额度分析。该功能旨在帮助用户更精细地管理AI服务成本。</p><p>Tags: tool · agent · productivity</p>]]></description>
-</item>
-<item>
-<title>三星的内存内计算 (PIM) 技术</title>
-<link>https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing</link>
-<guid isPermaLink="true">https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing</guid>
-<pubDate>Sat, 29 Aug 2026 06:06:51 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Samsung&#x27;s Processing-in-Memory (PIM)</strong></p><p>Samsung is advancing its Processing-in-Memory technology to improve computational efficiency. This development aims to bridge the memory wall in modern computing architectures.</p><p>三星正在推进内存内计算技术，旨在提高计算效率。这一进展旨在突破现代计算机架构中的内存带宽瓶颈。</p><p>Tags: samsung · memory · chip</p>]]></description>
 </item>
 </channel>
 </rss>
