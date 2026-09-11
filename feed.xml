@@ -6,7 +6,255 @@
 <atom:link href="https://news.wuwuwu.cc/feed.xml" rel="self" type="application/rss+xml"/>
 <description>每日中英双语科技与世界新闻摘要 · summarized by Gemini</description>
 <language>zh-cn</language>
-<lastBuildDate>Thu, 10 Sep 2026 11:59:56 +0000</lastBuildDate>
+<lastBuildDate>Fri, 11 Sep 2026 11:58:59 +0000</lastBuildDate>
+<item>
+<title>随手试了下腾讯最近开源的自托管 Agent Octop</title>
+<link>https://www.v2ex.com/t/1241426#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1241426#reply0</guid>
+<pubDate>Fri, 11 Sep 2026 11:57:22 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>[程序员] 随手试了下腾讯最近开源的自托管 Agent Octop</strong></p><p>Tencent has open-sourced Octop, a self-hosted Agent project designed for multi-user and multi-expert environments. While the setup is efficient, key underlying dependencies remain closed-source for now.</p><p>腾讯近期开源了自托管 Agent 项目 Octop，支持多用户与多专家协作，部署便捷。目前核心底层依赖尚未开源，开发者进行深度定制仍需等待。</p><p>Tags: agent · tencent · opensource</p>]]></description>
+</item>
+<item>
+<title>Allspring 小型公司增长基金 2026 年第二季度评论</title>
+<link>https://seekingalpha.com/article/4945476-allspring-small-company-growth-fund-q2-2026-commentary?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4945476-allspring-small-company-growth-fund-q2-2026-commentary?source=feed_all_articles</guid>
+<pubDate>Fri, 11 Sep 2026 11:50:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Allspring Small Company Growth Fund Q2 2026 Commentary</strong></p><p>This article provides a detailed investment commentary on the performance of the Allspring Small Company Growth Fund for Q2 2026. It highlights market trends affecting small-cap equities during this period.</p><p>本文详细评论了 Allspring 小型公司增长基金在 2026 年第二季度的表现。报告分析了影响该时期小盘股市场的相关趋势。</p><p>Tags: finance · investing · funds</p>]]></description>
+</item>
+<item>
+<title>Skyworks Solutions：技术前沿的投资机会</title>
+<link>https://seekingalpha.com/article/4945451-skyworks-solutions-an-investment-at-technologys-edge?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4945451-skyworks-solutions-an-investment-at-technologys-edge?source=feed_all_articles</guid>
+<pubDate>Fri, 11 Sep 2026 11:45:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Skyworks Solutions: An Investment At Technology&#x27;s Edge</strong></p><p>Skyworks Solutions is analyzed as a strategic investment opportunity situated at the edge of modern technology. The piece discusses its market position and potential for future growth.</p><p>文章分析了 Skyworks Solutions 作为处于技术前沿的战略投资机会。文中探讨了其市场地位及未来的增长潜力。</p><p>Tags: stocks · skyworks · investing</p>]]></description>
+</item>
+<item>
+<title>Broadcom：正在崛起的 2300 亿美元 AI 巨头</title>
+<link>https://seekingalpha.com/article/4945461-broadcom-230-billion-ai-juggernaut-in-making?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4945461-broadcom-230-billion-ai-juggernaut-in-making?source=feed_all_articles</guid>
+<pubDate>Fri, 11 Sep 2026 11:41:07 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Broadcom: A $230 Billion AI Juggernaut In The Making</strong></p><p>Broadcom is positioned as a significant player in the AI hardware sector, with a valuation reaching $230 billion. Analysts highlight its expanding infrastructure role in supporting artificial intelligence development.</p><p>Broadcom 被视为人工智能硬件领域的关键参与者，估值已达 2300 亿美元。分析师强调了其在支持 AI 发展方面的基础设施作用。</p><p>Tags: broadcom · ai · stocks</p>]]></description>
+</item>
+<item>
+<title>独立开发者怎么做竞品调研</title>
+<link>https://www.v2ex.com/t/1241425#reply1</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1241425#reply1</guid>
+<pubDate>Fri, 11 Sep 2026 11:38:50 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[程序员] 独立开发者怎么做竞品调研</strong></p><p>This discussion focuses on how independent developers can conduct effective competitor research. It addresses how to validate whether a project solves a real problem or is merely a false demand.</p><p>本文讨论了独立开发者如何进行有效的竞品调研。核心在于验证项目是否解决了真实需求，而非伪需求。</p><p>Tags: indie · developer · research</p>]]></description>
+</item>
+<item>
+<title>StandUp - 原生、免费且开源的久坐提醒 macos APP！</title>
+<link>https://www.v2ex.com/t/1241424#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1241424#reply0</guid>
+<pubDate>Fri, 11 Sep 2026 11:37:38 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[程序员] [不要久坐] StandUp - 原生 + 免费且开源的久坐提醒 macos APP！</strong></p><p>StandUp is a native, open-source macOS app designed to prevent sedentary behavior. It features customizable work-rest intervals and a full-screen alert system to encourage regular movement.</p><p>StandUp 是一款原生开源的 macOS 久坐提醒应用，提供自定义工作休息间隔和全屏提醒功能，有效帮助用户养成运动习惯。</p><p>Tags: macos · productivity · opensource</p>]]></description>
+</item>
+<item>
+<title>BLCR 跑赢主动增长型 ETF，未来上涨空间巨大</title>
+<link>https://seekingalpha.com/article/4945460-blcr-is-beating-active-growth-etfs-by-a-large-percentage-more-upside-is-ahead?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4945460-blcr-is-beating-active-growth-etfs-by-a-large-percentage-more-upside-is-ahead?source=feed_all_articles</guid>
+<pubDate>Fri, 11 Sep 2026 11:37:35 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>BLCR Is Beating Active Growth ETFs By A Large Percentage, More Upside Is Ahead</strong></p><p>BLCR has significantly outperformed active growth ETFs, demonstrating strong recent momentum. Investors are advised to consider its potential for continued upward movement.</p><p>BLCR 近期表现大幅超越主动增长型 ETF，展现出强劲势头。分析建议投资者关注其未来持续上涨的潜力。</p><p>Tags: etf · investing · finance</p>]]></description>
+</item>
+<item>
+<title>以色列称已摧毁黎巴嫩真主党主要地下基地</title>
+<link>https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Fri, 11 Sep 2026 11:34:07 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Israel says it has destroyed major underground Hezbollah base</strong></p><p>The Israeli military reported the destruction of a major underground base belonging to Hezbollah. The resulting blast was significant enough to register as a magnitude 4.1 earthquake.</p><p>以色列军方宣布摧毁了真主党的一个大型地下基地。爆炸威力巨大，足以引发里氏 4.1 级地震。</p><p>Tags: israel · hezbollah · conflict</p>]]></description>
+</item>
+<item>
+<title>Sterling Infrastructure：业务稳健，但面临财务风险</title>
+<link>https://seekingalpha.com/article/4945459-sterling-infrastructure-a-strong-business-but-thin-ice-calls-for-caution?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4945459-sterling-infrastructure-a-strong-business-but-thin-ice-calls-for-caution?source=feed_all_articles</guid>
+<pubDate>Fri, 11 Sep 2026 11:32:25 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Sterling Infrastructure: A Strong Business, But Thin Ice Calls For Caution</strong></p><p>Sterling Infrastructure is noted for its strong core business operations. However, the author cautions that thin profit margins warrant investor concern.</p><p>Sterling Infrastructure 的核心业务表现稳健。但作者提醒，其微薄的利润率值得投资者保持谨慎。</p><p>Tags: finance · infrastructure · stocks</p>]]></description>
+</item>
+<item>
+<title>我将开发更多有趣应用，免费送会员，共建鸿蒙生态</title>
+<link>https://www.v2ex.com/t/1241423#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1241423#reply0</guid>
+<pubDate>Fri, 11 Sep 2026 11:26:02 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[华为] 我将开发更多有趣应用，免费送会员，一起共建鸿蒙生态。</strong></p><p>A developer is sharing their journey of building apps for the HarmonyOS ecosystem. They are offering free memberships for their latest tools to foster community participation.</p><p>一位开发者分享了在鸿蒙生态中开发应用的心得，并提供限时免费会员权益以吸引用户共同建设生态。</p><p>Tags: harmonyos · huawei · developer</p>]]></description>
+</item>
+<item>
+<title>国行 iPhone 不止阉割 FaceTime Audio，还限制了开关摄像头按钮</title>
+<link>https://www.v2ex.com/t/1241422#reply8</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1241422#reply8</guid>
+<pubDate>Fri, 11 Sep 2026 11:23:57 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[iPhone] 才发现国行 iPhone 不止阉割了 FaceTime Audio，它居然把 FaceTime 开关摄像头的按钮也限制了。</strong></p><p>Users discovered that the China-specific version of the iPhone limits FaceTime features. Beyond the missing audio function, the camera toggle is also restricted.</p><p>用户发现国行版 iPhone 对 FaceTime 功能进行了限制，除了阉割音频通话功能外，还禁用了摄像头切换按钮。</p><p>Tags: iphone · apple · ios</p>]]></description>
+</item>
+<item>
+<title>Waymo 效应：AI 如何悄悄降低研究合作度</title>
+<link>https://www.researchagenda.news/articles/the-waymo-effect.html</link>
+<guid isPermaLink="true">https://www.researchagenda.news/articles/the-waymo-effect.html</guid>
+<pubDate>Fri, 11 Sep 2026 11:17:50 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>The Waymo effect: how AI is quietly making research less collaborative</strong></p><p>The increasing prevalence of AI technologies like Waymo&#x27;s automated systems is impacting research collaboration. Critics argue that proprietary barriers are hindering open scientific progress.</p><p>Waymo 等人工智能技术的发展正影响学术研究合作。评论认为，专有技术壁垒正阻碍开放的科学进步。</p><p>Tags: ai · waymo · research</p>]]></description>
+</item>
+<item>
+<title>RTK 报告代币节省量，但我们的成本基准测试并不认同</title>
+<link>https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/</link>
+<guid isPermaLink="true">https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/</guid>
+<pubDate>Fri, 11 Sep 2026 11:15:13 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>RTK reports token savings, but our cost benchmarks disagree</strong></p><p>While RTK claims significant token savings through their optimization techniques, independent benchmarks challenge these findings. The community is debating the accuracy of these cost-saving metrics.</p><p>虽然 RTK 声称其优化技术能显著节省代币，但独立基准测试质疑了这一说法。社区正就这些成本节省指标的准确性展开辩论。</p><p>Tags: rtk · tokens · llm</p>]]></description>
+</item>
+<item>
+<title>在已故丈夫生日那天，我想为餐厅里的每位顾客买单，这是个好主意吗？</title>
+<link>https://www.marketwatch.com/story/on-my-late-husbands-birthday-i-want-to-pay-for-every-customer-at-his-favorite-restaurant-is-this-a-good-idea-a2748ccc?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/on-my-late-husbands-birthday-i-want-to-pay-for-every-customer-at-his-favorite-restaurant-is-this-a-good-idea-a2748ccc?mod=mw_rss_topstories</guid>
+<pubDate>Fri, 11 Sep 2026 11:15:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>On my late husband’s birthday, I want to pay for every customer at his favorite restaurant. Is this a good idea?</strong></p><p>A user seeks advice on whether paying for everyone&#x27;s meal at a restaurant is a practical tribute. Financial experts note potential issues with bank security flagging excessive transactions.</p><p>一位用户询问为餐厅顾客买单以纪念亡夫是否可行。理财专家提醒，此举可能触发银行的安全风控机制。</p><p>Tags: finance · etiquette · banking</p>]]></description>
+</item>
+<item>
+<title>Insta360 发布了一款真正可以在美国买到的 Osmo Pocket 单镜头竞品</title>
+<link>https://www.theverge.com/gadgets/993837/insta360-luna-pro-steadicam-gimbal-release-price-specs</link>
+<guid isPermaLink="true">https://www.theverge.com/gadgets/993837/insta360-luna-pro-steadicam-gimbal-release-price-specs</guid>
+<pubDate>Fri, 11 Sep 2026 11:07:24 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Insta360 launches a single-lens Osmo Pocket rival you can actually buy in the US</strong></p><p>Insta360 has launched a new compact single-lens steadycam, rivaling DJI&#x27;s Osmo Pocket. It features the unique ability to shoot vertical 4K video, catering to social media creators.</p><p>Insta360 发布了对标 DJI Osmo Pocket 的单镜头手持云台，支持 4K 竖屏录制，专为社交媒体创作者打造。</p><p>Tags: insta360 · camera · tech</p>]]></description>
+</item>
+<item>
+<title>股市可能出现“爆发式反弹”的四个理由</title>
+<link>https://www.marketwatch.com/story/the-four-reasons-stocks-are-about-to-embark-on-a-face-ripper-rally-e1e05e5e?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/the-four-reasons-stocks-are-about-to-embark-on-a-face-ripper-rally-e1e05e5e?mod=mw_rss_topstories</guid>
+<pubDate>Fri, 11 Sep 2026 10:58:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>The four reasons stocks could embark on a ‘face-ripper rally’ as soon as this morning</strong></p><p>Fundstrat&#x27;s Tom Lee suggests that stock markets could see a massive rally soon. He argues that current bearish sentiment is a key indicator that a bottom has been reached.</p><p>Fundstrat 的 Tom Lee 认为股市近期可能迎来爆发式反弹。他指出，当前市场过度的悲观情绪是触底的重要信号。</p><p>Tags: stocks · market · investing</p>]]></description>
+</item>
+<item>
+<title>一名佛教僧侣因涉嫌 300 万美元贪污丑闻被捕</title>
+<link>https://www.bbc.co.uk/news/articles/c5yjkxlngjyo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c5yjkxlngjyo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Fri, 11 Sep 2026 10:50:04 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Buddhist monk arrested in suspected $3m embezzlement scandal</strong></p><p>Thai police have arrested a Buddhist monk following a corruption investigation involving $3 million. The arrest also involved a female accomplice found in compromising circumstances.</p><p>泰国警方逮捕了一名涉嫌 300 万美元贪污案的佛教僧侣，并同时抓获了一名与其有不正当关系的女性同伙。</p><p>Tags: crime · thailand · news</p>]]></description>
+</item>
+<item>
+<title>Claude 不再向未成年人提供服务</title>
+<link>https://support.claude.com/en/articles/15171100-age-assurance-on-claude</link>
+<guid isPermaLink="true">https://support.claude.com/en/articles/15171100-age-assurance-on-claude</guid>
+<pubDate>Fri, 11 Sep 2026 10:48:00 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Claude is no longer available for minors</strong></p><p>Anthropic has updated its usage policies to restrict access to Claude for minors. This move aligns with growing safety concerns regarding AI accessibility for younger users.</p><p>Anthropic 更新了用户协议，禁止未成年人使用 Claude。此举旨在应对社会对青少年使用 AI 的安全性担忧。</p><p>Tags: claude · anthropic · ai</p>]]></description>
+</item>
+<item>
+<title>苹果回应 iPhone Duo 模仿者</title>
+<link>https://www.theverge.com/tech/993795/apple-addresses-iphone-duo-copycats</link>
+<guid isPermaLink="true">https://www.theverge.com/tech/993795/apple-addresses-iphone-duo-copycats</guid>
+<pubDate>Fri, 11 Sep 2026 10:02:58 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Apple addresses iPhone Duo copycats</strong></p><p>Apple addressed the rise of &#x27;passport-shaped&#x27; folding phones in the market. Executives noted that shared supply chains make design overlaps difficult to prevent.</p><p>苹果回应了市场上出现的折叠屏手机设计。高管指出，由于共享全球供应链，产品设计撞车难以避免。</p><p>Tags: apple · iphone · design</p>]]></description>
+</item>
+<item>
+<title>本周看什么 | 最近值得一看的 7 部作品</title>
+<link>https://sspai.com/post/114458</link>
+<guid isPermaLink="true">https://sspai.com/post/114458</guid>
+<pubDate>Fri, 11 Sep 2026 10:02:49 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>本周看什么 | 最近值得一看的 7 部作品</strong></p><p>A curated list of 7 notable films and media works worth watching this week. Highlights include the upcoming Godzilla release in November.</p><p>精选了 7 部值得本周关注的影视作品。其中包括将于 11 月上映的《哥斯拉-0.0》。</p><p>Tags: film · recommendation · media</p>]]></description>
+</item>
+<item>
+<title>MIT 科技评论：塑造生物技术未来的 35 岁以下创新者</title>
+<link>https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/</link>
+<guid isPermaLink="true">https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/</guid>
+<pubDate>Fri, 11 Sep 2026 09:00:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Meet the under-35s shaping the future of biotech</strong></p><p>MIT Technology Review highlights promising young minds in the biotech field. These innovators are conducting research that will fundamentally shape the future of science.</p><p>《MIT 科技评论》评选出生物技术领域的杰出青年创新者。他们的研究正从根本上塑造未来的科学格局。</p><p>Tags: biotech · mit · innovation</p>]]></description>
+</item>
+<item>
+<title>切连科夫辐射 - 超光速运动</title>
+<link>http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation</link>
+<guid isPermaLink="true">http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation</guid>
+<pubDate>Fri, 11 Sep 2026 08:42:04 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Cherenkov Radiation - traveling faster than light</strong></p><p>This article explains the physics of Cherenkov radiation. It clarifies the phenomenon of particles moving through a medium faster than the speed of light within that medium.</p><p>本文解析了切连科夫辐射的物理机制。阐明了粒子在介质中运动速度超过该介质中光速的物理现象。</p><p>Tags: physics · science · radiation</p>]]></description>
+</item>
+<item>
+<title>iPhone 18 和 Duo 发布会上，Apple 没告诉你的那些事</title>
+<link>https://sspai.com/post/114449</link>
+<guid isPermaLink="true">https://sspai.com/post/114449</guid>
+<pubDate>Fri, 11 Sep 2026 08:30:00 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>iPhone 18 和 Duo 发布会上，Apple 没告诉你的那些事</strong></p><p>Details emerging after the iPhone 18 and Duo event reveal features not mentioned on stage. Analysts continue to uncover hidden specs and operational nuances.</p><p>iPhone 18 和 Duo 发布会后，媒体挖掘出许多发布会上未提及的产品细节与规格参数。</p><p>Tags: apple · iphone · tech</p>]]></description>
+</item>
+<item>
+<title>Anthropic 阻止了试图利用 AI 制造生物武器的行为</title>
+<link>https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Fri, 11 Sep 2026 08:15:25 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Anthropic blocks possible attempt to use AI to make biological weapons</strong></p><p>Anthropic reports that its safety measures have successfully blocked attempts to use AI for biological weapon development. The company remains committed to mitigating AI-driven existential risks.</p><p>Anthropic 报告称其安全防御机制成功阻止了利用 AI 研发生物武器的企图，并将持续致力于降低 AI 相关风险。</p><p>Tags: anthropic · ai · security</p>]]></description>
+</item>
+<item>
+<title>如何建立有力的微习惯以增进健康</title>
+<link>https://www.newscientist.com/article/2588850-how-to-build-powerful-microhabits-for-your-wellbeing-and-keep-them/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2588850-how-to-build-powerful-microhabits-for-your-wellbeing-and-keep-them/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Fri, 11 Sep 2026 08:00:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>How to build powerful microhabits for your wellbeing – and keep them</strong></p><p>Research suggests that brief mindfulness practices are as effective as longer ones. Experts share tips on integrating these &#x27;microhabits&#x27; into a daily wellness routine.</p><p>研究表明，简短的正念练习与长时间的练习效果相当。专家建议将这些“微习惯”融入日常健康生活中。</p><p>Tags: wellness · habit · health</p>]]></description>
+</item>
+<item>
+<title>戴安娜王妃的“复仇裙”即将拍卖</title>
+<link>https://www.bbc.co.uk/news/articles/c0lrk7d7j0no?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c0lrk7d7j0no?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Fri, 11 Sep 2026 06:54:46 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Princess Diana&#x27;s &#x27;revenge dress&#x27; goes up for auction</strong></p><p>Princess Diana&#x27;s iconic &#x27;revenge dress&#x27; is heading to auction at Sotheby&#x27;s. Experts anticipate the historic garment will sell for up to $300,000.</p><p>戴安娜王妃标志性的“复仇裙”即将在苏富比拍卖。专家预计该裙装成交价可高达 30 万美元。</p><p>Tags: auction · royals · fashion</p>]]></description>
+</item>
+<item>
+<title>「正常」已是不易：聊聊不那么标新立异的理想 i6</title>
+<link>https://sspai.com/post/113605</link>
+<guid isPermaLink="true">https://sspai.com/post/113605</guid>
+<pubDate>Fri, 11 Sep 2026 06:50:20 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>「正常」已是不易：聊聊不那么标新立异的理想 i6</strong></p><p>A review of the Li Auto i6, highlighting its appeal for drivers seeking a reliable and &#x27;normal&#x27; electric vehicle. It focuses on practicality over flashy innovation.</p><p>评测理想 i6，强调其对于追求稳定可靠的新能源汽车用户的吸引力，注重实用性而非过度标新立异。</p><p>Tags: li-auto · ev · car</p>]]></description>
+</item>
+<item>
+<title>香港天安门事件活动人士被判入狱长达七年</title>
+<link>https://www.bbc.co.uk/news/articles/cvgyvk2djk4o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cvgyvk2djk4o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Fri, 11 Sep 2026 05:41:54 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Hong Kong&#x27;s Tiananmen activists sentenced to up to seven years in prison</strong></p><p>A court in Hong Kong has sentenced several activists to up to seven years in prison. The ruling marks a significant shift in the legal landscape regarding public commemoration.</p><p>香港法院对多名相关活动人士判处长达七年的监禁，这标志着当地关于公众纪念活动的法律环境发生了重大转变。</p><p>Tags: hongkong · legal · politics</p>]]></description>
+</item>
+<item>
+<title>自然反馈将使本世纪全球额外变暖 20%</title>
+<link>https://www.newscientist.com/article/2588740-natural-feedbacks-will-add-20-per-cent-extra-global-warming/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2588740-natural-feedbacks-will-add-20-per-cent-extra-global-warming/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Thu, 10 Sep 2026 19:00:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Natural feedbacks will warm world an extra 20 per cent this century</strong></p><p>Climate researchers warn that feedback loops from ecosystems like wetlands will increase warming significantly. By 2100, these factors could push temperatures 20-30% higher than expected.</p><p>气候研究警告称，湿地等生态系统的自然反馈循环将加剧全球变暖。到 2100 年，此影响可能使气温超预期增加 20-30%。</p><p>Tags: climate · science · environment</p>]]></description>
+</item>
+<item>
+<title>我们终于可能知道什么启动了分娩中的肌肉收缩</title>
+<link>https://www.newscientist.com/article/2588577-immune-cells-donate-their-mitochondria-to-womb-muscle-to-kick-start-birth/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2588577-immune-cells-donate-their-mitochondria-to-womb-muscle-to-kick-start-birth/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Thu, 10 Sep 2026 17:00:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>We may finally know what kick-starts muscle contractions in childbirth</strong></p><p>Scientists identified that an influx of immune cells into the uterus initiates childbirth. These cells provide mitochondria to power the necessary muscle contractions.</p><p>科学家发现，免疫细胞大量涌入子宫是启动分娩的关键，这些细胞通过线粒体为肌肉收缩提供能量。</p><p>Tags: biology · science · health</p>]]></description>
+</item>
+<item>
+<title>研究人员如何使用 Codex 和 ChatGPT 寻找新型抗菌分子</title>
+<link>https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials</link>
+<guid isPermaLink="true">https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials</guid>
+<pubDate>Thu, 10 Sep 2026 16:00:00 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules</strong></p><p>César de la Fuente&#x27;s lab utilizes AI models to scan genomes for antimicrobial candidates. This project aims to fight drug-resistant infections more effectively.</p><p>César de la Fuente 实验室利用 AI 模型扫描基因组以寻找抗菌候选分子，旨在更有效地对抗耐药感染。</p><p>Tags: ai · biology · openai</p>]]></description>
+</item>
 <item>
 <title>AI 时代，大模型企业将成为最终赢家</title>
 <link>https://www.v2ex.com/t/1241137#reply0</link>
@@ -1194,262 +1442,6 @@ B 端高级产品经理*1
 <pubDate>Fri, 04 Sep 2026 12:10:00 +0000</pubDate>
 <category>AI</category>
 <description><![CDATA[<p><strong>The Download: selling battlefield drone data and AI reshaping language</strong></p><p>Technological advancements are creating new marketplaces for battlefield drone data. Meanwhile, AI continues to reshape the fundamental ways we use and understand language.</p><p>技术进步正在为战场无人机数据创造新的市场。同时，人工智能继续重塑我们使用和理解语言的基本方式。</p><p>Tags: drones · ai · tech</p>]]></description>
-</item>
-<item>
-<title>发现新的 OpenAI 代理消息论坛</title>
-<link>https://collusion.wiki/</link>
-<guid isPermaLink="true">https://collusion.wiki/</guid>
-<pubDate>Fri, 04 Sep 2026 11:54:53 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>Discovery of a new OpenAI agent message board</strong></p><p>A new online message board dedicated to OpenAI agent discussions has emerged. It is attracting significant attention from the technical community.</p><p>一个专注于 OpenAI 代理讨论的新在线论坛近日出现。它正引起技术社区的广泛关注。</p><p>Tags: openai · ai · forum</p>]]></description>
-</item>
-<item>
-<title>英国政府称在阿根廷重申领土主张后，对福克兰群岛的支持“坚定不移”</title>
-<link>https://www.bbc.co.uk/news/articles/cn45jg3zlz4o?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cn45jg3zlz4o?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Fri, 04 Sep 2026 11:54:51 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>UK support for Falkland Islands &#x27;unwavering&#x27; after Argentina restates claims, No 10 says</strong></p><p>The UK government has reaffirmed its unwavering support for the Falkland Islands following claims by Argentinian President Javier Milei. Milei recently suggested that shifting political tides favor Argentina&#x27;s sovereignty claim over the British overseas territory.</p><p>英国政府重申对福克兰群岛的支持坚定不移，以回应阿根廷总统米莱的领土主张。米莱此前表示，当前的“变革之风”有利于阿根廷对该领土的声索。</p><p>Tags: uk · argentina · falklands</p>]]></description>
-</item>
-<item>
-<title>Vertiv：AI基础设施增长强劲，估值反映高增长预期</title>
-<link>https://seekingalpha.com/article/4943081-vertiv-stock-ai-infrastructure-growth-impressive-valuation-reflects-high-growth-expectations?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4943081-vertiv-stock-ai-infrastructure-growth-impressive-valuation-reflects-high-growth-expectations?source=feed_all_articles</guid>
-<pubDate>Fri, 04 Sep 2026 11:46:24 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Vertiv: AI Infrastructure Growth Impressive, Valuation Reflects High-Growth Expectations</strong></p><p>Vertiv is experiencing impressive growth driven by the surge in AI infrastructure demands. However, the company&#x27;s current stock valuation heavily reflects high-growth expectations from investors.</p><p>受人工智能基础设施需求激增的推动，Vertiv表现出强劲的增长势头。但其目前的市场估值也反映了投资者对其高增长的预期。</p><p>Tags: vertiv · ai · infrastructure</p>]]></description>
-</item>
-<item>
-<title>黄仁勋的最新交易虽然昂贵，但增强了英伟达的竞争壁垒</title>
-<link>https://seekingalpha.com/article/4943069-jensen-huangs-latest-deal-is-expensive-but-it-strengthens-nvidias-moat?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4943069-jensen-huangs-latest-deal-is-expensive-but-it-strengthens-nvidias-moat?source=feed_all_articles</guid>
-<pubDate>Fri, 04 Sep 2026 11:45:36 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Jensen Huang&#x27;s Latest Deal Is Expensive, But It Strengthens Nvidia&#x27;s Moat</strong></p><p>Nvidia CEO Jensen Huang has spearheaded a costly new deal that critics might view as an overreach. Despite the price, the acquisition effectively strengthens Nvidia&#x27;s competitive moat in the semiconductor market.</p><p>英伟达首席执行官黄仁勋达成了一项昂贵的新交易，虽然投入巨大，但这极大地增强了英伟达在半导体市场的竞争壁垒。</p><p>Tags: nvidia · jensen huang · semiconductor</p>]]></description>
-</item>
-<item>
-<title>Rexford Industrial：合理的估值和近5%的收益率颇具吸引力，但阻力依然存在</title>
-<link>https://seekingalpha.com/article/4942089-rexford-industrial-reasonable-valuation-near-5-percent-yield-but-headwinds-persist?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4942089-rexford-industrial-reasonable-valuation-near-5-percent-yield-but-headwinds-persist?source=feed_all_articles</guid>
-<pubDate>Fri, 04 Sep 2026 11:45:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Rexford Industrial: Reasonable Valuation And Near 5% Yield Attractive, But Headwinds Persist</strong></p><p>Rexford Industrial offers an attractive valuation and a dividend yield approaching 5% for potential investors. Despite these benefits, the company continues to face persistent macroeconomic headwinds.</p><p>Rexford Industrial目前的估值和近5%的收益率对投资者具有吸引力。尽管如此，该公司仍面临着持续存在的宏观经济阻力。</p><p>Tags: rexford · realestate · investing</p>]]></description>
-</item>
-<item>
-<title>AI空头：看准了泡沫，但可能在交易方向上判断失误</title>
-<link>https://seekingalpha.com/article/4943093-ai-bears-right-about-excess-may-be-wrong-on-trade?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4943093-ai-bears-right-about-excess-may-be-wrong-on-trade?source=feed_all_articles</guid>
-<pubDate>Fri, 04 Sep 2026 11:45:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>AI Bears: Right About The Excess, May Be Wrong On The Trade</strong></p><p>Investors bearish on AI have correctly identified market excesses and potential overvaluation. However, they may be misjudging the immediate trajectory of the stock market trade.</p><p>看空人工智能的投资者虽正确指出了市场泡沫和估值过高的问题，但可能在具体的交易方向上出现了误判。</p><p>Tags: ai · stocks · market</p>]]></description>
-</item>
-<item>
-<title>关键金属：Tanbreez是战略瓶颈，而非稀土价格的赌注</title>
-<link>https://seekingalpha.com/article/4943078-critical-metals-tanbreez-is-a-strategic-bottleneck-not-a-rare-earth-price-bet?source=feed_all_articles</link>
-<guid isPermaLink="true">https://seekingalpha.com/article/4943078-critical-metals-tanbreez-is-a-strategic-bottleneck-not-a-rare-earth-price-bet?source=feed_all_articles</guid>
-<pubDate>Fri, 04 Sep 2026 11:36:09 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Critical Metals: Tanbreez Is A Strategic Bottleneck, Not A Rare-Earth Price Bet</strong></p><p>Tanbreez is better understood as a strategic bottleneck in the supply chain rather than a simple play on rare-earth prices. Analysts suggest its value lies in its role in securing material availability.</p><p>Tanbreez更多被视为供应链中的战略瓶颈，而非单纯的稀土价格投机标的。分析认为其核心价值在于保障关键材料的供应。</p><p>Tags: metals · tanbreez · mining</p>]]></description>
-</item>
-<item>
-<title>【问与答】我想问一下 Aegis 和 egis 有什么区别，是否与保镖含义接近</title>
-<link>https://www.v2ex.com/t/1239574#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1239574#reply0</guid>
-<pubDate>Fri, 04 Sep 2026 11:33:03 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[问与答] 我想问一下 Aegis 和 egis 有什么区别，是不是跟保镖的含义相接近</strong></p><p>A user on V2EX is asking for clarification on the definitions of &#x27;Aegis&#x27; and &#x27;egis&#x27;, specifically regarding their connotations related to bodyguards and protection. The discussion reflects confusion over how these terms align with foreign usage habits.</p><p>V2EX用户就“Aegis”和“egis”的词义及其与“保镖”、“防护”等概念的联系展开讨论。用户对这些词汇在外国语境中的使用习惯感到困惑。</p><p>Tags: vocabulary · language · v2ex</p>]]></description>
-</item>
-<item>
-<title>股市抛售风险上升的六个原因，投资者该如何应对</title>
-<link>https://www.marketwatch.com/story/six-reasons-that-the-risk-of-a-stock-market-selloff-is-rising-heres-what-investors-should-be-doing-4c3d84ec?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/six-reasons-that-the-risk-of-a-stock-market-selloff-is-rising-heres-what-investors-should-be-doing-4c3d84ec?mod=mw_rss_topstories</guid>
-<pubDate>Fri, 04 Sep 2026 11:32:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Six reasons that the risk of a stock-market selloff is rising. Here’s what investors should be doing.</strong></p><p>Longview Economics warns that many global markets are priced for perfection, increasing the risk of a significant selloff. Investors are advised to take specific precautions to protect their portfolios.</p><p>Longview Economics警告称，全球市场定价已达极致，股市抛售风险正在上升。建议投资者采取具体措施以保护资产组合。</p><p>Tags: stocks · economy · finance</p>]]></description>
-</item>
-<item>
-<title>政府不断试图平抑全球市场，为何这反而让投资者感到担忧</title>
-<link>https://www.marketwatch.com/story/governments-keep-trying-to-calm-global-markets-why-that-should-worry-investors-e7f93d62?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/governments-keep-trying-to-calm-global-markets-why-that-should-worry-investors-e7f93d62?mod=mw_rss_topstories</guid>
-<pubDate>Fri, 04 Sep 2026 11:27:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Governments keep trying to calm global markets. Why that should worry investors.</strong></p><p>Government interventions like currency buying and bond repurchases are intended to stabilize markets but are currently creating uncertainty. Instead of providing reassurance, these actions are signaling deeper underlying issues to investors.</p><p>政府干预措施本旨在稳定市场，但近期却引发了投资者的更多担忧。这些举动不仅未能安抚市场，反而向投资者释放了负面信号。</p><p>Tags: government · markets · economy</p>]]></description>
-</item>
-<item>
-<title>潜在的中期选举混乱可能扰乱市场，一位交易员的应对之策</title>
-<link>https://www.marketwatch.com/story/potential-midterm-election-chaos-can-roil-markets-heres-one-traders-play-73a02966?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/potential-midterm-election-chaos-can-roil-markets-heres-one-traders-play-73a02966?mod=mw_rss_topstories</guid>
-<pubDate>Fri, 04 Sep 2026 11:21:00 +0000</pubDate>
-<category>FINA</category>
-<description><![CDATA[<p><strong>Potential midterm-election chaos can roil markets. Here’s one trader’s play.</strong></p><p>A trader suggests buying portfolio insurance to protect against market declines caused by potential disputes in midterm election results. He views this strategy as a straightforward move in the face of political uncertainty.</p><p>一名交易员建议通过购买投资组合保险，来应对中期选举结果争议可能引发的市场下跌。他认为这是面对政治不确定性时的必要手段。</p><p>Tags: election · stocks · trading</p>]]></description>
-</item>
-<item>
-<title>【宽带症候群】中国移动的IPv6太拉胯了</title>
-<link>https://www.v2ex.com/t/1239573#reply4</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1239573#reply4</guid>
-<pubDate>Fri, 04 Sep 2026 11:15:54 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[宽带症候群] 中国移动的 IPV6 太拉胯了</strong></p><p>A user reports severe performance issues with China Mobile&#x27;s IPv6 implementation, including slow inter-provincial access speeds. Additionally, the user faces difficulties managing router firewalls, leading to frustration with technical support.</p><p>用户吐槽中国移动的IPv6网络性能极差，跨省访问速度缓慢。同时，光猫防火墙设置的限制以及客服技术支持的不到位也令用户深感困扰。</p><p>Tags: ipv6 · isp · china-mobile</p>]]></description>
-</item>
-<item>
-<title>【酷工作】招全栈开发工程师啦！远程 + on-site 结合</title>
-<link>https://www.v2ex.com/t/1239572#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1239572#reply0</guid>
-<pubDate>Fri, 04 Sep 2026 11:08:44 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[酷工作] 招全栈开发工程师啦！远程 + on-site 结合</strong></p><p>Kapibala AI Limited is hiring a full-stack developer to join their global team focused on Sales AGI. The role emphasizes the use of AI tools like Cursor to enhance productivity in building commercial intelligence agents.</p><p>Kapibala AI Limited正招聘全栈开发工程师，专注于研发销售类AI智能体。该岗位鼓励使用AI编程工具，以大幅提升开发效率。</p><p>Tags: recruitment · ai · fullstack</p>]]></description>
-</item>
-<item>
-<title>【程序员】Scout 是不是一个常用语</title>
-<link>https://www.v2ex.com/t/1239571#reply3</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1239571#reply3</guid>
-<pubDate>Fri, 04 Sep 2026 11:03:50 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[程序员] Scout 是不是一个常用语</strong></p><p>A developer discusses confusion over the term &#x27;scout&#x27; after an LLM failed to understand the request to &#x27;scout&#x27; a repository. The user wonders if this is common technical jargon or a unique habit learned from GPT.</p><p>开发者讨论了“scout”一词是否为常用术语，因为大模型未能理解其在代码库中进行扫描的请求。用户质疑这是否属于行业术语或特定的语言偏好。</p><p>Tags: programming · llm · jargon</p>]]></description>
-</item>
-<item>
-<title>为什么AI生成的食物图片看起来那么奇怪</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that</link>
-<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that</guid>
-<pubDate>Fri, 04 Sep 2026 11:00:00 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>Why AI food looks like that</strong></p><p>AI-generated food images are increasingly flooding the internet with unrealistic and grotesque results, such as shrimp-covered donuts and worm-like noodles. These images highlight the struggle of current AI models to represent culinary textures and physics accurately.</p><p>人工智能生成的食物图片日益充斥网络，其中充满了令人不适的荒谬效果。这反映了当前模型在处理食物质感和物理形态时仍面临巨大挑战。</p><p>Tags: ai · generative-art · food</p>]]></description>
-</item>
-<item>
-<title>多国和科技巨头利用乌克兰的“黄金”数据训练AI</title>
-<link>https://www.newscientist.com/article/2587197-nations-and-big-tech-using-gold-dust-data-from-ukraine-to-train-ai/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
-<guid isPermaLink="true">https://www.newscientist.com/article/2587197-nations-and-big-tech-using-gold-dust-data-from-ukraine-to-train-ai/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
-<pubDate>Fri, 04 Sep 2026 11:00:00 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>Nations and big tech to train AI using ‘gold dust’ data from Ukraine</strong></p><p>Foreign nations and major technology firms are actively seeking data from the war in Ukraine to train advanced AI models. This data is considered invaluable for developing next-generation defense and national security technologies.</p><p>各国政府和科技公司正竞相获取乌克兰冲突中的实战数据，用以训练先进的AI模型。这些数据被视为开发新一代国防及安全技术的关键资源。</p><p>Tags: ai · ukraine · defense</p>]]></description>
-</item>
-<item>
-<title>数据中心会损害你的房产价值吗？研究说不会，但卖家不这么认为</title>
-<link>https://www.marketwatch.com/story/will-a-data-center-hurt-your-homes-value-research-says-no-sellers-disagree-7017ace4?mod=mw_rss_topstories</link>
-<guid isPermaLink="true">https://www.marketwatch.com/story/will-a-data-center-hurt-your-homes-value-research-says-no-sellers-disagree-7017ace4?mod=mw_rss_topstories</guid>
-<pubDate>Fri, 04 Sep 2026 11:00:00 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Will a data center hurt your home’s value? Research says no. Sellers disagree.</strong></p><p>While research suggests that proximity to data centers does not negatively impact home values, local residents remain skeptical. Homeowners are increasingly vocal about their concerns regarding potential neighborhood disruptions.</p><p>研究表明数据中心对周边房价并无负面影响，但当地居民对此仍持怀疑态度。业主们正日益表达对数据中心可能带来的生活干扰的担忧。</p><p>Tags: datacenter · realestate · housing</p>]]></description>
-</item>
-<item>
-<title>【科技】Meshtastic/MeshCore/LoRa 在淘宝被禁</title>
-<link>https://www.v2ex.com/t/1239570#reply0</link>
-<guid isPermaLink="true">https://www.v2ex.com/t/1239570#reply0</guid>
-<pubDate>Fri, 04 Sep 2026 10:57:47 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>[科技] Meshtastic/MeshCore/LoRa 在淘宝被禁</strong></p><p>Products related to Meshtastic, MeshCore, and LoRa radio technologies have been removed from Taobao and Xianyu. Users are now questioning the continued safety and legality of using these communication devices.</p><p>淘宝和闲鱼已无法搜到Meshtastic、MeshCore和LoRa相关产品。用户对这些通信设备的后续使用安全性和合法性表示担忧。</p><p>Tags: lora · meshtastic · taobao</p>]]></description>
-</item>
-<item>
-<title>美国柴油价格创下历史新高</title>
-<link>https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Fri, 04 Sep 2026 10:52:56 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>US diesel prices hit an all-time-high</strong></p><p>US diesel prices have surged to record-breaking levels following the onset of the Iran conflict in late February. The price spike mirrors the significant increase in wholesale oil prices globally.</p><p>受伊朗局势影响，美国柴油价格飙升至历史新高。这一上涨趋势与全球批发油价的同步大幅增长保持一致。</p><p>Tags: diesel · oil · usa</p>]]></description>
-</item>
-<item>
-<title>微软的Project Zenith为开发者提供“无干扰的Windows体验”</title>
-<link>https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers</link>
-<guid isPermaLink="true">https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers</guid>
-<pubDate>Fri, 04 Sep 2026 10:44:15 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers</strong></p><p>Microsoft has introduced &#x27;Project Zenith,&#x27; a Windows experience optimized specifically for developers. The project is tailored for high-performance devices with at least 64GB of RAM to ensure a seamless development environment.</p><p>微软推出了专为开发者设计的“Project Zenith”Windows系统体验。该项目旨在利用64GB及以上大内存设备，提供流畅且无干扰的开发环境。</p><p>Tags: microsoft · windows · dev</p>]]></description>
-</item>
-<item>
-<title>萨姆·奥特曼为GPT-6 Astra混乱的发布向付费用户道歉</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout</link>
-<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout</guid>
-<pubDate>Fri, 04 Sep 2026 10:41:48 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>Sam Altman apologizes for &amp;#8216;messy&amp;#8217; GPT-6 Astra rollout that’s locked out paying users</strong></p><p>OpenAI CEO Sam Altman has apologized for the &#x27;messy&#x27; rollout of the GPT-6 Astra model. Many paying users were left without the promised access despite the company&#x27;s claims of a generational leap in AI capabilities.</p><p>OpenAI首席执行官萨姆·奥特曼就GPT-6 Astra发布过程中的混乱向用户道歉。尽管公司宣称该模型实现了代际飞跃，但许多付费用户却未能如期使用。</p><p>Tags: openai · gpt6 · sam-altman</p>]]></description>
-</item>
-<item>
-<title>破解简街（Jane Street）逆向工程挑战赛</title>
-<link>https://jestoph.com/2026/09/04/jane-street-challenge.html</link>
-<guid isPermaLink="true">https://jestoph.com/2026/09/04/jane-street-challenge.html</guid>
-<pubDate>Fri, 04 Sep 2026 10:17:01 +0000</pubDate>
-<category>TECH</category>
-<description><![CDATA[<p><strong>Solving the Jane Street Reverse Engineering Challenge</strong></p><p>An overview and discussion regarding the strategies used to solve the Jane Street reverse engineering challenge. The thread includes technical insights from participants in the community.</p><p>本文汇总了解决Jane Street逆向工程挑战赛的相关策略与讨论。社区成员分享了他们的技术洞察与解题思路。</p><p>Tags: janestreet · engineering · coding</p>]]></description>
-</item>
-<item>
-<title>欧洲遭遇螺旋式上升的破坏活动，俄罗斯是头号嫌疑人</title>
-<link>https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Fri, 04 Sep 2026 10:00:18 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Europe targeted by spiralling campaign of sabotage and Russia is the chief suspect</strong></p><p>Germany has accused Russia of carrying out an attack on Leipzig airport, one of several suspicious incidents across Europe. Authorities believe these sabotage acts are part of a larger, escalating campaign.</p><p>德国指控俄罗斯对莱比锡机场发动袭击，这已是欧洲近期发生的一系列可疑事件之一。当局怀疑这些破坏活动属于更大规模的升级行动。</p><p>Tags: russia · sabotage · europe</p>]]></description>
-</item>
-<item>
-<title>本周看什么 | 最近值得一看的 8 部作品</title>
-<link>https://sspai.com/post/114175</link>
-<guid isPermaLink="true">https://sspai.com/post/114175</guid>
-<pubDate>Fri, 04 Sep 2026 09:32:48 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>本周看什么 | 最近值得一看的 8 部作品</strong></p><p>This roundup highlights eight recommended works for the week, including the highly anticipated &#x27;Harry Potter&#x27; series. The series is set to debut on HBO Max on December 25th.</p><p>本周推荐了八部值得一看的作品，其中包括备受关注的《哈利·波特》剧集。该剧将于12月25日在HBO Max上线。</p><p>Tags: media · recommendation · harrypotter</p>]]></description>
-</item>
-<item>
-<title>乌克兰无人机数据助推新的“狂野西部”市场</title>
-<link>https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/</link>
-<guid isPermaLink="true">https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/</guid>
-<pubDate>Fri, 04 Sep 2026 09:25:19 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>Data from drones in Ukraine is fueling a new Wild West marketplace</strong></p><p>The surplus of drone data from the Ukraine battlefield is fueling a new commercial sector in defense intelligence. Analysts suggest this gold mine of information will have long-term impacts.</p><p>乌克兰战场留下的海量无人机数据正在推动一个全新的国防情报商业市场。分析人士指出，这一信息金矿将产生深远的影响。</p><p>Tags: drone · ukraine · data · defense</p>]]></description>
-</item>
-<item>
-<title>“层层奇迹”：尼泊尔洪水幸存者如何从隧道中获救</title>
-<link>https://www.bbc.co.uk/news/articles/c9dwjv96qyqo?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c9dwjv96qyqo?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Fri, 04 Sep 2026 08:23:05 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>&#x27;Layer upon layer of miracles&#x27;: How Nepal flood survivors were rescued from tunnel</strong></p><p>Rescuers overcame extreme challenges, including manual tunnel searches and controlled rock explosions, to save survivors in Nepal. The operation is being described as a series of miracles.</p><p>救援人员通过艰难的隧道搜寻和精准爆破，最终救出了尼泊尔洪水中的幸存者。整个救援过程被形容为充满奇迹的层层突破。</p><p>Tags: nepal · rescue · flood</p>]]></description>
-</item>
-<item>
-<title>林赛·克兰西审判中法官拒绝移除陪审员，紧张局势加剧</title>
-<link>https://www.bbc.co.uk/news/articles/c7v4n7pv5epo?at_medium=RSS&amp;at_campaign=rss</link>
-<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c7v4n7pv5epo?at_medium=RSS&amp;at_campaign=rss</guid>
-<pubDate>Fri, 04 Sep 2026 00:54:46 +0000</pubDate>
-<category>WORLD</category>
-<description><![CDATA[<p><strong>Tensions flare as judge declines to remove juror in Lindsay Clancy trial</strong></p><p>Tensions are rising in the Lindsay Clancy triple murder trial after the judge denied the defense&#x27;s request to remove a holdout juror. The defense lawyer expressed strong dissatisfaction with the ruling.</p><p>在林赛·克兰西的三重谋杀案审判中，法官拒绝了辩方移除陪审员的要求，导致法庭内紧张局势升级。辩护律师对这一裁决表示强烈不满。</p><p>Tags: law · trial · crime</p>]]></description>
-</item>
-<item>
-<title>猪肾移植助力一名男子在世界首例中摆脱透析长达九个月</title>
-<link>https://www.newscientist.com/article/2587510-pig-kidney-kept-a-man-off-dialysis-for-nine-months-in-world-first/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
-<guid isPermaLink="true">https://www.newscientist.com/article/2587510-pig-kidney-kept-a-man-off-dialysis-for-nine-months-in-world-first/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
-<pubDate>Thu, 03 Sep 2026 22:30:00 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>Pig kidney kept a man off dialysis for nine months in world first</strong></p><p>In a medical milestone, a man lived for nine months without dialysis thanks to a successful pig kidney transplant. This breakthrough provides hope for those waiting for human donor organs.</p><p>全球首例猪肾移植手术成功，使一名患者在九个月内无需透析。这一医疗突破为等待人类器官捐赠的患者带来了新希望。</p><p>Tags: medicine · transplant · science</p>]]></description>
-</item>
-<item>
-<title>GPT-6 Astra</title>
-<link>https://openai.com/index/gpt-6-astra/</link>
-<guid isPermaLink="true">https://openai.com/index/gpt-6-astra/</guid>
-<pubDate>Thu, 03 Sep 2026 18:41:05 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>GPT-6 Astra</strong></p><p>Discussion thread regarding the announcement and capabilities of OpenAI&#x27;s new GPT-6 Astra model. Users are analyzing its potential impact and performance benchmarks.</p><p>该讨论主题围绕OpenAI新模型GPT-6 Astra的发布及其功能展开，用户正在对其性能指标和潜在影响进行分析。</p><p>Tags: openai · gpt6 · llm</p>]]></description>
-</item>
-<item>
-<title>Qwen 3.8 27B在Cerebras平台上可达到每秒1500 tokens的推理速度</title>
-<link>https://inference-docs.cerebras.ai/models/overview</link>
-<guid isPermaLink="true">https://inference-docs.cerebras.ai/models/overview</guid>
-<pubDate>Thu, 03 Sep 2026 18:32:13 +0000</pubDate>
-<category>AI</category>
-<description><![CDATA[<p><strong>Qwen 3.8 27B available on Cerebras at 1500 tokens/s</strong></p><p>The Qwen 3.8 27B model has achieved impressive inference speeds of 1500 tokens per second when running on Cerebras hardware. This highlights the synergy between optimized models and high-performance AI chips.</p><p>Qwen 3.8 27B模型在Cerebras硬件上实现了每秒1500 token的推理速度。这展示了模型优化与高性能AI芯片结合的强大性能。</p><p>Tags: qwen · ai · cerebras</p>]]></description>
-</item>
-<item>
-<title>裸盖菇素可能预防化疗常见的衰弱性副作用</title>
-<link>https://www.newscientist.com/article/2587451-psilocybin-prevents-common-and-debilitating-chemotherapy-side-effect/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
-<guid isPermaLink="true">https://www.newscientist.com/article/2587451-psilocybin-prevents-common-and-debilitating-chemotherapy-side-effect/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
-<pubDate>Thu, 03 Sep 2026 18:00:00 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>Psilocybin could prevent common and debilitating chemotherapy side effect</strong></p><p>Research indicates that psilocybin, a compound in magic mushrooms, could help prevent nerve-related pain and tingling caused by chemotherapy. This could significantly improve the quality of life for cancer patients.</p><p>研究发现，神奇蘑菇中的裸盖菇素成分可能有助于预防化疗引起的神经痛和麻木等副作用，从而改善癌症患者的生活质量。</p><p>Tags: medicine · psilocybin · cancer</p>]]></description>
-</item>
-<item>
-<title>气候变化加剧，野火威胁蔓延至欧洲新地区</title>
-<link>https://www.newscientist.com/article/2587499-rapid-climate-change-brings-wildfire-threat-to-new-corners-of-europe/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
-<guid isPermaLink="true">https://www.newscientist.com/article/2587499-rapid-climate-change-brings-wildfire-threat-to-new-corners-of-europe/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
-<pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>Rapid climate change brings wildfire threat to new corners of Europe</strong></p><p>Rapid climate change is causing wildfires to break out in traditionally cool and damp European countries. The shifting climate patterns are creating unprecedented risks for these regions.</p><p>气候变化的迅速加剧导致野火在欧洲一些传统上阴凉湿润的地区爆发。气候模式的改变正给这些地区带来前所未有的火灾威胁。</p><p>Tags: climate · wildfire · environment</p>]]></description>
 </item>
 </channel>
 </rss>
