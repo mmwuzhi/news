@@ -6,6 +6,383 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1243756#reply0",
+      "url": "https://www.v2ex.com/t/1243756#reply0",
+      "title": "15年经验资深后端与AI全栈开发求职",
+      "content_html": "<p><strong>[求职] [求职] 15 年开发经验｜资深后端 / AI 全栈｜ PHP / Node.js / Python / React / AI Coding</strong></p><p>A developer with 15 years of experience in backend and Web systems is seeking new opportunities in AI application and full-stack development. The candidate possesses a strong tech stack including PHP, Node.js, Python, and React.</p><p>一位拥有15年Web后端开发经验的资深工程师正在寻求AI应用或全栈开发职位。他精通PHP、Node.js、Python及主流前端框架。</p><p>Tags: hiring · fullstack · backend</p>",
+      "date_published": "2026-09-21T13:30:09+00:00",
+      "tags": [
+        "hiring",
+        "fullstack",
+        "backend"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4948309-nebius-is-starting-to-get-paid-for-the-bottleneck?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4948309-nebius-is-starting-to-get-paid-for-the-bottleneck?source=feed_all_articles",
+      "title": "Nebius开始从瓶颈中获利",
+      "content_html": "<p><strong>Nebius Is Starting To Get Paid For The Bottleneck</strong></p><p>Nebius is beginning to monetize its infrastructure bottlenecks. This indicates a shift in its business model as demand for compute resources continues to surge.</p><p>Nebius正开始从其基础设施瓶颈中获得收益。这表明随着算力需求激增，其商业模式正在发生转变。</p><p>Tags: nebius · infrastructure · finance</p>",
+      "date_published": "2026-09-21T13:25:08+00:00",
+      "tags": [
+        "nebius",
+        "infrastructure",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4948307-sandisk-pricing-contracts-have-inbuilt-price-depreciation?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4948307-sandisk-pricing-contracts-have-inbuilt-price-depreciation?source=feed_all_articles",
+      "title": "闪迪：定价合同中包含内置价格折旧",
+      "content_html": "<p><strong>Sandisk: Pricing Contracts Have Inbuilt Price Depreciation</strong></p><p>SanDisk&#x27;s pricing contracts feature built-in price depreciation mechanisms. This approach reflects the evolving nature of memory product valuation in the hardware market.</p><p>闪迪的定价合同中包含了内置的价格折旧机制。这反映了存储产品在硬件市场中价值评估的演变。</p><p>Tags: sandisk · pricing · hardware</p>",
+      "date_published": "2026-09-21T13:23:53+00:00",
+      "tags": [
+        "sandisk",
+        "pricing",
+        "hardware"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1243755#reply0",
+      "url": "https://www.v2ex.com/t/1243755#reply0",
+      "title": "独立开发者：免费为陌生人定制小组件",
+      "content_html": "<p><strong>[独立开发者 👨‍💻] 最近在做一件不太合理的事：免费帮陌生人做小组件</strong></p><p>The developer created a tool called Await to build custom iPhone widgets based on individual needs. By focusing on &#x27;one person, one requirement,&#x27; the developer is exploring non-scalable but deeply personalized software creation.</p><p>开发者推出了Await编辑器，通过为陌生人提供免费的一对一组件定制服务。这种“一人一需”的模式虽然难以规模化，但满足了极具个性的需求。</p><p>Tags: ios · widgets · indie-dev</p>",
+      "date_published": "2026-09-21T13:23:48+00:00",
+      "tags": [
+        "ios",
+        "widgets",
+        "indie-dev"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1243754#reply0",
+      "url": "https://www.v2ex.com/t/1243754#reply0",
+      "title": "Huiai代充ChatGPT/Claude/Gemini服务",
+      "content_html": "<p><strong>[问与答] Huiai 代充 ChatGPT/Claude/Gemini,可开票。</strong></p><p>Huiai offers recharge services for popular AI platforms like ChatGPT, Claude, and Gemini with billing support. Users can access these services via WeChat or Alipay without needing foreign credit cards.</p><p>Huiai提供ChatGPT、Claude及Gemini的代充服务并支持开票。用户无需海外信用卡，通过微信或支付宝即可完成订阅。</p><p>Tags: ai · saas · service</p>",
+      "date_published": "2026-09-21T13:20:59+00:00",
+      "tags": [
+        "ai",
+        "saas",
+        "service"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4948306-coreweave-much-much-more-underperformance-to-come?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4948306-coreweave-much-much-more-underperformance-to-come?source=feed_all_articles",
+      "title": "CoreWeave：未来表现可能大幅下滑",
+      "content_html": "<p><strong>CoreWeave - Much Much More Underperformance To Come</strong></p><p>Analysts suggest that CoreWeave may face significant underperformance in the coming periods. High expectations coupled with market volatility could pressure the company&#x27;s valuation.</p><p>分析人士认为CoreWeave未来的表现可能面临大幅下滑。高市场预期与波动性可能对其估值造成压力。</p><p>Tags: coreweave · finance · stock</p>",
+      "date_published": "2026-09-21T13:20:49+00:00",
+      "tags": [
+        "coreweave",
+        "finance",
+        "stock"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4948305-northern-stock-index-fund-q2-2026-commentary?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4948305-northern-stock-index-fund-q2-2026-commentary?source=feed_all_articles",
+      "title": "北方股票指数基金2026年第二季度评论",
+      "content_html": "<p><strong>Northern Stock Index Fund Q2 2026 Commentary</strong></p><p>The commentary for the Northern Stock Index Fund&#x27;s Q2 2026 performance highlights key market movements. It provides insights into portfolio strategy and sector allocation trends.</p><p>北方股票指数基金2026年二季度的评论重点介绍了市场动态。该报告为投资组合策略和行业配置趋势提供了见解。</p><p>Tags: funds · finance · market</p>",
+      "date_published": "2026-09-21T13:20:00+00:00",
+      "tags": [
+        "funds",
+        "finance",
+        "market"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4948304-wendys-international-folly-but-a-potentially-wise-acquisition?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4948304-wendys-international-folly-but-a-potentially-wise-acquisition?source=feed_all_articles",
+      "title": "Wendy's：国际化困境与潜在的明智收购",
+      "content_html": "<p><strong>Wendy&#x27;s: International Folly But A Potentially Wise Acquisition</strong></p><p>Wendy&#x27;s faces international expansion challenges but may benefit from a strategic acquisition. The report analyzes whether this move can revitalize its global growth.</p><p>温迪快餐面临国际扩张困境，但可能受益于一项明智的收购。报告探讨了此举能否重振其全球增长势头。</p><p>Tags: wendys · finance · business</p>",
+      "date_published": "2026-09-21T13:18:02+00:00",
+      "tags": [
+        "wendys",
+        "finance",
+        "business"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1243752#reply0",
+      "url": "https://www.v2ex.com/t/1243752#reply0",
+      "title": "建立网站收集Jev模型的应用场景",
+      "content_html": "<p><strong>[推广] 做了个网站收集大家都在拿 jev 做什么</strong></p><p>The creator launched a website to document how developers use the Jev model for decision-making tasks. It features real-world examples like AI agents choosing game actions or routing requests.</p><p>作者创建了一个网站，旨在收集Jev模型在决策任务中的实际应用案例。该模型擅长处理路径选择和逻辑判断等具体任务。</p><p>Tags: jev · ai · agent</p>",
+      "date_published": "2026-09-21T13:17:27+00:00",
+      "tags": [
+        "jev",
+        "ai",
+        "agent"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.theverge.com/gadgets/998165/vivo-x500-pro-max-launch-specs-release-date-lofic-china",
+      "url": "https://www.theverge.com/gadgets/998165/vivo-x500-pro-max-launch-specs-release-date-lofic-china",
+      "title": "vivo X500 Pro Max支持17档动态范围与4K240慢动作拍摄",
+      "content_html": "<p><strong>Vivo’s X500 Pro Max has 17 stops of dynamic range and 4K240 slo-mo</strong></p><p>The newly launched vivo X500 Pro Max introduces advanced Sony and MediaTek hardware for superior photography. It highlights industry-leading dynamic range and high-frame-rate video capabilities.</p><p>vivo新推出的X500 Pro Max搭载了索尼和联发科的新硬件，在动态范围和慢动作摄影方面表现出色。</p><p>Tags: vivo · smartphone · photography</p>",
+      "date_published": "2026-09-21T13:16:25+00:00",
+      "tags": [
+        "vivo",
+        "smartphone",
+        "photography"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1243751#reply0",
+      "url": "https://www.v2ex.com/t/1243751#reply0",
+      "title": "程序员：升级到20X使用体验",
+      "content_html": "<p><strong>[程序员] 终于用上 20X 了，一波三折</strong></p><p>A programmer shares their experience of finally upgrading to the 20X tier after finding the 5X plan insufficient. The transition reflects the increasing compute demands of modern development tasks.</p><p>一位程序员分享了从5X升级到20X的体验，称之前的配额已无法满足需求。这反映了现代开发任务对算力的增长需求。</p><p>Tags: developer · saas · tools</p>",
+      "date_published": "2026-09-21T13:14:47+00:00",
+      "tags": [
+        "developer",
+        "saas",
+        "tools"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell",
+      "url": "https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell",
+      "title": "Googlebook系列首批五款笔记本电脑发布",
+      "content_html": "<p><strong>These are the first five Googlebook laptops</strong></p><p>Google and its partners have announced the first five &#x27;Googlebook&#x27; laptops from major brands like Acer, Asus, and Dell. These devices are aimed at a new market segment with prices starting at $899.</p><p>谷歌携手多家厂商发布了首批五款“Googlebook”笔记本。这些产品起售价为899美元，标志着谷歌进军高端笔记本市场。</p><p>Tags: google · laptop · hardware</p>",
+      "date_published": "2026-09-21T13:01:00+00:00",
+      "tags": [
+        "google",
+        "laptop",
+        "hardware"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/997972/googlebook-laptop-chromeos-android-history",
+      "url": "https://www.theverge.com/tech/997972/googlebook-laptop-chromeos-android-history",
+      "title": "Googlebook的长期愿景",
+      "content_html": "<p><strong>The long dream of the Googlebook</strong></p><p>Since 2010, Google has envisioned a future where the browser is the primary operating environment for laptops. The release of Googlebooks is the realization of this decade-long strategic dream.</p><p>自2010年起，谷歌就设想了以浏览器为核心的电脑使用体验。Googlebook的发布标志着这一长期战略构想的最终实现。</p><p>Tags: google · history · computing</p>",
+      "date_published": "2026-09-21T13:00:00+00:00",
+      "tags": [
+        "google",
+        "history",
+        "computing"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/997986/google-googlebooks-android-laptops-dell-hp-lenovo-acer-asus-price-specs",
+      "url": "https://www.theverge.com/tech/997986/google-googlebooks-android-laptops-dell-hp-lenovo-acer-asus-price-specs",
+      "title": "体验谷歌对未来笔记本的构想",
+      "content_html": "<p><strong>I got to see Google&amp;#8217;s wild ideas about the future of laptops</strong></p><p>The new Googlebooks offer a polished hardware experience with seamless integration between Android phones and PCs. It feels like the ultimate convergence of mobile and desktop ecosystems.</p><p>Googlebook提供了精致的硬件体验，并实现了Android手机与电脑的无缝协同。这是移动与桌面生态融合的最新成果。</p><p>Tags: google · android · experience</p>",
+      "date_published": "2026-09-21T13:00:00+00:00",
+      "tags": [
+        "google",
+        "android",
+        "experience"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/998006/apple-mac-mini-m6-m5-pro-review",
+      "url": "https://www.theverge.com/tech/998006/apple-mac-mini-m6-m5-pro-review",
+      "title": "Mac Mini依然强悍，但不再廉价",
+      "content_html": "<p><strong>The Mac Mini is still mighty, just not as cheap</strong></p><p>The 2024 Mac Mini redesign packs significant power into a tiny 0.82L chassis. While it remains highly capable, the price point has increased, moving it further from a &#x27;budget&#x27; device.</p><p>2024款Mac Mini在0.82升的紧凑机身中集成了强悍性能。尽管其体积极小，但价格上涨使其不再定位为入门级设备。</p><p>Tags: apple · macmini · hardware</p>",
+      "date_published": "2026-09-21T13:00:00+00:00",
+      "tags": [
+        "apple",
+        "macmini",
+        "hardware"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
+      "title": "柴油价格纪录影响股市与经济",
+      "content_html": "<p><strong>Record diesel prices are exposing pain points in the stock market and economy</strong></p><p>Record-high diesel prices are creating significant inflationary pressure on the economy and stock market. Investors are concerned about the long-term impact on supply chains.</p><p>柴油价格创下历史新高，给经济和股市带来了巨大的通胀压力。投资者对其对供应链的长期影响深感担忧。</p><p>Tags: diesel · economy · inflation</p>",
+      "date_published": "2026-09-21T12:50:00+00:00",
+      "tags": [
+        "diesel",
+        "economy",
+        "inflation"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
+      "title": "多家媒体起诉特朗普政府禁令",
+      "content_html": "<p><strong>CNN, MS NOW and Politico to file lawsuit against Trump&#x27;s White House ban</strong></p><p>CNN, MS NOW, and Politico are filing a lawsuit against the White House for banning certain reporters. The outlets argue that the government cannot dictate press coverage and publication.</p><p>CNN等多家媒体联合起诉白宫禁令，捍卫新闻自由。他们主张政府无权干涉媒体的报道与发布权利。</p><p>Tags: media · lawsuit · politics</p>",
+      "date_published": "2026-09-21T12:21:02+00:00",
+      "tags": [
+        "media",
+        "lawsuit",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
+      "url": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
+      "title": "调查：美国边境“虚拟墙”的死亡人数",
+      "content_html": "<p><strong>The Download: investigating deaths at the US border’s “virtual wall”</strong></p><p>An investigative report explores the high number of deaths near AI-enabled surveillance towers along the US-Mexico border. It questions why technology meant to track individuals fails to prevent these tragedies.</p><p>一份调查报告指出美国边境AI监控塔区域内的高死亡率。调查质疑了这些旨在追踪移民的技术为何未能避免悲剧发生。</p><p>Tags: border · ai · investigation</p>",
+      "date_published": "2026-09-21T12:20:00+00:00",
+      "tags": [
+        "border",
+        "ai",
+        "investigation"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ck5ye7v88qy7o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ye7v88qy7o?at_medium=RSS&at_campaign=rss",
+      "title": "联合国：美国对运毒船的打击可能构成反人类罪",
+      "content_html": "<p><strong>US strikes on alleged drug boats could be crimes against humanity, says UN</strong></p><p>The UN reports that US strikes on alleged drug boats may be classified as crimes against humanity. The findings state that these attacks did not qualify as self-defense.</p><p>联合国报告称，美国对涉嫌运毒船只的打击行动可能构成反人类罪。报告指出这些袭击行为并非正当防卫。</p><p>Tags: un · politics · law</p>",
+      "date_published": "2026-09-21T12:08:56+00:00",
+      "tags": [
+        "un",
+        "politics",
+        "law"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/novo-nordisk-stock-tumbles-as-ozempic-maker-sets-out-2030-goals-8a5a8d2d?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/novo-nordisk-stock-tumbles-as-ozempic-maker-sets-out-2030-goals-8a5a8d2d?mod=mw_rss_topstories",
+      "title": "诺和诺德股价因2030目标质疑而下跌",
+      "content_html": "<p><strong>Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s goals for 2030</strong></p><p>Novo Nordisk&#x27;s stock tumbled as investors remained skeptical about the company&#x27;s long-term goals for 2030. The weight-loss-drug manufacturer failed to provide a compelling recovery plan.</p><p>由于投资者对诺和诺德2030年的目标表示怀疑，公司股价大幅下跌。这家减重药物制造商未能拿出令人信服的复苏计划。</p><p>Tags: novonordisk · stock · finance</p>",
+      "date_published": "2026-09-21T12:06:00+00:00",
+      "tags": [
+        "novonordisk",
+        "stock",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+      "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+      "title": "美国边境“虚拟墙”死亡地图的制作调查",
+      "content_html": "<p><strong>How we made the first comprehensive map of deaths along the US border’s “virtual wall”</strong></p><p>This 15-month investigation maps the deaths near government surveillance towers along the US-Mexico border. The journalists analyze why surveillance failed to assist those in need.</p><p>经过15个月的调查，记者制作了美国边境监控塔周边的死亡地图。他们分析了为何先进监控设备未能有效挽救生命。</p><p>Tags: border · journalism · data</p>",
+      "date_published": "2026-09-21T12:00:00+00:00",
+      "tags": [
+        "border",
+        "journalism",
+        "data"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+      "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+      "title": "解决美国边境“虚拟墙”问题的四种方案",
+      "content_html": "<p><strong>4 ways to address the failures we found along the US border’s “virtual wall”</strong></p><p>The report proposes four ways to address failures in border surveillance that have led to deaths. It highlights cases where AI-enabled towers failed to detect vulnerable individuals in the desert.</p><p>报告提出了改善边境监控系统的四种建议，以解决导致死亡的技术失效问题。文中提到AI监控塔未能及时发现沙漠中的遇难者。</p><p>Tags: border · policy · ai</p>",
+      "date_published": "2026-09-21T12:00:00+00:00",
+      "tags": [
+        "border",
+        "policy",
+        "ai"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+      "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+      "title": "巨额边境监控投资为何未能挽救生命",
+      "content_html": "<p><strong>The US spent billions on border surveillance. Why can’t it catch people before they die?</strong></p><p>Despite billions spent on surveillance, the US system fails to detect and intercept individuals in time. This investigation examines the gap between technology and human response at the border.</p><p>尽管美国在边境监控上投入巨资，但系统仍无法及时发现并拦截移民。调查审视了技术手段与响应机制之间的严重脱节。</p><p>Tags: border · technology · humanitarian</p>",
+      "date_published": "2026-09-21T12:00:00+00:00",
+      "tags": [
+        "border",
+        "technology",
+        "humanitarian"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+      "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+      "title": "圣地亚哥边境监视下的悲剧死亡",
+      "content_html": "<p><strong>She died at the San Diego border. A surveillance camera was in plain sight</strong></p><p>A tragic case highlights the failure of surveillance cameras to protect migrants crossing the border. Despite being in plain sight of equipment, a young woman lost her life.</p><p>一名年轻女子在监视探头的注视下不幸遇难，凸显了边境监控系统在人道救援方面的失效。</p><p>Tags: border · humanitarian · investigation</p>",
+      "date_published": "2026-09-21T12:00:00+00:00",
+      "tags": [
+        "border",
+        "humanitarian",
+        "investigation"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/a-sudden-end-to-the-iran-war-would-strike-a-blow-against-oil-prices-and-energy-stocks-yet-company-insiders-are-buying-673899a0?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/a-sudden-end-to-the-iran-war-would-strike-a-blow-against-oil-prices-and-energy-stocks-yet-company-insiders-are-buying-673899a0?mod=mw_rss_topstories",
+      "title": "伊朗战争突然结束对能源股的影响",
+      "content_html": "<p><strong>A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying.</strong></p><p>The potential end of conflict in Iran could pressure oil prices and energy stocks. However, insider buying suggests market confidence that these stocks will rise regardless.</p><p>伊朗冲突若突然结束，可能打击油价和能源股。然而，内部人士的买入行为暗示了市场对其未来上涨的信心。</p><p>Tags: oil · energy · finance</p>",
+      "date_published": "2026-09-21T11:49:00+00:00",
+      "tags": [
+        "oil",
+        "energy",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://github.com/f/jev-leftpad",
+      "url": "https://github.com/f/jev-leftpad",
+      "title": "Jev-Leftpad项目介绍",
+      "content_html": "<p><strong>Jev-Leftpad</strong></p><p>Jev-Leftpad is an experimental utility within the Jev ecosystem. It highlights the modular and specific nature of decision-making models.</p><p>Jev-Leftpad是Jev生态系统中的一个实验性工具。它展示了决策模型在处理特定任务时的模块化特性。</p><p>Tags: jev · coding · tools</p>",
+      "date_published": "2026-09-21T08:39:32+00:00",
+      "tags": [
+        "jev",
+        "coding",
+        "tools"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://github.com/jaredpalmer/kev/tree/main",
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "title": "Kev：基于Qwen3.5的轻量决策模型系列",
+      "content_html": "<p><strong>Kev: Tiny Jev-like family of decision models built on top of Qwen3.5</strong></p><p>Kev is a new family of tiny, Jev-like decision models built on top of Qwen3.5. These models are designed for efficient and specific decision-making tasks.</p><p>Kev是一系列基于Qwen3.5开发的轻量化决策模型。这些模型旨在高效地处理特定的决策任务。</p><p>Tags: qwen · ai · models</p>",
+      "date_published": "2026-09-21T07:11:55+00:00",
+      "tags": [
+        "qwen",
+        "ai",
+        "models"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://sspai.com/post/114519",
+      "url": "https://sspai.com/post/114519",
+      "title": "当AI让执行力变得廉价，如何脱颖而出？",
+      "content_html": "<p><strong>当 AI 让执行力变得廉价，我们该拿什么脱颖而出？</strong></p><p>As AI reduces the cost of execution in coding and design, individuals must pivot to strategy and cognition. The article advises building unique knowledge barriers to remain competitive.</p><p>当AI使生产成本趋于零时，个人需转向策略和深度认知。文章建议构建独特的知识壁垒，以在AI时代保持竞争优势。</p><p>Tags: ai · career · strategy</p>",
+      "date_published": "2026-09-21T03:38:08+00:00",
+      "tags": [
+        "ai",
+        "career",
+        "strategy"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://openai.com/index/v7",
+      "url": "https://openai.com/index/v7",
+      "title": "V7如何为AI智能体提供机构记忆",
+      "content_html": "<p><strong>How V7 gives AI agents institutional memory</strong></p><p>V7 utilizes GPT-5.6 to transform scattered company files into institutional knowledge for AI agents. This allows agents to perform complex, source-linked work more effectively.</p><p>V7利用GPT-5.6将分散的企业文档转化为AI智能体的机构知识。这使智能体能够更高效地完成复杂且有据可查的任务。</p><p>Tags: ai · v7 · llm</p>",
+      "date_published": "2026-09-21T00:00:00+00:00",
+      "tags": [
+        "ai",
+        "v7",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1243460#reply0",
       "url": "https://www.v2ex.com/t/1243460#reply0",
       "title": "人工智能：有人用 Google 的 200 美元订阅吗？",
@@ -2296,383 +2673,6 @@
         "network"
       ],
       "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1242237#reply4",
-      "url": "https://www.v2ex.com/t/1242237#reply4",
-      "title": "[macOS] macOS 27 有一种奇怪的丑感",
-      "content_html": "<p><strong>[macOS] macos 27 有一种奇怪的丑感</strong></p><p>Users are expressing dissatisfaction with the visual design and UI changes in macOS 27. Common complaints include blurred fonts and inconsistent interface elements.</p><p>用户对macOS 27的视觉设计和UI改动表示不满。常见的抱怨包括字体模糊和界面元素不协调。</p><p>Tags: macos · design · ui</p>",
-      "date_published": "2026-09-15T11:52:16+00:00",
-      "tags": [
-        "macos",
-        "design",
-        "ui"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1242236#reply0",
-      "url": "https://www.v2ex.com/t/1242236#reply0",
-      "title": "[酷工作] 帮朋友发一个招聘：Agent/FDE 开发工程师",
-      "content_html": "<p><strong>[酷工作] 帮朋友发一个招聘： Agent/FDE 开发工程师</strong></p><p>A Shenzhen-based startup is hiring backend engineers to focus on vertical industry AI Agents. The role involves technical implementation and deployment for real business scenarios.</p><p>一家深圳初创公司正在招聘后端工程师，专注于垂直行业的AI Agent开发。该职位涉及真实业务场景的技术实现与交付。</p><p>Tags: hiring · ai · engineer</p>",
-      "date_published": "2026-09-15T11:51:33+00:00",
-      "tags": [
-        "hiring",
-        "ai",
-        "engineer"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1242235#reply2",
-      "url": "https://www.v2ex.com/t/1242235#reply2",
-      "title": "[问与答] 大家伙教师节有送礼物吗？",
-      "content_html": "<p><strong>[问与答] 大家伙教师节有送礼物吗？</strong></p><p>A discussion on the social pressure surrounding gift-giving for teachers on Teacher&#x27;s Day. The community debates the necessity and ethical implications of this practice.</p><p>关于教师节给老师送礼带来的社会压力话题讨论。社区就这一行为的必要性及道德影响展开了辩论。</p><p>Tags: education · society · discussion</p>",
-      "date_published": "2026-09-15T11:49:26+00:00",
-      "tags": [
-        "education",
-        "society",
-        "discussion"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/heres-the-best-way-to-invest-in-bonds-for-the-long-term-according-to-these-five-star-portfolio-managers-bbf0d5e3?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/heres-the-best-way-to-invest-in-bonds-for-the-long-term-according-to-these-five-star-portfolio-managers-bbf0d5e3?mod=mw_rss_topstories",
-      "title": "传统债券投资者多年来亏损，这些五星级投资组合经理展示了更好的方式",
-      "content_html": "<p><strong>Traditional bond investors have lost money for years. These five-star portfolio managers show a better way.</strong></p><p>Morgan Stanley managers highlight that investing in distressed debt and local emerging markets can yield better returns. This approach provides an alternative for fixed-income investors.</p><p>摩根士丹利的经理指出，投资不良债务和本地新兴市场可以获得更好的回报。该策略为固定收益投资者提供了替代方案。</p><p>Tags: bonds · investment · finance</p>",
-      "date_published": "2026-09-15T11:46:00+00:00",
-      "tags": [
-        "bonds",
-        "investment",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss",
-      "title": "丹麦称俄罗斯军舰向其军用直升机发射照明弹",
-      "content_html": "<p><strong>Denmark says Russian warship fired flares at military helicopter</strong></p><p>Danish officials condemned Russia&#x27;s &#x27;reckless&#x27; behavior after a warship reportedly fired flares at a helicopter. Tensions between the nations remain high.</p><p>丹麦官员谴责俄罗斯军舰向直升机发射照明弹的行为是“鲁莽的”。两国之间的紧张局势依然严峻。</p><p>Tags: russia · denmark · geopolitics</p>",
-      "date_published": "2026-09-15T11:40:00+00:00",
-      "tags": [
-        "russia",
-        "denmark",
-        "geopolitics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/it-might-be-time-to-consider-the-most-hated-under-owned-asset-class-says-this-strategist-1b86c059?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/it-might-be-time-to-consider-the-most-hated-under-owned-asset-class-says-this-strategist-1b86c059?mod=mw_rss_topstories",
-      "title": "策略师建议关注这个“最受厌恶、持仓不足的资产类别”",
-      "content_html": "<p><strong>It might be time to consider the ‘most hated, under-owned asset class,’ says this strategist</strong></p><p>Market strategist Vincent Deluard suggests that British equities are currently undervalued. He recommends a specific trade strategy involving shorting the euro against the yen.</p><p>市场策略师Vincent Deluard认为英股目前被低估。他建议采取做空欧元兑日元的具体交易策略。</p><p>Tags: stocks · strategy · investment</p>",
-      "date_published": "2026-09-15T11:24:00+00:00",
-      "tags": [
-        "stocks",
-        "strategy",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/factory-robots-long-posed-a-safety-threat-to-human-workers-one-company-says-its-solved-that-problem-2db84297?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/factory-robots-long-posed-a-safety-threat-to-human-workers-one-company-says-its-solved-that-problem-2db84297?mod=mw_rss_topstories",
-      "title": "工厂机器人长期以来对人类构成安全威胁，一家公司称已解决该问题",
-      "content_html": "<p><strong>Factory robots long posed a safety threat to human workers. One company says it has solved that problem.</strong></p><p>Agility Robotics claims to have developed humanoid robots capable of working safely alongside humans. This innovation could mark a major shift in factory automation.</p><p>Agility Robotics声称已开发出能与人类安全协作的仿人机器人。这一创新可能标志着工厂自动化的重大转折。</p><p>Tags: robotics · automation · ai</p>",
-      "date_published": "2026-09-15T11:02:00+00:00",
-      "tags": [
-        "robotics",
-        "automation",
-        "ai"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/transportation/994875/gm-chevy-gmc-truck-software-ui-carplay-android-auto",
-      "url": "https://www.theverge.com/transportation/994875/gm-chevy-gmc-truck-software-ui-carplay-android-auto",
-      "title": "通用汽车更新卡车原生软件以兼容 CarPlay",
-      "content_html": "<p><strong>GM updates its trucks’ native software to coexist with CarPlay</strong></p><p>GM is updating its vehicle software to improve the integration of Apple CarPlay and Android Auto. This shift aims to enhance the user experience in its top-selling trucks.</p><p>通用汽车正在更新其车载软件，以改善Apple CarPlay和Android Auto的集成。此举旨在提升其畅销卡车的用户体验。</p><p>Tags: gm · cars · carplay</p>",
-      "date_published": "2026-09-15T11:00:00+00:00",
-      "tags": [
-        "gm",
-        "cars",
-        "carplay"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/jewelry-sales-are-heating-up-as-gen-z-seeks-out-little-treats-and-the-ultra-rich-go-for-chunky-gold-d4daa34a?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/jewelry-sales-are-heating-up-as-gen-z-seeks-out-little-treats-and-the-ultra-rich-go-for-chunky-gold-d4daa34a?mod=mw_rss_topstories",
-      "title": "珠宝销售升温，Z世代寻求“小确幸”，超级富豪偏爱厚重黄金",
-      "content_html": "<p><strong>Jewelry sales are heating up as Gen Z seeks out ‘little treats’ and the ultra-rich go for chunky gold</strong></p><p>The jewelry market is seeing growth driven by different consumer segments. Gen Z is buying affordable pieces, while the ultra-wealthy are investing in luxury gold items.</p><p>珠宝市场在不同消费群体的驱动下呈现增长。Z世代倾向于购买平价首饰，而超级富豪则投资于高端黄金。</p><p>Tags: retail · jewelry · economy</p>",
-      "date_published": "2026-09-15T11:00:00+00:00",
-      "tags": [
-        "retail",
-        "jewelry",
-        "economy"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
-      "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
-      "title": "疑似破坏活动导致荷兰铁路出现大面积中断",
-      "content_html": "<p><strong>Suspected sabotage causes major Netherlands rail disruption</strong></p><p>This article reports on the sabotage affecting the Dutch rail network. It serves as a follow-up to the incident involving suspicious objects on tracks.</p><p>本文报道了影响荷兰铁路网的破坏活动。这是对铁轨上发现可疑物品事件的后续报道。</p><p>Tags: netherlands · railway · sabotage</p>",
-      "date_published": "2026-09-15T10:22:46+00:00",
-      "tags": [
-        "netherlands",
-        "railway",
-        "sabotage"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
-      "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
-      "title": "AI万亿美元赌注的赌注是什么？",
-      "content_html": "<p><strong>What’s at stake in AI’s trillion-dollar gamble</strong></p><p>Experts examine the economic uncertainties surrounding the massive investment in AI. A key question is whether these high expenditures will yield significant productivity gains.</p><p>专家们审视了AI领域巨额投资所伴随的经济不确定性。一个核心问题是这些高额支出能否转化为显著的生产力提升。</p><p>Tags: ai · economy · finance</p>",
-      "date_published": "2026-09-15T10:00:00+00:00",
-      "tags": [
-        "ai",
-        "economy",
-        "finance"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2589245-a-new-biography-of-stephen-hawking-gets-to-grips-with-a-complicated-man/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2589245-a-new-biography-of-stephen-hawking-gets-to-grips-with-a-complicated-man/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "史蒂芬·霍金的新传记还原了一个复杂的人",
-      "content_html": "<p><strong>A new biography of Stephen Hawking gets to grips with a complicated man</strong></p><p>A new authorized biography of Stephen Hawking explores both his scientific genius and personal controversies. It offers a deeper look at the man behind the physics.</p><p>史蒂芬·霍金的一部新授权传记探讨了他的科学天才与个人争议。它更深入地揭示了物理学家背后的真实人生。</p><p>Tags: hawking · biography · science</p>",
-      "date_published": "2026-09-15T09:00:00+00:00",
-      "tags": [
-        "hawking",
-        "biography",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss",
-      "title": "特朗普称AI安全担忧是“骗局”，拒绝加强监管的呼声",
-      "content_html": "<p><strong>Trump says AI safety fears a &#x27;hoax&#x27; as he rejects calls for greater safeguards</strong></p><p>Donald Trump dismisses AI safety fears, rejecting proposals for a mandatory &#x27;kill switch.&#x27; This highlights the growing political divide regarding AI regulation.</p><p>唐纳德·特朗普否认AI安全担忧，拒绝了关于强制执行“终止开关”的提议。这凸显了在AI监管问题上的政治分歧。</p><p>Tags: ai · politics · regulation</p>",
-      "date_published": "2026-09-15T08:49:31+00:00",
-      "tags": [
-        "ai",
-        "politics",
-        "regulation"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2588944-how-i-made-a-slime-mould-the-protagonist-of-my-new-sci-fi-novel/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2588944-how-i-made-a-slime-mould-the-protagonist-of-my-new-sci-fi-novel/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "我如何让黏菌成为我新科幻小说的主角",
-      "content_html": "<p><strong>How I made a slime mould the protagonist of my new sci-fi novel</strong></p><p>A sci-fi author shares her experience incorporating scientific research about slime molds into her storytelling. The process bridges the gap between biology and fiction.</p><p>一位科幻作家分享了她将关于黏菌的科学研究融入叙事的过程。这一创作过程架起了生物学与小说之间的桥梁。</p><p>Tags: science · fiction · biology</p>",
-      "date_published": "2026-09-15T08:00:00+00:00",
-      "tags": [
-        "science",
-        "fiction",
-        "biology"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
-      "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
-      "title": "我无法停止思考巴布亚新几内亚",
-      "content_html": "<p><strong>I can&#x27;t stop thinking about Papua New Guinea</strong></p><p>A reflective piece on the cultural and geographical intrigue of Papua New Guinea. The discussion highlights the unique characteristics of this isolated region.</p><p>一篇关于巴布亚新几内亚文化与地理魅力的思考文章。讨论重点介绍了该偏远地区的独特特征。</p><p>Tags: culture · travel · geography</p>",
-      "date_published": "2026-09-15T06:16:24+00:00",
-      "tags": [
-        "culture",
-        "travel",
-        "geography"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2589002-one-of-the-fundamental-forces-is-stronger-than-we-thought/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2589002-one-of-the-fundamental-forces-is-stronger-than-we-thought/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "基本力之一比我们想象的更强",
-      "content_html": "<p><strong>One of the fundamental forces is stronger than we thought</strong></p><p>Scientists have calculated the electroweak force with unprecedented precision, finding it stronger than previously thought. This could challenge existing particle physics models.</p><p>科学家以前所未有的精度计算了电弱力，发现其比预想的更强。这可能挑战现有的粒子物理模型。</p><p>Tags: science · physics · particles</p>",
-      "date_published": "2026-09-15T06:00:00+00:00",
-      "tags": [
-        "science",
-        "physics",
-        "particles"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cqlykdx48xrpo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cqlykdx48xrpo?at_medium=RSS&at_campaign=rss",
-      "title": "威尔士演员马修·瑞斯凭借双重获奖创造艾美奖历史",
-      "content_html": "<p><strong>Welsh actor Matthew Rhys makes Emmy Awards history with double win</strong></p><p>Welsh actor Matthew Rhys made television history by winning two lead acting awards in a single evening at the Emmy Awards.</p><p>威尔士演员马修·瑞斯在艾美奖颁奖典礼上创造了电视历史，成为单晚获得两项主角大奖的第一人。</p><p>Tags: awards · tv · entertainment</p>",
-      "date_published": "2026-09-15T03:50:06+00:00",
-      "tags": [
-        "awards",
-        "tv",
-        "entertainment"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/ck20989806e9o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/ck20989806e9o?at_medium=RSS&at_campaign=rss",
-      "title": "AI监管面临政治僵局，呼吁国会行动的声音不断增长",
-      "content_html": "<p><strong>AI regulation faces political deadlock as calls grow for Congress to act</strong></p><p>Despite calls for safety legislation, AI regulation in the US remains stalled. Political divisions and opposition from high-profile figures hinder progress.</p><p>尽管社会呼吁出台安全立法，但美国的AI监管仍处于停滞状态。政治分歧和知名人物的反对阻碍了立法进展。</p><p>Tags: ai · politics · regulation</p>",
-      "date_published": "2026-09-15T02:50:36+00:00",
-      "tags": [
-        "ai",
-        "politics",
-        "regulation"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2589065-reading-for-pleasure-boosts-memory-attention-and-mental-health/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2589065-reading-for-pleasure-boosts-memory-attention-and-mental-health/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "阅读的乐趣能增强记忆力、同理心和心理健康",
-      "content_html": "<p><strong>Reading for pleasure boosts memory, empathy and mental health</strong></p><p>Research suggests that reading for pleasure offers significant cognitive and emotional benefits. The practice is linked to improved mental well-being and empathy.</p><p>研究表明，为了乐趣而阅读能带来显著的认知与情感益处。这一习惯与心理健康及同理心的改善密切相关。</p><p>Tags: books · health · science</p>",
-      "date_published": "2026-09-14T23:01:00+00:00",
-      "tags": [
-        "books",
-        "health",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1241967#reply0",
-      "url": "https://www.v2ex.com/t/1241967#reply0",
-      "title": "地瓜机器人开放多个芯片与AI岗位",
-      "content_html": "<p><strong>[酷工作] [北京/上海/深圳/西安]地瓜机器人（从地平线拆分）热招芯片架构/AI 编译器/SoC 系统软件等 19 岗,可内推</strong></p><p>D-Robotics, formerly part of Horizon Robotics, is hiring for over 19 roles in chip architecture, AI compilers, and system software. The company is currently scaling its operations and developer ecosystem.</p><p>地平线拆分出的地瓜机器人正在大举招募芯片架构、编译器及系统软件工程师。公司正处于业务扩张期，多个岗位的招聘流程正在加速推进。</p><p>Tags: robotics · chips · hiring</p>",
-      "date_published": "2026-09-14T13:29:28+00:00",
-      "tags": [
-        "robotics",
-        "chips",
-        "hiring"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4945996-mks-instruments-stock-penang-super-facility-signals-long-term-wfe-confidence-despite-short-term-margin-headwinds?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4945996-mks-instruments-stock-penang-super-facility-signals-long-term-wfe-confidence-despite-short-term-margin-headwinds?source=feed_all_articles",
-      "title": "MKS Instruments：槟城扩产改善WFE预期",
-      "content_html": "<p><strong>MKS Instruments: Penang Expansion Boosts WFE Outlook Despite Margin Pressure</strong></p><p>MKS Instruments is expanding its footprint in Penang to boost its wafer fabrication equipment outlook. Despite margin pressures, the expansion strategy aims to capture growing demand.</p><p>MKS Instruments通过在槟城扩大生产布局，以增强其晶圆制造设备的市场前景。尽管面临利润率压力，此举旨在应对不断增长的行业需求。</p><p>Tags: mks · semiconductors · manufacturing</p>",
-      "date_published": "2026-09-14T13:28:18+00:00",
-      "tags": [
-        "mks",
-        "semiconductors",
-        "manufacturing"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4945995-ewc-and-the-tariff-war-why-the-market-is-selling-the-wrong-etf?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4945995-ewc-and-the-tariff-war-why-the-market-is-selling-the-wrong-etf?source=feed_all_articles",
-      "title": "EWC与关税战：为何市场抛售该ETF",
-      "content_html": "<p><strong>EWC And The Tariff War: Why The Market Is Selling The Wrong ETF</strong></p><p>The market&#x27;s reaction to EWC and related ETFs in the context of the tariff war suggests investor misallocation. Analysts argue that current selling pressure overlooks the underlying value in the fund&#x27;s holdings.</p><p>市场在关税战背景下对EWC及相关ETF的反应可能存在误判。分析人士认为，目前的抛售压力忽略了该基金持仓中的真实价值。</p><p>Tags: etf · tariffs · investing</p>",
-      "date_published": "2026-09-14T13:28:15+00:00",
-      "tags": [
-        "etf",
-        "tariffs",
-        "investing"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1241966#reply0",
-      "url": "https://www.v2ex.com/t/1241966#reply0",
-      "title": "YeeroAI v0.3.0发布：新增清理工具与图片增强",
-      "content_html": "<p><strong>[分享创造] YeeroAI v0.3.0 发布了：新增磁盘清理工具 + 图片编辑器增强</strong></p><p>The desktop AI tool YeeroAI has released version 0.3.0, featuring a new disk cleanup utility and enhanced image editing capabilities. These updates improve local file management and creative workflow efficiency.</p><p>YeeroAI桌面版v0.3.0现已发布，引入了磁盘清理工具和增强的图片编辑器。此次更新旨在提升用户的本地文件管理与图像处理体验。</p><p>Tags: ai · productivity · software</p>",
-      "date_published": "2026-09-14T13:27:01+00:00",
-      "tags": [
-        "ai",
-        "productivity",
-        "software"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4945994-pacing-the-frontier-ai-will-hurt-nvidia-more-than-micron?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4945994-pacing-the-frontier-ai-will-hurt-nvidia-more-than-micron?source=feed_all_articles",
-      "title": "放缓AI前沿研发对英伟达的打击大于美光",
-      "content_html": "<p><strong>Pacing The Frontier AI Will Hurt Nvidia More Than Micron</strong></p><p>Slowing the development of frontier AI models is predicted to impact Nvidia&#x27;s growth more severely than Micron&#x27;s. The dependency on high-performance AI chips makes Nvidia&#x27;s market position more sensitive to R&amp;D pauses.</p><p>放缓AI前沿模型研发对英伟达的影响预计将超过美光。由于对高性能AI芯片的极高依赖，英伟达的市场份额对研发节奏的波动更为敏感。</p><p>Tags: nvidia · micron · ai</p>",
-      "date_published": "2026-09-14T13:25:05+00:00",
-      "tags": [
-        "nvidia",
-        "micron",
-        "ai"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2589025-two-bizarre-new-forms-of-ice-discovered-that-could-exist-deep-inside-planets/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2589025-two-bizarre-new-forms-of-ice-discovered-that-could-exist-deep-inside-planets/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "科学家发现两种可能存在于行星深处的新型冰",
-      "content_html": "<p><strong>Two bizarre new forms of ice discovered that could exist deep inside planets</strong></p><p>High-pressure experiments have revealed two exotic forms of ice that could exist deep within planets like Neptune and Uranus. These findings offer new insights into the physical conditions inside gas giants.</p><p>高压实验揭示了两种可能存在于海王星和天王星深处的奇异冰形态。这些发现为研究气态巨行星的内部物理条件提供了新视角。</p><p>Tags: physics · planets · science</p>",
-      "date_published": "2026-09-14T13:23:58+00:00",
-      "tags": [
-        "physics",
-        "planets",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4945993-waterbridge-infrastructure-the-value-is-in-the-destination-not-just-the-pipeline?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4945993-waterbridge-infrastructure-the-value-is-in-the-destination-not-just-the-pipeline?source=feed_all_articles",
-      "title": "WaterBridge基础设施：价值在于目的地而非管道",
-      "content_html": "<p><strong>WaterBridge Infrastructure: The Value Is In The Destination, Not Just The Pipeline</strong></p><p>The investment value of WaterBridge lies in the connectivity it provides rather than just the raw infrastructure of the pipelines. Future performance depends on how effectively the destination markets leverage this capacity.</p><p>WaterBridge的投资价值不仅仅在于其管道基础设施，更在于其所提供的连通性。未来的收益取决于目标市场对这一产能的利用效率。</p><p>Tags: infrastructure · investing · oil</p>",
-      "date_published": "2026-09-14T13:22:59+00:00",
-      "tags": [
-        "infrastructure",
-        "investing",
-        "oil"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4945991-forrester-research-ai-initiatives-not-enough-to-grow-earnings?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4945991-forrester-research-ai-initiatives-not-enough-to-grow-earnings?source=feed_all_articles",
-      "title": "Forrester调查：AI投入不足以提升利润",
-      "content_html": "<p><strong>Forrester Research: AI Initiatives Not Enough To Grow Earnings</strong></p><p>Forrester Research reports that many companies&#x27; AI initiatives are not yet yielding significant growth in earnings. The findings highlight a gap between AI investment and measurable financial performance.</p><p>Forrester研究指出，许多企业的AI投入尚未转化为明显的利润增长。报告强调了AI投资与财务表现之间仍存在差距。</p><p>Tags: ai · business · earnings</p>",
-      "date_published": "2026-09-14T13:20:15+00:00",
-      "tags": [
-        "ai",
-        "business",
-        "earnings"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/novo-drops-nordisk-in-corporate-refresh-to-take-on-lilly-in-the-weight-loss-wars-a406161a?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/novo-drops-nordisk-in-corporate-refresh-to-take-on-lilly-in-the-weight-loss-wars-a406161a?mod=mw_rss_topstories",
-      "title": "诺和诺德简化品牌名称以应对减重药市场竞争",
-      "content_html": "<p><strong>Novo drops ‘Nordisk’ in corporate refresh to take on Lilly in the weight-loss wars</strong></p><p>Novo Nordisk is undergoing a brand refresh to strengthen its position against Eli Lilly in the weight-loss drug industry. The shift aims to focus the company&#x27;s identity as it scales production of its popular therapies.</p><p>诺和诺德正在通过简化品牌名称以增强其在减重药市场与礼来的竞争地位。此次品牌重塑旨在提升公司在扩大产能时的品牌辨识度。</p><p>Tags: healthcare · pharma · business</p>",
-      "date_published": "2026-09-14T13:20:00+00:00",
-      "tags": [
-        "healthcare",
-        "pharma",
-        "business"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/he-does-not-have-a-spouse-or-children-my-son-has-a-serious-genetic-disease-what-should-i-do-with-my-1-3-million-estate-98cdccf9?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/he-does-not-have-a-spouse-or-children-my-son-has-a-serious-genetic-disease-what-should-i-do-with-my-1-3-million-estate-98cdccf9?mod=mw_rss_topstories",
-      "title": "我儿子患有严重遗传病，该如何处置130万美元遗产？",
-      "content_html": "<p><strong>‘He does not have a spouse or children’: My son has a serious genetic disease. What should I do with my $1.3 million estate?</strong></p><p>A concerned parent is seeking guidance on managing a $1.3 million estate for a son suffering from a serious genetic disease. Planning requires specialized legal and financial structures to ensure long-term care.</p><p>一位担忧的家长正在寻求有关如何为其患有严重遗传病的儿子管理130万美元遗产的建议。这需要专业的法律和金融安排以保障其长期护理。</p><p>Tags: estate · finance · healthcare</p>",
-      "date_published": "2026-09-14T13:15:00+00:00",
-      "tags": [
-        "estate",
-        "finance",
-        "healthcare"
-      ],
-      "_category": "FINA"
     }
   ]
 }
