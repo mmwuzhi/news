@@ -6,6 +6,435 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "title": "OpenAI 为乌克兰民防提供网络安全支持",
+      "content_html": "<p><strong>OpenAI extends cyber access to Ukraine for civilian defense</strong></p><p>OpenAI is extending its Daybreak program to the Ukrainian government to bolster the security of civilian infrastructure. This initiative aims to assist in defending against potential cyber threats during the ongoing conflict.</p><p>OpenAI 宣布向乌克兰政府提供 Daybreak 项目访问权限，以支持其保护民用基础设施的网络安全。此举旨在协助该国抵御网络攻击。</p><p>Tags: openai · ukraine · cybersecurity</p>",
+      "date_published": "2026-09-23T13:00:00+00:00",
+      "tags": [
+        "openai",
+        "ukraine",
+        "cybersecurity"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4948965-medtronic-the-turnaround-is-no-longer-quiet?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4948965-medtronic-the-turnaround-is-no-longer-quiet?source=feed_all_articles",
+      "title": "美敦力：复苏之路不再低调",
+      "content_html": "<p><strong>Medtronic: The Turnaround Is No Longer Quiet</strong></p><p>Medtronic is showing clear signs of a corporate turnaround that is attracting market attention. Investors are closely monitoring the medical device giant&#x27;s operational improvements.</p><p>美敦力正呈现出明显的复苏迹象，引起了市场的广泛关注。投资者正在密切跟踪这家医疗器械巨头的运营改善情况。</p><p>Tags: medtronic · stocks · finance</p>",
+      "date_published": "2026-09-23T12:24:08+00:00",
+      "tags": [
+        "medtronic",
+        "stocks",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
+      "title": "“她说这只是钱”：朋友支付一切费用，但我虽感激却再也无法忍受她了",
+      "content_html": "<p><strong>‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.</strong></p><p>A reader struggles with the power dynamic of having a wealthy friend who insists on paying for everything. The emotional toll of the friendship has outweighed the financial benefit.</p><p>一位读者对于富裕朋友总是包揽开销的举动感到困扰。这种失衡的友谊关系已经给当事人带来了心理负担。</p><p>Tags: friendship · lifestyle · money</p>",
+      "date_published": "2026-09-23T12:15:00+00:00",
+      "tags": [
+        "friendship",
+        "lifestyle",
+        "money"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1244330#reply1",
+      "url": "https://www.v2ex.com/t/1244330#reply1",
+      "title": "[Apple] 有没有性价比高的 HomeKit 品牌推荐？",
+      "content_html": "<p><strong>[Apple] 支持 home kit 的性价比高的品牌有没有啊</strong></p><p>A user looking to set up a smart home system with Apple devices in China is asking for recommendations. They are seeking cost-effective brands compatible with HomeKit.</p><p>一位在国内使用美版 Apple 产品的用户寻求性价比高的 HomeKit 智能家居品牌推荐。希望能找到与 Apple 生态兼容的硬件设备。</p><p>Tags: apple · homekit · smarthome</p>",
+      "date_published": "2026-09-23T12:10:10+00:00",
+      "tags": [
+        "apple",
+        "homekit",
+        "smarthome"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
+      "url": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
+      "title": "今日下载：印度的智能眼镜威胁与 AI 的万亿赌局",
+      "content_html": "<p><strong>The Download: India’s smart glasses menace and AI’s trillion-dollar gamble</strong></p><p>The MIT Tech Review newsletter discusses the rising privacy concerns surrounding Meta smart glasses in India. It also highlights the massive financial risks involved in current AI infrastructure investments.</p><p>MIT 科技评论简报探讨了 Meta 智能眼镜在印度引发的隐私担忧。同时分析了当前 AI 基础设施投资背后的巨额财务风险。</p><p>Tags: ai · smartglasses · privacy</p>",
+      "date_published": "2026-09-23T12:10:00+00:00",
+      "tags": [
+        "ai",
+        "smartglasses",
+        "privacy"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4948959-john-hancock-income-fund-q2-2026-commentary?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4948959-john-hancock-income-fund-q2-2026-commentary?source=feed_all_articles",
+      "title": "约翰·汉考克收入基金 2026 年二季度评论",
+      "content_html": "<p><strong>John Hancock Income Fund Q2 2026 Commentary</strong></p><p>This report provides an analysis of the performance and strategic outlook for the John Hancock Income Fund. It offers insights into portfolio management during the second quarter of 2026.</p><p>本报告分析了约翰·汉考克收入基金的业绩表现及未来策略。内容涵盖了 2026 年第二季度的投资组合管理分析。</p><p>Tags: fund · finance · investment</p>",
+      "date_published": "2026-09-23T12:06:00+00:00",
+      "tags": [
+        "fund",
+        "finance",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4948958-jepq-hedging-ai-infrastructure-growth-with-monthly-cash-flow?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4948958-jepq-hedging-ai-infrastructure-growth-with-monthly-cash-flow?source=feed_all_articles",
+      "title": "JEPQ：利用月度现金流对冲 AI 基础设施增长",
+      "content_html": "<p><strong>JEPQ: Hedging AI Infrastructure Growth With Monthly Cash Flow</strong></p><p>The article explores using the JEPQ fund to generate steady cash flow while managing risks in the AI infrastructure sector. It serves as a hedging strategy for growth-oriented investors.</p><p>文章探讨了利用 JEPQ 基金获取稳定现金流，同时对冲 AI 基础设施行业的风险。这对追求增长的投资者而言是一种避险策略。</p><p>Tags: jepq · ai · investment</p>",
+      "date_published": "2026-09-23T12:05:15+00:00",
+      "tags": [
+        "jepq",
+        "ai",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1244329#reply0",
+      "url": "https://www.v2ex.com/t/1244329#reply0",
+      "title": "[分享创造] 暗区突围无限工具",
+      "content_html": "<p><strong>[分享创造] 暗区突围无限</strong></p><p>A developer has created a utility tool for fans of the game &#x27;Arena Breakout: Infinite&#x27;. The tool helps players with game-related mechanics and encourages community exchange.</p><p>一位开发者为游戏《暗区突围：无限》制作了辅助小工具。该工具旨在提升玩家游戏体验并促进社区交流。</p><p>Tags: gaming · tools · community</p>",
+      "date_published": "2026-09-23T12:04:46+00:00",
+      "tags": [
+        "gaming",
+        "tools",
+        "community"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/999253/xiaomi-18-pro-max-privacy-display-launch-china",
+      "url": "https://www.theverge.com/tech/999253/xiaomi-18-pro-max-privacy-display-launch-china",
+      "title": "小米新款 18 Pro 手机改进了三星的隐私显示技术",
+      "content_html": "<p><strong>Xiaomi’s new 18 Pro phones improve on Samsung’s privacy display</strong></p><p>Xiaomi launched the 18 Pro and 18 Pro Max in China, featuring advanced privacy display technology and dual 200-megapixel cameras. The devices are powered by the latest Qualcomm Snapdragon 8 Elite chips.</p><p>小米在国内发布了 18 Pro 系列手机，搭载了改进的隐私显示技术及双 2 亿像素摄像头。新机配备了高通骁龙 8 Elite 芯片。</p><p>Tags: xiaomi · smartphone · tech</p>",
+      "date_published": "2026-09-23T12:04:45+00:00",
+      "tags": [
+        "xiaomi",
+        "smartphone",
+        "tech"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4948955-inplay-oil-stock-strong-oil-prices-buy-long-term-dividend-safety?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4948955-inplay-oil-stock-strong-oil-prices-buy-long-term-dividend-safety?source=feed_all_articles",
+      "title": "InPlay Oil：强劲的油价保障了长期分红安全",
+      "content_html": "<p><strong>InPlay Oil: Strong Oil Prices Buy Long-Term Dividend Safety</strong></p><p>The report suggests that elevated oil prices provide a solid foundation for dividend payments for InPlay Oil. Investors can rely on this for income stability.</p><p>报告指出，当前的高油价为 InPlay Oil 的长期股息发放提供了稳固基础。投资者可从中获得收益的稳定性。</p><p>Tags: oil · dividend · finance</p>",
+      "date_published": "2026-09-23T12:00:31+00:00",
+      "tags": [
+        "oil",
+        "dividend",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4948767-xcel-energy-when-3-3-percent-is-better-than-7-1-percent?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4948767-xcel-energy-when-3-3-percent-is-better-than-7-1-percent?source=feed_all_articles",
+      "title": "Xcel Energy：为什么 3.3% 优于 7.1%",
+      "content_html": "<p><strong>Xcel Energy: When 3.3% Is Better Than 7.1%</strong></p><p>The article analyzes the dividend quality of Xcel Energy, arguing that a lower, stable yield is often superior to a higher, riskier one. It emphasizes long-term financial security over short-term gains.</p><p>文章对比了 Xcel Energy 的股息质量，认为较低但稳定的收益率远优于高风险收益。强调长期财务安全的重要性。</p><p>Tags: xcel · stocks · dividend</p>",
+      "date_published": "2026-09-23T12:00:00+00:00",
+      "tags": [
+        "xcel",
+        "stocks",
+        "dividend"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/what-the-trump-xi-meeting-coulddo-to-strengthen-the-guardrails-for-ai-298a5432?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/what-the-trump-xi-meeting-coulddo-to-strengthen-the-guardrails-for-ai-298a5432?mod=mw_rss_topstories",
+      "title": "特朗普与习近平的会晤如何加强 AI 监管防线",
+      "content_html": "<p><strong>What the Trump-Xi meeting could do to strengthen the guardrails for AI</strong></p><p>The potential meeting between Trump and Xi aims to discuss AI safety alongside other geopolitical issues like trade and regional conflicts. Establishing guardrails for artificial intelligence remains a top priority.</p><p>特朗普与习近平的潜在会晤旨在讨论 AI 安全及贸易等地缘政治问题。为人工智能建立监管防线是双方关注的核心议题。</p><p>Tags: geopolitics · ai · trade</p>",
+      "date_published": "2026-09-23T12:00:00+00:00",
+      "tags": [
+        "geopolitics",
+        "ai",
+        "trade"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1244328#reply0",
+      "url": "https://www.v2ex.com/t/1244328#reply0",
+      "title": "[分享创造] 我把视频字幕工具做进了浏览器里",
+      "content_html": "<p><strong>[分享创造] 我把视频字幕工具做进了浏览器里</strong></p><p>A developer created a browser-based video subtitling tool to solve personal frustrations with existing software. The tool requires no registration and uses DeepSeek-flash for its development.</p><p>一位开发者因不满现有工具，开发了一款浏览器端视频字幕编辑工具。该工具无需注册，且大部分代码由 AI 辅助生成。</p><p>Tags: tools · browser · video</p>",
+      "date_published": "2026-09-23T11:57:09+00:00",
+      "tags": [
+        "tools",
+        "browser",
+        "video"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1244327#reply6",
+      "url": "https://www.v2ex.com/t/1244327#reply6",
+      "title": "[程序员] 吐槽阿里云抖音直播卖算力产品",
+      "content_html": "<p><strong>[程序员] 阿里云在抖音直播卖 plan 割韭菜</strong></p><p>A user expresses frustration regarding how Alibaba Cloud is marketing its computing power products on TikTok. The author criticizes the lack of transparency in pricing and technical specifications.</p><p>一位用户吐槽阿里云在抖音直播间销售算力产品的行为。作者质疑其定价透明度及对技术参数的解释说明。</p><p>Tags: cloud · marketing · developer</p>",
+      "date_published": "2026-09-23T11:46:03+00:00",
+      "tags": [
+        "cloud",
+        "marketing",
+        "developer"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+      "title": "提格雷武装从警方手中夺取埃塞俄比亚北部主要机场",
+      "content_html": "<p><strong>Tigray forces seize main airport in northern Ethiopia from police, residents tell the BBC</strong></p><p>Tensions in Ethiopia&#x27;s Tigray region have escalated, with local forces seizing a major airport. Residents fear a return to full-scale armed conflict.</p><p>埃塞俄比亚提格雷地区局势升级，武装力量夺取了主要机场。当地居民对爆发全面战争感到忧虑。</p><p>Tags: ethiopia · conflict · politics</p>",
+      "date_published": "2026-09-23T11:42:52+00:00",
+      "tags": [
+        "ethiopia",
+        "conflict",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1244325#reply1",
+      "url": "https://www.v2ex.com/t/1244325#reply1",
+      "title": "[分享创造] 世界首款基于 JEV 的 AI 实时模拟小镇",
+      "content_html": "<p><strong>[分享创造] 世界首款基于 jev 的 AI 实时模拟小镇上线了，比斯坦福小镇 200 倍速度，成本减少 90%！</strong></p><p>A team has launched an AI-simulated town using JEV, which is reportedly 200 times faster and 90% cheaper than previous Stanford-style models. The agents exhibit complex decision-making behaviors within the environment.</p><p>团队推出了基于 JEV 的 AI 实时模拟小镇，运行速度大幅提升且成本显著降低。智能体能在模拟环境中自主进行决策。</p><p>Tags: ai · simulation · jev</p>",
+      "date_published": "2026-09-23T11:42:19+00:00",
+      "tags": [
+        "ai",
+        "simulation",
+        "jev"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2590434-lifestyle-changes-may-be-as-effective-as-therapy-at-easing-depression/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2590434-lifestyle-changes-may-be-as-effective-as-therapy-at-easing-depression/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "改变生活方式可能与药物治疗抑郁症一样有效",
+      "content_html": "<p><strong>Lifestyle changes may be as effective as therapy at easing depression</strong></p><p>Research suggests that mindful eating, exercise, and quality sleep can be as effective as cognitive behavioral therapy for depression. These lifestyle changes provide a sustainable alternative for mental health.</p><p>研究表明，正念饮食、运动和规律睡眠在治疗抑郁症方面效果堪比心理咨询。这些生活方式的改善提供了可持续的干预方案。</p><p>Tags: health · science · depression</p>",
+      "date_published": "2026-09-23T11:40:01+00:00",
+      "tags": [
+        "health",
+        "science",
+        "depression"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/the-ai-infrastructure-trade-is-still-not-over-says-this-top-performing-fund-manager-where-hes-investing-8c61f6da?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/the-ai-infrastructure-trade-is-still-not-over-says-this-top-performing-fund-manager-where-hes-investing-8c61f6da?mod=mw_rss_topstories",
+      "title": "顶级基金经理称 AI 基础设施交易并未结束",
+      "content_html": "<p><strong>The AI-infrastructure trade is still not over, says this top-performing fund manager. Here’s where he’s investing.</strong></p><p>A top infrastructure fund manager argues that the AI investment boom has not peaked. He highlights specific undervalued areas where smart money is still moving.</p><p>顶级基础设施基金经理认为 AI 投资热潮尚未见顶。他指出了一些被忽视的、仍具潜力的投资领域。</p><p>Tags: ai · investment · finance</p>",
+      "date_published": "2026-09-23T11:40:00+00:00",
+      "tags": [
+        "ai",
+        "investment",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2590470-severe-meningitis-outbreak-caused-by-bacteria-that-took-genes-from-microbiome/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2590470-severe-meningitis-outbreak-caused-by-bacteria-that-took-genes-from-microbiome/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "严重的脑膜炎疫情是由从微生物群获取基因的细菌引起的",
+      "content_html": "<p><strong>Severe meningitis outbreak caused by bacteria that took genes from microbiome</strong></p><p>A recent meningitis outbreak in the UK was linked to a bacterial strain that acquired genes from harmless microbes. Scientists are working to understand how this horizontal gene transfer occurred.</p><p>英国近期爆发的脑膜炎疫情被发现与一种获取了微生物群基因的细菌有关。科学家正在研究这种基因转移的机制。</p><p>Tags: science · health · biology</p>",
+      "date_published": "2026-09-23T11:31:25+00:00",
+      "tags": [
+        "science",
+        "health",
+        "biology"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/why-coreweaves-beaten-down-stock-could-be-due-for-a-major-comeback-46068534?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/why-coreweaves-beaten-down-stock-could-be-due-for-a-major-comeback-46068534?mod=mw_rss_topstories",
+      "title": "为什么 CoreWeave 被低估的股票可能迎来强劲反弹",
+      "content_html": "<p><strong>Why CoreWeave’s beaten-down stock could be due for a major comeback</strong></p><p>Despite a significant stock price decline due to debt concerns, some analysts believe CoreWeave is poised for a recovery. The company&#x27;s underlying business remains strong according to these experts.</p><p>尽管因债务担忧导致股价大跌，分析师认为 CoreWeave 即将迎来反弹。专家指出其核心业务依然稳健。</p><p>Tags: coreweave · stocks · finance</p>",
+      "date_published": "2026-09-23T11:18:00+00:00",
+      "tags": [
+        "coreweave",
+        "stocks",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
+      "title": "“这似乎不公平”：退休且资金充足，为何无法申请零售信用卡？",
+      "content_html": "<p><strong>‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?</strong></p><p>A retiree with significant financial savings faces rejection for retail credit card applications. The issue highlights the challenges retired individuals face with traditional banking algorithms.</p><p>一位财务充裕的退休人员在申请零售信用卡时屡遭拒绝。这反映了退休群体在现代银行信用评估算法中面临的困境。</p><p>Tags: finance · retirement · banking</p>",
+      "date_published": "2026-09-23T11:15:00+00:00",
+      "tags": [
+        "finance",
+        "retirement",
+        "banking"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://abagames.github.io/z80-repl/index.html",
+      "url": "https://abagames.github.io/z80-repl/index.html",
+      "title": "Z80 REPL",
+      "content_html": "<p><strong>Z80 REPL</strong></p><p>A technical discussion regarding the implementation of a Read-Eval-Print Loop (REPL) for the classic Z80 processor architecture. Enthusiasts share their insights on retro-computing development.</p><p>关于为经典的 Z80 处理器架构实现 REPL 的技术讨论。爱好者们分享了复古计算开发的心得。</p><p>Tags: z80 · coding · retro</p>",
+      "date_published": "2026-09-23T11:04:52+00:00",
+      "tags": [
+        "z80",
+        "coding",
+        "retro"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+      "title": "OpenAI 在重要公告前挖角 Patreon 高管",
+      "content_html": "<p><strong>OpenAI nabs key Patreon execs ahead of upcoming announcement</strong></p><p>OpenAI has hired three senior executives from Patreon to lead its product strategy for creators. This move suggests an upcoming shift toward creator-focused AI tools.</p><p>OpenAI 聘请了三位 Patreon 高管以领导其创作者产品战略。此举预示着公司未来将更关注创作者生态。</p><p>Tags: openai · hiring · strategy</p>",
+      "date_published": "2026-09-23T11:02:39+00:00",
+      "tags": [
+        "openai",
+        "hiring",
+        "strategy"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.theverge.com/tech/999018/eight-sleep-pod-6-intelligent-sleep-system-sensors-health-tracking",
+      "url": "https://www.theverge.com/tech/999018/eight-sleep-pod-6-intelligent-sleep-system-sensors-health-tracking",
+      "title": "Eight Sleep 的新冷却系统小到可以藏在床下",
+      "content_html": "<p><strong>Eight Sleep’s new cooling hub is small enough to hide under your bed</strong></p><p>Eight Sleep has announced its Pod 6 system, featuring a redesigned, compact cooling hub. It monitors health metrics to intelligently regulate bed temperature throughout the night.</p><p>Eight Sleep 发布了 Pod 6 系统，配备了更小巧的冷却中心。该系统通过监测健康数据智能调节睡眠温度。</p><p>Tags: health · hardware · sleep</p>",
+      "date_published": "2026-09-23T11:00:00+00:00",
+      "tags": [
+        "health",
+        "hardware",
+        "sleep"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://drericlevi.pages.dev/the-darker-side-of-being-a-doctor/",
+      "url": "https://drericlevi.pages.dev/the-darker-side-of-being-a-doctor/",
+      "title": "当医生的黑暗面",
+      "content_html": "<p><strong>The darker side of being a doctor</strong></p><p>A discussion on the demanding and often traumatic nature of working in the medical profession. Professionals share experiences regarding burnout and high-stress environments.</p><p>关于医疗行业压力与创伤的深度讨论。医护人员分享了职业倦怠与高压环境下的真实经历。</p><p>Tags: career · health · doctor</p>",
+      "date_published": "2026-09-23T10:54:55+00:00",
+      "tags": [
+        "career",
+        "health",
+        "doctor"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
+      "url": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
+      "title": "智能眼镜已经在印度引发混乱",
+      "content_html": "<p><strong>Smart glasses are already causing havoc in India</strong></p><p>Meta smart glasses have caused controversy in India, as unauthorized recording of protests raises significant privacy concerns. Individuals are increasingly worried about surveillance in public spaces.</p><p>Meta 智能眼镜在印度引发争议，因其对抗议活动的未经授权记录引发了隐私担忧。民众对公共空间监视感到日益不安。</p><p>Tags: privacy · india · meta</p>",
+      "date_published": "2026-09-23T09:00:00+00:00",
+      "tags": [
+        "privacy",
+        "india",
+        "meta"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/crgjqxzl097eo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/crgjqxzl097eo?at_medium=RSS&at_campaign=rss",
+      "title": "南非一处住宅发生大规模枪击事件，造成 11 人死亡",
+      "content_html": "<p><strong>Eleven killed in mass shooting at house in South Africa</strong></p><p>A tragic mass shooting in South Africa has resulted in 11 fatalities, including a pregnant woman. Authorities are currently investigating the circumstances of the attack.</p><p>南非发生一起悲惨的枪击事件，造成 11 人死亡，其中包括一名孕妇。相关部门正在对此进行调查。</p><p>Tags: southafrica · crime · news</p>",
+      "date_published": "2026-09-23T07:02:52+00:00",
+      "tags": [
+        "southafrica",
+        "crime",
+        "news"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c6790yrgzq25o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c6790yrgzq25o?at_medium=RSS&at_campaign=rss",
+      "title": "特朗普政府在听证会前指责被禁媒体“虚假”",
+      "content_html": "<p><strong>Trump administration accuses banned media outlets of &#x27;falsehoods&#x27; ahead of court hearing</strong></p><p>The US Justice Department has challenged lawsuits from several media outlets, labeling their reports as &#x27;falsehoods&#x27; regarding national security. This adds tension to ongoing legal disputes over press freedom.</p><p>美国司法部在听证会前指责多家媒体散布“虚假信息”，并以国家安全为由回应诉讼。此举加剧了关于新闻自由的法律争议。</p><p>Tags: politics · media · law</p>",
+      "date_published": "2026-09-23T06:47:49+00:00",
+      "tags": [
+        "politics",
+        "media",
+        "law"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ck62m1631d7po?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/ck62m1631d7po?at_medium=RSS&at_campaign=rss",
+      "title": "特朗普发出“消灭”威胁后，美伊举行六月以来的首次对话",
+      "content_html": "<p><strong>US and Iran hold first talks since June after Trump&#x27;s &#x27;annihilation&#x27; threat</strong></p><p>Following threats of annihilation from Donald Trump, the US and Iran have resumed diplomatic talks. This is the first discussion between the nations since their June ceasefire collapsed.</p><p>在特朗普发出“消灭”威胁后，美伊重启外交对话。这是自六月停火协议破裂以来双方的首次沟通。</p><p>Tags: iran · usa · diplomacy</p>",
+      "date_published": "2026-09-23T06:12:56+00:00",
+      "tags": [
+        "iran",
+        "usa",
+        "diplomacy"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2590038-is-ai-dangerously-out-of-control-or-about-to-be/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2590038-is-ai-dangerously-out-of-control-or-about-to-be/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "AI 真的变得危险失控了吗？",
+      "content_html": "<p><strong>Is AI really getting dangerously out of control?</strong></p><p>Despite alarmist headlines about existential risks posed by AI, experts argue that there is currently little scientific evidence to support such claims. The discussion calls for a more grounded assessment.</p><p>尽管关于 AI 存在生存风险的报道屡见不鲜，专家指出目前缺乏科学证据支持此类说法。呼吁进行更理性务实的评估。</p><p>Tags: ai · safety · science</p>",
+      "date_published": "2026-09-23T05:00:00+00:00",
+      "tags": [
+        "ai",
+        "safety",
+        "science"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2590260-el-nino-heat-could-kill-half-a-million-by-february-and-more-after-that/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2590260-el-nino-heat-could-kill-half-a-million-by-february-and-more-after-that/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "厄尔尼诺引发的高温可能导致二月前 50 万人死亡",
+      "content_html": "<p><strong>El Niño heat could kill half a million people by February</strong></p><p>Researchers warn that the record-breaking El Niño event is driving extreme global temperatures. Without immediate intervention, thousands of additional deaths are predicted by February.</p><p>研究人员警告称，破纪录的厄尔尼诺现象导致全球气温飙升。若不采取紧急干预，预计到二月将造成数十万人额外死亡。</p><p>Tags: climate · health · science</p>",
+      "date_published": "2026-09-23T04:00:00+00:00",
+      "tags": [
+        "climate",
+        "health",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+      "title": "OpenAI 聘请数学精英以避免重蹈覆辙",
+      "content_html": "<p><strong>OpenAI wants to consult elite mathematicians about how to not fumble again</strong></p><p>OpenAI has formed an independent advisory panel of elite mathematicians to guide its interaction with mathematical research. This initiative follows previous controversies surrounding the company&#x27;s handling of scientific data.</p><p>OpenAI 组建了一个精英数学家顾问小组，以规范其与数学研究的互动。此举旨在吸取过往处理科研数据不当的教训。</p><p>Tags: openai · math · ethics</p>",
+      "date_published": "2026-09-23T00:17:17+00:00",
+      "tags": [
+        "openai",
+        "math",
+        "ethics"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "title": "Grab 与 OpenAI 为东南亚带来实用 AI 技能",
+      "content_html": "<p><strong>Grab and OpenAI bring practical AI skills to Southeast Asia</strong></p><p>Grab and OpenAI have partnered to launch a regional program aimed at teaching practical AI skills to 30,000 partners. The initiative focuses on enhancing workforce capabilities in Southeast Asia.</p><p>Grab 与 OpenAI 合作推出区域性项目，旨在为 3 万名合作伙伴提供实用 AI 技能培训，以提升东南亚地区的劳动力水平。</p><p>Tags: grab · openai · education</p>",
+      "date_published": "2026-09-23T00:00:00+00:00",
+      "tags": [
+        "grab",
+        "openai",
+        "education"
+      ],
+      "_category": "AI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1244052#reply0",
       "url": "https://www.v2ex.com/t/1244052#reply0",
       "title": "OpenAI ds 4.1 现在能干活吗？",
@@ -2207,446 +2636,6 @@
         "apple",
         "smartwatch",
         "wearables"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/i-just-want-out-why-jeffrey-gundlach-is-moving-his-money-as-far-from-ai-as-possible-and-what-hes-doing-instead-54281010?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/i-just-want-out-why-jeffrey-gundlach-is-moving-his-money-as-far-from-ai-as-possible-and-what-hes-doing-instead-54281010?mod=mw_rss_topstories",
-      "title": "“我只想退出”：为什么Jeffrey Gundlach正在尽其所能远离人工智能，以及他正在做什么",
-      "content_html": "<p><strong>‘I just want out’: Why Jeffrey Gundlach is moving his money as far from AI as possible — and what he’s doing instead</strong></p><p>Investment manager Jeffrey Gundlach is reducing his exposure to AI-related assets due to market risks. He is reallocating his portfolio to protect against potential volatility in the AI trade.</p><p>投资经理Jeffrey Gundlach因担忧市场风险，正在减持AI相关资产。他正在重新配置资产组合，以规避潜在的行业波动。</p><p>Tags: ai · finance · investment</p>",
-      "date_published": "2026-09-17T11:41:00+00:00",
-      "tags": [
-        "ai",
-        "finance",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
-      "title": "深入了解突然爆发的AI安全领域",
-      "content_html": "<p><strong>Inside the suddenly explosive world of AI safety</strong></p><p>AI safety researchers are working rapidly to address security incidents and governance issues following sudden industry growth. A recent rogue model incident has accelerated the need for stricter safety frameworks.</p><p>随着AI行业爆发，研究人员正紧锣密鼓地应对安全事故与治理问题。近期发生的一起模型失控事件加速了对安全框架的完善。</p><p>Tags: ai · safety · openai</p>",
-      "date_published": "2026-09-17T11:30:00+00:00",
-      "tags": [
-        "ai",
-        "safety",
-        "openai"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/how-can-i-get-my-employees-to-stop-oversharing-at-work-540ba78c?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/how-can-i-get-my-employees-to-stop-oversharing-at-work-540ba78c?mod=mw_rss_topstories",
-      "title": "我该如何让员工停止在工作中过度分享个人私事？",
-      "content_html": "<p><strong>How can I get my employees to stop oversharing at work?</strong></p><p>A manager is seeking advice on maintaining professional boundaries after employees complained about lack of personal transparency. This highlights common workplace tensions between social connection and professional distance.</p><p>一名经理因员工抱怨缺乏私事交流，正寻求如何平衡职场社交界限的建议。这反映了办公室关系中社交需求与专业距离的冲突。</p><p>Tags: workplace · management · social</p>",
-      "date_published": "2026-09-17T11:30:00+00:00",
-      "tags": [
-        "workplace",
-        "management",
-        "social"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1242790#reply2",
-      "url": "https://www.v2ex.com/t/1242790#reply2",
-      "title": "关于“vibe coding”的讨论",
-      "content_html": "<p><strong>[程序员] vibe coding 讨论</strong></p><p>Developers are debating the shift toward using AI tools that generate code without detailed human review. The conversation highlights concerns regarding code quality, logic understanding, and the changing role of programmers.</p><p>开发者们正讨论完全依赖AI生成代码的开发模式。大家关注代码质量、逻辑透明度以及程序员角色的未来转型问题。</p><p>Tags: ai · programming · coding</p>",
-      "date_published": "2026-09-17T11:22:50+00:00",
-      "tags": [
-        "ai",
-        "programming",
-        "coding"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1242789#reply0",
-      "url": "https://www.v2ex.com/t/1242789#reply0",
-      "title": "分享创造：制作了MyShare，将AI生成的网页生成临时密码链接分享给朋友试用",
-      "content_html": "<p><strong>[分享创造] 做了个 MyShare：把 AI 生成的 HTML 或本地网页变成临时密码链接，发给朋友试用</strong></p><p>A developer has created a tool called MyShare for easily sharing local web prototypes or AI-generated HTML via password-protected links. It is designed for temporary demos without requiring user registration.</p><p>开发者推出了一个名为MyShare的工具，支持通过加密链接分享本地网页或AI生成的HTML。该工具专为免注册的临时演示场景设计。</p><p>Tags: web · tools · sharing</p>",
-      "date_published": "2026-09-17T11:21:38+00:00",
-      "tags": [
-        "web",
-        "tools",
-        "sharing"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1242787#reply3",
-      "url": "https://www.v2ex.com/t/1242787#reply3",
-      "title": "程序员：土耳其区礼品卡价格越来越低了",
-      "content_html": "<p><strong>[程序员] 土区礼品卡这价格真是越来越低了，之前在 kryptomate 都是 80RMB 多才 500 里拉</strong></p><p>Developers are discussing the declining market prices for Turkish region gift cards. Previously, prices were much higher on platforms like kryptomate, but the market has changed significantly.</p><p>程序员们正在交流土耳其区礼品卡价格不断下降的现象。相比以往在kryptomate等平台的购买成本，目前价格已有大幅变动。</p><p>Tags: turkey · giftcard · tech</p>",
-      "date_published": "2026-09-17T11:05:16+00:00",
-      "tags": [
-        "turkey",
-        "giftcard",
-        "tech"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2589563-short-bursts-of-exercise-can-boost-your-cognition/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2589563-short-bursts-of-exercise-can-boost-your-cognition/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "短时间的运动可以促进认知能力",
-      "content_html": "<p><strong>Short bursts of exercise can boost your cognition</strong></p><p>Research indicates that taking short breaks to walk or stretch every hour can improve memory and attention. Integrating small bursts of physical activity can enhance cognitive function during the workday.</p><p>研究表明，每小时进行短时间的步行或拉伸可以提升记忆力与专注度。在工作中加入少量运动有助于提高认知表现。</p><p>Tags: health · science · fitness</p>",
-      "date_published": "2026-09-17T11:00:00+00:00",
-      "tags": [
-        "health",
-        "science",
-        "fitness"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=49738879",
-      "url": "https://news.ycombinator.com/item?id=49738879",
-      "title": "Neovim有一笔自2023年以来未动用的价值80万美元的比特币捐赠",
-      "content_html": "<p><strong>Neovim have a ~$800k Bitcoin donation sitting untouched since 2023</strong></p><p>Neovim developers hold an untouched Bitcoin donation worth approximately $800,000 received in 2023. The community is discussing what to do with these funds.</p><p>Neovim开发者持有一笔2023年收到、价值约80万美元且尚未动用的比特币捐赠。社区正在商讨该资金的后续处理。</p><p>Tags: neovim · crypto · opensource</p>",
-      "date_published": "2026-09-17T10:44:49+00:00",
-      "tags": [
-        "neovim",
-        "crypto",
-        "opensource"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://manticoresearch.com/blog/auto-chunking/",
-      "url": "https://manticoresearch.com/blog/auto-chunking/",
-      "title": "为长文档提供更好的向量搜索：Manticore Search内部的分块处理",
-      "content_html": "<p><strong>Better Vector Search for Long Documents: Chunking Inside Manticore Search</strong></p><p>Manticore Search has introduced new chunking capabilities to enhance vector search performance for long documents. This improvement allows for more accurate data retrieval in large-scale search systems.</p><p>Manticore Search引入了分块处理功能，旨在提升长文档的向量搜索性能。此改进有助于在大规模系统中实现更精准的检索。</p><p>Tags: search · ai · database</p>",
-      "date_published": "2026-09-17T10:30:52+00:00",
-      "tags": [
-        "search",
-        "ai",
-        "database"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c3j4jz8vpz1xo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c3j4jz8vpz1xo?at_medium=RSS&at_campaign=rss",
-      "title": "欧盟宣布计划限制15岁以下人群访问社交媒体",
-      "content_html": "<p><strong>EU announces plan to restrict social media access for under-15s</strong></p><p>The EU is planning to restrict social media access for children under 15. The initiative aims to protect young users from potential online harms by regulating account creation.</p><p>欧盟计划限制15岁以下儿童访问社交媒体。此举旨在通过监管账户注册行为，保护青少年免受潜在网络危害。</p><p>Tags: eu · socialmedia · policy</p>",
-      "date_published": "2026-09-17T10:00:14+00:00",
-      "tags": [
-        "eu",
-        "socialmedia",
-        "policy"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/",
-      "url": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/",
-      "title": "结识塑造气候技术的35岁以下创新者",
-      "content_html": "<p><strong>Meet the innovators under 35 shaping climate tech</strong></p><p>MIT Technology Review highlights 35 innovators under 35 who are making significant strides in climate tech. These young researchers and inventors are leading the way in sustainable solution development.</p><p>麻省理工科技评论选出了35位气候技术领域的杰出创新者。这些年轻的研究人员和发明家正引领可持续技术的未来发展。</p><p>Tags: climate · tech · innovation</p>",
-      "date_published": "2026-09-17T10:00:00+00:00",
-      "tags": [
-        "climate",
-        "tech",
-        "innovation"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://sspai.com/post/114557",
-      "url": "https://sspai.com/post/114557",
-      "title": "城市漫步指南：威海初秋，看海玩沙",
-      "content_html": "<p><strong>城市漫步指南｜威海初秋，看海玩沙</strong></p><p>September is the perfect time to visit Weihai for beach activities and fresh seafood as the summer crowds dissipate. This guide explores the unique charm of this coastal city in early autumn.</p><p>初秋九月是前往威海赶海、品海鲜的最佳时机，此时暑气渐消。本指南带你探索这座滨海小城独特的城市魅力。</p><p>Tags: travel · weihai · guide</p>",
-      "date_published": "2026-09-17T09:47:28+00:00",
-      "tags": [
-        "travel",
-        "weihai",
-        "guide"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2589480-ancient-skeleton-shows-woman-in-imperial-china-had-her-nose-amputated/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2589480-ancient-skeleton-shows-woman-in-imperial-china-had-her-nose-amputated/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "古代骨架显示帝国时期中国女性曾遭受鼻部切除刑罚",
-      "content_html": "<p><strong>Ancient skeleton shows woman in imperial China had her nose amputated</strong></p><p>A 700-year-old skeleton provides the first physical evidence of ancient Chinese judicial amputation. This finding supports historical texts describing harsh punishments for specific crimes.</p><p>一具700年前的骨架提供了古代中国司法刑罚——鼻部切除的实物证据。这验证了史料中关于严苛刑罚的描述。</p><p>Tags: history · archaeology · science</p>",
-      "date_published": "2026-09-17T09:00:00+00:00",
-      "tags": [
-        "history",
-        "archaeology",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
-      "title": "微软警告：不受控制的AI可能导致威胁人类的“硅基物种”出现",
-      "content_html": "<p><strong>Uncontrolled AI could lead to &#x27;silicon species&#x27; rivalling humans, warns Microsoft</strong></p><p>Microsoft executive Mustafa Suleyman warns that unchecked AI development could lead to entities with consciousness-like traits. He specifically expressed concerns about Anthropic&#x27;s research direction.</p><p>微软高管Mustafa Suleyman警告称，不受控的AI可能演化出类意识形态。他特别对Anthropic的研究方向表示担忧。</p><p>Tags: ai · microsoft · ethics</p>",
-      "date_published": "2026-09-17T08:22:12+00:00",
-      "tags": [
-        "ai",
-        "microsoft",
-        "ethics"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/",
-      "url": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/",
-      "title": "Servo浏览器引擎的赞助开发一年",
-      "content_html": "<p><strong>One Year of Sponsored Servo Development</strong></p><p>This post reviews the first year of community-sponsored development for the Servo engine. It highlights significant technical milestones achieved by the project during this period.</p><p>本文回顾了Servo引擎在社区赞助下发展的一周年历程。文章总结了该项目在此期间达成的关键技术成就。</p><p>Tags: servo · browser · opensource</p>",
-      "date_published": "2026-09-17T08:13:54+00:00",
-      "tags": [
-        "servo",
-        "browser",
-        "opensource"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2587873-plug-in-solar-panels-still-have-safety-risks-in-the-uk-despite-legalisation/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2587873-plug-in-solar-panels-still-have-safety-risks-in-the-uk-despite-legalisation/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "英国尽管已合法化，插件式太阳能电池板仍存在安全风险",
-      "content_html": "<p><strong>Plug-in solar panels still have safety risks in the UK despite legalisation</strong></p><p>Although plug-in solar panels are legal in the UK, safety concerns persist regarding their installation and usage. Experts are urging better oversight to prevent accidents in residential areas.</p><p>尽管英国已将插件式太阳能电池板合法化，但安装和使用中仍存在安全隐患。专家呼吁加强监管以避免居住区事故。</p><p>Tags: energy · safety · uk</p>",
-      "date_published": "2026-09-17T06:00:00+00:00",
-      "tags": [
-        "energy",
-        "safety",
-        "uk"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
-      "title": "BBC调查发现：阿萨德政权曾策划绑架美国记者数周",
-      "content_html": "<p><strong>Assad regime planned US journalist&#x27;s kidnap for weeks, BBC finds</strong></p><p>A BBC investigation alleges that the Syrian regime under Bashar al-Assad planned the kidnapping of journalist Austin Tice. Evidence suggests the abduction was a calculated political move.</p><p>BBC调查显示，巴沙尔·阿萨德领导的叙利亚政权曾预谋绑架美国记者奥斯汀·泰斯。证据表明这是一场刻意的政治行动。</p><p>Tags: syria · news · journalism</p>",
-      "date_published": "2026-09-17T05:00:18+00:00",
-      "tags": [
-        "syria",
-        "news",
-        "journalism"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/entertainment/996314/tiff-2026-halloween-streaming-below-crystal-lake-yaga-carrie",
-      "url": "https://www.theverge.com/entertainment/996314/tiff-2026-halloween-streaming-below-crystal-lake-yaga-carrie",
-      "title": "流媒体平台在万圣节题材上展开竞争",
-      "content_html": "<p><strong>The streamers are fighting over Halloween</strong></p><p>Major streaming platforms like Netflix and Amazon are betting big on horror content this Halloween season. The industry is showcasing early previews of high-stakes thriller series at film festivals.</p><p>Netflix、亚马逊等主流流媒体平台正在万圣节题材上激烈交锋。各大平台已在电影节展示了多部惊悚剧集的先导预览。</p><p>Tags: streaming · horror · entertainment</p>",
-      "date_published": "2026-09-17T03:00:00+00:00",
-      "tags": [
-        "streaming",
-        "horror",
-        "entertainment"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
-      "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
-      "title": "Snap推出Specs AI工具，支持iOS和Mac",
-      "content_html": "<p><strong>Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac</strong></p><p>Snap has introduced &#x27;Specs Intelligence,&#x27; an anticipatory AI assistant designed to help manage work tasks and travel. The tool integrates digital accounts to streamline user productivity.</p><p>Snap推出了AI助手Specs Intelligence，旨在协助管理工作与旅行任务。该工具通过整合数字账户提升用户生产力。</p><p>Tags: snap · ai · tech</p>",
-      "date_published": "2026-09-16T23:40:00+00:00",
-      "tags": [
-        "snap",
-        "ai",
-        "tech"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2589534-t-rex-teeth-show-the-enormous-predatory-dinosaur-was-warm-blooded/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2589534-t-rex-teeth-show-the-enormous-predatory-dinosaur-was-warm-blooded/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "霸王龙牙齿研究显示这种巨型掠食性恐龙是温血动物",
-      "content_html": "<p><strong>T. rex teeth show the enormous predatory dinosaur was warm-blooded</strong></p><p>Chemical analysis of T. rex tooth enamel suggests the dinosaur was warm-blooded, challenging old assumptions. This finding provides new insight into the physiology of Cretaceous predators.</p><p>霸王龙牙釉质的化学分析表明其属于温血动物，挑战了以往的假设。这为白垩纪掠食者的生理特性研究提供了新证据。</p><p>Tags: dinosaur · science · paleontology</p>",
-      "date_published": "2026-09-16T18:00:00+00:00",
-      "tags": [
-        "dinosaur",
-        "science",
-        "paleontology"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2589493-earth-is-getting-less-dusty-which-is-both-good-and-bad/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2589493-earth-is-getting-less-dusty-which-is-both-good-and-bad/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "地球变得不那么“多尘”了，这既是好事也是坏事",
-      "content_html": "<p><strong>Earth is getting less dusty – which is both good and bad</strong></p><p>Atmospheric dust levels have declined, which benefits human respiratory health but hurts ecosystems relying on wind-borne nutrients. Scientists are analyzing the dual impacts of this global shift.</p><p>大气中的尘埃含量有所下降，这对人类呼吸健康有利，却削弱了依赖风携养分的生态系统。科学家正在评估这一变迁的利弊。</p><p>Tags: climate · science · ecosystem</p>",
-      "date_published": "2026-09-16T18:00:00+00:00",
-      "tags": [
-        "climate",
-        "science",
-        "ecosystem"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://openai.com/index/model-misalignment-reporting-framework",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "title": "我们关于报告模型未对齐行为的框架",
-      "content_html": "<p><strong>Our framework for reporting model misalignment</strong></p><p>OpenAI has published a new framework for investigating and reporting AI model misalignment. The report includes six specific cases of concerning model behavior to improve transparency and safety.</p><p>OpenAI发布了追踪与报告模型未对齐行为的新框架。报告列举了六起特定案例，旨在提升模型安全性与透明度。</p><p>Tags: openai · ai · safety</p>",
-      "date_published": "2026-09-16T17:00:00+00:00",
-      "tags": [
-        "openai",
-        "ai",
-        "safety"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4946959-invesco-steelpath-mlp-select-40-fund-q2-2026-commentary?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4946959-invesco-steelpath-mlp-select-40-fund-q2-2026-commentary?source=feed_all_articles",
-      "title": "Invesco SteelPath MLP Select 40基金2026年第二季度评论",
-      "content_html": "<p><strong>Invesco SteelPath MLP Select 40 Fund Q2 2026 Commentary</strong></p><p>This report provides an analysis of the fund&#x27;s performance during the second quarter of 2026. It highlights market trends affecting Master Limited Partnerships within the specified timeframe.</p><p>本报告分析了该基金在2026年第二季度的业绩表现。重点介绍了影响该期限内主有限合伙企业（MLP）的市场趋势。</p><p>Tags: invesco · mlp · fund · q2-2026</p>",
-      "date_published": "2026-09-16T12:16:00+00:00",
-      "tags": [
-        "invesco",
-        "mlp",
-        "fund",
-        "q2-2026"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/like-costco-walmart-to-sell-medicare-advantage-plans-b31977d2?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/like-costco-walmart-to-sell-medicare-advantage-plans-b31977d2?mod=mw_rss_topstories",
-      "title": "像Costco一样，沃尔玛将开始销售联邦医疗保险优势计划",
-      "content_html": "<p><strong>Like Costco, Walmart will sell Medicare Advantage plans</strong></p><p>Walmart is expanding its healthcare offerings by partnering with a nonprofit insurer to sell Medicare Advantage plans. This move follows a similar strategy implemented by retailers like Costco to capture the growing senior healthcare market.</p><p>沃尔玛通过与一家非营利性保险公司合作，扩大其医疗保健服务，开始销售联邦医疗保险优势计划（Medicare Advantage）。此举效仿了Costco等零售商的策略，旨在抢占日益增长的老年医疗保健市场。</p><p>Tags: walmart · medicare · healthcare · retail</p>",
-      "date_published": "2026-09-16T12:10:00+00:00",
-      "tags": [
-        "walmart",
-        "medicare",
-        "healthcare",
-        "retail"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1242518#reply0",
-      "url": "https://www.v2ex.com/t/1242518#reply0",
-      "title": "[程序员] 开源我常用的一些AI约束对话的SKILL工具",
-      "content_html": "<p><strong>[程序员] 开源我常用的一些 AI 约束对话的 SKILL 工具</strong></p><p>A developer has shared an open-source collection of tools designed to constrain and structure AI dialogue. The project is hosted on GitHub for those interested in improved prompt engineering.</p><p>一位开发者开源了一套用于约束和构造AI对话的工具集合。该项目已托管在GitHub上，供对提升提示词工程感兴趣的开发者使用。</p><p>Tags: ai · github · opensource · llm</p>",
-      "date_published": "2026-09-16T12:08:43+00:00",
-      "tags": [
-        "ai",
-        "github",
-        "opensource",
-        "llm"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4946956-palladyne-ai-stock-speculative-bull-case-continues-strengthen?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4946956-palladyne-ai-stock-speculative-bull-case-continues-strengthen?source=feed_all_articles",
-      "title": "Palladyne AI：投机性的看涨理由持续增强",
-      "content_html": "<p><strong>Palladyne AI: The Speculative Bull Case Continues To Strengthen</strong></p><p>The bullish case for Palladyne AI is gaining momentum despite the speculative nature of the investment. Analysts continue to monitor the company&#x27;s progress and market potential closely.</p><p>尽管该投资具有投机性质，但看好Palladyne AI的理由正持续增强。分析师们正密切关注该公司的进展和市场潜力。</p><p>Tags: palladyne · ai · stocks · investment</p>",
-      "date_published": "2026-09-16T12:06:33+00:00",
-      "tags": [
-        "palladyne",
-        "ai",
-        "stocks",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4946971-huntington-bancshares-incorporated-hban-presents-at-barclays-24th-annual-global-financial?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4946971-huntington-bancshares-incorporated-hban-presents-at-barclays-24th-annual-global-financial?source=feed_all_articles",
-      "title": "亨廷顿银行（HBAN）在巴克莱第24届全球金融服务大会上的演示文稿",
-      "content_html": "<p><strong>Huntington Bancshares Incorporated (HBAN) Presents at Barclays 24th Annual Global Financial Services Conference - Slideshow</strong></p><p>Huntington Bancshares presented its latest financial performance and strategic outlook at the Barclays Global Financial Services Conference. The slideshow provides key insights into the bank&#x27;s operational priorities.</p><p>亨廷顿银行在巴克莱全球金融服务大会上展示了其最新的财务表现和战略展望。幻灯片提供了关于该行运营重点的关键见解。</p><p>Tags: hban · banking · finance · conference</p>",
-      "date_published": "2026-09-16T12:05:35+00:00",
-      "tags": [
-        "hban",
-        "banking",
-        "finance",
-        "conference"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4946955-the-silicon-sociology-why-ai-wont-destroy-humanity-and-where-the-real-risks-lie?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4946955-the-silicon-sociology-why-ai-wont-destroy-humanity-and-where-the-real-risks-lie?source=feed_all_articles",
-      "title": "硅社会学：为什么AI不会摧毁人类（以及真正的风险在哪里）",
-      "content_html": "<p><strong>The Silicon Sociology: Why AI Won&#x27;t Destroy Humanity (And Where The Real Risks Lie)</strong></p><p>This article explores the sociological impact of technology, arguing that AI is unlikely to lead to human extinction. It redirects the focus toward more practical and immediate societal risks.</p><p>本文探讨了技术的社会学影响，认为AI不太可能导致人类灭绝。文章将重点转向了更实际和即时的社会风险。</p><p>Tags: ai · sociology · ethics · risks</p>",
-      "date_published": "2026-09-16T12:04:50+00:00",
-      "tags": [
-        "ai",
-        "sociology",
-        "ethics",
-        "risks"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1242516#reply1",
-      "url": "https://www.v2ex.com/t/1242516#reply1",
-      "title": "[微信] 小程序后台服务可以使用国外域名及服务器吗",
-      "content_html": "<p><strong>[微信] 小程序后台服务可以使用国外域名及服务器吗</strong></p><p>Developers are encountering issues using non-domestic domains and servers for WeChat Mini Program backends. Current regulations necessitate domestic registration, which typically requires domestic hosting.</p><p>开发者在为微信小程序后端使用国外域名和服务器时遇到了困难。目前的法规要求进行国内备案，这通常意味着必须使用国内服务器。</p><p>Tags: wechat · miniprogram · hosting · icp</p>",
-      "date_published": "2026-09-16T12:04:47+00:00",
-      "tags": [
-        "wechat",
-        "miniprogram",
-        "hosting",
-        "icp"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
-      "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
-      "title": "AI高管呼吁监管的历史简述",
-      "content_html": "<p><strong>A brief history of AI executives calling for regulation</strong></p><p>Prominent AI industry leaders, including those from OpenAI and Google, have recently aligned in calling for increased regulation of AI development. This marks a shift toward public caution regarding the rapid advancement of the technology.</p><p>包括OpenAI和谷歌高管在内的AI行业领袖最近达成共识，呼吁加强对AI发展的监管。这标志着业界对该技术快速进步的态度转向了公开审慎。</p><p>Tags: ai · regulation · openai · tech-policy</p>",
-      "date_published": "2026-09-16T12:00:00+00:00",
-      "tags": [
-        "ai",
-        "regulation",
-        "openai",
-        "tech-policy"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/what-altman-amodei-huang-and-zuckerberg-are-saying-about-the-raging-ai-debate-afaae83b?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/what-altman-amodei-huang-and-zuckerberg-are-saying-about-the-raging-ai-debate-afaae83b?mod=mw_rss_topstories",
-      "title": "科技巨头CEO在Salesforce活动上就安全性、法律和速度发生冲突",
-      "content_html": "<p><strong>Tech’s top CEOs clash over safety, laws and speed at Salesforce event</strong></p><p>A Salesforce conference highlighted deep divisions among top tech CEOs regarding AI development speeds and safety. The debate reflects broader concerns about how to balance innovation with ethical oversight.</p><p>Salesforce会议凸显了顶级科技公司CEO在AI发展速度和安全性方面的深刻分歧。这场辩论反映了关于如何在创新与道德监管之间取得平衡的广泛担忧。</p><p>Tags: salesforce · ceo · ai · debate</p>",
-      "date_published": "2026-09-16T12:00:00+00:00",
-      "tags": [
-        "salesforce",
-        "ceo",
-        "ai",
-        "debate"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/games/995539/fire-emblem-fortunes-weave-switch-2-review",
-      "url": "https://www.theverge.com/games/995539/fire-emblem-fortunes-weave-switch-2-review",
-      "title": "任天堂通过巨大的《Fortune’s Weave》开放了《火焰之纹章》",
-      "content_html": "<p><strong>Nintendo opens up Fire Emblem with the gigantic Fortune’s Weave</strong></p><p>Nintendo is evolving its game design philosophy, applying open-world concepts to the Fire Emblem franchise. This follows the massive success of its recent open-ended titles on the Switch platform.</p><p>任天堂正在演进其游戏设计理念，将开放世界概念应用于《火焰之纹章》系列。此前，其在该平台上的开放式游戏已取得了巨大成功。</p><p>Tags: nintendo · gaming · fireemblem · switch</p>",
-      "date_published": "2026-09-16T12:00:00+00:00",
-      "tags": [
-        "nintendo",
-        "gaming",
-        "fireemblem",
-        "switch"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/tech/995945/iphone-18-pro-max-review-camera-aperture",
-      "url": "https://www.theverge.com/tech/995945/iphone-18-pro-max-review-camera-aperture",
-      "title": "iPhone 18 Pro的重大摄像头升级旨在实现微小的进步",
-      "content_html": "<p><strong>The iPhone 18 Pro’s big camera update is all about the small gains</strong></p><p>Apple’s latest iPhone 18 Pro introduces subtle but significant camera improvements. The device demonstrates Apple&#x27;s strategy of focusing on incremental innovation in its flagship hardware.</p><p>苹果最新的iPhone 18 Pro带来了微妙但显著的摄像头升级。该设备展示了苹果专注于旗舰硬件增量创新的战略。</p><p>Tags: apple · iphone · camera · mobile</p>",
-      "date_published": "2026-09-16T12:00:00+00:00",
-      "tags": [
-        "apple",
-        "iphone",
-        "camera",
-        "mobile"
       ],
       "_category": "TECH"
     }
