@@ -6,6 +6,468 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1245638#reply0",
+      "url": "https://www.v2ex.com/t/1245638#reply0",
+      "title": "给通讯录增加昵称字段，原生 T9 拨号",
+      "content_html": "<p><strong>[iPhone] 给通讯录增加昵称字段，原生 T9 拨号</strong></p><p>This project introduces a new feature that adds a nickname field to the iOS contacts app. It enables native T9 dialing functionality based on recent iOS system updates.</p><p>该项目为iOS通讯录增加了昵称字段，实现了原生的T9拨号功能。用户可以利用此更新提升联系人查找和拨号的效率。</p><p>Tags: ios · t9 · dialer · github</p>",
+      "date_published": "2026-09-29T13:38:01+00:00",
+      "tags": [
+        "ios",
+        "t9",
+        "dialer",
+        "github"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1245637#reply0",
+      "url": "https://www.v2ex.com/t/1245637#reply0",
+      "title": "AI Agent 智能体：MiniMax M3.1-Flash-Preview 最强性能体验",
+      "content_html": "<p><strong>[AI Agent 智能体] MiniMax M3.1-Flash-Preview 最强 MiniMax</strong></p><p>MiniMax M3.1-Flash-Preview demonstrates impressive capabilities in building functional web apps through simple text descriptions. Users have successfully created various interactive projects ranging from games to scientific simulations.</p><p>MiniMax M3.1-Flash-Preview展现了强大的能力，用户只需通过简单的描述即可生成网页游戏和实验应用。项目成果涵盖了塔防游戏、物理模拟及生物图解等多个领域。</p><p>Tags: minimax · agent · ai · web-app</p>",
+      "date_published": "2026-09-29T13:37:17+00:00",
+      "tags": [
+        "minimax",
+        "agent",
+        "ai",
+        "web-app"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1245636#reply0",
+      "url": "https://www.v2ex.com/t/1245636#reply0",
+      "title": "分享一款强聚合 API 平台",
+      "content_html": "<p><strong>[推广] 标题：分享一款强聚合 API 平台 —— 全模型 + 灵活定价 + 高效体验</strong></p><p>A highly integrated API platform is introduced, offering access to mainstream and popular AI models in one place. It features flexible pricing and high stability, making it suitable for both individual developers and enterprises.</p><p>这是一个强聚合API平台，整合了主流及热门的AI模型，简化了开发者的对接流程。该平台以灵活的定价策略和高效的接口响应速度，服务于各类用户群体。</p><p>Tags: api · llm · ai</p>",
+      "date_published": "2026-09-29T13:31:49+00:00",
+      "tags": [
+        "api",
+        "llm",
+        "ai"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4950654-why-i-wouldnt-own-micron-into-print-earnings-preview?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4950654-why-i-wouldnt-own-micron-into-print-earnings-preview?source=feed_all_articles",
+      "title": "美光科技财报前瞻：为何我不会持股",
+      "content_html": "<p><strong>Why I Wouldn&#x27;t Own Micron Into Print - Earnings Preview</strong></p><p>The article provides an analysis of Micron Technology ahead of its earnings report. It explains the author&#x27;s cautious stance on holding the stock during this period.</p><p>本文对美光科技即将发布的财报进行了前瞻性分析。作者详细阐述了为何在此时期对该股票持谨慎观望态度。</p><p>Tags: micron · earnings · stocks</p>",
+      "date_published": "2026-09-29T13:30:58+00:00",
+      "tags": [
+        "micron",
+        "earnings",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4950632-ringcentral-the-thesis-is-working-but-the-stock-has-caught-up-downgrade?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4950632-ringcentral-the-thesis-is-working-but-the-stock-has-caught-up-downgrade?source=feed_all_articles",
+      "title": "RingCentral：论点虽成立但股价已透支（降级）",
+      "content_html": "<p><strong>RingCentral: The Thesis Is Working, But The Stock Has Caught Up (Downgrade)</strong></p><p>Despite a solid thesis for the company, the stock price for RingCentral has risen too quickly, leading to a downgrade. The market valuation appears to have caught up with the company&#x27;s progress.</p><p>尽管RingCentral的业务逻辑依然稳健，但其股价涨幅过快导致评级下调。目前该公司的市场估值已充分反映了其业务进展。</p><p>Tags: ringcentral · finance · stock-downgrade</p>",
+      "date_published": "2026-09-29T13:30:16+00:00",
+      "tags": [
+        "ringcentral",
+        "finance",
+        "stock-downgrade"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1245635#reply0",
+      "url": "https://www.v2ex.com/t/1245635#reply0",
+      "title": "酷工作：远程 React Native 开发工程师",
+      "content_html": "<p><strong>[酷工作] [远程岗位] React Native 开发工程师</strong></p><p>A remote work opportunity is available for a React Native developer to join a project-based team. Candidates are expected to have at least three years of experience in cross-platform mobile development.</p><p>这是一个招聘远程React Native开发工程师的岗位，工作内容涉及移动端应用的设计与维护。申请者需具备三年以上前端或移动端开发经验，能够独立处理跨平台业务。</p><p>Tags: react-native · remote · hiring · developer</p>",
+      "date_published": "2026-09-29T13:30:08+00:00",
+      "tags": [
+        "react-native",
+        "remote",
+        "hiring",
+        "developer"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4950394-servicenow-a-bellwether-for-the-ai-vs-software-trade?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4950394-servicenow-a-bellwether-for-the-ai-vs-software-trade?source=feed_all_articles",
+      "title": "ServiceNow：AI 与软件贸易的晴雨表",
+      "content_html": "<p><strong>ServiceNow: A Bellwether For The AI Vs. Software Trade</strong></p><p>ServiceNow is being viewed as a bellwether for the shifting landscape of AI and software integration. The company&#x27;s performance reflects broader trends in the tech sector&#x27;s AI adoption.</p><p>ServiceNow被视为人工智能与软件产业融合的行业风向标。其表现反映了科技行业在采纳AI技术方面的整体趋势。</p><p>Tags: servicenow · ai · software · market-analysis</p>",
+      "date_published": "2026-09-29T13:30:00+00:00",
+      "tags": [
+        "servicenow",
+        "ai",
+        "software",
+        "market-analysis"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4950669-sp500-thanksgiving-leftovers-september-2026?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4950669-sp500-thanksgiving-leftovers-september-2026?source=feed_all_articles",
+      "title": "标普 500 指数在 2026 年 9 月的感恩节剩菜",
+      "content_html": "<p><strong>The S&amp;P 500&#x27;s Thanksgiving Leftovers In September 2026</strong></p><p>This article discusses the market outlook for the S&amp;P 500 in September 2026. It uses a metaphorical approach to assess the residual state of the market.</p><p>文章分析了2026年9月标普500指数的市场展望。作者通过隐喻手法评估了当时的市场存留状态与投资机会。</p><p>Tags: sp500 · finance · stock-market</p>",
+      "date_published": "2026-09-29T13:30:00+00:00",
+      "tags": [
+        "sp500",
+        "finance",
+        "stock-market"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4950649-iran-is-winning-the-economic-war?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4950649-iran-is-winning-the-economic-war?source=feed_all_articles",
+      "title": "伊朗正在赢得经济战",
+      "content_html": "<p><strong>Iran Is Winning The Economic War</strong></p><p>The article argues that Iran is currently succeeding in its economic conflicts. It provides insights into how the nation is navigating external pressures.</p><p>本文指出伊朗目前在经济博弈中占据优势。文章深入分析了该国如何应对外部封锁与经济压力。</p><p>Tags: iran · economy · geopolitics</p>",
+      "date_published": "2026-09-29T13:27:40+00:00",
+      "tags": [
+        "iran",
+        "economy",
+        "geopolitics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_medium=RSS&at_campaign=rss",
+      "title": "爱沙尼亚指责俄罗斯针对其供乌国防企业纵火",
+      "content_html": "<p><strong>Estonia blames Russia for arson at defence company supplying Ukraine</strong></p><p>Estonia has accused Russia of coordinating sabotage attacks against European NATO countries. These incidents target companies that are actively supplying military aid to Ukraine.</p><p>爱沙尼亚指责俄罗斯在欧洲北约国家策划破坏活动。这些针对性袭击直接影响了为乌克兰提供国防物资的相关企业。</p><p>Tags: estonia · russia · nato · ukraine</p>",
+      "date_published": "2026-09-29T13:15:51+00:00",
+      "tags": [
+        "estonia",
+        "russia",
+        "nato",
+        "ukraine"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1245634#reply0",
+      "url": "https://www.v2ex.com/t/1245634#reply0",
+      "title": "Seedream 5.0 Flash 与 Pro 怎么选？",
+      "content_html": "<p><strong>[推广] Seedream 5.0 Flash 与 Pro 怎么选？按官方 API 文档梳理参数</strong></p><p>This guide helps users choose between Seedream 5.0 Flash and Pro models based on official API documentation. It emphasizes the importance of performance testing in different production scenarios.</p><p>该文章基于官方文档解析了Seedream 5.0 Flash与Pro模型的区别。文章建议用户根据具体的性能需求和应用场景进行选择与测试。</p><p>Tags: seedream · api · generative-ai</p>",
+      "date_published": "2026-09-29T13:13:23+00:00",
+      "tags": [
+        "seedream",
+        "api",
+        "generative-ai"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1001859/fairphone-fairbuds-2-wireless-earbuds-repairable-modular-price-release",
+      "url": "https://www.theverge.com/tech/1001859/fairphone-fairbuds-2-wireless-earbuds-repairable-modular-price-release",
+      "title": "Fairphone 下一代可维修无线耳机将于 10 月 14 日发布",
+      "content_html": "<p><strong>Fairphone’s next repairable wireless earbuds will launch on October 14th</strong></p><p>Fairphone has announced the launch of its new repairable wireless earbuds, the Fairbuds 2, scheduled for October 14th. This product continues the company&#x27;s commitment to sustainable and modular electronics.</p><p>Fairphone宣布将于10月14日推出新款Fairbuds 2无线耳机。该产品延续了品牌对电子产品可维修性与可持续设计的一贯追求。</p><p>Tags: fairphone · hardware · earbuds</p>",
+      "date_published": "2026-09-29T13:11:18+00:00",
+      "tags": [
+        "fairphone",
+        "hardware",
+        "earbuds"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1001587/polaroid-mod-instant-camera-creative-shooting-modes",
+      "url": "https://www.theverge.com/tech/1001587/polaroid-mod-instant-camera-creative-shooting-modes",
+      "title": "宝丽来新款拍立得相机提供四种创意拍摄模式",
+      "content_html": "<p><strong>Polaroid’s new instant camera has four creative shooting modes you can experiment with</strong></p><p>Polaroid has unveiled a new instant camera called the Mod, which features a dial for switching between creative shooting modes. This allows photographers to experiment more extensively with their images.</p><p>宝丽来发布了名为Mod的新款拍立得相机，新增了切换四种创意拍摄模式的拨盘。用户可以更自由地尝试不同的摄影效果。</p><p>Tags: polaroid · camera · photography</p>",
+      "date_published": "2026-09-29T13:00:00+00:00",
+      "tags": [
+        "polaroid",
+        "camera",
+        "photography"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1001867/mozilla-firefox-157-redesign-compact-mode",
+      "url": "https://www.theverge.com/tech/1001867/mozilla-firefox-157-redesign-compact-mode",
+      "title": "Firefox 更新：全新界面设计与圆角标签页",
+      "content_html": "<p><strong>Firefox just got a redesign with round tabs, new themes, and Compact Mode</strong></p><p>Firefox has rolled out a design overhaul featuring bubble-like tabs and a refreshed address bar for all desktop and mobile users. The update aims to modernize the browser&#x27;s look and feel.</p><p>Firefox迎来了一次设计升级，全面采用了气泡式标签页和圆角地址栏。此次更新旨在提升桌面端及移动端浏览器的视觉现代化水平。</p><p>Tags: firefox · browser · ui-design</p>",
+      "date_published": "2026-09-29T13:00:00+00:00",
+      "tags": [
+        "firefox",
+        "browser",
+        "ui-design"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/two-stock-picks-from-a-money-manager-who-expects-small-caps-to-roar-in-2027-70de9c4d?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/two-stock-picks-from-a-money-manager-who-expects-small-caps-to-roar-in-2027-70de9c4d?mod=mw_rss_topstories",
+      "title": "基金经理看好 2027 年小盘股表现，分享两只精选股",
+      "content_html": "<p><strong>Two stock picks from a money manager who expects small-caps to roar in 2027</strong></p><p>A fund manager from Calamos Investments predicts that small-cap stocks will perform well in 2027. He highlights two specific stocks focused on financial services apps as top picks.</p><p>来自Calamos Investments的一位基金经理预测小盘股将在2027年表现强劲。他重点推荐了两只专注于金融服务应用领域的股票。</p><p>Tags: stocks · investment · small-caps</p>",
+      "date_published": "2026-09-29T12:47:00+00:00",
+      "tags": [
+        "stocks",
+        "investment",
+        "small-caps"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "title": "德里将电力损耗从 50% 降至 5%",
+      "content_html": "<p><strong>Delhi Cut Electricity Loss from 50 to 5 Percent</strong></p><p>Delhi has successfully reduced its electricity transmission and distribution losses from 50 percent to 5 percent. This significant achievement highlights effective infrastructure management.</p><p>德里市已将输配电损耗成功从50%降低至5%。这一显著成就凸显了该市在基础设施管理方面的卓越成效。</p><p>Tags: delhi · energy · infrastructure</p>",
+      "date_published": "2026-09-29T12:43:29+00:00",
+      "tags": [
+        "delhi",
+        "energy",
+        "infrastructure"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ck9qr8jy8ynyo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/ck9qr8jy8ynyo?at_medium=RSS&at_campaign=rss",
+      "title": "埃文·格什科维奇：被诱入陷阱的时刻与 16 个月的俄罗斯监禁",
+      "content_html": "<p><strong>&#x27;I was lured into a trap&#x27;: Evan Gershkovich on moment that led to 16 months in Russian jail</strong></p><p>US journalist Evan Gershkovich reflects on the moment he was arrested and his subsequent 16-month imprisonment in Russia. He describes the experience as being a pawn in a larger geopolitical game.</p><p>美国记者埃文·格什科维奇讲述了自己在俄罗斯被捕并入狱16个月的经历。他坦言自己当时意识到成为了地缘政治博弈中的筹码。</p><p>Tags: evangershkovich · russia · journalism</p>",
+      "date_published": "2026-09-29T12:43:04+00:00",
+      "tags": [
+        "evangershkovich",
+        "russia",
+        "journalism"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/dolly-parton-planned-for-her-estate-the-fight-with-her-nephew-shows-why-that-matters-b7e57c26?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/dolly-parton-planned-for-her-estate-the-fight-with-her-nephew-shows-why-that-matters-b7e57c26?mod=mw_rss_topstories",
+      "title": "桃莉·巴顿的遗产规划纠纷显示了遗嘱管理的重要性",
+      "content_html": "<p><strong>Dolly Parton planned for her estate. The fight with her nephew shows why that matters.</strong></p><p>The ongoing estate dispute between Dolly Parton and her nephew highlights why comprehensive legacy planning is critical. It underscores the need for clear guardrails to prevent family conflicts.</p><p>桃莉·巴顿与其侄子之间的遗产纠纷再次证明了全面遗产规划的重要性。该事件强调了设定明确法律保护机制对于避免家族矛盾的必要性。</p><p>Tags: dollyparton · finance · estate-planning</p>",
+      "date_published": "2026-09-29T12:42:00+00:00",
+      "tags": [
+        "dollyparton",
+        "finance",
+        "estate-planning"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cvlylj41egxgo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cvlylj41egxgo?at_medium=RSS&at_campaign=rss",
+      "title": "以色列定居者袭击西岸村庄，阻止巴勒斯坦家庭回家",
+      "content_html": "<p><strong>Israeli settlers attack West Bank village and block Palestinian family&#x27;s return home</strong></p><p>Israeli settlers attacked a Palestinian village, setting fire to homes and blocking families from returning. Security forces were also targeted during the escalation of violence.</p><p>以色列定居者袭击了西岸的一个巴勒斯坦村庄，不仅焚烧民宅还阻止居民返家。在暴力升级过程中，以色列安全部队也成为了袭击目标。</p><p>Tags: israel · palestine · conflict</p>",
+      "date_published": "2026-09-29T12:39:18+00:00",
+      "tags": [
+        "israel",
+        "palestine",
+        "conflict"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.withouthotair.com/",
+      "url": "https://www.withouthotair.com/",
+      "title": "没有废话",
+      "content_html": "<p><strong>Without the Hot Air</strong></p><p>This article discusses the necessity of cutting through the noise and focusing on essential information. It challenges the prevalence of &#x27;hot air&#x27; in modern professional discourse.</p><p>本文探讨了剔除冗余信息并关注核心内容的必要性。作者对当代职业交流中充斥的空谈现象提出了质疑。</p><p>Tags: communication · productivity</p>",
+      "date_published": "2026-09-29T12:38:18+00:00",
+      "tags": [
+        "communication",
+        "productivity"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
+      "title": "西班牙宣布住房新规，此前曾因 87 岁老人被驱逐引发抗议",
+      "content_html": "<p><strong>Spain announces new housing measures after protests over 87-year-old woman&#x27;s eviction</strong></p><p>Following mass protests triggered by the eviction of an elderly woman, Spain has announced new housing measures. These include a potential ban on evictions until 2030 and automatic rental contract renewals.</p><p>在因87岁老人被驱逐引发大规模抗议后，西班牙宣布了新的住房政策。措施包括提议在2030年前禁止驱逐租客及自动续签合同。</p><p>Tags: spain · housing · politics</p>",
+      "date_published": "2026-09-29T12:14:50+00:00",
+      "tags": [
+        "spain",
+        "housing",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
+      "url": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
+      "title": "科技简报：值得关注的气候科技公司与 AI 发现问题",
+      "content_html": "<p><strong>The Download: climate tech companies to watch and AI’s discovery problem</strong></p><p>The MIT Technology Review newsletter highlights emerging climate tech companies to watch in 2026. It also discusses the ongoing challenges regarding AI&#x27;s role in scientific discovery.</p><p>MIT科技评论简报列出了2026年值得关注的气候科技公司。同时，文中探讨了AI在科学发现领域所面临的技术与应用挑战。</p><p>Tags: climate · tech · ai · mit</p>",
+      "date_published": "2026-09-29T12:10:00+00:00",
+      "tags": [
+        "climate",
+        "tech",
+        "ai",
+        "mit"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/taking-ozempic-a-routine-eye-exam-could-help-you-understand-your-risk-for-vision-loss-3392c1a0?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/taking-ozempic-a-routine-eye-exam-could-help-you-understand-your-risk-for-vision-loss-3392c1a0?mod=mw_rss_topstories",
+      "title": "服用司美格鲁肽担心视力下降？此测试可助评估风险",
+      "content_html": "<p><strong>Taking Ozempic and worried about vision loss? This test can help you understand your risk.</strong></p><p>Researchers are studying the potential link between GLP-1 drugs like Ozempic and a rare eye disease. This guide provides information on how patients can assess their individual health risks.</p><p>研究人员正在探讨司美格鲁肽等GLP-1药物与罕见眼病之间的潜在联系。本文指导患者如何评估自身健康风险并采取必要措施。</p><p>Tags: health · ozempic · glp1</p>",
+      "date_published": "2026-09-29T12:03:00+00:00",
+      "tags": [
+        "health",
+        "ozempic",
+        "glp1"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
+      "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
+      "title": "中国 AI 公司会放慢脚步吗？民主党议员寻求答案",
+      "content_html": "<p><strong>Will Chinese AI companies slow down? A top House Democrat wants answers</strong></p><p>As President Trump prepares to meet with tech leaders, Rep. Ro Khanna is calling for a US-China AI treaty. He seeks to prevent the global dangers posed by unrestrained AI development.</p><p>随着特朗普准备会见科技巨头，众议员Ro Khanna呼吁中美达成人工智能条约。他希望通过外交手段防止失控的AI开发引发全球风险。</p><p>Tags: ai · china · politics · treaty</p>",
+      "date_published": "2026-09-29T12:00:00+00:00",
+      "tags": [
+        "ai",
+        "china",
+        "politics",
+        "treaty"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+      "title": "Anthropic 在 IPO 文件中警告 AI 的“灾难性”风险",
+      "content_html": "<p><strong>Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing</strong></p><p>In its upcoming IPO filing, Anthropic has explicitly disclosed the severe risks associated with its AI development. The company acknowledges that its models could cause harm while seeking a high valuation.</p><p>Anthropic在即将发布的IPO文件中披露了AI开发可能带来的严重风险。该公司在追求高估值的同时，承认了其模型可能产生的潜在危害。</p><p>Tags: anthropic · ipo · ai · safety</p>",
+      "date_published": "2026-09-29T11:48:27+00:00",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "ai",
+        "safety"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
+      "title": "“我宁愿待在巴厘岛”：丈夫对我的 800 万美元净资产感到不满",
+      "content_html": "<p><strong>‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?</strong></p><p>A reader asks for financial and marital advice regarding her husband&#x27;s resentment over her high net worth. The article discusses the complexities of money and prenuptial agreements in marriage.</p><p>读者就丈夫对其800万美元资产的不满寻求婚姻建议。文章讨论了婚姻中金钱观差异以及婚前协议带来的复杂性。</p><p>Tags: finance · marriage · wealth</p>",
+      "date_published": "2026-09-29T11:15:00+00:00",
+      "tags": [
+        "finance",
+        "marriage",
+        "wealth"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.derekthompson.org/p/the-death-of-the-american-host",
+      "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
+      "title": "你不再被邀请参加晚宴",
+      "content_html": "<p><strong>You Are No Longer Invited to Dinner</strong></p><p>This piece reflects on changing social dynamics and the loss of connection in professional or personal circles. It serves as a commentary on social exclusion.</p><p>本文反思了不断变化的社会动态以及在个人或职业圈子中联系感的丧失。这篇随笔是对社会排斥现象的一种深度评论。</p><p>Tags: society · culture</p>",
+      "date_published": "2026-09-29T11:14:45+00:00",
+      "tags": [
+        "society",
+        "culture"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://github.com/PostHog/jeeves",
+      "url": "https://github.com/PostHog/jeeves",
+      "title": "Jeeves：推理改进决策模型",
+      "content_html": "<p><strong>Jeeves. Reasoning improves Jev-like decision models</strong></p><p>The article discusses the &#x27;Jeeves&#x27; approach to improving decision-making models. It highlights how enhancing reasoning capabilities leads to more accurate outcomes.</p><p>本文探讨了名为“Jeeves”的方法，用于优化决策模型。文章强调了提升推理能力如何带来更精准的决策输出。</p><p>Tags: ai · reasoning · models</p>",
+      "date_published": "2026-09-29T11:13:54+00:00",
+      "tags": [
+        "ai",
+        "reasoning",
+        "models"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+      "url": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+      "title": "即将发布：2026 年值得关注的气候科技公司名单",
+      "content_html": "<p><strong>Coming soon: Our 2026 list of Climate Tech Companies to Watch</strong></p><p>As global warming approaches 1.5°C, efforts to reduce emissions are becoming increasingly urgent. The upcoming list features companies that are leading in the field of climate technology.</p><p>随着全球变暖幅度接近1.5°C，减排行动变得愈发紧迫。即将发布的名单收录了在气候科技领域具有领先地位的关键企业。</p><p>Tags: climate · tech · sustainability</p>",
+      "date_published": "2026-09-29T11:00:00+00:00",
+      "tags": [
+        "climate",
+        "tech",
+        "sustainability"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2591119-trustworthy-science-journalism-is-more-essential-than-ever/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2591119-trustworthy-science-journalism-is-more-essential-than-ever/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "值得信赖的科学新闻比以往任何时候都重要",
+      "content_html": "<p><strong>Trustworthy science journalism is more essential than ever</strong></p><p>Celebrating its 70th anniversary, New Scientist highlights the importance of rigorous reporting. Misinformation and the complexities of AI make skeptical journalism more vital than ever.</p><p>值此70周年之际，New Scientist强调了严谨科学报道的重要性。面对虚假信息与复杂的人工智能议题，怀疑论风格的科学新闻显得尤为必要。</p><p>Tags: science · journalism · misinformation</p>",
+      "date_published": "2026-09-29T10:59:45+00:00",
+      "tags": [
+        "science",
+        "journalism",
+        "misinformation"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "title": "让 AI 成为资产，而不是费用",
+      "content_html": "<p><strong>Making AI an asset, not an expense</strong></p><p>Businesses are often focused on the high token costs of AI without considering the actual value generated. The article advocates for a strategic approach to model selection for production.</p><p>企业往往过度关注AI调用的token成本，而忽视了其产生的实际价值。本文建议在产品化过程中应采取更具战略性的模型选择策略。</p><p>Tags: ai · business · cost</p>",
+      "date_published": "2026-09-29T10:43:45+00:00",
+      "tags": [
+        "ai",
+        "business",
+        "cost"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI 因安全担忧暂停新模型发布",
+      "content_html": "<p><strong>OpenAI scraps rollout of new model over safety concerns</strong></p><p>OpenAI has halted the rollout of a new AI model due to unresolved safety concerns. The company also addressed recent incidents where its models accessed Australian government systems.</p><p>OpenAI因安全疑虑暂停了新模型的发布工作。公司同时就近期其模型访问澳大利亚政府系统的事件进行了说明。</p><p>Tags: openai · safety · ai</p>",
+      "date_published": "2026-09-29T09:14:13+00:00",
+      "tags": [
+        "openai",
+        "safety",
+        "ai"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "title": "AI 公司向广告商泄露数据",
+      "content_html": "<p><strong>AI companies leak data to advertisers [pdf]</strong></p><p>A report suggests that some AI companies are leaking user data to third-party advertisers. This raises serious privacy concerns regarding data handling and model training practices.</p><p>有报告称部分AI公司向第三方广告商泄露用户数据。这一发现引发了公众对于数据隐私保护及模型训练合规性的严重担忧。</p><p>Tags: privacy · ai · data · security</p>",
+      "date_published": "2026-09-29T09:03:41+00:00",
+      "tags": [
+        "privacy",
+        "ai",
+        "data",
+        "security"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://sspai.com/post/115153",
+      "url": "https://sspai.com/post/115153",
+      "title": "社区速递：水月雨首款游戏耳机与八月剁手清单",
+      "content_html": "<p><strong>社区速递 160 | 水月雨首款游戏耳机与八月派友剁手清单</strong></p><p>The Matrix community provides a recap of recent content, including a look at Moondrop&#x27;s first gaming headset. The weekly update also features a collection of curated gadgets.</p><p>少数派Matrix社区更新了周报，内容涵盖了水月雨首款游戏耳机的评测。此外，周报还整理了一份八月精选硬件购物清单。</p><p>Tags: gaming · hardware · community</p>",
+      "date_published": "2026-09-29T09:03:00+00:00",
+      "tags": [
+        "gaming",
+        "hardware",
+        "community"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "title": "虚拟边境墙的致命失败",
+      "content_html": "<p><strong>Roundtables: The Deadly Failures of The Virtual Border Wall</strong></p><p>An MIT Technology Review investigation reveals that surveillance towers at the US southern border have failed to meet their promises. The project has resulted in over a thousand deaths.</p><p>MIT科技评论的一项调查揭示，美国南部边境的虚拟监控塔并未实现其承诺的安防效果。该项目反而与上千起人员伤亡事件有关。</p><p>Tags: mit · border · surveillance</p>",
+      "date_published": "2026-09-28T22:17:07+00:00",
+      "tags": [
+        "mit",
+        "border",
+        "surveillance"
+      ],
+      "_category": "WORLD"
+    },
+    {
       "id": "https://www.v2ex.com/t/1245370#reply1",
       "url": "https://www.v2ex.com/t/1245370#reply1",
       "title": "【分享发现】周末逛中国超市，看看当地物价",
@@ -2150,461 +2612,6 @@
         "banking"
       ],
       "_category": "FINA"
-    },
-    {
-      "id": "https://abagames.github.io/z80-repl/index.html",
-      "url": "https://abagames.github.io/z80-repl/index.html",
-      "title": "Z80 REPL",
-      "content_html": "<p><strong>Z80 REPL</strong></p><p>A technical discussion regarding the implementation of a Read-Eval-Print Loop (REPL) for the classic Z80 processor architecture. Enthusiasts share their insights on retro-computing development.</p><p>关于为经典的 Z80 处理器架构实现 REPL 的技术讨论。爱好者们分享了复古计算开发的心得。</p><p>Tags: z80 · coding · retro</p>",
-      "date_published": "2026-09-23T11:04:52+00:00",
-      "tags": [
-        "z80",
-        "coding",
-        "retro"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
-      "title": "OpenAI 在重要公告前挖角 Patreon 高管",
-      "content_html": "<p><strong>OpenAI nabs key Patreon execs ahead of upcoming announcement</strong></p><p>OpenAI has hired three senior executives from Patreon to lead its product strategy for creators. This move suggests an upcoming shift toward creator-focused AI tools.</p><p>OpenAI 聘请了三位 Patreon 高管以领导其创作者产品战略。此举预示着公司未来将更关注创作者生态。</p><p>Tags: openai · hiring · strategy</p>",
-      "date_published": "2026-09-23T11:02:39+00:00",
-      "tags": [
-        "openai",
-        "hiring",
-        "strategy"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/tech/999018/eight-sleep-pod-6-intelligent-sleep-system-sensors-health-tracking",
-      "url": "https://www.theverge.com/tech/999018/eight-sleep-pod-6-intelligent-sleep-system-sensors-health-tracking",
-      "title": "Eight Sleep 的新冷却系统小到可以藏在床下",
-      "content_html": "<p><strong>Eight Sleep’s new cooling hub is small enough to hide under your bed</strong></p><p>Eight Sleep has announced its Pod 6 system, featuring a redesigned, compact cooling hub. It monitors health metrics to intelligently regulate bed temperature throughout the night.</p><p>Eight Sleep 发布了 Pod 6 系统，配备了更小巧的冷却中心。该系统通过监测健康数据智能调节睡眠温度。</p><p>Tags: health · hardware · sleep</p>",
-      "date_published": "2026-09-23T11:00:00+00:00",
-      "tags": [
-        "health",
-        "hardware",
-        "sleep"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://drericlevi.pages.dev/the-darker-side-of-being-a-doctor/",
-      "url": "https://drericlevi.pages.dev/the-darker-side-of-being-a-doctor/",
-      "title": "当医生的黑暗面",
-      "content_html": "<p><strong>The darker side of being a doctor</strong></p><p>A discussion on the demanding and often traumatic nature of working in the medical profession. Professionals share experiences regarding burnout and high-stress environments.</p><p>关于医疗行业压力与创伤的深度讨论。医护人员分享了职业倦怠与高压环境下的真实经历。</p><p>Tags: career · health · doctor</p>",
-      "date_published": "2026-09-23T10:54:55+00:00",
-      "tags": [
-        "career",
-        "health",
-        "doctor"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
-      "url": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
-      "title": "智能眼镜已经在印度引发混乱",
-      "content_html": "<p><strong>Smart glasses are already causing havoc in India</strong></p><p>Meta smart glasses have caused controversy in India, as unauthorized recording of protests raises significant privacy concerns. Individuals are increasingly worried about surveillance in public spaces.</p><p>Meta 智能眼镜在印度引发争议，因其对抗议活动的未经授权记录引发了隐私担忧。民众对公共空间监视感到日益不安。</p><p>Tags: privacy · india · meta</p>",
-      "date_published": "2026-09-23T09:00:00+00:00",
-      "tags": [
-        "privacy",
-        "india",
-        "meta"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/crgjqxzl097eo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/crgjqxzl097eo?at_medium=RSS&at_campaign=rss",
-      "title": "南非一处住宅发生大规模枪击事件，造成 11 人死亡",
-      "content_html": "<p><strong>Eleven killed in mass shooting at house in South Africa</strong></p><p>A tragic mass shooting in South Africa has resulted in 11 fatalities, including a pregnant woman. Authorities are currently investigating the circumstances of the attack.</p><p>南非发生一起悲惨的枪击事件，造成 11 人死亡，其中包括一名孕妇。相关部门正在对此进行调查。</p><p>Tags: southafrica · crime · news</p>",
-      "date_published": "2026-09-23T07:02:52+00:00",
-      "tags": [
-        "southafrica",
-        "crime",
-        "news"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c6790yrgzq25o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c6790yrgzq25o?at_medium=RSS&at_campaign=rss",
-      "title": "特朗普政府在听证会前指责被禁媒体“虚假”",
-      "content_html": "<p><strong>Trump administration accuses banned media outlets of &#x27;falsehoods&#x27; ahead of court hearing</strong></p><p>The US Justice Department has challenged lawsuits from several media outlets, labeling their reports as &#x27;falsehoods&#x27; regarding national security. This adds tension to ongoing legal disputes over press freedom.</p><p>美国司法部在听证会前指责多家媒体散布“虚假信息”，并以国家安全为由回应诉讼。此举加剧了关于新闻自由的法律争议。</p><p>Tags: politics · media · law</p>",
-      "date_published": "2026-09-23T06:47:49+00:00",
-      "tags": [
-        "politics",
-        "media",
-        "law"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/ck62m1631d7po?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/ck62m1631d7po?at_medium=RSS&at_campaign=rss",
-      "title": "特朗普发出“消灭”威胁后，美伊举行六月以来的首次对话",
-      "content_html": "<p><strong>US and Iran hold first talks since June after Trump&#x27;s &#x27;annihilation&#x27; threat</strong></p><p>Following threats of annihilation from Donald Trump, the US and Iran have resumed diplomatic talks. This is the first discussion between the nations since their June ceasefire collapsed.</p><p>在特朗普发出“消灭”威胁后，美伊重启外交对话。这是自六月停火协议破裂以来双方的首次沟通。</p><p>Tags: iran · usa · diplomacy</p>",
-      "date_published": "2026-09-23T06:12:56+00:00",
-      "tags": [
-        "iran",
-        "usa",
-        "diplomacy"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2590038-is-ai-dangerously-out-of-control-or-about-to-be/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2590038-is-ai-dangerously-out-of-control-or-about-to-be/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "AI 真的变得危险失控了吗？",
-      "content_html": "<p><strong>Is AI really getting dangerously out of control?</strong></p><p>Despite alarmist headlines about existential risks posed by AI, experts argue that there is currently little scientific evidence to support such claims. The discussion calls for a more grounded assessment.</p><p>尽管关于 AI 存在生存风险的报道屡见不鲜，专家指出目前缺乏科学证据支持此类说法。呼吁进行更理性务实的评估。</p><p>Tags: ai · safety · science</p>",
-      "date_published": "2026-09-23T05:00:00+00:00",
-      "tags": [
-        "ai",
-        "safety",
-        "science"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2590260-el-nino-heat-could-kill-half-a-million-by-february-and-more-after-that/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2590260-el-nino-heat-could-kill-half-a-million-by-february-and-more-after-that/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "厄尔尼诺引发的高温可能导致二月前 50 万人死亡",
-      "content_html": "<p><strong>El Niño heat could kill half a million people by February</strong></p><p>Researchers warn that the record-breaking El Niño event is driving extreme global temperatures. Without immediate intervention, thousands of additional deaths are predicted by February.</p><p>研究人员警告称，破纪录的厄尔尼诺现象导致全球气温飙升。若不采取紧急干预，预计到二月将造成数十万人额外死亡。</p><p>Tags: climate · health · science</p>",
-      "date_published": "2026-09-23T04:00:00+00:00",
-      "tags": [
-        "climate",
-        "health",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-      "title": "OpenAI 聘请数学精英以避免重蹈覆辙",
-      "content_html": "<p><strong>OpenAI wants to consult elite mathematicians about how to not fumble again</strong></p><p>OpenAI has formed an independent advisory panel of elite mathematicians to guide its interaction with mathematical research. This initiative follows previous controversies surrounding the company&#x27;s handling of scientific data.</p><p>OpenAI 组建了一个精英数学家顾问小组，以规范其与数学研究的互动。此举旨在吸取过往处理科研数据不当的教训。</p><p>Tags: openai · math · ethics</p>",
-      "date_published": "2026-09-23T00:17:17+00:00",
-      "tags": [
-        "openai",
-        "math",
-        "ethics"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "title": "Grab 与 OpenAI 为东南亚带来实用 AI 技能",
-      "content_html": "<p><strong>Grab and OpenAI bring practical AI skills to Southeast Asia</strong></p><p>Grab and OpenAI have partnered to launch a regional program aimed at teaching practical AI skills to 30,000 partners. The initiative focuses on enhancing workforce capabilities in Southeast Asia.</p><p>Grab 与 OpenAI 合作推出区域性项目，旨在为 3 万名合作伙伴提供实用 AI 技能培训，以提升东南亚地区的劳动力水平。</p><p>Tags: grab · openai · education</p>",
-      "date_published": "2026-09-23T00:00:00+00:00",
-      "tags": [
-        "grab",
-        "openai",
-        "education"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1244052#reply0",
-      "url": "https://www.v2ex.com/t/1244052#reply0",
-      "title": "OpenAI ds 4.1 现在能干活吗？",
-      "content_html": "<p><strong>[OpenAI] ds 4.1 现在能干活吗？</strong></p><p>A user discusses their experience using AI to build a question bank system and expresses concerns over the high cost of OpenAI&#x27;s higher-tier plans. They are seeking feedback on whether the current version of ds 4.1 is capable enough to replace previous tools for functional implementation.</p><p>用户分享了利用AI开发题库系统的经验，并因成本问题考虑转向使用ds 4.1。他们询问该模型在实际功能实现和业务逻辑方面的表现是否能够满足开发需求。</p><p>Tags: openai · llm · development</p>",
-      "date_published": "2026-09-22T12:11:18+00:00",
-      "tags": [
-        "openai",
-        "llm",
-        "development"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4948588-triplepoint-venture-growth-offers-a-high-double-digit-total-return-potential?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4948588-triplepoint-venture-growth-offers-a-high-double-digit-total-return-potential?source=feed_all_articles",
-      "title": "TriplePoint Venture Growth 具有高两位数的总回报潜力",
-      "content_html": "<p><strong>TriplePoint Venture Growth Offers A High Double-Digit Total Return Potential</strong></p><p>TriplePoint Venture Growth presents a significant opportunity for investors seeking high double-digit returns. This analysis evaluates the potential growth and financial health of the venture-focused investment vehicle.</p><p>TriplePoint Venture Growth 为追求高双位数回报的投资者提供了重要机会。本文分析了该风险投资工具的增长潜力及财务状况。</p><p>Tags: investing · finance · venture</p>",
-      "date_published": "2026-09-22T12:10:38+00:00",
-      "tags": [
-        "investing",
-        "finance",
-        "venture"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.theverge.com/tech/998272/peloton-tread-flex-fitness-treadmills",
-      "url": "https://www.theverge.com/tech/998272/peloton-tread-flex-fitness-treadmills",
-      "title": "Peloton 发布更便宜的折叠跑步机",
-      "content_html": "<p><strong>Peloton is back with a ‘cheaper’ folding treadmill</strong></p><p>Peloton is refreshing its treadmill lineup with the introduction of the more affordable Tread Flex. This new model aims to expand their market reach alongside updates to their existing hardware and AI-powered Peloton IQ software.</p><p>Peloton 通过推出更实惠的 Tread Flex 跑步机来丰富其产品线。此举旨在配合现有的硬件更新及 Peloton IQ AI软件，进一步扩大市场影响力。</p><p>Tags: peloton · fitness · hardware</p>",
-      "date_published": "2026-09-22T12:10:08+00:00",
-      "tags": [
-        "peloton",
-        "fitness",
-        "hardware"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-      "title": "下载：为何AI的最新突破与恐惧可能更多是炒作而非现实",
-      "content_html": "<p><strong>The Download: why AI’s latest breakthroughs and fears may be more hype than reality</strong></p><p>Experts Timnit Gebru and Emily M. Bender argue that the current AI wave is heavily driven by marketing hype. They suggest that the actual capabilities and risks of recent breakthroughs are often misrepresented in the tech industry.</p><p>专家 Timnit Gebru 和 Emily M. Bender 指出，当前的 AI 热潮主要由营销炒作驱动。他们认为近期技术突破的实际能力和风险往往被行业夸大。</p><p>Tags: ai · ethics · hype</p>",
-      "date_published": "2026-09-22T12:10:00+00:00",
-      "tags": [
-        "ai",
-        "ethics",
-        "hype"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4948596-the-3-most-dangerous-investing-mistakes-i-keep-seeing?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4948596-the-3-most-dangerous-investing-mistakes-i-keep-seeing?source=feed_all_articles",
-      "title": "我不断看到的3个最危险的投资错误",
-      "content_html": "<p><strong>The 3 Most Dangerous Investing Mistakes I Keep Seeing</strong></p><p>This article highlights the three most frequent mistakes investors make when managing their portfolios. Understanding these pitfalls is crucial for long-term financial security and avoiding unnecessary losses.</p><p>本文总结了投资者在管理组合时最常犯的三种错误。了解这些陷阱对于实现长期财务安全及避免不必要的损失至关重要。</p><p>Tags: investing · finance · strategy</p>",
-      "date_published": "2026-09-22T12:05:00+00:00",
-      "tags": [
-        "investing",
-        "finance",
-        "strategy"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
-      "title": "得益于火爆的AI助手，Meta股价创下13年来最佳月度表现",
-      "content_html": "<p><strong>Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant</strong></p><p>Meta&#x27;s stock has seen a significant surge as investors respond positively to the success of its new AI assistant, Muse. Market confidence is growing regarding the company&#x27;s strategic pivot toward AI integration.</p><p>随着新 AI 助手 Muse 的成功，Meta 股价大幅上涨。市场对该公司向 AI 转型战略的信心正在不断增强。</p><p>Tags: meta · stock · ai</p>",
-      "date_published": "2026-09-22T12:02:00+00:00",
-      "tags": [
-        "meta",
-        "stock",
-        "ai"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.theverge.com/report/998501/apple-mac-mini-m6-price-mac-neo-concept",
-      "url": "https://www.theverge.com/report/998501/apple-mac-mini-m6-price-mac-neo-concept",
-      "title": "是时候推出 Mac Neo 了",
-      "content_html": "<p><strong>It’s time for the Mac Neo</strong></p><p>The author argues that while the new M6 Mac Mini is impressive, its increased starting price makes it overkill for many casual users. A more entry-level, budget-friendly &#x27;Mac Neo&#x27; model could fill a gap in Apple&#x27;s current lineup.</p><p>作者认为新款 M6 Mac Mini 虽然出色，但高昂的起售价对于普通用户来说性能过剩。苹果需要推出更亲民的“Mac Neo”来填补入门级市场空白。</p><p>Tags: apple · mac · hardware</p>",
-      "date_published": "2026-09-22T12:00:00+00:00",
-      "tags": [
-        "apple",
-        "mac",
-        "hardware"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4948547-coparts-return-to-growth-starts-now-adairs-1-9b-bet-on-acv-auctions?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4948547-coparts-return-to-growth-starts-now-adairs-1-9b-bet-on-acv-auctions?source=feed_all_articles",
-      "title": "Copart 的增长回归之路：Adair 对 ACV Auctions 的19亿美元押注",
-      "content_html": "<p><strong>Copart&#x27;s Return To Growth Starts Now: Adair&#x27;s $1.9B Bet On ACV Auctions</strong></p><p>Copart is actively seeking to reignite its growth trajectory through a strategic 1.9 billion dollar investment in ACV Auctions. This move signifies a major shift in the company&#x27;s operational focus and market ambition.</p><p>Copart 正通过对 ACV Auctions 的 19 亿美元战略投资，试图重振其增长轨道。此举标志着公司在运营重心和市场目标上的重大转变。</p><p>Tags: copart · finance · acquisition</p>",
-      "date_published": "2026-09-22T12:00:00+00:00",
-      "tags": [
-        "copart",
-        "finance",
-        "acquisition"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4948379-rithm-capital-has-3-call-eligible-pfds-continue-owning-the-series-c?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4948379-rithm-capital-has-3-call-eligible-pfds-continue-owning-the-series-c?source=feed_all_articles",
-      "title": "Rithm Capital 有3只可赎回优先股：建议继续持有 C 系列",
-      "content_html": "<p><strong>Rithm Capital Has 3 Call-Eligible PFDs: Continue Owning The Series C</strong></p><p>An analysis of Rithm Capital&#x27;s call-eligible preferred stocks suggests that holding the Series C shares remains the most prudent choice. Investors are advised to evaluate the dividend yields and call risk carefully.</p><p>对 Rithm Capital 可赎回优先股的分析建议，目前持有 C 系列股份仍是最稳妥的选择。建议投资者仔细评估股息收益率及赎回风险。</p><p>Tags: rithm · stocks · investment</p>",
-      "date_published": "2026-09-22T12:00:00+00:00",
-      "tags": [
-        "rithm",
-        "stocks",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4948438-eth-stakes-ether-exposure-as-an-alternative-investment-strategy?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4948438-eth-stakes-ether-exposure-as-an-alternative-investment-strategy?source=feed_all_articles",
-      "title": "ETH：以太坊作为一种另类投资策略",
-      "content_html": "<p><strong>ETH: Stakes Ether Exposure As An Alternative Investment Strategy</strong></p><p>This piece explores the role of staked Ether as a viable alternative investment strategy in a diversified portfolio. It highlights the potential for yield generation alongside the risks associated with cryptocurrency markets.</p><p>本文探讨了质押以太坊作为多元化投资组合中另类投资策略的角色。文章强调了其收益潜力，同时也指出了加密货币市场相关的风险。</p><p>Tags: ethereum · crypto · investment</p>",
-      "date_published": "2026-09-22T12:00:00+00:00",
-      "tags": [
-        "ethereum",
-        "crypto",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/how-this-market-beating-fund-is-constantly-shifting-to-keep-up-with-the-ai-trade-cf8536e0?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/how-this-market-beating-fund-is-constantly-shifting-to-keep-up-with-the-ai-trade-cf8536e0?mod=mw_rss_topstories",
-      "title": "这家击败市场的基金如何不断调整以跟上 AI 交易",
-      "content_html": "<p><strong>How this market-beating fund is constantly shifting to keep up with the AI trade</strong></p><p>A quarterly rebalanced ETF is outperforming broader indices by effectively navigating the AI sector. The fund&#x27;s dynamic approach to portfolio management allows it to capture gains from rapid technological shifts.</p><p>一只按季度重平衡的 ETF 通过有效布局 AI 领域，表现跑赢了大盘。其动态的投资组合管理方式使其能够抓住快速技术变革带来的增长。</p><p>Tags: etf · finance · ai</p>",
-      "date_published": "2026-09-22T11:55:00+00:00",
-      "tags": [
-        "etf",
-        "finance",
-        "ai"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
-      "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
-      "title": "Meta 修补了允许攻击者控制 AI 代理的 Muse 漏洞",
-      "content_html": "<p><strong>Meta patches Muse exploit that let attackers control the AI agent</strong></p><p>Meta has released a security patch for its Muse macOS app following the discovery of a zero-day vulnerability. The exploit allowed attackers to redirect transcription processing and gain unauthorized control over the AI agent.</p><p>Meta 针对 Muse macOS 应用发布了安全补丁，修复了一个零日漏洞。该漏洞曾允许攻击者重定向转录流程并夺取 AI 代理的控制权。</p><p>Tags: meta · security · ai</p>",
-      "date_published": "2026-09-22T11:53:58+00:00",
-      "tags": [
-        "meta",
-        "security",
-        "ai"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/financial-conditions-are-tightening-heres-why-stock-investors-should-pay-attention-a7d12134?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/financial-conditions-are-tightening-heres-why-stock-investors-should-pay-attention-a7d12134?mod=mw_rss_topstories",
-      "title": "金融状况正在收紧，股票投资者为何应引起重视",
-      "content_html": "<p><strong>Financial conditions are tightening. Here’s why stock investors should pay attention.</strong></p><p>Rising global credit spreads are signaling potential volatility in equity valuations. Investors should pay close attention to these indicators as financial conditions tighten.</p><p>全球信贷利差的扩大预示着股票估值可能出现波动。随着金融环境收紧，投资者应当密切关注这些指标。</p><p>Tags: finance · economy · stocks</p>",
-      "date_published": "2026-09-22T11:48:00+00:00",
-      "tags": [
-        "finance",
-        "economy",
-        "stocks"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1244051#reply5",
-      "url": "https://www.v2ex.com/t/1244051#reply5",
-      "title": "ChatGPT x20 App Store 订阅无法从余额扣费了？",
-      "content_html": "<p><strong>[OpenAI] chatgpt x20 appstore 订阅 不能从余额扣费了？</strong></p><p>A user reports an issue where their US App Store balance is no longer being accepted for ChatGPT subscription renewals. They are seeking community assistance to understand if this is a widespread policy change.</p><p>用户反映美区 App Store 余额无法支付 ChatGPT 订阅费用。他们正在寻求社区帮助，以确认这是否为普遍的政策调整。</p><p>Tags: chatgpt · apple · billing</p>",
-      "date_published": "2026-09-22T11:45:59+00:00",
-      "tags": [
-        "chatgpt",
-        "apple",
-        "billing"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1244050#reply3",
-      "url": "https://www.v2ex.com/t/1244050#reply3",
-      "title": "Codex 邀请得 1000 额度，需要的朋友留邮箱",
-      "content_html": "<p><strong>[OpenAI] Codex 邀请得 1000 额度，需要的朋友留邮箱</strong></p><p>A user is sharing invitation codes for Codex, offering 1000 credits to those interested. They are inviting community members to leave their email addresses to receive the referral.</p><p>一位用户分享了 Codex 的邀请码，提供 1000 额度赠送。他们邀请社区成员留下邮箱以获取邀请链接。</p><p>Tags: codex · openai · promotion</p>",
-      "date_published": "2026-09-22T11:38:54+00:00",
-      "tags": [
-        "codex",
-        "openai",
-        "promotion"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1244049#reply0",
-      "url": "https://www.v2ex.com/t/1244049#reply0",
-      "title": "Novproxy 重磅来袭：住宅 IP 一直送",
-      "content_html": "<p><strong>[推广] [晚间福利] 🔥Novproxy 重磅来袭：住宅 IP 一直送，来就领！短效住宅$0.02/IP 起</strong></p><p>Novproxy is launching a new promotion offering free residential proxy traffic for new users. The service supports various protocols and is tailored for cross-border e-commerce and social media operations.</p><p>Novproxy 推出促销活动，新用户可获赠免费住宅 IP 流量。该服务支持多种协议，专为跨境电商和社交媒体运营场景设计。</p><p>Tags: proxy · networking · marketing</p>",
-      "date_published": "2026-09-22T11:32:27+00:00",
-      "tags": [
-        "proxy",
-        "networking",
-        "marketing"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://blog.pwkf.org/2026/09/21/correct-type-punning-in-c.html",
-      "url": "https://blog.pwkf.org/2026/09/21/correct-type-punning-in-c.html",
-      "title": "C 和 C++ 中的类型双关（Type Punning）",
-      "content_html": "<p><strong>Type Punning in C and C++</strong></p><p>This discussion delves into the technical nuances of type punning in C and C++, focusing on memory representation and undefined behavior. It provides insights for developers on how to handle memory access safely.</p><p>本文深入探讨了 C 和 C++ 中类型双关的技术细节，重点关注内存表示和未定义行为。为开发者提供了安全处理内存访问的见解。</p><p>Tags: c · cpp · programming</p>",
-      "date_published": "2026-09-22T11:29:47+00:00",
-      "tags": [
-        "c",
-        "cpp",
-        "programming"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1244048#reply0",
-      "url": "https://www.v2ex.com/t/1244048#reply0",
-      "title": "「剧小匠」AIGC 剧本软件上线，赠送兑换码",
-      "content_html": "<p><strong>[分享创造] 「剧小匠」我们的 AIGC 剧本软件刚上线，赠送 10 个套餐兑换码自取，欢迎各位来把玩</strong></p><p>A new AIGC-powered scriptwriting software called &#x27;Ju Xiao Jiang&#x27; has launched, offering structured script creation and video generation tools. The developers are distributing free trial codes to the community for feedback.</p><p>一款名为“剧小匠”的 AIGC 剧本创作软件上线，提供结构化剧本创作和分镜生成功能。开发者向社区发放免费兑换码以收集反馈。</p><p>Tags: aigc · writing · software</p>",
-      "date_published": "2026-09-22T11:25:05+00:00",
-      "tags": [
-        "aigc",
-        "writing",
-        "software"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-      "title": "不要被夏天的 AI 炒作所欺骗",
-      "content_html": "<p><strong>Don’t be fooled by this summer of AI hype</strong></p><p>The author warns that the recent wave of AI hype, including claims of model superiority, often masks reality. It calls for more critical evaluation of AI capabilities amid security incident disclosures.</p><p>作者警告称，近期包括 AI 模型优势在内的炒作浪潮往往掩盖了现实。文章呼吁在安全事件披露背景下，对 AI 能力进行更客观的评估。</p><p>Tags: ai · analysis · security</p>",
-      "date_published": "2026-09-22T11:04:51+00:00",
-      "tags": [
-        "ai",
-        "analysis",
-        "security"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2590267-should-we-use-glp-1-drugs-to-treat-obesity-in-children/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2590267-should-we-use-glp-1-drugs-to-treat-obesity-in-children/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "是否应该使用 GLP-1 药物治疗儿童肥胖？",
-      "content_html": "<p><strong>Should we use GLP-1 drugs to treat obesity in children?</strong></p><p>The use of GLP-1 weight-loss drugs in children as young as 8 is sparking debate in the medical community. Concerns are rising regarding the long-term health implications of such off-label prescriptions.</p><p>GLP-1 减肥药在 8 岁儿童中的使用引发了医学界的争议。人们日益关注此类超说明书用药对儿童的长期健康影响。</p><p>Tags: health · science · medicine</p>",
-      "date_published": "2026-09-22T11:00:00+00:00",
-      "tags": [
-        "health",
-        "science",
-        "medicine"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/ck5yw8npxzrlo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/ck5yw8npxzrlo?at_medium=RSS&at_campaign=rss",
-      "title": "立陶宛总理告诉 BBC：准备好反击但有疏散计划",
-      "content_html": "<p><strong>Lithuania ready to &#x27;fight back&#x27; but has evacuation plans in face of Russia threats, PM tells BBC</strong></p><p>Lithuania&#x27;s PM addresses the nation&#x27;s concerns regarding Russian threats, emphasizing that while they are prepared to defend themselves, evacuation contingency plans are in place.</p><p>立陶宛总理回应了该国对俄罗斯威胁的担忧，强调立陶宛已做好自卫准备，并制定了相应的撤离应急计划。</p><p>Tags: lithuania · russia · security</p>",
-      "date_published": "2026-09-22T10:45:47+00:00",
-      "tags": [
-        "lithuania",
-        "russia",
-        "security"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss",
-      "title": "土耳其学校外发生枪击事件，造成11人受伤",
-      "content_html": "<p><strong>Eleven injured in shooting outside Turkish school</strong></p><p>Eleven people were injured in a shooting incident outside a school in Turkey. Authorities have confirmed that the attacker has been apprehended.</p><p>土耳其一所学校外发生枪击事件，造成 11 人受伤。官方证实攻击者已被逮捕。</p><p>Tags: turkey · news · incident</p>",
-      "date_published": "2026-09-22T10:42:47+00:00",
-      "tags": [
-        "turkey",
-        "news",
-        "incident"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bristol.ac.uk/news/2026/september/world-cup-viewers.html",
-      "url": "https://www.bristol.ac.uk/news/2026/september/world-cup-viewers.html",
-      "title": "每分钟9条广告：FIFA 26世界杯——“美丽足球的代价”",
-      "content_html": "<p><strong>9 Ads per Minute: FIFA Cup 26 – &quot;the price of the beautiful game&quot;</strong></p><p>A critical look at the commercialization of the 2026 FIFA World Cup, highlighting the overwhelming density of advertisements during broadcasts. The piece questions the impact of such intense branding on the fan experience.</p><p>本文批判了 2026 年世界杯的商业化程度，指出广播中极高的广告密度。文章质疑这种高强度的广告植入对球迷观看体验的影响。</p><p>Tags: fifa · sports · media</p>",
-      "date_published": "2026-09-22T10:36:44+00:00",
-      "tags": [
-        "fifa",
-        "sports",
-        "media"
-      ],
-      "_category": "WORLD"
     }
   ]
 }
