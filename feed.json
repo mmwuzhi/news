@@ -6,6 +6,292 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1246418#reply0",
+      "url": "https://www.v2ex.com/t/1246418#reply0",
+      "title": "开源 Bibo：低成本、内置多种工具的个人智能代理",
+      "content_html": "<p><strong>[分享创造] 开源 Bibo：成本极低，内置笔记、文件、任务和日历的 personal agent</strong></p><p>Bibo is an open-source personal agent designed for low-cost operation with built-in note-taking, file management, tasks, and calendar features. Users can deploy it themselves using their own API keys and Cloudflare accounts to maintain data sovereignty.</p><p>Bibo 是一款开源的个人智能代理，旨在通过极低成本提供笔记、文件、任务和日历管理功能。用户可自行部署，并使用自己的 API 密钥以确保数据安全与隐私。</p><p>Tags: agent · opensource · productivity</p>",
+      "date_published": "2026-10-04T12:55:30+00:00",
+      "tags": [
+        "agent",
+        "opensource",
+        "productivity"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1246416#reply0",
+      "url": "https://www.v2ex.com/t/1246416#reply0",
+      "title": "为什么我的 codex 只能识别 cc-switch 中的第一个模型？",
+      "content_html": "<p><strong>[程序员] 为什么我的 codex 只能认 cc-switch 里边的第一个模型呢？</strong></p><p>A developer is reporting issues where codex only recognizes the first model under a provider in cc-switch. They are seeking advice from the community on how to resolve this configuration discrepancy.</p><p>一名开发者反馈其 codex 插件只能识别 cc-switch 中同一运营商下的首个模型。他正在社区寻求解决该配置问题的方法。</p><p>Tags: codex · developer · api</p>",
+      "date_published": "2026-10-04T12:48:31+00:00",
+      "tags": [
+        "codex",
+        "developer",
+        "api"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4951836-kroger-a-low-valuation-hurdle-with-plenty-to-prove?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4951836-kroger-a-low-valuation-hurdle-with-plenty-to-prove?source=feed_all_articles",
+      "title": "克罗格（Kroger）：低估值门槛，面临多重挑战",
+      "content_html": "<p><strong>Kroger: A Low Valuation Hurdle With Plenty To Prove</strong></p><p>Kroger faces a low valuation hurdle as it works to prove its long-term value to investors. The company must address significant operational challenges to improve its market standing.</p><p>克罗格公司面临低估值门槛，正努力向投资者证明其长期价值。该公司必须解决重大的运营挑战以提升市场地位。</p><p>Tags: kroger · valuation · investment</p>",
+      "date_published": "2026-10-04T12:35:23+00:00",
+      "tags": [
+        "kroger",
+        "valuation",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/gadgets/1000832/macbook-air-m5-amazon-prime-big-deal-sale",
+      "url": "https://www.theverge.com/gadgets/1000832/macbook-air-m5-amazon-prime-big-deal-sale",
+      "title": "MacBook Air M5 迎来数月内首次 200 美元折扣",
+      "content_html": "<p><strong>The MacBook Air M5 is $200 off for the first time in months</strong></p><p>Amazon&#x27;s October Prime Day has brought the price of the 13-inch MacBook Air with the M5 chip down to $1,099. This discount effectively reverses recent price hikes, making the high-performance model more attractive.</p><p>亚马逊十月会员日期间，搭载 M5 芯片的 13 英寸 MacBook Air 售价降至 1099 美元。此次 200 美元的折扣抵消了此前的价格上涨，使该高性能机型更具性价比。</p><p>Tags: macbook · amazon · apple</p>",
+      "date_published": "2026-10-04T12:34:01+00:00",
+      "tags": [
+        "macbook",
+        "amazon",
+        "apple"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4951835-dnp-smart-utilities-play-in-age-of-ai?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4951835-dnp-smart-utilities-play-in-age-of-ai?source=feed_all_articles",
+      "title": "DNP：人工智能时代的公用事业智慧投资",
+      "content_html": "<p><strong>DNP: A Smart Utilities Play In The Age Of AI</strong></p><p>DNP is presented as a strategic investment choice in the utility sector during the ongoing AI boom. Its business model offers stability in an increasingly technology-driven economy.</p><p>DNP 被视为人工智能繁荣时期公用事业领域的战略性投资选择。其商业模式在日益技术化的经济环境中提供了稳定性。</p><p>Tags: dnp · utility · investment</p>",
+      "date_published": "2026-10-04T12:32:00+00:00",
+      "tags": [
+        "dnp",
+        "utility",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/gadgets/1000323/apple-ipad-mini-amazon-prime-big-deal-days-sale",
+      "url": "https://www.theverge.com/gadgets/1000323/apple-ipad-mini-amazon-prime-big-deal-days-sale",
+      "title": "iPad Mini 在会员日期间小幅降价",
+      "content_html": "<p><strong>The iPad Mini is slightly cheaper again during Prime Day</strong></p><p>Following recent price increases, Apple&#x27;s iPad Mini is now $100 off for both Wi-Fi and cellular models ahead of Amazon&#x27;s October sale. This marks the first significant discount on the device in months.</p><p>继近期调价后，iPad Mini 在亚马逊十月会员日期间迎来 100 美元优惠。这是该设备数月来的首次重大降价。</p><p>Tags: ipad · apple · amazon</p>",
+      "date_published": "2026-10-04T12:31:50+00:00",
+      "tags": [
+        "ipad",
+        "apple",
+        "amazon"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4951840-october-2026-monthly?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4951840-october-2026-monthly?source=feed_all_articles",
+      "title": "2026 年 10 月月报",
+      "content_html": "<p><strong>October 2026 Monthly</strong></p><p>This report provides an overview of the financial landscape and market performance for October 2026. It highlights key trends and potential investment shifts for the month.</p><p>本报告概述了 2026 年 10 月的金融格局与市场表现。文中重点分析了该月的关键趋势及潜在的投资转向。</p><p>Tags: finance · market · report</p>",
+      "date_published": "2026-10-04T12:30:00+00:00",
+      "tags": [
+        "finance",
+        "market",
+        "report"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4951841-utf-rate-shock-lifted-yield-to-7_87-percent-opened-entry-point-for-income?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4951841-utf-rate-shock-lifted-yield-to-7_87-percent-opened-entry-point-for-income?source=feed_all_articles",
+      "title": "UTF：利率冲击导致收益率升至 7.87%，为收益型投资者打开入场点",
+      "content_html": "<p><strong>UTF: Rate Shock Lifted The Yield To 7.87% And Opened An Entry Point For Income Investors</strong></p><p>Rising interest rates have pushed the yield of UTF to 7.87%, creating an attractive entry point for income-focused investors. The report analyzes the sustainability of these yields.</p><p>利率上升推动 UTF 的收益率达到 7.87%，为关注收益的投资者创造了理想的入场时机。报告分析了该收益率的可持续性。</p><p>Tags: utf · investment · yield</p>",
+      "date_published": "2026-10-04T12:30:00+00:00",
+      "tags": [
+        "utf",
+        "investment",
+        "yield"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1246414#reply0",
+      "url": "https://www.v2ex.com/t/1246414#reply0",
+      "title": "libcr 项目组发布免费 H5 界面媒体播放器 crPlayer 1.2.0 for macOS",
+      "content_html": "<p><strong>[macOS] libcr 项目组发布 免费 H5 界面的媒体播放器 crPlayer 1.2.0 for macOS</strong></p><p>The libcr project has released crPlayer 1.2.0, a C++ based media player with a customizable H5 interface. It features GPU acceleration and consistent UI across desktop platforms.</p><p>libcr 项目组发布了 crPlayer 1.2.0，这是一款基于 C++ 开发且拥有自定义 H5 界面的媒体播放器。它支持 GPU 加速，并在各桌面平台提供统一的 UI 体验。</p><p>Tags: macos · player · opensource</p>",
+      "date_published": "2026-10-04T12:25:30+00:00",
+      "tags": [
+        "macos",
+        "player",
+        "opensource"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4951834-wp-carey-stock-rising-rates-rising-rents?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4951834-wp-carey-stock-rising-rates-rising-rents?source=feed_all_articles",
+      "title": "W.P. Carey：利率与租金同步上涨",
+      "content_html": "<p><strong>W.P. Carey: Rising Rates, Rising Rents</strong></p><p>W.P. Carey is navigating the dual pressure of rising interest rates and increasing rental income. The analysis evaluates how the firm manages its portfolio in this fiscal climate.</p><p>W.P. Carey 正在应对利率上升与租金收入增加的双重压力。分析评估了该公司在此类财政环境下如何管理其投资组合。</p><p>Tags: wpcarey · reit · realestate</p>",
+      "date_published": "2026-10-04T12:23:38+00:00",
+      "tags": [
+        "wpcarey",
+        "reit",
+        "realestate"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1246412#reply1",
+      "url": "https://www.v2ex.com/t/1246412#reply1",
+      "title": "Firefox 157 nova 主题外观欠佳",
+      "content_html": "<p><strong>[Firefox] Firefox 157 nova 主题也太丑了吧</strong></p><p>Users are criticizing the design of the Firefox 157 nova theme, particularly its implementation of vertical tabs and containers. The visual changes have prompted many to disable the new theme entirely.</p><p>用户对 Firefox 157 nova 主题的设计表示不满，特别是垂直标签页和容器的布局实现。这些视觉改动促使许多用户完全停用了该主题。</p><p>Tags: firefox · browser · ui</p>",
+      "date_published": "2026-10-04T12:13:12+00:00",
+      "tags": [
+        "firefox",
+        "browser",
+        "ui"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+      "title": "德国总理突然访问期间，基辅大桥在俄罗斯无人机袭击中受损",
+      "content_html": "<p><strong>Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit</strong></p><p>Footage has emerged showing a Russian drone striking Kyiv&#x27;s Pivnichyi Bridge during a surprise visit by the German Chancellor. The attack resulted in a significant explosion, but details on casualties remain limited.</p><p>画面显示，在德国总理突访期间，一枚俄罗斯无人机击中了基辅的北桥。此次袭击引发了剧烈爆炸，但目前伤亡详情尚不明确。</p><p>Tags: ukraine · russia · war</p>",
+      "date_published": "2026-10-04T12:09:04+00:00",
+      "tags": [
+        "ukraine",
+        "russia",
+        "war"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/1001215/the-forgotten-chromebook-that-started-it-all",
+      "url": "https://www.theverge.com/podcast/1001215/the-forgotten-chromebook-that-started-it-all",
+      "title": "一切的起点：被遗忘的 Chromebook",
+      "content_html": "<p><strong>The forgotten Chromebook that started it all</strong></p><p>The Cr-48, Google&#x27;s original Chromebook prototype, was never intended for retail but served as a crucial proof-of-concept for cloud-based computing. This episode explores how this device defined a new era for laptops.</p><p>谷歌最初的 Chromebook 原型机 Cr-48 虽然从未公开发售，但作为云端计算的概念验证起到了关键作用。本期节目探讨了该设备如何定义了笔记本电脑的新时代。</p><p>Tags: chromebook · google · history</p>",
+      "date_published": "2026-10-04T12:00:00+00:00",
+      "tags": [
+        "chromebook",
+        "google",
+        "history"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/column/1003566/history-apple-ipod-mp3-music-player",
+      "url": "https://www.theverge.com/column/1003566/history-apple-ipod-mp3-music-player",
+      "title": "便携式 MP3 播放器的兴衰与复兴",
+      "content_html": "<p><strong>The rise, fall, and rise of portable MP3 players</strong></p><p>This newsletter tracks the historical arc of portable media players, from their initial dominance to their collapse and eventual resurgence. It examines the changing habits of digital music consumption.</p><p>本通讯追踪了便携式媒体播放器的历史轨迹，从最初的统治地位到没落再到最终的复兴。文章探讨了数字音乐消费习惯的变迁。</p><p>Tags: mp3 · music · history</p>",
+      "date_published": "2026-10-04T12:00:00+00:00",
+      "tags": [
+        "mp3",
+        "music",
+        "history"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1004199/amazon-kindle-openai-dots-witcher-3-remastered-bose-wired-headphones",
+      "url": "https://www.theverge.com/tech/1004199/amazon-kindle-openai-dots-witcher-3-remastered-bose-wired-headphones",
+      "title": "亚马逊色彩鲜艳且坚固的新款 Kindle",
+      "content_html": "<p><strong>Amazon’s colorful and sturdy new Kindles</strong></p><p>Amazon has introduced new Kindle models that combine durability with vibrant color options. These updates reflect a continued commitment to the e-reader market.</p><p>亚马逊推出了结合了耐用性与鲜艳配色方案的新款 Kindle。这些更新反映了其对电子阅读器市场的持续投入。</p><p>Tags: kindle · amazon · ereader</p>",
+      "date_published": "2026-10-04T12:00:00+00:00",
+      "tags": [
+        "kindle",
+        "amazon",
+        "ereader"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/fed-minutes-coming-this-week-could-give-markets-important-clues-about-future-rate-hikes-31bfba5b?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/fed-minutes-coming-this-week-could-give-markets-important-clues-about-future-rate-hikes-31bfba5b?mod=mw_rss_topstories",
+      "title": "美联储会议纪要本周发布，或为未来加息提供重要线索",
+      "content_html": "<p><strong>Fed minutes coming this week could give markets important clues about future rate hikes</strong></p><p>Market participants are awaiting the release of the September Fed meeting minutes for insights into future interest rate decisions. The current low real fed-funds rate adds significance to the upcoming report.</p><p>市场参与者正等待美联储九月会议纪要的发布，以获取未来利率决策的线索。当前较低的实际联邦基金利率使得这份报告备受关注。</p><p>Tags: fed · economy · interestrates</p>",
+      "date_published": "2026-10-04T12:00:00+00:00",
+      "tags": [
+        "fed",
+        "economy",
+        "interestrates"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://gamehistory.org/5k-magazines/",
+      "url": "https://gamehistory.org/5k-magazines/",
+      "title": "VGHF 数字档案馆收录超 5000 本杂志，下一步计划揭晓",
+      "content_html": "<p><strong>VGHF Digital Archive passes 5000 magazines. Here&#x27;s what&#x27;s next</strong></p><p>The Video Game History Foundation has surpassed 5,000 digital magazine archives, preserving crucial gaming history. They have outlined their future goals for expanding this library.</p><p>视频游戏历史基金会已数字化保存超过 5000 本游戏杂志，在保留珍贵游戏史方面取得重大进展。他们公布了扩展该图书馆的未来目标。</p><p>Tags: archive · gaming · history</p>",
+      "date_published": "2026-10-04T09:07:11+00:00",
+      "tags": [
+        "archive",
+        "gaming",
+        "history"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
+      "title": "澳大利亚调查迪拜航空副驾驶与该国的联系",
+      "content_html": "<p><strong>Australia investigating Flydubai co-pilot&#x27;s links to country</strong></p><p>Australian authorities are investigating a Flydubai co-pilot who attempted to seize control of an Israel-bound flight. The investigation focuses on his potential links to Australia.</p><p>澳大利亚当局正在调查一名试图夺取飞往以色列航班控制权的迪拜航空副驾驶。调查重点在于其与澳大利亚的潜在联系。</p><p>Tags: australia · aviation · investigation</p>",
+      "date_published": "2026-10-04T06:19:17+00:00",
+      "tags": [
+        "australia",
+        "aviation",
+        "investigation"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss",
+      "title": "康奈尔大学校长表示在兄弟会轮奸指控后“必须做得更好”",
+      "content_html": "<p><strong>Cornell president says university &#x27;must do better&#x27; after frat house rape allegations</strong></p><p>Cornell University&#x27;s president has addressed disturbing allegations of a gang rape at a fraternity house. The university is promising systemic improvements to campus safety.</p><p>康奈尔大学校长回应了关于兄弟会轮奸事件的令人不安的指控。校方承诺将从系统层面改善校园安全。</p><p>Tags: cornell · university · crime</p>",
+      "date_published": "2026-10-04T00:11:25+00:00",
+      "tags": [
+        "cornell",
+        "university",
+        "crime"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/the-government-can-take-15-of-social-security-benefits-to-repay-student-loans-these-proposals-seek-to-stop-it-102622fa?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/the-government-can-take-15-of-social-security-benefits-to-repay-student-loans-these-proposals-seek-to-stop-it-102622fa?mod=mw_rss_topstories",
+      "title": "政府可扣除 15% 的社会保障福利以偿还学生贷款，现有提案寻求停止该做法",
+      "content_html": "<p><strong>The government can take 15% of Social Security benefits to repay student loans. These proposals seek to stop it.</strong></p><p>Rising debt among older Americans has led to calls to end the government&#x27;s practice of garnishing Social Security benefits for student loan repayment. Proposals are being debated to protect vulnerable seniors.</p><p>美国老年人债务负担加重，引发了要求停止从社会保障福利中扣除学生贷款还款额的呼声。相关提案旨在保护弱势老年群体。</p><p>Tags: loans · socialsecurity · finance</p>",
+      "date_published": "2026-10-04T00:02:00+00:00",
+      "tags": [
+        "loans",
+        "socialsecurity",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
+      "title": "工资下降、能源价格飙升与通胀：看起来很像 20 世纪 70 年代",
+      "content_html": "<p><strong>Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s</strong></p><p>Economic indicators like falling wages and high inflation are drawing comparisons to the 1970s. Analysts are questioning whether financial strategies from that era should be revisited.</p><p>工资下降和高通胀等经济指标引发了与 20 世纪 70 年代的对比。分析师正在探讨是否应重新启用当时的金融策略。</p><p>Tags: economy · inflation · history</p>",
+      "date_published": "2026-10-03T23:58:00+00:00",
+      "tags": [
+        "economy",
+        "inflation",
+        "history"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
+      "title": "田纳西州监狱长因 Christa Pike 行刑失败而辞职",
+      "content_html": "<p><strong>Tennessee prison chief to resign after Christa Pike&#x27;s failed execution</strong></p><p>The Tennessee prison chief is resigning following a botched execution attempt of inmate Christa Pike. Legal teams are highlighting systemic failures behind the incident.</p><p>田纳西州监狱长因犯人 Christa Pike 的行刑失败而辞职。法律团队指出该事件背后存在系统性失误。</p><p>Tags: prison · law · usa</p>",
+      "date_published": "2026-10-03T17:48:42+00:00",
+      "tags": [
+        "prison",
+        "law",
+        "usa"
+      ],
+      "_category": "WORLD"
+    },
+    {
       "id": "https://www.v2ex.com/t/1246284#reply1",
       "url": "https://www.v2ex.com/t/1246284#reply1",
       "title": "程序员求助：推广区发广告被封号",
@@ -366,6 +652,19 @@
         "企业",
         "ai",
         "商业"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+      "title": "AI 正在改变开发者工作方式，建议加强这三项技能",
+      "content_html": "<p><strong>AI is changing developer work. Here are three skills to strengthen.</strong></p><p>GitHub emphasizes three essential skills for developers in the AI era: directing AI agents, critically reviewing outputs, and maintaining human-centric technical judgment. These are vital for workflows in modern software engineering.</p><p>GitHub 强调了人工智能时代开发者所需的三项关键技能：指挥 AI 代理、批判性评审输出以及保持以人为本的技术判断力。这对现代软件工程工作流至关重要。</p><p>Tags: github · developer · ai</p>",
+      "date_published": "2026-10-02T15:00:00+00:00",
+      "tags": [
+        "github",
+        "developer",
+        "ai"
       ],
       "_category": "AI"
     },
@@ -2312,306 +2611,6 @@
         "投资"
       ],
       "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/spacex-is-moments-away-from-monumental-starship-launch-4f34767b?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/spacex-is-moments-away-from-monumental-starship-launch-4f34767b?mod=mw_rss_topstories",
-      "title": "SpaceX星舰首次进入地球轨道",
-      "content_html": "<p><strong>SpaceX sends its Starship rocket to orbit for the first time</strong></p><p>SpaceX successfully launched its Starship rocket into orbit for the first time. The company is now one step closer to achieving its goal of full reusability for the launch system.</p><p>SpaceX成功将星舰火箭送入地球轨道。这标志着该公司在实现火箭完全可重复使用的目标上又迈出了关键一步。</p><p>Tags: spacex · 星舰 · 航天</p>",
-      "date_published": "2026-09-28T14:11:00+00:00",
-      "tags": [
-        "spacex",
-        "星舰",
-        "航天"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1001326/bose-wired-earbuds-noise-canceling-headphones-preorder",
-      "url": "https://www.theverge.com/tech/1001326/bose-wired-earbuds-noise-canceling-headphones-preorder",
-      "title": "Bose时隔11年首发有线耳机，加入降噪功能",
-      "content_html": "<p><strong>Bose’s first wired earbuds in 11 years add noise canceling</strong></p><p>Bose has released new wired earbuds for the first time since 2015, featuring active noise cancellation. The product aims to appeal to users who want to avoid the hassle of charging batteries.</p><p>Bose时隔11年再度推出有线耳机，并配备了主动降噪功能。此举旨在吸引那些希望摆脱频繁充电困扰的用户。</p><p>Tags: bose · 耳机 · 数码</p>",
-      "date_published": "2026-09-28T14:09:44+00:00",
-      "tags": [
-        "bose",
-        "耳机",
-        "数码"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
-      "url": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
-      "title": "SaaS危机并未发生：对话Atlassian CEO",
-      "content_html": "<p><strong>The SaaSpocalypse that wasn&amp;#8217;t, with Atlassian CEO Mike Cannon-Brookes</strong></p><p>Atlassian CEO Mike Cannon-Brookes discusses the state of the SaaS industry and refutes the &#x27;SaaS apocalypse&#x27; narrative. He explains how tools like Jira remain essential for modern collaborative work.</p><p>Atlassian CEO Mike Cannon-Brookes探讨了SaaS行业现状，并驳斥了“SaaS末日”论。他阐述了Jira等工具对现代协作的重要性。</p><p>Tags: saas · atlassian · 软件</p>",
-      "date_published": "2026-09-28T14:00:00+00:00",
-      "tags": [
-        "saas",
-        "atlassian",
-        "软件"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://blog.alexewerlof.com/p/coding-is-not-solved",
-      "url": "https://blog.alexewerlof.com/p/coding-is-not-solved",
-      "title": "编程问题并未彻底解决",
-      "content_html": "<p><strong>Coding Is Not Solved – Alex Ewerlöf Notes</strong></p><p>This piece argues that despite AI advancements, software development remains a human-centric challenge. It explores why writing code is far from being a fully automated &#x27;solved&#x27; problem.</p><p>文章认为尽管AI取得了进展，软件开发本质上仍是人的活动。探讨了为何编程远未成为完全自动化的“已解问题”。</p><p>Tags: 编程 · ai · 软件工程</p>",
-      "date_published": "2026-09-28T13:52:57+00:00",
-      "tags": [
-        "编程",
-        "ai",
-        "软件工程"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://theeducatorsroom.com/has-violence-against-teachers-become-accepted-by-society/",
-      "url": "https://theeducatorsroom.com/has-violence-against-teachers-become-accepted-by-society/",
-      "title": "针对教师的暴力行为是否已成为社会常态？",
-      "content_html": "<p><strong>Has Violence Against Teachers Become Accepted by Society?</strong></p><p>The article raises concerns about the increasing frequency of violence against educators. It calls for a societal reflection on how school environments have become more dangerous.</p><p>文章对针对教师的暴力行为日益频繁表示关切。呼吁社会反思校园环境为何变得愈发危险。</p><p>Tags: 教育 · 校园暴力 · 社会</p>",
-      "date_published": "2026-09-28T13:40:28+00:00",
-      "tags": [
-        "教育",
-        "校园暴力",
-        "社会"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
-      "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
-      "title": "英伟达称其新型AI安全平台可在“毫秒级”内控制恶意代理",
-      "content_html": "<p><strong>Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’</strong></p><p>Nvidia has launched the Open Agent Safety Platform designed to detect and quarantine rogue AI agents. This system aims to prevent cybersecurity incidents by acting within milliseconds.</p><p>英伟达发布了Open Agent Safety Platform，旨在发现并隔离恶意AI代理。该系统能在毫秒内做出反应，防止网络安全事件。</p><p>Tags: 英伟达 · ai安全 · 代理</p>",
-      "date_published": "2026-09-28T13:36:06+00:00",
-      "tags": [
-        "英伟达",
-        "ai安全",
-        "代理"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1000924/philips-sonicare-next-generation-diamondclean-9900-prestige-smart-toothbrush",
-      "url": "https://www.theverge.com/tech/1000924/philips-sonicare-next-generation-diamondclean-9900-prestige-smart-toothbrush",
-      "title": "飞利浦运动追踪智能牙刷通过AI优化刷牙效果",
-      "content_html": "<p><strong>Philips’ motion-tracking smart toothbrush uses AI to make you a better brusher</strong></p><p>Philips has launched the Next-Gen DiamondClean 9900 Prestige, which uses AI to track brushing motions. It offers real-time guidance to improve oral hygiene habits for users.</p><p>飞利浦推出新款智能牙刷，利用AI追踪刷牙动作。产品通过实时指导帮助用户优化刷牙习惯，提升口腔卫生。</p><p>Tags: 飞利浦 · 智能硬件 · ai</p>",
-      "date_published": "2026-09-28T13:00:00+00:00",
-      "tags": [
-        "飞利浦",
-        "智能硬件",
-        "ai"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2589966-ai-finds-3d-shape-that-fills-all-space-with-a-never-repeating-pattern/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2589966-ai-finds-3d-shape-that-fills-all-space-with-a-never-repeating-pattern/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "AI发现一种能以非重复模式填充所有空间的3D形状",
-      "content_html": "<p><strong>AI finds 3D shape that fills all space with a never-repeating pattern</strong></p><p>A researcher used AI to discover a 3D shape capable of tiling space without ever repeating its pattern. The findings have sparked debate among professional mathematicians.</p><p>研究人员利用AI发现了一种能在空间中进行非重复排列的3D形状。该发现引发了数学界的广泛讨论。</p><p>Tags: ai · 数学 · 几何</p>",
-      "date_published": "2026-09-28T13:00:00+00:00",
-      "tags": [
-        "ai",
-        "数学",
-        "几何"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
-      "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
-      "title": "科技快报：恶意代理责任与AI炒作指数",
-      "content_html": "<p><strong>The Download: rogue agent liability and the AI Hype Index</strong></p><p>This newsletter covers the liability issues surrounding rogue AI agents following recent cyberattacks. It also examines the current state of AI industry hype.</p><p>本期通讯涵盖了近期AI代理攻击引发的法律责任问题。同时分析了当前AI行业的炒作现状。</p><p>Tags: ai · 网络安全 · 行业分析</p>",
-      "date_published": "2026-09-28T12:10:00+00:00",
-      "tags": [
-        "ai",
-        "网络安全",
-        "行业分析"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/science/1001259/spacex-starlink-satellites-starship-amazon-leo",
-      "url": "https://www.theverge.com/science/1001259/spacex-starlink-satellites-starship-amazon-leo",
-      "title": "SpaceX准备发射新一代Starlink，亚马逊竞争项目停滞",
-      "content_html": "<p><strong>SpaceX preps next-gen Starlink as Amazon’s competitor stalls</strong></p><p>SpaceX is preparing to launch its V3 Starlink satellites via Starship. Meanwhile, Amazon&#x27;s competing constellation project faces significant delays.</p><p>SpaceX准备通过星舰发射新一代V3星链卫星。与此同时，亚马逊的竞争项目面临严重进展缓慢的问题。</p><p>Tags: spacex · 星链 · 航天</p>",
-      "date_published": "2026-09-28T12:09:17+00:00",
-      "tags": [
-        "spacex",
-        "星链",
-        "航天"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&at_campaign=rss",
-      "title": "墨西哥太平洋沿岸严阵以待飓风“波罗”",
-      "content_html": "<p><strong>Mexico&#x27;s Pacific coast braces for Hurricane Polo</strong></p><p>Hurricane Polo, a category-three storm, is approaching Baja California Sur. Authorities are preparing for severe weather impacts along Mexico&#x27;s coast.</p><p>三级飓风“波罗”正逼近南下加利福尼亚州。当地政府正严阵以待，应对墨西哥沿岸可能遭受的严重天气影响。</p><p>Tags: 飓风 · 墨西哥 · 气象</p>",
-      "date_published": "2026-09-28T11:05:49+00:00",
-      "tags": [
-        "飓风",
-        "墨西哥",
-        "气象"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2590917-what-has-made-this-monster-el-nino-so-strong/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2590917-what-has-made-this-monster-el-nino-so-strong/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "为何这次厄尔尼诺现象如此强烈？",
-      "content_html": "<p><strong>Why is this monster El Niño so strong?</strong></p><p>The current El Niño is breaking records months before its expected peak. Experts identify two primary factors contributing to its extreme intensity.</p><p>本轮厄尔尼诺现象在峰值到来前已打破多项记录。专家指出了导致其极端强度的两个主要因素。</p><p>Tags: 厄尔尼诺 · 气候 · 科学</p>",
-      "date_published": "2026-09-28T11:00:00+00:00",
-      "tags": [
-        "厄尔尼诺",
-        "气候",
-        "科学"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-      "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-      "title": "当AI代理出现流氓行为时，谁该负责？",
-      "content_html": "<p><strong>Who’s liable when AI agents go rogue?</strong></p><p>As AI agents become more autonomous, their potential for malicious activity raises complex liability questions. This article explores the legal and ethical challenges for developers and users.</p><p>随着AI代理自主性增强，其可能引发的恶意行为带来了复杂的法律责任问题。探讨了开发者和用户面临的法律与伦理挑战。</p><p>Tags: ai · 法律 · 责任</p>",
-      "date_published": "2026-09-28T08:06:22+00:00",
-      "tags": [
-        "ai",
-        "法律",
-        "责任"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2590997-can-you-hack-your-brain-to-be-ultra-productive/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2590997-can-you-hack-your-brain-to-be-ultra-productive/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "你能通过“黑客”方式让大脑变得超级高效吗？",
-      "content_html": "<p><strong>Can you hack your brain to be ultra-productive?</strong></p><p>The article explores neuroscience-backed methods for improving focus and productivity. It offers practical tips to manage distractions in an increasingly noisy digital world.</p><p>文章探讨了基于神经科学的提升专注力和生产力的方法。提供了在充满干扰的数字世界中管理专注力的实用技巧。</p><p>Tags: 大脑 · 生产力 · 神经科学</p>",
-      "date_published": "2026-09-28T08:00:00+00:00",
-      "tags": [
-        "大脑",
-        "生产力",
-        "神经科学"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cxp84g2ly1mjo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cxp84g2ly1mjo?at_medium=RSS&at_campaign=rss",
-      "title": "特朗普-习近平峰会：未竟之言可能最关键",
-      "content_html": "<p><strong>Trump-Xi summit: What wasn&#x27;t said might matter the most</strong></p><p>The recent Washington summit is analyzed not just for what was said, but for the notable omissions. What remains unstated could indicate the true state of US-China relations.</p><p>分析认为华盛顿峰会的重点不仅在于双方说了什么，更在于未竟之言。这些未被提及的内容可能揭示了中美关系的真实走向。</p><p>Tags: 外交 · 峰会 · 政治</p>",
-      "date_published": "2026-09-28T07:52:23+00:00",
-      "tags": [
-        "外交",
-        "峰会",
-        "政治"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4950042-harley-davidson-stock-macro-pressures-outweigh-self-help-measures-downgrade?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4950042-harley-davidson-stock-macro-pressures-outweigh-self-help-measures-downgrade?source=feed_all_articles",
-      "title": "哈雷戴维森：宏观压力超过了自我救助措施（评级下调）",
-      "content_html": "<p><strong>Harley-Davidson: Macro Pressures Outweigh Self-Help Measures (Rating Downgrade)</strong></p><p>Harley-Davidson has received a rating downgrade as analysts argue that broader macroeconomic headwinds are negating the company&#x27;s internal restructuring efforts. Investors are wary that self-help initiatives are insufficient to offset current market pressures.</p><p>哈雷戴维森因评级被下调，分析师认为宏观经济的逆风抵消了公司内部的重组努力。投资者担心目前的自我救助措施不足以抵御当前的市场压力。</p><p>Tags: harleydavidson · finance · stockmarket</p>",
-      "date_published": "2026-09-27T12:32:57+00:00",
-      "tags": [
-        "harleydavidson",
-        "finance",
-        "stockmarket"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4950045-scribe-stock-surges-on-ipo-debut-but-all-eyes-turn-to-1h27-data?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4950045-scribe-stock-surges-on-ipo-debut-but-all-eyes-turn-to-1h27-data?source=feed_all_articles",
-      "title": "Scribe IPO首秀飙升——但市场目光转向2027年上半年数据",
-      "content_html": "<p><strong>Scribe Surges On IPO Debut -- But All Eyes Turn To 1H27 Data</strong></p><p>Scribe saw a strong performance on its first day of trading following its IPO. Despite the initial excitement, investors are now shifting their focus toward the company&#x27;s operational results due in the first half of 2027.</p><p>Scribe在IPO首个交易日表现强劲。尽管市场反应热烈，但投资者的目光已转向公司定于2027年上半年发布的运营数据。</p><p>Tags: scribe · ipo · stocks</p>",
-      "date_published": "2026-09-27T12:30:06+00:00",
-      "tags": [
-        "scribe",
-        "ipo",
-        "stocks"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4949560-earn-10-percent-potential-income-monthly-options-series-oct-2026?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4949560-earn-10-percent-potential-income-monthly-options-series-oct-2026?source=feed_all_articles",
-      "title": "赚取10-15%的潜在收益：月度期权系列（2026年10月）",
-      "content_html": "<p><strong>Earn 10-15% Potential Income: Monthly Options Series (Oct. 2026)</strong></p><p>This article discusses a strategy for generating 10-15% potential income through a specific monthly options series scheduled for October 2026. It provides insights into managing risk while aiming for yield in current market conditions.</p><p>本文探讨了一种通过2026年10月的特定月度期权系列赚取10-15%潜在收益的策略。文章分析了在当前市场环境下如何平衡风险与预期回报。</p><p>Tags: options · investing · yield</p>",
-      "date_published": "2026-09-27T12:30:00+00:00",
-      "tags": [
-        "options",
-        "investing",
-        "yield"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4950040-sandisk-the-market-still-doubts-this-boom?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4950040-sandisk-the-market-still-doubts-this-boom?source=feed_all_articles",
-      "title": "Sandisk：市场依然质疑这一繁荣",
-      "content_html": "<p><strong>Sandisk: The Market Still Doubts This Boom</strong></p><p>Despite signs of growth, market participants remain skeptical about the sustainability of the current boom for Sandisk. The article examines the conflicting signals driving investor sentiment and the challenges ahead for the company.</p><p>尽管存在增长迹象，但市场参与者仍对Sandisk当前的繁荣能否持续持怀疑态度。文章探讨了影响投资者情绪的矛盾信号以及公司面临的挑战。</p><p>Tags: sandisk · tech · market</p>",
-      "date_published": "2026-09-27T12:26:01+00:00",
-      "tags": [
-        "sandisk",
-        "tech",
-        "market"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1245063#reply0",
-      "url": "https://www.v2ex.com/t/1245063#reply0",
-      "title": "想自己组一台商业级 TrueNAS / ZFS NAS，求配置建议",
-      "content_html": "<p><strong>[问与答] 想自己组一台商业级 TrueNAS / ZFS NAS，求 CPU、主板、ECC、HBA、万兆、机箱完整配置建议</strong></p><p>A user is seeking advice on building a commercial-grade NAS using TrueNAS and ZFS for high-performance storage. Key questions involve CPU selection, ECC memory requirements, and reliable HBA/network hardware for professional workflows.</p><p>一名用户寻求组装商业级TrueNAS和ZFS NAS的建议，以满足高性能存储需求。讨论重点在于CPU选择、ECC内存需求以及适合专业工作流的硬件配置。</p><p>Tags: nas · truenas · zfs · diy</p>",
-      "date_published": "2026-09-27T12:23:02+00:00",
-      "tags": [
-        "nas",
-        "truenas",
-        "zfs",
-        "diy"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1245062#reply4",
-      "url": "https://www.v2ex.com/t/1245062#reply4",
-      "title": "新款 Apple Watch 的设计太离谱了吧",
-      "content_html": "<p><strong>[ WATCH] 新款 Apple Watch 的设计太离谱了吧</strong></p><p>A potential buyer expresses disappointment with the design of the new Apple Watch after a hands-on experience. The critique focuses on the aesthetics of the screen bezels and the inconvenience of the charging and strap mechanism.</p><p>一位潜在买家在亲身体验后对新款Apple Watch的设计表示极度失望。批评主要集中在屏幕边框的美感以及充电和表带更换的不便上。</p><p>Tags: apple · applewatch · design</p>",
-      "date_published": "2026-09-27T12:19:40+00:00",
-      "tags": [
-        "apple",
-        "applewatch",
-        "design"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4950039-fidelity-small-cap-value-fund-q2-2026-commentary?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4950039-fidelity-small-cap-value-fund-q2-2026-commentary?source=feed_all_articles",
-      "title": "富达小盘股价值基金2026年二季度评论",
-      "content_html": "<p><strong>Fidelity Small Cap Value Fund Q2 2026 Commentary</strong></p><p>The commentary for the Fidelity Small Cap Value Fund covers performance metrics and strategic adjustments made during the second quarter of 2026. It highlights the fund manager&#x27;s perspective on market volatility and asset allocation.</p><p>富达小盘股价值基金的评论涵盖了2026年第二季度的业绩表现和战略调整。文章重点阐述了基金经理对市场波动和资产配置的看法。</p><p>Tags: fidelity · fund · investment</p>",
-      "date_published": "2026-09-27T12:19:00+00:00",
-      "tags": [
-        "fidelity",
-        "fund",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1245060#reply3",
-      "url": "https://www.v2ex.com/t/1245060#reply3",
-      "title": "OpenAI的Astra表现极其愚蠢",
-      "content_html": "<p><strong>[OpenAI] Astra 蠢成一匹马了</strong></p><p>A user complains that OpenAI&#x27;s Astra model has become significantly less intelligent, expressing frustration over perceived &#x27;secret&#x27; downgrades. The user suggests that if OpenAI wants to enforce usage limits, they should be transparent rather than degrading model quality.</p><p>一名用户抱怨OpenAI的Astra模型表现极其愚蠢，对所谓的“暗中降智”行为表示不满。用户认为，如果OpenAI要进行风控，应该直接明示而非偷偷降低模型性能。</p><p>Tags: openai · astra · llm</p>",
-      "date_published": "2026-09-27T12:03:47+00:00",
-      "tags": [
-        "openai",
-        "astra",
-        "llm"
-      ],
-      "_category": "AI"
     }
   ]
 }
