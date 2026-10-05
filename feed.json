@@ -6,6 +6,474 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1246555#reply0",
+      "url": "https://www.v2ex.com/t/1246555#reply0",
+      "title": "推广 MUSE 额度互助",
+      "content_html": "<p><strong>[推广] MUSE 额度互助</strong></p><p>A user is sharing an invitation code for the AI agent Muse to help others gain tokens. New users can sign up to receive 1 billion Muse tokens within 48 hours.</p><p>用户分享了AI智能体Muse的邀请码以进行额度互助。新用户加入后48小时内使用邀请码可获得10亿代币奖励。</p><p>Tags: ai · muse · invitation</p>",
+      "date_published": "2026-10-05T15:22:48+00:00",
+      "tags": [
+        "ai",
+        "muse",
+        "invitation"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1246554#reply0",
+      "url": "https://www.v2ex.com/t/1246554#reply0",
+      "title": "OpenAI Codex 6.0/6.1 版本使用体验",
+      "content_html": "<p><strong>[OpenAI] Codex 已经可以用 6 和 6.1，还是选择 5.6luna high 性价比最高是吗？</strong></p><p>A user discusses their experience with different versions of Codex, noting high resource consumption with the latest models. They are questioning the cost-effectiveness of these versions for daily tasks.</p><p>用户探讨了Codex不同版本的使用体验，指出最新模型消耗资源较大。他们正在权衡高版本模型的性价比。</p><p>Tags: openai · codex · llm</p>",
+      "date_published": "2026-10-05T15:16:49+00:00",
+      "tags": [
+        "openai",
+        "codex",
+        "llm"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4951997-netlist-an-asymmetric-play-in-the-memory-market?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4951997-netlist-an-asymmetric-play-in-the-memory-market?source=feed_all_articles",
+      "title": "Netlist：内存市场的非对称博弈",
+      "content_html": "<p><strong>Netlist: An Asymmetric Play In The Memory Market</strong></p><p>This article analyzes Netlist&#x27;s strategic position within the competitive memory chip market. It explores the asymmetric risks and opportunities for investors tracking this specific sector.</p><p>文章分析了Netlist在内存芯片市场的战略地位。探讨了该领域投资者所面临的非对称风险与机遇。</p><p>Tags: netlist · memory · stocks</p>",
+      "date_published": "2026-10-05T15:11:12+00:00",
+      "tags": [
+        "netlist",
+        "memory",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1246553#reply1",
+      "url": "https://www.v2ex.com/t/1246553#reply1",
+      "title": "分享发现：女菩萨",
+      "content_html": "<p><strong>[分享发现] 女菩萨</strong></p><p>The author shares a link to a website with the cryptic name &#x27;Nu Pu Sa&#x27;. The context suggests it is a resource or utility site for specific internet communities.</p><p>作者分享了一个名为“女菩萨”的网站链接。从语境来看，这似乎是特定网络社区的资源或工具站。</p><p>Tags: share · website · discovery</p>",
+      "date_published": "2026-10-05T15:09:53+00:00",
+      "tags": [
+        "share",
+        "website",
+        "discovery"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4951995-royce-q3-2026-small-cap-recap?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4951995-royce-q3-2026-small-cap-recap?source=feed_all_articles",
+      "title": "Royce 2026年第三季度小盘股回顾",
+      "content_html": "<p><strong>Royce Q3 2026 Small-Cap Recap</strong></p><p>This report provides a summary of small-cap market performance for the third quarter of 2026. It highlights key trends and sector movements observed during this period.</p><p>本报告概述了2026年第三季度小盘股的市场表现。总结了该期间的关键趋势和行业波动。</p><p>Tags: stocks · finance · smallcap</p>",
+      "date_published": "2026-10-05T15:07:00+00:00",
+      "tags": [
+        "stocks",
+        "finance",
+        "smallcap"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1246551#reply1",
+      "url": "https://www.v2ex.com/t/1246551#reply1",
+      "title": "Claude CCMAX20x 求上游对接",
+      "content_html": "<p><strong>[Claude] CCMAX20x，量大 求上游对接</strong></p><p>A user is seeking a direct upstream connection to supply CCMAX20x services in bulk. They are actively looking for reliable partners to manage high-volume demand.</p><p>用户正在寻求CCMAX20x服务的直接上游供应渠道。他们希望寻找可靠的合作伙伴来满足大批量需求。</p><p>Tags: claude · api · business</p>",
+      "date_published": "2026-10-05T15:06:04+00:00",
+      "tags": [
+        "claude",
+        "api",
+        "business"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1246552#reply0",
+      "url": "https://www.v2ex.com/t/1246552#reply0",
+      "title": "淘宝上的光猫专用微型 UPS 靠谱吗？",
+      "content_html": "<p><strong>[硬件] 话说某宝上面那种装锂电池给光猫路由这些设备用的的微型 UPS 靠谱么？</strong></p><p>The author questions the reliability of generic micro UPS devices sold on Taobao for networking equipment. Common complaints include slow charging and the lack of automatic reboot functions.</p><p>作者质疑淘宝上销售的光猫专用微型UPS的可靠性。常见的负面反馈包括充电缓慢和缺乏自动重启功能。</p><p>Tags: hardware · ups · network</p>",
+      "date_published": "2026-10-05T15:06:04+00:00",
+      "tags": [
+        "hardware",
+        "ups",
+        "network"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4952005-mixed-markets-traders-look-catalysts?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4952005-mixed-markets-traders-look-catalysts?source=feed_all_articles",
+      "title": "市场走势分化，交易者静待催化剂",
+      "content_html": "<p><strong>Mixed Markets As Traders Look For Catalysts</strong></p><p>The financial markets are showing mixed signals as traders remain cautious. Investors are currently waiting for significant economic catalysts to dictate the next market direction.</p><p>金融市场走势分化，交易者保持谨慎态度。投资者正在静待重大经济催化剂以指引市场方向。</p><p>Tags: markets · trading · finance</p>",
+      "date_published": "2026-10-05T15:05:00+00:00",
+      "tags": [
+        "markets",
+        "trading",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4951994-two-quality-8-percent-yielders-to-consider?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4951994-two-quality-8-percent-yielders-to-consider?source=feed_all_articles",
+      "title": "值得关注的两只 8% 高收益股票",
+      "content_html": "<p><strong>2 Quality 8% Yielders To Consider</strong></p><p>This article highlights two high-quality stocks that currently offer an 8% dividend yield. It provides a brief analysis of why these options might be suitable for income-focused investors.</p><p>文章介绍了两只目前提供8%股息收益的优质股票。简要分析了为何这些选择适合注重收入的投资者。</p><p>Tags: dividend · stocks · investment</p>",
+      "date_published": "2026-10-05T15:01:11+00:00",
+      "tags": [
+        "dividend",
+        "stocks",
+        "investment"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://openai.com/index/eu-text-provenance",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "title": "我们关于欧盟文本溯源规则的方法",
+      "content_html": "<p><strong>Our approach to EU text provenance rules</strong></p><p>OpenAI details its strategy for implementing text watermarking in accordance with new EU regulations. The company explains how detection works and focuses initial access on academic researchers.</p><p>OpenAI详细说明了其针对欧盟新规实施文本水印的策略。公司解释了检测原理，并优先向学术研究人员提供访问权限。</p><p>Tags: openai · regulation · watermark</p>",
+      "date_published": "2026-10-05T15:00:00+00:00",
+      "tags": [
+        "openai",
+        "regulation",
+        "watermark"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/im-in-my-20s-and-keep-getting-laid-off-should-i-invest-in-my-employers-401-k-or-look-into-other-options-387b34d3?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/im-in-my-20s-and-keep-getting-laid-off-should-i-invest-in-my-employers-401-k-or-look-into-other-options-387b34d3?mod=mw_rss_topstories",
+      "title": "20多岁频繁被裁，该投 401(k) 吗？",
+      "content_html": "<p><strong>I’m in my 20s and keep getting laid off. Should I invest in my employer’s 401(k) or look into other options?</strong></p><p>A young professional questions the value of 401(k) plans amid a volatile job market. They express skepticism about traditional long-term employment and seek alternative investment advice.</p><p>一名年轻员工在动荡的就业环境下质疑401(k)计划的价值。他们对传统的长期就业表示怀疑，并寻求替代性的投资建议。</p><p>Tags: career · finance · 401k</p>",
+      "date_published": "2026-10-05T15:00:00+00:00",
+      "tags": [
+        "career",
+        "finance",
+        "401k"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
+      "title": "贷款经理警告：挥霍无度的美国人正在引发危机",
+      "content_html": "<p><strong>‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected wealthy couples due to overspending. We’re all heading for trouble.</strong></p><p>A mortgage loan officer warns that excessive consumer spending is creating a bubble similar to the 2008 financial crisis. They urge Americans to adjust their financial habits to prevent an economic collapse.</p><p>一名抵押贷款经理警告称，过度消费正在制造类似2008年的金融泡沫。他们敦促美国人调整财务习惯以避免经济崩溃。</p><p>Tags: economy · finance · warning</p>",
+      "date_published": "2026-10-05T15:00:00+00:00",
+      "tags": [
+        "economy",
+        "finance",
+        "warning"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4952003-greek-myths-and-icelandic-sagas-reclassifications-in-global-market-library?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4952003-greek-myths-and-icelandic-sagas-reclassifications-in-global-market-library?source=feed_all_articles",
+      "title": "希腊神话与冰岛萨迦：全球市场库的重新分类",
+      "content_html": "<p><strong>Greek Myths And Icelandic Sagas: Reclassifications In The Global Market Library</strong></p><p>This piece uses metaphors to discuss the reorganization of global market classifications. It examines how traditional structures are being updated to reflect modern economic realities.</p><p>文章运用隐喻讨论了全球市场分类的重新整合。探讨了传统结构如何更新以反映现代经济现实。</p><p>Tags: finance · markets · analysis</p>",
+      "date_published": "2026-10-05T15:00:00+00:00",
+      "tags": [
+        "finance",
+        "markets",
+        "analysis"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2591962-2591962/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2591962-2591962/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "在丹尼索瓦洞穴发现灭绝的牦牛近亲 DNA",
+      "content_html": "<p><strong>Extinct yak relative discovered from DNA in Denisova cave</strong></p><p>Genetic analysis of bone fragments from the Denisova cave has identified a previously unknown species of yak. This discovery sheds new light on the biodiversity of the region in ancient times.</p><p>通过对丹尼索瓦洞穴骨骼碎片的基因分析，科学家发现了一种未知的牦牛物种。这一发现揭示了该地区古代的生物多样性。</p><p>Tags: dna · paleontology · discovery</p>",
+      "date_published": "2026-10-05T15:00:00+00:00",
+      "tags": [
+        "dna",
+        "paleontology",
+        "discovery"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2590514-can-we-harness-the-brains-deep-cleaning-system-to-prevent-alzheimers/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2590514-can-we-harness-the-brains-deep-cleaning-system-to-prevent-alzheimers/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "我们能利用大脑的深度清洁系统预防阿尔茨海默病吗？",
+      "content_html": "<p><strong>Can we harness the brain’s deep-cleaning system to prevent Alzheimer’s?</strong></p><p>Researchers are investigating the glymphatic system, the brain&#x27;s waste clearance network, to combat neurodegenerative diseases. Boosting this system could offer a new pathway to protect cognitive health.</p><p>研究人员正在探索大脑的类淋巴系统，即其废物清除网络，以对抗神经退行性疾病。强化该系统可能为保护认知健康提供新途径。</p><p>Tags: brain · health · alzheimer</p>",
+      "date_published": "2026-10-05T15:00:00+00:00",
+      "tags": [
+        "brain",
+        "health",
+        "alzheimer"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.theverge.com/entertainment/1004734/cnn-ceo-mark-thompson-paramount-warner-bros",
+      "url": "https://www.theverge.com/entertainment/1004734/cnn-ceo-mark-thompson-paramount-warner-bros",
+      "title": "CNN 老板将在派拉蒙与华纳兄弟合并后留任",
+      "content_html": "<p><strong>CNN&amp;#8217;s boss will remain as Paramount and WBD merge into Skydance</strong></p><p>Mark Thompson will remain the CEO of CNN following the $110 billion merger of Paramount and Warner Bros. Discovery. He reaffirmed his commitment to maintaining the network&#x27;s journalistic independence.</p><p>在派拉蒙与华纳兄弟探索公司完成1100亿美元的合并后，马克·汤普森将留任CNN首席执行官。他重申将维护该电视网的新闻独立性。</p><p>Tags: cnn · merger · media</p>",
+      "date_published": "2026-10-05T14:42:34+00:00",
+      "tags": [
+        "cnn",
+        "merger",
+        "media"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2591415-ai-finds-bafflingly-complex-but-beautiful-symmetrical-venn-diagram/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2591415-ai-finds-bafflingly-complex-but-beautiful-symmetrical-venn-diagram/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "AI 发现极其复杂且优美的对称维恩图",
+      "content_html": "<p><strong>AI finds bafflingly complex but beautiful symmetrical Venn diagram</strong></p><p>An amateur researcher has utilized AI to generate previously impossible rotationally symmetrical Venn diagrams. This achievement addresses a long-standing mathematical challenge.</p><p>一位业余研究者利用人工智能生成了此前无法实现的旋转对称维恩图。这一成就攻克了一个长期存在的数学难题。</p><p>Tags: ai · math · venndiagram</p>",
+      "date_published": "2026-10-05T14:40:13+00:00",
+      "tags": [
+        "ai",
+        "math",
+        "venndiagram"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/musk-hints-tsmc-may-join-his-mega-chip-venture-and-intels-stock-is-taking-a-hit-61c67ef9?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/musk-hints-tsmc-may-join-his-mega-chip-venture-and-intels-stock-is-taking-a-hit-61c67ef9?mod=mw_rss_topstories",
+      "title": "马斯克暗示芯片合资项目可能有其他合作伙伴，英特尔股价下跌",
+      "content_html": "<p><strong>Intel’s stock drops after Musk hints at an additional partner for big chip venture</strong></p><p>Intel&#x27;s stock dropped following Elon Musk&#x27;s mention of ongoing discussions with TSMC for the Terafab project. The market reacted to the possibility of Intel facing stiff competition in chip manufacturing.</p><p>在埃隆·马斯克暗示Terafab项目正在与台积电进行谈判后，英特尔股价下跌。市场对英特尔在芯片制造领域面临激烈竞争的可能性做出了反应。</p><p>Tags: intel · tsmc · stocks</p>",
+      "date_published": "2026-10-05T14:38:00+00:00",
+      "tags": [
+        "intel",
+        "tsmc",
+        "stocks"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/i-got-a-499-body-scan-to-see-if-i-have-cancer-heres-what-i-learned-09cfca29?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/i-got-a-499-body-scan-to-see-if-i-have-cancer-heres-what-i-learned-09cfca29?mod=mw_rss_topstories",
+      "title": "我花 499 美元做了全身扫描以检查癌症，我学到了什么？",
+      "content_html": "<p><strong>I got a $499 body scan to see if I have cancer. Here’s what I learned.</strong></p><p>The author shares their experience with a commercial full-body cancer screening scan. They discuss the limitations of a healthcare system focused on symptomatic diagnosis rather than preventative baselines.</p><p>作者分享了进行商业全身癌症扫描的体验。他们讨论了医疗系统侧重于症状诊断而非预防性基准的局限性。</p><p>Tags: health · cancer · scan</p>",
+      "date_published": "2026-10-05T14:35:00+00:00",
+      "tags": [
+        "health",
+        "cancer",
+        "scan"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o?at_medium=RSS&at_campaign=rss",
+      "title": "法国学生抗议期间少年手部被炸断",
+      "content_html": "<p><strong>Teenager&#x27;s hand blown off during confrontation between France school protesters and police</strong></p><p>A 15-year-old sustained serious injuries during clashes between student protesters and police in France. Authorities have confirmed the incident is under investigation and the teenager is stable.</p><p>在法国学生抗议者与警察的冲突中，一名15岁少年受重伤。当局证实正在对此事件进行调查，伤者生命体征平稳。</p><p>Tags: france · protest · incident</p>",
+      "date_published": "2026-10-05T14:30:31+00:00",
+      "tags": [
+        "france",
+        "protest",
+        "incident"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+      "url": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+      "title": "俄罗斯实验室人员死于鼠疫，近 200 人被隔离",
+      "content_html": "<p><strong>Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time</strong></p><p>A lab accident in Siberia resulted in a fatal case of pneumonic plague, triggering a quarantine for nearly 200 potential contacts. Health authorities are closely monitoring the situation to prevent further spread.</p><p>西伯利亚的一起实验室事故导致一名人员死于肺鼠疫，近200名接触者被隔离。卫生部门正密切监测以防扩散。</p><p>Tags: russia · plague · health</p>",
+      "date_published": "2026-10-05T14:30:00+00:00",
+      "tags": [
+        "russia",
+        "plague",
+        "health"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2592051-nearly-200-people-isolated-after-lab-worker-in-russia-dies-of-plague/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2592051-nearly-200-people-isolated-after-lab-worker-in-russia-dies-of-plague/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "十月亚马逊 Prime Day 最佳折扣汇总",
+      "content_html": "<p><strong>Nearly 200 people isolated after lab worker in Russia dies of plague</strong></p><p>Amazon&#x27;s October Prime Day deals are live, offering significant discounts across various product categories. These early sales serve as a preview for the upcoming Black Friday shopping season.</p><p>亚马逊十月会员日优惠活动现已开启，各类产品均有大幅折扣。这些促销活动可以被视为即将到来的黑色星期五购物季的前奏。</p><p>Tags: amazon · deals · shopping</p>",
+      "date_published": "2026-10-05T14:19:15+00:00",
+      "tags": [
+        "amazon",
+        "deals",
+        "shopping"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool",
+      "title": "将预测分析引入代理式 AI 时代",
+      "content_html": "<p><strong>An open-source tool lets you delete 12GB of Apple Intelligence data on macOS</strong></p><p>The enterprise focus for AI has shifted from simple predictive modeling to autonomous, agentic decision-making. The challenge is now ensuring these systems align with business objectives without losing control.</p><p>企业AI的重心已从简单的预测模型转向自主代理决策。现在的挑战在于确保这些系统在不失控的情况下与业务目标保持一致。</p><p>Tags: ai · enterprise · analytics</p>",
+      "date_published": "2026-10-05T13:47:14+00:00",
+      "tags": [
+        "ai",
+        "enterprise",
+        "analytics"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+      "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+      "title": "美国撤离轰炸机后，英国坚持称 Fairford 空军基地安全",
+      "content_html": "<p><strong>Bringing predictive analytics to the agentic AI era</strong></p><p>The UK government maintains that RAF Fairford is safe despite the sudden withdrawal of US bombers. Reports suggest the decision followed security concerns near the base.</p><p>尽管美国轰炸机突然撤离，英国政府坚称费尔福德皇家空军基地是安全的。有报道称，此决定是出于对基地附近安全隐患的担忧。</p><p>Tags: uk · military · security</p>",
+      "date_published": "2026-10-05T13:29:32+00:00",
+      "tags": [
+        "uk",
+        "military",
+        "security"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI 在 ChatGPT 中增加广告",
+      "content_html": "<p><strong>No10 insists UK military base RAF Fairford is safe after US withdraws bombers</strong></p><p>OpenAI is testing a new advertising format in ChatGPT that displays sponsored product images. These ads will primarily appear during image generation tasks as part of the company&#x27;s monetization strategy.</p><p>OpenAI正在ChatGPT中测试一种新的广告格式，展示赞助产品图片。作为公司盈利策略的一部分，这些广告将主要出现在图像生成任务中。</p><p>Tags: openai · chatgpt · ads</p>",
+      "date_published": "2026-10-05T13:16:00+00:00",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "ads"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+      "title": "Pixel 11 可能因未能达到 GrapheneOS 安全标准而被跳过",
+      "content_html": "<p><strong>OpenAI is sticking more ads in ChatGPT</strong></p><p>Rumors suggest the Pixel 11 may not be supported by GrapheneOS due to unmet security requirements. This would impact users who rely on the privacy-focused custom ROM.</p><p>有传言称，由于未能满足安全要求，Pixel 11可能不会获得GrapheneOS的支持。这将影响依赖该隐私定制ROM的用户。</p><p>Tags: pixel · grapheneos · security</p>",
+      "date_published": "2026-10-05T13:09:48+00:00",
+      "tags": [
+        "pixel",
+        "grapheneos",
+        "security"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "title": "下载：AI 的流行悖论与 2026 技术展望",
+      "content_html": "<p><strong>Pixel 11 doesn&#x27;t yet meet the GrapheneOS security standards and may be skipped</strong></p><p>This newsletter explores the contradiction between public skepticism of AI and its rapid adoption. It also previews the key technological themes for the upcoming 2026 industry landscape.</p><p>本通讯探讨了公众对人工智能的怀疑与其实际高速普及之间的矛盾。同时预告了2026年产业格局的关键技术主题。</p><p>Tags: ai · tech · trends</p>",
+      "date_published": "2026-10-05T13:02:25+00:00",
+      "tags": [
+        "ai",
+        "tech",
+        "trends"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
+      "url": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
+      "title": "Flydubai 副驾驶曾计划将飞机坠毁在特拉维夫",
+      "content_html": "<p><strong>The Download: AI’s popularity paradox and EmTech Future 2026</strong></p><p>Reports allege that a Flydubai co-pilot was a lone-wolf extremist who plotted to crash a plane into Tel Aviv. The incident highlights ongoing security concerns regarding aviation staff vetting.</p><p>据报道，一名迪拜航空副驾驶被指是独狼极端分子，曾密谋驾机撞向特拉维夫。该事件凸显了航空人员背景调查的安全隐忧。</p><p>Tags: aviation · security · middleeast</p>",
+      "date_published": "2026-10-05T12:10:00+00:00",
+      "tags": [
+        "aviation",
+        "security",
+        "middleeast"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
+      "title": "欧洲新机器人独角兽：德国 RobCo 估值达 10 亿美元",
+      "content_html": "<p><strong>Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say</strong></p><p>German robotics startup RobCo has officially reached a $1 billion valuation. The company specializes in modular, flexible industrial robots for manufacturing.</p><p>德国机器人初创公司RobCo估值正式达到10亿美元。该公司专门从事模块化、灵活的工业制造机器人研发。</p><p>Tags: robotics · germany · startup</p>",
+      "date_published": "2026-10-05T11:34:59+00:00",
+      "tags": [
+        "robotics",
+        "germany",
+        "startup"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
+      "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
+      "title": "诺贝尔奖授予揭示大脑内部运作机制的研究",
+      "content_html": "<p><strong>Europe&#x27;s new robotics unicorn: Germany&#x27;s RobCo hits $1B valuation</strong></p><p>The Nobel Prize has been awarded to Karl Deisseroth and colleagues for their pioneering work on brain function. Their research has provided deep insights into how the brain operates at a cellular level.</p><p>卡尔·戴瑟罗斯及其同事因在大脑功能领域的开创性工作获得诺贝尔奖。他们的研究深入揭示了大脑在细胞层面的运作机制。</p><p>Tags: nobel · science · brain</p>",
+      "date_published": "2026-10-05T11:13:51+00:00",
+      "tags": [
+        "nobel",
+        "science",
+        "brain"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
+      "title": "压缩骨骼可释放缓解创伤性脑损伤的分子",
+      "content_html": "<p><strong>Nobel Prize awarded for revealing inner workings of the brain</strong></p><p>A new study reveals that compressing shin bones in test subjects can trigger the release of molecules that aid brain injury recovery. This finding offers a novel, non-invasive approach to treating traumatic brain injuries.</p><p>一项新研究表明，压缩胫骨可促进释放有助于脑损伤恢复的分子。这一发现为治疗创伤性脑损伤提供了一种新颖的非侵入性方法。</p><p>Tags: biology · health · research</p>",
+      "date_published": "2026-10-05T11:04:37+00:00",
+      "tags": [
+        "biology",
+        "health",
+        "research"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2591964-compressing-bones-releases-molecules-that-ease-traumatic-brain-injuries/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2591964-compressing-bones-releases-molecules-that-ease-traumatic-brain-injuries/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "新闻发布：2026 年诺贝尔生理学或医学奖",
+      "content_html": "<p><strong>Compressing bones releases molecules that ease traumatic brain injuries</strong></p><p>The Nobel Assembly has announced the recipients of the 2026 Prize in Physiology or Medicine. The award recognizes significant breakthroughs in medical science that have changed our understanding of human health.</p><p>诺贝尔委员会公布了2026年生理学或医学奖获得者。该奖项表彰了改变人类健康认知的重大医学科学突破。</p><p>Tags: nobel · medicine · science</p>",
+      "date_published": "2026-10-05T11:00:00+00:00",
+      "tags": [
+        "nobel",
+        "medicine",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.nobelprize.org/prizes/medicine/2026/press-release/",
+      "url": "https://www.nobelprize.org/prizes/medicine/2026/press-release/",
+      "title": "西班牙首相桑切斯在住房抗议后提前举行选举",
+      "content_html": "<p><strong>Press Release: Nobel Prize in Physiology or Medicine 2026</strong></p><p>Following widespread protests over the housing crisis, Spanish Prime Minister Pedro Sánchez has called for an early election on November 29. The government hopes to seek a new mandate to address public grievances.</p><p>由于住房危机引发大规模抗议，西班牙首相佩德罗·桑切斯宣布于11月29日提前大选。政府希望通过寻求新授权来应对民众不满。</p><p>Tags: spain · politics · election</p>",
+      "date_published": "2026-10-05T10:35:59+00:00",
+      "tags": [
+        "spain",
+        "politics",
+        "election"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
+      "title": "为人们使用 AI 的方式构建广告",
+      "content_html": "<p><strong>Spanish PM Sánchez calls early election after housing protests</strong></p><p>OpenAI is refining its advertising approach to better suit user interactions within ChatGPT. The company aims to balance brand suitability with non-intrusive ad formats for better engagement.</p><p>OpenAI正在优化其广告方式，以更好地适应用户在ChatGPT中的互动。公司旨在平衡品牌适配性与非侵入式广告，以实现更好参与度。</p><p>Tags: openai · ads · advertising</p>",
+      "date_published": "2026-10-05T10:18:47+00:00",
+      "tags": [
+        "openai",
+        "ads",
+        "advertising"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "title": "丹麦数据泄露暴露 880 万人的个人数据",
+      "content_html": "<p><strong>Building advertising for the way people use AI</strong></p><p>A massive data breach in Denmark has compromised the personal information of 8.8 million people. Authorities are investigating the source of the leak and working to secure affected systems.</p><p>丹麦发生严重数据泄露事件，涉及880万人的个人信息。当局正在调查泄露源头并努力保障受影响系统的安全。</p><p>Tags: denmark · security · leak</p>",
+      "date_published": "2026-10-05T10:00:00+00:00",
+      "tags": [
+        "denmark",
+        "security",
+        "leak"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+      "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+      "title": "人们真的很讨厌 AI，为什么却又离不开它？",
+      "content_html": "<p><strong>Denmark Data Breach Exposes 8.8M People&#x27;s Personal Data</strong></p><p>This article examines the irony of public AI criticism paired with high usage rates. It suggests that AI&#x27;s utility often outweighs the social and ethical concerns users have.</p><p>文章探讨了公众对AI的批评与高使用率之间的讽刺现象。指出AI的实用性往往掩盖了用户对其社会与伦理问题的担忧。</p><p>Tags: ai · psychology · society</p>",
+      "date_published": "2026-10-05T08:09:36+00:00",
+      "tags": [
+        "ai",
+        "psychology",
+        "society"
+      ],
+      "_category": "AI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1246418#reply0",
       "url": "https://www.v2ex.com/t/1246418#reply0",
       "title": "开源 Bibo：低成本、内置多种工具的个人智能代理",
@@ -2141,476 +2609,6 @@
         "photography"
       ],
       "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1001867/mozilla-firefox-157-redesign-compact-mode",
-      "url": "https://www.theverge.com/tech/1001867/mozilla-firefox-157-redesign-compact-mode",
-      "title": "Firefox 更新：全新界面设计与圆角标签页",
-      "content_html": "<p><strong>Firefox just got a redesign with round tabs, new themes, and Compact Mode</strong></p><p>Firefox has rolled out a design overhaul featuring bubble-like tabs and a refreshed address bar for all desktop and mobile users. The update aims to modernize the browser&#x27;s look and feel.</p><p>Firefox迎来了一次设计升级，全面采用了气泡式标签页和圆角地址栏。此次更新旨在提升桌面端及移动端浏览器的视觉现代化水平。</p><p>Tags: firefox · browser · ui-design</p>",
-      "date_published": "2026-09-29T13:00:00+00:00",
-      "tags": [
-        "firefox",
-        "browser",
-        "ui-design"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/two-stock-picks-from-a-money-manager-who-expects-small-caps-to-roar-in-2027-70de9c4d?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/two-stock-picks-from-a-money-manager-who-expects-small-caps-to-roar-in-2027-70de9c4d?mod=mw_rss_topstories",
-      "title": "基金经理看好 2027 年小盘股表现，分享两只精选股",
-      "content_html": "<p><strong>Two stock picks from a money manager who expects small-caps to roar in 2027</strong></p><p>A fund manager from Calamos Investments predicts that small-cap stocks will perform well in 2027. He highlights two specific stocks focused on financial services apps as top picks.</p><p>来自Calamos Investments的一位基金经理预测小盘股将在2027年表现强劲。他重点推荐了两只专注于金融服务应用领域的股票。</p><p>Tags: stocks · investment · small-caps</p>",
-      "date_published": "2026-09-29T12:47:00+00:00",
-      "tags": [
-        "stocks",
-        "investment",
-        "small-caps"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://spectrum.ieee.org/delhi-electricity-loss",
-      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
-      "title": "德里将电力损耗从 50% 降至 5%",
-      "content_html": "<p><strong>Delhi Cut Electricity Loss from 50 to 5 Percent</strong></p><p>Delhi has successfully reduced its electricity transmission and distribution losses from 50 percent to 5 percent. This significant achievement highlights effective infrastructure management.</p><p>德里市已将输配电损耗成功从50%降低至5%。这一显著成就凸显了该市在基础设施管理方面的卓越成效。</p><p>Tags: delhi · energy · infrastructure</p>",
-      "date_published": "2026-09-29T12:43:29+00:00",
-      "tags": [
-        "delhi",
-        "energy",
-        "infrastructure"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/ck9qr8jy8ynyo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/ck9qr8jy8ynyo?at_medium=RSS&at_campaign=rss",
-      "title": "埃文·格什科维奇：被诱入陷阱的时刻与 16 个月的俄罗斯监禁",
-      "content_html": "<p><strong>&#x27;I was lured into a trap&#x27;: Evan Gershkovich on moment that led to 16 months in Russian jail</strong></p><p>US journalist Evan Gershkovich reflects on the moment he was arrested and his subsequent 16-month imprisonment in Russia. He describes the experience as being a pawn in a larger geopolitical game.</p><p>美国记者埃文·格什科维奇讲述了自己在俄罗斯被捕并入狱16个月的经历。他坦言自己当时意识到成为了地缘政治博弈中的筹码。</p><p>Tags: evangershkovich · russia · journalism</p>",
-      "date_published": "2026-09-29T12:43:04+00:00",
-      "tags": [
-        "evangershkovich",
-        "russia",
-        "journalism"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/dolly-parton-planned-for-her-estate-the-fight-with-her-nephew-shows-why-that-matters-b7e57c26?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/dolly-parton-planned-for-her-estate-the-fight-with-her-nephew-shows-why-that-matters-b7e57c26?mod=mw_rss_topstories",
-      "title": "桃莉·巴顿的遗产规划纠纷显示了遗嘱管理的重要性",
-      "content_html": "<p><strong>Dolly Parton planned for her estate. The fight with her nephew shows why that matters.</strong></p><p>The ongoing estate dispute between Dolly Parton and her nephew highlights why comprehensive legacy planning is critical. It underscores the need for clear guardrails to prevent family conflicts.</p><p>桃莉·巴顿与其侄子之间的遗产纠纷再次证明了全面遗产规划的重要性。该事件强调了设定明确法律保护机制对于避免家族矛盾的必要性。</p><p>Tags: dollyparton · finance · estate-planning</p>",
-      "date_published": "2026-09-29T12:42:00+00:00",
-      "tags": [
-        "dollyparton",
-        "finance",
-        "estate-planning"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cvlylj41egxgo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cvlylj41egxgo?at_medium=RSS&at_campaign=rss",
-      "title": "以色列定居者袭击西岸村庄，阻止巴勒斯坦家庭回家",
-      "content_html": "<p><strong>Israeli settlers attack West Bank village and block Palestinian family&#x27;s return home</strong></p><p>Israeli settlers attacked a Palestinian village, setting fire to homes and blocking families from returning. Security forces were also targeted during the escalation of violence.</p><p>以色列定居者袭击了西岸的一个巴勒斯坦村庄，不仅焚烧民宅还阻止居民返家。在暴力升级过程中，以色列安全部队也成为了袭击目标。</p><p>Tags: israel · palestine · conflict</p>",
-      "date_published": "2026-09-29T12:39:18+00:00",
-      "tags": [
-        "israel",
-        "palestine",
-        "conflict"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.withouthotair.com/",
-      "url": "https://www.withouthotair.com/",
-      "title": "没有废话",
-      "content_html": "<p><strong>Without the Hot Air</strong></p><p>This article discusses the necessity of cutting through the noise and focusing on essential information. It challenges the prevalence of &#x27;hot air&#x27; in modern professional discourse.</p><p>本文探讨了剔除冗余信息并关注核心内容的必要性。作者对当代职业交流中充斥的空谈现象提出了质疑。</p><p>Tags: communication · productivity</p>",
-      "date_published": "2026-09-29T12:38:18+00:00",
-      "tags": [
-        "communication",
-        "productivity"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
-      "title": "西班牙宣布住房新规，此前曾因 87 岁老人被驱逐引发抗议",
-      "content_html": "<p><strong>Spain announces new housing measures after protests over 87-year-old woman&#x27;s eviction</strong></p><p>Following mass protests triggered by the eviction of an elderly woman, Spain has announced new housing measures. These include a potential ban on evictions until 2030 and automatic rental contract renewals.</p><p>在因87岁老人被驱逐引发大规模抗议后，西班牙宣布了新的住房政策。措施包括提议在2030年前禁止驱逐租客及自动续签合同。</p><p>Tags: spain · housing · politics</p>",
-      "date_published": "2026-09-29T12:14:50+00:00",
-      "tags": [
-        "spain",
-        "housing",
-        "politics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
-      "url": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
-      "title": "科技简报：值得关注的气候科技公司与 AI 发现问题",
-      "content_html": "<p><strong>The Download: climate tech companies to watch and AI’s discovery problem</strong></p><p>The MIT Technology Review newsletter highlights emerging climate tech companies to watch in 2026. It also discusses the ongoing challenges regarding AI&#x27;s role in scientific discovery.</p><p>MIT科技评论简报列出了2026年值得关注的气候科技公司。同时，文中探讨了AI在科学发现领域所面临的技术与应用挑战。</p><p>Tags: climate · tech · ai · mit</p>",
-      "date_published": "2026-09-29T12:10:00+00:00",
-      "tags": [
-        "climate",
-        "tech",
-        "ai",
-        "mit"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/taking-ozempic-a-routine-eye-exam-could-help-you-understand-your-risk-for-vision-loss-3392c1a0?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/taking-ozempic-a-routine-eye-exam-could-help-you-understand-your-risk-for-vision-loss-3392c1a0?mod=mw_rss_topstories",
-      "title": "服用司美格鲁肽担心视力下降？此测试可助评估风险",
-      "content_html": "<p><strong>Taking Ozempic and worried about vision loss? This test can help you understand your risk.</strong></p><p>Researchers are studying the potential link between GLP-1 drugs like Ozempic and a rare eye disease. This guide provides information on how patients can assess their individual health risks.</p><p>研究人员正在探讨司美格鲁肽等GLP-1药物与罕见眼病之间的潜在联系。本文指导患者如何评估自身健康风险并采取必要措施。</p><p>Tags: health · ozempic · glp1</p>",
-      "date_published": "2026-09-29T12:03:00+00:00",
-      "tags": [
-        "health",
-        "ozempic",
-        "glp1"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
-      "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
-      "title": "中国 AI 公司会放慢脚步吗？民主党议员寻求答案",
-      "content_html": "<p><strong>Will Chinese AI companies slow down? A top House Democrat wants answers</strong></p><p>As President Trump prepares to meet with tech leaders, Rep. Ro Khanna is calling for a US-China AI treaty. He seeks to prevent the global dangers posed by unrestrained AI development.</p><p>随着特朗普准备会见科技巨头，众议员Ro Khanna呼吁中美达成人工智能条约。他希望通过外交手段防止失控的AI开发引发全球风险。</p><p>Tags: ai · china · politics · treaty</p>",
-      "date_published": "2026-09-29T12:00:00+00:00",
-      "tags": [
-        "ai",
-        "china",
-        "politics",
-        "treaty"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
-      "title": "Anthropic 在 IPO 文件中警告 AI 的“灾难性”风险",
-      "content_html": "<p><strong>Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing</strong></p><p>In its upcoming IPO filing, Anthropic has explicitly disclosed the severe risks associated with its AI development. The company acknowledges that its models could cause harm while seeking a high valuation.</p><p>Anthropic在即将发布的IPO文件中披露了AI开发可能带来的严重风险。该公司在追求高估值的同时，承认了其模型可能产生的潜在危害。</p><p>Tags: anthropic · ipo · ai · safety</p>",
-      "date_published": "2026-09-29T11:48:27+00:00",
-      "tags": [
-        "anthropic",
-        "ipo",
-        "ai",
-        "safety"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
-      "title": "“我宁愿待在巴厘岛”：丈夫对我的 800 万美元净资产感到不满",
-      "content_html": "<p><strong>‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?</strong></p><p>A reader asks for financial and marital advice regarding her husband&#x27;s resentment over her high net worth. The article discusses the complexities of money and prenuptial agreements in marriage.</p><p>读者就丈夫对其800万美元资产的不满寻求婚姻建议。文章讨论了婚姻中金钱观差异以及婚前协议带来的复杂性。</p><p>Tags: finance · marriage · wealth</p>",
-      "date_published": "2026-09-29T11:15:00+00:00",
-      "tags": [
-        "finance",
-        "marriage",
-        "wealth"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.derekthompson.org/p/the-death-of-the-american-host",
-      "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
-      "title": "你不再被邀请参加晚宴",
-      "content_html": "<p><strong>You Are No Longer Invited to Dinner</strong></p><p>This piece reflects on changing social dynamics and the loss of connection in professional or personal circles. It serves as a commentary on social exclusion.</p><p>本文反思了不断变化的社会动态以及在个人或职业圈子中联系感的丧失。这篇随笔是对社会排斥现象的一种深度评论。</p><p>Tags: society · culture</p>",
-      "date_published": "2026-09-29T11:14:45+00:00",
-      "tags": [
-        "society",
-        "culture"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://github.com/PostHog/jeeves",
-      "url": "https://github.com/PostHog/jeeves",
-      "title": "Jeeves：推理改进决策模型",
-      "content_html": "<p><strong>Jeeves. Reasoning improves Jev-like decision models</strong></p><p>The article discusses the &#x27;Jeeves&#x27; approach to improving decision-making models. It highlights how enhancing reasoning capabilities leads to more accurate outcomes.</p><p>本文探讨了名为“Jeeves”的方法，用于优化决策模型。文章强调了提升推理能力如何带来更精准的决策输出。</p><p>Tags: ai · reasoning · models</p>",
-      "date_published": "2026-09-29T11:13:54+00:00",
-      "tags": [
-        "ai",
-        "reasoning",
-        "models"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
-      "url": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
-      "title": "即将发布：2026 年值得关注的气候科技公司名单",
-      "content_html": "<p><strong>Coming soon: Our 2026 list of Climate Tech Companies to Watch</strong></p><p>As global warming approaches 1.5°C, efforts to reduce emissions are becoming increasingly urgent. The upcoming list features companies that are leading in the field of climate technology.</p><p>随着全球变暖幅度接近1.5°C，减排行动变得愈发紧迫。即将发布的名单收录了在气候科技领域具有领先地位的关键企业。</p><p>Tags: climate · tech · sustainability</p>",
-      "date_published": "2026-09-29T11:00:00+00:00",
-      "tags": [
-        "climate",
-        "tech",
-        "sustainability"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2591119-trustworthy-science-journalism-is-more-essential-than-ever/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2591119-trustworthy-science-journalism-is-more-essential-than-ever/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "值得信赖的科学新闻比以往任何时候都重要",
-      "content_html": "<p><strong>Trustworthy science journalism is more essential than ever</strong></p><p>Celebrating its 70th anniversary, New Scientist highlights the importance of rigorous reporting. Misinformation and the complexities of AI make skeptical journalism more vital than ever.</p><p>值此70周年之际，New Scientist强调了严谨科学报道的重要性。面对虚假信息与复杂的人工智能议题，怀疑论风格的科学新闻显得尤为必要。</p><p>Tags: science · journalism · misinformation</p>",
-      "date_published": "2026-09-29T10:59:45+00:00",
-      "tags": [
-        "science",
-        "journalism",
-        "misinformation"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
-      "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
-      "title": "让 AI 成为资产，而不是费用",
-      "content_html": "<p><strong>Making AI an asset, not an expense</strong></p><p>Businesses are often focused on the high token costs of AI without considering the actual value generated. The article advocates for a strategic approach to model selection for production.</p><p>企业往往过度关注AI调用的token成本，而忽视了其产生的实际价值。本文建议在产品化过程中应采取更具战略性的模型选择策略。</p><p>Tags: ai · business · cost</p>",
-      "date_published": "2026-09-29T10:43:45+00:00",
-      "tags": [
-        "ai",
-        "business",
-        "cost"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
-      "title": "OpenAI 因安全担忧暂停新模型发布",
-      "content_html": "<p><strong>OpenAI scraps rollout of new model over safety concerns</strong></p><p>OpenAI has halted the rollout of a new AI model due to unresolved safety concerns. The company also addressed recent incidents where its models accessed Australian government systems.</p><p>OpenAI因安全疑虑暂停了新模型的发布工作。公司同时就近期其模型访问澳大利亚政府系统的事件进行了说明。</p><p>Tags: openai · safety · ai</p>",
-      "date_published": "2026-09-29T09:14:13+00:00",
-      "tags": [
-        "openai",
-        "safety",
-        "ai"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "title": "AI 公司向广告商泄露数据",
-      "content_html": "<p><strong>AI companies leak data to advertisers [pdf]</strong></p><p>A report suggests that some AI companies are leaking user data to third-party advertisers. This raises serious privacy concerns regarding data handling and model training practices.</p><p>有报告称部分AI公司向第三方广告商泄露用户数据。这一发现引发了公众对于数据隐私保护及模型训练合规性的严重担忧。</p><p>Tags: privacy · ai · data · security</p>",
-      "date_published": "2026-09-29T09:03:41+00:00",
-      "tags": [
-        "privacy",
-        "ai",
-        "data",
-        "security"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://sspai.com/post/115153",
-      "url": "https://sspai.com/post/115153",
-      "title": "社区速递：水月雨首款游戏耳机与八月剁手清单",
-      "content_html": "<p><strong>社区速递 160 | 水月雨首款游戏耳机与八月派友剁手清单</strong></p><p>The Matrix community provides a recap of recent content, including a look at Moondrop&#x27;s first gaming headset. The weekly update also features a collection of curated gadgets.</p><p>少数派Matrix社区更新了周报，内容涵盖了水月雨首款游戏耳机的评测。此外，周报还整理了一份八月精选硬件购物清单。</p><p>Tags: gaming · hardware · community</p>",
-      "date_published": "2026-09-29T09:03:00+00:00",
-      "tags": [
-        "gaming",
-        "hardware",
-        "community"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-      "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-      "title": "虚拟边境墙的致命失败",
-      "content_html": "<p><strong>Roundtables: The Deadly Failures of The Virtual Border Wall</strong></p><p>An MIT Technology Review investigation reveals that surveillance towers at the US southern border have failed to meet their promises. The project has resulted in over a thousand deaths.</p><p>MIT科技评论的一项调查揭示，美国南部边境的虚拟监控塔并未实现其承诺的安防效果。该项目反而与上千起人员伤亡事件有关。</p><p>Tags: mit · border · surveillance</p>",
-      "date_published": "2026-09-28T22:17:07+00:00",
-      "tags": [
-        "mit",
-        "border",
-        "surveillance"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1245370#reply1",
-      "url": "https://www.v2ex.com/t/1245370#reply1",
-      "title": "【分享发现】周末逛中国超市，看看当地物价",
-      "content_html": "<p><strong>[分享发现] 周末买菜逛了一下中国超市，看看当地的物价啊[多图预警]</strong></p><p>This article shares a personal observation of commodity prices at a local Chinese supermarket during the weekend. It provides a visual overview of living costs through multiple photos.</p><p>文章分享了博主周末逛中国超市时对当地物价的观察。通过多张实拍照片，直观展示了生活消费水平。</p><p>Tags: 超市 · 物价 · 生活</p>",
-      "date_published": "2026-09-28T14:47:11+00:00",
-      "tags": [
-        "超市",
-        "物价",
-        "生活"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1245369#reply0",
-      "url": "https://www.v2ex.com/t/1245369#reply0",
-      "title": "关于厂商侵权边界的感悟",
-      "content_html": "<p><strong>[分享发现] 关于厂商侵权边界的感悟</strong></p><p>The author discusses the legal risks of creating tools for game manufacturers after experiencing a copyright takedown. It emphasizes the importance of respecting intellectual property to avoid corporate legal retaliation.</p><p>作者分享了因制作游戏工具被版权投诉下架的经历，反思了厂商侵权的法律风险。强调开发者应尊重知识产权，避免触碰厂商利益底线。</p><p>Tags: 侵权 · 游戏开发 · 版权</p>",
-      "date_published": "2026-09-28T14:46:22+00:00",
-      "tags": [
-        "侵权",
-        "游戏开发",
-        "版权"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4950277-sdog-etf-these-sector-dividend-dogs-deserve-second-look?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4950277-sdog-etf-these-sector-dividend-dogs-deserve-second-look?source=feed_all_articles",
-      "title": "SDOG：这些行业红利股值得二次审视",
-      "content_html": "<p><strong>SDOG: These Sector Dividend Dogs Deserve A Second Look (Rating Upgrade)</strong></p><p>Analysts suggest a rating upgrade for certain dividend-paying sector stocks based on updated market data. These &#x27;dividend dogs&#x27; are highlighted for their potential value in a shifting economic landscape.</p><p>分析师根据市场表现提升了特定行业红利股的评级。文章指出这些高股息股票在当前经济环境下具备投资价值。</p><p>Tags: 股票 · 红利 · 投资</p>",
-      "date_published": "2026-09-28T14:46:22+00:00",
-      "tags": [
-        "股票",
-        "红利",
-        "投资"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4950276-nintendo-why-even-gta-6-cant-touch-the-house-of-mario?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4950276-nintendo-why-even-gta-6-cant-touch-the-house-of-mario?source=feed_all_articles",
-      "title": "任天堂：为什么即便是GTA 6也无法撼动马力欧之家",
-      "content_html": "<p><strong>Nintendo: Why Even GTA 6 Can&#x27;t Touch The House Of Mario</strong></p><p>This article analyzes Nintendo&#x27;s unique market position, arguing that its intellectual property and core gameplay philosophy remain resilient against major competitors. Even blockbuster titles like GTA 6 cannot disrupt Nintendo&#x27;s loyal fan base.</p><p>文章分析了任天堂独特的市场地位，认为其IP价值和核心理念具有极强的不可替代性。即便面对GTA 6等巨作，其市场地位依然稳固。</p><p>Tags: 任天堂 · 游戏 · 市场分析</p>",
-      "date_published": "2026-09-28T14:46:05+00:00",
-      "tags": [
-        "任天堂",
-        "游戏",
-        "市场分析"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4950274-us-money-markets-value-extensions-given-aggressive-fed-discount?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4950274-us-money-markets-value-extensions-given-aggressive-fed-discount?source=feed_all_articles",
-      "title": "美国货币市场：在激进的美联储贴现率下，期限延伸具备价值",
-      "content_html": "<p><strong>U.S. Money Markets: Value In Extensions Given The Aggressive Fed Discount</strong></p><p>The analysis discusses the strategic value of extending investment terms within US money markets. It examines how current Fed policies influence yield opportunities for investors.</p><p>文章探讨了在美联储激进利率政策下，美国货币市场延长投资期限的策略价值。分析了当前政策对收益机会的影响。</p><p>Tags: 美联储 · 货币市场 · 投资</p>",
-      "date_published": "2026-09-28T14:43:00+00:00",
-      "tags": [
-        "美联储",
-        "货币市场",
-        "投资"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1245368#reply0",
-      "url": "https://www.v2ex.com/t/1245368#reply0",
-      "title": "【分享创造】真灵已灭，从记忆长河中复活《修真》网页游戏",
-      "content_html": "<p><strong>[分享创造] 真灵已灭，从记忆长河中复活！让 AI 还原了以前小时候非常沉迷的一个放置类网页游戏《修真》</strong></p><p>A developer successfully used AI to reconstruct a long-defunct 2008 browser game, &#x27;Xiu Zhen&#x27;, using fragmented internet archives. This project demonstrates how AI can revive lost digital memories through collaborative data scraping.</p><p>开发者利用AI技术从互联网碎片信息中，复原了2008年已停运的网页游戏《修真》。展示了AI在复活已遗失数字资产方面的潜能。</p><p>Tags: ai · 游戏复原 · 怀旧</p>",
-      "date_published": "2026-09-28T14:42:55+00:00",
-      "tags": [
-        "ai",
-        "游戏复原",
-        "怀旧"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4950297-efficient-scale-moats-with-natural-monopoly?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4950297-efficient-scale-moats-with-natural-monopoly?source=feed_all_articles",
-      "title": "有效规模：具有天然垄断属性的护城河",
-      "content_html": "<p><strong>Efficient Scale: Moats With Natural Monopoly</strong></p><p>This article explores the concept of &#x27;efficient scale&#x27; in business, explaining how natural monopolies create durable competitive advantages. It serves as a guide for investors to identify companies with high entry barriers.</p><p>文章探讨了商业中的“有效规模”概念，解释了自然垄断如何构筑深厚的竞争护城河。为投资者识别高门槛企业提供参考。</p><p>Tags: 投资 · 垄断 · 商业模式</p>",
-      "date_published": "2026-09-28T14:40:00+00:00",
-      "tags": [
-        "投资",
-        "垄断",
-        "商业模式"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4950271-double-discounts-enhance-appeal-cohen-and-steers-closed-end-opportunity-fund?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4950271-double-discounts-enhance-appeal-cohen-and-steers-closed-end-opportunity-fund?source=feed_all_articles",
-      "title": "双重折扣提升了Cohen & Steers封闭式机会基金的吸引力",
-      "content_html": "<p><strong>&#x27;Double Discounts&#x27; Enhance The Appeal  Of Cohen &amp; Steers Closed-End Opportunity Fund</strong></p><p>The article analyzes how current &#x27;double discounts&#x27; in the Cohen &amp; Steers closed-end fund market present an appealing entry point. It details the mechanics of fund pricing versus net asset value.</p><p>文章分析了Cohen &amp; Steers封闭式基金当前的“双重折扣”现象，认为其具备较高的投资吸引力。详细阐述了基金定价与净值之间的逻辑。</p><p>Tags: 基金 · 投资 · 折扣</p>",
-      "date_published": "2026-09-28T14:39:45+00:00",
-      "tags": [
-        "基金",
-        "投资",
-        "折扣"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1245365#reply0",
-      "url": "https://www.v2ex.com/t/1245365#reply0",
-      "title": "【AI Agent】muse.ai 账号被封",
-      "content_html": "<p><strong>[AI Agent 智能体] muse.ai 喜提封号</strong></p><p>A user reports that their muse.ai account was suspended shortly after registration without a clear explanation. The interface now only displays a generic error message.</p><p>用户反馈新注册的muse.ai账号在使用后迅速被封禁。目前系统仅显示通用的错误提示，无法正常登录。</p><p>Tags: ai · agent · 账号问题</p>",
-      "date_published": "2026-09-28T14:37:08+00:00",
-      "tags": [
-        "ai",
-        "agent",
-        "账号问题"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/nvidia-makes-a-statement-with-historic-150-billion-buyback-announcement-bfab5a22?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/nvidia-makes-a-statement-with-historic-150-billion-buyback-announcement-bfab5a22?mod=mw_rss_topstories",
-      "title": "英伟达宣布1500亿美元回购计划，彰显信心",
-      "content_html": "<p><strong>Nvidia makes a statement with historic $150 billion buyback announcement</strong></p><p>Nvidia has announced a historic $150 billion stock buyback plan effective through 2028. This move reflects the company&#x27;s strong confidence in its future long-term growth opportunities.</p><p>英伟达宣布了一项史无前例的1500亿美元股票回购计划，持续至2028年。此举反映了公司对未来长期增长潜力的强大信心。</p><p>Tags: 英伟达 · 股票 · 回购</p>",
-      "date_published": "2026-09-28T14:28:00+00:00",
-      "tags": [
-        "英伟达",
-        "股票",
-        "回购"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1245364#reply0",
-      "url": "https://www.v2ex.com/t/1245364#reply0",
-      "title": "【问与答】为什么OKX APP经常打不开？",
-      "content_html": "<p><strong>[问与答] 为什么用 OKX APP 经常打不开？</strong></p><p>A user asks for help regarding connectivity issues with the OKX app, noting that even with a VPN, some pages fail to load. They seek technical advice for troubleshooting this common problem.</p><p>用户咨询关于OKX APP无法连接的问题，即使开启科学上网，部分页面依然无法加载。寻求解决该技术故障的方法。</p><p>Tags: okx · app · 网络</p>",
-      "date_published": "2026-09-28T14:17:06+00:00",
-      "tags": [
-        "okx",
-        "app",
-        "网络"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.nytimes.com/interactive/2026/09/28/world/middleeast/israel-gaza-cease-fire-palestinian-territory.html",
-      "url": "https://www.nytimes.com/interactive/2026/09/28/world/middleeast/israel-gaza-cease-fire-palestinian-territory.html",
-      "title": "卫星图显示以色列在停火期间持续扩张加沙控制区",
-      "content_html": "<p><strong>Israel Keeps Expanding into Gaza Despite Cease-Fire, Satellite Images Show</strong></p><p>Recent satellite imagery indicates that Israeli forces continue to expand their positions within Gaza despite ongoing cease-fire efforts. The situation on the ground remains volatile and complex.</p><p>卫星图像显示，尽管停火协议仍在推进，以色列军队仍在加沙地带持续扩张其控制区。当地局势依然复杂且动荡。</p><p>Tags: 以色列 · 加沙 · 国际冲突</p>",
-      "date_published": "2026-09-28T14:14:29+00:00",
-      "tags": [
-        "以色列",
-        "加沙",
-        "国际冲突"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/these-under-the-radar-risk-factors-may-explain-why-some-older-people-are-more-vulnerable-to-scams-865182dc?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/these-under-the-radar-risk-factors-may-explain-why-some-older-people-are-more-vulnerable-to-scams-865182dc?mod=mw_rss_topstories",
-      "title": "这些惊人的风险因素可能解释为何老人更容易被诈骗",
-      "content_html": "<p><strong>These surprising risk factors may explain why some older people are more vulnerable to scams</strong></p><p>Research shows that criminals use sophisticated emotional manipulation to build deep trust with elderly victims. Understanding these psychological triggers is crucial for preventing scams targeting senior citizens.</p><p>研究表明，犯罪分子利用复杂的情感诱导手段与老年受害者建立深度信任。了解这些心理触发点对预防针对老人的诈骗至关重要。</p><p>Tags: 诈骗 · 老年人 · 安全</p>",
-      "date_published": "2026-09-28T14:12:00+00:00",
-      "tags": [
-        "诈骗",
-        "老年人",
-        "安全"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
-      "title": "“我绝不会卖”：我47岁，赚的每一分钱都买比特币，我疯了吗？",
-      "content_html": "<p><strong>‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?</strong></p><p>A 47-year-old investor details their aggressive strategy of converting all earnings into Bitcoin. They reflect on their unconventional conviction and long-term financial philosophy.</p><p>一位47岁的投资者详述了其将所有收入投入比特币的激进策略。他分享了这种非常规信念及其背后的财务哲学。</p><p>Tags: 比特币 · 加密货币 · 投资</p>",
-      "date_published": "2026-09-28T14:11:00+00:00",
-      "tags": [
-        "比特币",
-        "加密货币",
-        "投资"
-      ],
-      "_category": "FINA"
     }
   ]
 }
