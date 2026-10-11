@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">31</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">3</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">6</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">6</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-11 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Sun Oct 11 2026 &middot; 31 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;agents&quot;, &quot;productivity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1247882#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 整了个多 agent 协作工具 Sealwire：让 Claude Code/Codex/OpenCode 等 Agent 互相 review、合作，手机上审批接管（送测试码）</a></div>
+      <div class="item-title-zh">[分享创造] 开发了多Agent协作工具Sealwire</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · agents · productivity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The developer introduced Sealwire, a tool that enables seamless collaboration between various AI agents like Claude Code and Cursor. It features cross-agent reviews and remote approval capabilities for enhanced productivity.</p>
+      <p class="summary-zh">开发者推出了多Agent协作工具Sealwire，支持Claude Code、Cursor等不同模型间的任务交互与代码审查。该工具具备本地隐私模式及远程手机审批功能，助力工作流自动化。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;llm&quot;, &quot;local-ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress" target="_blank" rel="noopener" onclick="event.stopPropagation()">Learning to use local AI is exciting, overwhelming, and frustrating</a></div>
+      <div class="item-title-zh">学习使用本地AI既令人兴奋又感到挫败</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · llm · local-ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Running AI models locally offers privacy benefits but comes with a steep learning curve and significant hardware demands. Users often find the experience rewarding yet overwhelming to maintain.</p>
+      <p class="summary-zh">在本地部署AI模型虽然保障了隐私，但也带来了巨大的学习成本与硬件门槛。用户在体验技术进步的同时，常感到维护过程既复杂又令人挫败。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;tech&quot;, &quot;health&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: AI’s refusal problem and weight-loss drug side effects</a></div>
+      <div class="item-title-zh">下载：AI的拒绝问题与减肥药副作用</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">MIT Tech Review &middot; 2d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · tech · health</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">MIT Tech Review explores the growing issue of AI models over-refusing user prompts and discusses the latest findings on weight-loss drug side effects. Balancing safety with model utility remains a top priority.</p>
+      <p class="summary-zh">MIT科技评论探讨了AI模型过度拒绝用户指令的问题，并分析了减肥药物的最新副作用研究。如何在模型安全性与实用性之间找到平衡是当前的重要议题。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="TECH" data-tags="[&quot;stripe&quot;, &quot;tax&quot;, &quot;startup&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1247883#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[问与答] stripe atlas 注册美国公司的税号的地址和电话怎么解决？</a></div>
+      <div class="item-title-zh">[问与答] Stripe Atlas注册美国公司的税号地址和电话怎么解决？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stripe · tax · startup</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user is seeking advice on resolving requirements for a US company address and phone number while using Stripe Atlas to create an EIN. They encountered high fees and payment issues with existing partners.</p>
+      <p class="summary-zh">用户咨询在使用Stripe Atlas注册美国公司申请税号时，如何处理公司地址和电话证明。现有合作伙伴费用过高且支付受阻，希望能寻求更优的替代方案。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;fitness&quot;, &quot;health&quot;, &quot;小程序&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1247881#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] [分享创造]写代码久坐腰痛,做了一个放下手机,靠语音闭眼跟练的健身小程序-闻鼓而动</a></div>
+      <div class="item-title-zh">[分享创造] 针对程序员久坐问题的语音健身小程序</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">fitness · health · 小程序</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An engineer developed a mini-program called &#x27;闻鼓而动&#x27; to help developers exercise via voice guidance to alleviate back pain from sitting. The project is open-source and features diagrams for proper movement.</p>
+      <p class="summary-zh">针对程序员久坐腰痛问题，开发者创作了一款名为“闻鼓而动”的小程序，通过语音引导用户进行无手机健身训练。项目已开源并补充了动作示意图供用户免费使用。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;web&quot;, &quot;nextjs&quot;, &quot;php&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1247880#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] https://yunshen.wang/ 云深网 在线测您是不是：比劫男/伤官女/杀印相生/红艳煞/...</a></div>
+      <div class="item-title-zh">[分享创造] 云深网：基于八字命理的趣味现代视角测试</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">web · nextjs · php</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author created &#x27;Yunshen.wang,&#x27; a web application that explores traditional Bazi astrology through a modern, scientific perspective. The platform uses Next.js for the frontend and PHP for the backend.</p>
+      <p class="summary-zh">开发者分享了网站“云深网”，以现代视角解析传统八字命理，旨在提供趣味性的知识科普。该项目前端采用Next.js构建，后端使用PHP。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;esp32&quot;, &quot;ai&quot;, &quot;iot&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1247879#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[问与答] OnlyClaws：固件只烧一次， AI Agent 用 HTTP 给 ESP32 下发 Lua 换应用</a></div>
+      <div class="item-title-zh">[问与答] OnlyClaws：通过HTTP使用AI Agent分发Lua代码到ESP32</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">esp32 · ai · iot</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The project &#x27;OnlyClaws&#x27; allows AI agents to push Lua scripts to ESP32 hardware via HTTP, eliminating the need for repeated firmware compilation. It simplifies IoT development by enabling remote deployment and real-time interaction.</p>
+      <p class="summary-zh">OnlyClaws项目实现了通过AI Agent利用HTTP协议向ESP32硬件下发Lua脚本，无需重复编译固件。该方案简化了物联网开发流程，支持远程应用替换与实时反馈。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;video&quot;, &quot;streaming&quot;, &quot;media&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/entertainment/1008720/vurt-microdramas-verticals-interview-hilmon-sorey" target="_blank" rel="noopener" onclick="event.stopPropagation()">Vurt wants you to look at vertical videos as a genre of their own</a></div>
+      <div class="item-title-zh">Vurt认为垂直视频应作为一种独立类型</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">video · streaming · media</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Vurt is advocating for vertical video to be recognized as its own distinct genre rather than just a social media format. Streaming services are increasingly adopting this style to compete with platforms like TikTok.</p>
+      <p class="summary-zh">Vurt提倡将垂直视频视为一种独立的内容流派，而非仅局限于社交媒体。目前各大流媒体服务正纷纷效仿此格式，以应对TikTok带来的用户注意力竞争。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;smart-home&quot;, &quot;homeos&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home" target="_blank" rel="noopener" onclick="event.stopPropagation()">What to expect from Apple’s ‘Welcome Home’ event</a></div>
+      <div class="item-title-zh">苹果“Welcome Home”发布会前瞻</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · smart-home · homeos</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Apple&#x27;s upcoming &#x27;Welcome Home&#x27; event is expected to feature new smart home hardware, including updated Apple TV and HomePod Mini models. Analysts also anticipate the unveiling of a dedicated smart home hub and the debut of &#x27;homeOS&#x27;.</p>
+      <p class="summary-zh">苹果即将举办“Welcome Home”发布会，预计将更新Apple TV与HomePod Mini。此外，全新的智能家居中心及操作系统“homeOS”也有望在此次活动中亮相。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;programming&quot;, &quot;path&quot;, &quot;bestpractices&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Don&#x27;t Put Tilde In Your Path</a></div>
+      <div class="item-title-zh">不要在路径中使用波浪号</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">programming · path · bestpractices</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A discussion on why using tildes in file paths can lead to unexpected issues in various software environments. Best practices emphasize sticking to standard characters to ensure cross-platform compatibility.</p>
+      <p class="summary-zh">本文探讨了在文件路径中使用波浪号为何会导致软件运行中的异常。为了确保跨平台兼容性，开发者建议应坚持使用标准字符路径。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;rust&quot;, &quot;programming&quot;, &quot;memory-safety&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://verdagon.dev/blog/valen-group-borrowing" target="_blank" rel="noopener" onclick="event.stopPropagation()">Valen&#x27;s Memory Safety: A New Kind of Borrow Checking</a></div>
+      <div class="item-title-zh">Valen的内存安全：一种新的借用检查机制</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">rust · programming · memory-safety</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article discusses &#x27;Valen,&#x27; a new approach to memory safety that introduces a unique form of borrow checking. It aims to improve performance and safety in low-level programming languages.</p>
+      <p class="summary-zh">文章介绍了Valen，这是一种旨在提升底层编程语言内存安全性的新型借用检查机制。该方法通过独特的技术路径，力求在性能与安全性之间取得平衡。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="FINA" data-tags="[&quot;sandisk&quot;, &quot;earnings&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953346-sandisk-12-percent-cash-return-with-earnings-up-next?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sandisk: 12% Cash Return, With Earnings Up Next</a></div>
+      <div class="item-title-zh">闪迪：12%现金回报，财报发布在即</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">sandisk · earnings · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">SanDisk is preparing to report its latest earnings while offering a 12% cash return to shareholders. Investors are closely watching these figures for signs of growth and fiscal stability.</p>
+      <p class="summary-zh">闪迪即将在财报季发布最新业绩，并为股东提供12%的现金回报。投资者正密切关注其财务表现及后续增长动向。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;investment&quot;, &quot;stocks&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953342-centuri-holdings-attractive-opportunity-if-profitability-improves?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Centuri Holdings: An Attractive Opportunity If Profitability Improves</a></div>
+      <div class="item-title-zh">Centuri Holdings：盈利改善后的投资吸引力</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">investment · stocks · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Centuri Holdings could represent a strong investment opportunity if the company demonstrates consistent improvement in its profitability margins. Analysts remain cautious but see potential for growth in the current market.</p>
+      <p class="summary-zh">若Centuri Holdings能实现利润率的持续改善，其投资潜力将大幅提升。分析师持谨慎态度，但看好该公司在当前市场环境下的增长可能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;glaukos&quot;, &quot;biotech&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953327-glaukos-steep-premium-for-new-therapies-and-growth?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Glaukos: Steep Premium For New Therapies And Growth</a></div>
+      <div class="item-title-zh">Glaukos：新疗法带来的高溢价与增长前景</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">glaukos · biotech · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Glaukos is trading at a steep premium, driven by high market expectations for its innovative therapeutic pipeline and growth potential. Investors are weighing this valuation against the company&#x27;s long-term performance targets.</p>
+      <p class="summary-zh">市场对Glaukos的新疗法及增长预期较高，导致其股票目前处于高溢价状态。投资者正在平衡这一高估值与公司的长期业绩增长能力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;pharma&quot;, &quot;biotech&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953328-helus-pharma-stock-buy-ahead-hlp003-phase-3-readout?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Helus Pharma: A Buy Ahead Of The HLP003 Phase 3 Readout</a></div>
+      <div class="item-title-zh">Helus Pharma：HLP003三期数据发布前的买入机会</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">pharma · biotech · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Investors are considering Helus Pharma as a &#x27;buy&#x27; ahead of the anticipated phase 3 trial results for HLP003. Market reaction to the upcoming data readout will likely determine the stock&#x27;s next major movement.</p>
+      <p class="summary-zh">在HLP003三期临床数据发布前，Helus Pharma被视为一个潜在的买入机会。即将公布的试验结果将直接影响该公司的股价走势。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;reit&quot;, &quot;realestate&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953340-agree-realty-when-markets-turn-turbulent-this-is-the-reit-you-want-to-own?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Agree Realty: When Markets Turn Turbulent, This Is The REIT You Want To Own</a></div>
+      <div class="item-title-zh">Agree Realty：市场震荡时的可靠REIT选择</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">reit · realestate · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Agree Realty is positioned as a defensive stock, making it a preferred choice for investors during periods of market turbulence. Its portfolio stability offers a buffer against broader economic uncertainty.</p>
+      <p class="summary-zh">在市场震荡时期，Agree Realty凭借其稳健的投资组合被视为理想的防御性REIT资产。其业务稳定性为投资者提供了应对经济不确定性的屏障。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;bullmarket&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">The bull market is turning 4 years old — but yields could crash the party</a></div>
+      <div class="item-title-zh">牛市进入第四年，但债券收益率可能破坏局面</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · bullmarket · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The current bull market has reached its four-year anniversary, with technology stocks driving much of the growth. However, rising bond yields remain a significant risk that could threaten the ongoing rally.</p>
+      <p class="summary-zh">当前牛市已持续四年，科技股是增长的主要引擎。然而，债券收益率的上升构成了重大风险，可能对市场涨势造成不利影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;investing&quot;, &quot;market&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?</a></div>
+      <div class="item-title-zh">投资组合剧烈波动，是时候担心了吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · investing · market</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Investors are feeling uneasy as their portfolios experience significant volatility. Experts suggest that such swings are likely driven by institutional profit-taking rather than long-term market failure.</p>
+      <p class="summary-zh">面对投资组合的剧烈波动，不少投资者感到焦虑。专家指出，这种震荡可能源于机构获利回吐，而非市场长期走势出现重大转向。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;banking&quot;, &quot;earnings&quot;, &quot;economy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Bank earnings to shed the first light on how higher yields are affecting the economy</a></div>
+      <div class="item-title-zh">银行财报将揭示高收益率对经济的影响</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">banking · earnings · economy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Large banks are set to release their earnings reports, offering a look at how rising yields are impacting the broader economy. These reports are considered a bellwether for current economic health.</p>
+      <p class="summary-zh">大型银行即将发布的财报将成为观察高收益率环境对经济影响的风向标。这些数据对判断整体宏观经济的健康状况至关重要。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="SCI" data-tags="[&quot;running&quot;, &quot;health&quot;, &quot;fitness&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/115568" target="_blank" rel="noopener" onclick="event.stopPropagation()">写给「跑两步就喘」的你：不能忽略的跑后拉伸与恢复</a></div>
+      <div class="item-title-zh">跑两步就喘：跑后拉伸与恢复指南</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">少数派 &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">running · health · fitness</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Proper stretching and recovery are crucial for runners to prevent injury and improve performance. This guide outlines essential techniques to help the body recover after exercise.</p>
+      <p class="summary-zh">对于跑步爱好者来说，科学的拉伸与身体恢复是避免损伤的关键。本文详细介绍了跑后如何正确拉伸，以帮助身体更好地从运动中恢复。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;space&quot;, &quot;asteroid&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2593044-two-large-asteroids-found-spinning-as-fast-as-fairground-ride/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Two large asteroids found spinning as fast as a fairground ride</a></div>
+      <div class="item-title-zh">科学家发现两颗旋转速度极快的巨大小行星</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · space · asteroid</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers have identified two massive asteroids spinning at breakneck speeds, challenging current theories about asteroid formation. The discovery suggests these celestial bodies may be structured differently than previously thought.</p>
+      <p class="summary-zh">科学家发现两颗高速自转的巨大小行星，这一发现挑战了现有的天体形成理论。研究暗示这些小行星的内部结构可能与之前的认知大不相同。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;covid19&quot;, &quot;health&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2593098-does-each-new-covid-19-variant-pose-a-significant-threat/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Does each new covid-19 variant pose a significant threat?</a></div>
+      <div class="item-title-zh">新冠新变种是否构成重大威胁？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">covid19 · health · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">As new COVID-19 variants emerge regularly, experts discuss whether every iteration poses a significant risk to public health. Most cases remain manageable, though continued surveillance is emphasized.</p>
+      <p class="summary-zh">面对不断出现的新冠病毒变种，专家讨论了是否每一次变异都构成重大风险。目前多数病例仍处于可控状态，但持续的监测依然至关重要。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;tech&quot;, &quot;innovation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2592938-tattoos-could-be-turned-on-and-off-with-light/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Tattoos could be turned on and off with light</a></div>
+      <div class="item-title-zh">纹身可以通过光线来开启或关闭</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · tech · innovation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers have developed a new type of tattoo ink that can be turned &#x27;on&#x27; or &#x27;off&#x27; using light. This innovation could address the permanence of tattoos by allowing them to be hidden or displayed as desired.</p>
+      <p class="summary-zh">研究人员开发出一种新型纹身墨水，可通过光线调节其显现与隐藏。这一创新有望解决纹身永久性的难题，实现按需展示的效果。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;science&quot;, &quot;medicine&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2592977-nearly-1-in-10-young-adults-could-have-fatty-narrow-arteries/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Nearly 1 in 10 young adults could have fatty, narrow arteries</a></div>
+      <div class="item-title-zh">近十分之一的年轻人可能患有动脉脂肪狭窄</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 2d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · science · medicine</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new study indicates that nearly 1 in 10 young adults exhibit signs of atherosclerosis, a condition typically associated with aging. Early detection is encouraged to mitigate long-term cardiovascular risks.</p>
+      <p class="summary-zh">研究显示，近十分之一的年轻人存在动脉粥样硬化迹象，这通常是中老年人的常见病。专家呼吁早期筛查，以降低长期的心血管风险。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;environment&quot;, &quot;climate&quot;, &quot;nature&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2593032-rising-water-is-creating-inland-ghost-forests-in-the-us/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Rising water is creating inland ghost forests in the US</a></div>
+      <div class="item-title-zh">水位上升导致美国出现内陆幽灵森林</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 2d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">environment · climate · nature</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Rising water levels are causing freshwater forests to die off, creating &#x27;ghost forests&#x27; far from the coast. This environmental change serves as a visible indicator of broader climatic shifts.</p>
+      <p class="summary-zh">水位上升正导致内陆地区的森林大面积枯死，形成了远离海岸的“幽灵森林”。这一环境变化直观地反映了全球气候波动的严峻性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;pope&quot;, &quot;health&quot;, &quot;surgery&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Pope Leo to have surgery after lump found on lung</a></div>
+      <div class="item-title-zh">教皇利奥因肺部发现结节将接受手术</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">pope · health · surgery</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The 71-year-old pontiff is scheduled for surgery after doctors identified a lung nodule at an early stage. He remains optimistic about the procedure&#x27;s timing and his health recovery.</p>
+      <p class="summary-zh">71岁的教皇在肺部发现早期结节后，计划接受手术治疗。目前医生认为病情尚处于早期阶段，手术安排正在进行中。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;russia&quot;, &quot;yandex&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ukraine strikes Russian data centre again despite Trump warning</a></div>
+      <div class="item-title-zh">乌克兰无视特朗普警告再次打击俄罗斯数据中心</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · russia · yandex</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Ukraine has conducted its third strike against Russian tech giant Yandex this week, forcing the suspension of operations. The action persists despite warnings from Donald Trump regarding such escalations.</p>
+      <p class="summary-zh">乌克兰本周第三次针对俄罗斯科技巨头Yandex发起打击，迫使其暂停业务运营。尽管特朗普此前发出警告，但此类军事行动仍在持续。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;nepal&quot;, &quot;flood&quot;, &quot;disaster&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Homes and bridges swept away as fresh floods hit Nepal</a></div>
+      <div class="item-title-zh">尼泊尔遭遇新一轮洪水，房屋与桥梁被毁</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nepal · flood · disaster</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Following devastating floods two months ago, Nepal is facing a new wave of catastrophic flooding. The incident has left homes destroyed and infrastructure compromised as recovery efforts remain ongoing.</p>
+      <p class="summary-zh">继两个月前的严重洪灾后，尼泊尔近日再次遭遇大面积洪水袭击。灾情导致大量房屋与基础设施损毁，救援工作正处于艰难开展中。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;delhi&quot;, &quot;protest&quot;, &quot;india&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c84g179n2393o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Delhi sees more protests as freed &#x27;cockroach&#x27; group&#x27;s leaders vow to fight on</a></div>
+      <div class="item-title-zh">德里抗议活动持续，获释的“蟑螂”组织领导人发誓继续斗争</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">delhi · protest · india</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Protests continue in Delhi as leaders of the &#x27;cockroach&#x27; group, recently released from police detention, vow to resume their campaign. Hundreds were detained following the resurgence of public unrest.</p>
+      <p class="summary-zh">德里抗议活动再度升温，获释的“蟑螂”组织领导人誓言继续示威。尽管警方采取了限制措施，但仍有数百人因参与抗议被拘留。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;trump&quot;, &quot;media&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">US justice department investigates TV networks over Trump pool coverage</a></div>
+      <div class="item-title-zh">美国司法部调查特朗普池采访报道中的电视网络</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 8h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">trump · media · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The DOJ is investigating how television networks managed pool coverage during Trump&#x27;s events after the White House blocked several major outlets. The probe focuses on the implications for media access and fairness.</p>
+      <p class="summary-zh">白宫此前封锁了部分主要媒体进入采访池，导致美国司法部介入调查电视台的报道管理方式。调查重点在于媒体准入权及报道的公平性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;movie&quot;, &quot;entertainment&quot;, &quot;culture&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/115566" target="_blank" rel="noopener" onclick="event.stopPropagation()">本周看什么 | 最近值得一看的 11 部作品</a></div>
+      <div class="item-title-zh">本周看什么 | 最近值得一看的11部作品</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">少数派 &middot; 2d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">movie · entertainment · culture</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A curated list of 11 must-watch works released or announced this week, including the new &#x27;Tales of the Cold Night&#x27; film. These selections cover various genres and are highly recommended for the upcoming season.</p>
+      <p class="summary-zh">本周推荐了11部值得关注的作品，包括电影《寒夜怪谈》的新预告。这些作品涵盖不同类型，是近期非常值得观看的内容精选。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+<a class="archive-date" href="/archive/2026-10-04.html">2026-10-04</a>
+<a class="archive-date" href="/archive/2026-10-03.html">2026-10-03</a>
+<a class="archive-date" href="/archive/2026-10-02.html">2026-10-02</a>
+<a class="archive-date" href="/archive/2026-10-01.html">2026-10-01</a>
+<a class="archive-date" href="/archive/2026-09-30.html">2026-09-30</a>
+<a class="archive-date" href="/archive/2026-09-29.html">2026-09-29</a>
+<a class="archive-date" href="/archive/2026-09-28.html">2026-09-28</a>
+<a class="archive-date" href="/archive/2026-09-27.html">2026-09-27</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">31 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">13:42 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+<a class="archive-date" href="/archive/2026-10-04.html">2026-10-04</a>
+<a class="archive-date" href="/archive/2026-10-03.html">2026-10-03</a>
+<a class="archive-date" href="/archive/2026-10-02.html">2026-10-02</a>
+<a class="archive-date" href="/archive/2026-10-01.html">2026-10-01</a>
+<a class="archive-date" href="/archive/2026-09-30.html">2026-09-30</a>
+<a class="archive-date" href="/archive/2026-09-29.html">2026-09-29</a>
+<a class="archive-date" href="/archive/2026-09-28.html">2026-09-28</a>
+<a class="archive-date" href="/archive/2026-09-27.html">2026-09-27</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-11';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>

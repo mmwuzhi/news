@@ -6,6 +6,318 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&at_campaign=rss",
+      "title": "教皇利奥因肺部发现结节将接受手术",
+      "content_html": "<p><strong>Pope Leo to have surgery after lump found on lung</strong></p><p>The 71-year-old pontiff is scheduled for surgery after doctors identified a lung nodule at an early stage. He remains optimistic about the procedure&#x27;s timing and his health recovery.</p><p>71岁的教皇在肺部发现早期结节后，计划接受手术治疗。目前医生认为病情尚处于早期阶段，手术安排正在进行中。</p><p>Tags: pope · health · surgery</p>",
+      "date_published": "2026-10-11T13:38:55+00:00",
+      "tags": [
+        "pope",
+        "health",
+        "surgery"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4953346-sandisk-12-percent-cash-return-with-earnings-up-next?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4953346-sandisk-12-percent-cash-return-with-earnings-up-next?source=feed_all_articles",
+      "title": "闪迪：12%现金回报，财报发布在即",
+      "content_html": "<p><strong>Sandisk: 12% Cash Return, With Earnings Up Next</strong></p><p>SanDisk is preparing to report its latest earnings while offering a 12% cash return to shareholders. Investors are closely watching these figures for signs of growth and fiscal stability.</p><p>闪迪即将在财报季发布最新业绩，并为股东提供12%的现金回报。投资者正密切关注其财务表现及后续增长动向。</p><p>Tags: sandisk · earnings · stocks</p>",
+      "date_published": "2026-10-11T13:37:31+00:00",
+      "tags": [
+        "sandisk",
+        "earnings",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1247883#reply0",
+      "url": "https://www.v2ex.com/t/1247883#reply0",
+      "title": "[问与答] Stripe Atlas注册美国公司的税号地址和电话怎么解决？",
+      "content_html": "<p><strong>[问与答] stripe atlas 注册美国公司的税号的地址和电话怎么解决？</strong></p><p>A user is seeking advice on resolving requirements for a US company address and phone number while using Stripe Atlas to create an EIN. They encountered high fees and payment issues with existing partners.</p><p>用户咨询在使用Stripe Atlas注册美国公司申请税号时，如何处理公司地址和电话证明。现有合作伙伴费用过高且支付受阻，希望能寻求更优的替代方案。</p><p>Tags: stripe · tax · startup</p>",
+      "date_published": "2026-10-11T13:33:37+00:00",
+      "tags": [
+        "stripe",
+        "tax",
+        "startup"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4953342-centuri-holdings-attractive-opportunity-if-profitability-improves?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4953342-centuri-holdings-attractive-opportunity-if-profitability-improves?source=feed_all_articles",
+      "title": "Centuri Holdings：盈利改善后的投资吸引力",
+      "content_html": "<p><strong>Centuri Holdings: An Attractive Opportunity If Profitability Improves</strong></p><p>Centuri Holdings could represent a strong investment opportunity if the company demonstrates consistent improvement in its profitability margins. Analysts remain cautious but see potential for growth in the current market.</p><p>若Centuri Holdings能实现利润率的持续改善，其投资潜力将大幅提升。分析师持谨慎态度，但看好该公司在当前市场环境下的增长可能。</p><p>Tags: investment · stocks · finance</p>",
+      "date_published": "2026-10-11T13:30:48+00:00",
+      "tags": [
+        "investment",
+        "stocks",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4953327-glaukos-steep-premium-for-new-therapies-and-growth?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4953327-glaukos-steep-premium-for-new-therapies-and-growth?source=feed_all_articles",
+      "title": "Glaukos：新疗法带来的高溢价与增长前景",
+      "content_html": "<p><strong>Glaukos: Steep Premium For New Therapies And Growth</strong></p><p>Glaukos is trading at a steep premium, driven by high market expectations for its innovative therapeutic pipeline and growth potential. Investors are weighing this valuation against the company&#x27;s long-term performance targets.</p><p>市场对Glaukos的新疗法及增长预期较高，导致其股票目前处于高溢价状态。投资者正在平衡这一高估值与公司的长期业绩增长能力。</p><p>Tags: glaukos · biotech · stocks</p>",
+      "date_published": "2026-10-11T13:30:43+00:00",
+      "tags": [
+        "glaukos",
+        "biotech",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1247882#reply0",
+      "url": "https://www.v2ex.com/t/1247882#reply0",
+      "title": "[分享创造] 开发了多Agent协作工具Sealwire",
+      "content_html": "<p><strong>[分享创造] 整了个多 agent 协作工具 Sealwire：让 Claude Code/Codex/OpenCode 等 Agent 互相 review、合作，手机上审批接管（送测试码）</strong></p><p>The developer introduced Sealwire, a tool that enables seamless collaboration between various AI agents like Claude Code and Cursor. It features cross-agent reviews and remote approval capabilities for enhanced productivity.</p><p>开发者推出了多Agent协作工具Sealwire，支持Claude Code、Cursor等不同模型间的任务交互与代码审查。该工具具备本地隐私模式及远程手机审批功能，助力工作流自动化。</p><p>Tags: ai · agents · productivity</p>",
+      "date_published": "2026-10-11T13:30:41+00:00",
+      "tags": [
+        "ai",
+        "agents",
+        "productivity"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1247881#reply0",
+      "url": "https://www.v2ex.com/t/1247881#reply0",
+      "title": "[分享创造] 针对程序员久坐问题的语音健身小程序",
+      "content_html": "<p><strong>[分享创造] [分享创造]写代码久坐腰痛,做了一个放下手机,靠语音闭眼跟练的健身小程序-闻鼓而动</strong></p><p>An engineer developed a mini-program called &#x27;闻鼓而动&#x27; to help developers exercise via voice guidance to alleviate back pain from sitting. The project is open-source and features diagrams for proper movement.</p><p>针对程序员久坐腰痛问题，开发者创作了一款名为“闻鼓而动”的小程序，通过语音引导用户进行无手机健身训练。项目已开源并补充了动作示意图供用户免费使用。</p><p>Tags: fitness · health · 小程序</p>",
+      "date_published": "2026-10-11T13:30:24+00:00",
+      "tags": [
+        "fitness",
+        "health",
+        "小程序"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1247880#reply0",
+      "url": "https://www.v2ex.com/t/1247880#reply0",
+      "title": "[分享创造] 云深网：基于八字命理的趣味现代视角测试",
+      "content_html": "<p><strong>[分享创造] https://yunshen.wang/ 云深网 在线测您是不是：比劫男/伤官女/杀印相生/红艳煞/...</strong></p><p>The author created &#x27;Yunshen.wang,&#x27; a web application that explores traditional Bazi astrology through a modern, scientific perspective. The platform uses Next.js for the frontend and PHP for the backend.</p><p>开发者分享了网站“云深网”，以现代视角解析传统八字命理，旨在提供趣味性的知识科普。该项目前端采用Next.js构建，后端使用PHP。</p><p>Tags: web · nextjs · php</p>",
+      "date_published": "2026-10-11T13:29:40+00:00",
+      "tags": [
+        "web",
+        "nextjs",
+        "php"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1247879#reply0",
+      "url": "https://www.v2ex.com/t/1247879#reply0",
+      "title": "[问与答] OnlyClaws：通过HTTP使用AI Agent分发Lua代码到ESP32",
+      "content_html": "<p><strong>[问与答] OnlyClaws：固件只烧一次， AI Agent 用 HTTP 给 ESP32 下发 Lua 换应用</strong></p><p>The project &#x27;OnlyClaws&#x27; allows AI agents to push Lua scripts to ESP32 hardware via HTTP, eliminating the need for repeated firmware compilation. It simplifies IoT development by enabling remote deployment and real-time interaction.</p><p>OnlyClaws项目实现了通过AI Agent利用HTTP协议向ESP32硬件下发Lua脚本，无需重复编译固件。该方案简化了物联网开发流程，支持远程应用替换与实时反馈。</p><p>Tags: esp32 · ai · iot</p>",
+      "date_published": "2026-10-11T13:27:59+00:00",
+      "tags": [
+        "esp32",
+        "ai",
+        "iot"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4953328-helus-pharma-stock-buy-ahead-hlp003-phase-3-readout?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4953328-helus-pharma-stock-buy-ahead-hlp003-phase-3-readout?source=feed_all_articles",
+      "title": "Helus Pharma：HLP003三期数据发布前的买入机会",
+      "content_html": "<p><strong>Helus Pharma: A Buy Ahead Of The HLP003 Phase 3 Readout</strong></p><p>Investors are considering Helus Pharma as a &#x27;buy&#x27; ahead of the anticipated phase 3 trial results for HLP003. Market reaction to the upcoming data readout will likely determine the stock&#x27;s next major movement.</p><p>在HLP003三期临床数据发布前，Helus Pharma被视为一个潜在的买入机会。即将公布的试验结果将直接影响该公司的股价走势。</p><p>Tags: pharma · biotech · stocks</p>",
+      "date_published": "2026-10-11T13:10:57+00:00",
+      "tags": [
+        "pharma",
+        "biotech",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4953340-agree-realty-when-markets-turn-turbulent-this-is-the-reit-you-want-to-own?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4953340-agree-realty-when-markets-turn-turbulent-this-is-the-reit-you-want-to-own?source=feed_all_articles",
+      "title": "Agree Realty：市场震荡时的可靠REIT选择",
+      "content_html": "<p><strong>Agree Realty: When Markets Turn Turbulent, This Is The REIT You Want To Own</strong></p><p>Agree Realty is positioned as a defensive stock, making it a preferred choice for investors during periods of market turbulence. Its portfolio stability offers a buffer against broader economic uncertainty.</p><p>在市场震荡时期，Agree Realty凭借其稳健的投资组合被视为理想的防御性REIT资产。其业务稳定性为投资者提供了应对经济不确定性的屏障。</p><p>Tags: reit · realestate · finance</p>",
+      "date_published": "2026-10-11T13:07:57+00:00",
+      "tags": [
+        "reit",
+        "realestate",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/entertainment/1008720/vurt-microdramas-verticals-interview-hilmon-sorey",
+      "url": "https://www.theverge.com/entertainment/1008720/vurt-microdramas-verticals-interview-hilmon-sorey",
+      "title": "Vurt认为垂直视频应作为一种独立类型",
+      "content_html": "<p><strong>Vurt wants you to look at vertical videos as a genre of their own</strong></p><p>Vurt is advocating for vertical video to be recognized as its own distinct genre rather than just a social media format. Streaming services are increasingly adopting this style to compete with platforms like TikTok.</p><p>Vurt提倡将垂直视频视为一种独立的内容流派，而非仅局限于社交媒体。目前各大流媒体服务正纷纷效仿此格式，以应对TikTok带来的用户注意力竞争。</p><p>Tags: video · streaming · media</p>",
+      "date_published": "2026-10-11T13:00:00+00:00",
+      "tags": [
+        "video",
+        "streaming",
+        "media"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
+      "url": "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
+      "title": "苹果“Welcome Home”发布会前瞻",
+      "content_html": "<p><strong>What to expect from Apple’s ‘Welcome Home’ event</strong></p><p>Apple&#x27;s upcoming &#x27;Welcome Home&#x27; event is expected to feature new smart home hardware, including updated Apple TV and HomePod Mini models. Analysts also anticipate the unveiling of a dedicated smart home hub and the debut of &#x27;homeOS&#x27;.</p><p>苹果即将举办“Welcome Home”发布会，预计将更新Apple TV与HomePod Mini。此外，全新的智能家居中心及操作系统“homeOS”也有望在此次活动中亮相。</p><p>Tags: apple · smart-home · homeos</p>",
+      "date_published": "2026-10-11T13:00:00+00:00",
+      "tags": [
+        "apple",
+        "smart-home",
+        "homeos"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
+      "title": "牛市进入第四年，但债券收益率可能破坏局面",
+      "content_html": "<p><strong>The bull market is turning 4 years old — but yields could crash the party</strong></p><p>The current bull market has reached its four-year anniversary, with technology stocks driving much of the growth. However, rising bond yields remain a significant risk that could threaten the ongoing rally.</p><p>当前牛市已持续四年，科技股是增长的主要引擎。然而，债券收益率的上升构成了重大风险，可能对市场涨势造成不利影响。</p><p>Tags: stocks · bullmarket · finance</p>",
+      "date_published": "2026-10-11T13:00:00+00:00",
+      "tags": [
+        "stocks",
+        "bullmarket",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+      "title": "乌克兰无视特朗普警告再次打击俄罗斯数据中心",
+      "content_html": "<p><strong>Ukraine strikes Russian data centre again despite Trump warning</strong></p><p>Ukraine has conducted its third strike against Russian tech giant Yandex this week, forcing the suspension of operations. The action persists despite warnings from Donald Trump regarding such escalations.</p><p>乌克兰本周第三次针对俄罗斯科技巨头Yandex发起打击，迫使其暂停业务运营。尽管特朗普此前发出警告，但此类军事行动仍在持续。</p><p>Tags: ukraine · russia · yandex</p>",
+      "date_published": "2026-10-11T12:50:46+00:00",
+      "tags": [
+        "ukraine",
+        "russia",
+        "yandex"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+      "title": "投资组合剧烈波动，是时候担心了吗？",
+      "content_html": "<p><strong>‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?</strong></p><p>Investors are feeling uneasy as their portfolios experience significant volatility. Experts suggest that such swings are likely driven by institutional profit-taking rather than long-term market failure.</p><p>面对投资组合的剧烈波动，不少投资者感到焦虑。专家指出，这种震荡可能源于机构获利回吐，而非市场长期走势出现重大转向。</p><p>Tags: stocks · investing · market</p>",
+      "date_published": "2026-10-11T12:30:00+00:00",
+      "tags": [
+        "stocks",
+        "investing",
+        "market"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
+      "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
+      "title": "不要在路径中使用波浪号",
+      "content_html": "<p><strong>Don&#x27;t Put Tilde In Your Path</strong></p><p>A discussion on why using tildes in file paths can lead to unexpected issues in various software environments. Best practices emphasize sticking to standard characters to ensure cross-platform compatibility.</p><p>本文探讨了在文件路径中使用波浪号为何会导致软件运行中的异常。为了确保跨平台兼容性，开发者建议应坚持使用标准字符路径。</p><p>Tags: programming · path · bestpractices</p>",
+      "date_published": "2026-10-11T12:13:13+00:00",
+      "tags": [
+        "programming",
+        "path",
+        "bestpractices"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://verdagon.dev/blog/valen-group-borrowing",
+      "url": "https://verdagon.dev/blog/valen-group-borrowing",
+      "title": "Valen的内存安全：一种新的借用检查机制",
+      "content_html": "<p><strong>Valen&#x27;s Memory Safety: A New Kind of Borrow Checking</strong></p><p>The article discusses &#x27;Valen,&#x27; a new approach to memory safety that introduces a unique form of borrow checking. It aims to improve performance and safety in low-level programming languages.</p><p>文章介绍了Valen，这是一种旨在提升底层编程语言内存安全性的新型借用检查机制。该方法通过独特的技术路径，力求在性能与安全性之间取得平衡。</p><p>Tags: rust · programming · memory-safety</p>",
+      "date_published": "2026-10-11T12:06:22+00:00",
+      "tags": [
+        "rust",
+        "programming",
+        "memory-safety"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_medium=RSS&at_campaign=rss",
+      "title": "尼泊尔遭遇新一轮洪水，房屋与桥梁被毁",
+      "content_html": "<p><strong>Homes and bridges swept away as fresh floods hit Nepal</strong></p><p>Following devastating floods two months ago, Nepal is facing a new wave of catastrophic flooding. The incident has left homes destroyed and infrastructure compromised as recovery efforts remain ongoing.</p><p>继两个月前的严重洪灾后，尼泊尔近日再次遭遇大面积洪水袭击。灾情导致大量房屋与基础设施损毁，救援工作正处于艰难开展中。</p><p>Tags: nepal · flood · disaster</p>",
+      "date_published": "2026-10-11T12:03:52+00:00",
+      "tags": [
+        "nepal",
+        "flood",
+        "disaster"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
+      "title": "银行财报将揭示高收益率对经济的影响",
+      "content_html": "<p><strong>Bank earnings to shed the first light on how higher yields are affecting the economy</strong></p><p>Large banks are set to release their earnings reports, offering a look at how rising yields are impacting the broader economy. These reports are considered a bellwether for current economic health.</p><p>大型银行即将发布的财报将成为观察高收益率环境对经济影响的风向标。这些数据对判断整体宏观经济的健康状况至关重要。</p><p>Tags: banking · earnings · economy</p>",
+      "date_published": "2026-10-11T12:00:00+00:00",
+      "tags": [
+        "banking",
+        "earnings",
+        "economy"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_medium=RSS&at_campaign=rss",
+      "title": "德里抗议活动持续，获释的“蟑螂”组织领导人发誓继续斗争",
+      "content_html": "<p><strong>Delhi sees more protests as freed &#x27;cockroach&#x27; group&#x27;s leaders vow to fight on</strong></p><p>Protests continue in Delhi as leaders of the &#x27;cockroach&#x27; group, recently released from police detention, vow to resume their campaign. Hundreds were detained following the resurgence of public unrest.</p><p>德里抗议活动再度升温，获释的“蟑螂”组织领导人誓言继续示威。尽管警方采取了限制措施，但仍有数百人因参与抗议被拘留。</p><p>Tags: delhi · protest · india</p>",
+      "date_published": "2026-10-11T11:11:42+00:00",
+      "tags": [
+        "delhi",
+        "protest",
+        "india"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "title": "学习使用本地AI既令人兴奋又感到挫败",
+      "content_html": "<p><strong>Learning to use local AI is exciting, overwhelming, and frustrating</strong></p><p>Running AI models locally offers privacy benefits but comes with a steep learning curve and significant hardware demands. Users often find the experience rewarding yet overwhelming to maintain.</p><p>在本地部署AI模型虽然保障了隐私，但也带来了巨大的学习成本与硬件门槛。用户在体验技术进步的同时，常感到维护过程既复杂又令人挫败。</p><p>Tags: ai · llm · local-ai</p>",
+      "date_published": "2026-10-11T11:00:00+00:00",
+      "tags": [
+        "ai",
+        "llm",
+        "local-ai"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://sspai.com/post/115568",
+      "url": "https://sspai.com/post/115568",
+      "title": "跑两步就喘：跑后拉伸与恢复指南",
+      "content_html": "<p><strong>写给「跑两步就喘」的你：不能忽略的跑后拉伸与恢复</strong></p><p>Proper stretching and recovery are crucial for runners to prevent injury and improve performance. This guide outlines essential techniques to help the body recover after exercise.</p><p>对于跑步爱好者来说，科学的拉伸与身体恢复是避免损伤的关键。本文详细介绍了跑后如何正确拉伸，以帮助身体更好地从运动中恢复。</p><p>Tags: running · health · fitness</p>",
+      "date_published": "2026-10-11T07:00:49+00:00",
+      "tags": [
+        "running",
+        "health",
+        "fitness"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
+      "title": "美国司法部调查特朗普池采访报道中的电视网络",
+      "content_html": "<p><strong>US justice department investigates TV networks over Trump pool coverage</strong></p><p>The DOJ is investigating how television networks managed pool coverage during Trump&#x27;s events after the White House blocked several major outlets. The probe focuses on the implications for media access and fairness.</p><p>白宫此前封锁了部分主要媒体进入采访池，导致美国司法部介入调查电视台的报道管理方式。调查重点在于媒体准入权及报道的公平性。</p><p>Tags: trump · media · politics</p>",
+      "date_published": "2026-10-11T05:05:43+00:00",
+      "tags": [
+        "trump",
+        "media",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
       "id": "https://seekingalpha.com/article/4953266-krystal-biotech-vyjuveks-success-is-becoming-its-growth-problem-downgrade?source=feed_all_articles",
       "url": "https://seekingalpha.com/article/4953266-krystal-biotech-vyjuveks-success-is-becoming-its-growth-problem-downgrade?source=feed_all_articles",
       "title": "Krystal Biotech：Vyjuvek的成功正成为其增长的难题（降级）",
@@ -2327,318 +2639,6 @@
         "network"
       ],
       "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4952005-mixed-markets-traders-look-catalysts?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4952005-mixed-markets-traders-look-catalysts?source=feed_all_articles",
-      "title": "市场走势分化，交易者静待催化剂",
-      "content_html": "<p><strong>Mixed Markets As Traders Look For Catalysts</strong></p><p>The financial markets are showing mixed signals as traders remain cautious. Investors are currently waiting for significant economic catalysts to dictate the next market direction.</p><p>金融市场走势分化，交易者保持谨慎态度。投资者正在静待重大经济催化剂以指引市场方向。</p><p>Tags: markets · trading · finance</p>",
-      "date_published": "2026-10-05T15:05:00+00:00",
-      "tags": [
-        "markets",
-        "trading",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4951994-two-quality-8-percent-yielders-to-consider?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4951994-two-quality-8-percent-yielders-to-consider?source=feed_all_articles",
-      "title": "值得关注的两只 8% 高收益股票",
-      "content_html": "<p><strong>2 Quality 8% Yielders To Consider</strong></p><p>This article highlights two high-quality stocks that currently offer an 8% dividend yield. It provides a brief analysis of why these options might be suitable for income-focused investors.</p><p>文章介绍了两只目前提供8%股息收益的优质股票。简要分析了为何这些选择适合注重收入的投资者。</p><p>Tags: dividend · stocks · investment</p>",
-      "date_published": "2026-10-05T15:01:11+00:00",
-      "tags": [
-        "dividend",
-        "stocks",
-        "investment"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://openai.com/index/eu-text-provenance",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "title": "我们关于欧盟文本溯源规则的方法",
-      "content_html": "<p><strong>Our approach to EU text provenance rules</strong></p><p>OpenAI details its strategy for implementing text watermarking in accordance with new EU regulations. The company explains how detection works and focuses initial access on academic researchers.</p><p>OpenAI详细说明了其针对欧盟新规实施文本水印的策略。公司解释了检测原理，并优先向学术研究人员提供访问权限。</p><p>Tags: openai · regulation · watermark</p>",
-      "date_published": "2026-10-05T15:00:00+00:00",
-      "tags": [
-        "openai",
-        "regulation",
-        "watermark"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/im-in-my-20s-and-keep-getting-laid-off-should-i-invest-in-my-employers-401-k-or-look-into-other-options-387b34d3?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/im-in-my-20s-and-keep-getting-laid-off-should-i-invest-in-my-employers-401-k-or-look-into-other-options-387b34d3?mod=mw_rss_topstories",
-      "title": "20多岁频繁被裁，该投 401(k) 吗？",
-      "content_html": "<p><strong>I’m in my 20s and keep getting laid off. Should I invest in my employer’s 401(k) or look into other options?</strong></p><p>A young professional questions the value of 401(k) plans amid a volatile job market. They express skepticism about traditional long-term employment and seek alternative investment advice.</p><p>一名年轻员工在动荡的就业环境下质疑401(k)计划的价值。他们对传统的长期就业表示怀疑，并寻求替代性的投资建议。</p><p>Tags: career · finance · 401k</p>",
-      "date_published": "2026-10-05T15:00:00+00:00",
-      "tags": [
-        "career",
-        "finance",
-        "401k"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
-      "title": "贷款经理警告：挥霍无度的美国人正在引发危机",
-      "content_html": "<p><strong>‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected wealthy couples due to overspending. We’re all heading for trouble.</strong></p><p>A mortgage loan officer warns that excessive consumer spending is creating a bubble similar to the 2008 financial crisis. They urge Americans to adjust their financial habits to prevent an economic collapse.</p><p>一名抵押贷款经理警告称，过度消费正在制造类似2008年的金融泡沫。他们敦促美国人调整财务习惯以避免经济崩溃。</p><p>Tags: economy · finance · warning</p>",
-      "date_published": "2026-10-05T15:00:00+00:00",
-      "tags": [
-        "economy",
-        "finance",
-        "warning"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4952003-greek-myths-and-icelandic-sagas-reclassifications-in-global-market-library?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4952003-greek-myths-and-icelandic-sagas-reclassifications-in-global-market-library?source=feed_all_articles",
-      "title": "希腊神话与冰岛萨迦：全球市场库的重新分类",
-      "content_html": "<p><strong>Greek Myths And Icelandic Sagas: Reclassifications In The Global Market Library</strong></p><p>This piece uses metaphors to discuss the reorganization of global market classifications. It examines how traditional structures are being updated to reflect modern economic realities.</p><p>文章运用隐喻讨论了全球市场分类的重新整合。探讨了传统结构如何更新以反映现代经济现实。</p><p>Tags: finance · markets · analysis</p>",
-      "date_published": "2026-10-05T15:00:00+00:00",
-      "tags": [
-        "finance",
-        "markets",
-        "analysis"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2591962-2591962/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2591962-2591962/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "在丹尼索瓦洞穴发现灭绝的牦牛近亲 DNA",
-      "content_html": "<p><strong>Extinct yak relative discovered from DNA in Denisova cave</strong></p><p>Genetic analysis of bone fragments from the Denisova cave has identified a previously unknown species of yak. This discovery sheds new light on the biodiversity of the region in ancient times.</p><p>通过对丹尼索瓦洞穴骨骼碎片的基因分析，科学家发现了一种未知的牦牛物种。这一发现揭示了该地区古代的生物多样性。</p><p>Tags: dna · paleontology · discovery</p>",
-      "date_published": "2026-10-05T15:00:00+00:00",
-      "tags": [
-        "dna",
-        "paleontology",
-        "discovery"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2590514-can-we-harness-the-brains-deep-cleaning-system-to-prevent-alzheimers/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2590514-can-we-harness-the-brains-deep-cleaning-system-to-prevent-alzheimers/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "我们能利用大脑的深度清洁系统预防阿尔茨海默病吗？",
-      "content_html": "<p><strong>Can we harness the brain’s deep-cleaning system to prevent Alzheimer’s?</strong></p><p>Researchers are investigating the glymphatic system, the brain&#x27;s waste clearance network, to combat neurodegenerative diseases. Boosting this system could offer a new pathway to protect cognitive health.</p><p>研究人员正在探索大脑的类淋巴系统，即其废物清除网络，以对抗神经退行性疾病。强化该系统可能为保护认知健康提供新途径。</p><p>Tags: brain · health · alzheimer</p>",
-      "date_published": "2026-10-05T15:00:00+00:00",
-      "tags": [
-        "brain",
-        "health",
-        "alzheimer"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.theverge.com/entertainment/1004734/cnn-ceo-mark-thompson-paramount-warner-bros",
-      "url": "https://www.theverge.com/entertainment/1004734/cnn-ceo-mark-thompson-paramount-warner-bros",
-      "title": "CNN 老板将在派拉蒙与华纳兄弟合并后留任",
-      "content_html": "<p><strong>CNN&amp;#8217;s boss will remain as Paramount and WBD merge into Skydance</strong></p><p>Mark Thompson will remain the CEO of CNN following the $110 billion merger of Paramount and Warner Bros. Discovery. He reaffirmed his commitment to maintaining the network&#x27;s journalistic independence.</p><p>在派拉蒙与华纳兄弟探索公司完成1100亿美元的合并后，马克·汤普森将留任CNN首席执行官。他重申将维护该电视网的新闻独立性。</p><p>Tags: cnn · merger · media</p>",
-      "date_published": "2026-10-05T14:42:34+00:00",
-      "tags": [
-        "cnn",
-        "merger",
-        "media"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2591415-ai-finds-bafflingly-complex-but-beautiful-symmetrical-venn-diagram/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2591415-ai-finds-bafflingly-complex-but-beautiful-symmetrical-venn-diagram/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "AI 发现极其复杂且优美的对称维恩图",
-      "content_html": "<p><strong>AI finds bafflingly complex but beautiful symmetrical Venn diagram</strong></p><p>An amateur researcher has utilized AI to generate previously impossible rotationally symmetrical Venn diagrams. This achievement addresses a long-standing mathematical challenge.</p><p>一位业余研究者利用人工智能生成了此前无法实现的旋转对称维恩图。这一成就攻克了一个长期存在的数学难题。</p><p>Tags: ai · math · venndiagram</p>",
-      "date_published": "2026-10-05T14:40:13+00:00",
-      "tags": [
-        "ai",
-        "math",
-        "venndiagram"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/musk-hints-tsmc-may-join-his-mega-chip-venture-and-intels-stock-is-taking-a-hit-61c67ef9?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/musk-hints-tsmc-may-join-his-mega-chip-venture-and-intels-stock-is-taking-a-hit-61c67ef9?mod=mw_rss_topstories",
-      "title": "马斯克暗示芯片合资项目可能有其他合作伙伴，英特尔股价下跌",
-      "content_html": "<p><strong>Intel’s stock drops after Musk hints at an additional partner for big chip venture</strong></p><p>Intel&#x27;s stock dropped following Elon Musk&#x27;s mention of ongoing discussions with TSMC for the Terafab project. The market reacted to the possibility of Intel facing stiff competition in chip manufacturing.</p><p>在埃隆·马斯克暗示Terafab项目正在与台积电进行谈判后，英特尔股价下跌。市场对英特尔在芯片制造领域面临激烈竞争的可能性做出了反应。</p><p>Tags: intel · tsmc · stocks</p>",
-      "date_published": "2026-10-05T14:38:00+00:00",
-      "tags": [
-        "intel",
-        "tsmc",
-        "stocks"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/i-got-a-499-body-scan-to-see-if-i-have-cancer-heres-what-i-learned-09cfca29?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/i-got-a-499-body-scan-to-see-if-i-have-cancer-heres-what-i-learned-09cfca29?mod=mw_rss_topstories",
-      "title": "我花 499 美元做了全身扫描以检查癌症，我学到了什么？",
-      "content_html": "<p><strong>I got a $499 body scan to see if I have cancer. Here’s what I learned.</strong></p><p>The author shares their experience with a commercial full-body cancer screening scan. They discuss the limitations of a healthcare system focused on symptomatic diagnosis rather than preventative baselines.</p><p>作者分享了进行商业全身癌症扫描的体验。他们讨论了医疗系统侧重于症状诊断而非预防性基准的局限性。</p><p>Tags: health · cancer · scan</p>",
-      "date_published": "2026-10-05T14:35:00+00:00",
-      "tags": [
-        "health",
-        "cancer",
-        "scan"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o?at_medium=RSS&at_campaign=rss",
-      "title": "法国学生抗议期间少年手部被炸断",
-      "content_html": "<p><strong>Teenager&#x27;s hand blown off during confrontation between France school protesters and police</strong></p><p>A 15-year-old sustained serious injuries during clashes between student protesters and police in France. Authorities have confirmed the incident is under investigation and the teenager is stable.</p><p>在法国学生抗议者与警察的冲突中，一名15岁少年受重伤。当局证实正在对此事件进行调查，伤者生命体征平稳。</p><p>Tags: france · protest · incident</p>",
-      "date_published": "2026-10-05T14:30:31+00:00",
-      "tags": [
-        "france",
-        "protest",
-        "incident"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
-      "url": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
-      "title": "俄罗斯实验室人员死于鼠疫，近 200 人被隔离",
-      "content_html": "<p><strong>Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time</strong></p><p>A lab accident in Siberia resulted in a fatal case of pneumonic plague, triggering a quarantine for nearly 200 potential contacts. Health authorities are closely monitoring the situation to prevent further spread.</p><p>西伯利亚的一起实验室事故导致一名人员死于肺鼠疫，近200名接触者被隔离。卫生部门正密切监测以防扩散。</p><p>Tags: russia · plague · health</p>",
-      "date_published": "2026-10-05T14:30:00+00:00",
-      "tags": [
-        "russia",
-        "plague",
-        "health"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2592051-nearly-200-people-isolated-after-lab-worker-in-russia-dies-of-plague/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2592051-nearly-200-people-isolated-after-lab-worker-in-russia-dies-of-plague/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "十月亚马逊 Prime Day 最佳折扣汇总",
-      "content_html": "<p><strong>Nearly 200 people isolated after lab worker in Russia dies of plague</strong></p><p>Amazon&#x27;s October Prime Day deals are live, offering significant discounts across various product categories. These early sales serve as a preview for the upcoming Black Friday shopping season.</p><p>亚马逊十月会员日优惠活动现已开启，各类产品均有大幅折扣。这些促销活动可以被视为即将到来的黑色星期五购物季的前奏。</p><p>Tags: amazon · deals · shopping</p>",
-      "date_published": "2026-10-05T14:19:15+00:00",
-      "tags": [
-        "amazon",
-        "deals",
-        "shopping"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool",
-      "title": "将预测分析引入代理式 AI 时代",
-      "content_html": "<p><strong>An open-source tool lets you delete 12GB of Apple Intelligence data on macOS</strong></p><p>The enterprise focus for AI has shifted from simple predictive modeling to autonomous, agentic decision-making. The challenge is now ensuring these systems align with business objectives without losing control.</p><p>企业AI的重心已从简单的预测模型转向自主代理决策。现在的挑战在于确保这些系统在不失控的情况下与业务目标保持一致。</p><p>Tags: ai · enterprise · analytics</p>",
-      "date_published": "2026-10-05T13:47:14+00:00",
-      "tags": [
-        "ai",
-        "enterprise",
-        "analytics"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
-      "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
-      "title": "美国撤离轰炸机后，英国坚持称 Fairford 空军基地安全",
-      "content_html": "<p><strong>Bringing predictive analytics to the agentic AI era</strong></p><p>The UK government maintains that RAF Fairford is safe despite the sudden withdrawal of US bombers. Reports suggest the decision followed security concerns near the base.</p><p>尽管美国轰炸机突然撤离，英国政府坚称费尔福德皇家空军基地是安全的。有报道称，此决定是出于对基地附近安全隐患的担忧。</p><p>Tags: uk · military · security</p>",
-      "date_published": "2026-10-05T13:29:32+00:00",
-      "tags": [
-        "uk",
-        "military",
-        "security"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
-      "title": "OpenAI 在 ChatGPT 中增加广告",
-      "content_html": "<p><strong>No10 insists UK military base RAF Fairford is safe after US withdraws bombers</strong></p><p>OpenAI is testing a new advertising format in ChatGPT that displays sponsored product images. These ads will primarily appear during image generation tasks as part of the company&#x27;s monetization strategy.</p><p>OpenAI正在ChatGPT中测试一种新的广告格式，展示赞助产品图片。作为公司盈利策略的一部分，这些广告将主要出现在图像生成任务中。</p><p>Tags: openai · chatgpt · ads</p>",
-      "date_published": "2026-10-05T13:16:00+00:00",
-      "tags": [
-        "openai",
-        "chatgpt",
-        "ads"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
-      "title": "Pixel 11 可能因未能达到 GrapheneOS 安全标准而被跳过",
-      "content_html": "<p><strong>OpenAI is sticking more ads in ChatGPT</strong></p><p>Rumors suggest the Pixel 11 may not be supported by GrapheneOS due to unmet security requirements. This would impact users who rely on the privacy-focused custom ROM.</p><p>有传言称，由于未能满足安全要求，Pixel 11可能不会获得GrapheneOS的支持。这将影响依赖该隐私定制ROM的用户。</p><p>Tags: pixel · grapheneos · security</p>",
-      "date_published": "2026-10-05T13:09:48+00:00",
-      "tags": [
-        "pixel",
-        "grapheneos",
-        "security"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
-      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
-      "title": "下载：AI 的流行悖论与 2026 技术展望",
-      "content_html": "<p><strong>Pixel 11 doesn&#x27;t yet meet the GrapheneOS security standards and may be skipped</strong></p><p>This newsletter explores the contradiction between public skepticism of AI and its rapid adoption. It also previews the key technological themes for the upcoming 2026 industry landscape.</p><p>本通讯探讨了公众对人工智能的怀疑与其实际高速普及之间的矛盾。同时预告了2026年产业格局的关键技术主题。</p><p>Tags: ai · tech · trends</p>",
-      "date_published": "2026-10-05T13:02:25+00:00",
-      "tags": [
-        "ai",
-        "tech",
-        "trends"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
-      "url": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
-      "title": "Flydubai 副驾驶曾计划将飞机坠毁在特拉维夫",
-      "content_html": "<p><strong>The Download: AI’s popularity paradox and EmTech Future 2026</strong></p><p>Reports allege that a Flydubai co-pilot was a lone-wolf extremist who plotted to crash a plane into Tel Aviv. The incident highlights ongoing security concerns regarding aviation staff vetting.</p><p>据报道，一名迪拜航空副驾驶被指是独狼极端分子，曾密谋驾机撞向特拉维夫。该事件凸显了航空人员背景调查的安全隐忧。</p><p>Tags: aviation · security · middleeast</p>",
-      "date_published": "2026-10-05T12:10:00+00:00",
-      "tags": [
-        "aviation",
-        "security",
-        "middleeast"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
-      "title": "欧洲新机器人独角兽：德国 RobCo 估值达 10 亿美元",
-      "content_html": "<p><strong>Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say</strong></p><p>German robotics startup RobCo has officially reached a $1 billion valuation. The company specializes in modular, flexible industrial robots for manufacturing.</p><p>德国机器人初创公司RobCo估值正式达到10亿美元。该公司专门从事模块化、灵活的工业制造机器人研发。</p><p>Tags: robotics · germany · startup</p>",
-      "date_published": "2026-10-05T11:34:59+00:00",
-      "tags": [
-        "robotics",
-        "germany",
-        "startup"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
-      "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
-      "title": "诺贝尔奖授予揭示大脑内部运作机制的研究",
-      "content_html": "<p><strong>Europe&#x27;s new robotics unicorn: Germany&#x27;s RobCo hits $1B valuation</strong></p><p>The Nobel Prize has been awarded to Karl Deisseroth and colleagues for their pioneering work on brain function. Their research has provided deep insights into how the brain operates at a cellular level.</p><p>卡尔·戴瑟罗斯及其同事因在大脑功能领域的开创性工作获得诺贝尔奖。他们的研究深入揭示了大脑在细胞层面的运作机制。</p><p>Tags: nobel · science · brain</p>",
-      "date_published": "2026-10-05T11:13:51+00:00",
-      "tags": [
-        "nobel",
-        "science",
-        "brain"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
-      "title": "压缩骨骼可释放缓解创伤性脑损伤的分子",
-      "content_html": "<p><strong>Nobel Prize awarded for revealing inner workings of the brain</strong></p><p>A new study reveals that compressing shin bones in test subjects can trigger the release of molecules that aid brain injury recovery. This finding offers a novel, non-invasive approach to treating traumatic brain injuries.</p><p>一项新研究表明，压缩胫骨可促进释放有助于脑损伤恢复的分子。这一发现为治疗创伤性脑损伤提供了一种新颖的非侵入性方法。</p><p>Tags: biology · health · research</p>",
-      "date_published": "2026-10-05T11:04:37+00:00",
-      "tags": [
-        "biology",
-        "health",
-        "research"
-      ],
-      "_category": "SCI"
     }
   ]
 }
