@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">29</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">3</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">4</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">6</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-12 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Mon Oct 12 2026 &middot; 29 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;llm&quot;, &quot;legal&quot;, &quot;agentic-ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://z.ai/blog/glm-legal" target="_blank" rel="noopener" onclick="event.stopPropagation()">GLM-Legal: Advancing Agentic Legal Intelligence</a></div>
+      <div class="item-title-zh">GLM-Legal：推进代理式法律智能</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">llm · legal · agentic-ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The GLM-Legal project explores the development of agentic AI systems specifically tailored for legal applications. It focuses on advancing how AI agents can independently perform complex legal research and analysis tasks.</p>
+      <p class="summary-zh">GLM-Legal 项目探讨了专门针对法律应用开发的代理式人工智能系统。它侧重于推动 AI 代理如何独立执行复杂的法律研究和分析任务。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;ai-video&quot;, &quot;claude&quot;, &quot;motion-graphics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248246#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 用 Claude Opus 5.5 做了个动效视频工具，哪里不满意只改哪里，不用整条重新生成</a></div>
+      <div class="item-title-zh">分享创造：用 Claude Opus 5.5 做了一个动效视频工具</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai-video · claude · motion-graphics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Tellcut is a new web-based tool that uses Claude Opus 5.5 to generate and edit motion graphics videos via code. It allows users to modify specific segments of a video without the need to regenerate the entire clip.</p>
+      <p class="summary-zh">Tellcut 是一款基于网页的新工具，利用 Claude Opus 5.5 通过代码生成和编辑动效视频。它允许用户修改视频的特定片段，而无需重新生成整个剪辑。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;consciousness&quot;, &quot;philosophy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2591107-do-ais-already-process-information-in-a-way-that-gives-rise-to-consciousness/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Do AIs already process information in a way that gives rise to consciousness?</a></div>
+      <div class="item-title-zh">人工智能是否已经以产生意识的方式处理信息？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">New Scientist &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · consciousness · philosophy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Neuroscientists and philosophers are debating whether advanced AI models like Claude exhibit consciousness based on information flow. The discussion centers on whether current architectures mirror human brain functions.</p>
+      <p class="summary-zh">神经科学家和哲学家正在讨论像 Claude 这样先进的人工智能模型是否基于信息流表现出意识。讨论重点在于目前的架构是否映射了人类大脑的功能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="TECH" data-tags="[&quot;macos&quot;, &quot;vaultwarden&quot;, &quot;password-manager&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248247#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 做了一个原生的 macOS Vaultwarden 客户端：基于 MyGo ，主窗口零 WebView，支持 Touch ID 与系统级 AutoFill</a></div>
+      <div class="item-title-zh">分享创造：开发了一个原生的 macOS Vaultwarden 客户端</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">macos · vaultwarden · password-manager</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer has released MyGo Vaultwarden, a native macOS client for the open-source password manager. The app prioritizes performance by avoiding Electron in favor of native Swift and Go to enable Touch ID and system-level Autofill.</p>
+      <p class="summary-zh">一名开发者发布了 MyGo Vaultwarden，这是一个用于开源密码管理器的原生 macOS 客户端。该应用通过使用原生 Swift 和 Go 替代 Electron，实现了 Touch ID 和系统级自动填充功能，大幅提升了性能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;ios&quot;, &quot;healthcare&quot;, &quot;personal-development&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248245#reply6" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 因为带孩子去医院，医生开的药，家里其实有，所以我开发了一个记录就诊和家庭药箱的 App</a></div>
+      <div class="item-title-zh">分享创造：开发了一个记录就诊和家庭药箱的 App</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ios · healthcare · personal-development</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer created an app to manage personal medical records and home medication inventories. The tool also tracks health metrics and allows parents to log symptoms and reactions for their children.</p>
+      <p class="summary-zh">一名开发者创建了一款应用程序，用于管理个人医疗记录和家庭药品库存。该工具还可以追踪健康指标，并允许家长记录孩子的症状和反应。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;motion-design&quot;, &quot;effectcraft&quot;, &quot;software&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248244#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[推广] 做了个 EffectCraft 独立资料站：整理下载、入门教程和 AE 兼容限制</a></div>
+      <div class="item-title-zh">推广：制作了一个 EffectCraft 独立资料站</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">motion-design · effectcraft · software</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new resource site has been launched to consolidate information, tutorials, and compatibility constraints for the EffectCraft software. The site aims to bridge gaps in the official documentation for motion designers.</p>
+      <p class="summary-zh">一个新的资源网站已上线，旨在整合 EffectCraft 软件的相关信息、教程和兼容性限制。该网站旨在为动效设计师填补官方文档中的信息缺口。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;history&quot;, &quot;computing&quot;, &quot;education&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248243#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] [分享创造] 我把计算机史做成了一座可以互动参观的线上展览</a></div>
+      <div class="item-title-zh">分享创造：我把计算机史做成了一座可以互动参观的线上展览</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">history · computing · education</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Knowledge Spaces is an interactive online exhibit chronicling the history of computing. It offers 22 curated exhibits and interactive elements based on Wikipedia snapshots for non-technical users.</p>
+      <p class="summary-zh">Knowledge Spaces 是一个记录计算机历史的交互式在线展览。它为非技术用户提供了 22 个基于维基百科快照策划的展品和互动元素。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;nintendo&quot;, &quot;switch2&quot;, &quot;hardware&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1008161/mechanism-basecase-switch-2-case-hands-on" target="_blank" rel="noopener" onclick="event.stopPropagation()">Mechanism&amp;#8217;s first Switch 2 case is as awesome as I hoped it would be</a></div>
+      <div class="item-title-zh">Mechanism 的首款 Switch 2 外壳非常出色</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nintendo · switch2 · hardware</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Accessory maker Mechanism has released its first snap-on shell for the Switch 2 after several delays. The modular design integrates with the company&#x27;s existing mount lineup, offering significant versatility for the console.</p>
+      <p class="summary-zh">配件制造商 Mechanism 在多次推迟后发布了其首款 Switch 2 扣合式外壳。该模块化设计与公司现有的支架系列集成，为游戏机提供了极大的多功能性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;android&quot;, &quot;google&quot;, &quot;laptop&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1008750/googlebooks-android-best-worst-notifications-app-cast-file-sharing" target="_blank" rel="noopener" onclick="event.stopPropagation()">Android is the best and worst thing about Googlebooks</a></div>
+      <div class="item-title-zh">Android 是 Googlebooks 最好的，也是最坏的部分</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">android · google · laptop</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The transition to Android-based laptops for professional tasks has been a mixed experience. While native app support provides convenience, the overall integration with Googlebooks remains imperfect.</p>
+      <p class="summary-zh">将基于 Android 的笔记本电脑用于专业任务的体验褒贬不一。尽管原生应用支持提供了便利，但其与 Googlebooks 的整体整合仍然不完美。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;gaming&quot;, &quot;ios&quot;, &quot;nomanssky&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date" target="_blank" rel="noopener" onclick="event.stopPropagation()">No Man’s Sky is coming to the iPhone and iPad</a></div>
+      <div class="item-title-zh">《无人深空》即将登陆 iPhone 和 iPad</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">gaming · ios · nomanssky</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Hello Games is bringing its popular sci-fi exploration game, No Man&#x27;s Sky, to iOS devices. The mobile version is scheduled to launch on October 28th, offering a full experience for Apple users.</p>
+      <p class="summary-zh">Hello Games 将把其广受欢迎的科幻探索游戏《无人深空》带到 iOS 设备上。该移动版本计划于 10 月 28 日发布，为苹果用户提供完整的游戏体验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;oneplus&quot;, &quot;smartphone&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1009570/oneplus-16-specs-features-china" target="_blank" rel="noopener" onclick="event.stopPropagation()">The OnePlus 16 is the company’s most interesting phone in years</a></div>
+      <div class="item-title-zh">一加 16 是该公司多年来最有趣的手机</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">oneplus · smartphone · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The newly launched OnePlus 16, featuring the Snapdragon 8 Elite chip, marks the company&#x27;s return to flagship performance after exiting Western markets. Reviewers are noting it as a significant hardware advancement for the brand.</p>
+      <p class="summary-zh">新发布的一加 16 搭载骁龙 8 Elite 芯片，标志着该公司在退出西方市场后重回旗舰性能领域。评论家指出这是该品牌的一次重大硬件进步。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="FINA" data-tags="[&quot;verisign&quot;, &quot;stocks&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953534-verisign-looks-too-expensive-despite-its-monopoly?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">VeriSign Looks Too Expensive Despite Its Monopoly</a></div>
+      <div class="item-title-zh">尽管拥有垄断地位，VeriSign 似乎仍显得过于昂贵</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">verisign · stocks · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">VeriSign&#x27;s market position as a domain registry monopoly is being questioned due to its high valuation. Investors are cautious about whether the stock&#x27;s current price is justified by its long-term growth prospects.</p>
+      <p class="summary-zh">VeriSign 作为域名注册垄断者的地位因高估值而受到质疑。投资者对其当前股价能否通过长期增长前景来支撑持谨慎态度。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;american airlines&quot;, &quot;aviation&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953533-american-airlines-a-bargain-facing-a-fuel-crisis?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">American Airlines: A Bargain Facing A Fuel Crisis</a></div>
+      <div class="item-title-zh">美国航空：面临燃油危机的便宜货</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">american airlines · aviation · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">American Airlines is viewed as a value play, but rising fuel costs threaten its bottom line. Investors are weighing the stock&#x27;s low price against significant operational headwinds in the aviation industry.</p>
+      <p class="summary-zh">美国航空被视为价值股，但油价上涨对其收益造成威胁。投资者正在权衡低股价与航空业面临的重大运营阻力之间的关系。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;carpenter technology&quot;, &quot;stocks&quot;, &quot;trading&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953532-carpenter-technology-i-called-the-sell-now-its-a-buy?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Carpenter Technology: I Called The Sell, Now It&#x27;s A Buy</a></div>
+      <div class="item-title-zh">Carpenter Technology：我之前喊了卖出，现在是买入时机</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">carpenter technology · stocks · trading</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An analyst who previously recommended selling Carpenter Technology shares has flipped their stance to a buy. The company&#x27;s recent performance suggests it has reached a turning point that warrants investor attention.</p>
+      <p class="summary-zh">一位曾建议卖出 Carpenter Technology 的分析师现在转变立场，建议买入。该公司的近期表现表明其已到达值得投资者关注的转折点。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;energy&quot;, &quot;diesel&quot;, &quot;trump&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953531-trump-russia-deal-unlikely-to-save-you-from-6-diesel?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Trump&#x27;s Russia Deal Is Unlikely To Save You From $6 Diesel</a></div>
+      <div class="item-title-zh">特朗普的俄罗斯协议不太可能让你免受 6 美元柴油的影响</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">energy · diesel · trump</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Analysts suggest that potential geopolitical deals involving Russia are unlikely to significantly lower US domestic diesel prices. Consumers should expect continued price pressure regardless of political shifts.</p>
+      <p class="summary-zh">分析师指出，涉及俄罗斯的潜在地缘政治协议不太可能显著降低美国国内柴油价格。无论政治局势如何变动，消费者都应预期价格压力将持续存在。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;viatris&quot;, &quot;pacira&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953530-viatris-is-the-pacira-deal-a-game-changer-rating-upgrade?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Viatris: Is The Pacira Deal A Game Changer? (Rating Upgrade)</a></div>
+      <div class="item-title-zh">Viatris：Pacira 交易是否改变了游戏规则？（评级上调）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">viatris · pacira · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Viatris has received a rating upgrade following its strategic deal with Pacira. Investors are evaluating whether this partnership will serve as a catalyst for long-term growth and market competitiveness.</p>
+      <p class="summary-zh">在与 Pacira 达成战略协议后，Viatris 获得了评级上调。投资者正在评估此次合作是否能成为推动长期增长和提升市场竞争力的催化剂。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;social-security&quot;, &quot;retirement&quot;, &quot;inflation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/heres-how-much-extra-money-could-be-in-your-monthly-social-security-check-next-year-2e0c4eb8?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Here’s how much extra money could be in your monthly Social Security check next year</a></div>
+      <div class="item-title-zh">明年你的社会保障支票可能会增加多少额外资金</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">social-security · retirement · inflation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Retirees can expect an adjustment to their monthly Social Security payments to account for the cost of living. However, many are questioning if this increase will be sufficient to cover rising inflation expenses.</p>
+      <p class="summary-zh">退休人员可以期待社会保障金的月度调整，以应对生活成本的变动。然而，许多人质疑这一增幅是否足以支付不断上涨的通胀支出。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;micron&quot;, &quot;semiconductor&quot;, &quot;buyback&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/micron-makes-a-statement-with-the-latest-clue-about-its-cash-windfall-c9e33f7d?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Micron makes a statement with the latest clue about its cash windfall</a></div>
+      <div class="item-title-zh">美光科技关于现金意外之财的最新线索引发关注</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">micron · semiconductor · buyback</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Micron&#x27;s recent disclosure regarding stock buyback plans is being interpreted by analysts as a competitive signal. It highlights the company&#x27;s financial strength and generosity compared to its rivals in the semiconductor sector.</p>
+      <p class="summary-zh">美光科技近期关于股票回购计划的披露被分析师解读为一种竞争信号。它凸显了该公司与半导体行业竞争对手相比的财务实力和慷慨程度。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;microsoft&quot;, &quot;stocks&quot;, &quot;marketcap&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/microsoft-is-nearing-a-big-milestone-that-solidifies-its-revival-580d1ba8?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Microsoft hits a big milestone that solidifies its revival</a></div>
+      <div class="item-title-zh">微软达到一个重要里程碑，巩固了其复兴地位</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">microsoft · stocks · marketcap</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Microsoft&#x27;s market capitalization has surpassed the $4 trillion mark during intraday trading. This milestone reinforces the tech giant&#x27;s dominance and growth trajectory in the modern market.</p>
+      <p class="summary-zh">微软的市场估值在盘中交易中突破了 4 万亿美元大关。这一里程碑巩固了这家科技巨头在现代市场中的主导地位和增长轨迹。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="SCI" data-tags="[&quot;space&quot;, &quot;moon&quot;, &quot;exploration&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Mars may be a hellhole, but the moon is not far behind</a></div>
+      <div class="item-title-zh">火星可能是个地狱，但月球也不遑多让</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">space · moon · exploration</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The new space race has intensified as nations sprint to secure resources on the lunar surface. The geopolitical implications of lunar colonization are becoming as complex as missions to Mars.</p>
+      <p class="summary-zh">随着各国竞相确保月球表面的资源，新一轮太空竞赛愈演愈烈。月球殖民的地缘政治影响正变得与火星任务一样复杂。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;ecology&quot;, &quot;nature&quot;, &quot;rainforest&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The ecologist revealing the invisible networks that revive rainforests</a></div>
+      <div class="item-title-zh">揭示雨林复苏背后隐形网络的生态学家</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 7h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ecology · nature · rainforest</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers in Panama are studying the complex underground fungal and root networks that sustain rainforest regeneration. These invisible systems are crucial for the resilience of mature forest ecosystems.</p>
+      <p class="summary-zh">巴拿马的研究人员正在研究维持雨林再生的复杂地下真菌和根系网络。这些隐形系统对于成熟森林生态系统的复原力至关重要。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;elnino&quot;, &quot;climate&quot;, &quot;history&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2592513-why-the-worst-el-nino-killed-millions-and-how-we-can-avoid-a-repeat/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Why the worst El Niño killed millions – and how we can avoid a repeat</a></div>
+      <div class="item-title-zh">为什么最严重的厄尔尼诺现象导致数百万人死亡——以及我们如何避免重演</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 7h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">elnino · climate · history</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The 1870s global famine triggered by a severe El Niño serves as a historical lesson for modern climate readiness. Science researchers are analyzing whether current infrastructure can withstand similar environmental extremes.</p>
+      <p class="summary-zh">1870 年代由严重的厄尔尼诺现象引发的全球饥荒，为现代气候准备工作提供了历史教训。科学研究人员正在分析当前的基础设施是否能够抵御类似的极端环境。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;genetics&quot;, &quot;cats&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search" target="_blank" rel="noopener" onclick="event.stopPropagation()">Secret of Orange Cats Revealed After 60-Year Search</a></div>
+      <div class="item-title-zh">60 年搜索后，橘色猫的秘密揭晓</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">genetics · cats · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Geneticists have finally uncovered the specific factors contributing to the unique coat color patterns of orange cats. This discovery concludes decades of research into feline genetics.</p>
+      <p class="summary-zh">遗传学家终于揭开了导致橘猫独特毛色模式的具体因素。这一发现结束了对猫科遗传学数十年的研究。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="WORLD" data-tags="[&quot;cyberattack&quot;, &quot;france&quot;, &quot;supermarket&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Fridges in French supermarkets hit by cyber attack</a></div>
+      <div class="item-title-zh">法国超市的冰箱遭受网络攻击</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">cyberattack · france · supermarket</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Hundreds of French supermarkets experienced spoilage of fresh food following an overnight cyberattack on their refrigeration systems. The incident caused millions of euros in financial damages to the affected retailers.</p>
+      <p class="summary-zh">法国数百家超市在遭遇针对制冷系统的彻夜网络攻击后，大量生鲜食品变质。该事件给受影响的零售商造成了数百万欧元的经济损失。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="WORLD" data-tags="[&quot;politics&quot;, &quot;immigration&quot;, &quot;ilhan omar&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Immigration agents search Congresswoman Ilhan Omar&#x27;s home</a></div>
+      <div class="item-title-zh">移民局特工搜查了国会议员伊尔汉·奥马尔的家</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">politics · immigration · ilhan omar</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">US immigration agents conducted a search at the residence of Congresswoman Ilhan Omar. Omar, a frequent critic of President Trump, has been a prominent figure in American politics since her election in 2018.</p>
+      <p class="summary-zh">美国移民局特工搜查了国会议员伊尔汉·奥马尔的住所。作为特朗普总统的常客批评者，奥马尔自 2018 年当选以来一直是美国政治中的焦点人物。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;yandex&quot;, &quot;russia&quot;, &quot;cybersecurity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Yandex outage probably didn’t blitz Russian bots</a></div>
+      <div class="item-title-zh">Yandex 的停机事故可能并未重创俄罗斯机器人</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">yandex · russia · cybersecurity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Recent Ukrainian drone strikes on Russian data centers caused a drop in observed bot traffic. Experts suggest the decline may not represent the sophisticated political bot networks many typically associate with Russian influence.</p>
+      <p class="summary-zh">乌克兰近期针对俄罗斯数据中心的无人机袭击导致了机器人流量的下降。专家认为，这种下降可能并不代表人们通常与俄罗斯影响力挂钩的复杂政治机器人网络。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;south-africa&quot;, &quot;crime&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c8wy9d940pyko?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">South Africa&#x27;s deputy police chief resigns after being charged with sexual offences</a></div>
+      <div class="item-title-zh">南非副警察局长因被控性犯罪而辞职</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">south-africa · crime · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">South African deputy police chief Shadrack Sibiya has resigned after facing serious allegations of sexual offenses. He has officially denied charges related to the grooming and rape of minors.</p>
+      <p class="summary-zh">南非副警察局长 Shadrack Sibiya 在面临严重的性犯罪指控后辞职。他已正式否认了有关诱拐和强奸未成年人的罪名。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;saudi&quot;, &quot;houthi&quot;, &quot;geopolitics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Saudi minister vows &#x27;serious response&#x27; to Houthi attacks on airports</a></div>
+      <div class="item-title-zh">沙特部长誓言对胡塞武装袭击机场的行为进行“严厉回应”</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">saudi · houthi · geopolitics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Saudi Arabia has pledged a significant response following Houthi attacks on airports that resulted in multiple fatalities. This escalation has prompted concerns over regional stability and security infrastructure.</p>
+      <p class="summary-zh">沙特阿拉伯承诺在胡塞武装袭击机场造成多人死亡后采取重大回应。这次升级引发了对地区稳定和安全基础设施的担忧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;fitness&quot;, &quot;running&quot;, &quot;health&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/115568" target="_blank" rel="noopener" onclick="event.stopPropagation()">写给「跑两步就喘」的你：不能忽略的跑后拉伸与恢复</a></div>
+      <div class="item-title-zh">写给“跑两步就喘”的你：不能忽略的跑后拉伸与恢复</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">少数派 &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">fitness · running · health</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This guide emphasizes the importance of post-run stretching and recovery for beginners. Proper techniques help reduce pain and improve physical stamina for recreational runners.</p>
+      <p class="summary-zh">本指南强调了跑后拉伸和恢复对初学者的重要性。正确的技术有助于缓解疼痛并提高业余跑步者的身体耐力。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+<a class="archive-date" href="/archive/2026-10-04.html">2026-10-04</a>
+<a class="archive-date" href="/archive/2026-10-03.html">2026-10-03</a>
+<a class="archive-date" href="/archive/2026-10-02.html">2026-10-02</a>
+<a class="archive-date" href="/archive/2026-10-01.html">2026-10-01</a>
+<a class="archive-date" href="/archive/2026-09-30.html">2026-09-30</a>
+<a class="archive-date" href="/archive/2026-09-29.html">2026-09-29</a>
+<a class="archive-date" href="/archive/2026-09-28.html">2026-09-28</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">29 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">16:23 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+<a class="archive-date" href="/archive/2026-10-04.html">2026-10-04</a>
+<a class="archive-date" href="/archive/2026-10-03.html">2026-10-03</a>
+<a class="archive-date" href="/archive/2026-10-02.html">2026-10-02</a>
+<a class="archive-date" href="/archive/2026-10-01.html">2026-10-01</a>
+<a class="archive-date" href="/archive/2026-09-30.html">2026-09-30</a>
+<a class="archive-date" href="/archive/2026-09-29.html">2026-09-29</a>
+<a class="archive-date" href="/archive/2026-09-28.html">2026-09-28</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-12';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
