@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">30</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">3</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">4</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">7</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-13 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Tue Oct 13 2026 &middot; 30 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;programming&quot;, &quot;efficiency&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248529#reply2" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] 8 月 1 号到现在，我完成了接近 2000 个开发任务，放到以前简直不敢想象</a></div>
+      <div class="item-title-zh">程序员分享：8月至今通过AI辅助完成近2000个开发任务</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · programming · efficiency</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer reports completing 2,000 tasks since August by leveraging AI-driven workflows and multi-agent systems. This unprecedented efficiency boost allows for massive code output without manual inspection.</p>
+      <p class="summary-zh">一位开发者分享称，自8月以来，他通过人工智能辅助工作流和多智能体系统完成了2000个开发任务。这种效率提升使他在无需人工审查的情况下实现了海量代码产出。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;security&quot;, &quot;opensource&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open models have real benefits. Do they outweigh the risks?</a></div>
+      <div class="item-title-zh">开放模型有哪些真实利弊？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">MIT Tech Review &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · security · opensource</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The debate over open-source AI models continues as concerns grow regarding their potential for malicious use. A report by Anthropic suggests that even powerful models, if leaked, could be exploited for cyberattacks.</p>
+      <p class="summary-zh">关于开源人工智能模型的辩论仍在持续，人们日益关注其被滥用的可能性。Anthropic 的一份报告指出，即便是强大的模型，一旦泄露也可能被用于网络攻击。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;data&quot;, &quot;startup&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/116068" target="_blank" rel="noopener" onclick="event.stopPropagation()">社区速递 161 | 小米手表 S5、EVA 联名香水与换机热议</a></div>
+      <div class="item-title-zh">AI 实验室正在收购倒闭初创公司的数据以训练模型</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">少数派 &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · data · startup</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">AI labs are increasingly purchasing data from defunct startups to satisfy the high demand for model training sets. Even anonymized archives from small companies have become valuable commodities in the AI race.</p>
+      <p class="summary-zh">人工智能实验室正越来越多地购买倒闭初创公司的数据，以满足模型训练对海量数据集的需求。即便是一些小公司留下的匿名档案，在人工智能竞赛中也已成为宝贵的资源。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="TECH" data-tags="[&quot;android&quot;, &quot;music&quot;, &quot;opensource&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248532#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] [开源] NonsPlayer 播放器——手机端，新的开始，新的挑战</a></div>
+      <div class="item-title-zh">NonsPlayer 播放器——手机端新起点</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">android · music · opensource</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The NonsPlayer music player has launched on Android, featuring a robust plugin system powered by WebAssembly. The developer focuses on low resource usage and a clean user interface to create a daily productivity tool.</p>
+      <p class="summary-zh">NonsPlayer 音乐播放器正式登陆 Android 平台，支持基于 WebAssembly 的插件系统。开发者强调低资源占用和优质交互，旨在打造一款日常工具。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;music&quot;, &quot;app&quot;, &quot;media&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248530#reply22" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] [送码]从好用到爽用， Mu3ic 重磅更新，现已支持 Navidrome/Jellyfin/Emby</a></div>
+      <div class="item-title-zh">Mu3ic 重磅更新，支持多种媒体库</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">music · app · media</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The music app Mu3ic has updated to version 1.5.1, adding support for Jellyfin and Emby alongside improved user features. The developer is offering promotional pricing and exclusive benefits for power users.</p>
+      <p class="summary-zh">音乐应用 Mu3ic 发布 1.5.1 版本更新，现支持 Jellyfin 和 Emby 等媒体库，并优化了用户功能。开发者提供了限时优惠及针对资深用户的独家服务。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;switch&quot;, &quot;gaming&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248528#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[游戏] switch 最近多了好多老游戏移植啊</a></div>
+      <div class="item-title-zh">Switch 近期多了很多老游戏移植</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">switch · gaming · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Nintendo Switch is seeing a surge in ports of classic games, sparking discussions about how they are being compiled. Users speculate that AI-assisted reverse engineering and decompilation are playing a role.</p>
+      <p class="summary-zh">任天堂 Switch 上出现了大量经典游戏移植作品，引发了关于这些游戏如何被编译的讨论。用户猜测人工智能辅助的逆向工程和反编译在其中发挥了作用。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;opensource&quot;, &quot;ai&quot;, &quot;rust&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248527#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享发现] AI 时代，商业软件会很快被开源一遍 -- 看 rust 开源重构 Word 有感</a></div>
+      <div class="item-title-zh">AI 时代，商业软件将被开源重构</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">opensource · ai · rust</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The rise of AI is accelerating the trend of open-source projects reimagining popular commercial software. Developers are increasingly using tools like Rust to rebuild complex legacy applications.</p>
+      <p class="summary-zh">人工智能的崛起正在加速开源项目重构流行商业软件的趋势。开发者们越来越多地使用 Rust 等工具来重构复杂的传统遗留应用程序。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;tv&quot;, &quot;hardware&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/gadgets/1009921/apple-tv-4k-2026-preorder-buy" target="_blank" rel="noopener" onclick="event.stopPropagation()">Where to preorder the new Apple TV 4K</a></div>
+      <div class="item-title-zh">新款 Apple TV 4K 预购指南</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · tv · hardware</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Apple&#x27;s first new Apple TV 4K in four years features the powerful A19 chip and improved wireless connectivity. The device launches on November 13th with a strong focus on Siri AI integration.</p>
+      <p class="summary-zh">苹果时隔四年推出新款 Apple TV 4K，搭载强劲的 A19 芯片并改进了无线连接功能。该设备将于 11 月 13 日上市，并重点强化了 Siri AI 集成。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;smarthome&quot;, &quot;homeview&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/1008810/apple-homeview-reveal-video-watch" target="_blank" rel="noopener" onclick="event.stopPropagation()">Watch Apple’s reveal video for the HomeView</a></div>
+      <div class="item-title-zh">观看苹果 HomeView 发布视频</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · smarthome · homeview</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Apple introduced HomeView, a new smart home hub with a 7-inch display, during its &#x27;Welcome Home&#x27; event. The device is designed to centralize smart home control through an interactive screen.</p>
+      <p class="summary-zh">苹果在“Welcome Home”发布会上推出了 HomeView，这是一款配备 7 英寸显示屏的智能家居中枢。该设备旨在通过交互式屏幕集中控制智能家居。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;tv&quot;, &quot;siri&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1009663/apple-tv-4k-siri-ai-microphones-4th-gen-announced" target="_blank" rel="noopener" onclick="event.stopPropagation()">The new Apple TV 4K has built-in microphones so you can talk to Siri AI</a></div>
+      <div class="item-title-zh">新款 Apple TV 4K 内置麦克风支持 Siri AI 对话</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · tv · siri</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The refreshed Apple TV 4K includes far-field microphones for hands-free Siri AI interaction. Additionally, Apple has integrated &#x27;Find My&#x27; capabilities into the remote to prevent it from getting lost.</p>
+      <p class="summary-zh">新款 Apple TV 4K 内置远场麦克风，支持免提 Siri AI 对话。此外，苹果还在遥控器中集成了“查找”功能，以防丢失。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;homepod&quot;, &quot;siri&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1009672/homepod-mini-2-announced-apple-siri-ai" target="_blank" rel="noopener" onclick="event.stopPropagation()">Apple announces the HomePod Mini 2, but it isn&amp;#8217;t ready for Siri AI at launch</a></div>
+      <div class="item-title-zh">苹果发布 HomePod Mini 2，首发不支持 Siri AI</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · homepod · siri</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Apple has announced the HomePod Mini 2 featuring a new chip capable of running Siri AI, though the features won&#x27;t be available at launch. The speaker includes new light-syncing features for visuals.</p>
+      <p class="summary-zh">苹果发布了 HomePod Mini 2，搭载可运行 Siri AI 的新芯片，但首发阶段尚不支持相关 AI 功能。该音箱还新增了与音乐专辑封面同步的灯光效果。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="FINA" data-tags="[&quot;pg&quot;, &quot;finance&quot;, &quot;growth&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953804-procter-and-gamble-improving-business-trends-support-a-better-growth-outlook?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Procter &amp; Gamble: Improving Business Trends Support A Better Growth Outlook</a></div>
+      <div class="item-title-zh">宝洁：业务趋势改善支持更好的增长前景</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">pg · finance · growth</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Procter &amp; Gamble shows signs of improving business trends that bolster a positive growth outlook. Analysts suggest this momentum supports a more optimistic valuation for the company.</p>
+      <p class="summary-zh">宝洁公司显示出业务趋势好转的迹象，这支撑了其积极的增长前景。分析师认为这一势头为公司的估值提供了更有利的支撑。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;calumet&quot;, &quot;stock&quot;, &quot;downgrade&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953803-calumet-specialty-products-coming-massive-quarterly-results-rating-downgrade?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Calumet Specialty Products&#x27; Coming Massive Quarterly Results (Rating Downgrade)</a></div>
+      <div class="item-title-zh">Calumet Specialty Products 业绩将大跌（评级下调）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">calumet · stock · downgrade</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Calumet Specialty Products faces a significant decline in quarterly results, leading to a downgrade in its stock rating. Investors are advised to exercise caution following these projected financial setbacks.</p>
+      <p class="summary-zh">Calumet Specialty Products 季度业绩预计将大幅下滑，导致其股票评级被下调。投资者在面对这些预期的财务挫折时需保持谨慎。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;mgm&quot;, &quot;business&quot;, &quot;ma&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953801-mgm-resorts-the-buyer-walked-away-not-the-business?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">MGM Resorts: The Buyer Walked Away, Not The Business</a></div>
+      <div class="item-title-zh">美高梅度假村：买家退出了，但业务没有</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">mgm · business · ma</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">MGM Resorts remains a solid business despite the recent withdrawal of a potential buyer. Analysts emphasize that the operational fundamentals remain strong regardless of external acquisition interest.</p>
+      <p class="summary-zh">尽管潜在买家退出，但美高梅度假村的业务依然稳健。分析师强调，无论外部收购意愿如何，公司的核心运营基本面保持良好。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;iemg&quot;, &quot;emergingmarkets&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953800-iemg-why-emerging-markets-next-leg-higher-is-just-ahead-rating-upgrade?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">IEMG: Why Emerging Markets&#x27; Next Leg Higher Is Just Ahead (Rating Upgrade)</a></div>
+      <div class="item-title-zh">IEMG：为什么新兴市场的下一波上涨就在眼前（评级上调）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">iemg · emergingmarkets · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Emerging markets are positioned for a significant rally, prompting an upgrade for the IEMG fund. Improved macroeconomic indicators suggest that growth in these regions is imminent.</p>
+      <p class="summary-zh">新兴市场正处于大幅上涨的前夕，这推动了 IEMG 基金评级的上调。宏观经济指标的改善暗示这些地区的增长即将到来。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;steris&quot;, &quot;ma&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953799-steris-anticipated-m-and-a-has-taken-place-gets-my-thumbs-up?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Steris: Anticipated M&amp;A Has Taken Place, Gets My Thumbs Up</a></div>
+      <div class="item-title-zh">Steris：预期的并购已经发生，我投赞成票</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">steris · ma · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Steris has completed a highly anticipated merger, which is viewed positively by market observers. This strategic move is expected to enhance the company&#x27;s long-term competitive position.</p>
+      <p class="summary-zh">Steris 已完成一桩备受期待的并购交易，这被市场观察人士视为利好。此战略举措有望提升公司长期的竞争地位。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;retirement&quot;, &quot;finance&quot;, &quot;planning&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?</a></div>
+      <div class="item-title-zh">妻子想去意大利花8000美元旅游，但我们担心存不够养老钱，我还要继续工作吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">retirement · finance · planning</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A couple with $4 million in savings is debating a luxury vacation due to concerns about long-term financial security. The husband worries about inflation, healthcare, and the sustainability of their retirement funds.</p>
+      <p class="summary-zh">一对拥有400万美元存款的夫妇因担心长期财务安全而对奢侈旅游产生分歧。丈夫主要担忧通胀、医疗成本及退休金的持续性问题。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;market&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/why-one-hedge-fund-billionaire-believes-stocks-are-heading-for-a-really-challenging-2027-bb68f19e?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Hedge-fund legend Paul Tudor Jones says the stock market faces a really challenging 2027. Here’s why.</a></div>
+      <div class="item-title-zh">保罗·都铎·琼斯：股市在2027年将面临艰巨考验</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · market · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Billionaire investor Paul Tudor Jones warns that the U.S. stock market faces a difficult 2027 due to a surge in new equity issuance. He believes this could threaten the momentum of the AI-driven bull market.</p>
+      <p class="summary-zh">亿万富翁投资者保罗·都铎·琼斯警告称，由于新股发行激增，美国股市在2027年将面临严峻考验。他认为这可能威胁到人工智能驱动的牛市动能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;sixflags&quot;, &quot;stock&quot;, &quot;crash&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/six-flags-stock-slumps-near-52-week-lows-after-fatal-accident-3f938112?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Six Flags’ stock slumps toward 16-year low after fatal incident</a></div>
+      <div class="item-title-zh">六旗股价因致命事故跌至16年新低</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">sixflags · stock · crash</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Shares of Six Flags Entertainment have plummeted to their lowest levels in 16 years following a fatal roller coaster accident. The tragedy has significantly impacted investor confidence in the amusement operator.</p>
+      <p class="summary-zh">受一起致命过山车事故影响，六旗娱乐公司的股价跌至16年来的最低点。此次悲剧严重打击了投资者对该游乐运营商的信心。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="SCI" data-tags="[&quot;climate&quot;, &quot;carbon&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2593284-the-land-carbon-sink-has-rebounded-strongly-after-two-terrible-years/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">The land’s ability to store carbon has bounced back after two bad years</a></div>
+      <div class="item-title-zh">陆地碳储存能力在经历两年低迷后反弹</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">climate · carbon · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Forests and grasslands increased their carbon absorption in 2025 due to favorable weather conditions. However, experts warn that the upcoming El Niño could cause a sharp decline next year.</p>
+      <p class="summary-zh">得益于良好的气候条件，森林和草地的碳吸收能力在 2025 年有所回升。然而，专家警告称，即将到来的厄尔尼诺现象可能导致明年出现剧烈下滑。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;math&quot;, &quot;science&quot;, &quot;education&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://photonlines.substack.com/p/a-visual-intro-to-complex-numbers" target="_blank" rel="noopener" onclick="event.stopPropagation()">A Visual Intro to Complex Numbers</a></div>
+      <div class="item-title-zh">复数的视觉化介绍</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">math · science · education</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article provides an intuitive, visual explanation of complex numbers to aid conceptual understanding. It uses diagrams and geometric interpretations to make abstract math concepts accessible.</p>
+      <p class="summary-zh">本文提供了一种关于复数的直观视觉化解释，旨在帮助读者建立概念理解。通过图表和几何解释，使抽象的数学概念变得易于理解。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;physics&quot;, &quot;darkmatter&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Breaking Bad actor RJ Mitte dies aged 34</a></div>
+      <div class="item-title-zh">我们是将观察到暗物质的粒子性还是波动性？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">BBC &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">physics · darkmatter · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers are investigating whether dark matter acts as a particle or a wave to better understand its nature. Observing its specific behavior could lead to a major breakthrough in modern physics.</p>
+      <p class="summary-zh">研究人员正在探究暗物质是以粒子还是波的形式存在，以便更好地理解其本质。观察其具体行为可能会引发现代物理学的重大突破。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;archaeology&quot;, &quot;history&quot;, &quot;turkey&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2591125-will-we-observe-dark-matter-as-a-particle-or-a-wave/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Will we observe dark matter as a particle or a wave?</a></div>
+      <div class="item-title-zh">土耳其发现赫梯皇室档案</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">archaeology · history · turkey</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Archaeologists have discovered a significant collection of Hittite royal archives in Turkey. This find provides rare insights into the administrative and cultural history of the ancient civilization.</p>
+      <p class="summary-zh">考古学家在土耳其发现了一批重要的赫梯皇室档案。这一发现为研究这一古代文明的行政和文化历史提供了难得的参考。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="WORLD" data-tags="[&quot;sixflags&quot;, &quot;accident&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">One dead and several hurt after rollercoaster incident at Six Flags</a></div>
+      <div class="item-title-zh">六旗乐园发生过山车事故，致一人死亡多人受伤</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">sixflags · accident · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A fatal rollercoaster incident at a Six Flags park has resulted in one death and multiple injuries. Aerial footage captured the scene with riders being rescued from the stalled attraction.</p>
+      <p class="summary-zh">六旗乐园发生一起过山车事故，造成一人死亡、多人受伤。航拍画面显示，受困乘客正在被救援人员从停滞的设备中救出。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="WORLD" data-tags="[&quot;social&quot;, &quot;etiquette&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/who-should-pay-for-a-birthday-dinner-i-always-treat-my-guests-5bbd1880?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Who should pay for a birthday dinner? I always treat my guests.</a></div>
+      <div class="item-title-zh">生日晚餐谁该买单？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">social · etiquette · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The question of who should pay for birthday dinners has sparked a social debate about fairness and reciprocity. One individual expresses frustration over the financial imbalance of consistently treating guests.</p>
+      <p class="summary-zh">关于谁该支付生日晚餐费用的讨论引发了关于公平与互惠的社交辩论。一位网友表达了对自己持续请客却未能获得回馈产生的财务失衡感到困扰。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;russia&quot;, &quot;bulgaria&quot;, &quot;conflict&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack</a></div>
+      <div class="item-title-zh">保加利亚因黑海无人机袭击致船只沉没召见俄罗斯大使</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">russia · bulgaria · conflict</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Bulgaria has summoned the Russian ambassador after a merchant ship sank in the Black Sea following a drone attack. Eleven crew members remain missing amid rising regional tensions.</p>
+      <p class="summary-zh">一艘商船在黑海遭无人机袭击后沉没，保加利亚随后召见了俄罗斯大使。在地区紧张局势加剧的背景下，目前仍有11名船员失踪。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;medicare&quot;, &quot;healthcare&quot;, &quot;policy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/millions-of-americans-will-have-fewer-options-during-medicare-open-enrollment-this-year-6b56698b?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Millions of Americans will have fewer options during Medicare open enrollment this year</a></div>
+      <div class="item-title-zh">数百万美国人在 2027 年医疗保险注册时面临选择减少</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">medicare · healthcare · policy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Medicare Advantage plans are set to disappear from 181 counties in 2027, leaving millions of Americans with fewer coverage options. This trend reflects an ongoing shift in the healthcare market landscape.</p>
+      <p class="summary-zh">2027年，医疗保险优势计划（Medicare Advantage）将从181个县撤出，导致数百万美国人的保险选择减少。这一趋势反映了医疗保健市场的持续变化。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;news&quot;, &quot;execution&quot;, &quot;emergency&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/videos/cqpvgrkp0xpyo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Watch: Emergency calls from botched Christa Pike execution released</a></div>
+      <div class="item-title-zh">视频：克里斯塔·派克死刑执行过程中紧急呼叫录音被公布</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">news · execution · emergency</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Recordings of emergency calls related to the botched execution of Christa Pike have been released. The audio confirms that emergency services were delayed in responding to the incident.</p>
+      <p class="summary-zh">与克里斯塔·派克执行死刑失败相关的紧急呼叫录音已被公布。音频证实，紧急服务部门在响应此次事故时存在延误。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;obituary&quot;, &quot;breakingbad&quot;, &quot;actor&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/" target="_blank" rel="noopener" onclick="event.stopPropagation()">AI labs are buying data from dead startups to train their models</a></div>
+      <div class="item-title-zh">《绝命毒师》演员 RJ Mitte 去世，享年 34 岁</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MIT Tech Review &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">obituary · breakingbad · actor</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">RJ Mitte, best known for his role as Walter White Jr. in &#x27;Breaking Bad,&#x27; has passed away at the age of 34. He was celebrated for his portrayal of a character living with cerebral palsy.</p>
+      <p class="summary-zh">以在《绝命毒师》中饰演小沃尔特·怀特而闻名的演员 RJ·米特去世，享年 34 岁。他因演绎患有脑瘫的角色而广受赞誉。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;russia&quot;, &quot;war&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/115400" target="_blank" rel="noopener" onclick="event.stopPropagation()">App+1 | 我做了一个专为「P 人」和 ADHD 设计的精力管理 App</a></div>
+      <div class="item-title-zh">前乌克兰最高将领称俄罗斯进攻能力已崩溃</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">少数派 &middot; 7h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · russia · war</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Former top Ukrainian general Syrskyi states that Russia&#x27;s offensive capabilities have been critically undermined. He offers his insights into the future trajectory of the ongoing war.</p>
+      <p class="summary-zh">乌克兰前最高将领瑟尔斯基表示，俄罗斯的进攻能力已受到严重破坏。他分享了关于战争未来走势的独到见解。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+<a class="archive-date" href="/archive/2026-10-04.html">2026-10-04</a>
+<a class="archive-date" href="/archive/2026-10-03.html">2026-10-03</a>
+<a class="archive-date" href="/archive/2026-10-02.html">2026-10-02</a>
+<a class="archive-date" href="/archive/2026-10-01.html">2026-10-01</a>
+<a class="archive-date" href="/archive/2026-09-30.html">2026-09-30</a>
+<a class="archive-date" href="/archive/2026-09-29.html">2026-09-29</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">30 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">14:45 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+<a class="archive-date" href="/archive/2026-10-04.html">2026-10-04</a>
+<a class="archive-date" href="/archive/2026-10-03.html">2026-10-03</a>
+<a class="archive-date" href="/archive/2026-10-02.html">2026-10-02</a>
+<a class="archive-date" href="/archive/2026-10-01.html">2026-10-01</a>
+<a class="archive-date" href="/archive/2026-09-30.html">2026-09-30</a>
+<a class="archive-date" href="/archive/2026-09-29.html">2026-09-29</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-13';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
