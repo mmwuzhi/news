@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">33</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">5</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">7</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">5</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-14 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Wed Oct 14 2026 &middot; 33 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;claude&quot;, &quot;ai&quot;, &quot;ban&quot;, &quot;account&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248819#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Claude] pro 下午被封，用了 20 天</a></div>
+      <div class="item-title-zh">Claude Pro 账号被封，使用了 20 天</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">claude · ai · ban · account</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user reports their Claude Pro account was banned after 20 days of usage. The ban occurred shortly before the next usage quota reset.</p>
+      <p class="summary-zh">一位用户反馈其 Claude Pro 账号在使用 20 天后被封禁。封号发生在额度即将重置前不久。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;agents&quot;, &quot;gemini&quot;, &quot;deepseek&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248818#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] 我让 Gemini 4 当高管、DeepSeek 当员工，开了一家软件公司</a></div>
+      <div class="item-title-zh">我让 Gemini 4 当高管、DeepSeek 当员工，开了一家软件公司</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · agents · gemini · deepseek</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An experiment explores using AI agents to run a software company for 7 days. Gemini 4 acts as the executive while DeepSeek models handle specific operational tasks.</p>
+      <p class="summary-zh">一项实验展示了如何利用 AI 智能体在 7 天内运营一家软件公司。Gemini 4 担任高管角色，而 DeepSeek 模型负责处理具体的执行任务。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;eu&quot;, &quot;agents&quot;, &quot;openai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/92653" target="_blank" rel="noopener" onclick="event.stopPropagation()">已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒</a></div>
+      <div class="item-title-zh">欧盟 AI 的下一章是代理驱动的</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">少数派 &middot; 10h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · eu · agents · openai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The EU is increasingly adopting agentic AI across various business sectors. OpenAI&#x27;s analysis shows the value of moving beyond simple conversational models.</p>
+      <p class="summary-zh">欧盟正在各商业领域加速采用代理驱动型 AI。OpenAI 的分析表明，超越简单的对话模型具有重要的商业价值。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;security&quot;, &quot;espionage&quot;, &quot;crime&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction" target="_blank" rel="noopener" onclick="event.stopPropagation()">Apple’s HomeView ad is confusing to everyone except parents</a></div>
+      <div class="item-title-zh">沙特员工被控在 OpenAI 办公室安装录音设备</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; 14h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · security · espionage · crime</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An OpenAI employee from Saudi Arabia has been charged with planting a recording device in an executive conference room. The discovery occurred at the company&#x27;s offices.</p>
+      <p class="summary-zh">一名沙特籍 OpenAI 员工被指控在公司高管会议室安装录音设备。该设备在公司内部被发现。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;security&quot;, &quot;arrest&quot;, &quot;crime&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Saudi employee charged with planting recording device in OpenAI office</a></div>
+      <div class="item-title-zh">OpenAI 员工因涉嫌在会议室安装窃听器被捕</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">BBC &middot; 14h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · security · arrest · crime</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Authorities arrested an OpenAI engineer for allegedly planting a sophisticated bug in a conference room. The incident is being treated as a serious security breach.</p>
+      <p class="summary-zh">当局逮捕了一名 OpenAI 工程师，指控其涉嫌在会议室安装精密窃听器。该事件已被视为严重的内部安全违规行为。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;rust&quot;, &quot;translation&quot;, &quot;gpui&quot;, &quot;productivity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248820#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] Transel - 使用 rust + gpui-kit 做了个跨平台的划词翻译项目</a></div>
+      <div class="item-title-zh">Transel - 使用 Rust + GPUI-kit 制作的跨平台划词翻译工具</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">rust · translation · gpui · productivity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Transel is a cross-platform translation tool built with Rust and GPUI-kit. It provides instant translation for text selections across macOS, Windows, and Linux.</p>
+      <p class="summary-zh">Transel 是一款基于 Rust 和 GPUI-kit 开发的跨平台划词翻译工具。它支持 macOS、Windows 和 Linux 系统，提供即时的屏幕文本翻译功能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;muse&quot;, &quot;browser&quot;, &quot;privacy&quot;, &quot;ip&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248817#reply3" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享发现] Muse 的内置浏览器 ip 显示国内</a></div>
+      <div class="item-title-zh">【分享发现】Muse 的内置浏览器 IP 显示在国内</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">muse · browser · privacy · ip</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Users discovered that Muse&#x27;s built-in browser appears to be routed through servers in mainland China. This raises privacy and accessibility concerns.</p>
+      <p class="summary-zh">用户发现 Muse 的内置浏览器似乎通过中国大陆的服务器进行路由。这引发了用户对于隐私和海外内容访问能力的担忧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;diy&quot;, &quot;hardware&quot;, &quot;robot&quot;, &quot;repair&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1248816#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享发现] 人生体验之第一次大拆扫地机器人，忘记记录了线口位置了，不知道还能不能还原</a></div>
+      <div class="item-title-zh">【分享发现】人生体验之第一次大拆扫地机器人</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">diy · hardware · robot · repair</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user attempted to repair their robot vacuum themselves due to high official repair costs. They encountered difficulties after forgetting to record the internal wiring.</p>
+      <p class="summary-zh">一名用户因官方维修昂贵而尝试自行拆解维修扫地机器人。由于忘记记录内部线路连接，导致复原工作面临挑战。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;postgresql&quot;, &quot;vector&quot;, &quot;database&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://github.com/timescale/pg_vectorsearch" target="_blank" rel="noopener" onclick="event.stopPropagation()">Pg_vectorsearch: An index that is faster than pgvector&#x27;s IVFFlat and HNSW</a></div>
+      <div class="item-title-zh">Pg_vectorsearch：一个比 pgvector 的 IVFFlat 和 HNSW 更快的索引</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">postgresql · vector · database · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new index named Pg_vectorsearch provides performance improvements over standard pgvector methods like IVFFlat and HNSW. It aims to optimize vector similarity searches in PostgreSQL.</p>
+      <p class="summary-zh">Pg_vectorsearch 是一种新的索引方法，在性能上优于标准的 pgvector 方法（如 IVFFlat 和 HNSW）。它旨在优化 PostgreSQL 中的向量相似度搜索。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;tesla&quot;, &quot;roadster&quot;, &quot;ev&quot;, &quot;auto&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/transportation/1010694/tesla-roadster-reveal-vaporware-spacex-elon-musk" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Tesla Roadster could have stayed vaporware</a></div>
+      <div class="item-title-zh">特斯拉 Roadster 可能本会一直停留在“雾件”阶段</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">tesla · roadster · ev · auto</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The next-gen Tesla Roadster has faced nearly a decade of production delays. It is finally expected to enter production after being dubbed vaporware.</p>
+      <p class="summary-zh">新一代特斯拉 Roadster 面临了近十年的生产延迟。在被戏称为“雾件”多年后，该车终于有望投入生产。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;fairphone&quot;, &quot;audio&quot;, &quot;sustainability&quot;, &quot;repair&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1010906/fairphone-fairbuds-2-price-release-audio-repairability" target="_blank" rel="noopener" onclick="event.stopPropagation()">Fairphone’s latest repairable earbuds are smaller, lighter, and longer-lasting</a></div>
+      <div class="item-title-zh">Fairphone 最新的可维修耳机更小、更轻、续航更长</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">fairphone · audio · sustainability · repair</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Fairphone has released its second generation of modular, repairable earbuds. The Fairbuds 2 offer improved battery life and audio quality.</p>
+      <p class="summary-zh">Fairphone 发布了第二代模块化可维修耳机。Fairbuds 2 在电池续航和音质方面都有显著提升。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;smalltalk&quot;, &quot;ide&quot;, &quot;programming&quot;, &quot;software&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://blog.lorenzano.eu/pulsar-at-esug-2026/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Pulsar at ESUG 2026 (new Smalltalk IDE)</a></div>
+      <div class="item-title-zh">Pulsar 于 ESUG 2026（全新的 Smalltalk IDE）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">smalltalk · ide · programming · software</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new integrated development environment (IDE) for Smalltalk, named Pulsar, was introduced at ESUG 2026. The tool aims to modernize the Smalltalk development experience.</p>
+      <p class="summary-zh">Pulsar 是一款在 ESUG 2026 上推出的全新 Smalltalk 集成开发环境（IDE）。该工具旨在实现 Smalltalk 开发体验的现代化。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="TECH" data-tags="[&quot;podcast&quot;, &quot;psychology&quot;, &quot;editing&quot;, &quot;design&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/114861" target="_blank" rel="noopener" onclick="event.stopPropagation()">认知心理学背后的播客剪辑技巧</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">少数派 &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">podcast · psychology · editing · design</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article explores podcast editing through the lens of cognitive psychology. It explains why certain cuts feel natural while others cause discomfort to the listener.</p>
+      <p class="summary-zh">本文从认知心理学的角度探讨了播客剪辑技巧。文章解释了为什么某些剪辑点听起来自然，而另一些则会让听众感到不适。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;jpmorgan&quot;, &quot;stocks&quot;, &quot;finance&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953988-jpmorgan-chase-q3-earnings-top-tier-bank-stock-reflect-it?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">JPMorgan Chase Q3 2026: A Top-Tier Bank Whose Shares Already Reflect It</a></div>
+      <div class="item-title-zh">摩根大通 2026 年第三季度财报：估值已反映其顶级银行地位</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">jpmorgan · stocks · finance · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">JPMorgan Chase&#x27;s Q3 2026 performance remains strong as a top-tier financial institution. However, current share prices appear to already reflect its high market valuation.</p>
+      <p class="summary-zh">摩根大通在 2026 年第三季度表现强劲，维持其顶级金融机构的地位。但目前的股价似乎已经充分反映了其高昂的市场估值。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;investing&quot;, &quot;market&quot;, &quot;finance&quot;, &quot;strategy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4954080-reasons-to-pull-in-your-horns?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Reasons To Pull In Your Horns</a></div>
+      <div class="item-title-zh">收缩战线的理由</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">investing · market · finance · strategy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article suggests that current market conditions warrant a more conservative investment strategy. Investors should consider reducing exposure to risky assets.</p>
+      <p class="summary-zh">文章建议当前市场环境需要采取更保守的投资策略。投资者应考虑减少对高风险资产的敞口，以降低潜在损失。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;etf&quot;, &quot;dividend&quot;, &quot;investing&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4953855-dividend-etfs-dont-work-the-way-you-think?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Dividend ETFs Don&#x27;t Work The Way You Think</a></div>
+      <div class="item-title-zh">股息 ETF 并非如你所想那样运作</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">etf · dividend · investing · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Dividend ETFs often operate differently than many retail investors assume regarding yield and growth. Misunderstandings about their underlying mechanics can impact long-term portfolio expectations.</p>
+      <p class="summary-zh">股息 ETF 在收益和增长方面的运作方式往往与普通投资者的预期不同。对这些底层机制的误解可能会影响投资组合的长期表现。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;valuation&quot;, &quot;stocks&quot;, &quot;finance&quot;, &quot;investing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4954069-mega-fortune-stock-1-4-billion-enterprise-10000-cash-unsustainable-valuation-multiples?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Mega Fortune: A $1.4 Billion Enterprise With $10,000 In Cash, Unsustainable Valuation Multiples</a></div>
+      <div class="item-title-zh">Mega Fortune：一家价值 14 亿美元但只有 1 万美元现金的企业，估值倍数不可持续</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">valuation · stocks · finance · investing</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Mega Fortune carries a massive valuation despite having almost no liquid cash reserves. Analysts argue that its current valuation multiples are fundamentally unsustainable.</p>
+      <p class="summary-zh">Mega Fortune 在几乎没有现金储备的情况下获得了极高的估值。分析师认为其当前的估值倍数在基本面上是不可持续的。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;nubank&quot;, &quot;fintech&quot;, &quot;growth&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4954068-nu-holdings-nubanks-global-expansion-is-just-starting?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Nu Holdings: Nubank&#x27;s Global Expansion Is Just Starting</a></div>
+      <div class="item-title-zh">Nu Holdings：Nubank 的全球扩张才刚刚开始</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nubank · fintech · growth · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Nubank is continuing its strong growth trajectory with international expansion efforts. The company shows significant potential for further market penetration.</p>
+      <p class="summary-zh">Nubank 正通过国际扩张继续保持强劲的增长轨迹。该公司在未来的市场渗透方面展现出巨大潜力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;finance&quot;, &quot;market&quot;, &quot;investment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/from-charles-schwab-to-doordash-why-these-bargain-stocks-could-lead-the-market-higher-4d99fb97?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Charles Schwab and DoorDash ranked among bargain stocks that could lead the market higher</a></div>
+      <div class="item-title-zh">嘉信理财和 DoorDash 被评为可能引领市场上涨的廉价股</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · finance · market · investment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">HSBC identifies Charles Schwab and DoorDash as bargain stocks with high growth potential. These picks aim to help broaden the current stock market rally.</p>
+      <p class="summary-zh">汇丰银行将嘉信理财和 DoorDash 评为具有高增长潜力的廉价股。这些股票被认为有助于推动当前股市上涨的广度。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;tsmc&quot;, &quot;semiconductor&quot;, &quot;earnings&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/what-analysts-are-watching-with-key-semiconductor-maker-tsmc-set-to-report-results-c161e86b?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">What analysts are watching with key semiconductor maker TSMC set to report results</a></div>
+      <div class="item-title-zh">TSMC 即将发布财报，分析师关注重点</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">tsmc · semiconductor · earnings · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Market analysts from JPMorgan and Citigroup anticipate continued revenue growth for TSMC. Despite record-breaking figures, expectations for the foundry remain high.</p>
+      <p class="summary-zh">摩根大通和花旗集团的分析师预计台积电的收入将持续增长。尽管此前已发布创纪录的财报数据，但市场对其表现的期望依然很高。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="FINA" data-tags="[&quot;bankofamerica&quot;, &quot;stocks&quot;, &quot;finance&quot;, &quot;penalty&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Bank of America adds a profit miss to the misery of a $1.2 billion government fine</a></div>
+      <div class="item-title-zh">美国银行因 12 亿美元政府罚款及利润不及预期而股价下跌</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">bankofamerica · stocks · finance · penalty</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Bank of America&#x27;s stock fell following disappointing quarterly earnings. A massive $1.2 billion regulatory fine further impacted investor confidence.</p>
+      <p class="summary-zh">美国银行股价在季度财报不佳后下跌。高达 12 亿美元的政府罚款进一步打击了投资者的信心。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;aaron-son&quot;, &quot;math&quot;, &quot;theory&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://aaronsonoracle.com/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Aaronson Oracle</a></div>
+      <div class="item-title-zh">亚伦森预言机</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">aaron-son · math · theory · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This discussion centers on the &#x27;Aaronson Oracle&#x27; concept, referencing Scott Aaronson&#x27;s work. The thread explores implications in computational complexity and AI theory.</p>
+      <p class="summary-zh">该讨论围绕“亚伦森预言机”概念展开，引用了斯科特·亚伦森的相关研究。讨论探讨了其在计算复杂度和人工智能理论中的含义。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;wellness&quot;, &quot;prevention&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/how-to-read-your-bodys-warning-signs-years-before-you-get-sick-3fb8c82d?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">How to read your body’s warning signs years before you get sick</a></div>
+      <div class="item-title-zh">如何在生病前几年解读身体的预警信号</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · wellness · prevention · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Early detection of health warning signs can significantly improve long-term quality of life. The article advises on monitoring subtle body changes to prevent serious illnesses.</p>
+      <p class="summary-zh">及早发现健康预警信号可以显著改善长期生活质量。文章建议密切监测身体的细微变化，以预防严重疾病的发生。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;cancer&quot;, &quot;science&quot;, &quot;medical&quot;, &quot;twins&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2593625-rare-cancer-spread-between-twins-in-utero/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Rare cancer spread between twins in utero</a></div>
+      <div class="item-title-zh">罕见癌症在双胞胎胎儿间子宫内传播</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">cancer · science · medical · twins</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">In a rare medical case, tumor cells spread from one fetus to another in the uterus. This highlights unique transmission pathways for pediatric cancer.</p>
+      <p class="summary-zh">在一个罕见的医学案例中，肿瘤细胞在子宫内从一个胎儿传播到另一个胎儿。这揭示了儿童癌症独特的传播途径。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;climate&quot;, &quot;environment&quot;, &quot;food&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2592935-how-el-nino-could-spark-a-worldwide-food-crisis/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">How El Niño could spark a worldwide food crisis</a></div>
+      <div class="item-title-zh">厄尔尼诺现象可能引发全球粮食危机</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">climate · environment · food · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Climate disruptions from El Niño, including droughts and flooding, threaten global crop production. Experts warn of potential food price spikes and humanitarian crises.</p>
+      <p class="summary-zh">厄尔尼诺现象带来的气候破坏，包括干旱和洪水，正在威胁全球农作物生产。专家警告称可能引发食品价格飙升和人道主义危机。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="SCI" data-tags="[&quot;applewatch&quot;, &quot;health&quot;, &quot;sleep&quot;, &quot;medical&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/116109" target="_blank" rel="noopener" onclick="event.stopPropagation()">众测招募 | 从客厅到耳畔，Sonos 双新品 Beam Ultra 与 Ace Ultra 抢先体验</a></div>
+      <div class="item-title-zh">已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">少数派 &middot; 8h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">applewatch · health · sleep · medical</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Apple Watch is expanding its health features to include sleep apnea detection. This article explains the rationale and efficacy of this new medical monitoring tool.</p>
+      <p class="summary-zh">Apple Watch 正扩展其健康功能，新增睡眠呼吸暂停检测。文章解释了这一新型医疗监测工具的研发初衷和有效性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="SCI" data-tags="[&quot;dinosaur&quot;, &quot;paleontology&quot;, &quot;science&quot;, &quot;history&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic" target="_blank" rel="noopener" onclick="event.stopPropagation()">The EU’s next chapter in AI is agentic</a></div>
+      <div class="item-title-zh">恐龙化石在怀特岛发现一个世纪后被命名为新物种</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">OpenAI Blog &middot; 12h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">dinosaur · paleontology · science · history</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new species of predator dinosaur, Invictibellatrix amberina, has been identified from fossils found 120 million years ago. It adds to our understanding of megaraptorans.</p>
+      <p class="summary-zh">一种名为 Invictibellatrix amberina 的新型掠食性恐龙化石在怀特岛被鉴定，该物种生活在 1.2 亿年前。这进一步丰富了我们对大盗龙类恐龙的认识。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="SCI" data-tags="[&quot;biology&quot;, &quot;dogs&quot;, &quot;psychology&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2593437-dinosaur-named-new-species-102-years-after-fossil-found-on-isle-of-wight/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Dinosaur named new species a century after fossil found on Isle of Wight</a></div>
+      <div class="item-title-zh">狗也容易受到布巴-奇奇效应的影响</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 13h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biology · dogs · psychology · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Research indicates that dogs share similar brain mechanisms with humans regarding sound-symbolism. They associate &#x27;bouba&#x27; with rounded shapes and &#x27;kiki&#x27; with spikes, just like us.</p>
+      <p class="summary-zh">研究表明，狗在音象征义方面与人类有着相似的大脑机制。就像我们一样，它们会将“bouba”与圆形关联，将“kiki”与尖角关联。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;germany&quot;, &quot;ukraine&quot;, &quot;pipeline&quot;, &quot;trial&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines</a></div>
+      <div class="item-title-zh">德国审判一名涉嫌炸毁北溪管道的乌克兰人</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">germany · ukraine · pipeline · trial</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Four years after the sabotage, a Ukrainian national is on trial in Germany. He is accused of plotting to destroy the Nord Stream gas pipelines.</p>
+      <p class="summary-zh">在北溪管道遭到破坏四年后，一名乌克兰籍男子在德国受审。他被指控策划炸毁了通往德国的俄罗斯天然气管道。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;family&quot;, &quot;inheritance&quot;, &quot;real-estate&quot;, &quot;legal&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">My sister moved in with our mother, 78, and now says she deserves the $925,000 family home. Is she right?</a></div>
+      <div class="item-title-zh">妹妹搬去和 78 岁的母亲同住，声称她应获得价值 92.5 万美元的家庭住宅，她是对的吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">family · inheritance · real-estate · legal</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A family conflict arises over the ownership of a $925,000 home after a sibling moves in with an elderly parent. Legal and ethical questions regarding inheritance are being raised.</p>
+      <p class="summary-zh">在一处价值 92.5 万美元的房产所有权问题上，由于姐妹搬去与年迈母亲同住，引发了家庭矛盾。这引发了关于遗产继承的法律和道德争议。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;starlink&quot;, &quot;ukraine&quot;, &quot;war&quot;, &quot;technology&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Starlink restrictions affecting Ukraine&#x27;s front line operations, Kyiv says</a></div>
+      <div class="item-title-zh">乌克兰称星链限制影响了其前线行动</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">starlink · ukraine · war · technology</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Kyiv officials report that restrictions on Elon Musk&#x27;s Starlink system are hindering front-line operations. The technology is critical for drone guidance and defense.</p>
+      <p class="summary-zh">基辅官员表示，埃隆·马斯克的星链系统限制了前线作战行动。该技术对于无人机引导和防御至关重要。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;pope&quot;, &quot;health&quot;, &quot;vatican&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Pope diagnosed with lung cancer but had successful surgery, Vatican says</a></div>
+      <div class="item-title-zh">梵蒂冈称教皇被诊断出肺癌，但手术成功</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">pope · health · vatican · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Vatican confirmed that Pope Leo underwent surgery to remove a lower lobe of his right lung due to cancer. The procedure was successful, and he is recovering well.</p>
+      <p class="summary-zh">梵蒂冈证实，教皇利奥因肺癌接受了切除右肺下叶的手术。手术非常成功，目前正在康复中。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="33" data-cat="WORLD" data-tags="[&quot;turkey&quot;, &quot;media&quot;, &quot;politics&quot;, &quot;censorship&quot;]">
+  <div class="item-row">
+    <span class="item-idx">33</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Turkish police raid opposition TV station, halting live broadcasts</a></div>
+      <div class="item-title-zh">土耳其警方突袭反对派电视台，切断直播</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="33" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="33" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">turkey · media · politics · censorship</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Turkish authorities raided an opposition television station and halted its live broadcasts. This move is part of ongoing crackdowns on critical media in the country.</p>
+      <p class="summary-zh">土耳其当局突袭了一家反对派电视台并停止了其直播。这是该国针对批评性媒体持续镇压行动的一部分。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+<a class="archive-date" href="/archive/2026-10-04.html">2026-10-04</a>
+<a class="archive-date" href="/archive/2026-10-03.html">2026-10-03</a>
+<a class="archive-date" href="/archive/2026-10-02.html">2026-10-02</a>
+<a class="archive-date" href="/archive/2026-10-01.html">2026-10-01</a>
+<a class="archive-date" href="/archive/2026-09-30.html">2026-09-30</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">33 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">12:35 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+<a class="archive-date" href="/archive/2026-10-04.html">2026-10-04</a>
+<a class="archive-date" href="/archive/2026-10-03.html">2026-10-03</a>
+<a class="archive-date" href="/archive/2026-10-02.html">2026-10-02</a>
+<a class="archive-date" href="/archive/2026-10-01.html">2026-10-01</a>
+<a class="archive-date" href="/archive/2026-09-30.html">2026-09-30</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-14';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
