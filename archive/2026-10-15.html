@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">29</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">6</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">7</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-15 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Thu Oct 15 2026 &middot; 29 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="TECH" data-tags="[&quot;cloud&quot;, &quot;hosting&quot;, &quot;vps&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1249147#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[推广] DGN Cloud 香港云主机正式营业，流量 1.5 美元/TiB，多台共享</a></div>
+      <div class="item-title-zh">DGN Cloud 香港云主机正式营业</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">cloud · hosting · vps</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">DGN Cloud has officially launched its Hong Kong cloud hosting services with flexible traffic packages. Users can share bandwidth across multiple machines, with new users eligible for credits and discounts.</p>
+      <p class="summary-zh">DGN Cloud 香港云主机正式开业，提供灵活的流量包及共享带宽方案。新用户可通过邀请链接获得抵扣券和折扣。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="TECH" data-tags="[&quot;exam&quot;, &quot;web&quot;, &quot;tool&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1249145#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 上岸线：听劝，给刚做完的国考选岗网站换了个更好记的域名。</a></div>
+      <div class="item-title-zh">上岸线：国考职位查询网站更换域名</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">exam · web · tool</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The &#x27;Shang&#x27;anxian&#x27; website, designed for national civil service exam preparation, has updated its domain to be more user-friendly. It offers free tools to filter job positions and check historical cutoff scores.</p>
+      <p class="summary-zh">国考选岗平台“上岸线”更换了更易记的域名。网站免费提供职位查询、历年进面分数线及筛选功能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="TECH" data-tags="[&quot;codex&quot;, &quot;debug&quot;, &quot;programming&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1249144#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[问与答] codex 经常出现这种情况，有什么好的解决方案吗？</a></div>
+      <div class="item-title-zh">Codex 频繁重连的解决方案</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">codex · debug · programming</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user is seeking advice on how to fix frequent disconnection issues encountered while using Codex. They are looking for effective troubleshooting steps or stable alternatives.</p>
+      <p class="summary-zh">用户咨询在使用 Codex 时遇到频繁重连问题的解决方案。希望能获取有效的排查建议或稳定替代方案。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="TECH" data-tags="[&quot;ai&quot;, &quot;saas&quot;, &quot;industry&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1249140#reply3" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] 纯工具产品感觉难了</a></div>
+      <div class="item-title-zh">纯工具类产品的生存危机</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · saas · industry</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author discusses how advanced AI models are threatening the relevance of simple utility web tools. They suggest that only experience-driven products might survive the shift.</p>
+      <p class="summary-zh">作者探讨了 AI 模型如何威胁到简单的工具类网页产品。认为未来只有注重体验的产品才具备生存空间。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;finance&quot;, &quot;ios&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1249139#reply7" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 知盈 iAssets 资产管理管家更新近况：家庭共享、AI 资产分析和存款提醒 [送码]</a></div>
+      <div class="item-title-zh">知盈 iAssets 更新：支持家庭共享与 AI 分析</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · ios · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The asset management app iAssets has introduced family sharing and AI-driven financial planning features. The developer is offering pro-subscription codes to the community as part of the update.</p>
+      <p class="summary-zh">资产管理应用“知盈”更新，新增家庭共享与 AI 资产分析功能。开发者向社区用户赠送专业版会员码以示庆祝。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;crypto&quot;, &quot;ledger&quot;, &quot;security&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1011133/ledger-atom-hardware-wallet-crypto-security-android" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ledger’s new hardware wallet is an Android phone without the phone</a></div>
+      <div class="item-title-zh">Ledger 发布新型 Android 硬件钱包</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">crypto · ledger · security</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Ledger has announced &#x27;Atom,&#x27; a new hardware wallet built on Android that acts as a secure companion device for smartphones. This launch occurs amid challenges in the company&#x27;s supply chain.</p>
+      <p class="summary-zh">Ledger 发布了基于 Android 的新型硬件钱包 Atom，旨在作为智能手机的安全配套设备。公司目前正面临供应链方面的挑战。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;amazon&quot;, &quot;wearable&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs" target="_blank" rel="noopener" onclick="event.stopPropagation()">Amazon’s always-listening Bee wearable can now help you buy stuff</a></div>
+      <div class="item-title-zh">亚马逊的“监听”穿戴设备新增购物功能</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">amazon · wearable · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Amazon has updated its &#x27;Bee&#x27; wearable device, which continuously listens to conversations, to include e-commerce purchasing capabilities. The product launch includes new models and a subscription service.</p>
+      <p class="summary-zh">亚马逊更新了具备持续监听功能的穿戴设备“Bee”，增加了购物辅助功能。此次发布还推出了新硬件和相关订阅服务。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;privacy&quot;, &quot;toy&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab" target="_blank" rel="noopener" onclick="event.stopPropagation()">Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked</a></div>
+      <div class="item-title-zh">警惕！儿童机器人玩具可能泄露隐私</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">privacy · toy · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new AI-powered robot toy for children is under scrutiny for potentially storing sensitive user conversations on Chinese servers. Experts warn that these secrets are vulnerable to hacking.</p>
+      <p class="summary-zh">一款儿童 AI 机器人玩具因将用户对话存储在海外服务器而引发隐私担忧。专家警告称其数据易被黑客攻击。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="FINA" data-tags="[&quot;skydance&quot;, &quot;finance&quot;, &quot;market&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4954372-skydance-here-comes-flood?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Skydance: Here Comes The Flood</a></div>
+      <div class="item-title-zh">Skydance：洪流将至</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">skydance · finance · market</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article discusses the market implications of Skydance&#x27;s recent activities. It analyzes the potential financial impact on the industry as the company scales its operations.</p>
+      <p class="summary-zh">文章分析了 Skydance 近期业务动作对市场的影响。探讨了公司扩张可能带来的行业财务连锁反应。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;valuation&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4954417-altius-minerals-great-company-at-a-bad-price?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Altius Minerals: Great Company At A Bad Price</a></div>
+      <div class="item-title-zh">Altius Minerals：好公司，坏价格</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · valuation · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Altius Minerals is presented as a high-quality company, but current market pricing makes it an unattractive investment. The author warns that the valuation does not justify the potential returns.</p>
+      <p class="summary-zh">Altius Minerals 被评价为一家优质公司，但目前的市场定价过高。作者提醒投资者该估值缺乏吸引力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="FINA" data-tags="[&quot;annuity&quot;, &quot;stocks&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4954414-f-and-g-annuities-and-life-cheap-for-a-reason?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">F&amp;G Annuities &amp; Life: Cheap For A Reason</a></div>
+      <div class="item-title-zh">F&amp;G Annuities &amp; Life：廉价自有其因</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">annuity · stocks · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">F&amp;G Annuities &amp; Life is currently trading at a low price, but the author argues this is justified by fundamental risks. Investors are cautioned to look past the low valuation.</p>
+      <p class="summary-zh">F&amp;G Annuities &amp; Life 目前股价低廉，但作者认为其基本面风险解释了这一价格。建议投资者警惕低估值背后的问题。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="FINA" data-tags="[&quot;logistics&quot;, &quot;margins&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4954413-marten-transport-better-pricing-same-thin-margins?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Marten Transport: Better Pricing, Same Thin Margins</a></div>
+      <div class="item-title-zh">Marten Transport：定价改善，利润微薄</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">logistics · margins · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Despite improvements in pricing power, Marten Transport continues to struggle with thin profit margins. The report examines whether operational efficiency can overcome these financial hurdles.</p>
+      <p class="summary-zh">尽管定价权有所改善，Marten Transport 的利润率依然微薄。文章探讨了运营效率能否克服这些财务障碍。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;market&quot;, &quot;sp500&quot;, &quot;investment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/theres-a-monstrous-bull-market-developing-under-the-surface-of-the-s-p-500-this-hedge-fund-manager-tells-you-where-its-at-98450ef4?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">There’s a ‘monstrous bull market’ developing under the surface of the S&amp;P 500. This hedge-fund manager tells you where it’s at.</a></div>
+      <div class="item-title-zh">标普500指数下的“怪兽级牛市”</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">market · sp500 · investment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A hedge fund manager suggests that a hidden bull market is developing beneath the surface of the S&amp;P 500. He identifies specific areas where growth is outpacing the lagging major stocks.</p>
+      <p class="summary-zh">对冲基金经理指出，标普 500 指数下正酝酿着隐形牛市。他指出部分板块的增长速度远超指数权重股。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;acquisition&quot;, &quot;cashflow&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4954412-gfl-environmental-after-secure-more-scale-same-cash-question?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">GFL Environmental After SECURE: More Scale, Same Cash Question</a></div>
+      <div class="item-title-zh">GFL Environmental：SECURE收购后的规模与现金流质疑</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">acquisition · cashflow · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Following the SECURE acquisition, GFL Environmental has increased its market scale significantly. However, concerns remain regarding the company&#x27;s long-term cash flow sustainability.</p>
+      <p class="summary-zh">在完成 SECURE 收购后，GFL Environmental 规模显著扩大。但市场对其现金流的可持续性仍存质疑。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;finance&quot;, &quot;strategy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/this-30-year-market-veteran-is-alarmed-by-a-near-record-s-p-500-heres-where-hes-investing-instead-c6611143?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">This 30-year market veteran is alarmed by a record-chasing S&amp;P 500. Here’s where he’s investing instead.</a></div>
+      <div class="item-title-zh">资深市场专家避开标普500</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · finance · strategy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A 30-year market veteran warns that the current S&amp;P 500 rally is irrational and dangerous. He is recommending safer alternative investment strategies for current conditions.</p>
+      <p class="summary-zh">一位拥有 30 年经验的市场专家警告称，标普 500 目前的涨势非理性且危险。他建议采取更稳妥的投资策略。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;ai&quot;, &quot;bonds&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">CoreWeave’s AI bonds tumble, raising red flags for the wider market</a></div>
+      <div class="item-title-zh">CoreWeave 的 AI 债券价格暴跌</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · bonds · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Bonds issued by AI infrastructure company CoreWeave have seen a sharp decline in value, raising concerns about the broader AI-linked credit market. Investors are wary of the rising yields.</p>
+      <p class="summary-zh">AI 基础设施公司 CoreWeave 发行的债券价格大跌，引发了对 AI 相关信贷市场的担忧。投资者对高收益率感到不安。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="SCI" data-tags="[&quot;biotech&quot;, &quot;nuclear&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: reviving frozen pig kidneys and boosting nuclear power</a></div>
+      <div class="item-title-zh">科技下载：复苏冷冻猪肾与核能增长</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biotech · nuclear · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Scientists have successfully revived pig kidneys that were frozen for a year, a breakthrough for organ storage. Meanwhile, there is a push to maximize power output from existing nuclear plants.</p>
+      <p class="summary-zh">科学家成功复苏了冷冻一年的猪肾，为器官保存带来突破。同时，行业正积极寻求提升现有核电站的电力产能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="SCI" data-tags="[&quot;nuclear&quot;, &quot;energy&quot;, &quot;sustainability&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/" target="_blank" rel="noopener" onclick="event.stopPropagation()">How much more can nuclear power plants give?</a></div>
+      <div class="item-title-zh">核电站的产能上限探讨</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nuclear · energy · sustainability</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">As electricity demand surges, utility companies are exploring ways to extract maximum power from aging nuclear plants. This article examines the feasibility and safety of pushing these facilities to their limits.</p>
+      <p class="summary-zh">随着电力需求激增，电力公司正设法从老旧核电站榨取更多产能。文章探讨了提升这些设施运行极限的可行性与安全性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="SCI" data-tags="[&quot;consciousness&quot;, &quot;science&quot;, &quot;future&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Six wild ideas for perpetuating your mind</a></div>
+      <div class="item-title-zh">六个关于永续思想的疯狂点子</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">consciousness · science · future</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article explores theoretical and sci-fi methods for preserving human consciousness beyond the physical body. It examines the boundary between neuroscience and digital immortality.</p>
+      <p class="summary-zh">文章探讨了通过理论和科幻手段保存人类意识的可能性。分析了神经科学与数字永生之间的边界。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="SCI" data-tags="[&quot;biotech&quot;, &quot;science&quot;, &quot;organ&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Pig kidneys that were “frozen” for a year have been brought back to life</a></div>
+      <div class="item-title-zh">被“冷冻”一年的猪肾成功复活</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biotech · science · organ</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Scientists have successfully rewarmed pig kidneys stored at -150°C, marking a significant advancement in organ cryopreservation. The team aims to extend this research to human organ transplants.</p>
+      <p class="summary-zh">科学家成功复苏了在 -150°C 保存的猪肾，器官冷冻保存技术取得显著进展。团队计划将此研究推广至人体器官移植。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;review&quot;, &quot;science&quot;, &quot;literature&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2592386-whalefall-review-worth-watching-for-the-bits-inside-a-sperm-whale/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Whalefall review: Worth watching for the bits inside a sperm whale</a></div>
+      <div class="item-title-zh">书评：鲸落，一场感人至深的深海逃生</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">review · science · literature</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This review analyzes the book and film &#x27;Whalefall,&#x27; which tells the story of a diver swallowed by a sperm whale. The critic praises the gruesome detail but finds the narrative overly sentimental.</p>
+      <p class="summary-zh">书评分析了《鲸落》这一关于潜水员被抹香鲸吞食的故事。评论认为其细节刻画精彩，但情感表达略显多余。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;cancer&quot;, &quot;advice&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Things to know when you get cancer</a></div>
+      <div class="item-title-zh">确诊癌症后需要知道的事</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 16h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · cancer · advice</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A compilation of advice and resources for those navigating a cancer diagnosis. Community members share practical knowledge on medical choices and emotional support systems.</p>
+      <p class="summary-zh">针对癌症患者的实用建议与资源汇总。社区成员分享了医疗决策与心理支持方面的经验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="WORLD" data-tags="[&quot;russia&quot;, &quot;ukraine&quot;, &quot;conflict&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume</a></div>
+      <div class="item-title-zh">俄罗斯指责乌克兰袭击炼油厂</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">russia · ukraine · conflict</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Russia has accused Ukraine of striking an oil refinery following President Zelensky&#x27;s announcement that attacks on energy sites would resume. The escalation underscores the volatile nature of the regional conflict.</p>
+      <p class="summary-zh">泽连斯基宣布恢复对能源设施的袭击后，俄方指责乌克兰攻击其炼油厂。冲突升级凸显了地区局势的动荡。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="WORLD" data-tags="[&quot;drone&quot;, &quot;romania&quot;, &quot;incident&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Eight crew missing after drone attack leaves tanker ablaze off Romania&#x27;s coast</a></div>
+      <div class="item-title-zh">无人机袭击导致罗马尼亚海岸油轮起火</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">drone · romania · incident</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A tanker is ablaze off the coast of Romania following a drone attack, leaving eight crew members missing. Search and rescue efforts are currently underway in the Black Sea.</p>
+      <p class="summary-zh">罗马尼亚海岸一艘油轮遭无人机袭击起火，导致八名船员失踪。黑海地区的搜救工作正在进行中。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="WORLD" data-tags="[&quot;economy&quot;, &quot;society&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?</a></div>
+      <div class="item-title-zh">失业与租房：50岁后的偏见</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">economy · society · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An individual reflects on the struggle of losing a home during the recession and facing age-related judgment for renting in their 50s. The piece questions societal perceptions of personal financial failure.</p>
+      <p class="summary-zh">文章讲述了作者在经济衰退中失去家园，并在 50 多岁时因租房而受到的社会偏见。反思了社会对个人财务失败的看法。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;weather&quot;, &quot;turkey&quot;, &quot;disaster&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cq398x7j1lrwo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Two dead in Istanbul after heaviest rainfall in 84 years, governor says</a></div>
+      <div class="item-title-zh">伊斯坦布尔84年来最强降雨致两人死亡</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">weather · turkey · disaster</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Istanbul experienced its heaviest rainfall in over eight decades, resulting in two fatalities. Authorities have urged residents to remain indoors during the emergency.</p>
+      <p class="summary-zh">伊斯坦布尔遭遇 84 年来最强降雨，造成两人死亡。政府呼吁居民非必要不外出。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;brazil&quot;, &quot;politics&quot;, &quot;labor&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Brazil&#x27;s Congress approves shorter working week in win for Lula</a></div>
+      <div class="item-title-zh">巴西国会批准缩短工作周</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">brazil · politics · labor</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Brazil&#x27;s Congress has approved a measure to shorten the work week, marking a political victory for President Lula. Supporters hope this will boost his popularity before upcoming elections.</p>
+      <p class="summary-zh">巴西国会通过了缩短工作周的法案，这是卢拉政府的一次政治胜利。支持者希望此举能提升其大选前的民意支持率。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;whitehouse&quot;, &quot;politics&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">White House defends new press secretary amid questions about her legal credentials</a></div>
+      <div class="item-title-zh">白宫为新任新闻秘书辩护</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">whitehouse · politics · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The White House is defending the credentials of its new press secretary, Katie Zacharia, amid public questions regarding her legal registration. The administration stands by her professional qualifications.</p>
+      <p class="summary-zh">针对公众对其法律资质的质疑，白宫出面为新闻秘书凯蒂·扎卡里亚辩护。政府重申其具备相应的专业能力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;ai&quot;, &quot;cybersecurity&quot;, &quot;geopolitics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2593414-russia-and-china-are-using-ai-to-stage-relentless-cyber-attacks-against-the-uk/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Russia and China are using AI to stage relentless cyberattacks against the UK</a></div>
+      <div class="item-title-zh">俄罗斯与中国利用 AI 发动网络攻击</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">New Scientist &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · cybersecurity · geopolitics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">AI technology is significantly accelerating the speed and frequency of cyberattacks against UK infrastructure. Meanwhile, defense agencies are also adopting AI to detect and neutralize these threats.</p>
+      <p class="summary-zh">人工智能正显著加快对英国基础设施的网络攻击速度。同时，防御机构也利用 AI 技术来识别和抵御这些威胁。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+<a class="archive-date" href="/archive/2026-10-04.html">2026-10-04</a>
+<a class="archive-date" href="/archive/2026-10-03.html">2026-10-03</a>
+<a class="archive-date" href="/archive/2026-10-02.html">2026-10-02</a>
+<a class="archive-date" href="/archive/2026-10-01.html">2026-10-01</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">29 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">12:22 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+<a class="archive-date" href="/archive/2026-10-04.html">2026-10-04</a>
+<a class="archive-date" href="/archive/2026-10-03.html">2026-10-03</a>
+<a class="archive-date" href="/archive/2026-10-02.html">2026-10-02</a>
+<a class="archive-date" href="/archive/2026-10-01.html">2026-10-01</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-15';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
