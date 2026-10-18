@@ -6,6 +6,344 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1249797#reply0",
+      "url": "https://www.v2ex.com/t/1249797#reply0",
+      "title": "【分享创造】一天插拔两次外接屏：家里的屏和公司的屏，我的窗口现在分得清了",
+      "content_html": "<p><strong>[分享创造] 一天插拔两次外接屏：家里的屏和公司的屏，我的窗口现在分得清了</strong></p><p>A developer created an open-source tool called LayoutKeeper to automatically restore window positions when switching between home and office monitors. It uses EDID identification and macOS private APIs to save and restore window layouts across different displays and desktops.</p><p>开发者开源了 LayoutKeeper 工具，通过识别显示器 ID 自动保存并恢复外接屏的窗口布局。该工具利用 macOS 私有接口，解决了用户在多场景切换时窗口混乱的问题。</p><p>Tags: macos · opensource · productivity</p>",
+      "date_published": "2026-10-18T11:50:23+00:00",
+      "tags": [
+        "macos",
+        "opensource",
+        "productivity"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1249796#reply0",
+      "url": "https://www.v2ex.com/t/1249796#reply0",
+      "title": "【分享创造】《网吧物语》重磅升级，听了很多 V 友的建议，增加了很多的元素，游戏变得丰富起来了",
+      "content_html": "<p><strong>[分享创造] 《网吧物语》重磅升级，听了很多 V 友的建议，增加了很多的元素，游戏变得丰富起来了，请求大家再次试玩！</strong></p><p>The indie simulation game &#x27;Internet Cafe Story&#x27; has received a major update based on community feedback. New features include management planning, employee leveling systems, and various random events to enhance gameplay depth.</p><p>模拟经营小游戏《网吧物语》根据社区反馈进行了重磅更新。新版本加入了经营企划、员工养成系统和更多随机事件，大幅提升了游戏的可玩性。</p><p>Tags: gamedev · indie · simulation</p>",
+      "date_published": "2026-10-18T11:45:35+00:00",
+      "tags": [
+        "gamedev",
+        "indie",
+        "simulation"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4955049-stoneco-wait-for-signs-of-credit-stabilization?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4955049-stoneco-wait-for-signs-of-credit-stabilization?source=feed_all_articles",
+      "title": "StoneCo：等待信贷稳定的信号",
+      "content_html": "<p><strong>StoneCo: Wait For Signs Of Credit Stabilization</strong></p><p>StoneCo faces market uncertainty, with investors advised to watch for signs of credit stabilization. The company&#x27;s future performance remains tied to macroeconomic conditions and its ability to manage credit risk.</p><p>StoneCo 目前面临市场不确定性，投资者需观察其信贷业务是否出现趋稳信号。公司的未来表现仍高度依赖于宏观经济环境及风险管控能力。</p><p>Tags: stoneco · finance · stocks</p>",
+      "date_published": "2026-10-18T11:35:24+00:00",
+      "tags": [
+        "stoneco",
+        "finance",
+        "stocks"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1249795#reply0",
+      "url": "https://www.v2ex.com/t/1249795#reply0",
+      "title": "【游戏开发】做一个 AI 驱动的游戏，有可行性吗？",
+      "content_html": "<p><strong>[游戏开发] 做一个 AI 驱动的游戏,有可行性吗?</strong></p><p>Developers are discussing the feasibility of creating a game where NPCs are fully driven by AI rather than static scripts. Such a system would allow characters to have unique experiences and evolving personalities that shape the narrative.</p><p>开发者正探讨由 AI 驱动 NPC 的游戏可行性，而非使用传统硬编码逻辑。这种模式下，游戏角色将具备自主意识与经历，从而改变游戏剧情走向。</p><p>Tags: ai · gamedev · npc</p>",
+      "date_published": "2026-10-18T11:34:31+00:00",
+      "tags": [
+        "ai",
+        "gamedev",
+        "npc"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1249794#reply3",
+      "url": "https://www.v2ex.com/t/1249794#reply3",
+      "title": "【程序员】以后对程序员的考核指标将变为单位时间内谁用最少的 token 完成目标",
+      "content_html": "<p><strong>[程序员] 以后对程序员的考核指标将变为单位时间内谁用最少的 token 完成目标</strong></p><p>As AI usage becomes standard, the efficiency of token consumption is emerging as a critical performance metric for programmers. Minimizing token usage while maintaining code quality is seen as a new competitive advantage.</p><p>随着 AI 开发的普及，Token 使用效率正成为衡量程序员能力的新指标。在保证代码质量的前提下降低 Token 消耗，被视为开发者的新核心竞争力。</p><p>Tags: programming · llm · efficiency</p>",
+      "date_published": "2026-10-18T11:31:05+00:00",
+      "tags": [
+        "programming",
+        "llm",
+        "efficiency"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4954561-this-market-is-rotten-under-the-hood-im-making-these-3-moves?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4954561-this-market-is-rotten-under-the-hood-im-making-these-3-moves?source=feed_all_articles",
+      "title": "当前市场基础并不稳固，我正采取这三个举措",
+      "content_html": "<p><strong>This Market Is Rotten Under The Hood - I&#x27;m Making These 3 Moves</strong></p><p>The author argues that the current stock market is fundamentally weak under the hood. Consequently, they are implementing three specific defensive moves to mitigate potential risks.</p><p>作者分析认为当前股市表象下暗藏风险，市场基础并不稳固。因此，作者正采取三项防御性投资举措以规避潜在风险。</p><p>Tags: investing · market · finance</p>",
+      "date_published": "2026-10-18T11:30:00+00:00",
+      "tags": [
+        "investing",
+        "market",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1249793#reply3",
+      "url": "https://www.v2ex.com/t/1249793#reply3",
+      "title": "【OpenAI】OpenAI 的 Dot 功能有人用吗？",
+      "content_html": "<p><strong>[OpenAI] Openai 的 Dot 功能有人用吗？</strong></p><p>Users are testing OpenAI&#x27;s new Dot personal assistant feature, noting its ability to manage workflows but citing significant stability issues. Concerns include high latency, poor system feedback, and persistent synchronization problems across devices.</p><p>用户在使用 OpenAI 的 Dot 个人助理功能后表示，尽管其能统筹工作，但存在响应缓慢、系统权限不稳定及多端同步体验差等问题。该功能目前仍处于改进阶段，用户反馈褒贬不一。</p><p>Tags: openai · assistant · productivity</p>",
+      "date_published": "2026-10-18T11:20:26+00:00",
+      "tags": [
+        "openai",
+        "assistant",
+        "productivity"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4955028-why-5-percent-treasuries-do-not-kill-the-reit-case?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4955028-why-5-percent-treasuries-do-not-kill-the-reit-case?source=feed_all_articles",
+      "title": "为什么 5% 的国债收益率没有扼杀 REITs 的吸引力",
+      "content_html": "<p><strong>Why 5% Treasuries Don&#x27;t Kill The REIT Case</strong></p><p>Despite rising Treasury yields reaching 5%, Real Estate Investment Trusts (REITs) remain a viable investment option. The analysis suggests that the underlying value and growth potential of REITs outweigh the interest rate pressure.</p><p>尽管国债收益率已升至 5%，房地产投资信托基金 (REITs) 依然具有投资价值。文章分析认为，REITs 的资产质量与长期增长潜力足以抵消利率带来的压力。</p><p>Tags: reits · investing · bonds</p>",
+      "date_published": "2026-10-18T11:15:00+00:00",
+      "tags": [
+        "reits",
+        "investing",
+        "bonds"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4955047-standex-international-shouldnt-be-trading-this-high-downgrade?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4955047-standex-international-shouldnt-be-trading-this-high-downgrade?source=feed_all_articles",
+      "title": "Standex International 股价过高（评级下调）",
+      "content_html": "<p><strong>Standex International Shouldn&#x27;t Be Trading This High (Rating Downgrade)</strong></p><p>Standex International has received a rating downgrade as analysts believe its current market valuation is excessive. Investors are warned that the stock may be trading beyond its intrinsic value given recent performance.</p><p>由于市场估值过高，分析师下调了对 Standex International 的评级。投资者需警惕该股票近期价格可能已偏离其内在价值。</p><p>Tags: finance · stocks · downgrade</p>",
+      "date_published": "2026-10-18T11:08:51+00:00",
+      "tags": [
+        "finance",
+        "stocks",
+        "downgrade"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4955046-riskified-stock-new-merchants-bring-growth-margin-pressure?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4955046-riskified-stock-new-merchants-bring-growth-margin-pressure?source=feed_all_articles",
+      "title": "Riskified：新商户带来增长同时伴随利润压力",
+      "content_html": "<p><strong>Riskified: New Merchants Bring Growth And Margin Pressure</strong></p><p>Riskified is experiencing growth driven by the acquisition of new merchants, but this comes at the cost of compressed profit margins. The company faces a balancing act between scaling its user base and maintaining financial health.</p><p>Riskified 在获取新商户的过程中实现了业务增长，但也面临利润率被压缩的财务压力。公司需在规模化扩张与保持盈利能力之间寻找平衡。</p><p>Tags: riskified · finance · business</p>",
+      "date_published": "2026-10-18T11:04:47+00:00",
+      "tags": [
+        "riskified",
+        "finance",
+        "business"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+      "title": "巴黎抗议引发骚乱与抢劫，街头出现燃烧车辆与碎玻璃",
+      "content_html": "<p><strong>Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting</strong></p><p>Nationwide protests in France escalated into violent riots and looting, leading to approximately 1,800 arrests. The incidents involved significant vandalism and property damage across Parisian streets.</p><p>法国全国范围内的抗议活动演变为暴力骚乱及抢劫，造成约 1800 人被捕。巴黎街头出现大规模破坏行为，车辆遭焚烧，商店玻璃被砸碎。</p><p>Tags: france · protests · riots</p>",
+      "date_published": "2026-10-18T10:53:54+00:00",
+      "tags": [
+        "france",
+        "protests",
+        "riots"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
+      "title": "加拿大军事基地发生重大火灾，造成多人死伤",
+      "content_html": "<p><strong>Several dead or injured in major fire at Canada military base</strong></p><p>A major fire at the Canadian Forces Base Wainwright has resulted in multiple casualties. Officials have described the situation as delicate and have yet to disclose the exact cause or death toll.</p><p>加拿大 Wainwright 军事基地发生重大火灾，造成人员伤亡。官方表示现场情况复杂，目前尚未公布具体起火原因及确切伤亡人数。</p><p>Tags: canada · military · fire</p>",
+      "date_published": "2026-10-18T08:52:41+00:00",
+      "tags": [
+        "canada",
+        "military",
+        "fire"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://t3.at/blog/2026-10-17-parser-combinators/",
+      "url": "https://t3.at/blog/2026-10-17-parser-combinators/",
+      "title": "解析器组合子 (Parser Combinators)",
+      "content_html": "<p><strong>Parser Combinators</strong></p><p>A technical discussion on Parser Combinators, a programming technique for building parsers by combining smaller, independent functions. This approach is highly valued for its readability and modularity in language development.</p><p>本文探讨了解析器组合子技术，即通过组合独立的微型函数构建解析器。该方法因其高模块化和代码可读性，在编译器设计领域备受推崇。</p><p>Tags: programming · parsing · algorithm</p>",
+      "date_published": "2026-10-18T08:19:53+00:00",
+      "tags": [
+        "programming",
+        "parsing",
+        "algorithm"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://sspai.com/post/115241",
+      "url": "https://sspai.com/post/115241",
+      "title": "Quote/0 妙用 +1，把墨水屏变成点餐助手",
+      "content_html": "<p><strong>Quote/0 妙用 +1，把墨水屏变成点餐助手</strong></p><p>A user demonstrates how to repurpose an E-ink display into a digital dining assistant using Quote/0. This creative use case showcases the versatility of low-power display technology in everyday home applications.</p><p>作者分享了如何利用 Quote/0 将墨水屏设备改造为点餐助手。这一创意应用展示了低功耗显示技术在日常生活场景中的多种可能性。</p><p>Tags: eink · hardware · diy</p>",
+      "date_published": "2026-10-18T07:01:02+00:00",
+      "tags": [
+        "eink",
+        "hardware",
+        "diy"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://api-docs.deepseek.com/guides/search/",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "title": "DeepSeek 搜索与获取服务 – 每 1000 次成功请求 0.75 美元",
+      "content_html": "<p><strong>DeepSeek search and fetch – $0.75 per 1000 successful requests</strong></p><p>DeepSeek has introduced a new pricing model for its search and data retrieval services. Developers can now access these tools at a rate of $0.75 per 1,000 successful API requests.</p><p>DeepSeek 推出了其搜索与数据获取服务的定价方案。开发者目前可按每 1000 次成功请求 0.75 美元的费用调用相关 API 服务。</p><p>Tags: deepseek · api · pricing</p>",
+      "date_published": "2026-10-18T06:50:36+00:00",
+      "tags": [
+        "deepseek",
+        "api",
+        "pricing"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+      "title": "自制合成药物浪潮席卷美国，毒品危机进一步恶化",
+      "content_html": "<p><strong>A wave of homemade, synthetic drugs sweeps US and deepens crisis</strong></p><p>The United States is facing an intensifying drug crisis fueled by a surge in homemade, synthetic substances. The situation has severely impacted recovery workers and prisons as authorities struggle to contain the new epidemic.</p><p>自制合成药物的泛滥导致美国毒品危机日益严峻。受此影响，戒毒工作人员与监狱系统面临极大压力，当局正努力遏制这一致命的药物流行趋势。</p><p>Tags: usa · drugs · health</p>",
+      "date_published": "2026-10-18T05:04:31+00:00",
+      "tags": [
+        "usa",
+        "drugs",
+        "health"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://sphinx-six-theta.vercel.app/",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "title": "Show HN: Sphinx – 一个在发布前帮你测试 AI 生成代码的钩子",
+      "content_html": "<p><strong>Show HN: Sphinx – A hook that quizzes you on your AI&#x27;s code before shipping</strong></p><p>Sphinx is a new developer tool designed to automatically quiz and verify code generated by AI before it is shipped. It aims to reduce bugs and security vulnerabilities in AI-assisted development workflows.</p><p>Sphinx 是一款新开发的工具，旨在代码发布前自动测试并校验 AI 生成的代码。该工具致力于降低 AI 辅助编程过程中的错误及安全漏洞风险。</p><p>Tags: ai · coding · testing</p>",
+      "date_published": "2026-10-18T04:33:49+00:00",
+      "tags": [
+        "ai",
+        "coding",
+        "testing"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+      "url": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+      "title": "伊丽莎白·霍尔姆斯纪录片《你可以看到一切》存在误导性",
+      "content_html": "<p><strong>How the Elizabeth Holmes documentary “You Can See Everything” is deceiving</strong></p><p>Critiques have emerged regarding the documentary about Elizabeth Holmes, claiming it presents a biased or inaccurate narrative. The discussion highlights issues surrounding the framing and factual accuracy of investigative media.</p><p>针对关于伊丽莎白·霍尔姆斯的纪录片存在不少质疑，批评人士认为其叙事存在偏差或误导。此次讨论引发了公众对调查类媒体报道真实性的关注。</p><p>Tags: documentary · media · investigation</p>",
+      "date_published": "2026-10-18T03:19:49+00:00",
+      "tags": [
+        "documentary",
+        "media",
+        "investigation"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+      "title": "以色列定居者在约旦河西岸袭击欧洲外交官",
+      "content_html": "<p><strong>European diplomats attacked by Israeli settlers in West Bank</strong></p><p>European diplomats were attacked by Israeli settlers in the West Bank, drawing condemnation from the Israeli military. However, the prime minister’s office has dismissed the criticism as part of a smear campaign.</p><p>以色列定居者在约旦河西岸袭击了欧洲外交官，引发以军方的谴责。与此同时，总理办公室则将相关批评视为针对国家的抹黑运动。</p><p>Tags: israel · westbank · diplomacy</p>",
+      "date_published": "2026-10-17T23:52:38+00:00",
+      "tags": [
+        "israel",
+        "westbank",
+        "diplomacy"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
+      "title": "卫星照片显示金正恩夏季行宫附近停靠带 50 米泳池及滑梯的豪华游艇",
+      "content_html": "<p><strong>Photos show luxury boat with 50m pool and water slides near Kim Jong Un&#x27;s summer retreat</strong></p><p>Satellite imagery reveals a luxury yacht equipped with a 50-meter pool and water slides near Kim Jong Un&#x27;s summer retreat. The findings highlight the stark contrast between the leader&#x27;s lifestyle and that of ordinary North Koreans.</p><p>卫星图像显示，金正恩夏季行宫附近出现一艘配有 50 米泳池与滑梯的豪华游艇。这一发现再次凸显了朝鲜领导层生活方式与普通国民间的巨大差距。</p><p>Tags: northkorea · kimjongun · satellite</p>",
+      "date_published": "2026-10-17T22:09:50+00:00",
+      "tags": [
+        "northkorea",
+        "kimjongun",
+        "satellite"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+      "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+      "title": "TikTok 封禁马斯克纪录片账号",
+      "content_html": "<p><strong>TikTok bans Musk documentary account</strong></p><p>TikTok has permanently suspended the social media account of an upcoming Alex Gibney documentary about Elon Musk. The move occurred just before the film&#x27;s wider release, and TikTok has not provided a public explanation.</p><p>TikTok 已永久封禁了关于埃隆·马斯克的纪录片官方账号。该封禁发生在电影全球发布前夕，且 TikTok 尚未对此决定作出公开回应。</p><p>Tags: tiktok · musk · media</p>",
+      "date_published": "2026-10-17T19:32:23+00:00",
+      "tags": [
+        "tiktok",
+        "musk",
+        "media"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+      "title": "虚假购物狂欢与“幸福保险”：最新的金融科技应用揭示了我们的财务焦虑",
+      "content_html": "<p><strong>Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties</strong></p><p>New fintech apps are addressing American consumers&#x27; financial anxieties with creative products like simulated shopping and &#x27;happiness insurance&#x27;. These services reflect the shifting and often stress-induced nature of modern financial habits.</p><p>新型金融科技应用正通过模拟购物及“幸福保险”等创意产品，以应对美国消费者的财务焦虑。这些服务侧面反映了现代人财务习惯的改变及其背后承载的压力。</p><p>Tags: fintech · finance · apps</p>",
+      "date_published": "2026-10-17T18:52:00+00:00",
+      "tags": [
+        "fintech",
+        "finance",
+        "apps"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+      "title": "投资而非置业，是让 Z 世代租房者感到成功的头号里程碑",
+      "content_html": "<p><strong>Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful</strong></p><p>For Gen Z, achieving financial freedom and investing is now considered more significant than homeownership. Prioritizing debt-free living has become the primary metric of success for this generation.</p><p>对于 Z 世代而言，投资与实现财务自由已超越置业，成为衡量成功的首要标志。摆脱债务压力正逐渐成为这一代人追求的核心成就。</p><p>Tags: genz · investing · finance</p>",
+      "date_published": "2026-10-17T18:40:00+00:00",
+      "tags": [
+        "genz",
+        "investing",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.newscientist.com/article/2594276-noise-cancelling-headphones-prevent-vomiting-after-surgery/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "url": "https://www.newscientist.com/article/2594276-noise-cancelling-headphones-prevent-vomiting-after-surgery/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "title": "降噪耳机可预防术后呕吐",
+      "content_html": "<p><strong>Noise-cancelling headphones prevent vomiting after surgery</strong></p><p>Research indicates that wearing noise-cancelling headphones during surgery can reduce the risk of nausea and vomiting. The study suggests that minimizing auditory stimulation under anaesthesia benefits patient recovery.</p><p>研究表明，患者在手术过程中佩戴降噪耳机可有效降低术后恶心及呕吐的风险。该研究认为减少麻醉状态下的听觉刺激有助于患者术后恢复。</p><p>Tags: health · science · surgery</p>",
+      "date_published": "2026-10-17T18:30:00+00:00",
+      "tags": [
+        "health",
+        "science",
+        "surgery"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance",
+      "url": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance",
+      "title": "梅赛德斯-AMG 首款完全自主研发的 SUV 是一款 1150 马力的电动怪兽",
+      "content_html": "<p><strong>Mercedes-AMG’s first ground-up SUV is a 1,150hp electric beast</strong></p><p>Mercedes-AMG has unveiled its new electric GT SUV, featuring three motors delivering over 1,150 horsepower. This vehicle represents the brand&#x27;s bold step into high-performance, ultra-fast-charging electric SUVs.</p><p>梅赛德斯-AMG 发布了其全新的电动 GT SUV，配备三电机系统，最大功率超过 1150 马力。该车标志着品牌在高性能快充电动 SUV 领域的重大突破。</p><p>Tags: mercedes · ev · automotive</p>",
+      "date_published": "2026-10-17T17:00:00+00:00",
+      "tags": [
+        "mercedes",
+        "ev",
+        "automotive"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway",
+      "url": "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway",
+      "title": "埃隆·马斯克就 100 万美元选民赠款引发的诉讼达成和解",
+      "content_html": "<p><strong>Elon Musk settles lawsuits over $1 million voter giveaway</strong></p><p>Elon Musk has settled lawsuits regarding his $1 million-a-day voter giveaway initiative. The program faced legal challenges over concerns about its legality and accusations of fraud.</p><p>埃隆·马斯克已就其“每日 100 万美元选民赠款”活动引发的诉讼达成和解。该活动此前因涉嫌违法及欺诈指控而面临多项法律诉讼。</p><p>Tags: musk · law · politics</p>",
+      "date_published": "2026-10-17T16:39:44+00:00",
+      "tags": [
+        "musk",
+        "law",
+        "politics"
+      ],
+      "_category": "WORLD"
+    },
+    {
       "id": "https://www.v2ex.com/t/1249630#reply0",
       "url": "https://www.v2ex.com/t/1249630#reply0",
       "title": "【分享创造】使用“vibe coding”制作了一个 VS Code Markdown 插件",
@@ -273,6 +611,19 @@
         "amazon"
       ],
       "_category": "WORLD"
+    },
+    {
+      "id": "https://www.nature.com/articles/d41586-026-03266-x",
+      "url": "https://www.nature.com/articles/d41586-026-03266-x",
+      "title": "漂白的珊瑚在接触健康的邻居后几天内即可恢复",
+      "content_html": "<p><strong>Bleached corals thrive within days when touching healthy neighbour</strong></p><p>Research shows that bleached corals can recover rapidly when in contact with healthy neighbors. This discovery offers new hope for the restoration of coral reefs affected by climate change.</p><p>研究发现，受损白化的珊瑚在接触健康的珊瑚邻居后，可在短时间内迅速恢复生机。这一发现为应对气候变化影响下的珊瑚礁修复提供了新思路。</p><p>Tags: biology · environment · ocean</p>",
+      "date_published": "2026-10-16T23:38:27+00:00",
+      "tags": [
+        "biology",
+        "environment",
+        "ocean"
+      ],
+      "_category": "SCI"
     },
     {
       "id": "https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements",
@@ -2332,357 +2683,6 @@
         "education"
       ],
       "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/micron-makes-a-statement-with-the-latest-clue-about-its-cash-windfall-c9e33f7d?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/micron-makes-a-statement-with-the-latest-clue-about-its-cash-windfall-c9e33f7d?mod=mw_rss_topstories",
-      "title": "美光科技关于现金意外之财的最新线索引发关注",
-      "content_html": "<p><strong>Micron makes a statement with the latest clue about its cash windfall</strong></p><p>Micron&#x27;s recent disclosure regarding stock buyback plans is being interpreted by analysts as a competitive signal. It highlights the company&#x27;s financial strength and generosity compared to its rivals in the semiconductor sector.</p><p>美光科技近期关于股票回购计划的披露被分析师解读为一种竞争信号。它凸显了该公司与半导体行业竞争对手相比的财务实力和慷慨程度。</p><p>Tags: micron · semiconductor · buyback</p>",
-      "date_published": "2026-10-12T15:06:00+00:00",
-      "tags": [
-        "micron",
-        "semiconductor",
-        "buyback"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2591107-do-ais-already-process-information-in-a-way-that-gives-rise-to-consciousness/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2591107-do-ais-already-process-information-in-a-way-that-gives-rise-to-consciousness/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "人工智能是否已经以产生意识的方式处理信息？",
-      "content_html": "<p><strong>Do AIs already process information in a way that gives rise to consciousness?</strong></p><p>Neuroscientists and philosophers are debating whether advanced AI models like Claude exhibit consciousness based on information flow. The discussion centers on whether current architectures mirror human brain functions.</p><p>神经科学家和哲学家正在讨论像 Claude 这样先进的人工智能模型是否基于信息流表现出意识。讨论重点在于目前的架构是否映射了人类大脑的功能。</p><p>Tags: ai · consciousness · philosophy</p>",
-      "date_published": "2026-10-12T15:00:00+00:00",
-      "tags": [
-        "ai",
-        "consciousness",
-        "philosophy"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1008161/mechanism-basecase-switch-2-case-hands-on",
-      "url": "https://www.theverge.com/tech/1008161/mechanism-basecase-switch-2-case-hands-on",
-      "title": "Mechanism 的首款 Switch 2 外壳非常出色",
-      "content_html": "<p><strong>Mechanism&amp;#8217;s first Switch 2 case is as awesome as I hoped it would be</strong></p><p>Accessory maker Mechanism has released its first snap-on shell for the Switch 2 after several delays. The modular design integrates with the company&#x27;s existing mount lineup, offering significant versatility for the console.</p><p>配件制造商 Mechanism 在多次推迟后发布了其首款 Switch 2 扣合式外壳。该模块化设计与公司现有的支架系列集成，为游戏机提供了极大的多功能性。</p><p>Tags: nintendo · switch2 · hardware</p>",
-      "date_published": "2026-10-12T15:00:00+00:00",
-      "tags": [
-        "nintendo",
-        "switch2",
-        "hardware"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c8wy9d940pyko?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c8wy9d940pyko?at_medium=RSS&at_campaign=rss",
-      "title": "南非副警察局长因被控性犯罪而辞职",
-      "content_html": "<p><strong>South Africa&#x27;s deputy police chief resigns after being charged with sexual offences</strong></p><p>South African deputy police chief Shadrack Sibiya has resigned after facing serious allegations of sexual offenses. He has officially denied charges related to the grooming and rape of minors.</p><p>南非副警察局长 Shadrack Sibiya 在面临严重的性犯罪指控后辞职。他已正式否认了有关诱拐和强奸未成年人的罪名。</p><p>Tags: south-africa · crime · politics</p>",
-      "date_published": "2026-10-12T14:40:15+00:00",
-      "tags": [
-        "south-africa",
-        "crime",
-        "politics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/microsoft-is-nearing-a-big-milestone-that-solidifies-its-revival-580d1ba8?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/microsoft-is-nearing-a-big-milestone-that-solidifies-its-revival-580d1ba8?mod=mw_rss_topstories",
-      "title": "微软达到一个重要里程碑，巩固了其复兴地位",
-      "content_html": "<p><strong>Microsoft hits a big milestone that solidifies its revival</strong></p><p>Microsoft&#x27;s market capitalization has surpassed the $4 trillion mark during intraday trading. This milestone reinforces the tech giant&#x27;s dominance and growth trajectory in the modern market.</p><p>微软的市场估值在盘中交易中突破了 4 万亿美元大关。这一里程碑巩固了这家科技巨头在现代市场中的主导地位和增长轨迹。</p><p>Tags: microsoft · stocks · marketcap</p>",
-      "date_published": "2026-10-12T14:18:00+00:00",
-      "tags": [
-        "microsoft",
-        "stocks",
-        "marketcap"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
-      "title": "沙特部长誓言对胡塞武装袭击机场的行为进行“严厉回应”",
-      "content_html": "<p><strong>Saudi minister vows &#x27;serious response&#x27; to Houthi attacks on airports</strong></p><p>Saudi Arabia has pledged a significant response following Houthi attacks on airports that resulted in multiple fatalities. This escalation has prompted concerns over regional stability and security infrastructure.</p><p>沙特阿拉伯承诺在胡塞武装袭击机场造成多人死亡后采取重大回应。这次升级引发了对地区稳定和安全基础设施的担忧。</p><p>Tags: saudi · houthi · geopolitics</p>",
-      "date_published": "2026-10-12T14:00:03+00:00",
-      "tags": [
-        "saudi",
-        "houthi",
-        "geopolitics"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1008750/googlebooks-android-best-worst-notifications-app-cast-file-sharing",
-      "url": "https://www.theverge.com/tech/1008750/googlebooks-android-best-worst-notifications-app-cast-file-sharing",
-      "title": "Android 是 Googlebooks 最好的，也是最坏的部分",
-      "content_html": "<p><strong>Android is the best and worst thing about Googlebooks</strong></p><p>The transition to Android-based laptops for professional tasks has been a mixed experience. While native app support provides convenience, the overall integration with Googlebooks remains imperfect.</p><p>将基于 Android 的笔记本电脑用于专业任务的体验褒贬不一。尽管原生应用支持提供了便利，但其与 Googlebooks 的整体整合仍然不完美。</p><p>Tags: android · google · laptop</p>",
-      "date_published": "2026-10-12T14:00:00+00:00",
-      "tags": [
-        "android",
-        "google",
-        "laptop"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date",
-      "url": "https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date",
-      "title": "《无人深空》即将登陆 iPhone 和 iPad",
-      "content_html": "<p><strong>No Man’s Sky is coming to the iPhone and iPad</strong></p><p>Hello Games is bringing its popular sci-fi exploration game, No Man&#x27;s Sky, to iOS devices. The mobile version is scheduled to launch on October 28th, offering a full experience for Apple users.</p><p>Hello Games 将把其广受欢迎的科幻探索游戏《无人深空》带到 iOS 设备上。该移动版本计划于 10 月 28 日发布，为苹果用户提供完整的游戏体验。</p><p>Tags: gaming · ios · nomanssky</p>",
-      "date_published": "2026-10-12T14:00:00+00:00",
-      "tags": [
-        "gaming",
-        "ios",
-        "nomanssky"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1009570/oneplus-16-specs-features-china",
-      "url": "https://www.theverge.com/tech/1009570/oneplus-16-specs-features-china",
-      "title": "一加 16 是该公司多年来最有趣的手机",
-      "content_html": "<p><strong>The OnePlus 16 is the company’s most interesting phone in years</strong></p><p>The newly launched OnePlus 16, featuring the Snapdragon 8 Elite chip, marks the company&#x27;s return to flagship performance after exiting Western markets. Reviewers are noting it as a significant hardware advancement for the brand.</p><p>新发布的一加 16 搭载骁龙 8 Elite 芯片，标志着该公司在退出西方市场后重回旗舰性能领域。评论家指出这是该品牌的一次重大硬件进步。</p><p>Tags: oneplus · smartphone · tech</p>",
-      "date_published": "2026-10-12T13:13:53+00:00",
-      "tags": [
-        "oneplus",
-        "smartphone",
-        "tech"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
-      "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
-      "title": "火星可能是个地狱，但月球也不遑多让",
-      "content_html": "<p><strong>Mars may be a hellhole, but the moon is not far behind</strong></p><p>The new space race has intensified as nations sprint to secure resources on the lunar surface. The geopolitical implications of lunar colonization are becoming as complex as missions to Mars.</p><p>随着各国竞相确保月球表面的资源，新一轮太空竞赛愈演愈烈。月球殖民的地缘政治影响正变得与火星任务一样复杂。</p><p>Tags: space · moon · exploration</p>",
-      "date_published": "2026-10-12T09:37:02+00:00",
-      "tags": [
-        "space",
-        "moon",
-        "exploration"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
-      "url": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
-      "title": "揭示雨林复苏背后隐形网络的生态学家",
-      "content_html": "<p><strong>The ecologist revealing the invisible networks that revive rainforests</strong></p><p>Researchers in Panama are studying the complex underground fungal and root networks that sustain rainforest regeneration. These invisible systems are crucial for the resilience of mature forest ecosystems.</p><p>巴拿马的研究人员正在研究维持雨林再生的复杂地下真菌和根系网络。这些隐形系统对于成熟森林生态系统的复原力至关重要。</p><p>Tags: ecology · nature · rainforest</p>",
-      "date_published": "2026-10-12T09:00:00+00:00",
-      "tags": [
-        "ecology",
-        "nature",
-        "rainforest"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2592513-why-the-worst-el-nino-killed-millions-and-how-we-can-avoid-a-repeat/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2592513-why-the-worst-el-nino-killed-millions-and-how-we-can-avoid-a-repeat/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "为什么最严重的厄尔尼诺现象导致数百万人死亡——以及我们如何避免重演",
-      "content_html": "<p><strong>Why the worst El Niño killed millions – and how we can avoid a repeat</strong></p><p>The 1870s global famine triggered by a severe El Niño serves as a historical lesson for modern climate readiness. Science researchers are analyzing whether current infrastructure can withstand similar environmental extremes.</p><p>1870 年代由严重的厄尔尼诺现象引发的全球饥荒，为现代气候准备工作提供了历史教训。科学研究人员正在分析当前的基础设施是否能够抵御类似的极端环境。</p><p>Tags: elnino · climate · history</p>",
-      "date_published": "2026-10-12T09:00:00+00:00",
-      "tags": [
-        "elnino",
-        "climate",
-        "history"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&at_campaign=rss",
-      "title": "教皇利奥因肺部发现结节将接受手术",
-      "content_html": "<p><strong>Pope Leo to have surgery after lump found on lung</strong></p><p>The 71-year-old pontiff is scheduled for surgery after doctors identified a lung nodule at an early stage. He remains optimistic about the procedure&#x27;s timing and his health recovery.</p><p>71岁的教皇在肺部发现早期结节后，计划接受手术治疗。目前医生认为病情尚处于早期阶段，手术安排正在进行中。</p><p>Tags: pope · health · surgery</p>",
-      "date_published": "2026-10-11T13:38:55+00:00",
-      "tags": [
-        "pope",
-        "health",
-        "surgery"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4953346-sandisk-12-percent-cash-return-with-earnings-up-next?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4953346-sandisk-12-percent-cash-return-with-earnings-up-next?source=feed_all_articles",
-      "title": "闪迪：12%现金回报，财报发布在即",
-      "content_html": "<p><strong>Sandisk: 12% Cash Return, With Earnings Up Next</strong></p><p>SanDisk is preparing to report its latest earnings while offering a 12% cash return to shareholders. Investors are closely watching these figures for signs of growth and fiscal stability.</p><p>闪迪即将在财报季发布最新业绩，并为股东提供12%的现金回报。投资者正密切关注其财务表现及后续增长动向。</p><p>Tags: sandisk · earnings · stocks</p>",
-      "date_published": "2026-10-11T13:37:31+00:00",
-      "tags": [
-        "sandisk",
-        "earnings",
-        "stocks"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1247883#reply0",
-      "url": "https://www.v2ex.com/t/1247883#reply0",
-      "title": "[问与答] Stripe Atlas注册美国公司的税号地址和电话怎么解决？",
-      "content_html": "<p><strong>[问与答] stripe atlas 注册美国公司的税号的地址和电话怎么解决？</strong></p><p>A user is seeking advice on resolving requirements for a US company address and phone number while using Stripe Atlas to create an EIN. They encountered high fees and payment issues with existing partners.</p><p>用户咨询在使用Stripe Atlas注册美国公司申请税号时，如何处理公司地址和电话证明。现有合作伙伴费用过高且支付受阻，希望能寻求更优的替代方案。</p><p>Tags: stripe · tax · startup</p>",
-      "date_published": "2026-10-11T13:33:37+00:00",
-      "tags": [
-        "stripe",
-        "tax",
-        "startup"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4953342-centuri-holdings-attractive-opportunity-if-profitability-improves?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4953342-centuri-holdings-attractive-opportunity-if-profitability-improves?source=feed_all_articles",
-      "title": "Centuri Holdings：盈利改善后的投资吸引力",
-      "content_html": "<p><strong>Centuri Holdings: An Attractive Opportunity If Profitability Improves</strong></p><p>Centuri Holdings could represent a strong investment opportunity if the company demonstrates consistent improvement in its profitability margins. Analysts remain cautious but see potential for growth in the current market.</p><p>若Centuri Holdings能实现利润率的持续改善，其投资潜力将大幅提升。分析师持谨慎态度，但看好该公司在当前市场环境下的增长可能。</p><p>Tags: investment · stocks · finance</p>",
-      "date_published": "2026-10-11T13:30:48+00:00",
-      "tags": [
-        "investment",
-        "stocks",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4953327-glaukos-steep-premium-for-new-therapies-and-growth?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4953327-glaukos-steep-premium-for-new-therapies-and-growth?source=feed_all_articles",
-      "title": "Glaukos：新疗法带来的高溢价与增长前景",
-      "content_html": "<p><strong>Glaukos: Steep Premium For New Therapies And Growth</strong></p><p>Glaukos is trading at a steep premium, driven by high market expectations for its innovative therapeutic pipeline and growth potential. Investors are weighing this valuation against the company&#x27;s long-term performance targets.</p><p>市场对Glaukos的新疗法及增长预期较高，导致其股票目前处于高溢价状态。投资者正在平衡这一高估值与公司的长期业绩增长能力。</p><p>Tags: glaukos · biotech · stocks</p>",
-      "date_published": "2026-10-11T13:30:43+00:00",
-      "tags": [
-        "glaukos",
-        "biotech",
-        "stocks"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1247882#reply0",
-      "url": "https://www.v2ex.com/t/1247882#reply0",
-      "title": "[分享创造] 开发了多Agent协作工具Sealwire",
-      "content_html": "<p><strong>[分享创造] 整了个多 agent 协作工具 Sealwire：让 Claude Code/Codex/OpenCode 等 Agent 互相 review、合作，手机上审批接管（送测试码）</strong></p><p>The developer introduced Sealwire, a tool that enables seamless collaboration between various AI agents like Claude Code and Cursor. It features cross-agent reviews and remote approval capabilities for enhanced productivity.</p><p>开发者推出了多Agent协作工具Sealwire，支持Claude Code、Cursor等不同模型间的任务交互与代码审查。该工具具备本地隐私模式及远程手机审批功能，助力工作流自动化。</p><p>Tags: ai · agents · productivity</p>",
-      "date_published": "2026-10-11T13:30:41+00:00",
-      "tags": [
-        "ai",
-        "agents",
-        "productivity"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1247881#reply0",
-      "url": "https://www.v2ex.com/t/1247881#reply0",
-      "title": "[分享创造] 针对程序员久坐问题的语音健身小程序",
-      "content_html": "<p><strong>[分享创造] [分享创造]写代码久坐腰痛,做了一个放下手机,靠语音闭眼跟练的健身小程序-闻鼓而动</strong></p><p>An engineer developed a mini-program called &#x27;闻鼓而动&#x27; to help developers exercise via voice guidance to alleviate back pain from sitting. The project is open-source and features diagrams for proper movement.</p><p>针对程序员久坐腰痛问题，开发者创作了一款名为“闻鼓而动”的小程序，通过语音引导用户进行无手机健身训练。项目已开源并补充了动作示意图供用户免费使用。</p><p>Tags: fitness · health · 小程序</p>",
-      "date_published": "2026-10-11T13:30:24+00:00",
-      "tags": [
-        "fitness",
-        "health",
-        "小程序"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1247880#reply0",
-      "url": "https://www.v2ex.com/t/1247880#reply0",
-      "title": "[分享创造] 云深网：基于八字命理的趣味现代视角测试",
-      "content_html": "<p><strong>[分享创造] https://yunshen.wang/ 云深网 在线测您是不是：比劫男/伤官女/杀印相生/红艳煞/...</strong></p><p>The author created &#x27;Yunshen.wang,&#x27; a web application that explores traditional Bazi astrology through a modern, scientific perspective. The platform uses Next.js for the frontend and PHP for the backend.</p><p>开发者分享了网站“云深网”，以现代视角解析传统八字命理，旨在提供趣味性的知识科普。该项目前端采用Next.js构建，后端使用PHP。</p><p>Tags: web · nextjs · php</p>",
-      "date_published": "2026-10-11T13:29:40+00:00",
-      "tags": [
-        "web",
-        "nextjs",
-        "php"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1247879#reply0",
-      "url": "https://www.v2ex.com/t/1247879#reply0",
-      "title": "[问与答] OnlyClaws：通过HTTP使用AI Agent分发Lua代码到ESP32",
-      "content_html": "<p><strong>[问与答] OnlyClaws：固件只烧一次， AI Agent 用 HTTP 给 ESP32 下发 Lua 换应用</strong></p><p>The project &#x27;OnlyClaws&#x27; allows AI agents to push Lua scripts to ESP32 hardware via HTTP, eliminating the need for repeated firmware compilation. It simplifies IoT development by enabling remote deployment and real-time interaction.</p><p>OnlyClaws项目实现了通过AI Agent利用HTTP协议向ESP32硬件下发Lua脚本，无需重复编译固件。该方案简化了物联网开发流程，支持远程应用替换与实时反馈。</p><p>Tags: esp32 · ai · iot</p>",
-      "date_published": "2026-10-11T13:27:59+00:00",
-      "tags": [
-        "esp32",
-        "ai",
-        "iot"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4953328-helus-pharma-stock-buy-ahead-hlp003-phase-3-readout?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4953328-helus-pharma-stock-buy-ahead-hlp003-phase-3-readout?source=feed_all_articles",
-      "title": "Helus Pharma：HLP003三期数据发布前的买入机会",
-      "content_html": "<p><strong>Helus Pharma: A Buy Ahead Of The HLP003 Phase 3 Readout</strong></p><p>Investors are considering Helus Pharma as a &#x27;buy&#x27; ahead of the anticipated phase 3 trial results for HLP003. Market reaction to the upcoming data readout will likely determine the stock&#x27;s next major movement.</p><p>在HLP003三期临床数据发布前，Helus Pharma被视为一个潜在的买入机会。即将公布的试验结果将直接影响该公司的股价走势。</p><p>Tags: pharma · biotech · stocks</p>",
-      "date_published": "2026-10-11T13:10:57+00:00",
-      "tags": [
-        "pharma",
-        "biotech",
-        "stocks"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4953340-agree-realty-when-markets-turn-turbulent-this-is-the-reit-you-want-to-own?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4953340-agree-realty-when-markets-turn-turbulent-this-is-the-reit-you-want-to-own?source=feed_all_articles",
-      "title": "Agree Realty：市场震荡时的可靠REIT选择",
-      "content_html": "<p><strong>Agree Realty: When Markets Turn Turbulent, This Is The REIT You Want To Own</strong></p><p>Agree Realty is positioned as a defensive stock, making it a preferred choice for investors during periods of market turbulence. Its portfolio stability offers a buffer against broader economic uncertainty.</p><p>在市场震荡时期，Agree Realty凭借其稳健的投资组合被视为理想的防御性REIT资产。其业务稳定性为投资者提供了应对经济不确定性的屏障。</p><p>Tags: reit · realestate · finance</p>",
-      "date_published": "2026-10-11T13:07:57+00:00",
-      "tags": [
-        "reit",
-        "realestate",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.theverge.com/entertainment/1008720/vurt-microdramas-verticals-interview-hilmon-sorey",
-      "url": "https://www.theverge.com/entertainment/1008720/vurt-microdramas-verticals-interview-hilmon-sorey",
-      "title": "Vurt认为垂直视频应作为一种独立类型",
-      "content_html": "<p><strong>Vurt wants you to look at vertical videos as a genre of their own</strong></p><p>Vurt is advocating for vertical video to be recognized as its own distinct genre rather than just a social media format. Streaming services are increasingly adopting this style to compete with platforms like TikTok.</p><p>Vurt提倡将垂直视频视为一种独立的内容流派，而非仅局限于社交媒体。目前各大流媒体服务正纷纷效仿此格式，以应对TikTok带来的用户注意力竞争。</p><p>Tags: video · streaming · media</p>",
-      "date_published": "2026-10-11T13:00:00+00:00",
-      "tags": [
-        "video",
-        "streaming",
-        "media"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
-      "url": "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
-      "title": "苹果“Welcome Home”发布会前瞻",
-      "content_html": "<p><strong>What to expect from Apple’s ‘Welcome Home’ event</strong></p><p>Apple&#x27;s upcoming &#x27;Welcome Home&#x27; event is expected to feature new smart home hardware, including updated Apple TV and HomePod Mini models. Analysts also anticipate the unveiling of a dedicated smart home hub and the debut of &#x27;homeOS&#x27;.</p><p>苹果即将举办“Welcome Home”发布会，预计将更新Apple TV与HomePod Mini。此外，全新的智能家居中心及操作系统“homeOS”也有望在此次活动中亮相。</p><p>Tags: apple · smart-home · homeos</p>",
-      "date_published": "2026-10-11T13:00:00+00:00",
-      "tags": [
-        "apple",
-        "smart-home",
-        "homeos"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
-      "title": "牛市进入第四年，但债券收益率可能破坏局面",
-      "content_html": "<p><strong>The bull market is turning 4 years old — but yields could crash the party</strong></p><p>The current bull market has reached its four-year anniversary, with technology stocks driving much of the growth. However, rising bond yields remain a significant risk that could threaten the ongoing rally.</p><p>当前牛市已持续四年，科技股是增长的主要引擎。然而，债券收益率的上升构成了重大风险，可能对市场涨势造成不利影响。</p><p>Tags: stocks · bullmarket · finance</p>",
-      "date_published": "2026-10-11T13:00:00+00:00",
-      "tags": [
-        "stocks",
-        "bullmarket",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
-      "title": "乌克兰无视特朗普警告再次打击俄罗斯数据中心",
-      "content_html": "<p><strong>Ukraine strikes Russian data centre again despite Trump warning</strong></p><p>Ukraine has conducted its third strike against Russian tech giant Yandex this week, forcing the suspension of operations. The action persists despite warnings from Donald Trump regarding such escalations.</p><p>乌克兰本周第三次针对俄罗斯科技巨头Yandex发起打击，迫使其暂停业务运营。尽管特朗普此前发出警告，但此类军事行动仍在持续。</p><p>Tags: ukraine · russia · yandex</p>",
-      "date_published": "2026-10-11T12:50:46+00:00",
-      "tags": [
-        "ukraine",
-        "russia",
-        "yandex"
-      ],
-      "_category": "WORLD"
     }
   ]
 }
