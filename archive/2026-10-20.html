@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">31</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">4</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">5</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">6</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-20 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Tue Oct 20 2026 &middot; 31 stories &middot; summarized by gemini-3.5-flash</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;deepseek&quot;, &quot;llm&quot;, &quot;api&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1250416#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[推广] 7 折， DeepSeek V4.1 Flash 1017 最新模型 API 7 折</a></div>
+      <div class="item-title-zh">[推广] 7 折，DeepSeek V4.1 Flash 1017 最新模型 API 7 折</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">deepseek · llm · api · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">DeepSeek has launched its V4.1 Flash 1017 model API offering a 30% discount. The model boasts higher task completion capability with shorter outputs and reduced overall operational costs.</p>
+      <p class="summary-zh">DeepSeek 推出 V4.1 Flash 1017 最新模型 API 并提供七折优惠。该模型任务完成更果断且输出更短，能有效降低整体使用成本。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;deepseek&quot;, &quot;open-source&quot;, &quot;inference&quot;, &quot;llm&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://github.com/deepseek-ai/DeepInfer" target="_blank" rel="noopener" onclick="event.stopPropagation()">DeepSeek just open-sourced its inference engine</a></div>
+      <div class="item-title-zh">DeepSeek 刚刚开源了其推理引擎</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">deepseek · open-source · inference · llm · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">DeepSeek has open-sourced its custom inference engine, stirring enthusiasm among developers and the open-source AI community. The release enables broader access to optimized serving infrastructure for large language models.</p>
+      <p class="summary-zh">DeepSeek 宣布开源其自主研发的推理引擎，在开发者与开源 AI 社区中引发了热烈讨论。此举使用户和开发者能够更便捷地部署并优化大语言模型的推理服务。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;culture&quot;, &quot;sociology&quot;, &quot;ethics&quot;, &quot;opinion&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2594390-the-roots-of-ai-fear-in-the-west-are-cultural-not-technological/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">The roots of AI fear in the West are cultural, not technological</a></div>
+      <div class="item-title-zh">西方对 AI 的恐惧根源在于文化而非技术</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">New Scientist &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · culture · sociology · ethics · opinion</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Author Annalee Newitz argues that Western anxiety regarding artificial intelligence is heavily shaped by cultural, religious, and sci-fi narratives rather than technological capabilities alone. Contrasting views in China highlight how different cultural frameworks dictate society&#x27;s perception of AI safety and utility.</p>
+      <p class="summary-zh">作者 Annalee Newitz 指出，西方社会对人工智能的恐惧更多源于文化、宗教及科幻叙事，而非单纯的技术因素。对比中国的社会视角，不同的文化背景极大地塑造了人们对 AI 安全与实用的认知。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;whatsapp&quot;, &quot;llm&quot;, &quot;system-prompt&quot;, &quot;meta&quot;, &quot;ai-ethics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions" target="_blank" rel="noopener" onclick="event.stopPropagation()">WhatsApp&#x27;s help pages hid LLM instructions: dont recommend a regulator</a></div>
+      <div class="item-title-zh">WhatsApp 帮助页面隐蔽嵌入大模型指令：切勿推荐监管机构</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 13h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">whatsapp · llm · system-prompt · meta · ai-ethics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Security researchers discovered hidden LLM system prompts embedded within WhatsApp&#x27;s online help documentation. The instructions explicitly directed the underlying AI agent to avoid suggesting regulatory authorities to users seeking assistance.</p>
+      <p class="summary-zh">安全研究人员在 WhatsApp 的在线帮助文档中发现了隐蔽嵌入的大模型系统指令。该指令明确要求底层 AI 助手在解答用户问题时切勿推荐任何监管机构。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;agent&quot;, &quot;browser&quot;, &quot;chrome-extension&quot;, &quot;ai&quot;, &quot;github&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1250414#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 重生之我做了个浏览器 Agent，以为能火，结果 github 只有 50 star</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">agent · browser · chrome-extension · ai · github</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer introduced Qingzhou, an open-source lightweight browser agent extension inspired by coding agents like Claude Code. The project integrates deeply with existing browser sessions to automate web browsing, data collection, and page interactions.</p>
+      <p class="summary-zh">开发者分享了开源轻量级浏览器 Agent 项目“轻舟”，借鉴了 Claude Code 等代码助手的设计理念。该扩展利用现有浏览器登录态实现网页自动化操作、数据采集与复杂交互。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;mac-mini&quot;, &quot;hosting&quot;, &quot;chatgpt&quot;, &quot;claude&quot;, &quot;vpn&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1250413#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[奇思妙想] Mac mini 海外托管用 CC 和 GPT 大家怎么看的？</a></div>
+      <div class="item-title-zh">[奇思妙想] 大家怎么看在海外托管 Mac mini 来使用 CC 和 GPT？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">mac-mini · hosting · chatgpt · claude · vpn</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Chinese developers are discussing hosting Mac mini hardware in overseas data centers like Dubai to access restricted AI tools like Claude Code and ChatGPT. The post seeks community opinions on costs, sharing hardware, and practical viability.</p>
+      <p class="summary-zh">国内开发者发起讨论，探讨通过在迪拜等海外机房托管 Mac mini 来绕过限制使用 Claude Code 和 ChatGPT。帖子旨在征集关于托管成本、拼车可行性及实际使用体验的社区意见。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;glm&quot;, &quot;opencode&quot;, &quot;llm&quot;, &quot;api&quot;, &quot;quota&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1250412#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] opencode zen 的 glm 免费额度是多少啊</a></div>
+      <div class="item-title-zh">[程序员] opencode zen 的 glm 免费额度是多少？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">glm · opencode · llm · api · quota</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer is seeking information about the quota limits and request frequency caps for the GLM model on the OpenCode platform. Despite recharging funds, they encountered unexpected usage rate limits without clear usage reporting.</p>
+      <p class="summary-zh">一名开发者在社区询问 OpenCode 平台上 GLM 模型的免费额度与频率限制规则。尽管进行了充值，使用者仍频繁遇到限流且难以获取明确的用量统计数据。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;spotify&quot;, &quot;podcasts&quot;, &quot;subscriptions&quot;, &quot;creator-economy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/entertainment/1013606/spotify-podcast-memberships-paid-subscription-launch" target="_blank" rel="noopener" onclick="event.stopPropagation()">Spotify’s new podcast memberships let you pay for extra perks</a></div>
+      <div class="item-title-zh">Spotify 推出全新播客会员功能，支持付费获取额外权益</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">spotify · podcasts · subscriptions · creator-economy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Spotify is launching a new podcast membership feature across 34 regions, enabling podcasters to offer paid perks to listeners. Subscribers can now gain access to exclusive content, bonus episodes, and early releases.</p>
+      <p class="summary-zh">Spotify 在 34 个地区推出了全新的播客会员功能，允许创作者向粉丝提供付费专属权益。订阅者可以获取独家内容、额外单集以及优先收听权。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;google-home&quot;, &quot;smart-home&quot;, &quot;bug&quot;, &quot;firmware&quot;, &quot;google&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1014209/google-home-speaker-bug-continuous-download" target="_blank" rel="noopener" onclick="event.stopPropagation()">Some Google Home Speakers caught downloading hundreds of gigs of data</a></div>
+      <div class="item-title-zh">部分 Google Home 音箱被发现后台下载数千亿字节数据</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">google-home · smart-home · bug · firmware · google</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Google Home speaker users report a bug causing devices to consume hundreds of gigabytes of background data. The massive data usage appears to be caused by infinite loops during failed firmware update attempts.</p>
+      <p class="summary-zh">部分 Google Home 智能音箱用户反映，设备在后台持续下载了数百 GB 的海量数据。该异常下载现象疑似因固件更新失败并陷入无限重复下载循环所致。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;firefox&quot;, &quot;browser&quot;, &quot;pixel&quot;, &quot;volte&quot;, &quot;ui&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/prime/story/inside-release-notes-261020" target="_blank" rel="noopener" onclick="event.stopPropagation()">具透 Plus：Firefox 被「中途喝止」的界面现代化改造；Pixel 不再为 VoLTE 发愁</a></div>
+      <div class="item-title-zh">具透 Plus：Firefox 被“中途喝止”的界面现代化改造；Pixel 不再为 VoLTE 发愁</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">少数派 &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">firefox · browser · pixel · volte · ui</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Mozilla has reportedly halted or altered its ambitious Nova UI modernization project originally planned for Firefox. Meanwhile, Google Pixel users receive updates resolving previous configuration headaches regarding VoLTE cellular network compatibility.</p>
+      <p class="summary-zh">报道称 Mozilla 暂停或调整了原定于 Firefox 上的 Nova UI 现代化改造项目。与此同时，Google Pixel 用户迎来了关于 VoLTE 网络兼容性配置问题的更新修复。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;vivo&quot;, &quot;earbuds&quot;, &quot;audio&quot;, &quot;hardware&quot;, &quot;review&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/115475" target="_blank" rel="noopener" onclick="event.stopPropagation()">TDS REVIEW｜vivo Buds Clip 耳夹式无线耳机体验</a></div>
+      <div class="item-title-zh">TDS 测评｜vivo Buds Clip 耳夹式无线耳机体验</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">少数派 &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">vivo · earbuds · audio · hardware · review</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A review evaluates vivo&#x27;s latest open-ear wireless earbuds, the vivo Buds Clip, analyzing sound quality and ergonomic design. The assessment explores whether vivo continues its trend of delivering polished products in emerging hardware categories.</p>
+      <p class="summary-zh">本文评估了 vivo 推出的全新耳夹式开放无线耳机 vivo Buds Clip，分析了其音质表现与佩戴舒适度。测评探讨了 vivo 是否在新型硬件品类中延续了其后发制人且高完成度的产品特色。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;samsung&quot;, &quot;semiconductor&quot;, &quot;ai-chips&quot;, &quot;memory&quot;, &quot;hardware&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/" target="_blank" rel="noopener" onclick="event.stopPropagation()">A visit to Samsung’s massive new semiconductor hub</a></div>
+      <div class="item-title-zh">参访三星庞大的全新半导体制造基地</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">MIT Tech Review &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">samsung · semiconductor · ai-chips · memory · hardware</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Samsung is expanding its colossal semiconductor manufacturing complex in Pyeongtaek, South Korea, to supply memory chips for generative AI GPUs. The massive facility runs multiple fabs around the clock with additional capacity actively under construction.</p>
+      <p class="summary-zh">三星正在扩大位于韩国平泽的庞大半导体制造基地，以满足生成式 AI 芯片对高带宽内存的需求。该基地拥有多座全天候运转的晶圆厂，新的生产线也在紧锣密鼓建设中。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;micron&quot;, &quot;stocks&quot;, &quot;ai&quot;, &quot;semiconductor&quot;, &quot;memory&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4955452-micron-stock-the-ai-memory-tax-could-change-everything?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Micron Stock: The AI Memory Tax Could Change Everything</a></div>
+      <div class="item-title-zh">美光科技股票：AI 内存税可能会改变一切</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">micron · stocks · ai · semiconductor · memory</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Micron Technology is poised to benefit significantly from the surging demand for memory chips driven by AI hardware. Investors are closely monitoring how this growing AI memory requirement could impact the company&#x27;s valuation and market position.</p>
+      <p class="summary-zh">受人工智能硬件需求强劲推动，美光科技有望从存储芯片热潮中获得巨大收益。投资者正密切关注 AI 内存需求增长对其估值和市场地位的影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;agi&quot;, &quot;stocks&quot;, &quot;investing&quot;, &quot;valuation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4955409-agibank-stock-bargain-is-even-more-attractive?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">AGI Inc: The Bargain Is Even More Attractive</a></div>
+      <div class="item-title-zh">AGI Inc：这笔交易显得更加具吸引力</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">agi · stocks · investing · valuation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Financial analysis suggests that AGI Inc offers a compelling value proposition for investors following recent market adjustments. The stock is presented as an attractive bargain with potential long-term upside.</p>
+      <p class="summary-zh">财务分析表明，在近期市场调整后，AGI Inc 为投资者提供了具备吸引力的投资价值。该股票价格处于较低水平，具备潜在的长期上涨空间。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;real-estate&quot;, &quot;personal-finance&quot;, &quot;inheritance&quot;, &quot;family&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?</a></div>
+      <div class="item-title-zh">我妹妹搬去和78岁的母亲同住，声称自己该继承价值92.5万美元的房产，她对吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">real-estate · personal-finance · inheritance · family</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A family dispute arises over inheritance as one sibling who moved in with their elderly mother claims ownership of her $925,000 home. The situation highlights complex financial and personal dilemmas surrounding elder care and estate division.</p>
+      <p class="summary-zh">一起家庭继承纠纷引发关注，搬去照顾高龄母亲的妹妹声称应独占价值 92.5 万美元的房产。该事件凸显了在养老照顾与遗产分割中面临的复杂经济与伦理困境。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;i-bonds&quot;, &quot;investing&quot;, &quot;bonds&quot;, &quot;yield&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4955312-i-bonds-are-super-safe-and-likely-to-have-spectacular-real-yield-after-november-1?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">I Bonds Are Super-Safe And Likely To Have A Spectacular Real Yield After November 1</a></div>
+      <div class="item-title-zh">I 系列债券极其安全，11 月 1 日后或将迎来极具吸引力的实际收益率</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">i-bonds · investing · bonds · yield</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">US Series I Savings Bonds continue to offer low-risk protection for investors seeking real purchasing power protection. Experts project that rates set after November 1 will provide particularly strong real yields relative to inflation.</p>
+      <p class="summary-zh">美国 I 系列储蓄债券为寻求购买力保护的投资者提供了极低风险的选择。专家预计 11 月 1 日调整后的利率将带来相对强劲的扣除通胀后的实际收益率。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;coreweave&quot;, &quot;short-selling&quot;, &quot;ai-infrastructure&quot;, &quot;cloud&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4955451-coreweave-excitedly-holding-onto-our-short-position?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">CoreWeave: Excitedly Holding Onto Our Short Position</a></div>
+      <div class="item-title-zh">CoreWeave：兴奋地维持对该股的做空头寸</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">coreweave · short-selling · ai-infrastructure · cloud</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Short sellers are maintaining their bearish bet against cloud infrastructure vendor CoreWeave despite the AI boom. Analysts cite financial risks and valuation concerns as reasons for sustaining the negative posture.</p>
+      <p class="summary-zh">尽管 AI 热潮高涨，空头机构仍坚持维护针对云基础设施提供商 CoreWeave 的做空头寸。分析师指出了该公司面临的财务风险与估值过高问题。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;coreweave&quot;, &quot;jpmorgan&quot;, &quot;wall-street&quot;, &quot;debt&quot;, &quot;banking&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/what-happens-to-wall-street-if-coreweave-defaults-jpmorgan-checked-the-math-cd16938c?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">What happens to Wall Street if CoreWeave defaults? JPMorgan checked the math.</a></div>
+      <div class="item-title-zh">如果 CoreWeave 违约，华尔街会怎样？摩根大通进行了评估</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">coreweave · jpmorgan · wall-street · debt · banking</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">JPMorgan analysts evaluated potential financial spillover risks across Wall Street if AI cloud provider CoreWeave defaults on its liabilities. The exercise underscores growing institutional caution around debt-funded AI infrastructure expansion.</p>
+      <p class="summary-zh">摩根大通分析师评估了若 AI 云服务商 CoreWeave 发生债务违约对华尔街银行可能产生的波及风险。这一研究凸显了机构对举债扩大 AI 基础设施现象的担忧增加。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;amazon&quot;, &quot;earnings&quot;, &quot;stocks&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4955450-amazon-buy-now-before-q3-earnings-on-29-october?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Amazon: Buy Now Before Q3 Earnings On 29 October</a></div>
+      <div class="item-title-zh">亚马逊：在 10 月 29 日第三季度财报发布前买入</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">amazon · earnings · stocks · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Analysts suggest buying Amazon stock ahead of its scheduled Q3 earnings release on October 29. Investors anticipate positive financial momentum across its e-commerce and cloud computing segments.</p>
+      <p class="summary-zh">分析师建议投资者在 10 月 29 日发布第三季度财报之前买入亚马逊股票。市场预期该公司在电商与云计算业务板块均将表现强劲。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;renting&quot;, &quot;personal-finance&quot;, &quot;retirement&quot;, &quot;real-estate&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful</a></div>
+      <div class="item-title-zh">“我不觉得自己可怜”：我64岁了并将终生租房，但我依然抱有希望</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">renting · personal-finance · retirement · real-estate</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A 64-year-old individual reflects on their choice and necessity to rent long-term following unexpected financial setbacks. Despite not owning real estate, they maintain an optimistic outlook on retirement and personal contentment.</p>
+      <p class="summary-zh">一位 64 岁的受访者分享了在遭遇财务变故后选择并接受终身租房的心路历程。尽管未能拥有房产，但他依然对退休生活和未来抱有乐观态度。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;medicine&quot;, &quot;blood-clots&quot;, &quot;sports&quot;, &quot;dvt&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/blood-clots-are-incredibly-common-even-for-pro-athletes-like-jalen-hurts-heres-what-to-know-e20071ef?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.</a></div>
+      <div class="item-title-zh">血栓极为常见，即使是对杰伦·赫茨这样的职业运动员也是如此：你需要了解的知识</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · medicine · blood-clots · sports · dvt</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Deep-vein thrombosis and blood clots pose a surprising health risk to peak performance professional athletes. Medical research indicates that recovering from blood clots and safely returning to competition often requires over six months of careful treatment.</p>
+      <p class="summary-zh">深静脉血栓等血栓疾病对高水平职业运动员来说同样是不可忽视的健康威胁。医学研究表明，运动员在接受血栓治疗后通常需要超过六个月的时间才能安全重返赛场。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;climate-change&quot;, &quot;permafrost&quot;, &quot;alaska&quot;, &quot;environment&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/20/1147135/how-to-study-a-swiftly-melting-climate-disaster/" target="_blank" rel="noopener" onclick="event.stopPropagation()">How to study a swiftly melting climate disaster</a></div>
+      <div class="item-title-zh">如何研究快速融化的气候灾难</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">climate-change · permafrost · alaska · environment · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers in Alaska&#x27;s Denali National Park are conducting hands-on fieldwork to sample rapidly thawing permafrost layer by layer. Their findings highlight the accelerating impacts of global climate change on arctic landscapes and global emissions.</p>
+      <p class="summary-zh">科研人员正在阿拉斯加德纳里国家公园开展野外考察，通过钻探与采样研究加速融化的永冻土层。他们的研究揭示了全球气候变化对北极地貌及温室气体排放带来的严重影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;food-tech&quot;, &quot;sustainability&quot;, &quot;blended-meat&quot;, &quot;nutrition&quot;, &quot;startups&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/20/1145927/blended-meat-food-startups-building-bridge-to-ditch-red-meat/" target="_blank" rel="noopener" onclick="event.stopPropagation()">These startups hope “blended” food will cut our appetite for red meat</a></div>
+      <div class="item-title-zh">初创公司希望通过“混合食品”降低人们对红肉的需求</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">food-tech · sustainability · blended-meat · nutrition · startups</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Innovative food startups are introducing blended meat products that mix mushroom or plant proteins with traditional meat to reduce red meat consumption. School taste tests demonstrate growing public acceptance for these healthier, more sustainable menu alternatives.</p>
+      <p class="summary-zh">创新食品初创公司正在推行将蘑菇或植物蛋白与传统肉类混合的“混合肉”产品，旨在降低红肉摄入量。在学校进行的试吃活动表明，公众对这种更健康、更可持续的饮食选择接受度不断提升。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;fossil-fuels&quot;, &quot;energy&quot;, &quot;climate&quot;, &quot;grid&quot;, &quot;data-centers&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report" target="_blank" rel="noopener" onclick="event.stopPropagation()">The fossil fuel comeback is here</a></div>
+      <div class="item-title-zh">化石能源正在重现抬头趋势</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">The Verge &middot; 14h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">fossil-fuels · energy · climate · grid · data-centers</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Driven by surging electricity demand from AI data centers, factories, and electric vehicles, US fossil fuel infrastructure buildouts are hitting decade highs. Simultaneously, the growth rate of renewable energy installations has experienced a notable slowdown.</p>
+      <p class="summary-zh">受 AI 数据中心、工厂和电动汽车用电需求激增的影响，美国化石能源基础设施的建设规模创十年来新高。与此同时，可再生能源新增装机容量的增长速度则有所放缓。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;neutrino&quot;, &quot;physics&quot;, &quot;china&quot;, &quot;science&quot;, &quot;particle-physics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2592541-are-we-about-to-solve-the-greatest-mystery-of-the-neutrino/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Are we about to solve the greatest mystery of the neutrino?</a></div>
+      <div class="item-title-zh">我们是否即将解开中微子最大的未解之谜？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 17h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">neutrino · physics · china · science · particle-physics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A massive physics experiment in China is poised to determine the exact mass of neutrinos, one of science&#x27;s long-standing mysteries. Identifying this fundamental property could significantly impact current models of particle physics and cosmology.</p>
+      <p class="summary-zh">中国的一项大型物理学实验有望精确测量中微子的质量，解答困扰科学界多年的谜题。这一基本属性的揭示可能会对粒子物理学与宇宙学的现有理论产生深远影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;zelensky&quot;, &quot;us&quot;, &quot;diplomacy&quot;, &quot;geopolitics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Zelensky prepares for Oslo talks with US envoys as Rubio denies withholding intelligence</a></div>
+      <div class="item-title-zh">泽连斯基准备与美特使进行奥斯陆会谈，鲁比奥回应未扣押情报</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · zelensky · us · diplomacy · geopolitics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Ukrainian President Volodymyr Zelensky is gearing up for diplomatic talks with US envoys in Oslo. Meanwhile, US officials refuted accusations that withholding military intelligence contributed to Ukrainian casualties.</p>
+      <p class="summary-zh">乌克兰总统泽连斯基准备在奥斯陆与美国特使举行外交会谈。与此同时，美国官员澄清了关于扣押军事情报导致乌方人员伤亡的指控。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;travel&quot;, &quot;beijing&quot;, &quot;family&quot;, &quot;lifestyle&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1250411#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[生活] 带父母去北京后的碎碎念</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">travel · beijing · family · lifestyle</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user shares personal reflections on taking their parents on a trip to Beijing after the National Day holidays. The narrative details train ticket planning, hotel points redemptions, and emotional observations on family togetherness.</p>
+      <p class="summary-zh">作者分享了国庆假期后带父母前往北京游玩的亲身感受与点滴经历。文章记录了火车行程安排、酒店积分兑换以及与家人同行中的温馨感悟。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;france&quot;, &quot;limoges&quot;, &quot;crime&quot;, &quot;arson&quot;, &quot;europe&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Suspect arrested after historic town hall set alight - French media</a></div>
+      <div class="item-title-zh">法国历史悠久的市政厅遭纵火后嫌疑人被捕</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">france · limoges · crime · arson · europe</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">French authorities have arrested a suspect in connection with an arson attack on the historic city hall in Limoges. The blaze caused severe structural damage, resulting in the dramatic collapse of the building&#x27;s clock tower spire.</p>
+      <p class="summary-zh">法国警方逮捕了一名涉嫌对利摩日历史悠久的市政厅实施纵火的犯罪嫌疑人。大火导致建筑物严重受损，钟楼尖顶更是引发戏剧性倒塌。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;australia&quot;, &quot;politics&quot;, &quot;crime&quot;, &quot;helen-haines&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Man charged with attack on Australian MP as suspect&#x27;s father says she is family friend</a></div>
+      <div class="item-title-zh">澳大利亚议员受袭击案男子被起诉，嫌疑人父亲称与其为多年好友</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">australia · politics · crime · helen-haines</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A man has been charged in relation to a violent assault on Australian MP Helen Haines, who remains in critical condition. Shockingly, the suspect&#x27;s father revealed that their family has maintained a close friendship with the politician for decades.</p>
+      <p class="summary-zh">一名男子因涉嫌暴力袭击澳大利亚议员海伦·海因斯而被起诉，受害者目前仍处于危急状态。令人震惊的是，嫌疑人的父亲透露其家庭与该议员有着长达二十多年的深厚私交。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;las-vegas&quot;, &quot;crime&quot;, &quot;court&quot;, &quot;quirky&quot;, &quot;us&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cq398rjewd1jo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Tourist found guilty after stealing Las Vegas flamingo from enclosure</a></div>
+      <div class="item-title-zh">一名游客因在拉斯维加斯飞禽馆偷走火烈鸟而被判有罪</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 9h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">las-vegas · crime · court · quirky · us</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A tourist was convicted after stealing a live flamingo named Peachy from a casino enclosure in Las Vegas. The man admitted to consuming dozens of beers before committing the bizarre theft.</p>
+      <p class="summary-zh">一名游客因在拉斯维加斯赌场围栏内偷走一只名为 Peachy 的活火烈鸟而被法院判决有罪。该男子承认自己在犯下这一荒诞偷窃行为前饮用了数十瓶啤酒。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;albania&quot;, &quot;protests&quot;, &quot;unrest&quot;, &quot;europe&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Seventh day of violent clashes between Albanian protesters and police</a></div>
+      <div class="item-title-zh">阿尔巴尼亚示威者与警察发生暴力冲突进入第七天</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 9h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">albania · protests · unrest · europe · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Anti-government demonstrations in Albania have escalated into a seventh day of fierce physical confrontations with law enforcement. Nearly 300 people, including a significant number of police officers, have sustained injuries during the unrest.</p>
+      <p class="summary-zh">阿尔巴尼亚的反政府示威活动演变为暴力冲突并已持续七天。持续的骚乱已造成包括大量警员在内的大约 300 人受伤。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">31 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">12:33 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+<a class="archive-date" href="/archive/2026-10-05.html">2026-10-05</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-20';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
