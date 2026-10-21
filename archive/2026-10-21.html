@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">29</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">5</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-21 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Wed Oct 21 2026 &middot; 29 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="TECH" data-tags="[&quot;llm&quot;, &quot;api&quot;, &quot;claude&quot;, &quot;gpt&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1250739#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[中转站] VBCoding 中转站｜ Claude/GPT/Gemini 全接入｜登录送额度｜用不完可退</a></div>
+      <div class="item-title-zh">VBCoding 中转站｜Claude/GPT/Gemini 全接入｜登录送额度</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">llm · api · claude · gpt</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">VBCoding offers an API relay service providing integrated access to Claude, GPT, and Gemini models. New users receive initial credits, and the service supports various pricing tiers based on usage.</p>
+      <p class="summary-zh">VBCoding 提供了一个 API 中转服务，集成接入了 Claude、GPT 和 Gemini 模型。新用户登录即可获得赠送额度，并支持根据使用量的多种定价方案。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="TECH" data-tags="[&quot;nvidia&quot;, &quot;jensenhuang&quot;, &quot;berlin&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/heckler-disrupts-nvidia-ceo-huangs-speech-at-berlin-conference-fc461a82?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Heckler disrupts Nvidia CEO Huang’s speech at Berlin conference</a></div>
+      <div class="item-title-zh">扰乱者在柏林会议上打断英伟达 CEO 黄仁勋的演讲</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · jensenhuang · berlin</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">During a keynote address in Berlin, an unidentified heckler interrupted Nvidia CEO Jensen Huang. The individual was promptly removed by security after shouting during the livestream.</p>
+      <p class="summary-zh">在柏林的一次主题演讲中，一名不明身份的扰乱者打断了英伟达 CEO 黄仁勋的发言。该人在直播期间大声呼喊后被安保人员及时带离。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="TECH" data-tags="[&quot;applewatch&quot;, &quot;productivity&quot;, &quot;ios&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1250738#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 把读书笔记放进 Apple Watch，抬腕回顾以前的划线｜ Booko 更新</a></div>
+      <div class="item-title-zh">Booko 更新：将读书笔记放进 Apple Watch</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">applewatch · productivity · ios</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Booko app has been updated to integrate with Apple Watch, allowing users to review book highlights on their wrist. It supports syncing notes from various reading platforms via iCloud.</p>
+      <p class="summary-zh">Booko 应用程序现已更新并集成 Apple Watch，允许用户在手腕上回顾读书笔记。它支持通过 iCloud 同步来自多个阅读平台的笔记。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="TECH" data-tags="[&quot;macos&quot;, &quot;productivity&quot;, &quot;software&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1250737#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 我发现了一个超级好用的 Mac 窗口管理软件，终于不用天天整理桌面了</a></div>
+      <div class="item-title-zh">DeskPile：一款高效的 Mac 窗口管理软件</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">macos · productivity · software</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">DeskPile is a new Mac utility that allows users to group windows based on workflows to reduce desktop clutter. It simplifies multitasking by enabling users to switch between organized sets of applications with keyboard shortcuts.</p>
+      <p class="summary-zh">DeskPile 是一款新的 Mac 工具，允许用户按工作流程对窗口进行分组，从而减少桌面混乱。它通过快捷键切换应用组合，简化了多任务处理。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;macos&quot;, &quot;opensource&quot;, &quot;download&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1250736#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[macOS] 写了个 macOS 原生的百度网盘下载工具 Ferry，开源</a></div>
+      <div class="item-title-zh">写了一个 macOS 原生的百度网盘下载工具 Ferry，开源</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">macos · opensource · download</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer has released Ferry, an open-source, native macOS download tool for Baidu Netdisk. It aims to reduce CPU usage and overheating issues common with the official client.</p>
+      <p class="summary-zh">一位开发者发布了开源的 macOS 原生百度网盘下载工具 Ferry。它旨在解决官方客户端常见的 CPU 占用高和发热问题。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;iphone&quot;, &quot;apple&quot;, &quot;review&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1014316/iphone-duo-review-ama" target="_blank" rel="noopener" onclick="event.stopPropagation()">I reviewed the iPhone Duo, ask me anything</a></div>
+      <div class="item-title-zh">我评测了 iPhone Duo，欢迎随时提问</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">iphone · apple · review</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Verge&#x27;s senior reviewer has spent a week testing the new iPhone Duo. They are opening the floor for readers to ask questions about the foldable device&#x27;s performance and design.</p>
+      <p class="summary-zh">The Verge 的资深评测员已经对新款 iPhone Duo 进行了为期一周的测试。他们现邀请读者就这款折叠设备的性能和设计提出问题。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;spotify&quot;, &quot;automotive&quot;, &quot;android&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/entertainment/1014261/spotify-native-car-app-audi-android-automotive-carplay" target="_blank" rel="noopener" onclick="event.stopPropagation()">Spotify is busting free of CarPlay with the launch of its first native car app</a></div>
+      <div class="item-title-zh">Spotify 推出首款车载原生应用，摆脱 CarPlay 依赖</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">spotify · automotive · android</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Spotify has launched a native in-car app for Android Automotive, eliminating the need for phone connectivity. The app is currently being rolled out in select Audi vehicle models.</p>
+      <p class="summary-zh">Spotify 已为 Android Automotive 推出车载原生应用，无需手机连接即可使用。该应用目前正在部分奥迪车型中推广。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;iphone&quot;, &quot;apple&quot;, &quot;display&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1014709/iphone-duo-inner-screen-nano-texture-matte" target="_blank" rel="noopener" onclick="event.stopPropagation()">I can’t get enough of the iPhone Duo’s matte inner display</a></div>
+      <div class="item-title-zh">我无法停止喜欢 iPhone Duo 的哑光内屏</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">iphone · apple · display</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The reviewer highlights the matte finish of the iPhone Duo’s inner display as a standout design success. Despite other first-generation flaws, this screen quality enhances the media consumption experience.</p>
+      <p class="summary-zh">评测者强调了 iPhone Duo 内屏的哑光涂层是一项出色的设计成功。尽管存在其他第一代产品的缺陷，但这种屏幕素质提升了媒体消费体验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="FINA" data-tags="[&quot;biotech&quot;, &quot;sagimet&quot;, &quot;clinicaltrials&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4955859-sagimet-biosciences-stock-us-acne-trial-replication-exercise-not-discovery-bet?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sagimet Biosciences: The U.S. Acne Trial Is A Replication Exercise, Not A Discovery Bet</a></div>
+      <div class="item-title-zh">Sagimet Biosciences：美国痤疮试验是一项复制性演练，而非探索性赌注</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biotech · sagimet · clinicaltrials</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Sagimet Biosciences faces skepticism as its U.S. acne trial is viewed as a replication exercise rather than a breakthrough discovery. Investors should temper expectations regarding potential market disruption from these results.</p>
+      <p class="summary-zh">Sagimet Biosciences 的美国痤疮试验被视为一种复制性练习而非突破性发现。投资者应降低对该试验结果带来市场颠覆的预期。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="FINA" data-tags="[&quot;arcus&quot;, &quot;biotech&quot;, &quot;casdatifan&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4955770-arcus-biosciences-stock-encouraging-casdatifan-data-but-hard-part-still-ahead?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Arcus Biosciences: Encouraging Casdatifan Data, But The Hard Part Still Ahead</a></div>
+      <div class="item-title-zh">Arcus Biosciences：Casdatifan 数据令人鼓舞，但艰难的挑战仍在前方</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">arcus · biotech · casdatifan</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Arcus Biosciences reported promising clinical data for its drug Casdatifan. However, significant hurdles remain before the company can achieve commercial success.</p>
+      <p class="summary-zh">Arcus Biosciences 公布了其药物 Casdatifan 的利好临床数据。然而，在公司实现商业化成功之前，仍面临重重障碍。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;psq&quot;, &quot;marketwatch&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4955858-psq-a-sell-into-big-tech-earnings-and-the-fed?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">PSQ: A Sell Into Big Tech Earnings And The Fed</a></div>
+      <div class="item-title-zh">PSQ：在大科技公司财报季和美联储决议前的卖出选择</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · psq · marketwatch</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">As major tech companies prepare to report earnings and the Fed makes policy decisions, selling PSQ may be a prudent strategy. The current market environment suggests potential volatility ahead.</p>
+      <p class="summary-zh">随着大型科技公司财报发布及美联储政策决定临近，卖出 PSQ 可能是明智之举。当前的市场环境暗示了未来可能出现的波动性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="FINA" data-tags="[&quot;earnings&quot;, &quot;wihlborgs&quot;, &quot;financials&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4955778-wihlborgs-fastigheter-ab-publ-wihly-q3-2026-earnings-call-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Wihlborgs Fastigheter AB (publ) (WIHLY) Q3 2026 Earnings Call Transcript</a></div>
+      <div class="item-title-zh">Wihlborgs Fastigheter AB (publ) (WIHLY) 2026年第三季度财报电话会议实录</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">earnings · wihlborgs · financials</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Wihlborgs Fastigheter AB (WIHLY) has released the transcript for its Q3 2026 earnings call. The session details the company&#x27;s financial performance and operational outlook for the remainder of the year.</p>
+      <p class="summary-zh">Wihlborgs Fastigheter AB (WIHLY) 发布了其 2026 年第三季度财报电话会议实录。该会议详细说明了公司的财务表现及下半年的运营前景。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;agnc&quot;, &quot;dividends&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4955753-agnc-fell-19-percent-i-believe-the-17-percent-dividend-remains-fully-covered?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">AGNC Fell 19% And I Believe The 17% Dividend Remains Fully Covered</a></div>
+      <div class="item-title-zh">AGNC 下跌 19%，但我认为 17% 的股息仍有保障</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">agnc · dividends · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Despite a 19% share price drop, AGNC remains a stable dividend payer in the author&#x27;s view. The 17% dividend yield is currently considered fully covered by the company&#x27;s earnings.</p>
+      <p class="summary-zh">尽管股价下跌了 19%，但作者认为 AGNC 仍是稳定的股息支付者。公司目前的 17% 股息收益率被认为是完全有保障的。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;spacex&quot;, &quot;ai&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Why SpaceX’s stock is surging — and lifting the broader AI universe along with it</a></div>
+      <div class="item-title-zh">为什么 SpaceX 股价飙升并带动整个 AI 领域？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">spacex · ai · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">SpaceX&#x27;s rising valuation is boosting investor sentiment across the broader artificial intelligence sector. High demand for its unique computing power is seen as a major catalyst for AI growth.</p>
+      <p class="summary-zh">SpaceX 不断上涨的估值正在提振整个 AI 领域的投资者信心。对其独特算力的强劲需求被视为 AI 增长的主要催化剂。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;musk&quot;, &quot;tesla&quot;, &quot;spacex&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/musk-says-hes-exploring-a-spacex-tesla-megamerger-what-would-a-combined-company-be-worth-f35566aa?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Musk says he’s exploring a SpaceX-Tesla megamerger. What would a combined company be worth?</a></div>
+      <div class="item-title-zh">马斯克称正在探索 SpaceX 与特斯拉的超级合并</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">musk · tesla · spacex</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Elon Musk has confirmed that special committees are exploring a potential merger between SpaceX and Tesla. The prospect of combining these giants has sparked significant market interest.</p>
+      <p class="summary-zh">埃隆·马斯克已确认，特别委员会正在探索特斯拉与 SpaceX 合并的可能性。合并这两大巨头的设想引发了巨大的市场关注。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;lifestyle&quot;, &quot;finance&quot;, &quot;renting&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?</a></div>
+      <div class="item-title-zh">“我不为自己感到遗憾”：我 64 岁了，将终身租房。这真的很糟糕吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">lifestyle · finance · renting</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A 64-year-old reflects on the financial reality of renting for life after life-altering health issues. The story challenges conventional wisdom about the necessity of homeownership.</p>
+      <p class="summary-zh">一位 64 岁的老人反思了因健康问题导致的终身租房的财务现状。这篇文章挑战了关于房屋所有权必要性的传统观念。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="SCI" data-tags="[&quot;tech&quot;, &quot;mit&quot;, &quot;future&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: introducing the Impossible issue</a></div>
+      <div class="item-title-zh">下载：引入“不可能”特刊</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">tech · mit · future</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">MIT Technology Review&#x27;s latest newsletter introduces the &#x27;Impossible issue&#x27;. This edition focuses on exploring ambitious and seemingly unachievable ideas as the final print issue of 2026.</p>
+      <p class="summary-zh">麻省理工科技评论的最新通讯引入了“不可能”特刊。作为 2026 年的最后一期印刷版，该期重点探讨了一系列宏大且看似无法实现的构想。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;surgery&quot;, &quot;russia&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2594991-the-worlds-first-spinal-cord-transplant-has-been-performed-in-russia/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">The world’s first spinal cord transplant has been performed in Russia</a></div>
+      <div class="item-title-zh">俄罗斯进行了全球首例脊髓移植手术</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · surgery · russia</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A Russian surgeon claims to have performed the world&#x27;s first spinal cord transplant using donor tissue. However, the procedure has met with skepticism and concerns from the scientific community.</p>
+      <p class="summary-zh">一位俄罗斯医生声称利用捐赠组织进行了全球首例脊髓移植手术。然而，该手术在科学界引起了质疑和担忧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="SCI" data-tags="[&quot;climate&quot;, &quot;environment&quot;, &quot;parisagreement&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The 1.5°C goal of the Paris Agreement is no longer viable</a></div>
+      <div class="item-title-zh">巴黎协定 1.5°C 的目标已不再可行</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">climate · environment · parisagreement</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Current scientific consensus suggests that keeping global warming within 1.5°C as set by the Paris Agreement is no longer achievable. Emissions trends indicate a much warmer future.</p>
+      <p class="summary-zh">当前的科学共识表明，实现《巴黎协定》规定的 1.5°C 温控目标已不再可能。排放趋势预示着未来气温将进一步升高。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="SCI" data-tags="[&quot;innovation&quot;, &quot;mit&quot;, &quot;philosophy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/" target="_blank" rel="noopener" onclick="event.stopPropagation()">We can do impossible things</a></div>
+      <div class="item-title-zh">我们可以创造奇迹</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">innovation · mit · philosophy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An editorial reflection on overcoming limitations and tackling &#x27;impossible&#x27; challenges. It emphasizes the importance of mindset in technological and systems-level innovation.</p>
+      <p class="summary-zh">这是一篇关于克服局限性和应对“不可能”挑战的社论思考。它强调了思维方式在科技及系统级创新中的重要性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;nasa&quot;, &quot;space&quot;, &quot;nuclear&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Nuclear-powered spaceships</a></div>
+      <div class="item-title-zh">核动力飞船</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nasa · space · nuclear</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">NASA is developing &#x27;Space Reactor-1&#x27;, an interplanetary spacecraft powered by nuclear reactors. This mission aims to reach Mars by 2029, marking a new milestone in space exploration.</p>
+      <p class="summary-zh">NASA 正在研发“空间反应堆-1”，这是一种由核反应堆驱动的行星际航天器。该任务计划在 2029 年抵达火星，标志着太空探索的新里程碑。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;health&quot;, &quot;medicine&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/21/1146121/exercise-in-a-pill-impossible-issue/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Exercise in a pill</a></div>
+      <div class="item-title-zh">药丸中的锻炼</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · health · medicine</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers are investigating drugs that can simulate the physical benefits of exercise. These treatments aim to help individuals with limited mobility gain health improvements similar to working out.</p>
+      <p class="summary-zh">研究人员正在开发能够模拟锻炼带来的生理益处的药物。这些疗法旨在帮助行动不便的人群获得类似于体育锻炼的健康改善。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;biology&quot;, &quot;communication&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/21/1146124/interspecies-communication-impossible-issue/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Interspecies communication</a></div>
+      <div class="item-title-zh">跨物种交流</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · biology · communication</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Advances in decoding animal communication are providing new insights into the inner lives of other species. This research suggests that animals possess complex sentient thinking capabilities.</p>
+      <p class="summary-zh">破译动物交流的研究进展为了解其他物种的内心生活提供了新见解。这项研究表明，动物拥有复杂的知觉思维能力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;climate&quot;, &quot;un&quot;, &quot;environment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2594831-un-says-1-5c-is-over-and-world-is-on-track-for-2-8c-of-global-warming/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">UN says 1.5°C is over and world is on track for 2.8°C of global warming</a></div>
+      <div class="item-title-zh">联合国称 1.5°C 已过，世界正处于 2.8°C 全球变暖的轨道上</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 7h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">climate · un · environment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The UN warns that current climate pledges are insufficient, putting the world on track for 2.8°C of warming. The goal of limiting warming to 1.5°C is effectively slipping out of reach.</p>
+      <p class="summary-zh">联合国警告称，当前的减排承诺不足以阻止全球变暖，世界正处于气温升高 2.8°C 的轨道上。将升温限制在 1.5°C 的目标已基本无法实现。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="WORLD" data-tags="[&quot;russia&quot;, &quot;usa&quot;, &quot;diplomacy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin</a></div>
+      <div class="item-title-zh">美国公民史蒂芬·哈伯德获俄罗斯释放，特朗普特使会见普京</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">russia · usa · diplomacy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">74-year-old former teacher Stephen Hubbard has been released by Russia without a prisoner swap. Donald Trump confirmed the release following a meeting between his envoy and Vladimir Putin.</p>
+      <p class="summary-zh">74 岁的前教师史蒂芬·哈伯德已获俄罗斯释放，且无需进行囚犯交换。唐纳德·特朗普在特使会见普京后确认了这一消息。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;chengdu&quot;, &quot;community&quot;, &quot;networking&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1250735#reply2" target="_blank" rel="noopener" onclick="event.stopPropagation()">[成都] 礼貌询问有没有成都交流群</a></div>
+      <div class="item-title-zh">成都交流群咨询</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">chengdu · community · networking</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user is politely inquiring about the existence of social groups for people living or planning to move to Chengdu. They are seeking connection with local tech or interest communities.</p>
+      <p class="summary-zh">一位用户在礼貌询问是否有供居住或计划移居成都的人士加入的社交群组。他们希望与当地的科技或兴趣社区建立联系。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;architecture&quot;, &quot;safety&quot;, &quot;history&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes" target="_blank" rel="noopener" onclick="event.stopPropagation()">Whatever Happened to Fire Escapes</a></div>
+      <div class="item-title-zh">消防通道经历了什么？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">architecture · safety · history</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A discussion regarding the design and evolution of fire escapes in historical urban architecture. It touches upon safety regulations and how building requirements have shifted over time.</p>
+      <p class="summary-zh">关于历史城市建筑中消防通道的设计与演变讨论。内容涉及安全法规以及建筑要求随时间推移而发生的改变。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;australia&quot;, &quot;crime&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Australian MP loses both legs after alleged car attack, husband says</a></div>
+      <div class="item-title-zh">澳大利亚女议员在据称的车辆袭击中双腿截肢，丈夫称</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">australia · crime · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An Australian MP has lost both legs following an alleged deliberate vehicle attack. The suspect, Brendan Nugent, has appeared in court to face multiple charges related to the incident.</p>
+      <p class="summary-zh">一名澳大利亚女议员在一次据称蓄意的车辆袭击中双腿截肢。嫌疑人布伦丹·纽金特已出庭，面临多项与该事件相关的指控。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;france&quot;, &quot;politics&quot;, &quot;society&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Katya Adler: France divided over who to blame for riots and what to learn from them</a></div>
+      <div class="item-title-zh">凯蒂·阿德勒：法国因骚乱归咎于谁及如何从中学习而分裂</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">france · politics · society</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">France is experiencing internal division over the root causes and appropriate lessons from recent major urban riots. Public opinion remains polarized regarding government responsibility and social integration.</p>
+      <p class="summary-zh">法国因最近严重的城市骚乱的根源及应汲取的教训而产生内部分裂。公众对政府责任和社会融合问题的看法依然两极分化。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">29 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">12:39 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+<a class="archive-date" href="/archive/2026-10-08.html">2026-10-08</a>
+<a class="archive-date" href="/archive/2026-10-07.html">2026-10-07</a>
+<a class="archive-date" href="/archive/2026-10-06.html">2026-10-06</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-21';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
