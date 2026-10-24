@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">35</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">6</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">5</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">8</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-24 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Sat Oct 24 2026 &middot; 35 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;healthcare&quot;, &quot;data&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957203-how-tempus-ai-built-defensible-data-moat-precision-healthcare?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">How Tempus AI Built A Defensible Data Moat In Precision Healthcare</a></div>
+      <div class="item-title-zh">Tempus AI如何在精准医疗领域构建数据壁垒</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · healthcare · data</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article explores how Tempus AI has successfully built a defensible data moat within the precision healthcare industry. It examines the strategic value of their vast proprietary datasets.</p>
+      <p class="summary-zh">本文探讨了Tempus AI如何成功在精准医疗行业构建起难以逾越的数据壁垒。文章分析了其庞大专有数据集的战略价值。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;philosophy&quot;, &quot;consciousness&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/do-machines-have-feelings-ai-has-philosophers-and-tech-leaders-rethinking-consciousness-00e5ad78?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Do machines have feelings? AI has philosophers and tech leaders rethinking consciousness.</a></div>
+      <div class="item-title-zh">机器有情感吗？AI领域引发关于意识的反思</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · philosophy · consciousness</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">As AI models become increasingly advanced, philosophers and tech leaders are engaged in a debate over the nature of machine consciousness. The discussion explores the blurry line between human and artificial cognition.</p>
+      <p class="summary-zh">随着AI模型日益先进，哲学家和科技领袖们正围绕机器意识的本质展开讨论。这场辩论探讨了人类认知与人工智能之间逐渐模糊的界限。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;security&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet" target="_blank" rel="noopener" onclick="event.stopPropagation()">OpenAI now trains its frontier AI models with no internet access</a></div>
+      <div class="item-title-zh">OpenAI：前沿AI模型训练现已完全断网</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; 14h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · security · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">To improve security and prevent hacking, OpenAI is now training its frontier models in an environment with no internet access. The company uses indexed and cached web content to ensure development continues safely.</p>
+      <p class="summary-zh">为提升安全性并防止黑客攻击，OpenAI现已将其前沿模型的训练环境设为断网状态。公司通过使用已索引的离线网页内容来确保训练安全进行。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;block&quot;, &quot;ai&quot;, &quot;dessa&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech" target="_blank" rel="noopener" onclick="event.stopPropagation()">Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend</a></div>
+      <div class="item-title-zh">Jack Dorsey的Block推出了一款表现得像笨拙新朋友的AI模型</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; 16h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">block · ai · dessa</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Block has released a new AI model named Dessa, trained purely on human conversation. The company is highlighting its &#x27;awkward&#x27; and uncanny naturalness by sharing snippets of its chats with humans.</p>
+      <p class="summary-zh">Block公司发布了一款名为Dessa的新AI模型，该模型完全通过人类对话进行训练。公司分享了该模型与人对话的片段，展现出一种略显笨拙且离奇的自然感。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="AI" data-tags="[&quot;kimi&quot;, &quot;llm&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.kimi.ai/blog/kimi-k3-1-pro" target="_blank" rel="noopener" onclick="event.stopPropagation()">Kimi K3.1 Pro and K3.1 Pro Highspeed</a></div>
+      <div class="item-title-zh">Kimi K3.1 Pro 及 K3.1 Pro 高速版发布</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 18h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">kimi · llm · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A discussion regarding the release of Kimi K3.1 Pro and its high-speed variant. The community is analyzing the performance and capabilities of these new AI model updates.</p>
+      <p class="summary-zh">社区就Kimi K3.1 Pro及高速版车型的发布进行了讨论。用户们正分析这些新模型更新的性能表现与核心能力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;security&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://openai.com/index/securing-our-frontier-model-training-environment" target="_blank" rel="noopener" onclick="event.stopPropagation()">Securing our frontier model training environment</a></div>
+      <div class="item-title-zh">确保前沿模型训练环境的安全</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">OpenAI Blog &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · security · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">OpenAI describes their robust security protocols for training frontier models. This includes building isolated offline environments and implementing rigorous red-teaming to protect against compute-based risks.</p>
+      <p class="summary-zh">OpenAI介绍了其用于训练前沿模型的稳健安全协议。这包括建立隔离的离线环境，并实施严格的红队测试以防范计算相关的风险。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;remote&quot;, &quot;job&quot;, &quot;developer&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1251539#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[远程工作] 兄弟姐妹们，救救孩子吧！ 6 年经验程序员求远程工作 😭</a></div>
+      <div class="item-title-zh">远程工作求职：6年经验后端/全栈程序员寻求机会</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">remote · job · developer</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A programmer with 6 years of experience in Python and TypeScript is seeking remote work opportunities. They have recently focused on AI application development and are open to full-time, part-time, or project-based collaborations.</p>
+      <p class="summary-zh">一位拥有6年Python和TypeScript经验的程序员正在寻找远程工作机会。求职者近期专注于AI应用开发，并希望能建立长期稳定的合作关系。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;ai&quot;, &quot;gamedev&quot;, &quot;evengine&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1251538#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] 1024 程序员节 - EVEngine 引擎实战，做个进击的大肥鱼</a></div>
+      <div class="item-title-zh">1024程序员节：使用EVEngine引擎实战开发游戏</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · gamedev · evengine</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A programmer celebrated 1024 Programmer&#x27;s Day by creating a side-scrolling game demo using their self-developed AI game engine, EVEngine. The project showcases how AI agents can handle the bulk of development work.</p>
+      <p class="summary-zh">一位开发者在1024程序员节展示了如何使用自研的EVEngine游戏引擎制作横版游戏。该项目演示了通过AI代理辅助完成大部分代码编写和调试的全过程。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;android&quot;, &quot;ai&quot;, &quot;chatgpt&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1251536#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] 感谢大家推荐的 paseo。旅游 vibe 神器。顺带 vibe 了一个安卓平板客户端</a></div>
+      <div class="item-title-zh">Paseo：安卓平台的优秀AI聊天客户端</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">android · ai · chatgpt</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The user shares their experience using the Paseo client on an Android tablet for a better ChatGPT-like experience. They also fixed an issue with horizontal screen adaptation using AI tools.</p>
+      <p class="summary-zh">用户分享了在安卓平板上使用Paseo客户端的体验，称其提供了类似本地ChatGPT的便捷使用体验。他们还利用AI修复了官方客户端在平板横屏模式下的适配问题。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;automation&quot;, &quot;tool&quot;, &quot;productivity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1251535#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] vibecoding 了一个可以提交到 500 多个平台的外链管理神器.</a></div>
+      <div class="item-title-zh">外链管理工具：一键分发至500多个平台</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">automation · tool · productivity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer created a tool to manage and track external link submissions to over 500 platforms. They are exploring ways to automate the process using AI agents, though they remain cautious about potential account bans.</p>
+      <p class="summary-zh">开发者制作了一款用于管理和追踪外链至500多个平台的工具。作者正在探索使用AI插件实现自动化提交的可行性，同时也在考虑规避平台封号风险。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;figma&quot;, &quot;plugin&quot;, &quot;design&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1251532#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[设计] 搞了个 DSH 的 Figma 插件，告别重复的画图工作</a></div>
+      <div class="item-title-zh">Figma插件DSH：告别重复设计工作</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">figma · plugin · design</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new Figma plugin, DSH, has been developed to enable direct interaction between design systems and the canvas. It automates tasks like layering, styling, and component adjustment, significantly reducing manual effort.</p>
+      <p class="summary-zh">开发者推出了一款名为DSH的Figma插件，支持设计系统与画布直接交互。该插件能自动化处理图层、样式和组件调整等重复性工作，大幅提升设计效率。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;history&quot;, &quot;siliconvalley&quot;, &quot;pc&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/116128" target="_blank" rel="noopener" onclick="event.stopPropagation()">在硅谷，遇见个人计算机历史</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">少数派 &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">history · siliconvalley · pc</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A personal journey to the Computer History Museum in Silicon Valley, which brings the stories from history books into reality. The visit provides a tangible connection to the evolution of computing.</p>
+      <p class="summary-zh">作者游览了硅谷计算机历史博物馆，将书本中的历史故事化为具体的现实。这次访问提供了与计算机演变史的深度连接。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="TECH" data-tags="[&quot;obs&quot;, &quot;streaming&quot;, &quot;software&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://github.com/obsproject/obs-studio/releases/tag/33.0.0" target="_blank" rel="noopener" onclick="event.stopPropagation()">OBS Studio 33</a></div>
+      <div class="item-title-zh">OBS Studio 33 版本更新</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">obs · streaming · software</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The community discusses the latest release of OBS Studio, version 33. This update brings new features and improvements for users of the popular live streaming and recording software.</p>
+      <p class="summary-zh">社区讨论了OBS Studio 33版本的发布。此次更新为这款流行的直播与录屏软件带来了多项新功能和性能优化。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="TECH" data-tags="[&quot;xbox&quot;, &quot;microsoft&quot;, &quot;career&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure" target="_blank" rel="noopener" onclick="event.stopPropagation()">Xbox’s first chief operating officer is out after just a few months</a></div>
+      <div class="item-title-zh">Xbox首位首席运营官上任仅数月后离职</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 14h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">xbox · microsoft · career</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Helen Chiang, who was appointed as Xbox&#x27;s first-ever chief operating officer only a few months ago, is stepping down from her role. Her departure follows a long 21-year tenure at Microsoft.</p>
+      <p class="summary-zh">在职仅数月的Xbox首位首席运营官海伦·蒋即将离职。这标志着她21年微软职业生涯的结束。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;reit&quot;, &quot;earnings&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957212-mori-trust-reit-inc-2027-q2-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">MORI TRUST REIT, Inc. 2027 Q2 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">MORI TRUST REIT 2027年第二季度财报演示</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">reit · earnings · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article presents the financial results and earnings call presentation for MORI TRUST REIT for the second quarter of 2027. It provides an overview of the company&#x27;s fiscal performance and strategic outlook.</p>
+      <p class="summary-zh">本文介绍了MORI TRUST REIT 2027年第二季度的财报演示内容。文件中概述了该公司的财务表现及未来战略展望。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;fed&quot;, &quot;economy&quot;, &quot;investment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘Non-answers’ aren’t working. This is what investors really need from the Fed.</a></div>
+      <div class="item-title-zh">美联储主席需要向投资者证明其沟通策略</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">fed · economy · investment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Economists suggest that the real priority for investors is for Fed Chairman Kevin Warsh to demonstrate a clear and effective communication strategy. Vague responses are failing to meet the expectations of market participants.</p>
+      <p class="summary-zh">经济学家认为，投资者当前最关心的是美联储主席凯文·沃什能否证明其具备有效的政策沟通策略。模棱两可的回答无法满足市场的预期。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;rentokil&quot;, &quot;kpi&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957204-rentokil-kpis-are-heading-in-the-right-direction?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Rentokil: KPIs Are Heading In The Right Direction</a></div>
+      <div class="item-title-zh">Rentokil：关键绩效指标呈现积极趋势</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">rentokil · kpi · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article analyzes the financial performance of Rentokil, noting that the company&#x27;s key performance indicators (KPIs) are moving in a positive direction. It assesses the business&#x27;s current trajectory for investors.</p>
+      <p class="summary-zh">本文分析了Rentokil的财务表现，指出该公司的关键绩效指标（KPI）正朝着积极方向发展。文章旨在为投资者评估该公司的业务发展轨迹。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;lululemon&quot;, &quot;finance&quot;, &quot;retail&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957202-lululemon-likely-lost-all-guidance-credibility?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">lululemon Has Likely Lost All Guidance Credibility (Rating Downgrade)</a></div>
+      <div class="item-title-zh">Lululemon业绩指引信誉严重受损，评级下调</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">lululemon · finance · retail</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Lululemon has faced a rating downgrade due to concerns over the credibility of its financial guidance. Analysts suggest the company&#x27;s ability to forecast its performance is now in question.</p>
+      <p class="summary-zh">由于对公司财务指引的可信度表示担忧，Lululemon遭到评级下调。分析师认为该公司目前难以准确预测业绩表现。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;reit&quot;, &quot;finance&quot;, &quot;investment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4955305-nnn-reit-the-new-realty-income?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">NNN REIT: The New Realty Income</a></div>
+      <div class="item-title-zh">NNN REIT：新型Realty Income？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">reit · finance · investment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article evaluates NNN REIT and discusses whether it represents the new standard for income-generating real estate investment trusts. It compares the company&#x27;s performance and model to Realty Income.</p>
+      <p class="summary-zh">文章评估了NNN REIT，探讨其是否能成为房地产投资信托基金（REITs）中新的收入标杆。文中将其表现与Realty Income进行了对比。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;realestate&quot;, &quot;family&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?</a></div>
+      <div class="item-title-zh">继母称我可以以85万美元买下儿时老宅，这算被占便宜吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · realestate · family</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A person discusses whether it&#x27;s fair to purchase their childhood home from their stepmother for $850,000. They note the house was originally bought by their father for $250,000 in the 90s.</p>
+      <p class="summary-zh">一位读者询问以85万美元从继母手中买回儿时老宅是否公平。文中提到这栋房子是父亲在90年代以25万美元购得的。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;divorce&quot;, &quot;pension&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/my-spouse-was-awarded-90-000-from-my-401-k-in-our-divorce-how-is-that-fair-dc839aa3?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?</a></div>
+      <div class="item-title-zh">离婚后配偶分走我401(k)账户里的9万美元，这公平吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · divorce · pension</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A retired individual questions the fairness of a divorce settlement that awarded $90,000 of their 401(k) savings to their ex-spouse. The article examines the legal realities of retirement asset division.</p>
+      <p class="summary-zh">一位退休人士对离婚协议中分给前配偶9万美元的401(k)养老金表示质疑。文章探讨了退休资产在离婚诉讼中的法律现实。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;lifestyle&quot;, &quot;retirement&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?</a></div>
+      <div class="item-title-zh">64岁仍需租房度日，这真的很糟糕吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 12h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · lifestyle · retirement</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A 64-year-old reader reflects on the reality of renting for life after a series of personal and financial challenges. They seek perspective on whether this is an acceptable outcome in their later years.</p>
+      <p class="summary-zh">一位64岁的读者在经历了一系列生活变故后，探讨了终身租房的现实。他们希望就这种养老生活状态寻求建议。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;physics&quot;, &quot;quantum&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.southampton.ac.uk/~doug/quantum_physics/index.html" target="_blank" rel="noopener" onclick="event.stopPropagation()">I Don&#x27;t Understand Quantum Physics (2018)</a></div>
+      <div class="item-title-zh">我读不懂量子物理（2018）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">physics · quantum · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This is a archived discussion about the inherent difficulty and non-intuitive nature of quantum physics. It reflects on the challenges of understanding a field that defies common logic.</p>
+      <p class="summary-zh">这是一篇关于量子物理天生难度和反直觉本质的存档讨论。文章反思了理解一门违背常理的学科所面临的挑战。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;medicine&quot;, &quot;cancer&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2595599-personalised-cancer-vaccine-expected-to-be-approved-next-year/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Personalised cancer vaccine expected to be approved next year</a></div>
+      <div class="item-title-zh">个性化癌症疫苗预计明年获批</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 21h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">medicine · cancer · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A personalized vaccine designed to treat individual skin cancers has shown success in late-stage trials. Regulators are expected to grant approval for this bespoke treatment next year.</p>
+      <p class="summary-zh">一种针对个人皮肤癌的个性化疫苗在后期临床试验中表现良好。预计该定制疗法将于明年获得监管机构批准。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;biology&quot;, &quot;health&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2595579-body-temperature-may-drive-the-higher-risk-of-autoimmune-conditions-in-women/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Body temperature may drive the higher risk of autoimmune conditions in women</a></div>
+      <div class="item-title-zh">女性易患自身免疫疾病或与体温调节有关</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 21h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biology · health · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Research suggests that the higher prevalence of autoimmune conditions in women may be linked to fluctuating body temperatures. These shifts occur naturally during the menstrual cycle and menopause.</p>
+      <p class="summary-zh">研究表明，女性自身免疫疾病的高发病率可能与体温波动有关。这些波动在月经周期和更年期期间自然发生。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="SCI" data-tags="[&quot;biotech&quot;, &quot;documentary&quot;, &quot;ethics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/" target="_blank" rel="noopener" onclick="event.stopPropagation()">In the biotech world, you can’t see everything</a></div>
+      <div class="item-title-zh">生物技术世界的局限性</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biotech · documentary · ethics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A reflection on the documentary &#x27;You Can See Everything&#x27; concerning former biotech CEO Elizabeth Holmes. The author discusses the persistent gaps in transparency and insight within the biotech sector.</p>
+      <p class="summary-zh">关于记录片《You Can See Everything》的感悟，该片讲述了前生物科技CEO伊丽莎白·霍姆斯的丑闻。作者讨论了生物技术行业内持续存在的透明度缺口。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="SCI" data-tags="[&quot;math&quot;, &quot;science&quot;, &quot;research&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2595497-why-do-mathematicians-keep-proving-things-they-already-know/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Why do mathematicians keep proving things they already know?</a></div>
+      <div class="item-title-zh">数学家为什么反复证明已知结论？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">math · science · research</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article explores the nature of mathematical proofs and why finding multiple ways to solve a problem is vital. It highlights how different methods strengthen the foundation of mathematical understanding.</p>
+      <p class="summary-zh">本文探讨了数学证明的本质，以及为何寻找多种解题方法至关重要。文章强调了不同方法如何巩固人类对数学真理的理解。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;news&quot;, &quot;germany&quot;, &quot;fire&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Arrest made after fire at Hitler&#x27;s mountaintop Eagle&#x27;s Nest retreat</a></div>
+      <div class="item-title-zh">希特勒“鹰巢”度假地发生火灾，一人被捕</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">news · germany · fire</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A fire broke out at the site of the Nazi dictator&#x27;s Alpine retreat in Germany, requiring an emergency response from 200 personnel. Authorities have made an arrest in connection with the blaze.</p>
+      <p class="summary-zh">纳粹独裁者希特勒位于德国的阿尔卑斯山度假地“鹰巢”发生火灾，约200名紧急救援人员参与扑救。目前警方已逮捕一名相关嫌疑人。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;starlink&quot;, &quot;ukraine&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ukraine says Starlink connection &#x27;now stable&#x27; after network limits</a></div>
+      <div class="item-title-zh">乌克兰称Starlink连接在限制后已恢复稳定</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">starlink · ukraine · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Ukraine reports that its Starlink internet connection has returned to a stable state after experiencing limitations for a week. The disruption had previously impacted military and drone operations.</p>
+      <p class="summary-zh">乌克兰方面表示，在经历了为期一周的连接限制后，Starlink网络现已恢复稳定。此前的中断曾对其军事和无人机行动造成影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;news&quot;, &quot;accident&quot;, &quot;world&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">British woman dies after trying to rescue sons swept away at sea in the Bahamas</a></div>
+      <div class="item-title-zh">巴哈马海域营救儿子溺亡的英国女子</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">news · accident · world</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A British woman has died while attempting to rescue her sons who were swept away by currents in the Bahamas. Local police confirmed the children were safely rescued.</p>
+      <p class="summary-zh">一名英国女性在巴哈马海域试图营救被海浪卷走的儿子时不幸溺亡。当地警方证实，孩子们最终获救。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;serbia&quot;, &quot;politics&quot;, &quot;election&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Student movement takes Serbia&#x27;s Vučić to the wire in neck-and-neck election</a></div>
+      <div class="item-title-zh">塞尔维亚学生运动在竞争激烈的选举中挑战武契奇</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 12h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">serbia · politics · election</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A student movement, formed after years of anti-corruption protests, has emerged as a significant challenger to President Vučić in Serbia. The election remains extremely close.</p>
+      <p class="summary-zh">一个在多年反腐抗议中形成的学生运动，现已成为塞尔维亚总统武契奇的主要竞争对手。目前的选举形势依然非常胶着。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;news&quot;, &quot;tragedy&quot;, &quot;hero&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Father who killed Oregon school gunman describes anguish over children he couldn&#x27;t save</a></div>
+      <div class="item-title-zh">击毙俄勒冈校园枪手的父亲述说无法挽救孩子的痛苦</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 12h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">news · tragedy · hero</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Kaylub Giamanco, who stopped a school shooting by killing the gunman, opens up about the emotional toll of the tragedy. Despite being hailed as a hero, he expresses deep anguish over the victims he couldn&#x27;t save.</p>
+      <p class="summary-zh">曾击毙枪手阻止校园枪击案的凯卢布·吉亚曼科，诉说了该事件带来的情感伤痛。尽管被誉为英雄，他仍对未能挽救其他被害孩子感到极度痛苦。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="33" data-cat="WORLD" data-tags="[&quot;meta&quot;, &quot;ai&quot;, &quot;election&quot;]">
+  <div class="item-row">
+    <span class="item-idx">33</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2595540-brazil-presidential-election-dogged-by-alleged-bias-by-meta-ai-tools/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Brazil presidential election dogged by alleged bias by Meta AI tools</a></div>
+      <div class="item-title-zh">Meta AI工具涉嫌偏见干扰巴西大选</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">New Scientist &middot; 21h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="33" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="33" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">meta · ai · election</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Supporters of Lula da Silva have accused Meta of election interference in Brazil. They allege that Meta&#x27;s AI tools were manipulated to unfairly promote campaign content for his rival.</p>
+      <p class="summary-zh">卢拉·达席尔瓦的支持者指控Meta干扰巴西大选。他们声称Meta的AI工具被人为操纵，从而不公平地助推其竞争对手的竞选内容。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="34" data-cat="WORLD" data-tags="[&quot;entertainment&quot;, &quot;movie&quot;, &quot;review&quot;]">
+  <div class="item-row">
+    <span class="item-idx">34</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/117169" target="_blank" rel="noopener" onclick="event.stopPropagation()">本周看什么 | 最近值得一看的 12 部作品</a></div>
+      <div class="item-title-zh">本周看什么：12部值得推荐的作品</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">少数派 &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="34" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="34" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">entertainment · movie · review</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A weekly recommendation list of 12 must-watch titles. Highlights include the official trailer for the third season of &#x27;The Lord of the Rings: The Rings of Power&#x27;.</p>
+      <p class="summary-zh">本周推荐了12部值得一看的作品。重点关注了剧集《指环王：力量之戒》第三季的正式预告片。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="35" data-cat="WORLD" data-tags="[&quot;books&quot;, &quot;scifi&quot;, &quot;author&quot;]">
+  <div class="item-row">
+    <span class="item-idx">35</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2594154-emily-st-john-mandel-i-dont-want-to-write-something-relentlessly-bleak/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Emily St. John Mandel: ‘I don’t want to write something relentlessly bleak’</a></div>
+      <div class="item-title-zh">作家Emily St. John Mandel：我不想写绝望的故事</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">New Scientist &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="35" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="35" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">books · scifi · author</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Science-fiction novelist Emily St. John Mandel discusses her latest book, &#x27;Exit Party&#x27;, a story about parallel worlds. She explains her artistic choice to avoid purely bleak narratives.</p>
+      <p class="summary-zh">科幻小说家艾米丽·圣·约翰·曼德尔讨论了她的新书《Exit Party》，这是一部关于平行世界的故事。她解释了自己为何在创作中避免描写彻底绝望的题材。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">35 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">11:46 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+<a class="archive-date" href="/archive/2026-10-10.html">2026-10-10</a>
+<a class="archive-date" href="/archive/2026-10-09.html">2026-10-09</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-24';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
