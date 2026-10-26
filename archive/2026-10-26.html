@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">34</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">3</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">7</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-26 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Mon Oct 26 2026 &middot; 34 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;anthropic&quot;, &quot;ipo&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">AI giant Anthropic unveils blockbuster stock market debut</a></div>
+      <div class="item-title-zh">AI巨头Anthropic宣布重磅上市计划</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">anthropic · ipo · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Anthropic is set to become the first major dedicated AI company to go public. This move reflects the ongoing massive investment from tech giants into the artificial intelligence sector.</p>
+      <p class="summary-zh">Anthropic即将成为首家上市的主要AI公司。这一举动反映了科技巨头对人工智能领域持续不断的大额投资。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;anthropic&quot;, &quot;ipo&quot;, &quot;nasdaq&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec" target="_blank" rel="noopener" onclick="event.stopPropagation()">Anthropic’s IPO filing lays out a plan to &amp;#8216;revolutionize every area of human endeavor&amp;#8217; with AI</a></div>
+      <div class="item-title-zh">Anthropic的IPO招股书勾勒出以AI“彻底变革人类活动的每一个领域”的愿景</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">anthropic · ipo · nasdaq</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Anthropic has filed its S-1 prospectus to go public on the Nasdaq as &#x27;ANT&#x27;. The company aims to leverage AI to drive widespread societal and industrial change.</p>
+      <p class="summary-zh">Anthropic已提交S-1招股书，计划以“ANT”为代码在纳斯达克上市。公司旨在利用人工智能推动广泛的社会与产业变革。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;claude&quot;, &quot;coding&quot;, &quot;cabloyjs&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252031#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Claude] AI Vibe Coding 实战： SMS 套件提示词与开发方案</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">claude · coding · cabloyjs</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author shares a practical &#x27;vibe coding&#x27; experience using Claude to build an SMS suite for the CabloyJS framework. The process highlights how to structure development tasks for AI assistance.</p>
+      <p class="summary-zh">作者分享了使用Claude进行“Vibe Coding”的实战经验，为CabloyJS框架构建短信套件。该案例展示了如何为AI辅助开发梳理任务方案。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;cobol&quot;, &quot;legacy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic" target="_blank" rel="noopener" onclick="event.stopPropagation()">Can AI help solve the COBOL code crisis?</a></div>
+      <div class="item-title-zh">AI能否帮助解决COBOL代码危机？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · cobol · legacy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Global infrastructure relies on aging COBOL code that is risky to update. OpenAI is working on AI models to modernize these legacy systems without causing widespread failures.</p>
+      <p class="summary-zh">全球基础设施依赖于古老的COBOL代码，更新风险巨大。OpenAI正致力于开发AI模型，旨在不导致系统崩溃的前提下实现这些遗留系统的现代化。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="AI" data-tags="[&quot;vllm&quot;, &quot;llm&quot;, &quot;api&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm" target="_blank" rel="noopener" onclick="event.stopPropagation()">Fixing Tool-Call Accuracy in vLLM</a></div>
+      <div class="item-title-zh">在vLLM中修复工具调用准确性</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">vllm · llm · api</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A discussion on technical improvements for tool-calling accuracy within the vLLM framework. The focus is on enhancing the reliability of agentic workflows.</p>
+      <p class="summary-zh">探讨了针对vLLM框架中工具调用准确性的技术改进。重点在于提升代理工作流的可靠性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;space&quot;, &quot;newsletter&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: everyday AI harms and the race to nuclear spaceflight</a></div>
+      <div class="item-title-zh">下载：日常AI伤害与核动力航天竞赛</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">MIT Tech Review &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · space · newsletter</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This newsletter issue discusses the overlooked daily harms caused by AI. It also covers the emerging competition in nuclear-powered space flight.</p>
+      <p class="summary-zh">本期简报讨论了AI带来的被忽视的日常伤害。同时涵盖了核动力航天领域的新兴竞争。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;safety&quot;, &quot;policy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The focus on AI safety disasters ignores everyday harms</a></div>
+      <div class="item-title-zh">对AI安全灾难的关注掩盖了日常伤害</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">MIT Tech Review &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · safety · policy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Experts argue that focusing on hypothetical long-term AI disasters ignores the immediate, tangible harms caused by current AI products. Policymakers should prioritize everyday safety protections.</p>
+      <p class="summary-zh">专家认为，过度关注假设性的长期AI灾难，忽视了当前AI产品带来的即时、切实伤害。政策制定者应优先考虑日常的安全保护。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;chatgpt&quot;, &quot;infrastructure&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.com/future/article/20261019-birdwatching-rewires-the-brain-and-slows-cognitive-decline" target="_blank" rel="noopener" onclick="event.stopPropagation()">Birdwatching rewires the brain and slows cognitive decline</a></div>
+      <div class="item-title-zh">快速扩展在线存储以服务超过10亿ChatGPT用户（第二部分）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 2d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · chatgpt · infrastructure</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">OpenAI details the technical strategies used to scale the Habitat storage system. Improvements include global caching and Azure Cosmos DB integration for faster performance.</p>
+      <p class="summary-zh">OpenAI详细介绍了扩展Habitat存储系统的技术策略。改进措施包括全球缓存及整合Azure Cosmos DB以提升性能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;security&quot;, &quot;geekcon&quot;, &quot;drones&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252034#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[信息安全] 你们怎么看待今年 GeekCon 演示无人机破解，结果被某无人机厂商举报的事情</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">security · geekcon · drones</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A controversy has erupted after a drone manufacturer reported researchers who demonstrated hacks at GeekCon. The community is currently divided between supporting the security researchers and the manufacturer.</p>
+      <p class="summary-zh">一家无人机厂商举报了在GeekCon演示破解技术的安全研究人员，引发了争议。目前社区舆论在支持安全研究人员与支持厂商之间产生分歧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;golang&quot;, &quot;desktop&quot;, &quot;programming&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252033#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享发现] 使用 Go 开发桌面 App</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">golang · desktop · programming</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author shares a project for creating cross-platform desktop applications using Go. These apps are noted for their small binary sizes and efficiency.</p>
+      <p class="summary-zh">作者分享了一个使用Go语言开发跨平台桌面应用的开源项目。这些应用以体积小、效率高而著称。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;ipad&quot;, &quot;hardware&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252032#reply3" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Apple] iPad mini 更新 还是祖传 60hz</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · ipad · hardware</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Apple has announced an updated iPad mini, though it retains the legacy 60Hz display refresh rate. Pre-orders start on October 29 with retail availability on November 6.</p>
+      <p class="summary-zh">苹果发布了新款iPad mini，但屏幕仍沿用传统的60Hz刷新率。预购将于10月29日开启，11月6日正式发售。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;ai&quot;, &quot;webdev&quot;, &quot;productivity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252029#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[🤖Vibe Coding] vibe coding 了一个图片在线处理网站</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · webdev · productivity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer created an online image processing tool called xnov.io in just three days using AI assistance. The project highlights the ease of coding in the AI era versus the challenge of user acquisition.</p>
+      <p class="summary-zh">开发者利用AI辅助，仅用三天时间就完成了一个名为xnov.io的在线图片处理工具。该项目突显了AI时代开发的高效，以及用户获取的难度。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;ipad&quot;, &quot;hardware&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1017801/ipad-mini-oled-display-apple-announce" target="_blank" rel="noopener" onclick="event.stopPropagation()">Apple updates the iPad Mini with a larger OLED display</a></div>
+      <div class="item-title-zh">苹果更新iPad Mini，配备更大的OLED显示屏</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · ipad · hardware</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Apple introduced a new iPad Mini featuring an 8.5-inch OLED display and a thinner design. The device is priced starting at $699 for the base model.</p>
+      <p class="summary-zh">苹果发布了新款iPad Mini，配备8.5英寸OLED显示屏，机身设计更轻薄。起售价为699美元。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="TECH" data-tags="[&quot;devops&quot;, &quot;workflow&quot;, &quot;productivity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://typemill.net/knowledge-hub/tasks-as-code" target="_blank" rel="noopener" onclick="event.stopPropagation()">Tasks as Code: Move Your Tickets into the Repository</a></div>
+      <div class="item-title-zh">任务即代码：将工单移入代码仓库</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">devops · workflow · productivity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article proposes moving project tasks and tickets directly into the codebase repository. This method aims to unify development workflow and task management.</p>
+      <p class="summary-zh">文章建议将项目任务和工单直接移入代码仓库。此方法旨在统一开发工作流与任务管理。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="TECH" data-tags="[&quot;apps&quot;, &quot;software&quot;, &quot;productivity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/117529" target="_blank" rel="noopener" onclick="event.stopPropagation()">派评 | 近期值得关注的 App</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">少数派 &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apps · software · productivity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A curated list of recently released or updated mobile and desktop applications. These recommendations focus on utility and quality for power users.</p>
+      <p class="summary-zh">一份近期发布或更新的移动端及桌面端应用精选列表。推荐侧重于高效率用户的实用性与品质。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="TECH" data-tags="[&quot;simulation&quot;, &quot;digital&quot;, &quot;switzerland&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://blocks.manifold3d.ch/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Switzerland. Block by block. At 1:1 scale</a></div>
+      <div class="item-title-zh">瑞士。逐块构建。1:1 比例</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">simulation · digital · switzerland</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A project involving the 1:1 scale recreation of Switzerland within a simulated or digital environment. The technical complexity of such a build is discussed.</p>
+      <p class="summary-zh">一个在模拟或数字环境中按1:1比例重构瑞士的项目。文中讨论了此类构建的技术复杂性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;investing&quot;, &quot;market&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/retail-investors-are-getting-cold-feet-about-stocks-just-when-the-market-needs-them-most-00a5c9c8?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Retail investors are getting cold feet about stocks, just when the market needs them most</a></div>
+      <div class="item-title-zh">散户投资者对股市信心动摇，正值市场最需要他们的时候</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · investing · market</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Hedge fund volatility last week highlighted a significant decline in retail investor trading activity. This lack of participation comes at a critical time for market stability.</p>
+      <p class="summary-zh">上周对冲基金的震荡凸显了散户交易活跃度的显著下降。这种参与度的缺失恰逢市场稳定的关键时刻。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;investor&quot;, &quot;switzerland&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957491-swiss-prime-site-ag-swprf-analyst-investor-day-slideshow?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Swiss Prime Site AG (SWPRF) Analyst/Investor Day - Slideshow</a></div>
+      <div class="item-title-zh">Swiss Prime Site AG (SWPRF) 分析师/投资者日 - 幻灯片演示</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · investor · switzerland</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article provides access to the presentation slides from the Swiss Prime Site AG Analyst and Investor Day. It offers insights into the company&#x27;s strategic outlook and financial performance.</p>
+      <p class="summary-zh">本文提供了Swiss Prime Site AG分析师与投资者日的演示文稿。内容涵盖了公司战略前景及财务表现的相关信息。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;market&quot;, &quot;stocks&quot;, &quot;trading&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/the-stock-markets-biggest-test-in-weeks-is-here-256f5a37?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">The stock market’s biggest test in weeks is here</a></div>
+      <div class="item-title-zh">股市迎来数周来最大的考验</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">market · stocks · trading</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The market is facing a week filled with significant catalysts that could determine its long-term direction. Investors are closely watching these events for clear signals.</p>
+      <p class="summary-zh">市场正面临充满重要催化剂的一周，这可能会决定未来的走向。投资者正密切关注这些事件以寻找明确信号。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;verizon&quot;, &quot;earnings&quot;, &quot;telecom&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957490-verizon-communications-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Verizon Communications Inc. 2026 Q3 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">威瑞森通信公司 2026年第三季度财报电话会议演示</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">verizon · earnings · telecom</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Verizon Communications released its presentation materials for the 2026 Q3 earnings call. The documents outline the company&#x27;s latest quarterly financial results and future outlook.</p>
+      <p class="summary-zh">威瑞森通信发布了2026年第三季度财报电话会议演示材料。文档概括了公司最新的季度财务业绩及未来展望。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="FINA" data-tags="[&quot;sandisk&quot;, &quot;earnings&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957469-sandisk-prepare-for-another-jaw-dropping-blowout-earnings-preview?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sandisk: Prepare For Another Jaw-Dropping Blowout (Earnings Preview)</a></div>
+      <div class="item-title-zh">SanDisk：准备迎接又一次惊人的业绩爆发（财报前瞻）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">sandisk · earnings · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Analysts are anticipating a potential breakout performance from SanDisk in their upcoming earnings report. Market expectations are high for the storage technology giant.</p>
+      <p class="summary-zh">分析师预计SanDisk在即将发布的财报中可能有出色表现。市场对这家存储技术巨头抱有很高期望。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;ai&quot;, &quot;investment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957425-i-was-wrong-this-is-not-the-bottom-for-ai-stocks?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">I Was Wrong: This Is Not The Bottom For AI Stocks</a></div>
+      <div class="item-title-zh">我错了：这还不是AI股票的底部</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · ai · investment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An analyst revisits their previous market thesis, suggesting that AI stocks have not yet hit bottom. Further market correction may be expected before a rebound.</p>
+      <p class="summary-zh">一位分析师重新审视了此前的市场观点，认为AI类股尚未触底。在反弹之前，市场可能还会经历进一步的修正。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="FINA" data-tags="[&quot;sanofi&quot;, &quot;stocks&quot;, &quot;investment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957431-sanofi-alluring-balanced-mix-yield-growth?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sanofi: An Alluring And Balanced Mix Of Yield And Growth</a></div>
+      <div class="item-title-zh">赛诺菲：收益与增长之间的诱人平衡</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">sanofi · stocks · investment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Sanofi is being highlighted as an attractive investment option due to its balance of dividend yields and growth potential. The stock remains a focus for defensive portfolios.</p>
+      <p class="summary-zh">赛诺菲因其股息收益与增长潜力之间的平衡而成为备受关注的投资标的。该股依然是防御型投资组合的重点。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="FINA" data-tags="[&quot;musk&quot;, &quot;spacex&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Musk says SpaceX’s AI rivals are in trouble, sending their stocks lower</a></div>
+      <div class="item-title-zh">马斯克称SpaceX的AI竞争对手处境艰难，导致其股价下跌</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">musk · spacex · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Elon Musk suggested that SpaceX&#x27;s less diversified AI competitors face financial instability. This statement contributed to a downward trend in the stock prices of those firms.</p>
+      <p class="summary-zh">埃隆·马斯克暗示SpaceX的非多元化AI竞争对手正面临财务困境。这一言论导致相关公司股价出现下跌趋势。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;biology&quot;, &quot;brain&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2595503-what-are-microchimeric-cells-doing-to-our-brain/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">What are microchimeric cells doing to our brain?</a></div>
+      <div class="item-title-zh">微嵌合细胞对我们的大脑有什么影响？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · biology · brain</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Cells exchanged between mother and fetus during pregnancy can reside in the brain. Researchers are investigating how this cellular legacy affects human behavior and health.</p>
+      <p class="summary-zh">怀孕期间母体与胎儿交换的细胞可能留存在大脑中。研究人员正在探讨这种细胞遗产如何影响人类行为与健康。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;health&quot;, &quot;nature&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge" target="_blank" rel="noopener" onclick="event.stopPropagation()">iFixit&amp;#8217;s look inside the iPhone Duo may explain those broken screens and hinges</a></div>
+      <div class="item-title-zh">观鸟能重塑大脑并减缓认知衰退</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">The Verge &middot; 16h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · health · nature</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Research indicates that birdwatching activities can positively impact cognitive health. The mental stimulation involved may help slow age-related decline.</p>
+      <p class="summary-zh">研究表明，观鸟活动能对认知健康产生积极影响。参与该活动所带来的大脑刺激可能有助于减缓与年龄相关的认知衰退。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;cancer&quot;, &quot;vaccine&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://openai.com/index/scaling-storage-one-billion-users-part-two" target="_blank" rel="noopener" onclick="event.stopPropagation()">Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</a></div>
+      <div class="item-title-zh">个性化癌症疫苗预计明年获批</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">OpenAI Blog &middot; 2d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · cancer · vaccine</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A bespoke vaccine tailored to individual skin cancer profiles has shown success in late-stage trials. Approval is expected within the next year, marking a shift in oncology.</p>
+      <p class="summary-zh">一种针对个人皮肤癌特征定制的疫苗在后期试验中取得成功。预计明年获批，标志着肿瘤学治疗方式的转变。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;politics&quot;, &quot;economy&quot;, &quot;election&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/the-5-big-voting-issues-in-the-midterm-elections-that-will-impact-your-wallet-4a93291c?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">The 5 big voting issues in the midterm elections that will impact your wallet</a></div>
+      <div class="item-title-zh">中期选举中影响你钱包的五大投票议题</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">politics · economy · election</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Although no president is being elected, several key issues in the midterm elections will directly impact personal finances. Topics include fuel prices, taxation, and government spending policies.</p>
+      <p class="summary-zh">虽然不涉及总统选举，但中期选举中的几项关键议题将直接影响个人理财。议题包括燃油价格、税务政策及政府支出等。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;congo&quot;, &quot;ebola&quot;, &quot;healthcare&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Nurse killed in attack while responding to Ebola alert in DR Congo</a></div>
+      <div class="item-title-zh">刚果民主共和国一名护士在应对埃博拉警报时遇袭身亡</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">congo · ebola · healthcare</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A nurse was killed in the DR Congo after local youths accused health workers of spreading Ebola. The attack highlights the severe challenges faced by medical responders in the region.</p>
+      <p class="summary-zh">在刚果民主共和国，当地青年指控医护人员传播埃博拉病毒，导致一名护士遇袭身亡。袭击事件凸显了该地区医疗救援工作面临的严峻挑战。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;serbia&quot;, &quot;politics&quot;, &quot;election&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement</a></div>
+      <div class="item-title-zh">塞尔维亚长期执政的武契奇在选举中输给学生主导的抗议运动，引发庆祝</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">serbia · politics · election</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Serbia&#x27;s populist leader for 12 years has conceded defeat following an election viewed as a referendum on the country&#x27;s direction. Student-led protests played a key role in the political shift.</p>
+      <p class="summary-zh">塞尔维亚执政12年的民粹派领导人在被视为国家未来走向公投的选举中承认失败。学生主导的抗议活动在政治转变中发挥了关键作用。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;privacy&quot;, &quot;surveillance&quot;, &quot;society&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/features/1017836/flock-huntington-west-virginia-surveillance-ballot-measure" target="_blank" rel="noopener" onclick="event.stopPropagation()">The city that fought Flock</a></div>
+      <div class="item-title-zh">对抗 Flock 的城市</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">The Verge &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">privacy · surveillance · society</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Residents of Huntington, West Virginia, are actively resisting the implementation of Flock surveillance cameras. The case raises concerns about privacy in local community governance.</p>
+      <p class="summary-zh">西弗吉尼亚州亨廷顿市的居民正积极抵制Flock监控摄像头的安装。此案例引发了对地方治理中隐私问题的关注。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;venezuela&quot;, &quot;politics&quot;, &quot;machado&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Venezuelan opposition leader María Machado returns after months in exile</a></div>
+      <div class="item-title-zh">委内瑞拉反对派领导人玛丽亚·马查多流亡数月后回国</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 8h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">venezuela · politics · machado</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Opposition leader María Machado has returned to Venezuela after months in exile. Her return comes shortly after the US government took action against President Maduro.</p>
+      <p class="summary-zh">反对派领导人玛丽亚·马查多在流亡数月后回到了委内瑞拉。此前不久，美国政府刚刚对马杜罗总统采取了行动。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="33" data-cat="WORLD" data-tags="[&quot;australia&quot;, &quot;prison&quot;, &quot;law&quot;]">
+  <div class="item-row">
+    <span class="item-idx">33</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cvwy7wz9x12go?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Australian murderer loses bid to eat Vegemite in prison</a></div>
+      <div class="item-title-zh">澳大利亚杀人犯失去在监狱中食用Vegemite的权利请求</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 9h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="33" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="33" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">australia · prison · law</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A convicted murderer in Australia had his legal appeal rejected, which sought to have Vegemite included in his prison diet as a cultural right. The court did not find the argument compelling.</p>
+      <p class="summary-zh">一名澳大利亚杀人犯请求将Vegemite纳入其狱中饮食，声称是文化权利，但被法院驳回。法院认为该理由缺乏说服力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="34" data-cat="WORLD" data-tags="[&quot;environment&quot;, &quot;charity&quot;, &quot;wildlife&quot;]">
+  <div class="item-row">
+    <span class="item-idx">34</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://titleart.dvy.io/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Show HN: TitleArt – Make text like it&#x27;s 1997</a></div>
+      <div class="item-title-zh">少数派×红树林基金会｜候鸟季公益直播，邀你共护湿地</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; 10h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="34" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="34" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">environment · charity · wildlife</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Minority (Sspai) and the Mangrove Foundation host a livestream to raise awareness for migratory birds. The event encourages public participation in wetland conservation.</p>
+      <p class="summary-zh">少数派与红树林基金会举办公益直播，呼吁关注候鸟迁徙。活动旨在鼓励公众参与湿地保护。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">34 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">13:47 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+<a class="archive-date" href="/archive/2026-10-11.html">2026-10-11</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-26';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
