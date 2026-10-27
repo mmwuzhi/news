@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">35</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">5</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">7</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">7</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-27 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Tue Oct 27 2026 &middot; 35 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;v2ex&quot;, &quot;gpt-6&quot;, &quot;automation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252352#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] 大佬们，我开发了个 ai 上论坛代你吵架的 dsh 插件，大佬们能不能帮忙看看</a></div>
+      <div class="item-title-zh">程序员大佬们，我开发了个 AI 插件帮你在论坛吵架</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · v2ex · gpt-6 · automation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer has created a Discord/forum bot powered by GPT-6 that simulates human-like arguments for users who are losing debates. The project, currently tested on Baidu Tieba, aims to help users draft effective rebuttals.</p>
+      <p class="summary-zh">一名开发者利用 GPT-6 开发了一款 AI 论坛插件，旨在帮助用户在网络争论中自动生成回击内容。该项目目前已在百度贴吧进行测试，未来计划支持更多社交平台。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;deepseek&quot;, &quot;api&quot;, &quot;ai&quot;, &quot;free&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252350#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[推广] 想体验更稳定的 AI 接口？ DeepSeek 限时免费蹬</a></div>
+      <div class="item-title-zh">想体验更稳定的 AI 接口？DeepSeek 限时免费</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">deepseek · api · ai · free</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A service provider is offering free, limited-time access to stable AI APIs including DeepSeek and others. They emphasize reliability and technical support for users integrating AI into their projects.</p>
+      <p class="summary-zh">一家服务商提供包括 DeepSeek 在内的多种稳定 AI 接口的限时免费试用。他们强调为将 AI 集成到项目中的用户提供高稳定性和技术支持。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;deepseek&quot;, &quot;ai&quot;, &quot;inference&quot;, &quot;hacker-news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://allmodels.io/llm/abliterated" target="_blank" rel="noopener" onclick="event.stopPropagation()">There are now 5 inference providers for abliterated DeepSeek</a></div>
+      <div class="item-title-zh">现在有 5 家推理提供商提供“磨灭版” DeepSeek</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 8h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">deepseek · ai · inference · hacker-news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Several AI inference providers have released &#x27;abliterated&#x27; versions of the DeepSeek model. These versions are often modified to remove specific safety filters or constraints.</p>
+      <p class="summary-zh">多家 AI 推理提供商发布了“磨灭版”的 DeepSeek 模型。这些版本通常经过修改，移除了特定的安全过滤机制或约束条件。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;science&quot;, &quot;research&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics" target="_blank" rel="noopener" onclick="event.stopPropagation()">OpenAI announces three big science discoveries and a new way to work with academics</a></div>
+      <div class="item-title-zh">OpenAI 宣布三项重大科学发现并推出与学术界合作新模式</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; 13h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · science · research · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">OpenAI has unveiled three significant breakthroughs in mathematics, physics, and computer science. They are implementing a &#x27;shepherd&#x27; model where experts guide AI research to ensure rigor.</p>
+      <p class="summary-zh">OpenAI 在数学、物理和计算机科学领域公布了三项重大突破。他们正在实施一种“牧羊人”模式，由外部专家指导 AI 研究以确保严谨性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;greptile&quot;, &quot;coding&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://openai.com/index/greptile-code-review-codex-astra" target="_blank" rel="noopener" onclick="event.stopPropagation()">Greptile takes bug detection beyond code review with GPT-6 Astra</a></div>
+      <div class="item-title-zh">Greptile 利用 GPT-6 Astra 提升漏洞检测能力</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">OpenAI Blog &middot; 14h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · greptile · coding · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Greptile is integrating GPT-6 Astra into its workflow to enhance bug detection beyond simple code review. The platform also utilizes specialized tools to strengthen security and reduce rework.</p>
+      <p class="summary-zh">Greptile 正在将 GPT-6 Astra 集成到其工作流程中，以提升超越简单代码审查的漏洞检测能力。该平台还利用专业工具来加强安全性和减少返工。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;fujifilm&quot;, &quot;camera&quot;, &quot;photography&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/gadgets/1019300/fujifilm-instax-mini-evo-2-instant-camera-price-availability" target="_blank" rel="noopener" onclick="event.stopPropagation()">Fujifilm’s Instax Mini Evo 2 adds a touchscreen and video recording</a></div>
+      <div class="item-title-zh">富士 Instax Mini Evo 2 新增触摸屏与视频录制功能</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">fujifilm · camera · photography · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Fujifilm has updated its hybrid instant camera with a new touchscreen and video recording capabilities. The device aims to blend digital photography convenience with the retro charm of instant printing.</p>
+      <p class="summary-zh">富士更新了其混合拍立得相机，增加了触摸屏和视频录制功能。该设备旨在结合数码摄影的便利性与即时打印的复古魅力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;vps&quot;, &quot;networking&quot;, &quot;server&quot;, &quot;v2ex&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252349#reply2" target="_blank" rel="noopener" onclick="event.stopPropagation()">[VPS] 这几天有没被封的 vps 吗？推荐一下，几个自建的都挂了</a></div>
+      <div class="item-title-zh">这几天有没被封的 VPS 吗？求推荐</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">vps · networking · server · v2ex</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user on V2EX is seeking recommendations for VPS services that are currently stable and not IP-blocked. They report that their self-built VPS instances have recently gone offline.</p>
+      <p class="summary-zh">V2EX 的一名用户正在寻找目前稳定且未被封禁的 VPS 服务推荐。他反映自己自建的 VPS 最近都已失效。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;design&quot;, &quot;productivity&quot;, &quot;workflow&quot;, &quot;infographic&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252348#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] [分享创造] 一张信息图重建要 40 分钟，时间到底花在哪</a></div>
+      <div class="item-title-zh">一张信息图重建要 40 分钟，时间到底花在哪</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">design · productivity · workflow · infographic</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An infographic designer breaks down the 40-minute process of creating a single graphic. The majority of time is spent on checking details and correcting alignment rather than the actual design phase.</p>
+      <p class="summary-zh">一位信息图设计师详细拆解了制作一张图形所需的 40 分钟流程。他指出，大部分时间花费在核对细节和修正对齐上，而非设计本身。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;google&quot;, &quot;giftcard&quot;, &quot;v2ex&quot;, &quot;trade&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252347#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] 20 刀出售谷歌美区面值 25 刀的礼品卡</a></div>
+      <div class="item-title-zh">20 刀出售谷歌美区 25 刀礼品卡</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">google · giftcard · v2ex · trade</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user is selling a $25 US Google Play gift card for $20 due to personal account compatibility issues. They are looking for interested buyers to contact them directly.</p>
+      <p class="summary-zh">一名用户因个人谷歌账号兼容性问题，以 20 美元的价格出售价值 25 美元的美国区谷歌礼品卡。他寻求有意向的买家直接联系。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;anthropic&quot;, &quot;ipo&quot;, &quot;tech&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: Anthropic’s IPO, smarter power grids, and exercise pills</a></div>
+      <div class="item-title-zh">科技简报：Anthropic 上市、更智能的电网及运动药丸</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">MIT Tech Review &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">anthropic · ipo · tech · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This newsletter covers the latest tech industry updates, including Anthropic&#x27;s IPO filing and innovations in power grid management. It also discusses emerging research on pharmaceuticals that mimic exercise.</p>
+      <p class="summary-zh">本简报涵盖了最新的科技行业资讯，包括 Anthropic 的 IPO 备案和电网管理创新。此外，还讨论了有关模拟运动效果的药物的研究。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;manufacturing&quot;, &quot;industry&quot;, &quot;ai&quot;, &quot;efficiency&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Industrial Intelligence: The next growth opportunity for manufacturing</a></div>
+      <div class="item-title-zh">工业智能：制造业的下一个增长机遇</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">MIT Tech Review &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">manufacturing · industry · ai · efficiency</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Manufacturing is increasingly leveraging &#x27;industrial intelligence&#x27; by combining documented procedures with the tacit knowledge of experienced workers. This approach is essential for optimizing machine performance and operations.</p>
+      <p class="summary-zh">制造业正通过结合标准化流程与资深员工的隐性知识，不断提升“工业智能”。这种方法对于优化机器性能和生产运营至关重要。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;robotics&quot;, &quot;automation&quot;, &quot;automotive&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/transportation/1018625/gm-sterling-anderson-interview-robots-ai-autonomous-data-privacy" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sterling Anderson doesn’t think humanoid robots should be building cars</a></div>
+      <div class="item-title-zh">斯特林·安德森认为人形机器人不应参与造车</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">robotics · automation · automotive · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Sterling Anderson argues against the use of humanoid robots in automotive manufacturing despite industry trends. He suggests that specialized automation remains more efficient and practical for car production.</p>
+      <p class="summary-zh">斯特林·安德森反驳了在汽车制造业中使用人形机器人的趋势。他认为，对于汽车生产而言，专用自动化设备仍然更为高效且实用。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="TECH" data-tags="[&quot;acer&quot;, &quot;gaming&quot;, &quot;handheld&quot;, &quot;hardware&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/games/1019245/acer-predator-atlas-8-launch-price" target="_blank" rel="noopener" onclick="event.stopPropagation()">Acer is bringing a Predator gaming handheld to the US for the first time</a></div>
+      <div class="item-title-zh">宏碁首次将 Predator 游戏掌机引入美国市场</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">acer · gaming · handheld · hardware</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Acer&#x27;s Predator Atlas 8 gaming handheld is officially launching in the US. The high-performance model featuring an Intel Arc GPU will be available exclusively through Best Buy.</p>
+      <p class="summary-zh">宏碁的 Predator Atlas 8 游戏掌机正式进军美国市场。这款搭载 Intel Arc GPU 的高性能版本将由百思买独家发售。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;economy&quot;, &quot;inflation&quot;, &quot;warsh&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957889-warsh-hawkish-rhetoric-meets-inflation-reality-check?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Warsh&#x27;s Hawkish Rhetoric Meets An Inflation Reality Check</a></div>
+      <div class="item-title-zh">沃什的鹰派言论与通胀现实的碰撞</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">economy · inflation · warsh · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Kevin Warsh&#x27;s recent hawkish commentary is being weighed against the harsh reality of current inflation data. Market analysts are scrutinizing whether his policy stance remains viable given the economic trends.</p>
+      <p class="summary-zh">凯文·沃什近期的鹰派言论正面临当前通胀数据的现实考验。市场分析师正在密切关注，考虑到当前的经济趋势，他的政策立场是否依然具有可行性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;investment&quot;, &quot;stocks&quot;, &quot;equity&quot;, &quot;market-report&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957922-harding-loevner-international-equity-q3-2026-commentary?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Harding Loevner International Equity Q3 2026 Commentary</a></div>
+      <div class="item-title-zh">Harding Loevner 2026年第三季度国际股票评论</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">investment · stocks · equity · market-report</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This commentary provides an overview of international equity performance for the third quarter of 2026. It highlights specific market trends and investment strategies utilized by the firm during this period.</p>
+      <p class="summary-zh">该评论概述了 2026 年第三季度国际股票的表现。报告重点介绍了该机构在这一时期采用的具体市场趋势和投资策略。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;earnings&quot;, &quot;finance&quot;, &quot;elopak&quot;, &quot;report&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957838-elopak-asa-elpkf-q3-2026-earnings-call-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Elopak ASA (ELPKF) Q3 2026 Earnings Call Transcript</a></div>
+      <div class="item-title-zh">Elopak ASA (ELPKF) 2026年第三季度财报电话会议实录</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">earnings · finance · elopak · report</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Elopak ASA hosted its Q3 2026 earnings call to discuss financial results and operational updates. Executives provided insights into company growth and future outlooks for stakeholders.</p>
+      <p class="summary-zh">Elopak ASA 召开了 2026 年第三季度财报电话会议，讨论了财务业绩和运营进展。高管们为利益相关者提供了关于公司增长和未来前景的见解。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;meta&quot;, &quot;stocks&quot;, &quot;profitability&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957888-meta-a-business-far-more-profitable-than-it-looks?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Meta: A Business Far More Profitable Than It Looks</a></div>
+      <div class="item-title-zh">Meta：一家比看起来利润高得多的公司</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">meta · stocks · profitability · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Meta&#x27;s financial structure suggests that its actual profitability is significantly higher than its surface-level reporting implies. This analysis explores the efficiency of their business model and hidden value.</p>
+      <p class="summary-zh">Meta 的财务结构显示，其实际盈利能力远高于表面财报所体现的水平。本文探讨了其商业模式的效率以及被低估的潜在价值。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;retirement&quot;, &quot;finance&quot;, &quot;marriage&quot;, &quot;savings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/my-wife-has-only-80-000-saved-for-retirement-i-have-2-2-million-am-i-wrong-to-be-shocked-3e27b490?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?</a></div>
+      <div class="item-title-zh">妻子只有8万美元养老金，我有220万美元，我震惊有错吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">retirement · finance · marriage · savings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A husband expresses shock and frustration upon discovering the significant disparity in retirement savings between himself and his wife. The article explores the complexities of financial transparency in long-term marriages.</p>
+      <p class="summary-zh">一名丈夫在发现自己与妻子的退休储蓄存在巨大差距后感到震惊和沮丧。本文探讨了长期婚姻中财务透明度的复杂性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;sofi&quot;, &quot;stocks&quot;, &quot;earnings&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/sofis-stock-climbs-as-lending-surge-drives-an-earnings-beat-and-rosy-outlook-0c978535?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Why SoFi’s stock is soaring after earnings</a></div>
+      <div class="item-title-zh">为什么 SoFi 的股价在财报后飙升</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">sofi · stocks · earnings · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">SoFi&#x27;s stock price surged following a strong earnings report that beat market expectations. Investors are reacting positively to the company&#x27;s ambitious outlook for early 2027.</p>
+      <p class="summary-zh">在发布超出市场预期的强劲财报后，SoFi 的股价大幅飙升。投资者对该公司 2027 年初的雄心勃勃的前景做出了积极反应。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;ai&quot;, &quot;earnings&quot;, &quot;stocks&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/heres-the-question-three-tech-sector-earnings-reports-raise-about-the-future-of-ai-5676248b?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Here’s the question three tech-sector earnings reports raise about the future of AI</a></div>
+      <div class="item-title-zh">三份科技财报引发的 AI 未来思考</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · earnings · stocks · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Celestica, Cadence Design Systems, and Rambus have all reported strong Q3 results, beating analyst estimates. These reports raise critical questions about the future trajectory of the AI industry.</p>
+      <p class="summary-zh">Celestica、Cadence Design Systems 和 Rambus 的第三季度财报均超出分析师预期。这些报告引发了关于人工智能行业未来发展轨迹的重要思考。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;retirement&quot;, &quot;debt&quot;, &quot;advice&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘Just watch Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?</a></div>
+      <div class="item-title-zh">“去做法官朱迪吧”：我都 70 多岁了，为什么人们总犯同样的财务错误？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · retirement · debt · advice</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An elderly writer reflects on the persistent financial mistakes people make, such as credit card debt and poor retirement planning. The article serves as a cautionary tale on the importance of fiscal discipline.</p>
+      <p class="summary-zh">一位 70 多岁的老者反思了人们在财务上反复犯下的错误，如信用卡债务和缺乏退休规划。文章告诫人们保持财务纪律的重要性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;fda&quot;, &quot;pharma&quot;, &quot;biotech&quot;, &quot;cumberland&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4957880-cumberland-pharmaceuticals-stock-fdas-phase-3-question-hard-to-ignore?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Cumberland Pharmaceuticals: The FDA&#x27;s Phase 3 Question Is Hard To Ignore</a></div>
+      <div class="item-title-zh">Cumberland Pharmaceuticals：FDA 的三期临床问题不容忽视</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">fda · pharma · biotech · cumberland</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Cumberland Pharmaceuticals faces significant regulatory uncertainty regarding its Phase 3 clinical trial data. Analysts are questioning the long-term viability of their drug pipeline due to FDA feedback.</p>
+      <p class="summary-zh">Cumberland Pharmaceuticals 在其三期临床试验数据方面面临巨大的监管不确定性。由于 FDA 的反馈，分析师对其药物研发管线的长期可行性表示担忧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;energy&quot;, &quot;grid&quot;, &quot;ai&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/" target="_blank" rel="noopener" onclick="event.stopPropagation()">How solid-state transformers could help power the AI boom</a></div>
+      <div class="item-title-zh">固态变压器如何助力 AI 繁荣</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">energy · grid · ai · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Solid-state transformers are essential for upgrading aging electrical grids to meet the surging power demands of AI data centers. These advanced devices offer superior efficiency and flexibility compared to traditional transformers.</p>
+      <p class="summary-zh">固态变压器对于升级老化的电网以满足 AI 数据中心激增的电力需求至关重要。与传统变压器相比，这些先进设备提供了更高的效率和灵活性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;vaccine&quot;, &quot;science&quot;, &quot;acne&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2595926-how-vaccines-could-be-about-to-revolutionise-acne-treatments/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">How vaccines could be about to revolutionise acne treatments</a></div>
+      <div class="item-title-zh">疫苗可能彻底改变痤疮治疗方式</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · vaccine · science · acne</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">New research suggests that vaccines targeting the immune system&#x27;s reaction to skin bacteria could provide a breakthrough in acne treatment. Scientists are testing experimental approaches to block this inflammatory response.</p>
+      <p class="summary-zh">最新研究表明，针对免疫系统对皮肤细菌反应的疫苗可能为痤疮治疗带来突破。科学家们正在测试阻断这种炎症反应的实验性方法。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;climate&quot;, &quot;environment&quot;, &quot;science&quot;, &quot;warming&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2595885-major-greenhouse-gases-rise-again-to-record-levels/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Major greenhouse gases rise again to record levels</a></div>
+      <div class="item-title-zh">主要温室气体再次升至创纪录水平</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">climate · environment · science · warming</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Atmospheric levels of CO2, methane, and nitrous oxide continued to rise throughout 2025. These record-breaking concentrations highlight the accelerating impact of human activity on global warming.</p>
+      <p class="summary-zh">大气中的二氧化碳、甲烷和氧化亚氮浓度在 2025 年持续上升并创下纪录。这些创纪录的浓度凸显了人类活动对全球变暖影响的加速。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="SCI" data-tags="[&quot;theory&quot;, &quot;math&quot;, &quot;algorithms&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Exponential Time Hypothesis Is False [pdf]</a></div>
+      <div class="item-title-zh">指数时间假设是错误的</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 14h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">theory · math · algorithms · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new research paper provides evidence arguing that the Exponential Time Hypothesis in computational complexity is false. This finding could have significant implications for algorithm analysis and theory.</p>
+      <p class="summary-zh">一篇新的研究论文提供了证据，认为计算复杂度中的指数时间假设是错误的。这一发现可能对算法分析和理论研究产生重大影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;openai&quot;, &quot;research&quot;, &quot;math&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://openai.com/index/building-scientific-understanding-with-academic-communities/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Three new discoveries in mathematics, computer science, and physics</a></div>
+      <div class="item-title-zh">数学、计算机科学和物理学的三项新发现</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 15h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · openai · research · math</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Following previous releases, OpenAI has shared three more major discoveries in hard sciences. These findings highlight the potential for AI to act as a catalyst for advanced scientific research.</p>
+      <p class="summary-zh">继此前发布之后，OpenAI 又分享了三项硬科学领域的重大发现。这些成果凸显了 AI 作为高级科学研究催化剂的潜力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="SCI" data-tags="[&quot;environment&quot;, &quot;wind-energy&quot;, &quot;bats&quot;, &quot;wildlife&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2595845-wind-turbines-have-killed-19-million-bats-in-40-years-in-the-us/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Wind turbines have killed 19 million bats in 40 years in the US</a></div>
+      <div class="item-title-zh">风力涡轮机在过去 40 年中导致美国 1900 万只蝙蝠死亡</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 17h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">environment · wind-energy · bats · wildlife</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Environmental studies estimate that 19 million bats have been killed by wind turbines in the US since 1981. Researchers are calling for improved mitigation measures to protect bat populations.</p>
+      <p class="summary-zh">环境研究估计，自 1981 年以来，美国有 1900 万只蝙蝠死于风力涡轮机。研究人员呼吁采取更好的缓解措施以保护蝙蝠种群。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;ceasefire&quot;, &quot;news&quot;, &quot;humanitarian&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Truce begins in Ukraine city where residents ate weeds to survive</a></div>
+      <div class="item-title-zh">乌克兰城市达成停火，此前居民靠吃杂草生存</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · ceasefire · news · humanitarian</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A ceasefire has been established in Oleshky, Ukraine, where residents were previously suffering from extreme food shortages. The agreement, reportedly secured by Melania Trump, facilitates humanitarian aid and civilian evacuation.</p>
+      <p class="summary-zh">乌克兰奥列什基市达成停火协议，此前当地居民面临严重的食物短缺。据称该协议由梅拉尼娅·特朗普促成，旨在协助人道主义援助进入并疏散平民。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;iran&quot;, &quot;geopolitics&quot;, &quot;market&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/why-reported-khamenei-call-for-end-to-neither-war-nor-peace-moved-markets-a-bit-dd94b602?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Why reported Khamenei call for end to ‘neither war nor peace’ moved markets — a bit</a></div>
+      <div class="item-title-zh">为什么哈梅内伊关于结束“不战不和”的呼吁引起了市场波动</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">iran · geopolitics · market · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Market prices shifted slightly following reports of Iran&#x27;s supreme leader calling for an end to the current geopolitical stalemate. While seen as a positive sign, analysts note that the path to a deal remains long.</p>
+      <p class="summary-zh">在伊朗最高领袖呼吁结束当前地缘政治僵局的报道传出后，市场价格出现小幅波动。尽管这被视为积极信号，但分析人士指出，达成协议的道路依然漫长。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;fbi&quot;, &quot;law&quot;, &quot;news&quot;, &quot;comey&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ex-FBI chief James Comey faces federal charges for third time</a></div>
+      <div class="item-title-zh">前 FBI 局长詹姆斯·科米第三次面临联邦指控</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">fbi · law · news · comey</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Former FBI Director James Comey is facing federal charges for the third time, linked to the alleged 2016 leak of classified information. His legal team is actively contesting the proceedings.</p>
+      <p class="summary-zh">前 FBI 局长詹姆斯·科米第三次面临联邦指控，与 2016 年涉嫌泄露机密信息有关。他的律师团队正在积极应对这些诉讼。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;israel&quot;, &quot;politics&quot;, &quot;election&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Turnout so far highest in decades as Israelis vote in pivotal election</a></div>
+      <div class="item-title-zh">以色列举行关键选举，投票率创几十年来新高</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">israel · politics · election · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Israel is holding a pivotal election following the Hamas-led attacks and subsequent wars. The results are seen as a critical referendum on Benjamin Netanyahu&#x27;s leadership.</p>
+      <p class="summary-zh">以色列在遭受哈马斯袭击及随后的战争后举行了关键选举。此次选举结果被视为对本杰明·内塔尼亚胡领导力的一场关键全民公投。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="33" data-cat="WORLD" data-tags="[&quot;datacenter&quot;, &quot;infrastructure&quot;, &quot;politics&quot;, &quot;usa&quot;]">
+  <div class="item-row">
+    <span class="item-idx">33</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/policy/1019152/data-centers-midterm-elections" target="_blank" rel="noopener" onclick="event.stopPropagation()">Data center backlash is uniting America</a></div>
+      <div class="item-title-zh">数据中心的反弹正在凝聚美国共识</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">The Verge &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="33" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="33" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">datacenter · infrastructure · politics · usa</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The rapid construction of data centers has sparked widespread local opposition across the US. This issue is increasingly influencing congressional politics as communities express concerns over infrastructure and expenses.</p>
+      <p class="summary-zh">数据中心的迅速扩建在全美引发了广泛的抵制情绪。随着社区对基础设施和开支的担忧增加，这一问题正日益影响国会政治。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="34" data-cat="WORLD" data-tags="[&quot;jordan&quot;, &quot;syria&quot;, &quot;conflict&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">34</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Jordan carries out deadly strike in Syria in retaliation for church attack</a></div>
+      <div class="item-title-zh">约旦为报复教堂袭击对叙利亚发动致命打击</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 10h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="34" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="34" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">jordan · syria · conflict · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Jordan has conducted airstrikes in Syria following a deadly attack on a church. Syrian officials report five deaths, including civilians, as tensions in the region remain heightened.</p>
+      <p class="summary-zh">在针对教堂的致命袭击发生后，约旦对叙利亚发动了空袭。叙利亚官员报告称有五人死亡，包括平民，该地区的紧张局势持续升温。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="35" data-cat="WORLD" data-tags="[&quot;brazil&quot;, &quot;lula&quot;, &quot;trump&quot;, &quot;geopolitics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">35</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Lula&#x27;s comeback in Brazil dents Trump&#x27;s ambitions for Latin America</a></div>
+      <div class="item-title-zh">卢拉在巴西的回归削弱了特朗普在拉丁美洲的雄心</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 11h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="35" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="35" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">brazil · lula · trump · geopolitics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Lula da Silva&#x27;s political comeback in Brazil complicates former President Trump&#x27;s influence and policy goals in Latin America. While their relationship has seen minor improvements, fundamental tensions persist.</p>
+      <p class="summary-zh">卢拉在巴西的政治回归使特朗普在拉美的影响力和政策目标复杂化。尽管两人的关系有所好转，但根本性的矛盾依然存在。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">35 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">12:54 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+<a class="archive-date" href="/archive/2026-10-12.html">2026-10-12</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-27';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
