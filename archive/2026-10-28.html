@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">31</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">6</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">2</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">7</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-28 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Wed Oct 28 2026 &middot; 31 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;agent&quot;, &quot;browser&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252650#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 一人公司：我做了个替你操作网页的浏览器智能体</a></div>
+      <div class="item-title-zh">一人公司：我做了个替你操作网页的浏览器智能体</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · agent · browser</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer created a browser-based AI agent that interacts with web elements to automate repetitive tasks. Unlike simple chatbots, this agent can click buttons, fill forms, and make decisions based on page content.</p>
+      <p class="summary-zh">一名开发者创建了一个浏览器 AI 智能体，可以通过与网页元素交互来自动化重复任务。与简单的聊天机器人不同，该智能体能点击按钮、填写表单并根据页面内容做出决策。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;data&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: dead startups fueling AI and interspecies communication</a></div>
+      <div class="item-title-zh">下载：死去的初创公司正在助推 AI，以及物种间交流</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">MIT Tech Review &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · data · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">AI labs are increasingly purchasing training data from defunct startups to improve their models. Additionally, new research is exploring how technology can bridge communication gaps between different species.</p>
+      <p class="summary-zh">AI 实验室正越来越多地从倒闭的初创公司购买训练数据以改进模型。此外，新研究正在探索技术如何填补不同物种之间的交流鸿沟。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;industrial&quot;, &quot;automation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Pairing industrial AI autonomy and human control</a></div>
+      <div class="item-title-zh">将工业 AI 自主性与人类控制相结合</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">MIT Tech Review &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · industrial · automation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The balance between industrial AI autonomy and human oversight is becoming critical. New frameworks are being developed to ensure safety and accountability in automated environments.</p>
+      <p class="summary-zh">工业 AI 自主性与人类监督之间的平衡正变得至关重要。目前正开发新的框架，以确保自动化环境中的安全性与责任归属。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;legal&quot;, &quot;software&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://openai.com/index/legora-agentic-operating-system-for-legal-work" target="_blank" rel="noopener" onclick="event.stopPropagation()">Legora is building the agentic operating system for legal work</a></div>
+      <div class="item-title-zh">Legora 正在构建法律工作的智能代理操作系统</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">OpenAI Blog &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · legal · software</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Legora is leveraging OpenAI models to build an agentic operating system designed to streamline legal workflows. The platform aims to automate contract analysis and free lawyers for high-value tasks.</p>
+      <p class="summary-zh">Legora 正在利用 OpenAI 模型构建智能代理操作系统，旨在简化法律工作流。该平台旨在自动化合同分析，并将律师从低价值任务中解放出来。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;chatbot&quot;, &quot;optimization&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596083-the-most-important-part-of-ai-chatbots-is-being-ignored/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">The most important part of AI chatbots is being ignored</a></div>
+      <div class="item-title-zh">AI 聊天机器人最重要的部分被忽略了</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">New Scientist &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · chatbot · optimization</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Software optimizations are allowing AI companies to enhance chatbot performance without necessitating full model updates. This approach offers a efficient path to more capable AI tools.</p>
+      <p class="summary-zh">软件优化使得人工智能公司无需更新模型即可提升聊天机器人的性能。这种方法为开发更强大的人工智能工具提供了一条高效路径。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;science&quot;, &quot;math&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2593034-the-understanding-that-even-bees-have-feelings-is-changing-our-view-of-consciousness/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">The understanding that even bees have feelings is changing our view of consciousness</a></div>
+      <div class="item-title-zh">AI 推翻了计算机科学中 30 年来的数学假设</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">New Scientist &middot; 21h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · science · math</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">OpenAI&#x27;s research has apparently disproven a long-standing mathematical tenet in computer science. If confirmed, this breakthrough will necessitate updates to academic textbooks.</p>
+      <p class="summary-zh">OpenAI 的研究似乎推翻了计算机科学中一个长达 30 年的数学假设。如果该结果得到证实，学术教科书将面临更新。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;x&quot;, &quot;marketing&quot;, &quot;socialmedia&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1020488/x-twitter-animated-hand-point-promote-posts" target="_blank" rel="noopener" onclick="event.stopPropagation()">This is how badly X wants you to pay to promote your posts</a></div>
+      <div class="item-title-zh">X 平台为了让你付费推广帖子有多拼</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">x · marketing · socialmedia</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">X is using aggressive interface tactics, including animated prompts, to encourage users to pay for post promotion. This follows Elon Musk&#x27;s warning regarding ad standards on the platform.</p>
+      <p class="summary-zh">X 平台正利用包括动画提示在内的激进手段，鼓励用户为其帖子付费推广。此举紧随埃隆·马斯克关于平台广告标准的警告之后。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;ai&quot;, &quot;blog&quot;, &quot;programming&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252657#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] 拖了几年的博客迁移， AI 用 20 分钟帮我做完了</a></div>
+      <div class="item-title-zh">[程序员] 拖了几年的博客迁移，AI 用 20 分钟帮我做完了</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · blog · programming</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A programmer successfully migrated their long-delayed static blog by utilizing AI to automate the data extraction from an old SQLite database. The AI completed the complex task in just 20 minutes, saving years of manual effort.</p>
+      <p class="summary-zh">一名程序员利用 AI 自动化从旧的 SQLite 数据库提取数据，成功完成了拖延多年的博客迁移。AI 仅用 20 分钟就完成了这项复杂任务，节省了多年的手动工作量。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;macos&quot;, &quot;privacy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252656#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Apple] 今天 macOS 27.2 在偷偷摸摸下载什么呢</a></div>
+      <div class="item-title-zh">[Apple] macOS 27.2 今天在后台偷偷下载什么？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · macos · privacy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Users have observed macOS 27.2 downloading large amounts of data in the background. The source and content of these significant downloads remain unclear.</p>
+      <p class="summary-zh">用户观察到 macOS 27.2 正在后台下载大量数据。这些大规模下载的具体来源与内容尚不明确。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;recruitment&quot;, &quot;security&quot;, &quot;remote&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252654#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[酷工作] [远程 / 全职] SmartDeer 招聘信息安全工程师</a></div>
+      <div class="item-title-zh">[酷工作] SmartDeer 招聘信息安全工程师</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">recruitment · security · remote</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">SmartDeer is seeking a remote Information Security Engineer to manage product security and data protection. The company focuses on global HR services and offers a collaborative environment.</p>
+      <p class="summary-zh">SmartDeer 正在招聘一名远程办公的信息安全工程师，负责产品安全及数据保护。公司专注于全球人力资源服务，并提供协作环境。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;tiktok&quot;, &quot;app&quot;, &quot;socialmedia&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/news/1020267/tiktok-viral-restaurant-recommendations-must-eat-yelp" target="_blank" rel="noopener" onclick="event.stopPropagation()">TikTok is going after Yelp and Google Maps with an in-app restaurant guide</a></div>
+      <div class="item-title-zh">TikTok 推出应用内餐厅指南，挑战 Yelp 和 Google 地图</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">tiktok · app · socialmedia</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">TikTok is launching &#x27;Must Eat,&#x27; a restaurant guide powered by its vast library of user content. This feature directly competes with established discovery platforms like Yelp and Google Maps.</p>
+      <p class="summary-zh">TikTok 即将推出名为“Must Eat”的餐厅指南，依托其庞大的用户内容库。此功能将直接挑战 Yelp 和 Google 地图等成熟的发现平台。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;amazon&quot;, &quot;echo&quot;, &quot;hardware&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1020388/inside-amazons-echo-hardware-event" target="_blank" rel="noopener" onclick="event.stopPropagation()">Inside Amazon’s Echo hardware event</a></div>
+      <div class="item-title-zh">亚马逊 Echo 硬件发布会内幕</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">amazon · echo · hardware</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Amazon has pivoted from a single large hardware event to smaller, frequent product announcements throughout October. Recent releases include a wide range of devices from Kindles to smart locks.</p>
+      <p class="summary-zh">亚马逊已将其年度大型硬件发布会改为十月份分散的多次小型发布。近期产品涵盖从 Kindle 到智能门锁的各类设备。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="TECH" data-tags="[&quot;productivity&quot;, &quot;tips&quot;, &quot;design&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1252647#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享发现] [分享发现] 答辩前收到一张 PDF 路线图，我是怎么改成自己的模板的</a></div>
+      <div class="item-title-zh">答辩前收到一张 PDF 路线图，我是怎么改成自己的模板的</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">productivity · tips · design</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A student shares a workflow for converting static PDF diagrams into editable templates for academic presentations. This process improves visual quality and flexibility for repeated revisions.</p>
+      <p class="summary-zh">一名学生分享了如何将静态 PDF 图表转换为可编辑模板以用于学术演示的工作流程。该过程提高了演示文稿的视觉质量和反复修改的灵活性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="TECH" data-tags="[&quot;amazon&quot;, &quot;echo&quot;, &quot;retail&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/gadgets/1019686/amazon-echo-dot-studio-camera-frame-show-16-buy" target="_blank" rel="noopener" onclick="event.stopPropagation()">Almost all of Amazon’s new Echo gear is available now</a></div>
+      <div class="item-title-zh">亚马逊几乎所有新的 Echo 设备现已上市</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">amazon · echo · retail</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Amazon has released its latest suite of Echo hardware products to the market. The company is emphasizing a strategy of individual, focused product launches.</p>
+      <p class="summary-zh">亚马逊已将其最新的 Echo 硬件产品投放市场。公司正在强调单一、专注的产品发布战略。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;nvidia&quot;, &quot;ai&quot;, &quot;growth&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4958511-nvidia-may-actually-raise-its-70-percent-growth-guide-in-november?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Nvidia May Actually Raise Its 70% Growth Guide In November</a></div>
+      <div class="item-title-zh">英伟达可能在十一月上调70%的增长指引</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · ai · growth</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Nvidia is expected to potentially raise its growth forecast beyond 70% in November. This adjustment would reflect strong demand for its AI hardware.</p>
+      <p class="summary-zh">英伟达预计在十一月将其增长指引提升至70%以上。这一潜在调整反映了市场对人工智能硬件的强劲需求。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;bnp&quot;, &quot;earnings&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4958552-bnp-paribas-sa-2026-q3-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">BNP Paribas SA 2026 Q3 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">法国巴黎银行 2026 年第三季度业绩说明会报告</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">bnp · earnings · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">BNP Paribas released its financial performance results for the third quarter of 2026. The presentation highlights the bank&#x27;s strategic growth and operational efficiency.</p>
+      <p class="summary-zh">法国巴黎银行发布了 2026 年第三季度的财务报告。会议展示了银行在战略增长与运营效率方面的表现。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;earnings&quot;, &quot;finance&quot;, &quot;results&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4958550-clean-harbors-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Clean Harbors, Inc. 2026 Q3 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">Clean Harbors, Inc. 2026 年第三季度业绩说明会报告</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">earnings · finance · results</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Clean Harbors reported its financial results for Q3 2026 during an earnings call presentation. The report provides insights into their current service performance and market standing.</p>
+      <p class="summary-zh">Clean Harbors 发布了 2026 年第三季度的财报演示文稿。报告深入分析了公司当前的业务表现及市场地位。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;stock&quot;, &quot;ttm&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4958501-ttm-technologies-the-market-is-punishing-the-cash-flow-but-the-stock-is-in-an-interesting-zone?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">TTM Technologies: The Market Is Punishing The Cash Flow, But The Stock Is In An Interesting Zone</a></div>
+      <div class="item-title-zh">TTM Technologies：市场因现金流惩罚该公司，但该股处于有趣区间</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stock · ttm · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Despite market concerns over TTM Technologies&#x27; cash flow, the stock is considered to be in an attractive valuation zone. Analysts suggest it may offer potential value for investors.</p>
+      <p class="summary-zh">尽管市场对 TTM Technologies 的现金流存有疑虑，但该股目前被认为处于有吸引力的估值区间。分析师建议投资者关注其潜在价值。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;symrise&quot;, &quot;earnings&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4958549-symrise-ag-2026-q3-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Symrise AG 2026 Q3 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">Symrise AG 2026 年第三季度业绩说明会报告</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">symrise · earnings · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Symrise AG presented its third-quarter financial outcomes for 2026 in a formal earnings call. The session covered key performance indicators and future outlooks.</p>
+      <p class="summary-zh">Symrise AG 在正式财报会议中展示了 2026 年第三季度的财务表现。会议涵盖了关键绩效指标及未来展望。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;bonds&quot;, &quot;retirement&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Want guaranteed income in retirement without an annuity? Try laddering I bonds.</a></div>
+      <div class="item-title-zh">想在退休后获得保证收入但不想买年金？试试阶梯式 I 债券。</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">bonds · retirement · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Laddering I bonds is suggested as a method to secure retirement income without purchasing an annuity. While rates may fluctuate, the strategy remains a viable option for stable returns.</p>
+      <p class="summary-zh">阶梯式投资 I 债券被建议作为无需购买年金即可确保退休收入的方法。尽管利率可能波动，但该策略仍是获得稳定回报的可行选择。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;finance&quot;, &quot;investing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/11-bargain-priced-stocks-of-companies-that-have-huge-growth-potential-over-the-next-two-years-d62618e6?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">11 bargain-priced stocks of companies that have huge growth potential over the next two years</a></div>
+      <div class="item-title-zh">11 只未来两年具有巨大增长潜力的低价股票</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · finance · investing</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Financial analysis identifies 11 stocks currently trading at low price-to-earnings ratios that are projected to experience high revenue growth through 2028. These companies represent significant investment potential.</p>
+      <p class="summary-zh">金融分析指出 11 只当前市盈率较低但预计到 2028 年将实现高营收增长的股票。这些公司展现出了巨大的投资潜力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="FINA" data-tags="[&quot;vertiv&quot;, &quot;ai&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/vertiv-earnings-just-sent-an-upbeat-signal-about-ai-ahead-of-big-tech-results-5714a105?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results</a></div>
+      <div class="item-title-zh">Vertiv 财报发出 AI 前景乐观信号，领先于大型科技公司发布</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">vertiv · ai · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Vertiv&#x27;s strong sales figures suggest that the AI infrastructure expansion is accelerating. This upbeat report serves as a positive indicator for the broader tech sector before major earnings.</p>
+      <p class="summary-zh">Vertiv 强劲的销售业绩表明 AI 基础设施的扩张正在加速。这份乐观报告为各大科技公司发布财报前的整个行业释放了积极信号。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;aerogel&quot;, &quot;environment&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596016-super-insulating-solid-may-soon-offer-a-net-zero-solution-for-tricky-homes/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Super-insulating solid may soon help old homes reach net-zero goals</a></div>
+      <div class="item-title-zh">超绝缘固体或将帮助旧房实现净零排放目标</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">aerogel · environment · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Aerogel-based materials are being explored as a revolutionary insulation solution for old homes in Europe. This technology could play a significant role in achieving net-zero carbon goals.</p>
+      <p class="summary-zh">基于气凝胶的材料正作为旧房绝缘的革命性方案在欧洲被研究。该技术可能在实现净零碳目标方面发挥重要作用。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;biology&quot;, &quot;consciousness&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ceasefire extended across Ukraine&#x27;s Kherson region, officials say</a></div>
+      <div class="item-title-zh">蜜蜂也有感情的认知正在改变我们对意识的看法</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">BBC &middot; 15h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · biology · consciousness</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">New observations of emotional behavior in insects are challenging traditional views of consciousness. These findings suggest that consciousness may be more widespread in the animal kingdom than previously believed.</p>
+      <p class="summary-zh">对昆虫情感行为的新观察正挑战着传统的意识观念。这些发现暗示，意识在动物界可能比之前认为的更为普遍。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="WORLD" data-tags="[&quot;ice&quot;, &quot;surveillance&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/" target="_blank" rel="noopener" onclick="event.stopPropagation()">ICE Is Running One of the Largest Anti-Left Surveillance Ops in US History</a></div>
+      <div class="item-title-zh">ICE 正在执行美国历史上规模最大的反左翼监视行动之一</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ice · surveillance · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Reports indicate that the U.S. Immigration and Customs Enforcement agency is conducting extensive surveillance operations targeting left-wing groups. The scale of these activities is unprecedented in modern history.</p>
+      <p class="summary-zh">报道显示，美国移民及海关执法局（ICE）正开展针对左翼团体的大规模监视行动。这些活动的规模在现代历史上是前所未有的。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;accident&quot;, &quot;train&quot;, &quot;spain&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash" target="_blank" rel="noopener" onclick="event.stopPropagation()">Two high-speed trains collide near Toledo, Spain</a></div>
+      <div class="item-title-zh">两列高速火车在西班牙托莱多附近相撞</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">accident · train · spain</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A collision involving two high-speed trains occurred near Toledo, Spain. Emergency services are currently responding to the incident.</p>
+      <p class="summary-zh">在西班牙托莱多附近发生了两列高速火车相撞的事故。紧急救援服务部门目前正在处理该事件。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;travel&quot;, &quot;shipping&quot;, &quot;economy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Luxury cruise passengers stranded in Cambodia due to soaring fuel costs</a></div>
+      <div class="item-title-zh">豪华游轮乘客因燃料成本飙升被困在柬埔寨</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">travel · shipping · economy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Villa Vie Odyssey cruise ship has halted its voyage due to escalating fuel costs. Passengers are currently working with the operator on alternative living arrangements.</p>
+      <p class="summary-zh">由于燃料成本飙升，Villa Vie Odyssey 号游轮已暂停航行。乘客目前正与运营商协商临时居住安排。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;energy&quot;, &quot;tanzania&quot;, &quot;gas&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Tanzania celebrates first natural gas discovery in more than 10 years</a></div>
+      <div class="item-title-zh">坦桑尼亚庆祝十多年来首次天然气发现</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">energy · tanzania · gas</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Tanzania has announced a significant natural gas discovery, marking a major milestone for the nation&#x27;s energy sector. Officials hope this will boost the domestic economy.</p>
+      <p class="summary-zh">坦桑尼亚宣布发现重大天然气资源，这是该国能源行业的一个重要里程碑。官员们希望此举能提振国内经济。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;serbia&quot;, &quot;security&quot;, &quot;incident&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Serbian shot dead after attacking officer outside Israeli embassy, minister says</a></div>
+      <div class="item-title-zh">塞尔维亚男子在以色列大使馆外袭击警察后被枪杀</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">serbia · security · incident</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A minor in Belgrade was shot dead by police after attacking an officer guarding the Israeli embassy. The individual had been under security surveillance prior to the incident.</p>
+      <p class="summary-zh">贝尔格莱德一名未成年人在袭击看守以色列大使馆的警官后被警察击毙。该个体在事件发生前一直处于安全部门的监控中。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;kenya&quot;, &quot;law&quot;, &quot;justice&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmly073ql392o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman</a></div>
+      <div class="item-title-zh">肯尼亚对前英国士兵谋杀案引渡听证会推迟感到愤怒</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">kenya · law · justice</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The family of a woman allegedly murdered by a former British soldier is protesting the postponement of an extradition hearing to 2027. No official reason has been provided for this significant delay.</p>
+      <p class="summary-zh">因不满前英国士兵谋杀案引渡听证会被推迟至 2027 年，受害者家属表示抗议。目前针对这一重大延误尚无官方说明。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;ceasefire&quot;, &quot;conflict&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/117684" target="_blank" rel="noopener" onclick="event.stopPropagation()">派早报：Apple 发布 M6 版 iMac 和 MacBook Pro 等</a></div>
+      <div class="item-title-zh">乌克兰赫尔松地区的停火协议延长，官员称</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">少数派 &middot; 13h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · ceasefire · conflict</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A ceasefire intended for stranded residents in the Oleshky region of Ukraine has been extended. Both parties report no breaches of the agreement to date.</p>
+      <p class="summary-zh">乌克兰 Oleshky 地区为受困居民制定的停火协议已得到延长。双方目前均未报告任何违反协议的情况。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">31 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">13:42 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+<a class="archive-date" href="/archive/2026-10-14.html">2026-10-14</a>
+<a class="archive-date" href="/archive/2026-10-13.html">2026-10-13</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-28';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
