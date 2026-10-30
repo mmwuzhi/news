@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">32</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">3</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">5</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">8</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-10-30 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Fri Oct 30 2026 &middot; 32 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;astra&quot;, &quot;ai&quot;, &quot;productivity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1253300#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[OpenAI] astra 的智商</a></div>
+      <div class="item-title-zh">OpenAI 的 Astra 智商</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · astra · ai · productivity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user expressed frustration after their AI assistant mistakenly sent emails to competitors instead of professional institutions. This highlights the ongoing challenges in AI accuracy for complex, multi-step professional tasks.</p>
+      <p class="summary-zh">用户在使用 AI 辅助工作时，由于 AI 误将邮件发送给同行而非相关机构而感到愤怒。这反映了当前 AI 在处理复杂职场任务时仍面临严峻的准确性挑战。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;programming&quot;, &quot;career&quot;, &quot;automation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1253298#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[问与答] 所以其实是工程师造出来 AI，然后 AI 反噬，把程序员这个行业消灭掉？</a></div>
+      <div class="item-title-zh">AI 反噬论：程序员行业会被 AI 消灭吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · programming · career · automation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Discussions on tech forums reflect irony in the potential for engineers to create the very tools that might automate their own profession. The concern centers on whether AI evolution will eventually lead to the displacement of human developers.</p>
+      <p class="summary-zh">技术社区讨论了工程师亲手制造 AI 工具并最终可能导致自身职业被取代的讽刺现象。核心担忧在于 AI 进化是否会导致人类开发者被淘汰。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;sam-altman&quot;, &quot;math&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop</a></div>
+      <div class="item-title-zh">山姆·奥特曼：理解数学家的困扰，但 AI 的攻势不会停</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · sam-altman · math · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">OpenAI CEO Sam Altman acknowledges the disruption caused to mathematicians by AI-generated results but insists the rapid pace of development will continue. He hints at more major discoveries coming from the company&#x27;s internal research.</p>
+      <p class="summary-zh">OpenAI CEO 山姆·奥特曼承认 AI 生成的成果给数学家带来了困扰，但坚持称研发步伐不会放缓。他暗示公司内部研究将带来更多重大发现。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="TECH" data-tags="[&quot;intel&quot;, &quot;earnings&quot;, &quot;semiconductor&quot;, &quot;investing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4960171-intel-im-considering-doubling-down-earnings-review?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Intel: I&#x27;m Considering Doubling Down (Earnings Review)</a></div>
+      <div class="item-title-zh">英特尔：我正在考虑加码（财报回顾）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">intel · earnings · semiconductor · investing</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Following its latest earnings review, Intel management is contemplating doubling down on its strategic investments. This shift reflects the company&#x27;s attempt to navigate competitive pressures in the semiconductor sector.</p>
+      <p class="summary-zh">在最新财报回顾后，英特尔管理层正考虑加大战略投资力度。此举反映了该公司应对半导体领域竞争压力的应对策略。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;amd&quot;, &quot;intel&quot;, &quot;stocks&quot;, &quot;semiconductor&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">AMD’s stock slides after Intel earnings reveal two big issues</a></div>
+      <div class="item-title-zh">AMD 股价下滑，英特尔财报暴露两大隐患</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">amd · intel · stocks · semiconductor</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">AMD stock fell following Intel&#x27;s earnings report, which highlighted significant challenges in AI server chip production and a declining PC market. Investors are now questioning if AMD faces similar fundamental headwinds.</p>
+      <p class="summary-zh">在英特尔财报披露其 AI 服务器芯片生产受阻及 PC 市场疲软后，AMD 股价随之下滑。投资者开始质疑 AMD 是否也面临类似的根本性困难。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;ai&quot;, &quot;workflow&quot;, &quot;opensource&quot;, &quot;productivity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1253296#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 做了个 mydash： Claude Code / Codex 产出的方案、报告、PDF、网页原型，在手机上直接看（自托管，开源）</a></div>
+      <div class="item-title-zh">分享：mydash —— 手机查看 AI 产出方案</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · workflow · opensource · productivity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Mydash is a new self-hosted tool that allows users to view AI-generated reports, PDFs, and prototypes on mobile devices efficiently. It streamlines the workflow by syncing content from terminal sessions directly to a mobile-friendly dashboard.</p>
+      <p class="summary-zh">Mydash 是一款自托管工具，支持用户在手机上高效查看 AI 生成的方案、报告和原型。它通过将终端会话内容同步至移动端仪表板，简化了工作流程。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;iphone&quot;, &quot;ios&quot;, &quot;critique&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1253295#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Apple] 不得不说，苹果最近几款产品都不尽如人意</a></div>
+      <div class="item-title-zh">苹果近几款产品令人失望</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · iphone · ios · critique</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author critiques recent Apple products, citing poor durability, lackluster performance in Duo devices, and confusing branding decisions. Concerns are also raised regarding the stagnation of iOS and its future security in the AI era.</p>
+      <p class="summary-zh">作者批评了苹果近期产品，指出其耐用性差、Duo 设备性能平庸及品牌决策混乱。文章还对 iOS 的创新停滞及其在 AI 时代的安全性表示担忧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;smart-home&quot;, &quot;amazon&quot;, &quot;hardware&quot;, &quot;gadgets&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1022592/apple-homeview-amazon-echo-show-16-smart-display-family-computer" target="_blank" rel="noopener" onclick="event.stopPropagation()">The HomeView and Echo Show 16 could be the family computers I’ve been asking for</a></div>
+      <div class="item-title-zh">HomeView 和 Echo Show 16 会是理想的家庭电脑吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">smart-home · amazon · hardware · gadgets</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">New smart displays are being repositioned as potential central hubs for families, addressing previous criticisms of underpowered hardware. These devices aim to finally fulfill the promise of a functional, dedicated family computing tool.</p>
+      <p class="summary-zh">新型智能显示器正被重新定位为潜在的家庭中心，解决了以往硬件性能不足的批评。这些设备旨在实现家庭计算工具的功能性承诺。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;crypto&quot;, &quot;security&quot;, &quot;theft&quot;, &quot;blockchain&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596706-how-did-the-biggest-crypto-heist-in-history-just-happen/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">How did the biggest crypto heist in history just happen?</a></div>
+      <div class="item-title-zh">史上最大加密货币盗窃案是如何发生的？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">New Scientist &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">crypto · security · theft · blockchain</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers are investigating a massive multi-billion dollar cryptocurrency heist that occurred within minutes. The analysis aims to uncover the technical vulnerabilities that allowed such an unprecedented theft.</p>
+      <p class="summary-zh">研究人员正在调查一起在几分钟内损失数十亿美元的加密货币盗窃案。该分析旨在揭示导致如此前所未有的盗窃行为的技术漏洞。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;duo&quot;, &quot;productivity&quot;, &quot;hardware&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1022894/iphone-duo-apple-pencil-hands-on" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Apple Pencil turned the Duo into my new favorite notebook</a></div>
+      <div class="item-title-zh">Apple Pencil 让 Duo 成为我最爱的笔记本</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · duo · productivity · hardware</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author finds that using the Apple Pencil with the Duo tablet creates an unexpectedly excellent notebook replacement. It highlights how high-end tech can serve simple, personal productivity needs effectively.</p>
+      <p class="summary-zh">作者发现将 Apple Pencil 与 Duo 平板搭配使用，能创造出意想不到的优秀笔记本替代品。文章强调了高端科技如何有效服务于简单且个性化的生产力需求。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;macbook&quot;, &quot;laptop&quot;, &quot;hardware&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1022628/apple-macbook-pro-proled-xdr-touchscreen-oled-impressions-totally-normal" target="_blank" rel="noopener" onclick="event.stopPropagation()">The touchscreen MacBook Pro is just a MacBook Pro with a touchscreen</a></div>
+      <div class="item-title-zh">触摸屏 MacBook Pro：正如其名，仅是带触屏的 Pro</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · macbook · laptop · hardware</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Apple’s latest MacBook Pro features a touchscreen, a feature once dismissed by company leadership. Initial impressions suggest that while the screen is high quality, the overall experience remains remarkably similar to traditional laptops.</p>
+      <p class="summary-zh">苹果最新的 MacBook Pro 加入了触屏功能，这一曾被苹果高管否定的特性最终落地。初步体验显示，尽管屏幕质量出色，但整体使用感与传统笔记本几乎无异。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="FINA" data-tags="[&quot;economy&quot;, &quot;debt&quot;, &quot;finance&quot;, &quot;voters&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/the-cost-of-money-itself-is-on-the-ballot-as-voters-struggle-with-pricey-car-loans-mortgages-and-credit-card-debt-c2cd83a0?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">The cost of money itself is on the ballot as voters struggle with pricey car loans, mortgages and credit-card debt</a></div>
+      <div class="item-title-zh">债务成本成为选民关注焦点</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">economy · debt · finance · voters</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Nearly 90% of voters are concerned that rising national debt is directly impacting their personal borrowing costs for essentials like mortgages and car loans. Economic pressure remains a top issue for the electorate.</p>
+      <p class="summary-zh">近 90% 的选民担心国家债务正在加剧个人贷款压力，如房贷和车贷成本上升。经济负担已成为当前选民最关心的核心议题。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;emcor&quot;, &quot;earnings&quot;, &quot;stocks&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4960172-emcor-group-another-earnings-beat-could-provide-a-floor?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">EMCOR Group: Another Earnings Beat Could Provide A Floor</a></div>
+      <div class="item-title-zh">EMCOR Group：再次超出预期的盈利能否提供支撑？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">emcor · earnings · stocks · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">EMCOR Group&#x27;s consistent earnings beats are being analyzed by investors as a potential floor for its stock valuation. Analysts remain focused on whether financial performance can sustain current market optimism.</p>
+      <p class="summary-zh">投资者正在关注 EMCOR Group 持续超预期的盈利是否能为其股价提供底部支撑。市场分析师重点考量其财务表现能否维持当前的乐观情绪。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;autonation&quot;, &quot;earnings&quot;, &quot;finance&quot;, &quot;automotive&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4960208-autonation-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">AutoNation, Inc. 2026 Q3 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">AutoNation, Inc. 2026 年第三季度财报会议演示</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">autonation · earnings · finance · automotive</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">AutoNation presented its Q3 2026 earnings results, highlighting financial performance metrics and operational updates. The report serves as a key communication tool for investors evaluating the company&#x27;s fiscal trajectory.</p>
+      <p class="summary-zh">AutoNation 发布了 2026 年第三季度财报，重点介绍了财务指标及业务进展。该演示文稿为投资者评估公司财务轨迹提供了重要参考。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;general-dynamics&quot;, &quot;earnings&quot;, &quot;defense&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4960204-general-dynamics-corporation-2026-q3-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">General Dynamics Corporation 2026 Q3 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">通用动力公司 2026 年第三季度财报会议演示</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">general-dynamics · earnings · defense · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">General Dynamics outlined its Q3 2026 financial results during an earnings call presentation. The disclosure focuses on defense contract performance and future growth projections for the corporation.</p>
+      <p class="summary-zh">通用动力在财报会议中概述了其 2026 年第三季度财务业绩。此次披露重点关注了国防合同表现及公司未来增长预期。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;daiichi-sankyo&quot;, &quot;pharma&quot;, &quot;earnings&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4960123-daiichi-sankyo-company-limited-dsnky-q2-2026-earnings-call-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Daiichi Sankyo Company, Limited (DSNKY) Q2 2026 Earnings Call Transcript</a></div>
+      <div class="item-title-zh">第一三共制药 2026 年第二季度财报电话会议记录</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">daiichi-sankyo · pharma · earnings · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Q2 2026 earnings call for Daiichi Sankyo provided detailed insights into its pharmaceutical portfolio and regional market performance. Stakeholders are evaluating the impact of recent clinical developments on long-term growth.</p>
+      <p class="summary-zh">第一三共制药的财报电话会议详细介绍了其医药组合及区域市场表现。利益相关者正在评估近期临床进展对公司长期增长的影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;credit-cards&quot;, &quot;debt&quot;, &quot;interest-rates&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/this-credit-card-is-the-best-weapon-to-fight-debt-while-interest-rates-keep-climbing-8378fcf2?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">This credit card is the ‘best weapon’ to fight debt while interest rates keep climbing</a></div>
+      <div class="item-title-zh">应对债务的信用卡选择</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · credit-cards · debt · interest-rates</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">As interest rates climb, experts suggest choosing the right credit card to mitigate debt burdens for consumers. Selecting a strategic card is framed as a key tool for managing personal finance in a tightening economy.</p>
+      <p class="summary-zh">随着利率不断上升，专家建议通过选择合适的信用卡来减轻债务负担。在紧缩的经济环境下，采取策略性的用卡方式被视为管理个人财务的关键手段。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;silicon-valley&quot;, &quot;investing&quot;, &quot;tech&quot;, &quot;risks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Silicon Valley wants you to invest in miracles</a></div>
+      <div class="item-title-zh">硅谷希望你投资于奇迹</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">silicon-valley · investing · tech · risks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Investing in Silicon Valley tech is described as a gamble on whether firms will create world-changing miracles or catastrophic risks. This piece examines the high-stakes nature of betting on speculative future technologies.</p>
+      <p class="summary-zh">在硅谷，投资科技被形容为一场赌局，赌的是公司将创造奇迹还是带来灾难性风险。本文探讨了押注投机性未来技术的极高风险性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;ai&quot;, &quot;politics&quot;, &quot;economy&quot;, &quot;regulation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead" target="_blank" rel="noopener" onclick="event.stopPropagation()">US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech</a></div>
+      <div class="item-title-zh">美国议员发起决议，反对政府救助 AI 泡沫</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · politics · economy · regulation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Democratic representatives have introduced a resolution to prevent taxpayer money from bailing out Big Tech during a potential AI bubble burst. The move reflects growing legislative skepticism toward current AI industry investments.</p>
+      <p class="summary-zh">美国民主党议员提出一项决议，旨在防止在 AI 泡沫破裂时动用纳税人的钱救助大型科技公司。此举反映了立法机构对当前 AI 投资热潮的日益怀疑。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="SCI" data-tags="[&quot;biotech&quot;, &quot;environment&quot;, &quot;glp1&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals</a></div>
+      <div class="item-title-zh">简报：GLP-1 药物、自知之明城市与永久化学物质</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biotech · environment · glp1 · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This technology newsletter highlights the rise of eating disorders linked to GLP-1 drugs and the emergence of self-aware urban environments. It also covers the ongoing environmental impact of forever chemicals.</p>
+      <p class="summary-zh">本期科技简报重点关注了与 GLP-1 药物相关的进食障碍，以及具备“自知之明”城市的发展。同时讨论了永久化学物质带来的持续环境影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;nutrition&quot;, &quot;health&quot;, &quot;food&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596529-scientists-have-discovered-a-completely-free-way-to-eat-more-fibre/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Scientists confirm fruit and vegetable skin really is good for you</a></div>
+      <div class="item-title-zh">科学家证实果蔬皮确实有益健康</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · nutrition · health · food</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Research indicates that vegetable and fruit skins often discarded by consumers contain higher fiber content than the edible flesh. Scientists encourage consuming these parts to maximize nutritional intake.</p>
+      <p class="summary-zh">研究表明，消费者通常丢弃的果蔬皮含有比果肉更高的纤维素。科学家建议食用这些部位以实现营养摄入最大化。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;sci-fi&quot;, &quot;science&quot;, &quot;space&quot;, &quot;books&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596453-in-dark-eden-i-imagined-how-life-might-exist-on-a-sunless-planet/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">In Dark Eden, I imagined how life might exist on a sunless planet</a></div>
+      <div class="item-title-zh">在《暗影伊甸园》中构思无日行星的生存环境</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">sci-fi · science · space · books</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Author Chris Beckett explains the scientific considerations behind the rogue planet setting in his novel Dark Eden. The book explores how life might evolve on a world drifting in deep space without a star.</p>
+      <p class="summary-zh">作家克里斯·贝克特阐述了小说《暗影伊甸园》中流浪行星背景背后的科学思考。书中探讨了在没有恒星的深空行星上生命可能如何进化。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;biotech&quot;, &quot;psychology&quot;, &quot;glp1&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Eating disorders are on the rise. GLP-1s could make things worse.</a></div>
+      <div class="item-title-zh">进食障碍增加，GLP-1 药物可能雪上加霜</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · biotech · psychology · glp1</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Clinical reports indicate a 71% rise in eating disorders like anorexia and bulimia, with concerns that the obsession surrounding GLP-1 weight-loss drugs may worsen these trends. Psychologists warn of the hidden social and health costs of this biotech breakthrough.</p>
+      <p class="summary-zh">临床报告显示厌食症和暴食症增加了 71%，人们担心对 GLP-1 减肥药的痴迷可能加剧这一趋势。心理学家警告称，这一生物技术突破背后存在隐性的社会与健康代价。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;physics&quot;, &quot;science&quot;, &quot;math&quot;, &quot;quantum&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596640-reverse-physics-could-help-bridge-the-classical-and-quantum-worlds/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘Reverse physics’ could help bridge the classical and quantum worlds</a></div>
+      <div class="item-title-zh">“反向物理”：架起古典与量子世界的桥梁</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">physics · science · math · quantum</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Physicists are attempting to derive physical laws from mathematics first, rather than following the traditional observation-first model. This &#x27;reverse physics&#x27; approach aims to unify our understanding of classical and quantum mechanics.</p>
+      <p class="summary-zh">物理学家正尝试从数学推导出物理定律，而非遵循传统的先观察后建模模式。这种“反向物理”方法旨在统一我们对古典和量子力学的理解。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="WORLD" data-tags="[&quot;usa&quot;, &quot;execution&quot;, &quot;crime&quot;, &quot;justice&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">US inmate Christa Pike says she woke up &#x27;confused and in pain&#x27; after failed execution</a></div>
+      <div class="item-title-zh">美国囚犯克里斯塔·派克讲述行刑失败经历</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">usa · execution · crime · justice</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Christa Pike made her first public statement after surviving a lethal injection execution attempt in September. She described waking up feeling confused and in pain following the failed procedure.</p>
+      <p class="summary-zh">克里斯塔·派克在九月经历死刑注射失败后首次公开发声。她描述了自己在行刑后醒来时感到困惑和剧痛的经历。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;beijing&quot;, &quot;cars&quot;, &quot;license-plate&quot;, &quot;market&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1253297#reply2" target="_blank" rel="noopener" onclick="event.stopPropagation()">[北京] 北京车牌有没有指标过户</a></div>
+      <div class="item-title-zh">北京车牌指标过户咨询</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">beijing · cars · license-plate · market</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user is inquiring about the market rates and processes for transferring Beijing car license plate indicators. The discussion highlights concerns regarding transparency in the middleman-heavy transfer market.</p>
+      <p class="summary-zh">用户咨询北京车牌指标过户的市场行情及流程。讨论反映了公众对于此类中介主导的交易市场透明度的担忧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;gen-z&quot;, &quot;politics&quot;, &quot;economics&quot;, &quot;lifestyle&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/gen-z-voters-told-us-the-midterms-will-boil-down-to-affording-life-not-social-issues-11bd1734?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Gen Z voters told us the midterms boil down to affording life, as social causes take a back seat</a></div>
+      <div class="item-title-zh">Z 世代选民：生存成本优先于社会议题</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">gen-z · politics · economics · lifestyle</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Younger voters indicate that their primary concerns revolve around the affordability of life, often deprioritizing abstract social causes. The feeling that traditional life goals are unattainable is a central theme for this demographic.</p>
+      <p class="summary-zh">年轻选民表示，他们的首要关切是生活成本，社会议题往往被置于次要位置。实现传统生活目标困难重重是这一群体的主要心声。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;alzheimers&quot;, &quot;caregiving&quot;, &quot;finance&quot;, &quot;ethics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">My father has early Alzheimer’s and his caregiver is using his debit card for DoorDash. What can I do?</a></div>
+      <div class="item-title-zh">父亲患有阿尔茨海默症，照顾者滥用卡片怎么办？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">alzheimers · caregiving · finance · ethics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A caregiver is reportedly using an Alzheimer’s patient&#x27;s debit card for personal food delivery, raising ethical and financial concerns. The family member is seeking advice on how to legally and safely address this potential exploitation.</p>
+      <p class="summary-zh">一名照顾者被指控盗刷阿尔茨海默症患者的借记卡订购外卖，引发了道德与财务方面的担忧。家属正在寻求合法且安全的解决途径。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;spain&quot;, &quot;transportation&quot;, &quot;accident&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Spain transport minister says he won&#x27;t resign over high-speed rail disaster</a></div>
+      <div class="item-title-zh">西班牙交通部长拒绝为高铁事故辞职</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">spain · transportation · accident · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Transport Minister Óscar Puente faces backlash and calls for resignation following a high-speed train collision that claimed 69 lives. Despite the tragedy, he has stated he will remain in his position.</p>
+      <p class="summary-zh">在造成 69 人死亡的高铁碰撞事故后，交通部长 Óscar Puente 面临辞职压力。尽管惨剧发生，他仍表示不会辞职。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;russia&quot;, &quot;evacuation&quot;, &quot;war&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens</a></div>
+      <div class="item-title-zh">奥列什基居民撤离：战火下的生死抉择</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · russia · evacuation · war</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Residents of the Russian-occupied town of Oleshky are evacuating through a new corridor despite widespread destruction. Hundreds remain behind in the frontline zone, living without essential utilities like gas and water.</p>
+      <p class="summary-zh">尽管遭受严重破坏，俄罗斯占领区奥列什基镇的居民正通过新走廊撤离。仍有数百人留在这片缺乏水电气的战火前线区域。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;movies&quot;, &quot;dune&quot;, &quot;entertainment&quot;, &quot;culture&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/117867" target="_blank" rel="noopener" onclick="event.stopPropagation()">本周看什么 | 最近值得一看的 9 部作品</a></div>
+      <div class="item-title-zh">本周看什么 | 9 部值得一看的作品推荐</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">少数派 &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">movies · dune · entertainment · culture</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A curated list of nine media works for the week, including the highly anticipated final trailer for Dune 3. These recommendations provide a cultural overview for readers seeking quality entertainment.</p>
+      <p class="summary-zh">本周精选了九部值得观赏的作品，包括备受期待的《沙丘 3》终极预告。这份推荐清单为追求高质量娱乐内容的读者提供了文化导向。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;books&quot;, &quot;fiction&quot;, &quot;sci-fi&quot;, &quot;space&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596432-read-an-extract-from-dark-eden-by-chris-beckett/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Read an extract from Dark Eden by Chris Beckett</a></div>
+      <div class="item-title-zh">《暗影伊甸园》片段赏析</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">New Scientist &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">books · fiction · sci-fi · space</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An excerpt from the New Scientist Book Club selection, Dark Eden, introduces the inhabitants of a dark planet. These characters are the descendants of stranded astronauts living in a sunless world.</p>
+      <p class="summary-zh">本文摘选自《新科学家》图书俱乐部推荐读物《暗影伊甸园》，介绍了这颗黑暗行星上的居民。这些角色是生活在无日世界的遇难宇航员后代。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">32 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">13:45 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+<a class="archive-date" href="/archive/2026-10-15.html">2026-10-15</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-10-30';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
