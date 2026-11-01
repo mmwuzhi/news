@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">32</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">2</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">6</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">8</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-11-01 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Sun Nov 01 2026 &middot; 32 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;video&quot;, &quot;startup&quot;, &quot;developer&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1253594#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[独立开发者 👨‍💻] 做了一个 AI 丧尸情侣视频生成网站，上传两张照片就能制作末日爱情短片</a></div>
+      <div class="item-title-zh">独立开发者：制作AI丧尸情侣视频生成网站</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · video · startup · developer</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer launched a website called Zombie Couple Video AI that generates 10-second romantic apocalypse short films using user-uploaded photos. The tool features preset scripts and audio, allowing users to create themed videos for $3.99 without a subscription.</p>
+      <p class="summary-zh">开发者推出了Zombie Couple Video AI网站，通过上传照片即可生成丧尸末日题材的浪漫爱情短片。用户支付3.99美元即可获得带有预设剧情和音轨的个性化视频。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;machinelearning&quot;, &quot;research&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://arxiv.org/abs/2610.39302" target="_blank" rel="noopener" onclick="event.stopPropagation()">Proving and Improving the Platonic Representation Hypothesis with JEPAs</a></div>
+      <div class="item-title-zh">利用JEPA证明并改进柏拉图表征假设</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · machinelearning · research</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This technical discussion focuses on leveraging Joint-Embedding Predictive Architectures (JEPAs) to validate the Platonic Representation Hypothesis. The researchers explore how these AI architectures can improve the quality of machine learning representations.</p>
+      <p class="summary-zh">该技术探讨了如何利用联合嵌入预测架构（JEPA）来验证柏拉图表征假设。研究人员分析了这些AI架构如何提升机器学习表征的质量。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="TECH" data-tags="[&quot;cloud&quot;, &quot;server&quot;, &quot;tencent&quot;, &quot;deals&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1253592#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[推广] [拼团] 双 11 服务器活动：境外 99 元/年、国内 4 核 109 元/年，还有 3 年 528 元方案</a></div>
+      <div class="item-title-zh">拼团推广：双11服务器活动优惠</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">cloud · server · tencent · deals</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Tencent Cloud has launched its Double 11 promotion, offering significant discounts on lightweight servers and CVM instances. The deals include low-cost annual plans for both international and domestic servers, with options for multi-year renewals.</p>
+      <p class="summary-zh">腾讯云开启双11促销活动，涵盖轻量服务器和CVM实例等多种产品。活动提供高性价比的境内外服务器年付方案，并设有新购及续费优惠。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="TECH" data-tags="[&quot;python&quot;, &quot;git&quot;, &quot;ide&quot;, &quot;programming&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1253591#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] 为 Rebase 狗尾续貂一个 Python 函数跳转功能</a></div>
+      <div class="item-title-zh">程序员：为Rebase工具增加Python函数跳转功能</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">python · git · ide · programming</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer utilized Codex to add a Python and JS/TS function navigation feature to the JetBrains-based Rebase tool. The resulting portable version improves the developer&#x27;s experience when reviewing code across different Git branches.</p>
+      <p class="summary-zh">开发者借助Codex为Rebase工具增加了Python及JS/TS函数跳转功能。这一优化提升了在不同Git分支间进行代码审查的效率。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;vpn&quot;, &quot;cloudflare&quot;, &quot;proxy&quot;, &quot;grok&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1253588#reply2" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 我发现 grokbot 竟然附赠了免费的翻墙方案</a></div>
+      <div class="item-title-zh">分享：发现grokbot内置免费翻墙方案</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">vpn · cloudflare · proxy · grok</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user discovered a method to utilize grokbot and Cloudflare Tunnels to create an unlimited bandwidth proxy. While slower than commercial VPNs, the setup offers a viable free alternative for internet access.</p>
+      <p class="summary-zh">用户分享了利用grokbot结合Cloudflare Tunnel搭建免费翻墙方案的方法。虽然速度不及商用梯子，但该方案具备不限流量的优势。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;gaming&quot;, &quot;zelda&quot;, &quot;gta&quot;, &quot;industry&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/column/1022402/new-zelda-and-gta-represent-a-games-industry-that-no-longer-exists" target="_blank" rel="noopener" onclick="event.stopPropagation()">New Zelda and GTA represent a games industry that no longer exists</a></div>
+      <div class="item-title-zh">新《塞尔达》与《GTA》反映了游戏产业的变迁</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">gaming · zelda · gta · industry</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The release of major titles like the new Zelda and GTA reflects a significant shift in the gaming industry. These games represent a legacy model that is increasingly rare in today&#x27;s digital-first, live-service market.</p>
+      <p class="summary-zh">《塞尔达》与《GTA》等大作的发布反映了游戏产业的深刻变迁。这些游戏所代表的传统开发模式在如今的服务型游戏中已变得越来越少见。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;policy&quot;, &quot;environment&quot;, &quot;datacenter&quot;, &quot;california&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy" target="_blank" rel="noopener" onclick="event.stopPropagation()">Prop 45 in California could be hiding a loophole for data centers</a></div>
+      <div class="item-title-zh">加州45号提案可能隐藏数据中心的漏洞</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">policy · environment · datacenter · california</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Environmental advocates are concerned that California&#x27;s Proposition 45 could be used by data center developers to bypass environmental scrutiny. The measure aims to expedite infrastructure, but critics fear it lacks sufficient public oversight.</p>
+      <p class="summary-zh">环保人士担忧加州45号提案可能成为数据中心开发商绕过环境审查的漏洞。该提案虽旨在加速基建，但批评者认为其缺乏必要的公众监管。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;retro&quot;, &quot;sharp&quot;, &quot;mobile&quot;, &quot;computing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/116991" target="_blank" rel="noopener" onclick="event.stopPropagation()">怀旧手记｜夏普 Telios：20 多年前，Handheld PC 中的「少数派」</a></div>
+      <div class="item-title-zh">怀旧手记：20多年前的夏普Telios</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">少数派 &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">retro · sharp · mobile · computing</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article looks back at the Sharp Telios, a unique Handheld PC from two decades ago. It explores the device&#x27;s design philosophy and its role in the early history of mobile computing.</p>
+      <p class="summary-zh">本文回顾了20年前的掌上电脑Sharp Telios。文章探讨了该设备独特的设计理念及其在早期移动计算史中的地位。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;youtube&quot;, &quot;horror&quot;, &quot;video&quot;, &quot;entertainment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/entertainment/1024096/halloween-spirit-youtube-horror" target="_blank" rel="noopener" onclick="event.stopPropagation()">Get in the spooky spirit with these horrors from YouTube</a></div>
+      <div class="item-title-zh">在YouTube上感受恐怖氛围的精选视频</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 16h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">youtube · horror · video · entertainment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">To celebrate the spooky season, this article features a curated list of creepy and surreal videos from YouTube. The collection ranges from independent horror shorts to cosmic-themed artistic experiments.</p>
+      <p class="summary-zh">为迎接恐怖季，本文精选了一系列YouTube上的诡异与超现实视频。内容涵盖了独立恐怖短片及宇宙主题的艺术实验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;hacker-news&quot;, &quot;video&quot;, &quot;community&quot;, &quot;web&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://karpathy.bearblog.dev/hacker-tube/" target="_blank" rel="noopener" onclick="event.stopPropagation()">HackerTube: YouTube built from videos recommended by HN</a></div>
+      <div class="item-title-zh">HackerTube：基于黑客新闻推荐构建的视频网站</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 18h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">hacker-news · video · community · web</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">HackerTube is a new platform that compiles videos specifically recommended by the Hacker News community. It serves as a centralized hub for discovering technical and intellectually stimulating content.</p>
+      <p class="summary-zh">HackerTube是一个新平台，汇集了黑客新闻（HN）社区推荐的视频内容。它已成为发现科技与深度思考类视频的重要枢纽。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="FINA" data-tags="[&quot;netflix&quot;, &quot;stocks&quot;, &quot;media&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4960719-netflixs-us-audience-engagement-problem-is-hurting-the-stock-rating-downgrade?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Netflix&#x27;s U.S. Audience Engagement Problem Is Hurting The Stock (Rating Downgrade)</a></div>
+      <div class="item-title-zh">Netflix美国用户参与度问题导致股票评级下调</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">netflix · stocks · media · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Netflix is facing a stock rating downgrade due to stagnating audience engagement metrics in the U.S. market. Analysts express concerns that declining viewer activity could negatively impact the company&#x27;s long-term financial growth.</p>
+      <p class="summary-zh">Netflix因美国市场观众参与度停滞而遭遇股票评级下调。分析师担忧用户活跃度下降将对其长期财务增长产生负面影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="FINA" data-tags="[&quot;realestate&quot;, &quot;reit&quot;, &quot;stocks&quot;, &quot;investment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4960720-cast-your-vote-on-nyc-real-estate-4-office-reits-to-consider?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Cast Your Vote On NYC Real Estate (4 Office REITs To Consider)</a></div>
+      <div class="item-title-zh">纽约房地产投资建议：考虑这4家办公房地产投资信托基金</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">realestate · reit · stocks · investment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This financial analysis evaluates four office REITs in New York, weighing the risks and opportunities of the current market. Investors are encouraged to consider these assets as part of a real estate diversification strategy.</p>
+      <p class="summary-zh">分析报告评估了纽约的四家办公房地产投资信托基金（REITs），分析了当前市场的风险与机遇。建议投资者将其作为房地产多元化配置的一部分。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;energy&quot;, &quot;finance&quot;, &quot;business&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4960716-advantage-energy-back-to-business-as-usual?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Advantage Energy: Back To Business As Usual</a></div>
+      <div class="item-title-zh">Advantage Energy：回归常态化经营</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">energy · finance · business</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Advantage Energy is refocusing on its core business operations as market conditions stabilize. The report details the company&#x27;s financial standing and operational outlook for the upcoming fiscal period.</p>
+      <p class="summary-zh">随着市场环境趋于稳定，Advantage Energy正回归核心业务经营。报告详细介绍了该公司的财务状况及未来经营展望。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;stocks&quot;, &quot;retail&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4960715-regency-centers-corporation-has-some-great-traits-but-not-great-enough-to-be-bullish-about?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Regency Centers Has Some Great Traits, But Not Great Enough To Be Bullish About</a></div>
+      <div class="item-title-zh">Regency Centers：具备优秀特质但尚不足以看涨</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · stocks · retail</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Despite some strong fundamentals, Regency Centers does not currently merit a bullish rating from market analysts. The report cites specific competitive pressures and valuation concerns as reasons for a neutral stance.</p>
+      <p class="summary-zh">尽管Regency Centers基础面良好，但分析师认为目前尚不足以看涨。报告指出竞争压力和估值问题是持中立态度的原因。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;politics&quot;, &quot;economy&quot;, &quot;trump&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/who-really-wins-under-trumps-economy-coastal-liberal-elites-who-hate-him-d74c63cb?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Who really wins under Trump’s economy? Coastal liberal elites who hate him.</a></div>
+      <div class="item-title-zh">特朗普的经济政策谁受益？讨厌他的沿海自由派精英</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">politics · economy · trump · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article suggests that Trump&#x27;s economic policies have disproportionately benefited coastal liberal elites rather than the intended Republican base. This unexpected outcome highlights the complexities of modern economic impact distribution.</p>
+      <p class="summary-zh">文章指出，特朗普的经济政策非但没惠及共和党基本盘，反而让沿海自由派精英获利颇丰。这一意外结果凸显了现代经济影响分配的复杂性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;election&quot;, &quot;finance&quot;, &quot;investment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4960314-fomo-rally-top-5-stocks-to-buy-ahead-of-2026-midterms?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">FOMO Rally: Top 5 Stocks To Buy Ahead Of 2026 Midterms</a></div>
+      <div class="item-title-zh">FOMO行情：2026年中期选举前值得购买的5只股票</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · election · finance · investment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">With the 2026 midterm elections approaching, investors are looking for growth opportunities driven by FOMO sentiment. This list highlights five stocks that may perform well under current market conditions.</p>
+      <p class="summary-zh">随着2026年中期选举临近，投资者正寻求FOMO情绪驱动下的增长机会。该榜单推荐了五只在当前市场环境下表现可能优异的股票。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;retirement&quot;, &quot;lifestyle&quot;, &quot;planning&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?</a></div>
+      <div class="item-title-zh">理财观念：有99%的几率活得比储蓄久，为何不花光它？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 18h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · retirement · lifestyle · planning</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An elderly couple discusses the philosophy of spending their life savings rather than hoarding it. With no children and good health, they weigh the merits of enjoying their remaining years versus traditional inheritance planning.</p>
+      <p class="summary-zh">一对高龄夫妇探讨了花光积蓄而非留遗产的理财观。在无子女且身体健康的情况下，他们正在权衡享受当下与传统规划的优劣。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;retirement&quot;, &quot;planning&quot;, &quot;career&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/the-house-the-kids-college-and-the-raise-where-people-in-their-30s-and-40s-go-wrong-69ec6c90?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">This is where most people go wrong in their 30s and 40s</a></div>
+      <div class="item-title-zh">退休建议：30岁到40岁的人最容易犯的错误</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 18h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · retirement · planning · career</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article outlines common life and financial decisions made during one&#x27;s 30s and 40s that negatively impact long-term retirement. Strategic planning during this period is essential for future financial independence.</p>
+      <p class="summary-zh">文章总结了30至40岁人群中常见的、会影响退休生活的错误决策。在此期间进行战略性规划对未来的财务独立至关重要。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="SCI" data-tags="[&quot;biology&quot;, &quot;research&quot;, &quot;fish&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596645-fish-only-pay-attention-to-one-most-influential-neighbor-in-virtual-reality/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Fish pay attention to one influential neighbour in virtual reality</a></div>
+      <div class="item-title-zh">鱼类在虚拟现实中只会关注一位有影响力的邻居</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biology · research · fish · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers studying rummy-nose tetra fish found that even in complex groups, individuals prioritize cues from only one influential neighbor. This finding suggests a surprisingly efficient social coordination mechanism in aquatic life.</p>
+      <p class="summary-zh">研究人员发现，红鼻剪刀鱼在群体互动中，往往只关注单一的“有影响力”邻居。这一发现揭示了水生生物中存在高效的社交协调机制。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="SCI" data-tags="[&quot;scifi&quot;, &quot;books&quot;, &quot;literature&quot;, &quot;reading&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596484-the-best-new-science-fiction-novels-of-november-2026/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">The best new science-fiction novels of November 2026</a></div>
+      <div class="item-title-zh">11月最佳科幻小说推荐</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">scifi · books · literature · reading</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">November 2026 is a major month for science fiction with new releases from Andy Weir, Michael Moorcock, and John Scalzi. Readers can expect a mix of audio dramas, fictional autobiographies, and traditional novels.</p>
+      <p class="summary-zh">2026年11月对科幻迷来说是重磅月份，安迪·威尔、迈克尔·穆考克和约翰·斯卡尔齐均有新作发布。涵盖了广播剧、虚构自传和科幻小说等多种形式。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;agriculture&quot;, &quot;nature&quot;, &quot;seeds&quot;, &quot;italy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/" target="_blank" rel="noopener" onclick="event.stopPropagation()">An Italian farmer found some unknown seeds in his attic and planted them</a></div>
+      <div class="item-title-zh">意大利农民发现并种植了失传已久的种子</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 15h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">agriculture · nature · seeds · italy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An Italian farmer discovered unknown seeds in his attic and successfully cultivated them, revealing a hidden agricultural treasure. This story highlights the importance of preserving heirloom crop varieties.</p>
+      <p class="summary-zh">一名意大利农民在阁楼发现了不知名的种子并成功培植，意外收获了被遗忘的作物品种。该故事强调了保护传家宝农作物的重要性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;medicine&quot;, &quot;antibiotics&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596737-allergic-reactions-after-sex-should-be-listed-as-an-antibiotic-risk-experts-say/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Allergic reactions after sex should be listed as an antibiotic risk, experts say</a></div>
+      <div class="item-title-zh">专家建议：性交后的过敏反应应被列为抗生素风险</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 21h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · medicine · antibiotics · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Clinicians are calling for patient leaflets to include warnings about potential allergic reactions to antibiotics transmitted through semen. This follows a rare medical case involving a severe reaction after intercourse.</p>
+      <p class="summary-zh">医学专家建议在药品说明书中增加抗生素通过精液传播可能引起过敏的警示。此前发生了一起性交后引发严重过敏的罕见病例。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;mars&quot;, &quot;space&quot;, &quot;science&quot;, &quot;geology&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596726-rusty-crust-made-mars-warm-and-wet/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Rusty crust made Mars warm and wet</a></div>
+      <div class="item-title-zh">生锈的硬壳让火星变得温暖潮湿</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">mars · space · science · geology</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">New research suggests that iron rust in the Martian crust may have helped trap heat, making the surface warm enough for liquid water. This discovery provides a new theory for how Mars might have been habitable.</p>
+      <p class="summary-zh">最新研究显示，火星地壳中的铁锈可能起到保温作用，使地表温度足以维持液态水存在。这一发现为火星曾具备宜居性提供了新理论。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;biotech&quot;, &quot;tech&quot;, &quot;health&quot;, &quot;environment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals</a></div>
+      <div class="item-title-zh">MIT科技评论：GLP-1、城市自愈与永久化学物质</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 2d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biotech · tech · health · environment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This daily newsletter covers critical technology news, including the link between GLP-1 weight-loss drugs and eating disorders. It also explores the emergence of self-aware city infrastructure and the impact of &#x27;forever chemicals&#x27;.</p>
+      <p class="summary-zh">本期简报涵盖科技热点，包括GLP-1减肥药与饮食失调的关联，以及城市自愈基础设施的出现和“永久化学物质”带来的环境影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="WORLD" data-tags="[&quot;social&quot;, &quot;psychology&quot;, &quot;culture&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1253589#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[问与答] 别人给东西的时候应不应该接受？</a></div>
+      <div class="item-title-zh">问与答：别人给东西时应不应该接受？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">social · psychology · culture</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article explores the social anxiety and cultural conditioning behind rejecting gifts or favors from others. The author reflects on how childhood experiences with receiving money influenced their tendency to decline offers in adulthood.</p>
+      <p class="summary-zh">文章探讨了拒绝他人赠予背后的社交焦虑与文化心理。作者反思了童年时期关于压岁钱的处理方式如何影响了成年后对待他人赠礼的态度。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;economy&quot;, &quot;usa&quot;, &quot;socialmedia&quot;, &quot;statistics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/america-is-doing-better-than-you-think-your-algorithm-is-just-hiding-it-7dbdecff?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">America is doing better than you think. Your algorithm is just hiding it.</a></div>
+      <div class="item-title-zh">美国经济现状比预想更好，算法掩盖了真相</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">economy · usa · socialmedia · statistics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Economic data shows that the net worth of the bottom half of Americans has doubled since 2019. Social media algorithms, however, tend to suppress positive news, leading to a skewed public perception of the economy.</p>
+      <p class="summary-zh">经济数据显示，美国底层民众的净资产自2019年以来增长了一倍。然而社交媒体算法往往抑制积极新闻，导致公众对经济现状产生了偏差认知。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;germany&quot;, &quot;protest&quot;, &quot;economy&quot;, &quot;society&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Shops looted as German cost of living protests turn violent</a></div>
+      <div class="item-title-zh">德国因生活成本抗议活动演变成暴力事件</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">germany · protest · economy · society</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Widespread protests against the rising cost of living in Germany have turned violent, with incidents of looting reported. Similar demonstrations are also taking place across France as citizens voice their dissatisfaction.</p>
+      <p class="summary-zh">德国各地反对生活成本上涨的抗议活动升级为暴力事件，并出现抢劫现象。与此同时，法国也发生了类似的大规模抗议活动。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;norway&quot;, &quot;design&quot;, &quot;travel&quot;, &quot;architecture&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Norway makes shithouses great again</a></div>
+      <div class="item-title-zh">挪威正在重塑公厕文化</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">norway · design · travel · architecture</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Norway is investing in high-quality, architecturally significant public restrooms to improve the traveler experience. These facilities have become local landmarks, blending utility with artistic design.</p>
+      <p class="summary-zh">挪威正通过投资高质量且具有建筑美感的公厕来提升旅行体验。这些设施不仅实用，还已成为当地极具特色的地标景观。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;india&quot;, &quot;politics&quot;, &quot;election&quot;, &quot;protest&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">India&#x27;s opposition holds mega rally seeking election chief&#x27;s resignation</a></div>
+      <div class="item-title-zh">印度反对派集会要求选举专员辞职</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">india · politics · election · protest</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Thousands of protesters gathered in Delhi to demand the resignation of India&#x27;s chief election commissioner. The rally highlights growing tensions between opposition parties and electoral authorities.</p>
+      <p class="summary-zh">数千名示威者在德里集会，要求印度选举委员会首席专员辞职。此次游行凸显了反对党与选举机构之间日益激化的矛盾。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;trump&quot;, &quot;law&quot;, &quot;news&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Judge dismisses Trump&#x27;s lawsuit against Wall Street Journal over Epstein birthday book</a></div>
+      <div class="item-title-zh">法官驳回特朗普起诉《华尔街日报》案</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 13h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">trump · law · news · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A judge has dismissed Donald Trump&#x27;s lawsuit against the Wall Street Journal regarding a birthday book for Jeffrey Epstein. The case centered on a letter purportedly signed by Trump that the paper published.</p>
+      <p class="summary-zh">法官驳回了特朗普针对《华尔街日报》关于爱泼斯坦生日纪念册报道的诉讼。案件焦点在于该报刊登的一封据称由特朗普签署的信件。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;law&quot;, &quot;family&quot;, &quot;finance&quot;, &quot;legal&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?</a></div>
+      <div class="item-title-zh">法律问答：虐待我的前夫拒绝支付子女教育金，我有法律手段吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; 17h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">law · family · finance · legal</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A woman seeks legal guidance after her abusive ex-husband reneged on a promise to fund their children&#x27;s education. The case involves complex family law matters and potential contract enforcement issues.</p>
+      <p class="summary-zh">一名女性在遭受虐待的前夫拒付子女教育基金后寻求法律建议。此案涉及复杂的家庭法问题及合同执行纠纷。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;war&quot;, &quot;refugee&quot;, &quot;survival&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">&#x27;We came back from hell&#x27;, say Ukrainians after years in Russia-occupied front-line city</a></div>
+      <div class="item-title-zh">Ukrainians撤离：战区生活多年后重见天日</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 18h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · war · refugee · survival</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A Ukrainian couple describes their harrowing escape from a Russian-occupied front-line city. They survived by navigating minefields and foraging for food for several years before finally reaching safety.</p>
+      <p class="summary-zh">一对乌克兰夫妇描述了他们从被占领前线城市逃离的艰难历程。在长达数年的时间里，他们穿过雷区并靠采食野菜幸存，最终抵达安全地带。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">32 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">13:57 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+<a class="archive-date" href="/archive/2026-10-20.html">2026-10-20</a>
+<a class="archive-date" href="/archive/2026-10-18.html">2026-10-18</a>
+<a class="archive-date" href="/archive/2026-10-17.html">2026-10-17</a>
+<a class="archive-date" href="/archive/2026-10-16.html">2026-10-16</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-11-01';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
