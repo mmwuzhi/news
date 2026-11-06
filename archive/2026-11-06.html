@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">30</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">5</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">2</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">7</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-11-06 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Fri Nov 06 2026 &middot; 30 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;frontend&quot;, &quot;admin&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255094#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[科技] 我用炒冷饭的方式证明了只会写 Admin 的前端百分百会被淘汰</a></div>
+      <div class="item-title-zh">我用 Ai 开发 Admin 项目的经验：纯前端开发或将面临淘汰</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · frontend · admin</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">After testing AI-driven development for administrative dashboard projects, the author concludes that AI can now handle 100% of such tasks. Frontend developers must evolve beyond simple Admin implementations to remain relevant.</p>
+      <p class="summary-zh">经过测试，AI 已能完全胜任 Admin 类项目的开发。前端开发者需超越简单的后台实现，以应对行业变革。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;chrome&quot;, &quot;ai&quot;, &quot;photography&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255093#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 做了个 Chrome 插件 LookRecipe：从网页图片提取提示词，再用自己的照片生成同款</a></div>
+      <div class="item-title-zh">LookRecipe：通过网页图片提取摄影提示词的 Chrome 插件</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">chrome · ai · photography</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">LookRecipe is a Chrome extension that extracts photography prompts from webpage images to help users recreate lighting and composition. It integrates AI analysis and generation tools for creators.</p>
+      <p class="summary-zh">LookRecipe 是一款 Chrome 插件，可从网页图片中提取摄影提示词，帮助用户还原光影与构图。该工具集成了 AI 分析与生图功能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;google&quot;, &quot;gemini&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Gemini Omni 1.2 Flash</a></div>
+      <div class="item-title-zh">Gemini Omni 1.2 Flash 模型发布</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">google · gemini · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Google has released Gemini Omni 1.2 Flash, a new iteration in its AI model lineup. The update focuses on efficiency and speed for various developer applications.</p>
+      <p class="summary-zh">谷歌发布了 Gemini Omni 1.2 Flash AI 模型。本次更新主要聚焦于提升开发应用的运行速度与效率。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;claude&quot;, &quot;privacy&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://github.com/anthropics/claude-code/issues/107757" target="_blank" rel="noopener" onclick="event.stopPropagation()">Claude Code sends your email address to websites</a></div>
+      <div class="item-title-zh">Claude Code 会将您的电子邮件地址发送给网站</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 16h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">claude · privacy · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Developers have raised privacy concerns after discovering that Claude Code shares user email addresses with external websites. The incident highlights potential data leakage in AI coding tools.</p>
+      <p class="summary-zh">开发者发现 Claude Code 会向第三方网站发送用户邮箱，引发隐私担忧。该事件凸显了 AI 编程工具的数据泄露风险。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;codex&quot;, &quot;business&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://openai.com/index/cultfit-builds-with-codex" target="_blank" rel="noopener" onclick="event.stopPropagation()">Cult.fit builds operational muscle with Codex</a></div>
+      <div class="item-title-zh">Cult.fit 利用 Codex 增强运营能力</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">OpenAI Blog &middot; 18h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · codex · business</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Cult.fit is integrating OpenAI&#x27;s Codex to streamline operational tools and improve team workflow. This implementation demonstrates how AI aids in building internal business solutions.</p>
+      <p class="summary-zh">Cult.fit 通过集成 OpenAI Codex 优化运营工具并提升团队工作流。此举展示了 AI 在构建企业内部解决方案中的作用。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;music&quot;, &quot;player&quot;, &quot;opensource&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255097#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[音乐] 欢迎各位大佬品鉴 Yeah Music 跨平台播放器</a></div>
+      <div class="item-title-zh">Yeah Music 跨平台播放器 8.0.0 版本发布</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">music · player · opensource</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Yeah Music 8.0.0 is a clean, cross-platform music player focused on local playback and Jellyfin integration. It is currently available on Android, Linux, Mac, and Windows.</p>
+      <p class="summary-zh">Yeah Music 8.0.0 是一款专注于本地播放和 Jellyfin 集成的纯净跨平台音乐播放器。目前已支持 Android、Linux、Mac 及 Windows。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;chrome&quot;, &quot;extension&quot;, &quot;v2ex&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255096#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 做了个 V2EX 看图插件，截图里的小字终于不用新开标签页看了</a></div>
+      <div class="item-title-zh">V2EX 看图插件：无需跳转即可放大查看细节</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">chrome · extension · v2ex</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new Chrome extension, V2Peek, allows users to zoom in and examine images on V2EX without opening new tabs. It aims to improve the browsing experience by providing a simple magnification tool.</p>
+      <p class="summary-zh">Chrome 插件 V2Peek 支持在 V2EX 上放大查看图片，无需打开新标签页。该工具旨在通过便捷的缩放功能提升浏览体验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;homepod&quot;, &quot;apple&quot;, &quot;bug&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255095#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[HomePod] Homepod 二代 27.2 系统无法执行手机上的快捷指令</a></div>
+      <div class="item-title-zh">HomePod 二代 27.2 系统快捷指令无法运行</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">homepod · apple · bug</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Users report that HomePod 2nd Gen running the 27.2 update can no longer execute phone-based Shortcuts via Siri. Despite being on the same network, the previous functionality is broken.</p>
+      <p class="summary-zh">用户反映 HomePod 二代在升级 27.2 后无法通过 Siri 运行手机快捷指令。尽管设备处于同一网络，但原有功能已失效。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;netflix&quot;, &quot;strangerthings&quot;, &quot;tv&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/entertainment/1028608/other-worlds-a-stranger-things-adventure-netflix-announce-trailer" target="_blank" rel="noopener" onclick="event.stopPropagation()">Stranger Things is getting a live-action spinoff called Other Worlds</a></div>
+      <div class="item-title-zh">《怪奇物语》衍生真人剧集《Other Worlds》定档2028年</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">netflix · strangerthings · tv</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Netflix has announced a live-action spinoff of the hit show Stranger Things titled Other Worlds: A Stranger Things Adventure. The series is expected to debut in 2028 and will explore the franchise&#x27;s timeline.</p>
+      <p class="summary-zh">Netflix 宣布《怪奇物语》真人衍生剧《Other Worlds》将于 2028 年上线。该剧将深入探索剧集的背景世界观。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;amazon&quot;, &quot;alexa&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders" target="_blank" rel="noopener" onclick="event.stopPropagation()">Amazon will let you text Alexa your shopping list</a></div>
+      <div class="item-title-zh">亚马逊 Alexa 新功能：通过短信发送购物清单</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">amazon · alexa · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Amazon is introducing a feature that lets users text shopping requests or images to Alexa. The AI assistant will then search for products and provide recommendations directly via text.</p>
+      <p class="summary-zh">亚马逊推出新功能，允许用户通过短信向 Alexa 发送购物清单或照片。AI 助手将搜索商品并以短信形式回复建议。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;robotics&quot;, &quot;samsung&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: a humanoid cleans house and Samsung builds for the AI boom</a></div>
+      <div class="item-title-zh">下载：人形机器人打扫房间与三星布局AI浪潮</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">MIT Tech Review &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">robotics · samsung · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Today&#x27;s report covers the emergence of humanoid robot cleaning services and Samsung&#x27;s strategic investments in the AI hardware market. It provides a daily overview of transformative technologies.</p>
+      <p class="summary-zh">今日报道涵盖了人形机器人清洁服务的发展以及三星在 AI 硬件市场的战略布局，梳理了关键技术变革。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;gaming&quot;, &quot;remedy&quot;, &quot;gamedev&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/games/1028159/control-resonant-recursions-and-iterations-mission-design-time-travel" target="_blank" rel="noopener" onclick="event.stopPropagation()">How Remedy designed Control Resonant’s wildest mission: ‘Anything kind of goes’</a></div>
+      <div class="item-title-zh">Remedy 如何设计《Control Resonant》中最狂野的任务</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">gaming · remedy · gamedev</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The developers at Remedy explain the intricate process of creating the time-bending &#x27;Recursions and Iterations&#x27; mission in Control Resonant. The team embraced a &#x27;anything goes&#x27; philosophy to deliver a unique experience.</p>
+      <p class="summary-zh">Remedy 开发者解析了《Control Resonant》中时间交错任务的设计过程。团队采用“万物皆可”的理念，创造了独特的任务体验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="TECH" data-tags="[&quot;iphone&quot;, &quot;foldable&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1026410/iphone-duo-foldable-android-samsung-google-xiaomi-oppo-honor" target="_blank" rel="noopener" onclick="event.stopPropagation()">I’ve reviewed almost every Android foldable this year — here’s how the iPhone Duo compares</a></div>
+      <div class="item-title-zh">评测 iPhone Duo：它与市面上的安卓折叠屏手机相比如何？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">iphone · foldable · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">After testing the iPhone Duo, reviewers compare it to the current market leader, the Samsung Galaxy Z Fold 8. The discussion highlights differences in cover display usability and design.</p>
+      <p class="summary-zh">评测人员对比了 iPhone Duo 与三星 Galaxy Z Fold 8。文章探讨了两者在外部屏幕易用性及工业设计上的差异。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;jobs&quot;, &quot;economy&quot;, &quot;ai&quot;, &quot;market&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964038-huge-october-jobs-numbers-small-market-reaction-eyes-still-on-ai?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Huge October Jobs Numbers, Small Market Reaction, Eyes Still On AI</a></div>
+      <div class="item-title-zh">10月就业数据强劲但市场反应平淡，投资者持续关注人工智能</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">jobs · economy · ai · market</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The October jobs report showed significant growth, yet the market response remained muted. Investors continue to prioritize the long-term impact of AI on the broader economy.</p>
+      <p class="summary-zh">10月就业报告表现强劲，但市场反应平淡。投资者正将更多注意力转向人工智能对经济的长期影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;vicat&quot;, &quot;finance&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964056-vicat-s-a-sdcvf-q3-2026-sales-trading-statement-call-slideshow?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Vicat S.A. (SDCVF) Q3 2026 Sales/ Trading Statement Call - Slideshow</a></div>
+      <div class="item-title-zh">Vicat S.A. 2026年第三季度销售与交易情况说明会</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">vicat · finance · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Vicat S.A. held its 2026 third-quarter sales and trading statement call. The presentation slides provide an overview of the company&#x27;s financial performance and operational updates.</p>
+      <p class="summary-zh">Vicat S.A. 召开了2026年第三季度销售与交易说明会。幻灯片展示了公司财务表现及运营更新。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;amg&quot;, &quot;materials&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964055-amg-critical-materials-n-v-2026-q3-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">AMG Critical Materials N.V. 2026 Q3 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">AMG Critical Materials N.V. 2026年第三季度财报会议</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">amg · materials · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">AMG Critical Materials N.V. presented its financial results for the third quarter of 2026. The call highlights key material production figures and fiscal outlooks.</p>
+      <p class="summary-zh">AMG Critical Materials N.V. 发布了2026年第三季度财报。会议重点介绍了关键材料产量数据及财务展望。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;atrium&quot;, &quot;mortgage&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964054-atrium-mortgage-investment-corporation-2026-q3-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Atrium Mortgage Investment Corporation 2026 Q3 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">Atrium Mortgage Investment Corporation 2026年第三季度财报会议</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">atrium · mortgage · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Atrium Mortgage Investment Corporation reviewed its 2026 Q3 results during a presentation call. The session details portfolio management and investment strategies.</p>
+      <p class="summary-zh">Atrium Mortgage Investment Corporation 回顾了2026年第三季度财务结果。会议详细说明了投资组合管理与相关策略。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;helios&quot;, &quot;tech&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964051-helios-technologies-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Helios Technologies, Inc. 2026 Q3 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">Helios Technologies, Inc. 2026年第三季度财报会议</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">helios · tech · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Helios Technologies, Inc. showcased its 2026 third-quarter performance in an earnings presentation. The discussion centers on revenue growth and market positioning.</p>
+      <p class="summary-zh">Helios Technologies, Inc. 展示了2026年第三季度财报业绩。会议讨论核心围绕收入增长与市场定位。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;tax&quot;, &quot;roth&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/how-much-roth-conversion-can-you-do-in-2027-with-the-new-tax-brackets-a2f940c8?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">How much in Roth conversions can you do in 2027 with the new tax brackets?</a></div>
+      <div class="item-title-zh">2027年新的税级下可以进行多少 Roth 转换？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">tax · roth · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Determining the amount for Roth conversions under new 2027 tax brackets requires careful financial planning. Experts suggest focusing on whether it is advisable before calculating how much.</p>
+      <p class="summary-zh">在 2027 年新税级下进行 Roth 转换需要严谨的财务规划。专家建议在计算金额前，应先评估其必要性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;ira&quot;, &quot;roth&quot;, &quot;retirement&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?</a></div>
+      <div class="item-title-zh">80多岁老人有95万美元的传统 IRA，为何顾问建议 Roth 转换？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ira · roth · retirement</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An elderly couple with significant traditional IRA funds questions their adviser&#x27;s recommendation for Roth conversions. Financial planners weigh the tax implications for retirees in their 80s.</p>
+      <p class="summary-zh">一对拥有大量传统 IRA 的八旬老人质疑顾问提出的 Roth 转换建议。理财专家分析了高龄退休人员的税务影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="FINA" data-tags="[&quot;moderna&quot;, &quot;vaccine&quot;, &quot;biotech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/modernas-stock-jumps-after-biotech-raises-sales-outlook-65363127?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Moderna raises its revenue outlook — but all eyes are on what happens next with its experimental cancer vaccine</a></div>
+      <div class="item-title-zh">Moderna 上调年度营收预期，癌症疫苗进展受关注</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">moderna · vaccine · biotech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Moderna has increased its 2026 revenue guidance, citing strong growth projections. Market interest remains focused on the upcoming clinical data for its experimental cancer vaccine.</p>
+      <p class="summary-zh">Moderna 上调了 2026 年的营收预期。市场目前高度关注其试验性癌症疫苗的后续临床数据。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;nasa&quot;, &quot;hubble&quot;, &quot;space&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597221-hubble-space-telescope-is-falling-to-earth-should-nasa-save-it/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Hubble Space Telescope is falling to Earth – should NASA save it?</a></div>
+      <div class="item-title-zh">哈勃空间望远镜即将坠落，NASA 是否应该挽救它？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nasa · hubble · space</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Hubble Space Telescope is nearing its end of life and faces re-entry around 2032. NASA is exploring private sector proposals to extend the life of this iconic observatory.</p>
+      <p class="summary-zh">哈勃望远镜寿命即将终结，预计于 2032 年坠入大气层。NASA 正寻求私人企业提议以延长其工作时间。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;nasa&quot;, &quot;moon&quot;, &quot;robotics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597780-a-robot-called-gimli-will-explore-a-lunar-cave-for-a-future-moon-base/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">A robot called GIMLI will explore a lunar cave for a future moon base</a></div>
+      <div class="item-title-zh">机器人 GIMLI 将探索月球洞穴，为未来月球基地铺路</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nasa · moon · robotics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">NASA is preparing for future lunar habitation by testing a cave-exploring robot named GIMLI. This mission aims to map subsurface lunar features for potential base locations.</p>
+      <p class="summary-zh">NASA 正测试名为 GIMLI 的探测机器人，用于探寻月球洞穴。该任务旨在为未来建设月球基地进行地理测绘。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="WORLD" data-tags="[&quot;france&quot;, &quot;accident&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Two dead after bus crashes in France, officials say</a></div>
+      <div class="item-title-zh">法国发生公交车事故，造成两人死亡</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">france · accident · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A tragic bus crash in France has resulted in the deaths of a child and a young adult. Local authorities are investigating the incident and assisting the injured.</p>
+      <p class="summary-zh">法国发生一起公交车撞车事故，导致一名儿童和一名年轻人丧生。当地部门正在调查此事件并救治伤者。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="WORLD" data-tags="[&quot;tiktok&quot;, &quot;eu&quot;, &quot;regulation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1028597/tiktok-eu-for-you-algorithm-rabbit-hole-effect" target="_blank" rel="noopener" onclick="event.stopPropagation()">TikTok&amp;#8217;s For You page needs to change, says the EU</a></div>
+      <div class="item-title-zh">欧盟称 TikTok 需要改变其推荐算法</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">tiktok · eu · regulation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The European Commission alleges that TikTok&#x27;s recommendation algorithm creates a harmful &#x27;rabbit hole effect&#x27; for users. Regulators claim the platform&#x27;s content delivery violates digital safety rules.</p>
+      <p class="summary-zh">欧盟委员会指控 TikTok 的推荐算法对用户造成负面的“兔子洞效应”。监管机构称该平台的推送机制违反了数字安全法规。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;kenya&quot;, &quot;crime&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Kenyan doomsday cult leader given life sentence for murdering 191 people</a></div>
+      <div class="item-title-zh">肯尼亚邪教领袖因谋杀191人被判终身监禁</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">kenya · crime · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A Kenyan cult leader has been sentenced to life in prison for orchestrating the deaths of 191 followers. He had coerced them to starve to death to meet religious goals.</p>
+      <p class="summary-zh">肯尼亚一名邪教领袖因策划导致 191 名追随者死亡被判终身监禁。他曾诱导信徒通过绝食以实现宗教目的。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;russia&quot;, &quot;security&quot;, &quot;threats&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Russian extremist group denies sending hoax bomb threats</a></div>
+      <div class="item-title-zh">俄罗斯极端组织否认发送炸弹威胁邮件</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">russia · security · threats</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A Russian extremist group has denied responsibility for the recent wave of bomb threats against European airlines. Authorities continue to investigate the source of the widespread hoaxes.</p>
+      <p class="summary-zh">一个俄罗斯极端组织否认与近期针对欧洲航空公司的炸弹威胁有关。相关部门正调查这些大范围虚假信息的来源。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;movie&quot;, &quot;recommendation&quot;, &quot;culture&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/118623" target="_blank" rel="noopener" onclick="event.stopPropagation()">本周看什么 | 最近值得一看的 9 部作品</a></div>
+      <div class="item-title-zh">本周看什么：近期值得推荐的9部影视作品</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">少数派 &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">movie · recommendation · culture</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A curated list of 9 films and series worth watching this week. Among them, the film &#x27;The Battle of De Gaulle&#x27; is confirmed for a November release.</p>
+      <p class="summary-zh">本周推荐 9 部值得一看的影视作品。其中包括确认于 11 月上映的电影《戴高乐之战》。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;trump&quot;, &quot;whitehouse&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Trump signs order to preserve Oval Office as national monument</a></div>
+      <div class="item-title-zh">特朗普签署行政令，将椭圆形办公室定为国家纪念碑</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">trump · whitehouse · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">President Trump signed an order to preserve the Oval Office following extensive decor changes. The move aims to protect the historic site after recent renovations.</p>
+      <p class="summary-zh">特朗普总统签署行政令，将椭圆形办公室定为国家纪念碑。此前该办公室经历了大规模翻修与装饰变动。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;politics&quot;, &quot;usa&quot;, &quot;whitehouse&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">White House denies Hegseth and Rubio to leave jobs after Republican election losses</a></div>
+      <div class="item-title-zh">白宫否认 Hegseth 和 Rubio 因共和党选举失利而离职</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 12h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">politics · usa · whitehouse</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The White House has denied reports that Pete Hegseth and Marco Rubio are stepping down from their roles. Speculation continues amidst political shifts following election results.</p>
+      <p class="summary-zh">白宫否认了有关 Pete Hegseth 和 Marco Rubio 将离职的报道。选后政坛波动导致相关猜测不断。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+<a class="archive-date" href="/archive/2026-11-01.html">2026-11-01</a>
+<a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">30 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">14:44 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+<a class="archive-date" href="/archive/2026-11-01.html">2026-11-01</a>
+<a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+<a class="archive-date" href="/archive/2026-10-21.html">2026-10-21</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-11-06';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
