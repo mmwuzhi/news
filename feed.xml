@@ -6,7 +6,239 @@
 <atom:link href="https://news.wuwuwu.cc/feed.xml" rel="self" type="application/rss+xml"/>
 <description>每日中英双语科技与世界新闻摘要 · summarized by Gemini</description>
 <language>zh-cn</language>
-<lastBuildDate>Fri, 06 Nov 2026 14:44:14 +0000</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 13:41:28 +0000</lastBuildDate>
+<item>
+<title>Linux版网易UU加速器正式上线</title>
+<link>https://www.v2ex.com/t/1255261#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1255261#reply0</guid>
+<pubDate>Sat, 07 Nov 2026 13:38:35 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[Linux] 网易 UU 远程 Linux 终于来啦</strong></p><p>NetEase UU has officially released its remote Linux acceleration client. This long-awaited update provides Linux users with improved gaming network performance.</p><p>网易UU远程加速器正式推出Linux版本。此次更新为Linux用户提供了急需的网络加速服务。</p><p>Tags: linux · gaming · network</p>]]></description>
+</item>
+<item>
+<title>The Foschini Group 2027财年第二季度财报电话会议演示</title>
+<link>https://seekingalpha.com/article/4964601-the-foschini-group-limited-2027-q2-results-earnings-call-presentation?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4964601-the-foschini-group-limited-2027-q2-results-earnings-call-presentation?source=feed_all_articles</guid>
+<pubDate>Sat, 07 Nov 2026 13:31:48 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>The Foschini Group Limited 2027 Q2 - Results - Earnings Call Presentation</strong></p><p>The Foschini Group Limited released its earnings presentation for the second quarter of 2027. The slides detail the company&#x27;s financial performance and strategic outlook.</p><p>The Foschini Group发布了2027财年第二季度财报演示文稿。文件中详细阐述了公司的财务表现及战略规划。</p><p>Tags: finance · earnings · retail</p>]]></description>
+</item>
+<item>
+<title>程序员手记：网页感知系统的构建之路（二）</title>
+<link>https://www.v2ex.com/t/1255260#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1255260#reply0</guid>
+<pubDate>Sat, 07 Nov 2026 13:30:37 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[程序员] 死磕一个网页感知系统的来时路（二）</strong></p><p>The author shares the technical challenges of building a webpage perception system, moving from image-based detection to DOM-based analysis. The project emphasizes the transition from manual labeling to more efficient automated methods.</p><p>作者分享了开发网页感知系统的技术心路历程，探讨了从视觉模型转向DOM分析的架构演进。文章详细描述了从人工标注到提升效率的探索过程。</p><p>Tags: programming · web · automation</p>]]></description>
+</item>
+<item>
+<title>Anthropic IPO受市场冷落，时机或不佳</title>
+<link>https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories</guid>
+<pubDate>Sat, 07 Nov 2026 13:30:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>The AI trade is now counting on Anthropic’s IPO — but it couldn’t be happening at a worse time</strong></p><p>Investors are concerned that the current tech stock selloff might force Anthropic to delay its IPO or list at a lower valuation. Market sentiment remains cautious regarding the timing of this public offering.</p><p>投资者担心当前科技股抛售潮可能导致Anthropic推迟IPO或调低估值。市场对此次上市的时机持谨慎态度。</p><p>Tags: anthropic · ipo · investing</p>]]></description>
+</item>
+<item>
+<title>AI股票暴跌：这未必是泡沫破裂的信号</title>
+<link>https://seekingalpha.com/article/4964203-ai-stock-meltdown-why-this-may-not-be-bubble-burst?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4964203-ai-stock-meltdown-why-this-may-not-be-bubble-burst?source=feed_all_articles</guid>
+<pubDate>Sat, 07 Nov 2026 13:30:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>AI Stock Meltdown: Why This May Not Be The Bubble Burst</strong></p><p>The recent meltdown in AI-related stocks is being analyzed as a market correction rather than the definitive end of the AI boom. Experts look for underlying fundamentals that might sustain the sector&#x27;s growth.</p><p>近期AI相关股票的暴跌被视为市场调整，而非AI泡沫的必然破裂。专家正重新评估支撑该行业增长的基本面因素。</p><p>Tags: ai · stocks · market</p>]]></description>
+</item>
+<item>
+<title>使用AI构建智能导航网站：咖喱饭导航</title>
+<link>https://www.v2ex.com/t/1255258#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1255258#reply0</guid>
+<pubDate>Sat, 07 Nov 2026 13:26:12 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[分享创造] 用 AI 做了个智能导航 咖喱饭导航</strong></p><p>The creator launched &#x27;Curry Rice Navigation,&#x27; an AI-powered site that automatically crawls and categorizes web links submitted by users. The system leverages LLMs to analyze content and offer intelligent search recommendations.</p><p>开发者推出了利用AI驱动的“咖喱饭导航”，实现自动抓取、分类用户提交的网址。该系统通过大模型进行内容分析，提供智能搜索体验。</p><p>Tags: ai · navigation · automation</p>]]></description>
+</item>
+<item>
+<title>JFrog：人工智能的顺风被高昂的估值所抵消</title>
+<link>https://seekingalpha.com/article/4964514-jfrog-clear-ai-tailwinds-offset-by-massive-valuation?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4964514-jfrog-clear-ai-tailwinds-offset-by-massive-valuation?source=feed_all_articles</guid>
+<pubDate>Sat, 07 Nov 2026 13:25:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>JFrog: Clear AI Tailwinds Offset By Massive Valuation</strong></p><p>While JFrog benefits from the AI boom, its high valuation remains a significant hurdle for potential investors. Analysts weigh the company&#x27;s growth potential against its expensive stock price.</p><p>尽管JFrog受益于AI热潮，但其过高的估值仍是投资者的一大顾虑。分析师正在权衡其增长潜力与股票溢价。</p><p>Tags: jfrog · finance · ai</p>]]></description>
+</item>
+<item>
+<title>美国政府10个月内借款2万亿美元</title>
+<link>https://seekingalpha.com/article/4964597-us-government-borrowed-2t-in-10-months?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4964597-us-government-borrowed-2t-in-10-months?source=feed_all_articles</guid>
+<pubDate>Sat, 07 Nov 2026 13:25:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>U.S. Government Has Borrowed $2T In 10 Months</strong></p><p>The U.S. government has accumulated $2 trillion in new debt over the past ten months. This rapid fiscal expansion raises concerns about long-term sustainability and economic stability.</p><p>美国政府在过去十个月内新增了2万亿美元债务。这种快速的财政扩张引发了对长期经济稳定性的担忧。</p><p>Tags: economy · usa · debt</p>]]></description>
+</item>
+<item>
+<title>Enerpac Tool Group 分析师/投资者日演示稿</title>
+<link>https://seekingalpha.com/article/4964598-enerpac-tool-group-corp-epac-analyst-investor-day-slideshow?source=feed_all_articles</link>
+<guid isPermaLink="true">https://seekingalpha.com/article/4964598-enerpac-tool-group-corp-epac-analyst-investor-day-slideshow?source=feed_all_articles</guid>
+<pubDate>Sat, 07 Nov 2026 13:17:40 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Enerpac Tool Group Corp. (EPAC) Analyst/Investor Day - Slideshow</strong></p><p>Enerpac Tool Group hosted its analyst and investor day, presenting a series of slides on corporate performance. The event highlighted key operational milestones and future growth strategies.</p><p>Enerpac Tool Group举办了分析师与投资者日，展示了一系列企业经营幻灯片。活动重点介绍了运营里程碑与未来增长战略。</p><p>Tags: finance · investor · corporate</p>]]></description>
+</item>
+<item>
+<title>AI时代多项目开发：电脑配置不堪重负</title>
+<link>https://www.v2ex.com/t/1255255#reply4</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1255255#reply4</guid>
+<pubDate>Sat, 07 Nov 2026 12:53:50 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[程序员] AI 时代，并行开发多项目，感觉电脑配置不够了</strong></p><p>Developers are finding that modern AI-driven coding workflows are consuming excessive local hardware resources. The author suggests shifting towards cloud-based development environments to maintain efficiency.</p><p>开发者发现AI辅助编程工作流正占用大量本地硬件资源。作者建议转向基于云端的开发环境，以维持高效率办公。</p><p>Tags: ai · programming · cloud</p>]]></description>
+</item>
+<item>
+<title>俄罗斯新一轮空袭导致乌克兰电网进一步受损</title>
+<link>https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sat, 07 Nov 2026 12:49:36 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Ukraine&#x27;s power network suffers further damage after fresh Russian strikes</strong></p><p>Recent Russian strikes have inflicted further damage on Ukraine&#x27;s power network ahead of scheduled talks. Representatives from both sides are expected to meet in Abu Dhabi next week.</p><p>在预定的会谈前，俄罗斯新一轮空袭进一步破坏了乌克兰的电力网络。双方代表预计将于下周在阿布扎比举行三方会谈。</p><p>Tags: ukraine · russia · energy</p>]]></description>
+</item>
+<item>
+<title>TidyMac：利用AI编写的CleanMyMac免费替代品</title>
+<link>https://www.v2ex.com/t/1255254#reply0</link>
+<guid isPermaLink="true">https://www.v2ex.com/t/1255254#reply0</guid>
+<pubDate>Sat, 07 Nov 2026 12:35:32 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>[问与答] TidyMac：用 AI 写了个 CleanMyMac 的免费平替</strong></p><p>A developer has created &#x27;TidyMac,&#x27; an open-source, AI-powered tool designed to serve as a free alternative to CleanMyMac. The project is currently available on GitHub for community use.</p><p>开发者发布了名为TidyMac的开源工具，旨在作为CleanMyMac的免费AI替代品。该项目已在GitHub上开放供社区使用。</p><p>Tags: macos · ai · utility</p>]]></description>
+</item>
+<item>
+<title>Anthropic利用AI自动研发引发科研界担忧</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development</link>
+<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development</guid>
+<pubDate>Sat, 07 Nov 2026 12:30:00 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Why a new report on Anthropic automating AI development is alarming researchers</strong></p><p>A new report by METR reveals that Anthropic is using AI to accelerate the development of its own models, showing a significant increase in efficiency. Researchers are concerned about the implications of this rapid, self-improving automation.</p><p>METR的一份新报告指出，Anthropic正利用AI加速模型研发，效率大幅提升。研究人员对这种快速自我进化的自动化进程表示担忧。</p><p>Tags: anthropic · safety · automation</p>]]></description>
+</item>
+<item>
+<title>上传你的内存（Upload Your RAM）</title>
+<link>https://uploadyourram.org</link>
+<guid isPermaLink="true">https://uploadyourram.org</guid>
+<pubDate>Sat, 07 Nov 2026 10:15:26 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Upload Your RAM</strong></p><p>A technical discussion regarding the concept of offloading memory tasks. Users debate the feasibility and architectural implications of externalizing system RAM.</p><p>关于卸载内存任务概念的技术讨论。用户就外部化系统内存的可行性及其架构影响展开了探讨。</p><p>Tags: hardware · memory · technology</p>]]></description>
+</item>
+<item>
+<title>COP气候峰会未来的可能性</title>
+<link>https://www.newscientist.com/article/2596962-cop-climate-summits-might-yet-have-a-useful-future-heres-how/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2596962-cop-climate-summits-might-yet-have-a-useful-future-heres-how/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Sat, 07 Nov 2026 10:00:00 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>COP climate summits might yet have a useful future – here’s how</strong></p><p>Despite low expectations, future COP climate summits could still serve as platforms for meaningful international progress. The article outlines how these meetings can move beyond rhetoric to deliver tangible results.</p><p>尽管期望值不高，但未来的COP气候峰会仍能作为国际进展的平台。文章概述了这些会议如何超越口头承诺，取得实质性成果。</p><p>Tags: climate · cop · environment</p>]]></description>
+</item>
+<item>
+<title>每台Mac都内置了一个未公开的家庭成员分类器</title>
+<link>https://8rank.ai/game/apple-intelligence-personal-knowledge-graph</link>
+<guid isPermaLink="true">https://8rank.ai/game/apple-intelligence-personal-knowledge-graph</guid>
+<pubDate>Sat, 07 Nov 2026 09:46:03 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Every Mac comes with an (undocumented) family member classifier</strong></p><p>Users discovered an undocumented feature in macOS that automatically categorizes family members within the system&#x27;s photo analysis. This sparked a privacy-focused discussion among the technical community.</p><p>用户在macOS中发现了一项未公开的功能，可自动对照片库中的家庭成员进行分类。这在技术社区引发了关于隐私的讨论。</p><p>Tags: macos · privacy · apple</p>]]></description>
+</item>
+<item>
+<title>在浏览器中运行《极品飞车：地下狂飙2》</title>
+<link>https://nfsu2.xyz/</link>
+<guid isPermaLink="true">https://nfsu2.xyz/</guid>
+<pubDate>Sat, 07 Nov 2026 09:36:36 +0000</pubDate>
+<category>TECH</category>
+<description><![CDATA[<p><strong>Need for Speed Underground 2 online in the browser</strong></p><p>A technical project successfully enabled the classic game &#x27;Need for Speed Underground 2&#x27; to run directly in a web browser. This showcases the power of modern web technologies and emulation.</p><p>一个技术项目成功使经典游戏《极品飞车：地下狂飙2》能够直接在浏览器中运行。这展示了现代Web技术与模拟器的强大性能。</p><p>Tags: gaming · web · emulation</p>]]></description>
+</item>
+<item>
+<title>巴拉圭总统因银行倒闭遭弹劾并被软禁</title>
+<link>https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sat, 07 Nov 2026 07:20:00 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Paraguay&#x27;s president impeached and under house arrest after bank collapse</strong></p><p>President Santiago Peña was ousted from power following a banking crisis that left citizens unable to access their funds. The political fallout has resulted in his house arrest.</p><p>在一场导致民众无法提取资金的银行危机后，总统圣地亚哥·佩尼亚被罢免并遭软禁。此次政治动荡引发了社会高度关注。</p><p>Tags: paraguay · politics · banking</p>]]></description>
+</item>
+<item>
+<title>教皇开启拉美之旅，身体状况良好</title>
+<link>https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Sat, 07 Nov 2026 06:59:48 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>Pope in &#x27;pretty good health&#x27; as he starts Latin America tour</strong></p><p>Pope Leo has embarked on a tour of Latin America, starting with a visit to Uruguay. This comes just three weeks after he underwent surgery for lung cancer.</p><p>教皇利奥开启了拉美之旅，首站访问乌拉圭。此前三周，他刚刚接受了肺癌手术，目前状态良好。</p><p>Tags: pope · latinamerica · health</p>]]></description>
+</item>
+<item>
+<title>OpenAI估值达1.25万亿美元，Anthropic临近IPO</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation</link>
+<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation</guid>
+<pubDate>Fri, 06 Nov 2026 23:46:18 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO</strong></p><p>OpenAI has reached a valuation of $1.25 trillion after raising $11 billion in a new funding round. Meanwhile, its competitor Anthropic is approaching its own IPO debut.</p><p>OpenAI在最新一轮融资中筹集110亿美元，估值升至1.25万亿美元。与此同时，其竞争对手Anthropic正筹备上市。</p><p>Tags: openai · anthropic · valuation</p>]]></description>
+</item>
+<item>
+<title>特朗普提名史蒂芬·米勒出任办公厅主任，准备迎接激战</title>
+<link>https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&amp;at_campaign=rss</link>
+<guid isPermaLink="true">https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&amp;at_campaign=rss</guid>
+<pubDate>Fri, 06 Nov 2026 23:24:15 +0000</pubDate>
+<category>WORLD</category>
+<description><![CDATA[<p><strong>With Stephen Miller pick, Trump readies for a battle</strong></p><p>Trump&#x27;s nomination of Stephen Miller as chief of staff signals a confrontational approach towards Congress. The move is expected to lead to intense political battles.</p><p>特朗普提名史蒂芬·米勒为办公厅主任，预示着其对国会将采取对抗姿态。此举预计将引发激烈的政治博弈。</p><p>Tags: trump · politics · whitehouse</p>]]></description>
+</item>
+<item>
+<title>超越代码生成：开发者智能代理指南</title>
+<link>https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/</link>
+<guid isPermaLink="true">https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/</guid>
+<pubDate>Fri, 06 Nov 2026 22:15:59 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>Beyond code generation: A developer’s guide to agentic engineering</strong></p><p>GitHub explores how AI agents can assist in the full development lifecycle, from planning to production debugging. The guide emphasizes that while coding is faster, human judgment remains essential.</p><p>GitHub探讨了AI智能代理如何辅助开发全生命周期。指南强调尽管编码速度提升，但人类的判断力依然不可或缺。</p><p>Tags: github · ai · engineering</p>]]></description>
+</item>
+<item>
+<title>66岁老人的养老担忧：几乎没有存款的安全网</title>
+<link>https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories</guid>
+<pubDate>Fri, 06 Nov 2026 21:45:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?</strong></p><p>A 66-year-old reflects on the precariousness of relying solely on Social Security with minimal savings. The story highlights broader concerns about financial security for retirees.</p><p>一位66岁的老人表达了对仅靠社会保障金而几乎无存款的担忧。文章突显了退休群体在经济保障方面面临的普遍压力。</p><p>Tags: finance · retirement · economy</p>]]></description>
+</item>
+<item>
+<title>埃隆·马斯克为SpaceX的大规模收购开启大门</title>
+<link>https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories</link>
+<guid isPermaLink="true">https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories</guid>
+<pubDate>Fri, 06 Nov 2026 21:45:00 +0000</pubDate>
+<category>FINA</category>
+<description><![CDATA[<p><strong>Elon Musk opens the door for a big SpaceX acquisition</strong></p><p>Elon Musk is signaling potential acquisitions for SpaceX as the company expands its ambitions in the telecommunications sector. These moves are designed to challenge major carriers.</p><p>埃隆·马斯克暗示SpaceX可能进行大规模收购，以拓展电信行业版图。这些举措旨在挑战主流运营商的市场地位。</p><p>Tags: spacex · musk · acquisitions</p>]]></description>
+</item>
+<item>
+<title>使用Opus辅助的Jev系统，成本降低四倍</title>
+<link>https://hightouch.com/blog/llm-judges-identity-resolution</link>
+<guid isPermaLink="true">https://hightouch.com/blog/llm-judges-identity-resolution</guid>
+<pubDate>Fri, 06 Nov 2026 19:48:51 +0000</pubDate>
+<category>AI</category>
+<description><![CDATA[<p><strong>A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</strong></p><p>The integration of Jev with Opus as an intelligent helper has significantly optimized accuracy while reducing operational costs by 75%. This showcases the efficiency of multi-model collaboration.</p><p>将Jev与Opus整合作为智能助手，显著优化了准确度，并使运营成本降低了四分之三。这展示了多模型协作的效率。</p><p>Tags: ai · llm · efficiency</p>]]></description>
+</item>
+<item>
+<title>破纪录的超快旋转磁铁可能揭示新物理规律</title>
+<link>https://www.newscientist.com/article/2597816-record-breaking-fast-spinning-magnet-could-help-uncover-new-physics/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2597816-record-breaking-fast-spinning-magnet-could-help-uncover-new-physics/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Fri, 06 Nov 2026 19:00:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Record-breaking, fast-spinning magnet could help uncover new physics</strong></p><p>A hair-thin, rapidly spinning magnet is opening new doors for fundamental physics research. Its performance provides researchers with a novel tool for quantum technology experiments.</p><p>一枚细如发丝的超高速旋转磁铁，为基础物理研究开启了新方向。其特性为量子技术实验提供了新型工具。</p><p>Tags: physics · quantum · science</p>]]></description>
+</item>
+<item>
+<title>意外的反馈循环可能正在驱动极端热浪</title>
+<link>https://www.newscientist.com/article/2597676-an-unexpected-feedback-loop-may-be-driving-mega-heatwaves/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2597676-an-unexpected-feedback-loop-may-be-driving-mega-heatwaves/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Fri, 06 Nov 2026 19:00:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>An unexpected feedback loop may be driving mega heatwaves</strong></p><p>Researchers have identified a feedback loop between dry soil and high pressure that intensifies heatwaves. This discovery explains why recent extreme weather events have occurred earlier than predicted.</p><p>研究人员发现干旱土壤与高压系统之间的反馈循环会加剧热浪。这一发现解释了为何近期极端天气比预期更早发生。</p><p>Tags: climate · science · environment</p>]]></description>
+</item>
+<item>
+<title>每天不到4分钟的剧烈运动可降低痴呆症风险</title>
+<link>https://www.newscientist.com/article/2597936-less-than-4-minutes-of-vigorous-exercise-a-day-could-half-your-dementia-risk/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2597936-less-than-4-minutes-of-vigorous-exercise-a-day-could-half-your-dementia-risk/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Fri, 06 Nov 2026 16:00:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Less than 4 minutes of vigorous exercise a day could halve your dementia risk</strong></p><p>Short bursts of vigorous exercise can have a profound impact on brain health. Regular activity is linked to a significant reduction in the long-term risk of developing dementia.</p><p>少量的剧烈运动即可对大脑健康产生深远影响。研究表明，规律性的运动与降低痴呆症长期风险之间存在重要联系。</p><p>Tags: health · science · fitness</p>]]></description>
+</item>
+<item>
+<title>帕金森病可能源于破坏大脑废物清理的“恶性循环”</title>
+<link>https://www.newscientist.com/article/2597911-parkinsons-may-be-driven-by-vicious-cycle-that-disrupts-brain-waste-drainage/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+<guid isPermaLink="true">https://www.newscientist.com/article/2597911-parkinsons-may-be-driven-by-vicious-cycle-that-disrupts-brain-waste-drainage/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
+<pubDate>Fri, 06 Nov 2026 15:00:00 +0000</pubDate>
+<category>SCI</category>
+<description><![CDATA[<p><strong>Parkinson’s may be driven by ‘vicious cycle’ that disrupts brain waste drainage</strong></p><p>New research suggests that protein clumps and impaired waste drainage create a vicious cycle in the brain, driving the progression of Parkinson&#x27;s. Breaking this cycle is a primary goal for future therapies.</p><p>新研究指出，蛋白质团块与废物清理受损会在大脑中形成恶性循环，加速帕金森病恶化。阻断这一循环是未来治疗的主要目标。</p><p>Tags: health · science · medicine</p>]]></description>
+</item>
 <item>
 <title>10月就业数据强劲但市场反应平淡，投资者持续关注人工智能</title>
 <link>https://seekingalpha.com/article/4964038-huge-october-jobs-numbers-small-market-reaction-eyes-still-on-ai?source=feed_all_articles</link>
@@ -1270,14 +1502,6 @@
 <pubDate>Sat, 31 Oct 2026 16:00:00 +0000</pubDate>
 <category>SCI</category>
 <description><![CDATA[<p><strong>Allergic reactions after sex should be listed as an antibiotic risk, experts say</strong></p><p>Clinicians are calling for patient leaflets to include warnings about potential allergic reactions to antibiotics transmitted through semen. This follows a rare medical case involving a severe reaction after intercourse.</p><p>医学专家建议在药品说明书中增加抗生素通过精液传播可能引起过敏的警示。此前发生了一起性交后引发严重过敏的罕见病例。</p><p>Tags: health · medicine · antibiotics · science</p>]]></description>
-</item>
-<item>
-<title>生锈的硬壳让火星变得温暖潮湿</title>
-<link>https://www.newscientist.com/article/2596726-rusty-crust-made-mars-warm-and-wet/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
-<guid isPermaLink="true">https://www.newscientist.com/article/2596726-rusty-crust-made-mars-warm-and-wet/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</guid>
-<pubDate>Fri, 30 Oct 2026 15:00:00 +0000</pubDate>
-<category>SCI</category>
-<description><![CDATA[<p><strong>Rusty crust made Mars warm and wet</strong></p><p>New research suggests that iron rust in the Martian crust may have helped trap heat, making the surface warm enough for liquid water. This discovery provides a new theory for how Mars might have been habitable.</p><p>最新研究显示，火星地壳中的铁锈可能起到保温作用，使地表温度足以维持液态水存在。这一发现为火星曾具备宜居性提供了新理论。</p><p>Tags: mars · space · science · geology</p>]]></description>
 </item>
 </channel>
 </rss>

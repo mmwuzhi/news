@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">30</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">4</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">4</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">6</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-11-07 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Sat Nov 07 2026 &middot; 30 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;anthropic&quot;, &quot;safety&quot;, &quot;automation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development" target="_blank" rel="noopener" onclick="event.stopPropagation()">Why a new report on Anthropic automating AI development is alarming researchers</a></div>
+      <div class="item-title-zh">Anthropic利用AI自动研发引发科研界担忧</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">anthropic · safety · automation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new report by METR reveals that Anthropic is using AI to accelerate the development of its own models, showing a significant increase in efficiency. Researchers are concerned about the implications of this rapid, self-improving automation.</p>
+      <p class="summary-zh">METR的一份新报告指出，Anthropic正利用AI加速模型研发，效率大幅提升。研究人员对这种快速自我进化的自动化进程表示担忧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;anthropic&quot;, &quot;valuation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation" target="_blank" rel="noopener" onclick="event.stopPropagation()">OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO</a></div>
+      <div class="item-title-zh">OpenAI估值达1.25万亿美元，Anthropic临近IPO</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; 13h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · anthropic · valuation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">OpenAI has reached a valuation of $1.25 trillion after raising $11 billion in a new funding round. Meanwhile, its competitor Anthropic is approaching its own IPO debut.</p>
+      <p class="summary-zh">OpenAI在最新一轮融资中筹集110亿美元，估值升至1.25万亿美元。与此同时，其竞争对手Anthropic正筹备上市。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;github&quot;, &quot;ai&quot;, &quot;engineering&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Beyond code generation: A developer’s guide to agentic engineering</a></div>
+      <div class="item-title-zh">超越代码生成：开发者智能代理指南</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">GitHub Blog &middot; 15h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">github · ai · engineering</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">GitHub explores how AI agents can assist in the full development lifecycle, from planning to production debugging. The guide emphasizes that while coding is faster, human judgment remains essential.</p>
+      <p class="summary-zh">GitHub探讨了AI智能代理如何辅助开发全生命周期。指南强调尽管编码速度提升，但人类的判断力依然不可或缺。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;llm&quot;, &quot;efficiency&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://hightouch.com/blog/llm-judges-identity-resolution" target="_blank" rel="noopener" onclick="event.stopPropagation()">A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</a></div>
+      <div class="item-title-zh">使用Opus辅助的Jev系统，成本降低四倍</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 17h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · llm · efficiency</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The integration of Jev with Opus as an intelligent helper has significantly optimized accuracy while reducing operational costs by 75%. This showcases the efficiency of multi-model collaboration.</p>
+      <p class="summary-zh">将Jev与Opus整合作为智能助手，显著优化了准确度，并使运营成本降低了四分之三。这展示了多模型协作的效率。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;linux&quot;, &quot;gaming&quot;, &quot;network&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255261#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Linux] 网易 UU 远程 Linux 终于来啦</a></div>
+      <div class="item-title-zh">Linux版网易UU加速器正式上线</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">linux · gaming · network</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">NetEase UU has officially released its remote Linux acceleration client. This long-awaited update provides Linux users with improved gaming network performance.</p>
+      <p class="summary-zh">网易UU远程加速器正式推出Linux版本。此次更新为Linux用户提供了急需的网络加速服务。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;programming&quot;, &quot;web&quot;, &quot;automation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255260#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] 死磕一个网页感知系统的来时路（二）</a></div>
+      <div class="item-title-zh">程序员手记：网页感知系统的构建之路（二）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">programming · web · automation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author shares the technical challenges of building a webpage perception system, moving from image-based detection to DOM-based analysis. The project emphasizes the transition from manual labeling to more efficient automated methods.</p>
+      <p class="summary-zh">作者分享了开发网页感知系统的技术心路历程，探讨了从视觉模型转向DOM分析的架构演进。文章详细描述了从人工标注到提升效率的探索过程。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;ai&quot;, &quot;navigation&quot;, &quot;automation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255258#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 用 AI 做了个智能导航 咖喱饭导航</a></div>
+      <div class="item-title-zh">使用AI构建智能导航网站：咖喱饭导航</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · navigation · automation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The creator launched &#x27;Curry Rice Navigation,&#x27; an AI-powered site that automatically crawls and categorizes web links submitted by users. The system leverages LLMs to analyze content and offer intelligent search recommendations.</p>
+      <p class="summary-zh">开发者推出了利用AI驱动的“咖喱饭导航”，实现自动抓取、分类用户提交的网址。该系统通过大模型进行内容分析，提供智能搜索体验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;ai&quot;, &quot;programming&quot;, &quot;cloud&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255255#reply4" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] AI 时代，并行开发多项目，感觉电脑配置不够了</a></div>
+      <div class="item-title-zh">AI时代多项目开发：电脑配置不堪重负</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · programming · cloud</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Developers are finding that modern AI-driven coding workflows are consuming excessive local hardware resources. The author suggests shifting towards cloud-based development environments to maintain efficiency.</p>
+      <p class="summary-zh">开发者发现AI辅助编程工作流正占用大量本地硬件资源。作者建议转向基于云端的开发环境，以维持高效率办公。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;macos&quot;, &quot;ai&quot;, &quot;utility&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255254#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[问与答] TidyMac：用 AI 写了个 CleanMyMac 的免费平替</a></div>
+      <div class="item-title-zh">TidyMac：利用AI编写的CleanMyMac免费替代品</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">macos · ai · utility</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer has created &#x27;TidyMac,&#x27; an open-source, AI-powered tool designed to serve as a free alternative to CleanMyMac. The project is currently available on GitHub for community use.</p>
+      <p class="summary-zh">开发者发布了名为TidyMac的开源工具，旨在作为CleanMyMac的免费AI替代品。该项目已在GitHub上开放供社区使用。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;hardware&quot;, &quot;memory&quot;, &quot;technology&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://uploadyourram.org" target="_blank" rel="noopener" onclick="event.stopPropagation()">Upload Your RAM</a></div>
+      <div class="item-title-zh">上传你的内存（Upload Your RAM）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">hardware · memory · technology</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A technical discussion regarding the concept of offloading memory tasks. Users debate the feasibility and architectural implications of externalizing system RAM.</p>
+      <p class="summary-zh">关于卸载内存任务概念的技术讨论。用户就外部化系统内存的可行性及其架构影响展开了探讨。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;macos&quot;, &quot;privacy&quot;, &quot;apple&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://8rank.ai/game/apple-intelligence-personal-knowledge-graph" target="_blank" rel="noopener" onclick="event.stopPropagation()">Every Mac comes with an (undocumented) family member classifier</a></div>
+      <div class="item-title-zh">每台Mac都内置了一个未公开的家庭成员分类器</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">macos · privacy · apple</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Users discovered an undocumented feature in macOS that automatically categorizes family members within the system&#x27;s photo analysis. This sparked a privacy-focused discussion among the technical community.</p>
+      <p class="summary-zh">用户在macOS中发现了一项未公开的功能，可自动对照片库中的家庭成员进行分类。这在技术社区引发了关于隐私的讨论。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;gaming&quot;, &quot;web&quot;, &quot;emulation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://nfsu2.xyz/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Need for Speed Underground 2 online in the browser</a></div>
+      <div class="item-title-zh">在浏览器中运行《极品飞车：地下狂飙2》</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">gaming · web · emulation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A technical project successfully enabled the classic game &#x27;Need for Speed Underground 2&#x27; to run directly in a web browser. This showcases the power of modern web technologies and emulation.</p>
+      <p class="summary-zh">一个技术项目成功使经典游戏《极品飞车：地下狂飙2》能够直接在浏览器中运行。这展示了现代Web技术与模拟器的强大性能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;earnings&quot;, &quot;retail&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964601-the-foschini-group-limited-2027-q2-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Foschini Group Limited 2027 Q2 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">The Foschini Group 2027财年第二季度财报电话会议演示</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · earnings · retail</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Foschini Group Limited released its earnings presentation for the second quarter of 2027. The slides detail the company&#x27;s financial performance and strategic outlook.</p>
+      <p class="summary-zh">The Foschini Group发布了2027财年第二季度财报演示文稿。文件中详细阐述了公司的财务表现及战略规划。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;anthropic&quot;, &quot;ipo&quot;, &quot;investing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">The AI trade is now counting on Anthropic’s IPO — but it couldn’t be happening at a worse time</a></div>
+      <div class="item-title-zh">Anthropic IPO受市场冷落，时机或不佳</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">anthropic · ipo · investing</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Investors are concerned that the current tech stock selloff might force Anthropic to delay its IPO or list at a lower valuation. Market sentiment remains cautious regarding the timing of this public offering.</p>
+      <p class="summary-zh">投资者担心当前科技股抛售潮可能导致Anthropic推迟IPO或调低估值。市场对此次上市的时机持谨慎态度。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;ai&quot;, &quot;stocks&quot;, &quot;market&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964203-ai-stock-meltdown-why-this-may-not-be-bubble-burst?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">AI Stock Meltdown: Why This May Not Be The Bubble Burst</a></div>
+      <div class="item-title-zh">AI股票暴跌：这未必是泡沫破裂的信号</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · stocks · market</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The recent meltdown in AI-related stocks is being analyzed as a market correction rather than the definitive end of the AI boom. Experts look for underlying fundamentals that might sustain the sector&#x27;s growth.</p>
+      <p class="summary-zh">近期AI相关股票的暴跌被视为市场调整，而非AI泡沫的必然破裂。专家正重新评估支撑该行业增长的基本面因素。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;jfrog&quot;, &quot;finance&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964514-jfrog-clear-ai-tailwinds-offset-by-massive-valuation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">JFrog: Clear AI Tailwinds Offset By Massive Valuation</a></div>
+      <div class="item-title-zh">JFrog：人工智能的顺风被高昂的估值所抵消</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">jfrog · finance · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">While JFrog benefits from the AI boom, its high valuation remains a significant hurdle for potential investors. Analysts weigh the company&#x27;s growth potential against its expensive stock price.</p>
+      <p class="summary-zh">尽管JFrog受益于AI热潮，但其过高的估值仍是投资者的一大顾虑。分析师正在权衡其增长潜力与股票溢价。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;economy&quot;, &quot;usa&quot;, &quot;debt&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964597-us-government-borrowed-2t-in-10-months?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">U.S. Government Has Borrowed $2T In 10 Months</a></div>
+      <div class="item-title-zh">美国政府10个月内借款2万亿美元</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">economy · usa · debt</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The U.S. government has accumulated $2 trillion in new debt over the past ten months. This rapid fiscal expansion raises concerns about long-term sustainability and economic stability.</p>
+      <p class="summary-zh">美国政府在过去十个月内新增了2万亿美元债务。这种快速的财政扩张引发了对长期经济稳定性的担忧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;investor&quot;, &quot;corporate&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964598-enerpac-tool-group-corp-epac-analyst-investor-day-slideshow?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Enerpac Tool Group Corp. (EPAC) Analyst/Investor Day - Slideshow</a></div>
+      <div class="item-title-zh">Enerpac Tool Group 分析师/投资者日演示稿</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · investor · corporate</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Enerpac Tool Group hosted its analyst and investor day, presenting a series of slides on corporate performance. The event highlighted key operational milestones and future growth strategies.</p>
+      <p class="summary-zh">Enerpac Tool Group举办了分析师与投资者日，展示了一系列企业经营幻灯片。活动重点介绍了运营里程碑与未来增长战略。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;retirement&quot;, &quot;economy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?</a></div>
+      <div class="item-title-zh">66岁老人的养老担忧：几乎没有存款的安全网</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 15h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · retirement · economy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A 66-year-old reflects on the precariousness of relying solely on Social Security with minimal savings. The story highlights broader concerns about financial security for retirees.</p>
+      <p class="summary-zh">一位66岁的老人表达了对仅靠社会保障金而几乎无存款的担忧。文章突显了退休群体在经济保障方面面临的普遍压力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;spacex&quot;, &quot;musk&quot;, &quot;acquisitions&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Elon Musk opens the door for a big SpaceX acquisition</a></div>
+      <div class="item-title-zh">埃隆·马斯克为SpaceX的大规模收购开启大门</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 15h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">spacex · musk · acquisitions</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Elon Musk is signaling potential acquisitions for SpaceX as the company expands its ambitions in the telecommunications sector. These moves are designed to challenge major carriers.</p>
+      <p class="summary-zh">埃隆·马斯克暗示SpaceX可能进行大规模收购，以拓展电信行业版图。这些举措旨在挑战主流运营商的市场地位。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;physics&quot;, &quot;quantum&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597816-record-breaking-fast-spinning-magnet-could-help-uncover-new-physics/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Record-breaking, fast-spinning magnet could help uncover new physics</a></div>
+      <div class="item-title-zh">破纪录的超快旋转磁铁可能揭示新物理规律</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 18h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">physics · quantum · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A hair-thin, rapidly spinning magnet is opening new doors for fundamental physics research. Its performance provides researchers with a novel tool for quantum technology experiments.</p>
+      <p class="summary-zh">一枚细如发丝的超高速旋转磁铁，为基础物理研究开启了新方向。其特性为量子技术实验提供了新型工具。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;climate&quot;, &quot;science&quot;, &quot;environment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597676-an-unexpected-feedback-loop-may-be-driving-mega-heatwaves/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">An unexpected feedback loop may be driving mega heatwaves</a></div>
+      <div class="item-title-zh">意外的反馈循环可能正在驱动极端热浪</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 18h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">climate · science · environment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers have identified a feedback loop between dry soil and high pressure that intensifies heatwaves. This discovery explains why recent extreme weather events have occurred earlier than predicted.</p>
+      <p class="summary-zh">研究人员发现干旱土壤与高压系统之间的反馈循环会加剧热浪。这一发现解释了为何近期极端天气比预期更早发生。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;science&quot;, &quot;fitness&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597936-less-than-4-minutes-of-vigorous-exercise-a-day-could-half-your-dementia-risk/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Less than 4 minutes of vigorous exercise a day could halve your dementia risk</a></div>
+      <div class="item-title-zh">每天不到4分钟的剧烈运动可降低痴呆症风险</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 21h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · science · fitness</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Short bursts of vigorous exercise can have a profound impact on brain health. Regular activity is linked to a significant reduction in the long-term risk of developing dementia.</p>
+      <p class="summary-zh">少量的剧烈运动即可对大脑健康产生深远影响。研究表明，规律性的运动与降低痴呆症长期风险之间存在重要联系。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;science&quot;, &quot;medicine&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597911-parkinsons-may-be-driven-by-vicious-cycle-that-disrupts-brain-waste-drainage/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Parkinson’s may be driven by ‘vicious cycle’ that disrupts brain waste drainage</a></div>
+      <div class="item-title-zh">帕金森病可能源于破坏大脑废物清理的“恶性循环”</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 22h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · science · medicine</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">New research suggests that protein clumps and impaired waste drainage create a vicious cycle in the brain, driving the progression of Parkinson&#x27;s. Breaking this cycle is a primary goal for future therapies.</p>
+      <p class="summary-zh">新研究指出，蛋白质团块与废物清理受损会在大脑中形成恶性循环，加速帕金森病恶化。阻断这一循环是未来治疗的主要目标。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;russia&quot;, &quot;energy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ukraine&#x27;s power network suffers further damage after fresh Russian strikes</a></div>
+      <div class="item-title-zh">俄罗斯新一轮空袭导致乌克兰电网进一步受损</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · russia · energy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Recent Russian strikes have inflicted further damage on Ukraine&#x27;s power network ahead of scheduled talks. Representatives from both sides are expected to meet in Abu Dhabi next week.</p>
+      <p class="summary-zh">在预定的会谈前，俄罗斯新一轮空袭进一步破坏了乌克兰的电力网络。双方代表预计将于下周在阿布扎比举行三方会谈。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;climate&quot;, &quot;cop&quot;, &quot;environment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2596962-cop-climate-summits-might-yet-have-a-useful-future-heres-how/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">COP climate summits might yet have a useful future – here’s how</a></div>
+      <div class="item-title-zh">COP气候峰会未来的可能性</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">New Scientist &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">climate · cop · environment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Despite low expectations, future COP climate summits could still serve as platforms for meaningful international progress. The article outlines how these meetings can move beyond rhetoric to deliver tangible results.</p>
+      <p class="summary-zh">尽管期望值不高，但未来的COP气候峰会仍能作为国际进展的平台。文章概述了这些会议如何超越口头承诺，取得实质性成果。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;paraguay&quot;, &quot;politics&quot;, &quot;banking&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Paraguay&#x27;s president impeached and under house arrest after bank collapse</a></div>
+      <div class="item-title-zh">巴拉圭总统因银行倒闭遭弹劾并被软禁</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">paraguay · politics · banking</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">President Santiago Peña was ousted from power following a banking crisis that left citizens unable to access their funds. The political fallout has resulted in his house arrest.</p>
+      <p class="summary-zh">在一场导致民众无法提取资金的银行危机后，总统圣地亚哥·佩尼亚被罢免并遭软禁。此次政治动荡引发了社会高度关注。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;pope&quot;, &quot;latinamerica&quot;, &quot;health&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Pope in &#x27;pretty good health&#x27; as he starts Latin America tour</a></div>
+      <div class="item-title-zh">教皇开启拉美之旅，身体状况良好</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">pope · latinamerica · health</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Pope Leo has embarked on a tour of Latin America, starting with a visit to Uruguay. This comes just three weeks after he underwent surgery for lung cancer.</p>
+      <p class="summary-zh">教皇利奥开启了拉美之旅，首站访问乌拉圭。此前三周，他刚刚接受了肺癌手术，目前状态良好。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;trump&quot;, &quot;politics&quot;, &quot;whitehouse&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">With Stephen Miller pick, Trump readies for a battle</a></div>
+      <div class="item-title-zh">特朗普提名史蒂芬·米勒出任办公厅主任，准备迎接激战</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 14h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">trump · politics · whitehouse</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Trump&#x27;s nomination of Stephen Miller as chief of staff signals a confrontational approach towards Congress. The move is expected to lead to intense political battles.</p>
+      <p class="summary-zh">特朗普提名史蒂芬·米勒为办公厅主任，预示着其对国会将采取对抗姿态。此举预计将引发激烈的政治博弈。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;media&quot;, &quot;film&quot;, &quot;recommendations&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/118623" target="_blank" rel="noopener" onclick="event.stopPropagation()">本周看什么 | 最近值得一看的 9 部作品</a></div>
+      <div class="item-title-zh">本周必看：9部值得关注的精彩作品</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">少数派 &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">media · film · recommendations</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The weekly watchlist highlights nine notable works, including the upcoming French film &#x27;The Battle of De Gaulle.&#x27; It offers recommendations for readers looking for quality entertainment.</p>
+      <p class="summary-zh">本周推荐单精选了9部值得关注的作品，其中包括即将引进的法国电影《戴高乐之战》。为读者提供了高质量的娱乐选择指南。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+<a class="archive-date" href="/archive/2026-11-01.html">2026-11-01</a>
+<a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">30 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">13:41 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+<a class="archive-date" href="/archive/2026-11-01.html">2026-11-01</a>
+<a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+<a class="archive-date" href="/archive/2026-10-22.html">2026-10-22</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-11-07';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
