@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">37</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">7</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">6</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">8</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-11-08 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Sun Nov 08 2026 &middot; 37 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;video&quot;, &quot;creation&quot;, &quot;v2ex&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255392#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享发现] 看了《持械入宋》这类历史遗憾题材，赛道似乎还有机会啊😂</a></div>
+      <div class="item-title-zh">《持械入宋》等历史遗憾题材引发AI影视创作热潮</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · video · creation · v2ex</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A low-budget team has gained traction with their AI-produced historical series, &#x27;Holding Arms into Song.&#x27; They are now exploring how to leverage AI tools for efficient content production in this emerging niche.</p>
+      <p class="summary-zh">近期一部名为《持械入宋》的AI制作历史剧走红，引发了对草根团队如何利用AI技术弥补影视创作遗憾的探讨。该案例揭示了AI影视制作在低成本与高效产出方面的巨大潜力和商业机会。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;chatgpt&quot;, &quot;openai&quot;, &quot;service&quot;, &quot;v2ex&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255384#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[推广] ChatGPT 公益代充站</a></div>
+      <div class="item-title-zh">ChatGPT 公益代充平台推广</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">chatgpt · openai · service · v2ex</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new public service platform for ChatGPT account recharging has been shared with the community. The site emphasizes privacy by not storing user credit card information.</p>
+      <p class="summary-zh">社区分享了一个ChatGPT公益代充平台，旨在方便用户进行账户充值。该站点承诺不保存用户的支付卡片信息，保障用户隐私安全。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;llm&quot;, &quot;deepseek&quot;, &quot;hardware&quot;, &quot;local&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://github.com/synchopate/llama-modchip" target="_blank" rel="noopener" onclick="event.stopPropagation()">Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU</a></div>
+      <div class="item-title-zh">Llama-modchip：在 64GB 内存上运行 284B DeepSeek 模型</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">llm · deepseek · hardware · local</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new method enables running the massive 284B DeepSeek model on 64GB of RAM without a dedicated GPU. This &#x27;modchip&#x27; approach pushes the boundaries of local LLM inference.</p>
+      <p class="summary-zh">通过Llama-modchip技术，用户无需GPU，仅利用64GB内存即可运行284B参数的DeepSeek模型。这一方案极大降低了大模型本地推理的硬件门槛。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;cooking&quot;, &quot;tools&quot;, &quot;review&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1029474/discogs-kevin-lewandowski-aeropress-interview" target="_blank" rel="noopener" onclick="event.stopPropagation()">Discogs’ Kevin Lewandowski can’t live without his AeroPress</a></div>
+      <div class="item-title-zh">AI 助手能帮我做晚饭，但差点毁了我的蛋糕</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; 21h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · cooking · tools · review</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user explores the utility of an AI cooking assistant in the kitchen. While it efficiently handled weeknight dinners, it provided flawed instructions for baking, highlighting the limits of AI.</p>
+      <p class="summary-zh">作者分享了使用AI烹饪助手的经历。尽管AI能高效规划晚餐，但其在烘焙指令上的失误险些导致蛋糕失败，凸显了当前AI工具的局限性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;github&quot;, &quot;copilot&quot;, &quot;development&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/116750" target="_blank" rel="noopener" onclick="event.stopPropagation()">一个 05 后的个人数码编年史</a></div>
+      <div class="item-title-zh">超越代码生成：开发者的智能体工程指南</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">少数派 &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · github · copilot · development</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">GitHub discusses the shift from simple code generation to agentic engineering. The guide highlights how developers can use Copilot to plan, review, and manage the entire lifecycle of software development.</p>
+      <p class="summary-zh">GitHub撰文探讨了从简单的代码生成向“智能体工程”的转型。指南详细介绍了开发者如何利用Copilot进行代码规划、审查及生产问题的排查与管理。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;robotics&quot;, &quot;samsung&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597936-less-than-4-minutes-of-vigorous-exercise-a-day-could-half-your-dementia-risk/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Less than 4 minutes of vigorous exercise a day could halve your dementia risk</a></div>
+      <div class="item-title-zh">AI 时代的技术动态：人形机器人与三星布局</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">New Scientist &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · robotics · samsung · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This daily digest covers the latest in tech, focusing on humanoid robots entering household services and Samsung&#x27;s strategic investments to capitalize on the ongoing AI boom.</p>
+      <p class="summary-zh">本文汇总了AI技术动态，涵盖人形机器人进军家庭清洁服务，以及三星为把握AI浪潮而进行的战略性商业布局。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="AI" data-tags="[&quot;robotics&quot;, &quot;ai&quot;, &quot;lifestyle&quot;, &quot;future&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: a humanoid cleans house and Samsung builds for the AI boom</a></div>
+      <div class="item-title-zh">我雇佣人形机器人打扫公寓，提前触碰了未来</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">MIT Tech Review &middot; 2d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">robotics · ai · lifestyle · future</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author shares their experience hiring a humanoid robot for domestic cleaning. This firsthand account explores the efficiency of robot-led housework and the feeling of witnessing a future technology in practice.</p>
+      <p class="summary-zh">作者分享了雇佣人形机器人上门打扫公寓的初体验。文章描述了机器人执行家务的效率，以及近距离感受未来科技走进生活的独特体验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;macos&quot;, &quot;opensource&quot;, &quot;tools&quot;, &quot;development&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255391#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] 分析一个 macos 的文件管理器</a></div>
+      <div class="item-title-zh">分享一款轻量级且开源的 macOS 文件管理器</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">macos · opensource · tools · development</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer has created a free, open-source file manager for macOS to replace heavier, paid alternatives. The project focuses on performance and simplicity, and the author is currently seeking community feedback.</p>
+      <p class="summary-zh">开发者推出了一款轻量级、开源免费的 macOS 文件管理器，旨在替代体积庞大且收费的同类软件。目前项目已在 GitHub 开源，开发者欢迎用户提供使用建议。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;ios&quot;, &quot;adblock&quot;, &quot;automation&quot;, &quot;privacy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255389#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[问与答] iOS 的李跳跳？还是 Mitm 去贴片广告更好</a></div>
+      <div class="item-title-zh">iOS 平台的开屏广告自动跳过方案探讨</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ios · adblock · automation · privacy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new tool for iOS, Swipt, has been developed to bypass intrusive splash screen ads in Chinese applications. It uses accessibility trees to detect and close ads faster than manual interaction.</p>
+      <p class="summary-zh">iOS开发者推出了一款名为Swipt的工具，利用无障碍功能实现对国内主流APP开屏广告的自动跳过。该方案通过识别广告SDK，实现了比人工点击更快的响应速度。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;typing&quot;, &quot;web&quot;, &quot;productivity&quot;, &quot;tools&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255388#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 做了个不限时的短文打字练习工具，支持粘贴自己的文本</a></div>
+      <div class="item-title-zh">发布一款无需注册的短文打字练习工具</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">typing · web · productivity · tools</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The developer introduced KeySprint, a web-based tool for practicing typing with full sentences rather than random words. It allows users to paste their own texts and provides detailed performance metrics.</p>
+      <p class="summary-zh">开发者发布了KeySprint网页工具，旨在通过完整的短文内容而非随机单词来练习打字。该工具支持自定义文本粘贴，并能为用户提供详细的打字速度与准确率分析。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;media&quot;, &quot;video&quot;, &quot;content&quot;, &quot;trends&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot" target="_blank" rel="noopener" onclick="event.stopPropagation()">There’s no slowing down media’s pivot-to-video 2.0</a></div>
+      <div class="item-title-zh">媒体行业的视频转型浪潮依然强劲</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">media · video · content · trends</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Media outlets are continuing their heavy investment in video production, signaling that the &#x27;pivot-to-video&#x27; trend is far from over. This newsletter explores the pressures creators face in today&#x27;s digital landscape.</p>
+      <p class="summary-zh">媒体行业的视频转型趋势依然未见放缓，各类平台持续加大对视频内容的投入。本文深入探讨了互联网环境下内容创作者所面临的持续压力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;embedded&quot;, &quot;programming&quot;, &quot;hardware&quot;, &quot;optimization&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://linebender.org/blog/jit-bitmap-text/" target="_blank" rel="noopener" onclick="event.stopPropagation()">JIT bitmap text rendering for microcontrollers</a></div>
+      <div class="item-title-zh">单片机上的 JIT 位图文本渲染技术</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">embedded · programming · hardware · optimization</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new technical approach allows for just-in-time bitmap text rendering on microcontrollers. This optimization is crucial for resource-constrained hardware to display dynamic text efficiently.</p>
+      <p class="summary-zh">本文介绍了一种在单片机上实现JIT位图文本渲染的技术方案。该方法极大地优化了资源受限硬件下的动态文本显示效率。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;design&quot;, &quot;ux&quot;, &quot;products&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/118114" target="_blank" rel="noopener" onclick="event.stopPropagation()">苹果产品那些不够颠覆，却值得被学习的细节</a></div>
+      <div class="item-title-zh">苹果产品中那些值得学习的非颠覆性细节</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">少数派 &middot; 10h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · design · ux · products</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article highlights subtle design details in Apple products that, while not revolutionary, offer significant lessons for product designers. It emphasizes the importance of refined user experience.</p>
+      <p class="summary-zh">文章总结了苹果产品中一些并不足以颠覆行业，但非常值得借鉴的细节设计。作者强调了这些细节在提升用户体验方面的价值。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="TECH" data-tags="[&quot;gaming&quot;, &quot;nintendo&quot;, &quot;costco&quot;, &quot;deals&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions" target="_blank" rel="noopener" onclick="event.stopPropagation()">The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance</a></div>
+      <div class="item-title-zh">Costco 会员可享《时之笛》重制版 5 美元优惠</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 20h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">gaming · nintendo · costco · deals</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Costco is offering a discount on the digital version of the remastered Legend of Zelda: Ocarina of Time. The deal allows members to save money while securing the game.</p>
+      <p class="summary-zh">Costco会员目前购买《塞尔达传说：时之笛》重制版数字版可立减5美元。这一优惠活动帮助会员以更低价格获得游戏。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="TECH" data-tags="[&quot;coffee&quot;, &quot;lifestyle&quot;, &quot;tech&quot;, &quot;discogs&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale" target="_blank" rel="noopener" onclick="event.stopPropagation()">Costco members can get $5 off the reimagined Ocarina of Time</a></div>
+      <div class="item-title-zh">Discogs 创始人：我离不开爱乐压</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 21h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">coffee · lifestyle · tech · discogs</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Kevin Lewandowski, the founder of the vinyl marketplace Discogs, shares his daily essential: the AeroPress. The article discusses his passion for music and his morning coffee routine.</p>
+      <p class="summary-zh">黑胶唱片交易平台Discogs的创始人Kevin Lewandowski分享了他的日常必备单品——爱乐压咖啡机。文章简述了他的音乐热情及咖啡生活。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;election&quot;, &quot;markets&quot;, &quot;economy&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964833-midterm-election-goes-blue-what-happens-with-markets-now?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Midterm Election Goes Blue: What Happens With Markets Now?</a></div>
+      <div class="item-title-zh">中期选举结果转向蓝营：市场前景如何？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">election · markets · economy · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">With the midterm election results leaning toward the Democrats, market analysts are assessing the potential economic impact. Investors are looking for clarity on upcoming fiscal policies and sector-specific trends.</p>
+      <p class="summary-zh">随着中期选举结果偏向蓝营，市场分析师正在评估其对经济政策的影响。投资者正密切关注政策走向，以判断各行业的后续表现。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;oil&quot;, &quot;finance&quot;, &quot;stocks&quot;, &quot;downgrade&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964657-conocophillips-a-crude-awakening-is-coming-rating-downgrade?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">ConocoPhillips: A Crude Awakening Is Coming (Rating Downgrade)</a></div>
+      <div class="item-title-zh">康菲石油公司：前景不容乐观，评级下调</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">oil · finance · stocks · downgrade</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">ConocoPhillips has faced a rating downgrade amid concerns regarding market conditions and industry outlooks. Analysts point to potential risks that could affect the energy giant&#x27;s future performance.</p>
+      <p class="summary-zh">由于市场环境和行业前景的担忧，康菲石油公司遭到了评级下调。分析师指出，能源领域潜在的风险因素可能影响其未来的盈利表现。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;reits&quot;, &quot;finance&quot;, &quot;investing&quot;, &quot;green&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964830-blue-wave-could-turn-into-green-wave-for-reit-investors?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Blue Wave Could Turn Into A Green Wave For REIT Investors</a></div>
+      <div class="item-title-zh">“蓝色浪潮”或为 REITs 投资者带来环保机遇</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">reits · finance · investing · green</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Democratic win could signify a &#x27;Green Wave&#x27; of legislative support that benefits real estate investment trusts (REITs). Investors are evaluating how sustainability-focused policies might drive growth in this sector.</p>
+      <p class="summary-zh">民主党的胜出可能开启“绿色浪潮”，通过政策支持惠及房地产投资信托基金（REITs）。投资者正在评估可持续政策如何驱动该行业的增长潜力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;dividends&quot;, &quot;finance&quot;, &quot;investing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4963277-two-of-my-best-dividend-stocks-cut-their-dividends?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Two Of My Best Dividend Stocks Cut Their Dividends</a></div>
+      <div class="item-title-zh">我的两只绩优股被迫削减分红</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · dividends · finance · investing</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An investor reports that two of their top-performing dividend stocks have cut payouts, highlighting the instability in current income-focused portfolios. The piece explores the implications of these cuts for long-term investors.</p>
+      <p class="summary-zh">一位投资者反映其两只表现良好的分红股削减了派息，显示出当前高分红策略的不稳定性。文章分析了这一变化对长期财务规划带来的影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;realestate&quot;, &quot;finance&quot;, &quot;stocks&quot;, &quot;analysis&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4964828-american-homes-4-rent-still-isnt-good-for-my-money-even-after-great-quarter?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">American Homes 4 Rent Still Isn&#x27;t A Good Home For My Money Even After A Great Quarter</a></div>
+      <div class="item-title-zh">American Homes 4 Rent 即使财报亮眼仍非良选</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">realestate · finance · stocks · analysis</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Despite posting strong quarterly results, American Homes 4 Rent remains a questionable investment choice according to this analysis. The author argues that financial performance does not necessarily translate into long-term value.</p>
+      <p class="summary-zh">尽管American Homes 4 Rent交出了亮眼的季度财报，但分析指出其仍非理想投资目标。作者认为短期财务表现并不等于长期的资产增值价值。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;tech&quot;, &quot;finance&quot;, &quot;markets&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/this-market-signal-called-the-tech-selloff-now-its-sending-another-warning-f7f8eb9b?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">This market signal called the tech selloff. Now it’s sending another warning.</a></div>
+      <div class="item-title-zh">股市发出警告：科技股抛售潮前兆</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · tech · finance · markets</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">MarketWatch reports that record-low correlations between individual stocks are serving as a warning signal. This pattern previously preceded a tech selloff and suggests potential market instability ahead.</p>
+      <p class="summary-zh">MarketWatch分析指出，近期个股间相关性降至历史低点，这是市场潜在波动的警告信号。该模式曾预示过科技股抛售，投资者需警惕后续的市场回调。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;insurance&quot;, &quot;investing&quot;, &quot;advice&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">This retired professor has reinvented himself — as a Taylor Swift scholar</a></div>
+      <div class="item-title-zh">市场动荡下，年金保险是否是明智之选？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 17h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · insurance · investing · advice</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An investor is questioning their advisor&#x27;s recommendation to invest in annuities amidst current market uncertainty. They are seeking independent advice to weigh the pros and cons.</p>
+      <p class="summary-zh">面对当前的市场动荡，一位投资者对理财顾问推荐的年金保险计划产生怀疑。他正在寻求独立意见，以权衡此类投资的利弊。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="FINA" data-tags="[&quot;tax&quot;, &quot;finance&quot;, &quot;irs&quot;, &quot;economy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Second-guessing my adviser: Is an annuity the right move in this market?</a></div>
+      <div class="item-title-zh">2027 年各收入阶层的资本利得税率公布</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 17h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">tax · finance · irs · economy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The IRS has released the updated capital-gains tax rates for 2027. This guide outlines how much individuals at different income levels should expect to pay.</p>
+      <p class="summary-zh">美国国税局发布了2027年的资本利得税率表。本文详细列出了不同收入阶层在未来一年所需缴纳的税款标准。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;war&quot;, &quot;tech&quot;, &quot;science&quot;, &quot;ukraine&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597901-antipersonnel-mines-have-returned-in-ukraine-and-now-threaten-the-world/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Antipersonnel mines have returned in Ukraine and now threaten the world</a></div>
+      <div class="item-title-zh">俄乌冲突中杀伤人员地雷再现</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">war · tech · science · ukraine</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Modern technology including 3D printing and drones has facilitated the resurgence of antipersonnel mines in Ukraine. These developments make the threat more accessible and lethal for civilians.</p>
+      <p class="summary-zh">3D打印、微控制器和无人机等现代技术导致俄乌战场上杀伤人员地雷死灰复燃。这些技术升级使得地雷的获取更为简单，对平民构成的威胁也日益增大。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;tech&quot;, &quot;wearables&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">US offers $20m reward for information about Iran&#x27;s nuclear programme</a></div>
+      <div class="item-title-zh">UV 追踪宝石让我重新审视阳光与健康</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">BBC &middot; 19h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · tech · wearables · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A UV-tracking wearable device has changed the author&#x27;s understanding of sun exposure. It highlights the importance of managing sun intake to maintain health, beyond just skin appearance.</p>
+      <p class="summary-zh">一款紫外线追踪穿戴设备改变了作者对阳光照射的认知。它提醒我们，为了身体健康，必须关注日晒强度，而不仅是关注皮肤的防晒美观。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="SCI" data-tags="[&quot;climate&quot;, &quot;environment&quot;, &quot;politics&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review" target="_blank" rel="noopener" onclick="event.stopPropagation()">NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake</a></div>
+      <div class="item-title-zh">COP 气候峰会的未来之路探讨</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">The Verge &middot; 22h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">climate · environment · politics · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">While COP31 may not resolve the global climate crisis immediately, this piece argues that these summits remain essential for international progress. It outlines how future meetings can be more effective.</p>
+      <p class="summary-zh">文章指出，尽管COP31气候峰会难以立即解决全球气候危机，但其在国际合作方面仍具有重要意义。文中探讨了未来峰会如何提升实效的路径。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="SCI" data-tags="[&quot;physics&quot;, &quot;science&quot;, &quot;tech&quot;, &quot;quantum&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Beyond code generation: A developer’s guide to agentic engineering</a></div>
+      <div class="item-title-zh">打破记录的磁铁：助力发现全新物理现象</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">GitHub Blog &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">physics · science · tech · quantum</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers have developed a magnet that spins at record-breaking speeds. This invention could open doors to fundamental discoveries in quantum technology and physics experiments.</p>
+      <p class="summary-zh">科学家研发出一种旋转速度破纪录的磁铁。这一创新有望在量子技术和基础物理实验领域带来全新的研究发现。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="SCI" data-tags="[&quot;climate&quot;, &quot;environment&quot;, &quot;science&quot;, &quot;heat&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597816-record-breaking-fast-spinning-magnet-could-help-uncover-new-physics/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Record-breaking, fast-spinning magnet could help uncover new physics</a></div>
+      <div class="item-title-zh">意想不到的反馈循环正在引发超级热浪</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">climate · environment · science · heat</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">New research suggests that dry soil and high pressure create a feedback loop exacerbating heatwaves. This phenomenon explains why extreme weather is arriving earlier than climate models predicted.</p>
+      <p class="summary-zh">最新研究发现，干燥土壤与高气压之间存在的反馈循环正在加剧热浪。这一发现解释了为何极端高温天气的到来比气候模型预测的更早。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;science&quot;, &quot;exercise&quot;, &quot;dementia&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597676-an-unexpected-feedback-loop-may-be-driving-mega-heatwaves/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">An unexpected feedback loop may be driving mega heatwaves</a></div>
+      <div class="item-title-zh">每天 4 分钟高强度运动即可减半痴呆风险</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1d ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · science · exercise · dementia</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A study shows that very short bursts of vigorous activity can significantly improve brain health. Incorporating just four minutes of exercise daily may drastically reduce dementia risk.</p>
+      <p class="summary-zh">研究显示，哪怕每天只有几分钟的剧烈运动也能显著改善脑部健康。将此习惯融入日常，有望将患痴呆症的风险降低一半。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;society&quot;, &quot;professional&quot;, &quot;discussion&quot;, &quot;hn&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://krthr.co/person-of-interest/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Person of Interest</a></div>
+      <div class="item-title-zh">深度探讨：利益相关者</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">society · professional · discussion · hn</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This discussion examines the concept of &#x27;Person of Interest&#x27; in professional and social contexts. The community provides diverse perspectives on how this term influences organizational dynamics.</p>
+      <p class="summary-zh">本文深入探讨了职业和社会语境中“利益相关者”的概念。社区成员从不同角度分析了该术语对组织行为和决策过程的影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;news&quot;, &quot;crime&quot;, &quot;poland&quot;, &quot;world&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">What we know so far after Krakow gun attack</a></div>
+      <div class="item-title-zh">克拉科夫枪击案后续调查进展</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">news · crime · poland · world</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Authorities are investigating a random shooting in Krakow that resulted in six deaths. Subsequent findings revealed three more bodies at the suspect&#x27;s residence.</p>
+      <p class="summary-zh">克拉科夫市广场发生随机枪击事件，造成六人死亡。警方后续调查在其嫌疑人住所又发现了三具尸体，目前案件仍在进一步调查中。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;career&quot;, &quot;psychology&quot;, &quot;management&quot;, &quot;growth&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://aworkinglibrary.com/writing/petered" target="_blank" rel="noopener" onclick="event.stopPropagation()">Petered (what happens after the Peter Principle)</a></div>
+      <div class="item-title-zh">彼得原理之后：当一个人达到其能力瓶颈时</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">career · psychology · management · growth</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article discusses what happens after an individual reaches their level of incompetence according to the Peter Principle. It explores career plateaus and the psychological impact on professional growth.</p>
+      <p class="summary-zh">文章探讨了当个人在职业生涯中达到“彼得原理”定义的无能阶层后的后续情况。分析重点关注了职业发展的瓶颈及随之而来的心理影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="33" data-cat="WORLD" data-tags="[&quot;yemen&quot;, &quot;conflict&quot;, &quot;news&quot;, &quot;geopolitics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">33</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Houthis say at least 33 killed in Saudi air strike</a></div>
+      <div class="item-title-zh">胡塞武装称沙特空袭导致至少 33 人丧生</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 9h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="33" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="33" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">yemen · conflict · news · geopolitics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Tensions in Yemen escalate as the Houthis report a significant death toll from a Saudi-led airstrike. The coalition has yet to provide an official statement regarding the incident.</p>
+      <p class="summary-zh">也门局势紧张，胡塞武装声称沙特领导的空袭造成至少33人死亡。截至目前，沙特联军尚未就此事发表任何官方评论。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="34" data-cat="WORLD" data-tags="[&quot;israel&quot;, &quot;politics&quot;, &quot;government&quot;, &quot;election&quot;]">
+  <div class="item-row">
+    <span class="item-idx">34</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://caleb.software/posts/claude-to-pi.html" target="_blank" rel="noopener" onclick="event.stopPropagation()">Goodbye Claude, Hello Pi</a></div>
+      <div class="item-title-zh">以色列总统授权反对派领袖组阁</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; 10h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="34" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="34" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">israel · politics · government · election</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Following a deadlock in the recent national election, the Israeli president has tasked the opposition leader with forming a new government. Neither major bloc secured a clear majority.</p>
+      <p class="summary-zh">由于近期议会选举中主要阵营均未获得过半议席，以色列总统授权反对派领袖尝试组建新一届政府。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="35" data-cat="WORLD" data-tags="[&quot;nz&quot;, &quot;politics&quot;, &quot;election&quot;, &quot;society&quot;]">
+  <div class="item-row">
+    <span class="item-idx">35</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Israel&#x27;s president tasks opposition leader Eisenkot with forming government</a></div>
+      <div class="item-title-zh">新西兰大选：选民情绪低落，选举结果极度紧凑</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 15h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="35" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="35" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nz · politics · election · society</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">New Zealand&#x27;s latest election saw historically low voter enthusiasm and a shift away from major political parties. The result highlights a growing disillusionment with the current political landscape.</p>
+      <p class="summary-zh">新西兰近日举行的大选显示选民情绪普遍低落，对主流政党的支持度大幅下降。这一现象凸显了民众对当前政治生态的广泛不满。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="36" data-cat="WORLD" data-tags="[&quot;culture&quot;, &quot;music&quot;, &quot;lifestyle&quot;, &quot;podcast&quot;]">
+  <div class="item-row">
+    <span class="item-idx">36</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">&#x27;Flat&#x27;, &#x27;tired&#x27;, &#x27;cynical&#x27;: Unusually gloomy Kiwis deliver New Zealand&#x27;s tightest election in years</a></div>
+      <div class="item-title-zh">七旬退休教授化身泰勒·斯威夫特学者</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 16h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="36" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="36" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">culture · music · lifestyle · podcast</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A 72-year-old retired professor has found a second career as a Taylor Swift scholar. By analyzing lyrics for his popular podcast, he has reinvented his retirement life.</p>
+      <p class="summary-zh">一位72岁的退休教授通过研究泰勒·斯威夫特的歌词，开启了职业生涯的“第二春”。他凭借播客分享这些深度分析，成功重塑了自己的退休生活。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="37" data-cat="WORLD" data-tags="[&quot;iran&quot;, &quot;us&quot;, &quot;politics&quot;, &quot;nuclear&quot;]">
+  <div class="item-row">
+    <span class="item-idx">37</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/medicare-prescription-drug-costs-will-jump-50-in-2027-doing-nothing-could-cost-you-b701dfb7?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.</a></div>
+      <div class="item-title-zh">美国悬赏 2000 万美元征集伊朗核计划情报</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; 18h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="37" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="37" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">iran · us · politics · nuclear</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The US has announced a $20 million reward for intelligence regarding Iran&#x27;s nuclear program. This comes amid heightened rhetoric about potentially striking these facilities.</p>
+      <p class="summary-zh">美国宣布悬赏2000万美元征集关于伊朗核计划的情报。在此背景下，针对伊朗核设施可能面临军事打击的言论也在持续升温。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+<a class="archive-date" href="/archive/2026-11-01.html">2026-11-01</a>
+<a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">37 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">14:00 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+<a class="archive-date" href="/archive/2026-11-01.html">2026-11-01</a>
+<a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+<a class="archive-date" href="/archive/2026-10-23.html">2026-10-23</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-11-08';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
