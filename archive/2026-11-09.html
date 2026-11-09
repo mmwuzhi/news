@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">33</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">4</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">6</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">7</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-11-09 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Mon Nov 09 2026 &middot; 33 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;deepseek&quot;, &quot;local-llm&quot;, &quot;mac-studio&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255702#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[硅基生活] 本地部署原生精度 DeepSeek-V4.1-Flash-1017 方案</a></div>
+      <div class="item-title-zh">【硅基生活】本地部署原生精度DeepSeek-V4.1-Flash-1017方案</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">deepseek · local-llm · mac-studio</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article outlines a guide for running the DeepSeek-V4.1-Flash-1017 model locally on a Mac Studio M5U. It details the use of specific engines and hardware optimizations to maintain native precision while managing large contexts.</p>
+      <p class="summary-zh">本文详细介绍了如何在Mac Studio M5U上本地部署DeepSeek-V4.1-Flash-1017模型的方案。通过特定的推理引擎和硬件优化，可以在保持原生精度的同时处理大规模上下文。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;trump&quot;, &quot;ai&quot;, &quot;regulation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai" target="_blank" rel="noopener" onclick="event.stopPropagation()">Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec</a></div>
+      <div class="item-title-zh">特朗普在60分钟访谈中提及AI安全，并威胁逮捕AI高管</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">trump · ai · regulation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">During a 60 Minutes interview, Donald Trump played down the risks of AI while threatening legal action against industry executives. He argued that current regulatory bodies are sufficient to manage potential dangers.</p>
+      <p class="summary-zh">在《60分钟》访谈中，唐纳德·特朗普淡化了AI风险，并威胁要对行业高管采取法律行动。他认为当前的监管机构足以应对潜在危险。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;nvidia&quot;, &quot;h100&quot;, &quot;cloud&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing" target="_blank" rel="noopener" onclick="event.stopPropagation()">The same H100 costs $2.69 or $12.29 an hour depending where you rent it</a></div>
+      <div class="item-title-zh">同样的H100，根据租赁地点不同，每小时价格从2.69美元到12.29美元不等</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · h100 · cloud</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This discussion highlights the vast price disparity in cloud GPU rentals for Nvidia H100 chips. Users analyze geographical and provider-based cost variations in the AI infrastructure market.</p>
+      <p class="summary-zh">该话题讨论了英伟达H100芯片在云GPU租赁市场中的巨大价差。用户们分析了地理位置和服务商导致的成本波动。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;disney&quot;, &quot;adobe&quot;, &quot;generative-ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership" target="_blank" rel="noopener" onclick="event.stopPropagation()">Disney and Adobe are building generative AI tools together</a></div>
+      <div class="item-title-zh">迪士尼与Adobe正在联合构建生成式AI工具</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">disney · adobe · generative-ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Disney and Adobe have announced a multiyear partnership to develop AI tools tailored for the entertainment industry. The collaboration will integrate specialized generative models into Disney&#x27;s production pipelines.</p>
+      <p class="summary-zh">迪士尼与Adobe宣布建立多年合作伙伴关系，共同开发专为娱乐行业定制的AI工具。此次合作将把定制化的生成模型集成到迪士尼的生产流程中。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;uber&quot;, &quot;spothero&quot;, &quot;parking&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/transportation/1029776/uber-parking-launch-spothero-robotaxis" target="_blank" rel="noopener" onclick="event.stopPropagation()">Uber wants to park your car now, too</a></div>
+      <div class="item-title-zh">Uber现在也要帮你停车了</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">uber · spothero · parking</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Uber has launched a new in-app parking reservation service following its acquisition of SpotHero. Users can now find, book, and pay for parking spaces across thousands of locations directly within the Uber app.</p>
+      <p class="summary-zh">在收购SpotHero后，Uber推出了一项全新的应用内停车预订服务。用户现可直接在Uber App内搜索、预订并支付全国数千个停车场的费用。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;furniture&quot;, &quot;shopping&quot;, &quot;lifestyle&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/why-renters-are-obsessed-with-these-300-boneless-couches-65a2e4fe?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Why renters are obsessed with these $300 ‘boneless couches’</a></div>
+      <div class="item-title-zh">为什么租房者对这些300美元的“无骨沙发”如此痴迷</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">furniture · shopping · lifestyle</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The popularity of affordable, modular &#x27;boneless&#x27; couches has surged among renters due to their convenience and low price point. Analysts suggest Black Friday may be an optimal time to purchase these items.</p>
+      <p class="summary-zh">因其便利性和低廉的价格，价格亲民的模块化“无骨沙发”在租房群体中广受欢迎。分析师建议，黑色星期五可能是购买此类商品的最佳时机。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;chromium&quot;, &quot;electron&quot;, &quot;opensource&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255700#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] Zebkit - Chromium as an embeddable library</a></div>
+      <div class="item-title-zh">【分享创造】Zebkit - 可嵌入的Chromium库</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">chromium · electron · opensource</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Zebkit is a new project that offers a streamlined version of Chromium as an embeddable library for applications. It significantly reduces size compared to Electron and provides native hooks for AI-driven automation tools.</p>
+      <p class="summary-zh">Zebkit是一个新项目，它提供了一个精简版的Chromium作为可嵌入应用的库。与Electron相比，它大幅缩减了体积，并为AI驱动的自动化工具提供了原生调用接口。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;sony&quot;, &quot;playstation&quot;, &quot;gaming&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/news/1029822/sony-playstation-portal-japan-model-additional-storage" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sony’s new PlayStation Portal handheld includes ‘additional’ internal storage</a></div>
+      <div class="item-title-zh">索尼新款PlayStation Portal掌机包含“额外”内部存储</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">sony · playstation · gaming</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Sony is releasing a Japan-exclusive version of the PlayStation Portal featuring additional internal storage. The upgrade suggests the company may be preparing for new, storage-intensive software features.</p>
+      <p class="summary-zh">索尼即将在日本推出新款PlayStation Portal，该版本内置了额外的存储空间。此次升级暗示索尼可能正在为未来需要大量存储的软件功能做准备。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;avatar&quot;, &quot;design&quot;, &quot;opensource&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255698#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 开源一个在线生成 Grok Bot 风格的机器人头像制作工具</a></div>
+      <div class="item-title-zh">【分享创造】开源一个在线生成Grok Bot风格机器人头像的工具</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">avatar · design · opensource</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The developer has released an open-source web tool that generates robot avatars in the style of Grok Bot. It offers various customization options and allows for SVG exports without requiring registration.</p>
+      <p class="summary-zh">开发者开源了一款在线工具，可用于生成Grok Bot风格的机器人头像。用户可进行多种自定义设置并直接导出SVG矢量图，全程无需登录。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;ai&quot;, &quot;tiktok&quot;, &quot;web-tool&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255697#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[推广] 一小时手搓了一个比心视频生成器，最近 tiktok 很火，快来一起玩吧</a></div>
+      <div class="item-title-zh">【推广】一小时手搓了一个比心视频生成器，最近TikTok很火</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · tiktok · web-tool</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer created an AI-based tool to generate &#x27;bicep heart&#x27; videos, a trend currently viral on TikTok. The web app allows users to create and export these videos quickly for social media.</p>
+      <p class="summary-zh">开发者利用AI打造了一款“比心”视频生成器，旨在迎合TikTok上的热门趋势。该Web应用使用户能够快速生成并导出此类视频，方便在社交媒体分享。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;riaa&quot;, &quot;copyright&quot;, &quot;music&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music" target="_blank" rel="noopener" onclick="event.stopPropagation()">Hold up — I had a great time talking to the RIAA guy</a></div>
+      <div class="item-title-zh">等等——我和RIAA的人谈得很愉快</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">riaa · copyright · music</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author shares a candid conversation with the CEO of the RIAA, reflecting on the historical tension between copyright enforcement and digital music. The discussion marks a change in perspective on industry gatekeepers.</p>
+      <p class="summary-zh">作者分享了与RIAA CEO的一次坦诚对话，回顾了版权执行与数字音乐之间长期的紧张关系。这次讨论标志着作者对行业守门人看法的一种转变。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;hackernews&quot;, &quot;community&quot;, &quot;culture&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/" target="_blank" rel="noopener" onclick="event.stopPropagation()">I Saw Your HN Comment</a></div>
+      <div class="item-title-zh">我看到了你的HN评论</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">hackernews · community · culture</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A meta-discussion regarding the culture and impact of comments on Hacker News. Users share perspectives on the tone and value of discourse within the tech community.</p>
+      <p class="summary-zh">关于Hacker News评论区文化与影响的元讨论。用户们分享了对科技社区讨论氛围及质量的看法。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;via&quot;, &quot;earnings&quot;, &quot;transportation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4965171-via-transportation-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Via Transportation, Inc. 2026 Q3 - Results - Earnings Call Presentation</a></div>
+      <div class="item-title-zh">Via Transportation, Inc. 2026年第三季度财报电话会议</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">via · earnings · transportation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This transcript covers the financial results and operational updates for Via Transportation during the third quarter of 2026. Executives discuss performance metrics and future outlook for the company&#x27;s transportation services.</p>
+      <p class="summary-zh">该文档记录了Via Transportation公司2026年第三季度的财务表现与业务更新。高管们详细探讨了运营指标及公司未来交通服务的发展前景。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;orsted&quot;, &quot;energy&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4963449-orsted-a-s-dnngy-q3-2026-earnings-call-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ørsted A/S (DNNGY) Q3 2026 Earnings Call Transcript</a></div>
+      <div class="item-title-zh">Ørsted A/S (DNNGY) 2026年第三季度财报电话会议</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">orsted · energy · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Ørsted A/S provides an overview of its financial health and renewable energy projects in the third quarter of 2026. The call highlights the company&#x27;s progress in global energy markets and infrastructure investments.</p>
+      <p class="summary-zh">Ørsted A/S在本次电话会议中概述了2026年第三季度的财务状况及可再生能源项目进展。会议重点介绍了该公司在全球能源市场及基础设施投资方面的成就。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;petrotal&quot;, &quot;oil&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4965140-petrotal-corp-tal-ca-q3-2026-earnings-call-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">PetroTal Corp. (TAL:CA) Q3 2026 Earnings Call Transcript</a></div>
+      <div class="item-title-zh">PetroTal Corp. (TAL:CA) 2026年第三季度财报电话会议</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">petrotal · oil · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">PetroTal Corp. reports on its oil production and financial earnings for the third quarter of 2026. Management addresses operational challenges and updates investors on exploration activities.</p>
+      <p class="summary-zh">PetroTal Corp.发布了2026年第三季度的石油产量及财务报表。管理层在会上回应了运营挑战，并向投资者通报了勘探活动的最新进展。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;geodrill&quot;, &quot;mining&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4965129-geodrill-limited-geo-ca-q3-2026-earnings-call-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Geodrill Limited (GEO:CA) Q3 2026 Earnings Call Transcript</a></div>
+      <div class="item-title-zh">Geodrill Limited (GEO:CA) 2026年第三季度财报电话会议</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">geodrill · mining · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Geodrill Limited discusses its drilling service performance and financial outcomes for the third quarter of 2026. The discussion focuses on contract renewals and market demand in the mining sector.</p>
+      <p class="summary-zh">Geodrill Limited讨论了其2026年第三季度的钻探服务表现及财务结果。会议重点关注了采矿业的合同续签情况与市场需求趋势。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;nvidia&quot;, &quot;stocks&quot;, &quot;election&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4965089-the-midterm-elections-are-not-a-risk-for-nvidia-but-huangs-news-is?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Midterm Elections Are Not A Risk For Nvidia, But Huang&#x27;s News Is</a></div>
+      <div class="item-title-zh">中期选举对英伟达构不成风险，但黄仁勋的消息才是关键</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · stocks · election</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article analyzes why midterm election outcomes are unlikely to impact Nvidia significantly compared to internal company developments. It emphasizes that updates from CEO Jensen Huang remain the primary driver for stock volatility.</p>
+      <p class="summary-zh">文章分析了为何中期选举结果对英伟达的实质影响有限，并指出公司内部动向更为重要。文中强调，CEO黄仁勋发布的消息才是影响股价波动的主要因素。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;payments&quot;, &quot;canada&quot;, &quot;fintech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy" target="_blank" rel="noopener" onclick="event.stopPropagation()">Payments Canada announces launch of Canada&#x27;s Real-Time Rail (RTR) payment system</a></div>
+      <div class="item-title-zh">Payments Canada宣布启动加拿大实时支付系统(RTR)</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">payments · canada · fintech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Payments Canada has officially launched the Real-Time Rail (RTR) payment system to modernize domestic transactions. This infrastructure enables faster and more efficient financial transfers across the country.</p>
+      <p class="summary-zh">Payments Canada正式启动了实时支付系统（RTR），旨在实现国内交易的现代化。该基础设施将提升全国金融转账的速度与效率。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;ira&quot;, &quot;retirement&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?</a></div>
+      <div class="item-title-zh">“这似乎很离谱”：我们80多岁了，有95万美元的传统IRA。为什么顾问还在推销罗斯转换？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · ira · retirement</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A retired couple questions their financial adviser&#x27;s push for Roth conversions given their stable pension income. Experts discuss the tax implications and benefits for individuals in their 80s.</p>
+      <p class="summary-zh">一对退休夫妇对其财务顾问在他们有稳定养老金收入的情况下仍建议进行罗斯转换表示怀疑。专家对此类退休人群的税务影响及潜在益处进行了探讨。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;spacex&quot;, &quot;stocks&quot;, &quot;market&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/how-spacex-was-able-to-avert-one-of-the-markets-biggest-fears-about-its-stock-93870736?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">How SpaceX was able to avert one of the market’s biggest fears about its stock</a></div>
+      <div class="item-title-zh">SpaceX是如何成功消除市场对其股票的最大担忧之一的</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">spacex · stocks · market</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">SpaceX successfully managed market concerns regarding its stock volatility through a staggered lockup schedule. This strategy has stabilized the company&#x27;s influence on broader market indexes.</p>
+      <p class="summary-zh">SpaceX通过阶梯式锁定期安排，成功缓解了市场对其股票波动性的担忧。这一策略稳定了该公司在更广泛市场指数中的影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;genetics&quot;, &quot;autism&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2598114-x-chromosome-gene-may-reduce-autism-rates-in-women-and-girls/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">X chromosome gene may reduce autism rates in women and girls</a></div>
+      <div class="item-title-zh">X染色体基因可能降低女性和女孩的自闭症患病率</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">genetics · autism · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers have discovered that the ZFX gene plays a role in regulating a network of autism-related genes. This mechanism may explain why autism spectrum conditions are observed less frequently in females.</p>
+      <p class="summary-zh">研究人员发现ZFX基因在调节自闭症相关基因网络中发挥作用。这一机制或许能够解释为何女性患自闭症的比例低于男性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;physics&quot;, &quot;quantum&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2595461-is-schrodingers-cat-both-dead-and-alive-no-its-just-haunted-by-its-past/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Is Schrödinger’s cat both dead and alive? No, it’s just haunted by its past</a></div>
+      <div class="item-title-zh">薛定谔的猫既死又活吗？不，它只是被过去缠住了</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">physics · quantum · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new theoretical approach suggests that quantum phenomena like superposition could be explained by accounting for time more accurately. This model challenges traditional interpretations of quantum mechanics.</p>
+      <p class="summary-zh">一种新的理论探讨认为，诸如叠加态之类的量子现象可以通过更精确地计算时间来解释。该模型挑战了人们对量子力学的传统解读。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;pharma&quot;, &quot;health&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/a-failed-trial-for-a-heart-drug-casts-shadow-over-rivals-developing-similar-therapies-2d9bd79f?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">A failed trial for a heart drug casts shadow over rivals developing similar therapies</a></div>
+      <div class="item-title-zh">一款心脏药物的临床试验失败给开发类似疗法的竞争对手蒙上了阴影</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">pharma · health · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A failed heart drug trial has negatively impacted sentiment for other companies developing similar Lp(a) reduction therapies. The results suggest challenges in proving clinical benefits for this class of treatments.</p>
+      <p class="summary-zh">一款心脏药物的临床试验失败，对其他开发类似Lp(a)减量疗法的公司造成了负面影响。结果显示，证明此类疗法的临床获益存在困难。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;archaeology&quot;, &quot;history&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597990-prehistoric-britons-may-have-made-giant-stone-axes-to-show-off/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Prehistoric Britons may have made giant stone axes to show off</a></div>
+      <div class="item-title-zh">史前英国人可能制造过巨型石斧用于炫耀</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">archaeology · history · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Archaeologists are reevaluating the purpose of giant, unwieldy stone axes found in prehistoric sites. Evidence suggests these tools were likely symbolic status markers rather than practical items.</p>
+      <p class="summary-zh">考古学家正在重新评估史前遗址中发现的巨型笨重石斧的用途。证据表明，这些工具更可能是象征地位的物品，而非实用工具。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;quantum&quot;, &quot;physics&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597812-weird-ultraquantum-turbulence-seen-for-the-first-time/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Weird ‘ultraquantum’ turbulence seen for the first time</a></div>
+      <div class="item-title-zh">首次观测到诡异的“超量子”湍流</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">quantum · physics · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Scientists have observed a new form of quantum turbulence using ultracold atoms. This discovery sheds light on complex quantum fluid dynamics that were previously only theoretical.</p>
+      <p class="summary-zh">科学家利用超冷原子观测到了一种新型的量子湍流。这一发现揭示了此前仅存在于理论中的复杂量子流体动力学现象。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="SCI" data-tags="[&quot;safety&quot;, &quot;fire&quot;, &quot;education&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/118029" target="_blank" rel="noopener" onclick="event.stopPropagation()">天花板上的白色盒子，是怎样保护我们的安全的？</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">少数派 &middot; 9h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">safety · fire · education</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An educational piece explaining how fire and smoke detectors operate to protect homes and public buildings. It coincides with the National Fire Safety Day in China.</p>
+      <p class="summary-zh">这是一篇科普文章，解释了烟雾探测器如何工作以保护住宅及公共建筑的安全。文章正值中国全国消防日发布。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;france&quot;, &quot;iran&quot;, &quot;cyberattack&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">France accuses Iran of supermarket fridge hacking</a></div>
+      <div class="item-title-zh">法国指控伊朗对超市冰箱发起黑客攻击</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">france · iran · cyberattack</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A recent cyber-attack in France targeted smart appliances, causing freezers in hundreds of supermarkets to raise their temperatures. The French government has accused Iran of orchestrating the sabotage.</p>
+      <p class="summary-zh">近期法国发生了一起针对智能家电的网络攻击，导致数百家超市的冷柜温度上升。法国政府指控伊朗策划了这起破坏活动。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;trump&quot;, &quot;election&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/ck79p9350zp9o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Trump questions midterm elections integrity after previously accepting results</a></div>
+      <div class="item-title-zh">特朗普质疑中期选举完整性，尽管此前曾接受结果</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">trump · election · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Donald Trump has claimed, without providing evidence, that the midterm elections were compromised. These statements contradict his previous stance of accepting electoral outcomes.</p>
+      <p class="summary-zh">唐纳德·特朗普在未提供证据的情况下声称中期选举存在舞弊。这些言论与他此前接受选举结果的立场相矛盾。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;life&quot;, &quot;reflection&quot;, &quot;personal&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1255699#reply2" target="_blank" rel="noopener" onclick="event.stopPropagation()">[问与答] 转眼， 33 了</a></div>
+      <div class="item-title-zh">【问与答】转眼，33了</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">life · reflection · personal</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user reflects on turning 33, sharing their personal struggles with depression and recent career setbacks. The post serves as a personal milestone reflection and a wish for a better year ahead.</p>
+      <p class="summary-zh">一位用户分享了自己33岁的感悟，讲述了此前对抗抑郁症的经历及近期职业生涯的坎坷。这篇文章不仅是对人生阶段的回顾，也表达了对未来的美好期许。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;wikipedia&quot;, &quot;internet&quot;, &quot;culture&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia" target="_blank" rel="noopener" onclick="event.stopPropagation()">Humans will never again create a project like Wikipedia</a></div>
+      <div class="item-title-zh">人类再也无法创造出像维基百科这样的项目了</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">wikipedia · internet · culture</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This discussion reflects on the unique circumstances and collaborative spirit that built Wikipedia. Users argue that current internet incentive structures make replicating such a massive volunteer effort nearly impossible.</p>
+      <p class="summary-zh">该讨论回顾了维基百科诞生所依赖的独特环境与协作精神。用户认为当前的互联网激励机制使得复制这种大规模志愿者项目几乎变得不可能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;krakow&quot;, &quot;crime&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Krakow shooting suspect has died in hospital, police say</a></div>
+      <div class="item-title-zh">警方称克拉科夫枪击案嫌疑人在医院死亡</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">krakow · crime · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The suspect in the recent mass shooting in Krakow has died in the hospital. Police continue to investigate the motive behind the murders of six people.</p>
+      <p class="summary-zh">克拉科夫大规模枪击案的嫌疑人在医院去世。警方目前仍在调查这起导致六人死亡的案件动机。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;ai&quot;, &quot;climate&quot;, &quot;environment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The climate case for AI has not been made</a></div>
+      <div class="item-title-zh">AI对气候的贡献尚未得到证实</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MIT Tech Review &middot; 7h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · climate · environment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article critically analyzes the claims made by tech industries regarding AI&#x27;s role in fighting climate change. It argues that the energy consumption of AI models may outweigh their environmental benefits.</p>
+      <p class="summary-zh">文章批判性地分析了科技行业关于AI在应对气候变化中作用的声称。文中指出，AI模型的能源消耗可能超过其带来的环境效益。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="33" data-cat="WORLD" data-tags="[&quot;france&quot;, &quot;crime&quot;, &quot;investigation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">33</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cq62y01r2313o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Inside the French drug gangs recruiting children to kill</a></div>
+      <div class="item-title-zh">深入法国毒贩集团：招募儿童进行谋杀</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 11h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="33" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="33" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">france · crime · investigation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A deep dive into the dangerous underworld of Marseille, where drug gangs exploit and trap youth into violent crimes. The report exposes the brutalization of children by criminal organizations.</p>
+      <p class="summary-zh">本报道深入调查了马赛危险的地下世界，毒贩集团在此诱骗年轻人参与暴力犯罪。报道揭露了犯罪组织对未成年人的残忍剥削与毒害。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-11-08.html">2026-11-08</a>
+<a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+<a class="archive-date" href="/archive/2026-11-01.html">2026-11-01</a>
+<a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">33 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">17:01 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-11-08.html">2026-11-08</a>
+<a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+<a class="archive-date" href="/archive/2026-11-01.html">2026-11-01</a>
+<a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+<a class="archive-date" href="/archive/2026-10-26.html">2026-10-26</a>
+<a class="archive-date" href="/archive/2026-10-25.html">2026-10-25</a>
+<a class="archive-date" href="/archive/2026-10-24.html">2026-10-24</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-11-09';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
