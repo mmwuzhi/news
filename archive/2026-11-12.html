@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">29</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">3</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">7</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">3</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">8</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-11-12 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Thu Nov 12 2026 &middot; 29 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;claude&quot;, &quot;ai&quot;, &quot;coding&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1256619#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[程序员] Claude 和其他 AI 的区别好像是通一点点人性。</a></div>
+      <div class="item-title-zh">程序员：Claude和其他AI的区别似乎在于一点点人性</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">claude · ai · coding</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A programmer discusses how Claude&#x27;s responses feel more human compared to other AI models. The discussion focuses on how Claude balances technical perfection with logical nuance.</p>
+      <p class="summary-zh">一名程序员讨论了Claude的回答相较于其他AI模型更具人性化。讨论集中在Claude如何平衡技术完美性与逻辑细微差别。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;codex&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://openai.com/business/customer-stories/holidays-extras-codex" target="_blank" rel="noopener" onclick="event.stopPropagation()">Holiday Extras is rethinking what it can build with Codex</a></div>
+      <div class="item-title-zh">Holiday Extras正在重新思考利用Codex可以构建什么</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">OpenAI Blog &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · codex · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Holiday Extras is leveraging OpenAI&#x27;s Codex to improve app development and booking conversions. They are exploring new ways to enhance customer experience through AI.</p>
+      <p class="summary-zh">Holiday Extras正在利用OpenAI的Codex改进应用程序开发和预订转化率。他们正在探索通过AI增强客户体验的新途径。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;safety&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://openai.com/index/children-first-declaration" target="_blank" rel="noopener" onclick="event.stopPropagation()">Supporting research on AI and children’s safety</a></div>
+      <div class="item-title-zh">支持关于AI与儿童安全的研究</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">OpenAI Blog &middot; 15h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · safety · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">OpenAI has committed $2 million to fund research focused on children&#x27;s safety in the age of AI. The initiative aims to create shared measurement tools for risk management.</p>
+      <p class="summary-zh">OpenAI投入200万美元用于资助AI时代儿童安全的研究。该倡议旨在为风险管理创建共享的评估工具。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="TECH" data-tags="[&quot;android&quot;, &quot;ai&quot;, &quot;privacy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1256621#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 大家好，最近上线了一个自己写的 Android App，叫「知己」。</a></div>
+      <div class="item-title-zh">分享创造：我开发了一款名为“知己”的安卓应用</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">android · ai · privacy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The developer introduced &#x27;Zhiyi,&#x27; a local Android AI assistant designed to prioritize user privacy. It handles personal tasks like scheduling and accounting without relying on cloud-stored data.</p>
+      <p class="summary-zh">开发者介绍了名为“知己”的安卓AI个人助理，旨在通过本地运行保护隐私。它无需依赖云端即可处理日程和记账等个人事务。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;windows&quot;, &quot;mklink&quot;, &quot;system&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1256620#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[问与答] 怎么快速定位系统内所有使用了 mklink 进行链接的目录和映射关系？</a></div>
+      <div class="item-title-zh">问与答：如何快速定位系统内所有使用mklink链接的目录？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">windows · mklink · system</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user seeks advice on identifying all directory junctions created with the Windows &#x27;mklink&#x27; command. They are looking for a way to map source and destination paths after migration.</p>
+      <p class="summary-zh">用户寻求关于识别Windows系统中使用“mklink”创建的所有目录连接的建议。他们希望在迁移后找到映射源和目标路径的方法。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;browser&quot;, &quot;privacy&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1256617#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] Manta 浏览器</a></div>
+      <div class="item-title-zh">分享创造：Manta浏览器</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">browser · privacy · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The development team introduces Manta Browser, a tool designed for fingerprint management. It caters to users needing specific privacy and browser identity controls.</p>
+      <p class="summary-zh">开发团队推出了Manta浏览器，这是一款旨在进行指纹管理的产品。它满足了用户对隐私和浏览器身份控制的特殊需求。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;ecoflow&quot;, &quot;gadgets&quot;, &quot;deals&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/gadgets/1031951/fast-laptop-power-bank-battery-obsession-gaming-deal-sale" target="_blank" rel="noopener" onclick="event.stopPropagation()">A power bank that can quickly charge three gadgets is just $49</a></div>
+      <div class="item-title-zh">一款可为三款设备快速充电的移动电源仅售49美元</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ecoflow · gadgets · deals</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Ecoflow&#x27;s high-capacity laptop power bank is currently discounted to $48.99 for Prime members. It features 140W fast charging and a 25,000mAh capacity.</p>
+      <p class="summary-zh">Ecoflow的大容量笔记本充电宝目前为Prime会员提供48.99美元的折扣。它具备140W快充功能和25,000mAh容量。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;github&quot;, &quot;harness&quot;, &quot;devops&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1256613#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 许愿一个跨 Harness Agent 与跨机器管理的应用，欢迎体验</a></div>
+      <div class="item-title-zh">分享创造：许愿一个跨Harness Agent与跨机器管理的应用</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">github · harness · devops</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer shares a new project on GitHub aimed at managing Harness Agents and cross-machine operations. The tool seeks community feedback and contributions.</p>
+      <p class="summary-zh">开发者在GitHub上分享了一个旨在管理Harness Agent和跨机器操作的新项目。该工具希望获得社区的反馈和贡献。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;quake4&quot;, &quot;gaming&quot;, &quot;mods&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64" target="_blank" rel="noopener" onclick="event.stopPropagation()">Abandoned Quake 4 expansion finished by modders and now playable</a></div>
+      <div class="item-title-zh">被废弃的《雷神之锤4》扩展包被模组制作者完成，现可游玩</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">quake4 · gaming · mods</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Modders have successfully finished the abandoned expansion pack for the game Quake 4. Players can now download and enjoy the previously unreleased content.</p>
+      <p class="summary-zh">模组制作者成功完成了游戏《雷神之锤4》被废弃的扩展包。玩家现在可以下载并体验此前未发布的内容。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;lego&quot;, &quot;bricklink&quot;, &quot;security&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1031889/lego-bricklink-marketplace-offline-unusual-activity" target="_blank" rel="noopener" onclick="event.stopPropagation()">Lego’s BrickLink marketplace has been offline for a week following ‘unusual activity’</a></div>
+      <div class="item-title-zh">乐高BrickLink交易平台因“异常活动”下线一周</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">lego · bricklink · security</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">BrickLink, the popular Lego marketplace, has been offline for a week following security concerns. The company has yet to provide a return date for the site.</p>
+      <p class="summary-zh">受欢迎的乐高交易平台BrickLink因安全顾虑已下线一周。公司尚未提供该网站的恢复时间。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;amd&quot;, &quot;zen6&quot;, &quot;cpu&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at" target="_blank" rel="noopener" onclick="event.stopPropagation()">Talking Zen 6 with Mike Clark at AMD In-Depth</a></div>
+      <div class="item-title-zh">与AMD的Mike Clark深入探讨Zen 6架构</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">amd · zen6 · cpu</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This discussion features an in-depth look at AMD&#x27;s upcoming Zen 6 processor architecture. Key engineering details and performance expectations are analyzed.</p>
+      <p class="summary-zh">本次讨论深入探讨了AMD即将推出的Zen 6处理器架构。文中分析了关键的工程细节和性能预期。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="FINA" data-tags="[&quot;credo&quot;, &quot;earnings&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4966958-credos-upcoming-earnings-should-change-the-game-preview?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Credo&#x27;s Upcoming Earnings Should Change The Game (Preview)</a></div>
+      <div class="item-title-zh">Credo即将发布的财报或将改变局势（预览）</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">credo · earnings · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article provides a preview of Credo&#x27;s upcoming earnings report. Analysts suggest the results could significantly alter the company&#x27;s market position.</p>
+      <p class="summary-zh">本文对Credo即将发布的财报进行了预览。分析人士认为，财报结果可能会显著改变该公司在市场上的地位。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;nomura&quot;, &quot;bonds&quot;, &quot;investment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4967121-nomura-global-bond-fund-q3-2026-commentary?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Nomura Global Bond Fund Q3 2026 Commentary</a></div>
+      <div class="item-title-zh">野村全球债券基金2026年第三季度评论</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nomura · bonds · investment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This is a commentary regarding the performance of the Nomura Global Bond Fund in Q3 2026. It reviews the fund&#x27;s strategic decisions and market performance during that period.</p>
+      <p class="summary-zh">这是一篇关于野村全球债券基金2026年第三季度表现的评论。文中回顾了该基金在这一时期的战略决策和市场表现。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;vertiv&quot;, &quot;stocks&quot;, &quot;trading&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4967048-vertiv-good-quarter-crushed-chart-waiting-for-150-entry?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Vertiv: Good Quarter, Crushed Chart. Waiting For $150 Entry</a></div>
+      <div class="item-title-zh">Vertiv：财报表现良好但股价受挫，等待150美元的入场时机</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">vertiv · stocks · trading</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Despite a positive quarterly report, Vertiv&#x27;s stock performance has been disappointing. Investors are advised to wait for a more favorable $150 entry point.</p>
+      <p class="summary-zh">尽管季度财报表现积极，但Vertiv的股价表现令人失望。建议投资者等待更理想的150美元入场时机。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;mtd&quot;, &quot;healthcare&quot;, &quot;conference&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4967108-mettler-toledo-international-inc-mtd-presents-at-stifel-2026-healthcare-conference-2026?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Mettler-Toledo International Inc. (MTD) Presents at Stifel 2026 Healthcare Conference 2026 Transcript</a></div>
+      <div class="item-title-zh">梅特勒-托利多公司（MTD）在Stifel 2026医疗保健会议上的演讲摘要</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">mtd · healthcare · conference</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A transcript of the presentation delivered by Mettler-Toledo International at the Stifel 2026 Healthcare Conference. The company discusses its ongoing business strategy and outlook.</p>
+      <p class="summary-zh">梅特勒-托利多公司在2026年Stifel医疗保健会议上的演讲记录。公司讨论了其当前的业务战略和未来展望。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;salesforce&quot;, &quot;anthropic&quot;, &quot;databricks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4967039-salesforce-pay-for-consensus-growth-get-anthropic-and-databricks-for-free?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Salesforce: Pay For Consensus Growth, Get Anthropic And Databricks For Free</a></div>
+      <div class="item-title-zh">Salesforce：以共识增长价格，免费获取Anthropic和Databricks</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">salesforce · anthropic · databricks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article analyzes the valuation of Salesforce, suggesting that current prices offer exposure to Anthropic and Databricks at no additional cost. It outlines the strategic benefits of these AI partnerships.</p>
+      <p class="summary-zh">文章分析了Salesforce的估值，认为目前的股价意味着投资者可以免费获得Anthropic和Databricks的投资机会。文中概述了这些AI合作伙伴关系的战略利益。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;retirement&quot;, &quot;finance&quot;, &quot;lifestyle&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘He calls my plans a fantasy’: My husband says we can’t afford our $200,000-a-year dream retirement. I think he’s cheap.</a></div>
+      <div class="item-title-zh">“他觉得我的计划是幻想”：我丈夫说我们负担不起年花20万美元的退休生活，我觉得他太小气了。</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">retirement · finance · lifestyle</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A dispute over retirement spending reveals the tension between financial caution and lifestyle dreams. The couple has significant assets but disagrees on their future financial allocation.</p>
+      <p class="summary-zh">一场关于退休消费的争论揭示了财务谨慎与梦想生活之间的矛盾。这对夫妇拥有相当资产，但在未来财务分配上存在分歧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;housing&quot;, &quot;employment&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/need-money-for-a-down-payment-more-employers-are-offering-to-help-59c57da3?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">These home buyers bought their first house with help from their employer. ‘Why not jump at the chance?’</a></div>
+      <div class="item-title-zh">这些首次购房者在雇主帮助下买到了第一套房</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">housing · employment · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">More employers are offering home-buying assistance, highlighting the severe affordability crisis in the housing market. Employees are embracing these perks to secure property.</p>
+      <p class="summary-zh">越来越多的雇主开始提供购房援助，凸显了住房市场严重的负担能力危机。员工们正在利用这些福利来获得房产。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="SCI" data-tags="[&quot;euclid&quot;, &quot;telescope&quot;, &quot;astronomy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2598614-vast-data-dump-from-euclid-space-telescope-reveals-stunning-galaxies/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Vast data dump from Euclid space telescope reveals stunning galaxies</a></div>
+      <div class="item-title-zh">欧几里得太空望远镜的庞大数据转储揭示了令人惊叹的星系</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">euclid · telescope · astronomy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Euclid space telescope has released a massive set of images showcasing distant star-forming galaxies. This data provides researchers with new insights into the universe&#x27;s evolution.</p>
+      <p class="summary-zh">欧几里得太空望远镜发布了一系列展示遥远星系形成过程的庞大图像。这些数据为研究人员提供了关于宇宙演化的新视角。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="SCI" data-tags="[&quot;uk&quot;, &quot;satellites&quot;, &quot;astronomy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2598291-uk-military-taps-up-astronomers-to-spot-snooping-foreign-satellites/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">UK military taps up astronomers to spot snooping foreign satellites</a></div>
+      <div class="item-title-zh">英国军方寻求天文学家帮助以发现监视卫星</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">uk · satellites · astronomy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The UK is partnering with civilian astronomers to monitor foreign spy satellites. This initiative aims to bolster surveillance capabilities using ground-based telescopes.</p>
+      <p class="summary-zh">英国正在与民间天文学家合作监测外国间谍卫星。该计划旨在利用地面望远镜加强监控能力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;environment&quot;, &quot;science&quot;, &quot;chemistry&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2598571-some-pfas-chemicals-are-declining-in-english-rivers-but-others-are-appearing/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Some PFAS chemicals are declining in English rivers but others are appearing</a></div>
+      <div class="item-title-zh">某些PFAS化学物质在英国河流中有所下降，但其他物质正在出现</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 15h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">environment · science · chemistry</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">While levels of two specific &#x27;forever chemicals&#x27; are falling in UK rivers, less studied replacements are now being detected. The environmental impact remains a concern.</p>
+      <p class="summary-zh">虽然英国河流中两种特定的“永久化学物质”含量正在下降，但研究较少的替代品现已被检出。其环境影响仍令人担忧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="WORLD" data-tags="[&quot;medicare&quot;, &quot;healthcare&quot;, &quot;seniors&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/what-really-happens-during-medicare-counseling-6a4f618e?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">What really happens during Medicare counseling</a></div>
+      <div class="item-title-zh">医疗保险咨询的真实情况</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">medicare · healthcare · seniors</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Medicare open enrollment can present unexpected difficulties for seniors navigating the system. This article highlights the complexities individuals face during this critical period.</p>
+      <p class="summary-zh">医疗保险开放注册期可能给老年人带来意想不到的挑战。本文概述了个人在这一关键时期所面临的复杂情况。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="WORLD" data-tags="[&quot;socialsecurity&quot;, &quot;finance&quot;, &quot;economy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?</a></div>
+      <div class="item-title-zh">“活到100岁让我感到恐惧”：社会保障是庞氏骗局吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">socialsecurity · finance · economy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This piece explores growing concerns regarding the sustainability of Social Security in the face of demographic shifts. It questions whether the current system is effectively a Ponzi scheme.</p>
+      <p class="summary-zh">本文探讨了人们对社会保障体系在人口结构变化下可持续性的担忧。文中质疑了现行体系是否实质上是一个庞氏骗局。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="WORLD" data-tags="[&quot;nvidia&quot;, &quot;megaspeed&quot;, &quot;scandal&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/heres-what-megaspeed-the-company-at-the-forefront-of-the-nvidia-scandal-is-now-saying-b73f8d0b?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Here’s what Megaspeed, the company at the forefront of the Nvidia scandal, is now saying</a></div>
+      <div class="item-title-zh">英伟达丑闻核心公司Megaspeed发表声明</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · megaspeed · scandal</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Megaspeed, a Singaporean company embroiled in an Nvidia controversy, has released its first public statement. The company aims to address the allegations currently impacting its reputation.</p>
+      <p class="summary-zh">陷入英伟达争议的新加坡公司Megaspeed发表了首次公开声明。公司旨在回应目前影响其声誉的指控。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="WORLD" data-tags="[&quot;ebola&quot;, &quot;health&quot;, &quot;charity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says</a></div>
+      <div class="item-title-zh">慈善机构称数百万埃博拉防治资金失踪，医护人员未获报酬</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ebola · health · charity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">MSF reports that funds for Ebola response are missing, leaving medical staff unpaid and facing supply shortages. This crisis is hindering efforts to contain the virus&#x27;s spread.</p>
+      <p class="summary-zh">无国界医生组织报告称，部分埃博拉防治资金失踪，导致医护人员缺乏报酬和必要物资。这场危机正在阻碍遏制病毒传播的努力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;starlink&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow</a></div>
+      <div class="item-title-zh">乌克兰称星链服务再次中断，美国特使在莫斯科会见普京</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · starlink · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Military-grade Starlink services have reportedly been disrupted in Ukraine again. Meanwhile, US envoys are engaged in high-level diplomatic talks in Moscow and Dublin.</p>
+      <p class="summary-zh">据报道，乌克兰的军用星链服务再次中断。与此同时，美国特使正在莫斯科和都柏林进行高级别外交会谈。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="WORLD" data-tags="[&quot;nvidia&quot;, &quot;jensenhuang&quot;, &quot;business&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang" target="_blank" rel="noopener" onclick="event.stopPropagation()">Nvidia CEO Jensen Huang has resigned. What happens next?</a></div>
+      <div class="item-title-zh">英伟达CEO黄仁勋辞职，接下来会发生什么？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · jensenhuang · business</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Nvidia CEO Jensen Huang has resigned following allegations of multiple affairs. The company is now navigating the leadership transition amid intense public scrutiny.</p>
+      <p class="summary-zh">英伟达CEO黄仁勋在多起婚外情指控曝光后辞职。公司目前正在严密的公众关注下进行领导层交接。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;nvidia&quot;, &quot;jensenhuang&quot;, &quot;business&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Jensen Huang resigns as Nvidia CEO immediately</a></div>
+      <div class="item-title-zh">黄仁勋立即辞去英伟达CEO职务</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · jensenhuang · business</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Following news of his resignation, industry analysts are speculating on the impact of Jensen Huang&#x27;s sudden departure. Nvidia’s board is reportedly preparing a transition plan.</p>
+      <p class="summary-zh">随着辞职消息传出，行业分析师正在揣测黄仁勋突然离职的影响。据报道，英伟达董事会正在准备过渡计划。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;nvidia&quot;, &quot;business&quot;, &quot;ceo&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition" target="_blank" rel="noopener" onclick="event.stopPropagation()">NVIDIA Announces CEO Transition</a></div>
+      <div class="item-title-zh">英伟达宣布CEO换届</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · business · ceo</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Nvidia has officially announced a transition in its executive leadership following the resignation of Jensen Huang. Further updates on the company&#x27;s direction are expected soon.</p>
+      <p class="summary-zh">英伟达正式宣布在黄仁勋辞职后进行高管领导层更替。预计很快会有关于公司未来方向的进一步消息。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-11-11.html">2026-11-11</a>
+<a class="archive-date" href="/archive/2026-11-10.html">2026-11-10</a>
+<a class="archive-date" href="/archive/2026-11-09.html">2026-11-09</a>
+<a class="archive-date" href="/archive/2026-11-08.html">2026-11-08</a>
+<a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+<a class="archive-date" href="/archive/2026-11-01.html">2026-11-01</a>
+<a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">29 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">15:42 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-11-11.html">2026-11-11</a>
+<a class="archive-date" href="/archive/2026-11-10.html">2026-11-10</a>
+<a class="archive-date" href="/archive/2026-11-09.html">2026-11-09</a>
+<a class="archive-date" href="/archive/2026-11-08.html">2026-11-08</a>
+<a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+<a class="archive-date" href="/archive/2026-11-01.html">2026-11-01</a>
+<a class="archive-date" href="/archive/2026-10-30.html">2026-10-30</a>
+<a class="archive-date" href="/archive/2026-10-29.html">2026-10-29</a>
+<a class="archive-date" href="/archive/2026-10-28.html">2026-10-28</a>
+<a class="archive-date" href="/archive/2026-10-27.html">2026-10-27</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-11-12';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
