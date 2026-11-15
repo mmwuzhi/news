@@ -6,6 +6,370 @@
   "language": "zh-cn",
   "items": [
     {
+      "id": "https://www.v2ex.com/t/1257251#reply0",
+      "url": "https://www.v2ex.com/t/1257251#reply0",
+      "title": "职场话题：AI真的导致程序员大规模失业吗？",
+      "content_html": "<p><strong>[职场话题] 都说 AI 大大提高了编程效率，真正失业的程序员多吗</strong></p><p>Many programmers are concerned about AI&#x27;s impact on employment during the current economic downturn. Observations suggest that while some layoffs occur, most professionals are still finding new roles.</p><p>许多程序员担心AI对就业市场的冲击。观察发现，尽管存在裁员现象，但大多数职场人仍能找到新工作。</p><p>Tags: ai · career · employment</p>",
+      "date_published": "2026-11-15T14:24:17+00:00",
+      "tags": [
+        "ai",
+        "career",
+        "employment"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1257250#reply0",
+      "url": "https://www.v2ex.com/t/1257250#reply0",
+      "title": "尚硅谷缩减招生条件，大专学历如何自处？",
+      "content_html": "<p><strong>[职场话题] 尚硅谷目前招生只要理工科的本科，其他的都不要了。大专学历的要去哪</strong></p><p>Educational institutions like Guigu are narrowing their enrollment criteria to favor science and engineering undergraduates. This raises concerns for students with associate degrees regarding their career prospects.</p><p>培训机构如尚硅谷收紧招生政策，优先录取理工科本科生。这引发了专科学历求职者对未来职业发展的焦虑。</p><p>Tags: education · career · training</p>",
+      "date_published": "2026-11-15T14:21:29+00:00",
+      "tags": [
+        "education",
+        "career",
+        "training"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1257249#reply1",
+      "url": "https://www.v2ex.com/t/1257249#reply1",
+      "title": "有大佬尝试过用 Tailscale 做代理吗？",
+      "content_html": "<p><strong>[VPS] 有大佬尝试过 tailscale 做梯子吗？</strong></p><p>Users are exploring the feasibility of using Tailscale to replace traditional proxy tools like Clash. The discussion centers on the efficiency of using network exit nodes and potential security risks.</p><p>用户正探讨利用Tailscale替代Clash作为网络代理的可行性。核心议题集中在网络出口节点的使用及其安全性上。</p><p>Tags: tailscale · networking · security</p>",
+      "date_published": "2026-11-15T14:15:01+00:00",
+      "tags": [
+        "tailscale",
+        "networking",
+        "security"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4968385-palo-alto-networks-sell-before-earnings-even-after-the-pullback?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4968385-palo-alto-networks-sell-before-earnings-even-after-the-pullback?source=feed_all_articles",
+      "title": "Palo Alto Networks：即便回调也应在财报前卖出",
+      "content_html": "<p><strong>Palo Alto Networks: Sell Before Earnings, Even After The Pullback</strong></p><p>Analysts suggest selling Palo Alto Networks stock before the upcoming earnings report. Despite recent price pullbacks, the outlook remains cautious for investors.</p><p>分析师建议在财报发布前卖出Palo Alto Networks股票。尽管近期股价有所回调，但投资者仍需保持谨慎。</p><p>Tags: stocks · investing · earnings</p>",
+      "date_published": "2026-11-15T14:14:38+00:00",
+      "tags": [
+        "stocks",
+        "investing",
+        "earnings"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4968384-mp-materials-massive-upside-if-us-china-rare-earth-tensions-surge?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4968384-mp-materials-massive-upside-if-us-china-rare-earth-tensions-surge?source=feed_all_articles",
+      "title": "MP Materials：中美稀土紧张局势下的巨大潜力",
+      "content_html": "<p><strong>MP Materials: Massive Upside If U.S. China Rare Earth Tensions Surge</strong></p><p>MP Materials could see a significant upside if geopolitical tensions between the US and China regarding rare earth elements intensify. Market conditions make this a critical factor for the company&#x27;s valuation.</p><p>若中美在稀土领域的地缘政治紧张局势升级，MP Materials或将迎来巨大上涨空间。市场波动使其成为影响估值的关键因素。</p><p>Tags: rare-earth · geopolitics · market</p>",
+      "date_published": "2026-11-15T14:05:00+00:00",
+      "tags": [
+        "rare-earth",
+        "geopolitics",
+        "market"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1257247#reply0",
+      "url": "https://www.v2ex.com/t/1257247#reply0",
+      "title": "随想：从蚁狮的生命史看生物进化与人类存在",
+      "content_html": "<p><strong>[随想] 我想起老家屋檐下一个个小沙坑，然后知道每个坑底都有一只蚁狮，看历史</strong></p><p>Observing the life cycle of antlions offers a philosophical perspective on the transient nature of existence. Evolutionary history, from ancient bacteria to complex organisms, highlights the ongoing process of life.</p><p>观察蚁狮的生命周期为审视人类存在提供了哲学视角。从远古细菌到复杂生物的进化史，彰显了生命不断的演化过程。</p><p>Tags: biology · evolution · philosophy</p>",
+      "date_published": "2026-11-15T14:02:38+00:00",
+      "tags": [
+        "biology",
+        "evolution",
+        "philosophy"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
+      "url": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
+      "title": "LG B6E OLED 电视周末特惠，折扣高达 50%",
+      "content_html": "<p><strong>LG’s budget-friendly B6E OLED TV is up to 50 percent off this weekend</strong></p><p>Best Buy is offering a 50 percent discount on LG&#x27;s B6E 55-inch OLED TV this weekend. The price has dropped to a record low of $699.99.</p><p>百思买本周末对LG B6E 55英寸OLED电视提供五折优惠。该机型售价现已降至699.99美元的历史最低点。</p><p>Tags: lg · oled · tv</p>",
+      "date_published": "2026-11-15T14:00:00+00:00",
+      "tags": [
+        "lg",
+        "oled",
+        "tv"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/will-the-anthropic-ipo-create-a-disturbance-in-the-broader-u-s-equity-market-like-spacex-did-05ba4351?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/will-the-anthropic-ipo-create-a-disturbance-in-the-broader-u-s-equity-market-like-spacex-did-05ba4351?mod=mw_rss_topstories",
+      "title": "Anthropic IPO 会像 SpaceX 那样扰动美股市场吗？",
+      "content_html": "<p><strong>Will the Anthropic IPO create a disturbance in the broader U.S. equity market, like SpaceX did?</strong></p><p>Market observers are questioning if an upcoming Anthropic IPO could disrupt the broader U.S. equity market. Comparisons are being drawn to the market effects seen during the SpaceX offering.</p><p>市场观察人士正在讨论Anthropic即将进行的IPO是否会干扰美国股市。人们将其与SpaceX发行时引发的市场效应进行了比较。</p><p>Tags: ipo · stocks · anthropic</p>",
+      "date_published": "2026-11-15T14:00:00+00:00",
+      "tags": [
+        "ipo",
+        "stocks",
+        "anthropic"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4968205-how-to-protect-your-social-security-check-from-22-percent-cut?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4968205-how-to-protect-your-social-security-check-from-22-percent-cut?source=feed_all_articles",
+      "title": "如何保护你的社会保障金免受 22% 的削减",
+      "content_html": "<p><strong>How To Protect Your Social Security Check From A 22% Cut</strong></p><p>With potential cuts looming, many are looking for ways to protect their retirement income. Financial experts provide strategies to mitigate the impact of future Social Security reductions.</p><p>面对潜在的削减风险，许多人正在寻求保护退休收入的方法。金融专家提供了减轻社会保障金减少影响的策略。</p><p>Tags: social-security · retirement · finance</p>",
+      "date_published": "2026-11-15T14:00:00+00:00",
+      "tags": [
+        "social-security",
+        "retirement",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4968353-revealing-my-full-portfolio-18-27-percent-return-in-october?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4968353-revealing-my-full-portfolio-18-27-percent-return-in-october?source=feed_all_articles",
+      "title": "投资组合揭秘：10 月份实现 18.27% 的收益",
+      "content_html": "<p><strong>Revealing My Full Portfolio: 18.27% Return In October</strong></p><p>An investor reveals their full portfolio performance, showing an 18.27% return for October. This highlights the effectiveness of their specific asset allocation and trading strategy.</p><p>一位投资者披露了其投资组合的表现，显示10月份回报率为18.27%。这突显了其特定资产配置和交易策略的有效性。</p><p>Tags: investing · portfolio · finance</p>",
+      "date_published": "2026-11-15T14:00:00+00:00",
+      "tags": [
+        "investing",
+        "portfolio",
+        "finance"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://seekingalpha.com/article/4968358-hot-inflation-grounds-bond-rally?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4968358-hot-inflation-grounds-bond-rally?source=feed_all_articles",
+      "title": "高通胀令债券反弹受挫",
+      "content_html": "<p><strong>Hot Inflation Grounds Bond Rally</strong></p><p>Persistently high inflation figures have hindered the recent recovery of the bond market. Yields are adjusting as market participants reassess central bank policies.</p><p>持续高企的通胀数据阻碍了债券市场的近期复苏。随着市场参与者重新评估央行政策，债券收益率正在调整。</p><p>Tags: inflation · bonds · economy</p>",
+      "date_published": "2026-11-15T14:00:00+00:00",
+      "tags": [
+        "inflation",
+        "bonds",
+        "economy"
+      ],
+      "_category": "FINA"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
+      "url": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
+      "title": "索尼 Aibo：披着狗皮的机器人革命",
+      "content_html": "<p><strong>The Sony Aibo was a robot revolution dressed like a dog</strong></p><p>In the 1990s, Sony launched the Aibo robotic dog, envisioning a future where robots become part of daily human life. It remains a symbolic landmark in the evolution of personal robotics.</p><p>90年代，索尼推出了Aibo机器狗，预示着机器人将融入人类日常生活。它已成为个人机器人演进史上的标志性产品。</p><p>Tags: sony · robotics · history</p>",
+      "date_published": "2026-11-15T13:57:30+00:00",
+      "tags": [
+        "sony",
+        "robotics",
+        "history"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://prog21.dadgum.com/116.html",
+      "url": "https://prog21.dadgum.com/116.html",
+      "title": "比 Turbo Pascal 更小的东西 (2011)",
+      "content_html": "<p><strong>Things That Turbo Pascal Is Smaller Than (2011)</strong></p><p>A nostalgic look at the compact size of the iconic Turbo Pascal development environment from 2011. The article reflects on how software efficiency has changed over the decades.</p><p>回顾2011年关于Turbo Pascal开发环境紧凑体积的讨论。文章探讨了数十年来软件效率的变迁。</p><p>Tags: programming · pascal · software</p>",
+      "date_published": "2026-11-15T13:44:16+00:00",
+      "tags": [
+        "programming",
+        "pascal",
+        "software"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+      "title": "伊朗无人机袭击巴林美军基地",
+      "content_html": "<p><strong>Iran targets US military base in Bahrain with drone attack</strong></p><p>Tensions in the Strait of Hormuz escalated as Iran reportedly targeted a US military base in Bahrain with drones. This marks the second such attack in three days.</p><p>随着伊朗据称使用无人机袭击巴林美军基地，霍尔木兹海峡的紧张局势升级。这是三天内的第二次类似袭击。</p><p>Tags: iran · us-military · geopolitics</p>",
+      "date_published": "2026-11-15T13:42:58+00:00",
+      "tags": [
+        "iran",
+        "us-military",
+        "geopolitics"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
+      "title": "韩国税务会计考试状元承认作弊",
+      "content_html": "<p><strong>South Korea&#x27;s top scorer in tax accountancy exam admits cheating</strong></p><p>A 34-year-old top scorer in a South Korean tax accountancy exam confessed to cheating using AI and hidden cameras. The incident has raised concerns about academic integrity in high-stakes testing.</p><p>韩国一名34岁的税务会计考试状元承认利用AI和隐蔽摄像头作弊。此事件引发了对高利害考试学术诚信的担忧。</p><p>Tags: korea · exam · ai</p>",
+      "date_published": "2026-11-15T13:37:45+00:00",
+      "tags": [
+        "korea",
+        "exam",
+        "ai"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+      "title": "遗孀应该将已故伴侣的房产留给继子女吗？",
+      "content_html": "<p><strong>Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?</strong></p><p>Ethical and legal dilemmas arise when determining inheritance for stepchildren after a partner&#x27;s passing. Navigating family relationships remains a difficult aspect of estate planning.</p><p>在伴侣去世后，决定是否将房产留给继子女涉及法律与道德的复杂抉择。处理家庭关系仍是遗产规划中的难题。</p><p>Tags: inheritance · family · law</p>",
+      "date_published": "2026-11-15T13:30:00+00:00",
+      "tags": [
+        "inheritance",
+        "family",
+        "law"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/the-u-s-is-turning-more-socialist-under-trump-2-0-one-analyst-says-what-could-change-with-a-democratic-run-congress-95d7ff17?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/the-u-s-is-turning-more-socialist-under-trump-2-0-one-analyst-says-what-could-change-with-a-democratic-run-congress-95d7ff17?mod=mw_rss_topstories",
+      "title": "特朗普 2.0 时代美国转向社会主义？民主党控制国会会有何改变？",
+      "content_html": "<p><strong>The U.S. is turning more socialist under Trump 2.0, one analyst says. What could change with a Democratic-run Congress?</strong></p><p>Analysts suggest that the US has seen increased state control under recent leadership. Discussions are ongoing regarding potential policy shifts if the Democrats gain control of Congress.</p><p>分析人士指出，美国近期国家管控有所加强。若民主党控制国会，政策是否会发生转向引发了持续讨论。</p><p>Tags: politics · usa · congress</p>",
+      "date_published": "2026-11-15T13:30:00+00:00",
+      "tags": [
+        "politics",
+        "usa",
+        "congress"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1257246#reply0",
+      "url": "https://www.v2ex.com/t/1257246#reply0",
+      "title": "分享创造：自制 Genjutsu AI，实现视频人脸替换",
+      "content_html": "<p><strong>[分享创造] 做了 Genjutsu AI：上传一段视频和一张照片，把人换进去，动作和原声不动</strong></p><p>Genjutsu AI is a new tool that allows users to swap faces in videos while keeping original movements, audio, and camera angles. It is designed for simple, efficient video editing without complex prompts.</p><p>Genjutsu AI是一款新工具，支持在保留原视频动作、音频和镜头的情况下替换人脸。该工具旨在实现高效、无需复杂提示词的视频编辑。</p><p>Tags: ai · video · face-swap</p>",
+      "date_published": "2026-11-15T13:27:49+00:00",
+      "tags": [
+        "ai",
+        "video",
+        "face-swap"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "title": "MacBook Pro 的 OLED PWM 问题：显示技术升级的困境",
+      "content_html": "<p><strong>The MacBook Pro&#x27;s OLED PWM Problem: When a &#x27;Better&#x27; Display Becomes Worse to Use</strong></p><p>The shift to OLED technology in MacBook Pros has introduced concerns regarding Pulse Width Modulation (PWM) and eye strain. Users are finding that &#x27;better&#x27; specs do not always lead to a better user experience.</p><p>MacBook Pro升级到OLED显示屏后，PWM调光引发了关于视觉疲劳的担忧。用户发现硬件参数的提升未必等同于更好的使用体验。</p><p>Tags: apple · macbook · oled</p>",
+      "date_published": "2026-11-15T13:15:22+00:00",
+      "tags": [
+        "apple",
+        "macbook",
+        "oled"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "title": "黄仁勋的混乱日子概览",
+      "content_html": "<p><strong>An overview of Jensen Huang’s messy days</strong></p><p>This newsletter explores the turmoil surrounding Nvidia&#x27;s leadership and the fallout of recent corporate crises. It provides a deeper look into the challenges faced by Jensen Huang.</p><p>本通讯探讨了围绕英伟达领导层的混乱局面及近期企业危机的影响，深入剖析了黄仁勋所面临的挑战。</p><p>Tags: nvidia · leadership · jensen-huang</p>",
+      "date_published": "2026-11-15T13:00:00+00:00",
+      "tags": [
+        "nvidia",
+        "leadership",
+        "jensen-huang"
+      ],
+      "_category": "TECH"
+    },
+    {
+      "id": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
+      "title": "我的老母亲给表弟800美元修车，我该担心吗？",
+      "content_html": "<p><strong>‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?</strong></p><p>A reader seeks advice on whether to intervene in their elderly mother&#x27;s financial decisions regarding family members. The situation highlights the complexity of managing assets for aging parents.</p><p>读者就老母亲对亲戚的经济援助是否应干预寻求建议。此案例凸显了管理高龄父母财务问题的复杂性。</p><p>Tags: family · finance · care</p>",
+      "date_published": "2026-11-15T13:00:00+00:00",
+      "tags": [
+        "family",
+        "finance",
+        "care"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "title": "约旦三名男子因教堂枪击案被判处死刑",
+      "content_html": "<p><strong>Understanding Positional Embeddings in Modern LLMs</strong></p><p>Following a fatal mass shooting at a Greek Orthodox church, three individuals in Jordan have been sentenced to death. The incident claimed nine lives and left many injured.</p><p>在一场希腊正教教堂的致命枪击事件后，约旦三名行凶者被判处死刑。该事件造成9人死亡，多人受伤。</p><p>Tags: jordan · crime · law</p>",
+      "date_published": "2026-11-15T12:14:06+00:00",
+      "tags": [
+        "jordan",
+        "crime",
+        "law"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
+      "title": "理解现代大语言模型中的位置编码",
+      "content_html": "<p><strong>Three men sentenced to death in Jordan over fatal church mass shooting</strong></p><p>This article explains the mechanism and importance of positional embeddings in modern LLMs. It clarifies how models perceive the sequence order of information in natural language.</p><p>本文解释了现代大语言模型中位置编码的机制及其重要性。它阐明了模型如何感知自然语言中的信息序列顺序。</p><p>Tags: llm · ai · transformer</p>",
+      "date_published": "2026-11-15T11:06:32+00:00",
+      "tags": [
+        "llm",
+        "ai",
+        "transformer"
+      ],
+      "_category": "AI"
+    },
+    {
+      "id": "https://space.stackexchange.com/questions/37775",
+      "url": "https://space.stackexchange.com/questions/37775",
+      "title": "为什么一些阿波罗任务携带榴弹发射器？",
+      "content_html": "<p><strong>Why did some Apollo missions carry a grenade launcher?</strong></p><p>Historical curiosity regarding the safety measures of Apollo missions leads to discussions about unusual equipment carried by astronauts. The presence of a grenade launcher was intended for survival in remote landing areas.</p><p>对阿波罗任务安全措施的历史好奇引发了关于宇航员携带非典型装备的讨论。携带榴弹发射器旨在应对在偏远地区降落时的生存需求。</p><p>Tags: nasa · apollo · space</p>",
+      "date_published": "2026-11-15T09:06:43+00:00",
+      "tags": [
+        "nasa",
+        "apollo",
+        "space"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+      "title": "以军空袭加沙营地，哈马斯指挥官身亡",
+      "content_html": "<p><strong>Israel kills Hamas commander in strike on Gaza camp, officials say</strong></p><p>IDF strikes in Gaza have successfully targeted and killed a senior Hamas commander. Both sides have officially confirmed the death of Samir Abu Younis.</p><p>以色列国防军对加沙的空袭成功击毙了一名哈马斯高级指挥官。双方已正式确认萨米尔·阿布·尤尼斯死亡的消息。</p><p>Tags: israel · hamas · gaza</p>",
+      "date_published": "2026-11-15T08:17:41+00:00",
+      "tags": [
+        "israel",
+        "hamas",
+        "gaza"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+      "title": "新奥尔良港就油轮碰撞事件提起100万美元诉讼",
+      "content_html": "<p><strong>New Orleans port files $1m lawsuit over &#x27;miracle on the Mississippi&#x27; tanker collision</strong></p><p>New Orleans port authorities are suing over a collision involving a tanker and a cruise ship. The lawsuit aims to recover damages and potentially seize the responsible vessel.</p><p>新奥尔良港务局就一起油轮与游轮的碰撞事件提起诉讼。该诉讼旨在索赔，并可能扣押涉事船只。</p><p>Tags: shipping · lawsuit · new-orleans</p>",
+      "date_published": "2026-11-14T22:27:06+00:00",
+      "tags": [
+        "shipping",
+        "lawsuit",
+        "new-orleans"
+      ],
+      "_category": "WORLD"
+    },
+    {
+      "id": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+      "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+      "title": "SpaceX 成功完成星舰首次“筷子”抓取回收",
+      "content_html": "<p><strong>Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship</strong></p><p>SpaceX successfully demonstrated the &#x27;Mechazilla&#x27; capture of a Starship booster. This engineering milestone marks a significant step forward in reusable rocket technology.</p><p>SpaceX成功演示了“机械臂”抓取回收星舰助推器。这一工程里程碑标志着可重复使用火箭技术迈出了重要一步。</p><p>Tags: spacex · starship · aerospace</p>",
+      "date_published": "2026-11-14T21:44:44+00:00",
+      "tags": [
+        "spacex",
+        "starship",
+        "aerospace"
+      ],
+      "_category": "SCI"
+    },
+    {
+      "id": "https://www.spacex.com/launches/starship-flight-15",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "title": "SpaceX 成功抓取星舰，完成第15次飞行任务",
+      "content_html": "<p><strong>SpaceX catches the Starship to end Flight 15</strong></p><p>The conclusion of Flight 15 saw SpaceX successfully executing a tower-catch of the Starship vehicle. The feat generated significant buzz within the scientific community.</p><p>在第15次飞行任务结束时，SpaceX成功执行了对星舰的塔架抓取回收。此壮举在科学界引起了广泛关注。</p><p>Tags: spacex · starship · science</p>",
+      "date_published": "2026-11-14T21:22:24+00:00",
+      "tags": [
+        "spacex",
+        "starship",
+        "science"
+      ],
+      "_category": "SCI"
+    },
+    {
       "id": "https://www.v2ex.com/t/1257102#reply0",
       "url": "https://www.v2ex.com/t/1257102#reply0",
       "title": "学习 Steam 和 Netflix 的定价策略",
@@ -2252,381 +2616,6 @@
         "payments",
         "canada",
         "fintech"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2595461-is-schrodingers-cat-both-dead-and-alive-no-its-just-haunted-by-its-past/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2595461-is-schrodingers-cat-both-dead-and-alive-no-its-just-haunted-by-its-past/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "薛定谔的猫既死又活吗？不，它只是被过去缠住了",
-      "content_html": "<p><strong>Is Schrödinger’s cat both dead and alive? No, it’s just haunted by its past</strong></p><p>A new theoretical approach suggests that quantum phenomena like superposition could be explained by accounting for time more accurately. This model challenges traditional interpretations of quantum mechanics.</p><p>一种新的理论探讨认为，诸如叠加态之类的量子现象可以通过更精确地计算时间来解释。该模型挑战了人们对量子力学的传统解读。</p><p>Tags: physics · quantum · science</p>",
-      "date_published": "2026-11-09T16:00:00+00:00",
-      "tags": [
-        "physics",
-        "quantum",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1255698#reply0",
-      "url": "https://www.v2ex.com/t/1255698#reply0",
-      "title": "【分享创造】开源一个在线生成Grok Bot风格机器人头像的工具",
-      "content_html": "<p><strong>[分享创造] 开源一个在线生成 Grok Bot 风格的机器人头像制作工具</strong></p><p>The developer has released an open-source web tool that generates robot avatars in the style of Grok Bot. It offers various customization options and allows for SVG exports without requiring registration.</p><p>开发者开源了一款在线工具，可用于生成Grok Bot风格的机器人头像。用户可进行多种自定义设置并直接导出SVG矢量图，全程无需登录。</p><p>Tags: avatar · design · opensource</p>",
-      "date_published": "2026-11-09T15:54:25+00:00",
-      "tags": [
-        "avatar",
-        "design",
-        "opensource"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1255697#reply0",
-      "url": "https://www.v2ex.com/t/1255697#reply0",
-      "title": "【推广】一小时手搓了一个比心视频生成器，最近TikTok很火",
-      "content_html": "<p><strong>[推广] 一小时手搓了一个比心视频生成器，最近 tiktok 很火，快来一起玩吧</strong></p><p>A developer created an AI-based tool to generate &#x27;bicep heart&#x27; videos, a trend currently viral on TikTok. The web app allows users to create and export these videos quickly for social media.</p><p>开发者利用AI打造了一款“比心”视频生成器，旨在迎合TikTok上的热门趋势。该Web应用使用户能够快速生成并导出此类视频，方便在社交媒体分享。</p><p>Tags: ai · tiktok · web-tool</p>",
-      "date_published": "2026-11-09T15:50:57+00:00",
-      "tags": [
-        "ai",
-        "tiktok",
-        "web-tool"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
-      "title": "特朗普在60分钟访谈中提及AI安全，并威胁逮捕AI高管",
-      "content_html": "<p><strong>Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec</strong></p><p>During a 60 Minutes interview, Donald Trump played down the risks of AI while threatening legal action against industry executives. He argued that current regulatory bodies are sufficient to manage potential dangers.</p><p>在《60分钟》访谈中，唐纳德·特朗普淡化了AI风险，并威胁要对行业高管采取法律行动。他认为当前的监管机构足以应对潜在危险。</p><p>Tags: trump · ai · regulation</p>",
-      "date_published": "2026-11-09T15:50:38+00:00",
-      "tags": [
-        "trump",
-        "ai",
-        "regulation"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
-      "url": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
-      "title": "同样的H100，根据租赁地点不同，每小时价格从2.69美元到12.29美元不等",
-      "content_html": "<p><strong>The same H100 costs $2.69 or $12.29 an hour depending where you rent it</strong></p><p>This discussion highlights the vast price disparity in cloud GPU rentals for Nvidia H100 chips. Users analyze geographical and provider-based cost variations in the AI infrastructure market.</p><p>该话题讨论了英伟达H100芯片在云GPU租赁市场中的巨大价差。用户们分析了地理位置和服务商导致的成本波动。</p><p>Tags: nvidia · h100 · cloud</p>",
-      "date_published": "2026-11-09T15:39:01+00:00",
-      "tags": [
-        "nvidia",
-        "h100",
-        "cloud"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
-      "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
-      "title": "迪士尼与Adobe正在联合构建生成式AI工具",
-      "content_html": "<p><strong>Disney and Adobe are building generative AI tools together</strong></p><p>Disney and Adobe have announced a multiyear partnership to develop AI tools tailored for the entertainment industry. The collaboration will integrate specialized generative models into Disney&#x27;s production pipelines.</p><p>迪士尼与Adobe宣布建立多年合作伙伴关系，共同开发专为娱乐行业定制的AI工具。此次合作将把定制化的生成模型集成到迪士尼的生产流程中。</p><p>Tags: disney · adobe · generative-ai</p>",
-      "date_published": "2026-11-09T15:38:56+00:00",
-      "tags": [
-        "disney",
-        "adobe",
-        "generative-ai"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/how-spacex-was-able-to-avert-one-of-the-markets-biggest-fears-about-its-stock-93870736?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/how-spacex-was-able-to-avert-one-of-the-markets-biggest-fears-about-its-stock-93870736?mod=mw_rss_topstories",
-      "title": "SpaceX是如何成功消除市场对其股票的最大担忧之一的",
-      "content_html": "<p><strong>How SpaceX was able to avert one of the market’s biggest fears about its stock</strong></p><p>SpaceX successfully managed market concerns regarding its stock volatility through a staggered lockup schedule. This strategy has stabilized the company&#x27;s influence on broader market indexes.</p><p>SpaceX通过阶梯式锁定期安排，成功缓解了市场对其股票波动性的担忧。这一策略稳定了该公司在更广泛市场指数中的影响。</p><p>Tags: spacex · stocks · market</p>",
-      "date_published": "2026-11-09T15:35:00+00:00",
-      "tags": [
-        "spacex",
-        "stocks",
-        "market"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
-      "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
-      "title": "等等——我和RIAA的人谈得很愉快",
-      "content_html": "<p><strong>Hold up — I had a great time talking to the RIAA guy</strong></p><p>The author shares a candid conversation with the CEO of the RIAA, reflecting on the historical tension between copyright enforcement and digital music. The discussion marks a change in perspective on industry gatekeepers.</p><p>作者分享了与RIAA CEO的一次坦诚对话，回顾了版权执行与数字音乐之间长期的紧张关系。这次讨论标志着作者对行业守门人看法的一种转变。</p><p>Tags: riaa · copyright · music</p>",
-      "date_published": "2026-11-09T15:30:00+00:00",
-      "tags": [
-        "riaa",
-        "copyright",
-        "music"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.marketwatch.com/story/a-failed-trial-for-a-heart-drug-casts-shadow-over-rivals-developing-similar-therapies-2d9bd79f?mod=mw_rss_topstories",
-      "url": "https://www.marketwatch.com/story/a-failed-trial-for-a-heart-drug-casts-shadow-over-rivals-developing-similar-therapies-2d9bd79f?mod=mw_rss_topstories",
-      "title": "一款心脏药物的临床试验失败给开发类似疗法的竞争对手蒙上了阴影",
-      "content_html": "<p><strong>A failed trial for a heart drug casts shadow over rivals developing similar therapies</strong></p><p>A failed heart drug trial has negatively impacted sentiment for other companies developing similar Lp(a) reduction therapies. The results suggest challenges in proving clinical benefits for this class of treatments.</p><p>一款心脏药物的临床试验失败，对其他开发类似Lp(a)减量疗法的公司造成了负面影响。结果显示，证明此类疗法的临床获益存在困难。</p><p>Tags: pharma · health · science</p>",
-      "date_published": "2026-11-09T15:16:00+00:00",
-      "tags": [
-        "pharma",
-        "health",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/",
-      "url": "https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/",
-      "title": "我看到了你的HN评论",
-      "content_html": "<p><strong>I Saw Your HN Comment</strong></p><p>A meta-discussion regarding the culture and impact of comments on Hacker News. Users share perspectives on the tone and value of discourse within the tech community.</p><p>关于Hacker News评论区文化与影响的元讨论。用户们分享了对科技社区讨论氛围及质量的看法。</p><p>Tags: hackernews · community · culture</p>",
-      "date_published": "2026-11-09T15:01:03+00:00",
-      "tags": [
-        "hackernews",
-        "community",
-        "culture"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2597990-prehistoric-britons-may-have-made-giant-stone-axes-to-show-off/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2597990-prehistoric-britons-may-have-made-giant-stone-axes-to-show-off/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "史前英国人可能制造过巨型石斧用于炫耀",
-      "content_html": "<p><strong>Prehistoric Britons may have made giant stone axes to show off</strong></p><p>Archaeologists are reevaluating the purpose of giant, unwieldy stone axes found in prehistoric sites. Evidence suggests these tools were likely symbolic status markers rather than practical items.</p><p>考古学家正在重新评估史前遗址中发现的巨型笨重石斧的用途。证据表明，这些工具更可能是象征地位的物品，而非实用工具。</p><p>Tags: archaeology · history · science</p>",
-      "date_published": "2026-11-09T15:00:00+00:00",
-      "tags": [
-        "archaeology",
-        "history",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
-      "url": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
-      "title": "人类再也无法创造出像维基百科这样的项目了",
-      "content_html": "<p><strong>Humans will never again create a project like Wikipedia</strong></p><p>This discussion reflects on the unique circumstances and collaborative spirit that built Wikipedia. Users argue that current internet incentive structures make replicating such a massive volunteer effort nearly impossible.</p><p>该讨论回顾了维基百科诞生所依赖的独特环境与协作精神。用户认为当前的互联网激励机制使得复制这种大规模志愿者项目几乎变得不可能。</p><p>Tags: wikipedia · internet · culture</p>",
-      "date_published": "2026-11-09T12:30:20+00:00",
-      "tags": [
-        "wikipedia",
-        "internet",
-        "culture"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.newscientist.com/article/2597812-weird-ultraquantum-turbulence-seen-for-the-first-time/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "url": "https://www.newscientist.com/article/2597812-weird-ultraquantum-turbulence-seen-for-the-first-time/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "title": "首次观测到诡异的“超量子”湍流",
-      "content_html": "<p><strong>Weird ‘ultraquantum’ turbulence seen for the first time</strong></p><p>Scientists have observed a new form of quantum turbulence using ultracold atoms. This discovery sheds light on complex quantum fluid dynamics that were previously only theoretical.</p><p>科学家利用超冷原子观测到了一种新型的量子湍流。这一发现揭示了此前仅存在于理论中的复杂量子流体动力学现象。</p><p>Tags: quantum · physics · science</p>",
-      "date_published": "2026-11-09T12:00:00+00:00",
-      "tags": [
-        "quantum",
-        "physics",
-        "science"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
-      "title": "警方称克拉科夫枪击案嫌疑人在医院死亡",
-      "content_html": "<p><strong>Krakow shooting suspect has died in hospital, police say</strong></p><p>The suspect in the recent mass shooting in Krakow has died in the hospital. Police continue to investigate the motive behind the murders of six people.</p><p>克拉科夫大规模枪击案的嫌疑人在医院去世。警方目前仍在调查这起导致六人死亡的案件动机。</p><p>Tags: krakow · crime · news</p>",
-      "date_published": "2026-11-09T11:56:25+00:00",
-      "tags": [
-        "krakow",
-        "crime",
-        "news"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
-      "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
-      "title": "AI对气候的贡献尚未得到证实",
-      "content_html": "<p><strong>The climate case for AI has not been made</strong></p><p>The article critically analyzes the claims made by tech industries regarding AI&#x27;s role in fighting climate change. It argues that the energy consumption of AI models may outweigh their environmental benefits.</p><p>文章批判性地分析了科技行业关于AI在应对气候变化中作用的声称。文中指出，AI模型的能源消耗可能超过其带来的环境效益。</p><p>Tags: ai · climate · environment</p>",
-      "date_published": "2026-11-09T10:00:00+00:00",
-      "tags": [
-        "ai",
-        "climate",
-        "environment"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://sspai.com/post/118029",
-      "url": "https://sspai.com/post/118029",
-      "title": "天花板上的白色盒子，是怎样保护我们的安全的？",
-      "content_html": "<p><strong>天花板上的白色盒子，是怎样保护我们的安全的？</strong></p><p>An educational piece explaining how fire and smoke detectors operate to protect homes and public buildings. It coincides with the National Fire Safety Day in China.</p><p>这是一篇科普文章，解释了烟雾探测器如何工作以保护住宅及公共建筑的安全。文章正值中国全国消防日发布。</p><p>Tags: safety · fire · education</p>",
-      "date_published": "2026-11-09T07:02:44+00:00",
-      "tags": [
-        "safety",
-        "fire",
-        "education"
-      ],
-      "_category": "SCI"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cq62y01r2313o?at_medium=RSS&at_campaign=rss",
-      "url": "https://www.bbc.co.uk/news/articles/cq62y01r2313o?at_medium=RSS&at_campaign=rss",
-      "title": "深入法国毒贩集团：招募儿童进行谋杀",
-      "content_html": "<p><strong>Inside the French drug gangs recruiting children to kill</strong></p><p>A deep dive into the dangerous underworld of Marseille, where drug gangs exploit and trap youth into violent crimes. The report exposes the brutalization of children by criminal organizations.</p><p>本报道深入调查了马赛危险的地下世界，毒贩集团在此诱骗年轻人参与暴力犯罪。报道揭露了犯罪组织对未成年人的残忍剥削与毒害。</p><p>Tags: france · crime · investigation</p>",
-      "date_published": "2026-11-09T06:00:26+00:00",
-      "tags": [
-        "france",
-        "crime",
-        "investigation"
-      ],
-      "_category": "WORLD"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1255392#reply0",
-      "url": "https://www.v2ex.com/t/1255392#reply0",
-      "title": "《持械入宋》等历史遗憾题材引发AI影视创作热潮",
-      "content_html": "<p><strong>[分享发现] 看了《持械入宋》这类历史遗憾题材，赛道似乎还有机会啊😂</strong></p><p>A low-budget team has gained traction with their AI-produced historical series, &#x27;Holding Arms into Song.&#x27; They are now exploring how to leverage AI tools for efficient content production in this emerging niche.</p><p>近期一部名为《持械入宋》的AI制作历史剧走红，引发了对草根团队如何利用AI技术弥补影视创作遗憾的探讨。该案例揭示了AI影视制作在低成本与高效产出方面的巨大潜力和商业机会。</p><p>Tags: ai · video · creation · v2ex</p>",
-      "date_published": "2026-11-08T13:46:14+00:00",
-      "tags": [
-        "ai",
-        "video",
-        "creation",
-        "v2ex"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1255391#reply0",
-      "url": "https://www.v2ex.com/t/1255391#reply0",
-      "title": "分享一款轻量级且开源的 macOS 文件管理器",
-      "content_html": "<p><strong>[程序员] 分析一个 macos 的文件管理器</strong></p><p>A developer has created a free, open-source file manager for macOS to replace heavier, paid alternatives. The project focuses on performance and simplicity, and the author is currently seeking community feedback.</p><p>开发者推出了一款轻量级、开源免费的 macOS 文件管理器，旨在替代体积庞大且收费的同类软件。目前项目已在 GitHub 开源，开发者欢迎用户提供使用建议。</p><p>Tags: macos · opensource · tools · development</p>",
-      "date_published": "2026-11-08T13:42:54+00:00",
-      "tags": [
-        "macos",
-        "opensource",
-        "tools",
-        "development"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4964833-midterm-election-goes-blue-what-happens-with-markets-now?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4964833-midterm-election-goes-blue-what-happens-with-markets-now?source=feed_all_articles",
-      "title": "中期选举结果转向蓝营：市场前景如何？",
-      "content_html": "<p><strong>Midterm Election Goes Blue: What Happens With Markets Now?</strong></p><p>With the midterm election results leaning toward the Democrats, market analysts are assessing the potential economic impact. Investors are looking for clarity on upcoming fiscal policies and sector-specific trends.</p><p>随着中期选举结果偏向蓝营，市场分析师正在评估其对经济政策的影响。投资者正密切关注政策走向，以判断各行业的后续表现。</p><p>Tags: election · markets · economy · finance</p>",
-      "date_published": "2026-11-08T13:20:00+00:00",
-      "tags": [
-        "election",
-        "markets",
-        "economy",
-        "finance"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1255389#reply1",
-      "url": "https://www.v2ex.com/t/1255389#reply1",
-      "title": "iOS 平台的开屏广告自动跳过方案探讨",
-      "content_html": "<p><strong>[问与答] iOS 的李跳跳？还是 Mitm 去贴片广告更好</strong></p><p>A new tool for iOS, Swipt, has been developed to bypass intrusive splash screen ads in Chinese applications. It uses accessibility trees to detect and close ads faster than manual interaction.</p><p>iOS开发者推出了一款名为Swipt的工具，利用无障碍功能实现对国内主流APP开屏广告的自动跳过。该方案通过识别广告SDK，实现了比人工点击更快的响应速度。</p><p>Tags: ios · adblock · automation · privacy</p>",
-      "date_published": "2026-11-08T13:16:15+00:00",
-      "tags": [
-        "ios",
-        "adblock",
-        "automation",
-        "privacy"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1255388#reply0",
-      "url": "https://www.v2ex.com/t/1255388#reply0",
-      "title": "发布一款无需注册的短文打字练习工具",
-      "content_html": "<p><strong>[分享创造] 做了个不限时的短文打字练习工具，支持粘贴自己的文本</strong></p><p>The developer introduced KeySprint, a web-based tool for practicing typing with full sentences rather than random words. It allows users to paste their own texts and provides detailed performance metrics.</p><p>开发者发布了KeySprint网页工具，旨在通过完整的短文内容而非随机单词来练习打字。该工具支持自定义文本粘贴，并能为用户提供详细的打字速度与准确率分析。</p><p>Tags: typing · web · productivity · tools</p>",
-      "date_published": "2026-11-08T13:16:07+00:00",
-      "tags": [
-        "typing",
-        "web",
-        "productivity",
-        "tools"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
-      "url": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
-      "title": "媒体行业的视频转型浪潮依然强劲",
-      "content_html": "<p><strong>There’s no slowing down media’s pivot-to-video 2.0</strong></p><p>Media outlets are continuing their heavy investment in video production, signaling that the &#x27;pivot-to-video&#x27; trend is far from over. This newsletter explores the pressures creators face in today&#x27;s digital landscape.</p><p>媒体行业的视频转型趋势依然未见放缓，各类平台持续加大对视频内容的投入。本文深入探讨了互联网环境下内容创作者所面临的持续压力。</p><p>Tags: media · video · content · trends</p>",
-      "date_published": "2026-11-08T13:00:00+00:00",
-      "tags": [
-        "media",
-        "video",
-        "content",
-        "trends"
-      ],
-      "_category": "TECH"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4964657-conocophillips-a-crude-awakening-is-coming-rating-downgrade?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4964657-conocophillips-a-crude-awakening-is-coming-rating-downgrade?source=feed_all_articles",
-      "title": "康菲石油公司：前景不容乐观，评级下调",
-      "content_html": "<p><strong>ConocoPhillips: A Crude Awakening Is Coming (Rating Downgrade)</strong></p><p>ConocoPhillips has faced a rating downgrade amid concerns regarding market conditions and industry outlooks. Analysts point to potential risks that could affect the energy giant&#x27;s future performance.</p><p>由于市场环境和行业前景的担忧，康菲石油公司遭到了评级下调。分析师指出，能源领域潜在的风险因素可能影响其未来的盈利表现。</p><p>Tags: oil · finance · stocks · downgrade</p>",
-      "date_published": "2026-11-08T13:00:00+00:00",
-      "tags": [
-        "oil",
-        "finance",
-        "stocks",
-        "downgrade"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4964830-blue-wave-could-turn-into-green-wave-for-reit-investors?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4964830-blue-wave-could-turn-into-green-wave-for-reit-investors?source=feed_all_articles",
-      "title": "“蓝色浪潮”或为 REITs 投资者带来环保机遇",
-      "content_html": "<p><strong>The Blue Wave Could Turn Into A Green Wave For REIT Investors</strong></p><p>The Democratic win could signify a &#x27;Green Wave&#x27; of legislative support that benefits real estate investment trusts (REITs). Investors are evaluating how sustainability-focused policies might drive growth in this sector.</p><p>民主党的胜出可能开启“绿色浪潮”，通过政策支持惠及房地产投资信托基金（REITs）。投资者正在评估可持续政策如何驱动该行业的增长潜力。</p><p>Tags: reits · finance · investing · green</p>",
-      "date_published": "2026-11-08T13:00:00+00:00",
-      "tags": [
-        "reits",
-        "finance",
-        "investing",
-        "green"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://www.v2ex.com/t/1255384#reply0",
-      "url": "https://www.v2ex.com/t/1255384#reply0",
-      "title": "ChatGPT 公益代充平台推广",
-      "content_html": "<p><strong>[推广] ChatGPT 公益代充站</strong></p><p>A new public service platform for ChatGPT account recharging has been shared with the community. The site emphasizes privacy by not storing user credit card information.</p><p>社区分享了一个ChatGPT公益代充平台，旨在方便用户进行账户充值。该站点承诺不保存用户的支付卡片信息，保障用户隐私安全。</p><p>Tags: chatgpt · openai · service · v2ex</p>",
-      "date_published": "2026-11-08T12:58:42+00:00",
-      "tags": [
-        "chatgpt",
-        "openai",
-        "service",
-        "v2ex"
-      ],
-      "_category": "AI"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4963277-two-of-my-best-dividend-stocks-cut-their-dividends?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4963277-two-of-my-best-dividend-stocks-cut-their-dividends?source=feed_all_articles",
-      "title": "我的两只绩优股被迫削减分红",
-      "content_html": "<p><strong>Two Of My Best Dividend Stocks Cut Their Dividends</strong></p><p>An investor reports that two of their top-performing dividend stocks have cut payouts, highlighting the instability in current income-focused portfolios. The piece explores the implications of these cuts for long-term investors.</p><p>一位投资者反映其两只表现良好的分红股削减了派息，显示出当前高分红策略的不稳定性。文章分析了这一变化对长期财务规划带来的影响。</p><p>Tags: stocks · dividends · finance · investing</p>",
-      "date_published": "2026-11-08T12:30:00+00:00",
-      "tags": [
-        "stocks",
-        "dividends",
-        "finance",
-        "investing"
-      ],
-      "_category": "FINA"
-    },
-    {
-      "id": "https://seekingalpha.com/article/4964828-american-homes-4-rent-still-isnt-good-for-my-money-even-after-great-quarter?source=feed_all_articles",
-      "url": "https://seekingalpha.com/article/4964828-american-homes-4-rent-still-isnt-good-for-my-money-even-after-great-quarter?source=feed_all_articles",
-      "title": "American Homes 4 Rent 即使财报亮眼仍非良选",
-      "content_html": "<p><strong>American Homes 4 Rent Still Isn&#x27;t A Good Home For My Money Even After A Great Quarter</strong></p><p>Despite posting strong quarterly results, American Homes 4 Rent remains a questionable investment choice according to this analysis. The author argues that financial performance does not necessarily translate into long-term value.</p><p>尽管American Homes 4 Rent交出了亮眼的季度财报，但分析指出其仍非理想投资目标。作者认为短期财务表现并不等于长期的资产增值价值。</p><p>Tags: realestate · finance · stocks · analysis</p>",
-      "date_published": "2026-11-08T12:26:50+00:00",
-      "tags": [
-        "realestate",
-        "finance",
-        "stocks",
-        "analysis"
       ],
       "_category": "FINA"
     }
