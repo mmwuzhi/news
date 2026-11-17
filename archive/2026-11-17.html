@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">32</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">4</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">7</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">5</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-11-17 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Tue Nov 17 2026 &middot; 32 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;llm&quot;, &quot;sensetime&quot;, &quot;opensource&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1257844#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享发现] 来看看这个开源 9B 模型的审美吧</a></div>
+      <div class="item-title-zh">商汤开源 SenseNova Loop 9B 模型解析</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">llm · sensetime · opensource</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">SenseTime has released the SenseNova Loop 9B open-source model, featuring efficient local deployment capabilities. The model uses a &#x27;loop&#x27; strategy to enhance reasoning power without increasing parameter counts.</p>
+      <p class="summary-zh">商汤科技发布了 SenseNova Loop 9B 开源模型，具备高效的本地部署能力。该模型利用“循环”策略在不增加参数的情况下增强推理能力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;coding&quot;, &quot;agent&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://runta.com/blog/introducing-frontierharness-eval-v1-1/" target="_blank" rel="noopener" onclick="event.stopPropagation()">In 27,280 coding agent runs, 64% of inference spend went to runs that failed</a></div>
+      <div class="item-title-zh">报告：64% 的 AI 编程智能体推理成本用于失败任务</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · coding · agent</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Data from over 27,000 runs shows that most AI coding agents fail to produce successful results. This high failure rate represents a significant inefficiency in current LLM-based software development.</p>
+      <p class="summary-zh">来自超过 27,000 次运行的数据显示，大多数 AI 编程智能体未能产生成功结果。如此高的失败率代表了当前基于大模型的软件开发存在显著的低效性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;nato&quot;, &quot;cybersecurity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://openai.com/index/strengthening-nato-allied-cyber-defences-ai" target="_blank" rel="noopener" onclick="event.stopPropagation()">Strengthening NATO and allied cyber defenses with AI</a></div>
+      <div class="item-title-zh">使用AI加强北约及其盟友的防御能力</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">OpenAI Blog &middot; 16h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · nato · cybersecurity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">OpenAI is partnering with NATO agencies to utilize AI for strengthening cyber defenses. The collaboration focuses on vulnerability detection and securing essential infrastructure.</p>
+      <p class="summary-zh">OpenAI 正在与北约机构合作，利用人工智能加强网络防御。此次合作侧重于漏洞检测和关键基础设施的保护。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;chile&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://openai.com/index/introducing-openai-for-chile" target="_blank" rel="noopener" onclick="event.stopPropagation()">Introducing OpenAI for Chile</a></div>
+      <div class="item-title-zh">OpenAI 正式进驻智利</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">OpenAI Blog &middot; 16h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · chile · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">OpenAI and the Chilean government have formed a partnership to promote AI adoption in the public sector. The initiative includes skills training and support for local AI startups.</p>
+      <p class="summary-zh">OpenAI 与智利政府建立合作伙伴关系，旨在促进人工智能在公共部门的应用。该计划包括技能培训以及对本地 AI 初创企业的支持。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;macmini&quot;, &quot;mdm&quot;, &quot;remote&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1257847#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[macOS] Mac mini 放美国朋友家 长期 远程 用，怎么做到尽量不麻烦他？选什么 MDM？</a></div>
+      <div class="item-title-zh">Mac mini 远程部署与管理方案咨询</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">macmini · mdm · remote</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author is seeking advice on remotely managing a Mac mini located in the US without bothering the host. They are evaluating MDM solutions like SimpleMDM and using Tailscale for networking.</p>
+      <p class="summary-zh">作者正在寻求关于远程管理美国朋友家 Mac mini 的建议，希望尽量减少对朋友的打扰。他们正在评估 SimpleMDM 等 MDM 方案并计划使用 Tailscale 进行联网。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;icloud&quot;, &quot;sharing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1257846#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Apple] 求助帖，关于 Apple 家庭共享的问题</a></div>
+      <div class="item-title-zh">关于 Apple 家庭共享的求助</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · icloud · sharing</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user is seeking help managing an Apple Family Sharing group where members use different regional accounts. They are struggling to understand how to maintain shared subscriptions across mixed-region accounts.</p>
+      <p class="summary-zh">用户正在寻求管理 Apple 家庭共享组的建议，其中成员使用不同地区的账号。他们正在尝试弄清如何在混合区域账号下维持共享订阅。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;megaspeed&quot;, &quot;investigation&quot;, &quot;nvidia&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update" target="_blank" rel="noopener" onclick="event.stopPropagation()">The DOJ says it’s investigating Megaspeed</a></div>
+      <div class="item-title-zh">美国司法部称正在调查 Megaspeed</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">megaspeed · investigation · nvidia</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The DOJ and Commerce Department are investigating Megaspeed, a data center firm linked to the Nvidia CEO&#x27;s resignation. This confirms reports of ongoing scrutiny that were previously unclear.</p>
+      <p class="summary-zh">美国司法部和商务部正在调查与英伟达 CEO 辞职有关的数据中心公司 Megaspeed。这证实了此前关于监管审查不明确的报道。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;ios&quot;, &quot;photography&quot;, &quot;app&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1257843#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 风景好的时候，总想多一个可用机位，分享我做的延时摄影 App</a></div>
+      <div class="item-title-zh">分享自制延时摄影 App：追光相机</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ios · photography · app</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The developer introduced &#x27;LightSeeker&#x27;, an iPhone app designed for professional time-lapse photography. It offers manual controls and advanced editing features for creators using their phones as a secondary camera.</p>
+      <p class="summary-zh">开发者介绍了名为“追光相机”的 iPhone 应用，专为专业延时摄影设计。它为将手机作为辅助拍摄工具的创作者提供了手动控制和高级编辑功能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;surge&quot;, &quot;ios&quot;, &quot;networking&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1257842#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Surge] surge ios6 stable 怎么还不上啊？</a></div>
+      <div class="item-title-zh">Surge iOS 6 稳定版发布进度询问</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">surge · ios · networking</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user is inquiring about the release status of the stable version of Surge iOS 6. They noticed recent churn in the TestFlight build versions.</p>
+      <p class="summary-zh">用户正在询问 Surge iOS 6 稳定版的发布进度。他们注意到最近 TestFlight 构建版本的更迭比较频繁。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;flipper&quot;, &quot;linux&quot;, &quot;cybersecurity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1034392/flipper-devices-one-zero-pocket-linux-computer-multi-tool-preorder-kickstarte" target="_blank" rel="noopener" onclick="event.stopPropagation()">You can now preorder the Flipper One that puts a Linux computer in your pocket</a></div>
+      <div class="item-title-zh">Flipper One 便携 Linux 设备开启预售</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">flipper · linux · cybersecurity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Flipper Devices has launched a Kickstarter for the Flipper One, a Linux-based pocket multi-tool for cybersecurity professionals. It is priced at $399 and expected to ship in 2027.</p>
+      <p class="summary-zh">Flipper Devices 为 Flipper One 发起了众筹，这是一款面向网络安全专业人士的 Linux 口袋多功能工具。定价 399 美元，预计 2027 年发货。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;deals&quot;, &quot;4k&quot;, &quot;bluray&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/gadgets/1034571/gruv-4k-blu-ray-movies-black-friday-deal-sale" target="_blank" rel="noopener" onclick="event.stopPropagation()">Scoop up three great 4K Blu-ray movies for $33</a></div>
+      <div class="item-title-zh">4K 蓝光电影“三部 33 美元”促销活动</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">deals · 4k · bluray</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Universal Pictures&#x27; online store, Gruv, is offering a &#x27;three for $33&#x27; promotion on 4K Blu-ray movies. This deal is part of a wider push ahead of the Black Friday shopping season.</p>
+      <p class="summary-zh">环球影业的在线商店 Gruv 正在进行 4K 蓝光电影“三部 33 美元”的促销活动。该优惠是黑色星期五购物季前大规模促销的一部分。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;css&quot;, &quot;webdev&quot;, &quot;ui&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://alloyhtml.com/example.html" target="_blank" rel="noopener" onclick="event.stopPropagation()">Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off</a></div>
+      <div class="item-title-zh">Alloy CSS：支持无 JavaScript 运行的 UI 组件</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">css · webdev · ui</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Alloy CSS provides dialogs, menus, and tabs that remain functional even when JavaScript is disabled. This project highlights a CSS-first approach to web component development.</p>
+      <p class="summary-zh">Alloy CSS 提供了在禁用 JavaScript 时仍能运行的对话框、菜单和选项卡。该项目突显了以 CSS 为先的 Web 组件开发方法。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;serko&quot;, &quot;earnings&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4969150-serko-limited-serkf-q2-2027-earnings-call-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Serko Limited (SERKF) Q2 2027 Earnings Call Transcript</a></div>
+      <div class="item-title-zh">Serko Limited (SERKF) 2027财年第二季度财报电话会议实录</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">serko · earnings · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Serko Limited has released the transcript for its Q2 2027 earnings call. The document covers financial results and strategic outlooks for investors.</p>
+      <p class="summary-zh">Serko Limited 发布了2027财年第二季度财报电话会议记录。该文件涵盖了财务业绩及投资者的战略展望。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;jagx&quot;, &quot;biotech&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4969098-jaguar-health-inc-jagx-q3-2026-earnings-call-prepared-remarks-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Jaguar Health, Inc. (JAGX) Q3 2026 Earnings Call Prepared Remarks Transcript</a></div>
+      <div class="item-title-zh">Jaguar Health, Inc. (JAGX) 2026财年第三季度财报电话会议发言实录</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">jagx · biotech · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Jaguar Health provided prepared remarks for their Q3 2026 earnings conference call. The summary details the company&#x27;s recent operational performance and forward-looking statements.</p>
+      <p class="summary-zh">Jaguar Health 提供了2026财年第三季度财报电话会议的发言稿。摘要详细说明了公司近期的运营表现及前瞻性声明。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;walmart&quot;, &quot;stocks&quot;, &quot;retail&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4969135-walmart-a-soft-q3-may-fail-to-hold-up-valuation-multiples?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Walmart: A Soft Q3 May Fail To Hold Up Valuation Multiples</a></div>
+      <div class="item-title-zh">沃尔玛：疲软的第三季度可能难以支撑估值倍数</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">walmart · stocks · retail</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Walmart&#x27;s Q3 performance suggests that its current valuation may be unsustainable. Analysts warn that market expectations might be too optimistic given recent financial trends.</p>
+      <p class="summary-zh">沃尔玛第三季度的表现表明其当前的估值可能难以维持。分析师警告称，鉴于近期的财务趋势，市场预期可能过于乐观。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;elpolloloco&quot;, &quot;expansion&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4969133-el-pollo-loco-store-opening-pace-to-accelerate-in-2027?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">El Pollo Loco: Store Opening Pace To Accelerate In 2027</a></div>
+      <div class="item-title-zh">El Pollo Loco：2027年门店扩张步伐将加速</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">elpolloloco · expansion · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">El Pollo Loco announced plans to accelerate its store opening pace in 2027. This strategy aims to boost market presence and long-term revenue growth.</p>
+      <p class="summary-zh">El Pollo Loco 宣布计划在2027年加速开店步伐。此战略旨在提升市场占有率并推动长期收入增长。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;ibm&quot;, &quot;stocks&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4969131-ibm-stock-is-hiding-a-secret-well-learn-in-2027-and-a-ticking-clock?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">IBM Stock Is Hiding A Secret We&#x27;ll Learn In 2027 (And A Ticking Clock)</a></div>
+      <div class="item-title-zh">IBM 股票隐藏的秘密将在2027年揭晓</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ibm · stocks · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Investors are looking toward 2027 as a pivotal year for IBM. The company faces a ticking clock on internal developments that could significantly impact its stock valuation.</p>
+      <p class="summary-zh">投资者正关注2027年，认为这是 IBM 的关键一年。公司正面临内部发展的紧迫时刻，这可能会显著影响其股价估值。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;finance&quot;, &quot;trade&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/coherent-and-lumentum-stocks-climb-as-potential-u-s-import-ban-threatens-chinese-rivals-e20dfb79?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Coherent and Lumentum stocks climb as potential U.S. import ban threatens Chinese rivals</a></div>
+      <div class="item-title-zh">受美国进口禁令担忧影响，Coherent 和 Lumentum 股价上涨</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · finance · trade</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Stocks of Coherent and Lumentum rose amid reports that the US may ban Chinese optical transceivers. Investors see this potential policy shift as beneficial for domestic competitors.</p>
+      <p class="summary-zh">Coherent 和 Lumentum 的股价上涨，因有报道称美国可能禁止中国产光收发器。投资者认为这一潜在的政策调整有利于国内竞争对手。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;family&quot;, &quot;advice&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘It is heartbreaking’: My brother took over our ailing mother’s life and finances. What can I do?</a></div>
+      <div class="item-title-zh">面对财务剥削的家庭求助咨询</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · family · advice</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A reader is seeking advice on how to handle a brother who has taken control of their ailing mother&#x27;s finances. Experts suggest legal and protective measures to safeguard assets.</p>
+      <p class="summary-zh">一名读者正在寻求关于如何处理兄弟控制其病重母亲财务的建议。专家建议采取法律和保护性措施来保护资产。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;investment&quot;, &quot;stocks&quot;, &quot;realestate&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and invest in real estate?</a></div>
+      <div class="item-title-zh">英伟达动荡引发的投资恐慌与房地产选择</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">investment · stocks · realestate</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A concerned investor is questioning whether to shift assets from volatile tech stocks to Florida real estate. Market analysts are advising caution during periods of market uncertainty.</p>
+      <p class="summary-zh">一位担忧的投资者正在考虑是否要将资产从波动的科技股转移到佛罗里达州的房地产。市场分析师建议在市场不确定时期保持谨慎。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;measles&quot;, &quot;health&quot;, &quot;us&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">US loses measles elimination status after 26 years amid record case numbers</a></div>
+      <div class="item-title-zh">美国26年来首次失去麻疹消除状态</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">measles · health · us</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The US has lost its measles elimination status after reporting record case numbers. Over 5,400 cases and 10 deaths have been recorded, marking a significant public health setback.</p>
+      <p class="summary-zh">美国在报告了创纪录的病例数后，失去了麻疹消除状态。目前已记录超过5400例病例和10例死亡，这标志着公共卫生的重大倒退。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;education&quot;, &quot;research&quot;, &quot;phones&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/policy/1035401/school-cell-phone-ban-study-meta-settlement" target="_blank" rel="noopener" onclick="event.stopPropagation()">Banning phones really does help kids learn, researchers say</a></div>
+      <div class="item-title-zh">研究人员称禁止手机确实有助于儿童学习</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">education · research · phones</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A national study concludes that banning mobile phones in schools improves student learning outcomes. Researchers are now exploring the impact of out-of-school usage on total academic performance.</p>
+      <p class="summary-zh">一项全国性研究得出结论，学校禁止手机有助于改善学生的学习成绩。研究人员目前正在探讨校外手机使用对整体学业表现的影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;biology&quot;, &quot;health&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2597569-the-gut-microbiome-will-become-part-of-every-persons-medical-record/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">“The gut microbiome will become part of every person’s medical record”</a></div>
+      <div class="item-title-zh">肠道微生物组将成为个人医疗记录的一部分</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biology · health · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Experts anticipate that gut microbiome tracking will become a standard component of medical records in the coming decades. Science leaders like Jennifer Doudna believe this will revolutionize personalized medicine.</p>
+      <p class="summary-zh">专家预计，肠道微生物组追踪将在未来几十年成为医疗记录的标准组成部分。科学界领袖 Jennifer Doudna 等人认为这将彻底改变个性化医疗。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;ai&quot;, &quot;environment&quot;, &quot;climate&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2599357-just-nine-countries-back-pledge-to-tackle-ais-environmental-footprint/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Just nine countries back pledge to tackle AI’s environmental footprint</a></div>
+      <div class="item-title-zh">仅九国签署旨在解决人工智能环境影响的承诺</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · environment · climate</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Global efforts to limit the environmental impact of AI development are struggling, with only nine countries endorsing a new pledge. Experts note the significant energy requirements of training large models.</p>
+      <p class="summary-zh">限制人工智能发展对环境影响的全球努力进展缓慢，仅有九个国家签署了一项新承诺。专家指出了训练大型模型所带来的高额能源需求。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;climate&quot;, &quot;tech&quot;, &quot;environment&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2599223-plans-to-rely-on-carbon-removal-tech-spark-debate-at-cop31/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Plans to rely on carbon removal tech spark debate at COP31</a></div>
+      <div class="item-title-zh">COP31 峰会上关于碳移除技术的争议</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">climate · tech · environment</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Debates have intensified at the COP31 climate summit regarding carbon removal and capture technologies. Critics argue these tools are not ready for scale and may distract from necessary fossil fuel phase-outs.</p>
+      <p class="summary-zh">在 COP31 气候峰会上，关于碳移除和捕获技术的辩论愈演愈烈。批评者认为这些工具尚未成熟到可规模化，且可能分散对淘汰化石燃料这一必要目标的注意力。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="SCI" data-tags="[&quot;education&quot;, &quot;research&quot;, &quot;phones&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html" target="_blank" rel="noopener" onclick="event.stopPropagation()">New Evidence Shows School Phone Bans Are Gradually Improving Test Scores</a></div>
+      <div class="item-title-zh">新证据显示学校禁止手机可改善考试分数</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">education · research · phones</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">New research confirms that prohibiting cellphone usage during school hours correlates with improved student test scores. The findings strengthen the case for school-wide phone bans.</p>
+      <p class="summary-zh">新研究证实，在校期间禁止手机使用与考试分数提高呈正相关。这些发现增强了在全校范围内实施手机禁令的论据。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="SCI" data-tags="[&quot;cmu&quot;, &quot;education&quot;, &quot;cs&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.cs.cmu.edu/learn/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Carnegie Mellon is putting computer science courses on YouTube for free</a></div>
+      <div class="item-title-zh">卡内基梅隆大学免费在 YouTube 上提供计算机科学课程</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 19h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">cmu · education · cs</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Carnegie Mellon University has begun uploading its computer science courses to YouTube for free public access. This initiative aims to democratize high-level education in software and algorithms.</p>
+      <p class="summary-zh">卡内基梅隆大学已开始将其计算机科学课程免费上传至 YouTube 供公众访问。这一举措旨在实现软件和算法领域高等教育的普惠化。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;nvidia&quot;, &quot;jensenhuang&quot;, &quot;leadership&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Huang says he&#x27;s willing to return as Nvidia boss in first remarks since resignation</a></div>
+      <div class="item-title-zh">黄仁勋在辞职后首度表态：愿意回归英伟达担任CEO</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · jensenhuang · leadership</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Following his resignation, Jensen Huang has expressed openness to returning as Nvidia&#x27;s CEO. This follows significant pressure from investors and staff calling for his reinstatement.</p>
+      <p class="summary-zh">黄仁勋在辞职后表示愿意回归担任英伟达 CEO。此举是在投资者和员工强烈要求其复职的背景下做出的。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;nvidia&quot;, &quot;jensenhuang&quot;, &quot;ceo&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement" target="_blank" rel="noopener" onclick="event.stopPropagation()">Jensen Huang says he’s willing to return as Nvidia CEO</a></div>
+      <div class="item-title-zh">黄仁勋表示愿意重返英伟达担任CEO</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · jensenhuang · ceo</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Jensen Huang confirmed he is willing to return as CEO if the board requests it. This statement comes after a massive outpouring of support from Nvidia&#x27;s stakeholders.</p>
+      <p class="summary-zh">黄仁勋证实，如果董事会提出要求，他愿意重返公司担任 CEO。此声明是在英伟达利益相关者表达了强烈支持后做出的。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;russia&quot;, &quot;crimea&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Putin&#x27;s Crimea bridge partly collapses as Zelensky hails &#x27;unprecedented&#x27; attack by Ukraine</a></div>
+      <div class="item-title-zh">普京克里米亚大桥部分坍塌，乌克兰称袭击史无前例</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · russia · crimea</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Ukraine has conducted a highly planned missile and drone attack on the Crimean Bridge. The strike caused partial collapse, dealing a symbolic blow to the Russian occupation.</p>
+      <p class="summary-zh">乌克兰对克里米亚大桥进行了精心策划的导弹和无人机袭击。此次打击导致大桥部分坍塌，对俄罗斯的占领构成了象征性打击。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;russia&quot;, &quot;military&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">How the attack on Crimean Bridge unfolded</a></div>
+      <div class="item-title-zh">克里米亚大桥遇袭经过全过程</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · russia · military</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The attack on the Crimean Bridge involved a complex seven-stage operation by Ukrainian forces. It remains one of the most significant strategic strikes since the conflict began.</p>
+      <p class="summary-zh">克里米亚大桥遇袭涉及乌克兰军队复杂的一系列七阶段行动。这仍然是冲突开始以来最重要的战略打击之一。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;israel&quot;, &quot;palestine&quot;, &quot;conflict&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says</a></div>
+      <div class="item-title-zh">巴勒斯坦妇女在约旦河西岸被以色列定居者射杀</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">israel · palestine · conflict</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A 72-year-old Palestinian woman was shot dead during a clash with settlers in the West Bank. The military and local accounts offer conflicting reports on the cause of the violence.</p>
+      <p class="summary-zh">一名 72 岁的巴勒斯坦妇女在约旦河西岸与定居者的冲突中被射杀。军方和当地叙述对暴力起因的看法大相径庭。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-11-16.html">2026-11-16</a>
+<a class="archive-date" href="/archive/2026-11-15.html">2026-11-15</a>
+<a class="archive-date" href="/archive/2026-11-14.html">2026-11-14</a>
+<a class="archive-date" href="/archive/2026-11-13.html">2026-11-13</a>
+<a class="archive-date" href="/archive/2026-11-12.html">2026-11-12</a>
+<a class="archive-date" href="/archive/2026-11-11.html">2026-11-11</a>
+<a class="archive-date" href="/archive/2026-11-10.html">2026-11-10</a>
+<a class="archive-date" href="/archive/2026-11-09.html">2026-11-09</a>
+<a class="archive-date" href="/archive/2026-11-08.html">2026-11-08</a>
+<a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">32 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">16:39 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-11-16.html">2026-11-16</a>
+<a class="archive-date" href="/archive/2026-11-15.html">2026-11-15</a>
+<a class="archive-date" href="/archive/2026-11-14.html">2026-11-14</a>
+<a class="archive-date" href="/archive/2026-11-13.html">2026-11-13</a>
+<a class="archive-date" href="/archive/2026-11-12.html">2026-11-12</a>
+<a class="archive-date" href="/archive/2026-11-11.html">2026-11-11</a>
+<a class="archive-date" href="/archive/2026-11-10.html">2026-11-10</a>
+<a class="archive-date" href="/archive/2026-11-09.html">2026-11-09</a>
+<a class="archive-date" href="/archive/2026-11-08.html">2026-11-08</a>
+<a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+<a class="archive-date" href="/archive/2026-11-04.html">2026-11-04</a>
+<a class="archive-date" href="/archive/2026-11-03.html">2026-11-03</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-11-17';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
