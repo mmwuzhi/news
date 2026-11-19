@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">35</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">4</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">7</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">8</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-11-19 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Thu Nov 19 2026 &middot; 35 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;llm&quot;, &quot;tokens&quot;, &quot;vibe-coding&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1258395#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Vibe Coding] 之前我说我 token 用量大一天 30 亿还有人质疑，今天破纪录了...</a></div>
+      <div class="item-title-zh">【Vibe Coding】之前我说我token用量大一天30亿还有人质疑，今天破纪录了...</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">llm · tokens · vibe-coding</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer discusses an unprecedented daily token usage record of over 3 billion, highlighting the intense scale of their current coding operations. This figure excludes supplementary data processing systems.</p>
+      <p class="summary-zh">一位开发者讨论了日均超过30亿Token的破纪录用量，凸显了当前编码任务的巨大规模。该数据尚未计入辅助数据处理系统。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;edge&quot;, &quot;moonshine&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://thedataexchange.media/pete-warden-moonshine/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Why AI Wants to Be Local – With Pete Warden (Creator of Moonshine Voice)</a></div>
+      <div class="item-title-zh">为什么AI想要本地化 - 对话Pete Warden (Moonshine Voice创作者)</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · edge · moonshine</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The discussion explores the architectural and privacy benefits of running AI models locally rather than relying on the cloud. Pete Warden highlights why edge computing is crucial for the future of voice-based AI.</p>
+      <p class="summary-zh">探讨了本地运行AI模型而非依赖云端在架构与隐私方面的优势。Pete Warden强调了边缘计算对语音AI未来的重要性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;llm&quot;, &quot;edge0&quot;, &quot;local-ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1258389#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享发现] 本地部署的大模型 Edge0</a></div>
+      <div class="item-title-zh">【分享发现】本地部署的大模型 Edge0</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">llm · edge0 · local-ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The user shares Edge0, a new foundation model capable of running natively on various devices like laptops and phones. Its efficient architecture and latent MoE technology offer cost-effective alternatives to cloud models.</p>
+      <p class="summary-zh">用户分享了Edge0，这是一种能够在笔记本和手机等多种设备上本地运行的基础模型。其高效的架构和潜在MoE技术为云端模型提供了经济实惠的替代方案。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;openai&quot;, &quot;chatgpt&quot;, &quot;speech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation" target="_blank" rel="noopener" onclick="event.stopPropagation()">ChatGPT can transcribe as you speak now with Live Dictation</a></div>
+      <div class="item-title-zh">ChatGPT现在可以通过实时听写功能边说边转录</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">openai · chatgpt · speech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">OpenAI has rolled out a Live Dictation feature for ChatGPT across web and mobile platforms. This update allows users to transcribe their speech in real-time, removing the need to wait for recordings to finish.</p>
+      <p class="summary-zh">OpenAI已在网页和移动端为ChatGPT推出了实时听写功能。此更新允许用户实时转录语音，无需等待录音结束。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;lifestyle&quot;, &quot;wellness&quot;, &quot;fitness&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/gadgets/1021241/best-fitness-wellness-gifts-2026" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Verge’s 2026 fitness and wellness gift guide</a></div>
+      <div class="item-title-zh">The Verge 2026年健身与健康礼品指南</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">lifestyle · wellness · fitness</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This guide suggests various wellness products to help individuals prioritize their health and mindfulness during the holiday season. The curated list aims to support healthy habits and new fitness hobbies.</p>
+      <p class="summary-zh">本指南推荐了各类健康产品，旨在帮助个人在假日期间优先考虑健康与正念。这份精选清单旨在支持健康习惯和新的健身爱好。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;github&quot;, &quot;opensource&quot;, &quot;accessibility&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The best things in open source are built together</a></div>
+      <div class="item-title-zh">开源领域最好的事物是共同构建的</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">GitHub Blog &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">github · opensource · accessibility</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">GitHub introduces Replica and the Open Source Accessibility Framework to foster collaboration and digital inclusion. These new initiatives aim to improve the accessibility of open-source software.</p>
+      <p class="summary-zh">GitHub 推出了 Replica 和开源可访问性框架，以促进协作与数字包容性。这些新举措旨在提高开源软件的可访问性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;dataset&quot;, &quot;vps&quot;, &quot;networking&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1258392#reply2" target="_blank" rel="noopener" onclick="event.stopPropagation()">[宽带症候群] 境外公共数据集搬运国内</a></div>
+      <div class="item-title-zh">【宽带症候群】境外公共数据集搬运国内</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">dataset · vps · networking</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user seeks an efficient, stream-based method to transfer massive public datasets from overseas to local storage. They aim to avoid local disk space waste and explore potential networking solutions.</p>
+      <p class="summary-zh">用户寻求一种高效的流式传输方法，将海量境外公共数据集搬运至国内存储。其目标是避免本地硬盘空间浪费并探索潜在的网络方案。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;macmini&quot;, &quot;setup&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1258391#reply1" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Apple] Mac mini 在客廳的使用求助</a></div>
+      <div class="item-title-zh">【Apple】关于Mac mini在客厅的使用求助</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · macmini · setup</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user is experiencing connectivity and tracking issues with their M4 Mac mini in a living room setup. They are seeking advice on wireless peripherals that can overcome 2.4GHz interference at a distance.</p>
+      <p class="summary-zh">用户在使用M4 Mac mini客厅设置时遇到了连接和追踪问题。他们正在寻求能克服2.4GHz远程干扰的无线外设方案。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;android&quot;, &quot;ui&quot;, &quot;ringtone&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1258390#reply2" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Android] 安卓手机就没办法彻底关闭视频彩铃了吗</a></div>
+      <div class="item-title-zh">【Android】安卓手机真的没办法彻底关闭视频彩铃了吗</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">android · ui · ringtone</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user expresses frustration over being unable to disable mandatory video ringtones on their Android phone. They are seeking solutions or settings to bypass this intrusive carrier feature.</p>
+      <p class="summary-zh">用户对无法关闭安卓手机上的强制视频彩铃表示不满。他们正在寻找绕过这一干扰性运营商功能的方案或设置。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;silicon-valley&quot;, &quot;politics&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/podcast/1036484/jon-favreau-pod-save-america-offline-crooked-media-trump-big-tech-ai-2028-election" target="_blank" rel="noopener" onclick="event.stopPropagation()">How Silicon Valley lost the public, with Crooked Media’s Jon Favreau</a></div>
+      <div class="item-title-zh">硅谷是如何失去公众信任的 - 对话Crooked Media的Jon Favreau</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">silicon-valley · politics · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Jon Favreau discusses the shifting perception of Silicon Valley in the public eye. The conversation touches on how political and technological trends have alienated tech leaders from everyday citizens.</p>
+      <p class="summary-zh">Jon Favreau讨论了公众眼中硅谷形象的变化。对话探讨了政治和技术趋势如何导致科技领袖与普通公民之间的隔阂。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;gaming&quot;, &quot;analogue&quot;, &quot;firmware&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://lastbook.org/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Everything you need to survive and rebuild society</a></div>
+      <div class="item-title-zh">Analogue 3D现在可以通过Wi-Fi自行更新</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">gaming · analogue · firmware</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Analogue 3D console has received an update enabling firmware installation via Wi-Fi. This eliminates the need for manual file transfers, simplifying the user experience for retro gamers.</p>
+      <p class="summary-zh">Analogue 3D主机获得更新，支持通过Wi-Fi安装固件。这消除了手动传输文件的需求，简化了复古游戏玩家的操作体验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;matrix&quot;, &quot;enterprise&quot;, &quot;opensource&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/" target="_blank" rel="noopener" onclick="event.stopPropagation()">What a billion-dollar deal says about the US battery market</a></div>
+      <div class="item-title-zh">欧盟委员会如何向超过4万名员工推广Matrix</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">MIT Tech Review &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">matrix · enterprise · opensource</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The European Commission’s rollout of the Matrix communication platform serves as a case study for secure, decentralized enterprise messaging. It highlights the challenges and successes of large-scale open-source adoption.</p>
+      <p class="summary-zh">欧盟委员会推广Matrix通信平台的过程，可作为安全、去中心化企业消息传递的案例研究。它强调了大规模采用开源技术的挑战与成功经验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;klic&quot;, &quot;earnings&quot;, &quot;semiconductor&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4970140-kulicke-and-soffa-industries-inc-klic-q4-2026-earnings-call-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Kulicke and Soffa Industries, Inc. (KLIC) Q4 2026 Earnings Call Transcript</a></div>
+      <div class="item-title-zh">Kulicke and Soffa Industries, Inc. (KLIC) 2026年第四季度财报电话会议实录</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">klic · earnings · semiconductor</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This report covers the financial performance and strategic outlook for Kulicke and Soffa Industries in Q4 2026. Analysts and company executives discussed key market drivers and operational results during the call.</p>
+      <p class="summary-zh">本报告涵盖了库力索法工业2026年第四季度的财务表现及战略展望。分析师与公司高管在电话会议中讨论了关键市场驱动因素及经营成果。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;futu&quot;, &quot;fintech&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4970151-futu-holdings-limited-futu-q3-2026-earnings-call-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Futu Holdings Limited (FUTU) Q3 2026 Earnings Call Transcript</a></div>
+      <div class="item-title-zh">富途控股有限公司 (FUTU) 2026年第三季度财报电话会议实录</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">futu · fintech · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Futu Holdings presented its Q3 2026 earnings, detailing user growth and platform engagement metrics. The call highlighted the company&#x27;s expansion strategies in competitive financial markets.</p>
+      <p class="summary-zh">富途控股公布了2026年第三季度财报，详细说明了用户增长及平台参与度指标。会议强调了该公司在竞争激烈的金融市场中的扩张战略。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;mining&quot;, &quot;gold&quot;, &quot;investor&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4970200-sunday-lake-gold-corp-sndy-ca-presents-at-swiss-mining-institutes-smi-conference-zurich?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sunday Lake Gold Corp. (SNDY:CA) Presents at Swiss Mining Institutes (SMI) Conference - Zurich - Slideshow</a></div>
+      <div class="item-title-zh">Sunday Lake Gold Corp. (SNDY:CA) 在瑞士矿业学会 (SMI) 会议上的演示 - 苏黎世 - 幻灯片</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">mining · gold · investor</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Sunday Lake Gold Corp. showcased its current mining projects and growth potential at the SMI conference in Zurich. The presentation provided investors with detailed geological data and development timelines.</p>
+      <p class="summary-zh">Sunday Lake Gold Corp. 在苏黎世SMI会议上展示了其矿业项目及增长潜力。演示为投资者提供了详细的地质数据和开发时间表。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;tnet&quot;, &quot;hr&quot;, &quot;investing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4970197-trinet-group-inc-tnet-presents-at-j-p-morgan-ultimate-services-investor-conference-2026?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">TriNet Group, Inc. (TNET) Presents at J.P. Morgan Ultimate Services Investor Conference 2026 Transcript</a></div>
+      <div class="item-title-zh">TriNet Group, Inc. (TNET) 在摩根大通2026年终极服务投资者会议上的演讲实录</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">tnet · hr · investing</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">TriNet Group executives detailed their service offerings and market strategy at a major investor conference. The discussion focused on sustainable growth and human resources solutions.</p>
+      <p class="summary-zh">TriNet Group高管在大型投资者会议上详细介绍了其服务内容及市场战略。讨论重点关注可持续增长和人力资源解决方案。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;tmo&quot;, &quot;science&quot;, &quot;biotech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4970159-thermo-fisher-scientific-inc-tmo-presents-at-ubs-2026-ceo-call-series-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Thermo Fisher Scientific Inc. (TMO) Presents at UBS 2026 CEO Call Series Transcript</a></div>
+      <div class="item-title-zh">赛默飞世尔科技 (TMO) 在瑞银2026年CEO系列电话会议上的演讲实录</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">tmo · science · biotech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Thermo Fisher Scientific discussed its long-term vision and innovation pipeline during a CEO investor call. The talk emphasized the company&#x27;s role in advancing scientific research globally.</p>
+      <p class="summary-zh">赛默飞世尔科技在CEO投资者电话会议中讨论了其长期愿景和创新管线。交流强调了该公司在全球推进科学研究中的角色。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;anthropic&quot;, &quot;ipo&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/can-anthropics-ipo-do-for-the-stock-market-what-nvidias-earnings-couldnt-be67a434?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Can Anthropic’s IPO do for the stock market what Nvidia’s earnings couldn’t?</a></div>
+      <div class="item-title-zh">Anthropic的IPO能为股市带来英伟达没能实现的效果吗？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">anthropic · ipo · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Market analysts discuss the potential impact of Anthropic’s IPO on the broader stock market. The article also touches on the prospects of energy stocks and the outlook for gaming companies.</p>
+      <p class="summary-zh">市场分析师讨论了Anthropic的IPO对整体股市的潜在影响。文章还涉及了能源股的前景以及游戏公司的展望。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;realestate&quot;, &quot;economy&quot;, &quot;mortgage&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">‘Buyers are out for blood’ as housing market finally hits rock bottom</a></div>
+      <div class="item-title-zh">随着住房市场终于触底，“买家正伺机而动”</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">realestate · economy · mortgage</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Real estate agents report that buyers are regaining leverage as the housing market hits its bottom. High prices and mortgage rates are changing the dynamics of current home sales.</p>
+      <p class="summary-zh">房地产中介称，随着住房市场触底，买方正重新获得议价权。高昂的价格和抵押贷款利率正在改变当前的房屋销售动态。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="FINA" data-tags="[&quot;anthropic&quot;, &quot;ipo&quot;, &quot;ai-safety&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/tech/1037552/analogue-3d-nintendo-64-console-wi-fi-activated-automatic-updates" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Analogue 3D can now update itself over Wi-Fi</a></div>
+      <div class="item-title-zh">随着史上最大IPO的到来，Anthropic的“好人”名声岌岌可危</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">anthropic · ipo · ai-safety</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Anthropic is undergoing a massive IPO that challenges its reputation for prioritizing safety over profits. Investors and observers are watching closely to see if the company remains committed to its original mission.</p>
+      <p class="summary-zh">Anthropic正在进行一场大规模的IPO，这对它将安全置于利润之上的名声提出了挑战。投资者和观察家正密切关注该公司是否仍致力于其最初的使命。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;energy&quot;, &quot;climate&quot;, &quot;iea&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://maccus.fr/en/cooling-overtaking-heating/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Cooling buildings is overtaking heating them as an energy need, IEA says</a></div>
+      <div class="item-title-zh">国际能源署：制冷建筑的能源需求正在超过供暖</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">energy · climate · iea</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">New data from the IEA suggests that cooling needs for buildings are rising globally, outpacing traditional heating requirements. This shift poses new challenges for energy infrastructure and climate policy.</p>
+      <p class="summary-zh">国际能源署的新数据显示，全球建筑的制冷需求正在上升，超过了传统的供暖需求。这种转变对能源基础设施和气候政策提出了新挑战。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;biotech&quot;, &quot;ai&quot;, &quot;battery&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Venezuela signs military deal with US less than a year after Maduro&#x27;s removal</a></div>
+      <div class="item-title-zh">下载：活肝脏、十亿美元电池交易和AI炒作</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">BBC &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biotech · ai · battery</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This newsletter covers major updates in science and tech, including a medical breakthrough with a living liver. It also explores major financial deals in the battery industry and ongoing AI hype.</p>
+      <p class="summary-zh">本简报涵盖了科技领域的重大更新，包括活肝脏的医学突破。同时也探讨了电池行业的巨额交易和持续的AI炒作。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;biology&quot;, &quot;medical&quot;, &quot;transplant&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Putin vows &#x27;far more painful&#x27; response to Ukraine&#x27;s strikes on Crimean Bridge</a></div>
+      <div class="item-title-zh">人类肝脏在体外存活了创纪录的七周</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">BBC &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biology · medical · transplant</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers have successfully maintained a human liver outside the body for seven weeks using life support technology. This breakthrough offers new potential for transplant medicine and tissue engineering.</p>
+      <p class="summary-zh">研究人员利用生命支持技术成功让一个人体肝脏在体外存活了七周。这一突破为移植医学和组织工程带来了新可能。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;london&quot;, &quot;pollution&quot;, &quot;health&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/" target="_blank" rel="noopener" onclick="event.stopPropagation()">A human liver has been kept alive outside the body for a record seven weeks</a></div>
+      <div class="item-title-zh">伦敦餐饮时间的烹饪污染主导了空气质量</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">london · pollution · health</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Scientific analysis reveals that kitchen emissions are the primary source of air pollution in London during meal times. These findings highlight the impact of indoor activities on urban air quality.</p>
+      <p class="summary-zh">科学分析显示，厨房排放是伦敦用餐时间空气污染的主要来源。这些发现强调了室内活动对城市空气质量的影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;photography&quot;, &quot;marine&quot;, &quot;nature&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/119191" target="_blank" rel="noopener" onclick="event.stopPropagation()">给 Apple 的 2026 年打分，请你一起参与</a></div>
+      <div class="item-title-zh">海洋摄影大赛：一张瓷蟹的超凡图片获得冠军</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">少数派 &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">photography · marine · nature</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A stunning photograph of a porcelain crab has secured first place in the Oceania Photo Contest. The competition also honored several other images showcasing marine life diversity.</p>
+      <p class="summary-zh">一张令人惊叹的瓷蟹摄影作品获得了大洋洲摄影大赛的冠军。比赛还表彰了其他展示海洋生物多样性的影像作品。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="SCI" data-tags="[&quot;books&quot;, &quot;science&quot;, &quot;reading&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/119287" target="_blank" rel="noopener" onclick="event.stopPropagation()">新玩意 256｜少数派的编辑们最近买了啥？</a></div>
+      <div class="item-title-zh">2026年28本最佳科普读物</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">少数派 &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">books · science · reading</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This list compiles the top popular science books of 2026, covering topics ranging from space-time to wellness. These selections offer engaging insights into complex scientific concepts for general readers.</p>
+      <p class="summary-zh">这份清单汇总了2026年最出色的科普书籍，涵盖了从时空到健康的各个领域。这些精选读物为大众读者提供了深入浅出的科学见解。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="SCI" data-tags="[&quot;coral&quot;, &quot;ocean&quot;, &quot;research&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/prime/story/system-app-protection-override-macos-27-3" target="_blank" rel="noopener" onclick="event.stopPropagation()">有必要但欠平衡：浅评 macOS 27.3 新版权限控制机制</a></div>
+      <div class="item-title-zh">水下航行员如何帮助拯救佛罗里达的珊瑚礁</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">少数派 &middot; 8h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">coral · ocean · research</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Scientists are using subsea research stations to monitor Florida’s coral reefs in real-time. This project aims to combat thermal stress and provide critical data for long-term restoration efforts.</p>
+      <p class="summary-zh">科学家正利用水下研究站实时监测佛罗里达的珊瑚礁。该项目旨在对抗热应力，并为长期的恢复工作提供关键数据。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;outage&quot;, &quot;preparedness&quot;, &quot;economy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/why-are-these-tech-outages-rattling-americans-so-much-that-theyre-stockpiling-cash-and-supplies-07516bdd?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Tech outages are rattling Americans so much that they’re stockpiling cash and supplies</a></div>
+      <div class="item-title-zh">技术中断让美国人感到不安，他们开始储备现金和物资</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">outage · preparedness · economy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Concerns over frequent technology outages and a lack of clear communication from leaders are causing panic among the public. Consequently, some Americans are stockpiling essential supplies and cash in preparation for potential crises.</p>
+      <p class="summary-zh">对频繁技术故障的担忧以及领导层缺乏清晰沟通，正引发公众恐慌。因此，一些美国人开始储备必需物资和现金，以应对潜在危机。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;migration&quot;, &quot;senegal&quot;, &quot;tragedy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Dozens missing after boat carrying migrants sinks off Senegal&#x27;s coast</a></div>
+      <div class="item-title-zh">一艘载有移民的船在塞内加尔海岸沉没，数十人失踪</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">migration · senegal · tragedy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A tragic maritime accident off the coast of Senegal has left dozens missing after a migrant boat sank. Authorities have recovered four bodies, and search operations are currently underway.</p>
+      <p class="summary-zh">塞内加尔海岸发生一起悲惨海难，一艘移民船沉没导致数十人失踪。当局已寻获四具遗体，搜救工作正在进行中。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;diplomacy&quot;, &quot;summit&quot;, &quot;geopolitics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Trump, Putin and Xi release &#x27;peace declaration&#x27; after historic meeting</a></div>
+      <div class="item-title-zh">特朗普、普京和习近平在历史性会晤后发布“和平宣言”</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">diplomacy · summit · geopolitics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The leaders of the US, Russia, and China have concluded their first-ever trilateral meeting. The summit resulted in the release of a peace declaration, marking a significant shift in international diplomacy.</p>
+      <p class="summary-zh">美中俄三国领导人结束了首次三边会晤。峰会发布了一份和平宣言，标志着国际外交格局的重大转变。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;politics&quot;, &quot;usa&quot;, &quot;infrastructure&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/washington-is-scrambling-to-get-to-the-bottom-of-the-growing-number-of-tech-outages-across-america-66fbf299?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Trump says Americans should ‘relax’ as Washington scrambles to get to the bottom of outages</a></div>
+      <div class="item-title-zh">特朗普称美国人应该“放松”，华盛顿正努力查清故障原因</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">politics · usa · infrastructure</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Trump administration is coordinating with Congress to investigate the recent wave of technology failures across the U.S. Officials are urging the public to stay calm while the government assesses the situation.</p>
+      <p class="summary-zh">特朗普政府正在与国会协调，调查最近美国境内的一系列技术故障。官方呼吁公众在政府评估局势期间保持冷静。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;survival&quot;, &quot;resilience&quot;, &quot;society&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Why Micron, Intel and other AI stocks are getting a lift on Thursday</a></div>
+      <div class="item-title-zh">生存与重建社会的指南</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">survival · resilience · society</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This discussion covers the essential knowledge and tools required to maintain or rebuild society during catastrophic scenarios. It serves as a repository for survivalism and long-term societal resilience.</p>
+      <p class="summary-zh">此次讨论涵盖了在灾难场景下维持或重建社会所需的基本知识和工具。该内容作为生存主义和长期社会韧性的知识库。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="33" data-cat="WORLD" data-tags="[&quot;venezuela&quot;, &quot;usa&quot;, &quot;geopolitics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">33</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure" target="_blank" rel="noopener" onclick="event.stopPropagation()">With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line</a></div>
+      <div class="item-title-zh">委内瑞拉在马杜罗被免职不到一年后与美国签署军事协议</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="33" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="33" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">venezuela · usa · geopolitics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Following significant political changes, Venezuela has signed a security agreement with the US. This marks a historic turnaround in relations between the two countries.</p>
+      <p class="summary-zh">在经历了重大的政治变动后，委内瑞拉与美国签署了一项安全协议。这标志着两国关系的历史性转折。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="34" data-cat="WORLD" data-tags="[&quot;russia&quot;, &quot;ukraine&quot;, &quot;conflict&quot;]">
+  <div class="item-row">
+    <span class="item-idx">34</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: a living liver, a billion-dollar battery deal, and AI hype</a></div>
+      <div class="item-title-zh">普京誓言对乌克兰袭击克里米亚大桥采取“更加痛苦”的报复</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MIT Tech Review &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="34" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="34" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">russia · ukraine · conflict</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Russian officials have condemned the recent strike on the Crimean Bridge and promised a severe response. Tensions continue to escalate as both nations engage in strategic attacks.</p>
+      <p class="summary-zh">俄罗斯官员谴责了近期对克里米亚大桥的袭击，并承诺采取严厉报复。随着两国进行战略性攻击，局势持续升级。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="35" data-cat="WORLD" data-tags="[&quot;hiking&quot;, &quot;travel&quot;, &quot;guide&quot;]">
+  <div class="item-row">
+    <span class="item-idx">35</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2599340-how-aquanauts-could-help-save-floridas-reefs/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">How aquanauts could help save Florida’s reefs</a></div>
+      <div class="item-title-zh">徒步旅行指南 | 玉龙虎跳峡与天堂雨崩</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">New Scientist &middot; 10h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="35" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="35" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">hiking · travel · guide</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A guide for hikers exploring the scenic trails of Tiger Leaping Gorge and Yubeng. It offers practical advice for travelers seeking authentic trekking experiences in China&#x27;s mountain regions.</p>
+      <p class="summary-zh">一份针对徒步者探索虎跳峡与雨崩景区的指南。它为寻求中国山区真实徒步体验的旅行者提供了实用建议。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-11-18.html">2026-11-18</a>
+<a class="archive-date" href="/archive/2026-11-17.html">2026-11-17</a>
+<a class="archive-date" href="/archive/2026-11-16.html">2026-11-16</a>
+<a class="archive-date" href="/archive/2026-11-15.html">2026-11-15</a>
+<a class="archive-date" href="/archive/2026-11-14.html">2026-11-14</a>
+<a class="archive-date" href="/archive/2026-11-13.html">2026-11-13</a>
+<a class="archive-date" href="/archive/2026-11-12.html">2026-11-12</a>
+<a class="archive-date" href="/archive/2026-11-11.html">2026-11-11</a>
+<a class="archive-date" href="/archive/2026-11-10.html">2026-11-10</a>
+<a class="archive-date" href="/archive/2026-11-09.html">2026-11-09</a>
+<a class="archive-date" href="/archive/2026-11-08.html">2026-11-08</a>
+<a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">35 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">16:20 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-11-18.html">2026-11-18</a>
+<a class="archive-date" href="/archive/2026-11-17.html">2026-11-17</a>
+<a class="archive-date" href="/archive/2026-11-16.html">2026-11-16</a>
+<a class="archive-date" href="/archive/2026-11-15.html">2026-11-15</a>
+<a class="archive-date" href="/archive/2026-11-14.html">2026-11-14</a>
+<a class="archive-date" href="/archive/2026-11-13.html">2026-11-13</a>
+<a class="archive-date" href="/archive/2026-11-12.html">2026-11-12</a>
+<a class="archive-date" href="/archive/2026-11-11.html">2026-11-11</a>
+<a class="archive-date" href="/archive/2026-11-10.html">2026-11-10</a>
+<a class="archive-date" href="/archive/2026-11-09.html">2026-11-09</a>
+<a class="archive-date" href="/archive/2026-11-08.html">2026-11-08</a>
+<a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+<a class="archive-date" href="/archive/2026-11-05.html">2026-11-05</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-11-19';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
