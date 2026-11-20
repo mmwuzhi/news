@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">35</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">5</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">6</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">8</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-11-20 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Fri Nov 20 2026 &middot; 35 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;anthropic&quot;, &quot;ipo&quot;, &quot;stocks&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Anthropic’s stock slides closer to IPO price and drags down the AI trade</a></div>
+      <div class="item-title-zh">Anthropic 股价跌至 IPO 发行价附近，拖累人工智能板块</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">anthropic · ipo · stocks</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Anthropic&#x27;s stock has struggled to maintain its initial offering price, negatively impacting broader tech market sentiment. Investors worry that this weakness signals broader instability in the AI sector.</p>
+      <p class="summary-zh">Anthropic 的股价难以维持在发行价水平，对整个科技市场情绪产生了负面影响。投资者担心这种疲软预示着 AI 板块的广泛不稳定。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;ios&quot;, &quot;app&quot;, &quot;design&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1258670#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Apple] 最近 iOS 左右划卡清理相册的 App 爆发了，好多 AI 粗制滥造产物啊</a></div>
+      <div class="item-title-zh">最近 iOS 左右划卡清理相册的 App 爆发了，好多 AI 粗制滥造产物啊</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ios · app · design</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">There has been a surge in low-quality iOS photo-cleaning apps that utilize AI, often with repetitive designs and poor functionality. The author notes that design and aesthetics are becoming rare in the AI era.</p>
+      <p class="summary-zh">近期市面上涌现大量使用 AI 的劣质 iOS 相册清理应用，设计重复且功能不佳。作者感叹在 AI 时代，设计和审美正变得稀缺。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;math&quot;, &quot;ai&quot;, &quot;riemann&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2600134-anthropic-mathematician-claims-ai-assisted-proof-of-the-riemann-hypothesis/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Anthropic mathematician claims AI-assisted proof of the Riemann hypothesis</a></div>
+      <div class="item-title-zh">Anthropic 数学家声称利用人工智能证明了黎曼猜想</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">New Scientist &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">math · ai · riemann</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A mathematician at Anthropic claims to have solved the long-standing Riemann hypothesis using AI assistance. The mathematical community is now vetting this major potential breakthrough.</p>
+      <p class="summary-zh">一位 Anthropic 的数学家声称在 AI 的辅助下解决了困扰数学界已久的黎曼猜想。数学界目前正在验证这一潜在的重大突破。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;math&quot;, &quot;research&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://alpo.ge/remark.pdf" target="_blank" rel="noopener" onclick="event.stopPropagation()">Anthropic employee claims general proof of the Riemann Hypothesis [pdf]</a></div>
+      <div class="item-title-zh">Anthropic 员工声称对黎曼假设给出了通证</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · math · research</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">An employee at Anthropic has published a paper claiming a general proof of the Riemann hypothesis. The online community is scrutinizing the document for mathematical rigor.</p>
+      <p class="summary-zh">一名 Anthropic 员工发表了一篇论文，声称给出了黎曼假设的通用证明。在线社区正在审阅该文档的数学严谨性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="AI" data-tags="[&quot;cpu&quot;, &quot;ai&quot;, &quot;hardware&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://architectlabs.com/blog/frostbite" target="_blank" rel="noopener" onclick="event.stopPropagation()">Frostbite: A new CPU architecture discovered, designed and verified by AI</a></div>
+      <div class="item-title-zh">Frostbite：一种由 AI 设计、发现并验证的全新 CPU 架构</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">cpu · ai · hardware</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new CPU architecture called Frostbite has been created entirely through AI processes. This marks a milestone in using machine learning for high-level hardware design.</p>
+      <p class="summary-zh">一种名为 Frostbite 的全新 CPU 架构完全通过 AI 流程创建。这标志着利用机器学习进行高水平硬件设计的重要里程碑。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;gaming&quot;, &quot;gta6&quot;, &quot;rockstar&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/entertainment/1037545/gta-6-discussion" target="_blank" rel="noopener" onclick="event.stopPropagation()">Let’s talk about GTA VI</a></div>
+      <div class="item-title-zh">谈谈 GTA VI</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">gaming · gta6 · rockstar</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Grand Theft Auto VI has finally launched, ending a thirteen-year wait for a new installment. The article invites discussion on the features and scale of Rockstar&#x27;s latest open-world title.</p>
+      <p class="summary-zh">《侠盗猎车手 6》终于发布，结束了长达 13 年的等待。文章邀请读者讨论这款 Rockstar 最新开放世界游戏的特色与规模。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;ev&quot;, &quot;cars&quot;, &quot;secondhand&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1258667#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享发现] 求教，如何购买一台二手新能源车。</a></div>
+      <div class="item-title-zh">求教，如何购买一台二手新能源车</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ev · cars · secondhand</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user is seeking advice on how to purchase a second-hand new energy vehicle for city commuting in Wuhan. They are looking for tips on what to look for when buying used electric cars.</p>
+      <p class="summary-zh">一位用户在武汉咨询购买二手新能源汽车的建议。希望获得关于购买二手电动车时的注意事项和选购技巧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;coding&quot;, &quot;mahjong&quot;, &quot;wechat&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1258666#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享发现] 分享自己写的小程序 - 麻将学习助手</a></div>
+      <div class="item-title-zh">分享自己写的小程序 - 麻将学习助手</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">coding · mahjong · wechat</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A developer created a Mahjong learning mini-program using Vibe coding to improve their gameplay. They are now sharing it with the community for feedback and improvement.</p>
+      <p class="summary-zh">一位开发者利用 Vibe coding 编写了一个麻将学习小程序，成功提升了游戏水平。现与社区分享，希望听取反馈和改进建议。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;outage&quot;, &quot;tech&quot;, &quot;infrastructure&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast" target="_blank" rel="noopener" onclick="event.stopPropagation()">The week everything fell apart</a></div>
+      <div class="item-title-zh">一切崩溃的一周</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">outage · tech · infrastructure</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A wave of major technological outages, including Outlook and iCloud, caused widespread disruption throughout the week. The article reflects on the fragility of our modern digital infrastructure.</p>
+      <p class="summary-zh">本周发生的一系列重大技术故障（如 Outlook 和 iCloud）导致了广泛干扰。文章反思了现代数字基础设施的脆弱性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;signal&quot;, &quot;privacy&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app" target="_blank" rel="noopener" onclick="event.stopPropagation()">Signal is blocking Gemini and Siri AI from reading your screen</a></div>
+      <div class="item-title-zh">Signal 正在阻止 Gemini 和 Siri AI 读取你的屏幕</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">signal · privacy · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Signal is restricting screenshot capabilities on mobile devices to protect user privacy from OS-level AI agents. The company argues that agentic AI features undermine its core security promises.</p>
+      <p class="summary-zh">Signal 正在限制移动设备的屏幕截图功能，以防止操作系统级别的 AI 代理读取用户隐私。公司认为代理式 AI 功能削弱了其核心安全承诺。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;autonomous&quot;, &quot;uber&quot;, &quot;waymo&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/transportation/1037667/waymo-serve-robotics-ditch-uber-autonomous-partnerships" target="_blank" rel="noopener" onclick="event.stopPropagation()">Why the robots are ditching Uber</a></div>
+      <div class="item-title-zh">为什么机器人正在抛弃 Uber</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">autonomous · uber · waymo</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The autonomous driving industry is seeing a shift in strategies as companies re-evaluate their partnerships with ride-sharing platforms. Waymo and other leaders are focusing on their own operational models.</p>
+      <p class="summary-zh">随着各公司重新评估与网约车平台的合作关系，自动驾驶行业的策略正在发生转变。Waymo 等领先企业正专注于自身的运营模式。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="TECH" data-tags="[&quot;movies&quot;, &quot;media&quot;, &quot;review&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/119337" target="_blank" rel="noopener" onclick="event.stopPropagation()">本周看什么 | 最近值得一看的 10 部作品</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">少数派 &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">movies · media · review</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article curates ten noteworthy movies and series, including the sequel to Once Upon a Time in Hollywood. It provides a guide for content to watch in the coming week.</p>
+      <p class="summary-zh">本文精选了十部值得观看的电影和剧集，包括《好莱坞往事》续集。为读者下周的观影计划提供了指南。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="TECH" data-tags="[&quot;gaming&quot;, &quot;gta6&quot;, &quot;review&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/119327" target="_blank" rel="noopener" onclick="event.stopPropagation()">游戏史最高分，不负 13 年的等待：《GTA 6》游玩体验</a></div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">少数派 &middot; 8h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">gaming · gta6 · review</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A review of GTA VI praises the game as the culmination of 13 years of development. The article highlights its record-breaking quality and immersive open-world experience.</p>
+      <p class="summary-zh">这是一篇对《GTA 6》的评测，称其为 13 年开发周期的结晶。文章重点赞扬了其创纪录的质量和沉浸式的开放世界体验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;stocks&quot;, &quot;finance&quot;, &quot;fbbancorp&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4970609-fb-bancorp-rally-makes-no-sense?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">FB Bancorp&#x27;s Rally Makes No Sense</a></div>
+      <div class="item-title-zh">FB Bancorp 的反弹毫无道理</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">stocks · finance · fbbancorp</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article questions the logic behind the recent stock rally of FB Bancorp. It suggests that the market move lacks fundamental justification.</p>
+      <p class="summary-zh">文章质疑了 FB Bancorp 近期股价反弹的合理性。作者认为这一市场走势缺乏基本面支撑。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;intel&quot;, &quot;hp&quot;, &quot;tech&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4970608-hp-inc-vs-hp-enterprise-what-intel-earnings-stumble-portends?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">HP Inc. Vs. HP Enterprise: What Intel&#x27;s Earnings Stumble Portends</a></div>
+      <div class="item-title-zh">HP Inc. 与 HP Enterprise：英特尔收益受挫带来的启示</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">intel · hp · tech</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The piece analyzes how Intel&#x27;s recent financial struggles might impact HP Inc. and HP Enterprise. It looks at the interconnected nature of these major tech hardware firms.</p>
+      <p class="summary-zh">文章分析了英特尔近期的财务困境可能如何影响惠普及其企业业务。探讨了这些大型科技硬件公司之间的关联性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;earnings&quot;, &quot;fufu&quot;, &quot;crypto&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4970596-bitfufu-inc-fufu-q3-2026-earnings-call-prepared-remarks-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">BitFuFu Inc. (FUFU) Q3 2026 Earnings Call Prepared Remarks Transcript</a></div>
+      <div class="item-title-zh">BitFuFu Inc. (FUFU) 2026 年第三季度财报电话会议准备文稿</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">earnings · fufu · crypto</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This transcript outlines the financial performance and strategic outlook for BitFuFu during the third quarter of 2026. It highlights the company&#x27;s operational status and revenue trends.</p>
+      <p class="summary-zh">该文稿概述了 BitFuFu 在 2026 年第三季度的财务表现和战略展望。重点介绍了公司的运营状况和收入趋势。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;nvidia&quot;, &quot;stocks&quot;, &quot;market&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Nvidia’s stock heads for a stretch of weekly losses unseen since 2008</a></div>
+      <div class="item-title-zh">英伟达股价面临自 2008 年以来未见的连跌行情</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · stocks · market</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Nvidia is experiencing a prolonged period of weekly losses, leading analysts to warn of potential further sell-offs. The company has seen a significant evaporation of market value over the past week.</p>
+      <p class="summary-zh">英伟达正经历罕见的连续周跌势，分析师警告称可能还会持续抛售。该公司在过去一周内市值大幅缩水。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;metals&quot;, &quot;commodities&quot;, &quot;trading&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4970604-metals-sell-off-runs-ahead-physical-markets?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Metals Sell-Off Runs Ahead Of Physical Markets</a></div>
+      <div class="item-title-zh">金属市场抛售领先于实体市场</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">metals · commodities · trading</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article discusses the divergence between the current sell-off in metal commodities and the realities of physical market demand. It suggests market sentiment may be decoupling from supply chain fundamentals.</p>
+      <p class="summary-zh">文章探讨了金属商品抛售潮与实体市场供需需求之间的背离。暗示市场情绪可能正在脱离供应链基本面。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;investing&quot;, &quot;stocks&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/this-closely-watched-guru-just-sold-everything-474b4389?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">This closely watched investing guru just sold all of his stocks</a></div>
+      <div class="item-title-zh">这位备受瞩目的投资大师刚刚清仓了他的股票</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">investing · stocks · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Market strategist Joachim Klement has shifted his portfolio to 0% stocks after years of full investment. This drastic move is drawing significant attention from the investment community.</p>
+      <p class="summary-zh">市场策略师 Joachim Klement 在保持多年全仓持有股票后，清空了他的投资组合。这一剧烈转变引发了投资界的广泛关注。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="SCI" data-tags="[&quot;biotech&quot;, &quot;pharma&quot;, &quot;clinicaltrial&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4970620-bausch-lomb-corporation-blco-discusses-phase-ii-results-for-bl1332-in-ocular-surface-pain?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Bausch + Lomb Corporation (BLCO) Discusses Phase II Results for BL1332 in Ocular Surface Pain Transcript</a></div>
+      <div class="item-title-zh">博士伦公司讨论 BL1332 治疗眼表疼痛的二期临床结果</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">biotech · pharma · clinicaltrial</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Bausch + Lomb released the transcript regarding phase II trial results for their ocular surface pain medication, BL1332. The data provides insights into the drug&#x27;s efficacy and future development.</p>
+      <p class="summary-zh">博士伦公司发布了关于其眼表疼痛药物 BL1332 二期临床试验结果的纪要。数据为该药物的疗效及后续研发提供了参考。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;heart&quot;, &quot;wellness&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1258669#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[生活] 今天是全国心梗救治日，26 号是全国心力衰竭日</a></div>
+      <div class="item-title-zh">今天是全国心梗救治日，26 号是全国心力衰竭日</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · heart · wellness</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author highlights the importance of heart health awareness, particularly for programmers who are at high risk. They provide resources and guides for responding to potential heart emergencies.</p>
+      <p class="summary-zh">作者强调了心脏健康意识的重要性，特别是针对高风险的程序员群体。文中还提供了心脏急救的科普资源和应对指南。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;health&quot;, &quot;weightloss&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/heres-whats-been-proven-to-help-glp-1-users-who-have-lost-muscle-from-the-drug-2c71cdbf?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">Here’s what’s been proven to help GLP-1 users from losing too much muscle from the drug</a></div>
+      <div class="item-title-zh">GLP-1 用户如何防止过度流失肌肉的科学方法</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">health · weightloss · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new study reveals that GLP-1 drug users, such as those on Zepbound, can maintain muscle mass through consistent resistance training. Strength gains are achievable despite the weight loss associated with the medication.</p>
+      <p class="summary-zh">一项新研究表明，使用 Zepbound 等 GLP-1 药物的患者可以通过持续的抗阻训练来维持肌肉量。尽管药物会减重，但仍能提升力量。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;math&quot;, &quot;research&quot;, &quot;riemann&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1258665#reply3" target="_blank" rel="noopener" onclick="event.stopPropagation()">[Claude] 黎曼猜想被证明了？</a></div>
+      <div class="item-title-zh">Claude：黎曼猜想被证明了？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">math · research · riemann</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A document discussing a potential proof of the Riemann hypothesis has surfaced online. The community is debating the authenticity and implications of this complex mathematical claim.</p>
+      <p class="summary-zh">一份探讨黎曼猜想证明的文章出现在网络上。社区成员正就该复杂数学命题的真实性及影响进行热烈讨论。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;ai&quot;, &quot;immortality&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: inside the quest to make our minds immortal</a></div>
+      <div class="item-title-zh">下载：探寻永生心智之路</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · ai · immortality</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Scientists are exploring technologies aimed at preserving human consciousness beyond the biological lifespan. The newsletter discusses the current progress and philosophical questions surrounding digital immortality.</p>
+      <p class="summary-zh">科学家们正在探索旨在将人类意识延续至生物寿命之外的技术。本简讯讨论了数字永生当前的进展及相关的哲学问题。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;archaeology&quot;, &quot;history&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2599953-unexpected-stone-tools-from-israel-raise-questions-about-cultural-evolution/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Unexpected stone tools from Israel raise questions about cultural evolution</a></div>
+      <div class="item-title-zh">以色列出土的石器引发了关于文化演变的问题</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">archaeology · history · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Archaeologists discovered ancient stone blades in Israel dating back 100,000 years earlier than expected. This suggests that technological adoption was not immediate and followed complex cultural paths.</p>
+      <p class="summary-zh">考古学家在以色列发现了比预期早 10 万年的古代石刀。这表明技术演进并非即刻发生，而是遵循了复杂的文化轨迹。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="SCI" data-tags="[&quot;scifi&quot;, &quot;literature&quot;, &quot;writing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2599932-dark-eden-author-chris-beckett-on-how-sci-fi-needs-surface-plausibility/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Dark Eden author Chris Beckett on how sci-fi needs ‘surface plausibility’</a></div>
+      <div class="item-title-zh">《黑暗伊甸园》作者 Chris Beckett 谈科幻小说如何需要“表面合理性”</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">scifi · literature · writing</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Author Chris Beckett explains the importance of &#x27;surface plausibility&#x27; in writing compelling science fiction. He discusses the craft behind his award-winning literary works.</p>
+      <p class="summary-zh">作家 Chris Beckett 解释了在创作引人入胜的科幻小说时，“表面合理性”的重要性。他探讨了其获奖作品背后的创作技巧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="SCI" data-tags="[&quot;learning&quot;, &quot;communication&quot;, &quot;philosophy&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it" target="_blank" rel="noopener" onclick="event.stopPropagation()">If you can&#x27;t explain something in simple terms, you don&#x27;t understand it (2017)</a></div>
+      <div class="item-title-zh">如果不能简单地解释一件事，你就没理解它 (2017)</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">Hacker News &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">learning · communication · philosophy</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The article emphasizes that true understanding is demonstrated by the ability to explain complex concepts in simple terms. This timeless philosophy remains crucial for effective communication.</p>
+      <p class="summary-zh">文章强调，对复杂概念的简单解释是真正理解的表现。这一永恒的哲学对于有效沟通依然至关重要。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;politics&quot;, &quot;economy&quot;, &quot;socialsecurity&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/this-proposed-social-security-fix-could-add-trillions-to-the-national-debt-17197e91?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">This proposed Social Security fix could add trillions to the national debt</a></div>
+      <div class="item-title-zh">这项拟议的社保改革可能使国家债务增加数万亿美元</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">MarketWatch &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">politics · economy · socialsecurity</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new proposal by a Republican senator aims to modify Social Security, but critics warn of massive increases to the national debt. The &#x27;Stop Scaring Seniors Act&#x27; is at the center of this fiscal debate.</p>
+      <p class="summary-zh">一位共和党参议员提出的社保改革方案引发了对巨额国债增长的担忧。这份《停止恐吓老年人法案》正处于财政辩论的中心。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;un&quot;, &quot;myanmar&quot;, &quot;facebook&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/policy/1038450/facebook-myanmar-genocide-un" target="_blank" rel="noopener" onclick="event.stopPropagation()">UN court cites military Facebook posts while finding Myanmar guilty of genocide</a></div>
+      <div class="item-title-zh">联合国法院在判定缅甸种族灭绝罪时引用了其军队的 Facebook 帖子</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">un · myanmar · facebook</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The ICJ ruled that Myanmar committed genocide, citing evidence that the military used Facebook to propagate hate speech. This highlights the role of social media platforms in facilitating real-world human rights abuses.</p>
+      <p class="summary-zh">国际法院判定缅甸犯下种族灭绝罪，并引用其军队在 Facebook 上传播仇恨言论的证据。此事凸显了社交平台在现实人权迫害中起到的推波助澜作用。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;ai&quot;, &quot;military&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2599904-us-russia-and-china-look-set-to-block-ban-on-autonomous-weapons/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">US, Russia and China look set to block ban on autonomous weapons</a></div>
+      <div class="item-title-zh">美国、俄罗斯和中国似乎将阻止对自主武器的禁令</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">New Scientist &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · military · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Despite advocacy from over 70 nations to ban lethal autonomous weapons, major military powers like the US, Russia, and China are likely to obstruct the treaty. The debate reflects deep divisions over the future of warfare.</p>
+      <p class="summary-zh">尽管有 70 多个国家倡导禁止致命自主武器，但美俄中等军事大国极可能阻挠该协议。这场争论反映了对未来战争形态的严重分歧。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;war&quot;, &quot;poland&quot;, &quot;russia&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Russian missile hits Poland as Ukraine&#x27;s allies hold military exercise, says Tusk</a></div>
+      <div class="item-title-zh">俄罗斯导弹击中波兰，同时乌克兰盟友举行军事演习</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">war · poland · russia</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A Russian missile landed in Poland, causing concern despite no immediate casualties. Poland described the incident as a provocation amidst ongoing tensions.</p>
+      <p class="summary-zh">一枚俄罗斯导弹落入波兰境内，虽未造成伤亡但引起关注。波兰称在紧张局势下这是一次挑衅行为。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;whitehouse&quot;, &quot;cybersecurity&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">White House removes cyber-security chief after series of tech outages</a></div>
+      <div class="item-title-zh">白宫在一系列技术故障后解除了网络安全主管的职务</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">whitehouse · cybersecurity · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The White House has fired its cybersecurity chief following a series of high-profile technological outages. Reports indicate a loss of confidence from senior leadership.</p>
+      <p class="summary-zh">在经历了一系列备受关注的技术故障后，白宫解雇了其网络安全主管。据报道，此举是因为高层对其失去了信心。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="33" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;russia&quot;, &quot;war&quot;]">
+  <div class="item-row">
+    <span class="item-idx">33</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge</a></div>
+      <div class="item-title-zh">乌克兰打击克里米亚大桥几天后，俄罗斯袭击了基辅的交通要道</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="33" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="33" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · russia · war</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Russia launched a major air strike against Kyiv following the attack on the Crimean Bridge. Tensions continue to escalate as Moscow rejects security guarantees for Ukraine.</p>
+      <p class="summary-zh">在克里米亚大桥遇袭后，俄罗斯对基辅发动了大规模空袭。随着莫斯科拒绝提供安全保障，局势持续升级。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="34" data-cat="WORLD" data-tags="[&quot;southafrica&quot;, &quot;crime&quot;, &quot;society&quot;]">
+  <div class="item-row">
+    <span class="item-idx">34</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Nearly 600 women killed in South Africa within three months</a></div>
+      <div class="item-title-zh">南非三个月内近 600 名女性遇害</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="34" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="34" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">southafrica · crime · society</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Recent crime statistics in South Africa reveal a alarming number of femicides. Authorities are calling for urgent intervention and improved prevention measures to address this violence.</p>
+      <p class="summary-zh">南非最新的犯罪统计数据显示女性遇害案件数量惊人。当局呼吁采取紧急干预和改进预防措施，以遏制此类暴力事件。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="35" data-cat="WORLD" data-tags="[&quot;education&quot;, &quot;korea&quot;, &quot;cheating&quot;]">
+  <div class="item-row">
+    <span class="item-idx">35</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">South Korea catches 111 students with new measures against exam cheating</a></div>
+      <div class="item-title-zh">韩国查获 111 名学生，采取新措施打击考试作弊</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="35" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="35" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">education · korea · cheating</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">South Korean authorities caught over 100 students using prohibited electronic devices during the Suneung exam. Strict new measures have been implemented to ensure academic integrity.</p>
+      <p class="summary-zh">韩国当局在“修能”考试中查获了 100 多名携带违禁电子设备的学生。已实施严格新措施以确保考试公平。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-11-19.html">2026-11-19</a>
+<a class="archive-date" href="/archive/2026-11-18.html">2026-11-18</a>
+<a class="archive-date" href="/archive/2026-11-17.html">2026-11-17</a>
+<a class="archive-date" href="/archive/2026-11-16.html">2026-11-16</a>
+<a class="archive-date" href="/archive/2026-11-15.html">2026-11-15</a>
+<a class="archive-date" href="/archive/2026-11-14.html">2026-11-14</a>
+<a class="archive-date" href="/archive/2026-11-13.html">2026-11-13</a>
+<a class="archive-date" href="/archive/2026-11-12.html">2026-11-12</a>
+<a class="archive-date" href="/archive/2026-11-11.html">2026-11-11</a>
+<a class="archive-date" href="/archive/2026-11-10.html">2026-11-10</a>
+<a class="archive-date" href="/archive/2026-11-09.html">2026-11-09</a>
+<a class="archive-date" href="/archive/2026-11-08.html">2026-11-08</a>
+<a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">35 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">15:53 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-11-19.html">2026-11-19</a>
+<a class="archive-date" href="/archive/2026-11-18.html">2026-11-18</a>
+<a class="archive-date" href="/archive/2026-11-17.html">2026-11-17</a>
+<a class="archive-date" href="/archive/2026-11-16.html">2026-11-16</a>
+<a class="archive-date" href="/archive/2026-11-15.html">2026-11-15</a>
+<a class="archive-date" href="/archive/2026-11-14.html">2026-11-14</a>
+<a class="archive-date" href="/archive/2026-11-13.html">2026-11-13</a>
+<a class="archive-date" href="/archive/2026-11-12.html">2026-11-12</a>
+<a class="archive-date" href="/archive/2026-11-11.html">2026-11-11</a>
+<a class="archive-date" href="/archive/2026-11-10.html">2026-11-10</a>
+<a class="archive-date" href="/archive/2026-11-09.html">2026-11-09</a>
+<a class="archive-date" href="/archive/2026-11-08.html">2026-11-08</a>
+<a class="archive-date" href="/archive/2026-11-07.html">2026-11-07</a>
+<a class="archive-date" href="/archive/2026-11-06.html">2026-11-06</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-11-20';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
