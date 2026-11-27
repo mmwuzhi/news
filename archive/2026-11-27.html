@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Daily Brief</title>
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1a1a'/><text x='5' y='23' font-size='20' font-family='monospace' fill='%235fb3a1'>&#9658;</text></svg>">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="Daily Brief RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Daily Brief JSON Feed" href="/feed.json">
+
+</head>
+<body>
+
+<div id="app">
+  <!-- Desktop window chrome -->
+  <div class="window-chrome">
+    <div class="chrome-dots">
+      <div class="chrome-dot chrome-dot-r"></div>
+      <div class="chrome-dot chrome-dot-y"></div>
+      <div class="chrome-dot chrome-dot-g"></div>
+    </div>
+    <span class="chrome-title">daily-brief &#8212; zsh</span>
+    <button class="theme-btn" id="theme-btn-d">light</button>
+  </div>
+
+  <!-- Mobile header -->
+  <div class="mobile-header">
+    <span class="mobile-title">daily-brief</span>
+    <button class="theme-btn" id="theme-btn-m">light</button>
+  </div>
+
+  <!-- Mobile category tabs -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="ALL">ALL</button>
+<button class="cat-tab" data-cat="AI">AI</button>
+<button class="cat-tab" data-cat="TECH">TECH</button>
+<button class="cat-tab" data-cat="FINA">FINA</button>
+<button class="cat-tab" data-cat="SCI">SCI</button>
+<button class="cat-tab" data-cat="WORLD">WORLD</button>
+
+  </div>
+
+  <!-- Three columns -->
+  <div class="columns">
+
+    <!-- LEFT: category filter -->
+    <aside class="col-left">
+      <div class="sidebar-hdr">filter</div>
+      <nav class="cat-nav">
+        <button class="cat-btn active" data-cat="ALL"><span>ALL</span><span class="cat-count">34</span></button>
+<button class="cat-btn" data-cat="AI"><span>AI</span><span class="cat-count">3</span></button>
+<button class="cat-btn" data-cat="TECH"><span>TECH</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="FINA"><span>FINA</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="SCI"><span>SCI</span><span class="cat-count">8</span></button>
+<button class="cat-btn" data-cat="WORLD"><span>WORLD</span><span class="cat-count">7</span></button>
+
+      </nav>
+    </aside>
+
+    <!-- MAIN: articles -->
+    <main class="col-main">
+      <div class="brief-hdr">
+        <div class="prompt-line">
+          <span class="c-accent">you@news</span><span class="c-dim"> ~ $ </span>brief --date 2026-11-27 --lang bilingual
+        </div>
+        <div class="brief-block">
+          <div class="brief-title">&#9658; DAILY BRIEF</div>
+          <div class="brief-meta">Fri Nov 27 2026 &middot; 34 stories &middot; summarized by gemini-3.1-flash-lite</div>
+        </div>
+      </div>
+      <div class="active-label" id="active-label"></div>
+      <div id="items-list">
+        
+<div class="item expanded" data-id="1" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;video-generation&quot;, &quot;opensource&quot;]">
+  <div class="item-row">
+    <span class="item-idx">01</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1260473#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 做了一个 MAGI-2 AI 视频生成器</a></div>
+      <div class="item-title-zh">分享创造：制作了一个MAGI-2 AI视频生成器</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="1" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="1" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · video-generation · opensource</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The developer introduces MAGI-2, an open-source AI model designed for long-form, coherent narrative video generation. It emphasizes native audio-visual synchronization and multi-modal reference inputs.</p>
+      <p class="summary-zh">开发者介绍了MAGI-2，这是一款开源AI模型，旨在生成长时程、连贯叙事的视频。它强调原生音画同步及多模态参考输入。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="2" data-cat="AI" data-tags="[&quot;claude&quot;, &quot;refactoring&quot;, &quot;ai&quot;]">
+  <div class="item-row">
+    <span class="item-idx">02</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1260469#reply2" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 让 Claude Code 重构了一个 1500 多行的函数，测试全过了，但我还是不太放心</a></div>
+      <div class="item-title-zh">分享创造：使用Claude Code重构1500行函数，测试全过但仍存隐忧</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">V2EX &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="2" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="2" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">claude · refactoring · ai</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author details using Claude Code to refactor a massive codebase and shares validation methods to ensure business logic integrity. They invite others to discuss more robust verification strategies for AI-written code.</p>
+      <p class="summary-zh">作者详细介绍了利用Claude Code重构庞大代码库的经过，并分享了验证逻辑完整性的方法。他们邀请大家讨论AI辅助编程中更可靠的验收策略。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="3" data-cat="AI" data-tags="[&quot;ai&quot;, &quot;science&quot;, &quot;research&quot;]">
+  <div class="item-row">
+    <span class="item-idx">03</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.kimi.ai/news/kimi-for-science-program" target="_blank" rel="noopener" onclick="event.stopPropagation()">Kimi for Science: More scientific ideas, made possible</a></div>
+      <div class="item-title-zh">Kimi for Science：创造更多可能的科学想法</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">AI</span>
+        <span class="source-time">Hacker News &middot; 5h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="3" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="3" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · science · research</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The Kimi platform for science is expanding, aiming to facilitate new scientific discoveries. It leverages AI to help researchers develop and explore complex hypotheses.</p>
+      <p class="summary-zh">Kimi科学平台正在扩张，旨在促进新的科学发现。它利用人工智能帮助研究人员开发和探索复杂的假设。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="4" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;blackfriday&quot;, &quot;deals&quot;]">
+  <div class="item-row">
+    <span class="item-idx">04</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026" target="_blank" rel="noopener" onclick="event.stopPropagation()">The best Black Friday deals on AirPods, MacBooks, and other Apple gear</a></div>
+      <div class="item-title-zh">黑色星期五的最佳苹果设备折扣：AirPods、MacBook等</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="4" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="4" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · blackfriday · deals</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Black Friday offers significant discounts on popular Apple products like AirPods and MacBooks. These deals help consumers offset recent price increases for essential tech gear.</p>
+      <p class="summary-zh">黑色星期五为AirPods和MacBook等热门苹果产品提供了显著折扣。这些优惠有助于消费者抵消近期电子产品价格上涨的影响。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="5" data-cat="TECH" data-tags="[&quot;ai&quot;, &quot;browser-extension&quot;, &quot;api&quot;]">
+  <div class="item-row">
+    <span class="item-idx">05</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1260475#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[分享创造] 上次把 DeepSeek 放在网页旁，这次把豆包和自己的 API 也接进来了</a></div>
+      <div class="item-title-zh">分享创造：将DeepSeek、豆包及其API接入网页侧边栏</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="5" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="5" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ai · browser-extension · api</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author shares a browser extension project that integrates DeepSeek, Doubao, and custom APIs into a sidebar. This tool streamlines the workflow by allowing users to interact with multiple AI models without leaving the page.</p>
+      <p class="summary-zh">作者分享了一个浏览器扩展项目，将DeepSeek、豆包和自定义API整合到侧边栏。该工具通过允许用户在不离开页面的情况下与多个AI模型交互，简化了工作流。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="6" data-cat="TECH" data-tags="[&quot;chatgpt&quot;, &quot;claude&quot;, &quot;gemini&quot;]">
+  <div class="item-row">
+    <span class="item-idx">06</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1260474#reply0" target="_blank" rel="noopener" onclick="event.stopPropagation()">[推广] ChatGPT / Claude / Gemini 订阅自助充值｜V 友最高减 ¥200</a></div>
+      <div class="item-title-zh">推广：ChatGPT/Claude/Gemini订阅充值，V友最高优惠200元</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">V2EX &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="6" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="6" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">chatgpt · claude · gemini</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This post promotes a digital service platform offering subscription top-ups for major AI services. V2EX community members are eligible for exclusive discounts on their purchases.</p>
+      <p class="summary-zh">该帖推广了一个为主要AI服务提供订阅充值的数字平台。V2EX社区成员购买时可享受专属折扣。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="7" data-cat="TECH" data-tags="[&quot;security&quot;, &quot;web&quot;, &quot;ecommerce&quot;]">
+  <div class="item-row">
+    <span class="item-idx">07</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer" target="_blank" rel="noopener" onclick="event.stopPropagation()">Credit card skimming scripts using WebRTC found on popular shopping sites</a></div>
+      <div class="item-title-zh">在流行购物网站发现使用WebRTC的信用卡窃取脚本</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="7" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="7" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">security · web · ecommerce</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Security researchers have identified malicious scripts targeting credit card data on major shopping sites. These scripts utilize WebRTC to bypass traditional detection methods.</p>
+      <p class="summary-zh">安全研究人员在主要购物网站上发现了针对信用卡数据的恶意脚本。这些脚本利用WebRTC绕过了传统的检测方法。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="8" data-cat="TECH" data-tags="[&quot;deals&quot;, &quot;hardware&quot;, &quot;batteries&quot;]">
+  <div class="item-row">
+    <span class="item-idx">08</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/gadgets/1043272/zepath-rechargeable-aa-batteries-black-friday-2026-deal-sale" target="_blank" rel="noopener" onclick="event.stopPropagation()">You can grab a 12-pack of Zepath’s rechargeable AA batteries for just $24</a></div>
+      <div class="item-title-zh">黑色星期五优惠：Zepath可充电AA电池12节装仅需24美元</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="8" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="8" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">deals · hardware · batteries</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Shoppers can grab a cost-effective 12-pack of rechargeable AA batteries on Amazon for Black Friday. This deal includes a charger, making it a great sustainable choice for gifts.</p>
+      <p class="summary-zh">黑色星期五期间，消费者可以在亚马逊上以实惠的价格购买12节装的可充电AA电池。该套装含充电器，是节日礼物的可持续选择。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="9" data-cat="TECH" data-tags="[&quot;math&quot;, &quot;computation&quot;, &quot;logic&quot;]">
+  <div class="item-row">
+    <span class="item-idx">09</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://cr.yp.to/proofs/falseccp.html" target="_blank" rel="noopener" onclick="event.stopPropagation()">False Computer-Checked Proofs</a></div>
+      <div class="item-title-zh">错误的计算机检查证明</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="9" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="9" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">math · computation · logic</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article explores the nuances of automated proof checking and the potential for errors in computational verification. It highlights the importance of human oversight in complex logic systems.</p>
+      <p class="summary-zh">本文探讨了自动证明检查的细节，以及计算验证中出现错误的风险。它强调了在复杂逻辑系统中人工监督的重要性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="10" data-cat="TECH" data-tags="[&quot;apple&quot;, &quot;deals&quot;, &quot;audio&quot;]">
+  <div class="item-row">
+    <span class="item-idx">10</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.theverge.com/gadgets/1039978/airpods-pro-3-apple-earbuds-black-friday-2026-deal-sale" target="_blank" rel="noopener" onclick="event.stopPropagation()">Apple’s AirPods Pro 3 are a whopping $100 off for Black Friday</a></div>
+      <div class="item-title-zh">黑色星期五优惠：AirPods Pro 3 暴降100美元</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">The Verge &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="10" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="10" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">apple · deals · audio</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Apple&#x27;s AirPods Pro 3 are seeing an unprecedented price drop to $149 for Black Friday. This marks one of the lowest price points ever for the company&#x27;s latest earbuds.</p>
+      <p class="summary-zh">苹果AirPods Pro 3在黑色星期五期间降至史无前例的149美元。这标志着该公司最新款耳机创下了历史最低价。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="11" data-cat="TECH" data-tags="[&quot;game&quot;, &quot;web&quot;, &quot;market&quot;]">
+  <div class="item-row">
+    <span class="item-idx">11</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://bouncemarket.minhanhday.com/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Show HN: bouncemarket – a live prediction market game for a bouncing ball</a></div>
+      <div class="item-title-zh">展示：bouncemarket——一个关于弹跳球的实时预测市场游戏</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">TECH</span>
+        <span class="source-time">Hacker News &middot; 2h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="11" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="11" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">game · web · market</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A new live prediction market game called bouncemarket allows users to bet on the physics of a bouncing ball. It combines real-time data with speculative gameplay.</p>
+      <p class="summary-zh">名为bouncemarket的新型实时预测市场游戏允许用户对弹跳球的物理特性下注。它将实时数据与投机性玩法相结合。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="12" data-cat="FINA" data-tags="[&quot;trustpilot&quot;, &quot;ai&quot;, &quot;finance&quot;]">
+  <div class="item-row">
+    <span class="item-idx">12</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4972615-trustpilot-group-plc-trtpf-discusses-growth-profitability-and-ai-driven-u-s-demand-transcript?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Trustpilot Group plc (TRTPF) Discusses Growth, Profitability and AI Driven U.S. Demand Transcript</a></div>
+      <div class="item-title-zh">Trustpilot集团讨论增长、盈利能力与AI驱动的美国需求</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="12" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="12" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">trustpilot · ai · finance</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Trustpilot Group plc recently held discussions regarding its corporate growth strategies and path to profitability. The session also highlighted an increasing demand for their services driven by AI integration in the U.S. market.</p>
+      <p class="summary-zh">Trustpilot集团近日讨论了其企业增长战略与盈利路径。会议重点强调了AI整合如何推动美国市场对其服务需求的增长。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="13" data-cat="FINA" data-tags="[&quot;oracle&quot;, &quot;stocks&quot;, &quot;valuation&quot;]">
+  <div class="item-row">
+    <span class="item-idx">13</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4972533-oracle-my-fair-value-just-collapsed?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Oracle: My Fair Value Just Collapsed</a></div>
+      <div class="item-title-zh">甲骨文：我的公允价值预测崩塌了</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="13" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="13" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">oracle · stocks · valuation</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This article analyzes a significant shift in the valuation outlook for Oracle. The author argues that previous fair value assessments for the tech giant have proven incorrect.</p>
+      <p class="summary-zh">本文分析了甲骨文公司估值前景的重大转变。作者指出，此前对该科技巨头的公允价值评估已被证明是不准确的。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="14" data-cat="FINA" data-tags="[&quot;micron&quot;, &quot;stocks&quot;, &quot;earnings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">14</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4972595-micron-3-9x-earnings-is-insane?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Micron: 3.9x Earnings Is Insane</a></div>
+      <div class="item-title-zh">美光科技：3.9倍的市盈率简直疯狂</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="14" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="14" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">micron · stocks · earnings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author examines Micron Technology&#x27;s current stock valuation, labeling a 3.9x price-to-earnings ratio as absurdly low. They suggest this presents a significant investment opportunity.</p>
+      <p class="summary-zh">作者审视了美光科技目前的股票估值，认为3.9倍的市盈率极低。他们建议这代表了一个重大的投资机会。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="15" data-cat="FINA" data-tags="[&quot;gold&quot;, &quot;silver&quot;, &quot;markets&quot;]">
+  <div class="item-row">
+    <span class="item-idx">15</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4972608-bullish-signals-appear-across-precious-metals-sector?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Bullish Signals Appear Across The Precious Metals Sector</a></div>
+      <div class="item-title-zh">贵金属领域出现看涨信号</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="15" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="15" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">gold · silver · markets</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Recent market analysis indicates that bullish trends are emerging across the precious metals sector. Investors are watching these patterns for potential long-term gains.</p>
+      <p class="summary-zh">近期市场分析显示，贵金属领域正在出现看涨趋势。投资者正密切关注这些模式以寻求潜在的长期收益。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="16" data-cat="FINA" data-tags="[&quot;bitcoin&quot;, &quot;crypto&quot;, &quot;investing&quot;]">
+  <div class="item-row">
+    <span class="item-idx">16</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://seekingalpha.com/article/4972592-bitcoin-another-chance-to-buy-at-low-prices?source=feed_all_articles" target="_blank" rel="noopener" onclick="event.stopPropagation()">Bitcoin: Another Chance To Buy At Low Prices</a></div>
+      <div class="item-title-zh">比特币：再次低价买入的机会</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">Seeking Alpha &middot; just now</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="16" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="16" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">bitcoin · crypto · investing</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The author discusses the recent dip in Bitcoin&#x27;s price, suggesting it is an attractive entry point for investors. They view current volatility as a buying opportunity.</p>
+      <p class="summary-zh">作者讨论了比特币价格近期的下跌，建议投资者把握当前的入场时机。他们将目前的波动视为买入机会。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="17" data-cat="FINA" data-tags="[&quot;retirement&quot;, &quot;finance&quot;, &quot;savings&quot;]">
+  <div class="item-row">
+    <span class="item-idx">17</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?</a></div>
+      <div class="item-title-zh">一位66岁护士仅存500美元面临退休，谁之过？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="17" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="17" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">retirement · finance · savings</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A 66-year-old nurse faces retirement with virtually no savings, raising questions about financial planning. The article explores the systemic and personal reasons behind such retirement crises.</p>
+      <p class="summary-zh">一位66岁护士几乎没有储蓄就面临退休，引发了对财务规划的思考。本文探讨了导致此类退休危机的系统性和个人原因。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="18" data-cat="FINA" data-tags="[&quot;nvidia&quot;, &quot;stocks&quot;, &quot;market&quot;]">
+  <div class="item-row">
+    <span class="item-idx">18</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia</a></div>
+      <div class="item-title-zh">黄仁勋重返英伟达引发波动，哪些股票涨幅最大？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="18" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="18" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">nvidia · stocks · market</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Nvidia&#x27;s stock experienced high volatility during a week marked by leadership updates. Despite a mid-week surge, the stock remains down significantly for the month and the year.</p>
+      <p class="summary-zh">英伟达股价在一周内波动剧烈，伴随着管理层的变动。尽管周中出现飙升，但该股月度和年度累计跌幅仍较大。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="19" data-cat="FINA" data-tags="[&quot;finance&quot;, &quot;relationships&quot;, &quot;money&quot;]">
+  <div class="item-row">
+    <span class="item-idx">19</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories" target="_blank" rel="noopener" onclick="event.stopPropagation()">I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?</a></div>
+      <div class="item-title-zh">结婚58年，我们从不分家产，为何现代夫妇坚持AA制？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">FINA</span>
+        <span class="source-time">MarketWatch &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="19" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="19" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">finance · relationships · money</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A long-married couple reflects on the benefits of shared finances. They question the modern trend of couples keeping separate bank accounts.</p>
+      <p class="summary-zh">一对结婚多年的夫妇反思了共同理财的益处。他们对现代夫妻倾向于账户分离的趋势提出了疑问。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="20" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;cancer&quot;, &quot;health&quot;]">
+  <div class="item-row">
+    <span class="item-idx">20</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2601187-vagus-nerve-stimulation-slows-growth-and-spread-of-pancreatic-cancer/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Vagus nerve stimulation slows growth and spread of pancreatic cancer</a></div>
+      <div class="item-title-zh">迷走神经刺激减缓胰腺癌的生长与扩散</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 3h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="20" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="20" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · cancer · health</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Researchers have found that stimulating the vagus nerve can make pancreatic cancer tumors more responsive to immunotherapy. This promising study in mice offers new avenues for cancer treatment.</p>
+      <p class="summary-zh">研究人员发现，刺激迷走神经可以使胰腺癌肿瘤对免疫疗法更加敏感。这项小鼠实验为癌症治疗提供了新思路。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="21" data-cat="SCI" data-tags="[&quot;innovation&quot;, &quot;science&quot;, &quot;mit&quot;]">
+  <div class="item-row">
+    <span class="item-idx">21</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Download: Innovators Under 35 nominations are open, and a bionic window into the mind</a></div>
+      <div class="item-title-zh">下载：35岁以下创新者提名开放，通往大脑的仿生窗口</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 4h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="21" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="21" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">innovation · science · mit</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">MIT Tech Review has opened nominations for their 2027 Innovators Under 35 list. The issue also explores cutting-edge research in brain-machine interfaces and prosthetics.</p>
+      <p class="summary-zh">麻省理工科技评论已开启2027年“35岁以下创新者”名单的提名。该期内容还探讨了脑机接口和仿生假肢领域的前沿研究。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="22" data-cat="SCI" data-tags="[&quot;innovation&quot;, &quot;mit&quot;, &quot;science&quot;]">
+  <div class="item-row">
+    <span class="item-idx">22</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Our 2027 Innovators Under 35 competition is now open</a></div>
+      <div class="item-title-zh">2027年35岁以下创新者大赛正式开启</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 6h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="22" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="22" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">innovation · mit · science</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Nominations are now being accepted for the 2027 Innovators Under 35 competition. The program seeks to highlight young pioneers in science and technology worldwide.</p>
+      <p class="summary-zh">2027年“35岁以下创新者”大赛现已接受报名。该计划旨在表彰全球科技领域的年轻先驱。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="23" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;health&quot;, &quot;neuroscience&quot;]">
+  <div class="item-row">
+    <span class="item-idx">23</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/" target="_blank" rel="noopener" onclick="event.stopPropagation()">How cutting-edge prosthetics can help probe the human mind</a></div>
+      <div class="item-title-zh">尖端假肢如何帮助探索人类大脑</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">MIT Tech Review &middot; 7h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="23" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="23" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · health · neuroscience</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Prosthetic devices are becoming increasingly sophisticated, offering insights into how the human brain adapts to sensory feedback. These tools are changing the lives of patients and advancing neuroscience.</p>
+      <p class="summary-zh">假肢技术正变得日益精密，提供了关于人脑如何适应感官反馈的见解。这些工具正在改变患者的生活并推动神经科学的发展。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="24" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;history&quot;, &quot;books&quot;]">
+  <div class="item-row">
+    <span class="item-idx">24</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2601034-new-scientist-book-club-how-urine-changed-the-course-of-human-history/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">New Scientist Book Club: How urine changed the course of human history</a></div>
+      <div class="item-title-zh">新科学家书友会：尿液如何改变人类历史进程</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 7h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="24" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="24" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · history · books</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The &#x27;Age of Alchemy&#x27; book, which won a prestigious science prize, reveals the surprising historical role of urine in chemistry and culture. The New Scientist Book Club explores these fascinating insights.</p>
+      <p class="summary-zh">荣获科学奖项的《炼金术时代》一书，揭示了尿液在化学和文化史上令人惊讶的角色。新科学家书友会探索了这些迷人的见解。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="25" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;books&quot;, &quot;history&quot;]">
+  <div class="item-row">
+    <span class="item-idx">25</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2601043-read-an-extract-from-the-age-of-alchemy-by-kit-chapman/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Read an extract from The Age of Alchemy by Kit Chapman</a></div>
+      <div class="item-title-zh">阅读《炼金术时代》选段</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">New Scientist &middot; 7h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="25" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="25" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · books · history</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This extract discusses the rediscovery of the Leiden Papyrus X. It highlights how ancient texts provide crucial context for the history of alchemy.</p>
+      <p class="summary-zh">本选段讨论了莱顿纸莎草纸X的重新发现。它强调了古代文献如何为炼金术历史提供关键背景。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="26" data-cat="SCI" data-tags="[&quot;science&quot;, &quot;physics&quot;, &quot;quantum&quot;]">
+  <div class="item-row">
+    <span class="item-idx">26</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Zelensky criticises &#x27;strange&#x27; Trump-Putin friendship in BBC interview</a></div>
+      <div class="item-title-zh">量子模拟器中观察到前所未见的粒子</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">BBC &middot; 7h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="26" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="26" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">science · physics · quantum</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Physicists have identified a new class of particles in a quantum simulator that defies traditional classification. This discovery challenges our fundamental understanding of quantum mechanics.</p>
+      <p class="summary-zh">物理学家在量子模拟器中识别出了一种挑战传统分类的新型粒子。这一发现挑战了我们对量子力学的基本理解。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="27" data-cat="SCI" data-tags="[&quot;space&quot;, &quot;science&quot;, &quot;nasa&quot;]">
+  <div class="item-row">
+    <span class="item-idx">27</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/119632" target="_blank" rel="noopener" onclick="event.stopPropagation()">派早报：1Password 确认内部系统遭入侵等</a></div>
+      <div class="item-title-zh">DART小行星偏转实验影响的首批图像</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">SCI</span>
+        <span class="source-time">少数派 &middot; 16h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="27" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="27" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">space · science · nasa</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The first images illustrating the physical impact of the DART experiment on an asteroid have been released. These visuals provide critical data on planetary defense strategies.</p>
+      <p class="summary-zh">展示DART实验对小行星物理影响的首批图像已经发布。这些视觉资料为行星防御策略提供了关键数据。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="28" data-cat="WORLD" data-tags="[&quot;kenya&quot;, &quot;crime&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">28</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Kenyan doomsday cult leader convicted over further 123 deaths</a></div>
+      <div class="item-title-zh">肯尼亚末日邪教头目再因123起死亡案件被判刑</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="28" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="28" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">kenya · crime · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Paul Mackenzie, leader of a Kenyan doomsday cult, has been found guilty of causing the deaths of 123 more followers. This follows his previous conviction related to the mass murder of children.</p>
+      <p class="summary-zh">肯尼亚末日邪教头目保罗·麦肯齐因导致另外123名追随者死亡被判有罪。此前他因涉嫌大规模杀害儿童已被判刑。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="29" data-cat="WORLD" data-tags="[&quot;social&quot;, &quot;advice&quot;, &quot;lifestyle&quot;]">
+  <div class="item-row">
+    <span class="item-idx">29</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.v2ex.com/t/1260472#reply3" target="_blank" rel="noopener" onclick="event.stopPropagation()">[问与答] 社交圈太小，怎么才能认识更多异性？</a></div>
+      <div class="item-title-zh">问与答：社交圈太小，如何认识更多异性？</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">V2EX &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="29" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="29" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">social · advice · lifestyle</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">A user struggling with social anxiety seeks advice on expanding their social circle and meeting new people. Community members share tips on finding hobbies and stepping out of one&#x27;s comfort zone.</p>
+      <p class="summary-zh">一名有社交焦虑的用户寻求关于扩大社交圈和结识新朋友的建议。社区成员分享了寻找爱好和走出舒适区的经验。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="30" data-cat="WORLD" data-tags="[&quot;ukraine&quot;, &quot;war&quot;, &quot;winter&quot;]">
+  <div class="item-row">
+    <span class="item-idx">30</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">John Simpson: Ukraine is bowed but still unbroken as freezing weather sets in</a></div>
+      <div class="item-title-zh">约翰·辛普森：随着严寒来临，乌克兰虽弯腰但未折断</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="30" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="30" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">ukraine · war · winter</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">As freezing temperatures descend on Ukraine, the nation prepares for another difficult winter of conflict. Experts assess the resilience of the Ukrainian people and the uncertainty surrounding the war&#x27;s conclusion.</p>
+      <p class="summary-zh">随着严寒席卷乌克兰，该国正为又一个艰难的冬季做准备。专家们评估了乌克兰人民的韧性以及战争终局的不确定性。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="31" data-cat="WORLD" data-tags="[&quot;news&quot;, &quot;newyork&quot;, &quot;events&quot;]">
+  <div class="item-row">
+    <span class="item-idx">31</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" onclick="event.stopPropagation()">Marching bands scramble to cover costs after Thanksgiving parade rearranged</a></div>
+      <div class="item-title-zh">感恩节游行改期，行进乐队陷入费用困境</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">BBC &middot; 1h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="31" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="31" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">news · newyork · events</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">Severe weather in New York forced the rescheduling of the Macy&#x27;s parade by two days. This caused significant logistical and financial headaches for participating marching bands.</p>
+      <p class="summary-zh">纽约的恶劣天气迫使梅西百货游行改期两天。这给参与游行的行进乐队带来了巨大的物流和财务麻烦。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="32" data-cat="WORLD" data-tags="[&quot;entertainment&quot;, &quot;movies&quot;, &quot;recommendations&quot;]">
+  <div class="item-row">
+    <span class="item-idx">32</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://www.newscientist.com/article/2600979-particles-not-seen-before-have-been-observed-in-a-quantum-simulator/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS" target="_blank" rel="noopener" onclick="event.stopPropagation()">Particles not seen before have been observed in a quantum simulator</a></div>
+      <div class="item-title-zh">本周看什么：近期值得一看的8部作品</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">New Scientist &middot; 8h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="32" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="32" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">entertainment · movies · recommendations</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">This curated list provides recommendations for eight must-watch films, series, and documentaries. It offers a diverse selection of international content for entertainment enthusiasts.</p>
+      <p class="summary-zh">这份精选清单推荐了8部值得一看的电影、剧集和纪录片。它为娱乐爱好者提供了多样化的国际内容选择。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="33" data-cat="WORLD" data-tags="[&quot;spain&quot;, &quot;politics&quot;, &quot;news&quot;]">
+  <div class="item-row">
+    <span class="item-idx">33</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://sspai.com/post/119658" target="_blank" rel="noopener" onclick="event.stopPropagation()">本周看什么 | 最近值得一看的 8 部作品</a></div>
+      <div class="item-title-zh">领导人在西班牙最后一场选举辩论中发生冲突，住房问题主导议程</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">少数派 &middot; 8h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="33" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="33" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">spain · politics · news</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">The final debate ahead of Spain&#x27;s election focused heavily on the housing crisis. Political leaders clashed over policy solutions to address the difficulty of home ownership.</p>
+      <p class="summary-zh">西班牙选举前的最后一场辩论集中讨论了住房危机。政治领导人就解决拥有住房困难的政策方案发生了冲突。</p>
+    </div>
+  </div>
+</div>
+<div class="item" data-id="34" data-cat="WORLD" data-tags="[&quot;zelensky&quot;, &quot;ukraine&quot;, &quot;politics&quot;]">
+  <div class="item-row">
+    <span class="item-idx">34</span>
+    <div class="item-body">
+      <div class="item-title-en"><a href="https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/" target="_blank" rel="noopener" onclick="event.stopPropagation()">First images of the impact of DART asteroid deflection experiment</a></div>
+      <div class="item-title-zh">泽连斯基在BBC采访中批评特朗普与普京的“奇怪”友谊</div>
+      <div class="item-meta-row">
+        <span class="cat-badge">WORLD</span>
+        <span class="source-time">Hacker News &middot; 23h ago</span>
+        <div class="votes">
+          <button class="vote-btn" data-id="34" data-val="1">&#8593;</button>
+          <button class="vote-btn" data-id="34" data-val="-1">&#8595;</button>
+        </div>
+      </div>
+      <div class="item-tags">zelensky · ukraine · politics</div>
+    </div>
+    <span class="expand-arrow">&#9658;</span>
+  </div>
+  <div class="item-summary">
+    <div class="item-summary-inner">
+      <p class="summary-en">President Zelensky expresses frustration with the pace of peace talks in an interview with the BBC. He highlights his concerns regarding the diplomatic stance of the US towards Russia.</p>
+      <p class="summary-zh">泽连斯基在接受BBC采访时对和平谈判的进展表示沮丧。他强调了对美国对俄外交立场的担忧。</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </main>
+
+    <!-- RIGHT: archive + inferred prefs + status -->
+    <aside class="col-right">
+      <div class="col-right-top">
+        <div class="sidebar-hdr">archive</div>
+        <div class="archive-list">
+          <a class="archive-date" href="/archive/2026-11-26.html">2026-11-26</a>
+<a class="archive-date" href="/archive/2026-11-24.html">2026-11-24</a>
+<a class="archive-date" href="/archive/2026-11-22.html">2026-11-22</a>
+<a class="archive-date" href="/archive/2026-11-21.html">2026-11-21</a>
+<a class="archive-date" href="/archive/2026-11-20.html">2026-11-20</a>
+<a class="archive-date" href="/archive/2026-11-19.html">2026-11-19</a>
+<a class="archive-date" href="/archive/2026-11-18.html">2026-11-18</a>
+<a class="archive-date" href="/archive/2026-11-17.html">2026-11-17</a>
+<a class="archive-date" href="/archive/2026-11-16.html">2026-11-16</a>
+<a class="archive-date" href="/archive/2026-11-15.html">2026-11-15</a>
+<a class="archive-date" href="/archive/2026-11-14.html">2026-11-14</a>
+<a class="archive-date" href="/archive/2026-11-13.html">2026-11-13</a>
+<a class="archive-date" href="/archive/2026-11-12.html">2026-11-12</a>
+<a class="archive-date" href="/archive/2026-11-11.html">2026-11-11</a>
+
+        </div>
+      </div>
+      <div class="prefs-panel">
+        <div class="prefs-body" id="prefs-desktop"></div>
+      </div>
+      <div class="status-bar">
+        <div class="c-accent">&#10003; done</div>
+        <div class="c-dim">34 fetched</div>
+        <div class="c-dim">next ~24h</div>
+        <div class="c-dim">17:07 UTC</div>
+      </div>
+    </aside>
+
+  </div><!-- /.columns -->
+
+  <!-- Mobile bottom nav -->
+  <nav class="mobile-nav">
+    <button id="btn-archive">archive</button>
+    <button id="btn-prefs">prefs</button>
+  </nav>
+</div><!-- /#app -->
+
+<!-- Mobile bottom sheets (fixed, outside #app) -->
+<div class="sheet-backdrop" id="backdrop"></div>
+<div class="sheet" id="sheet-archive">
+  <div class="sheet-hdr">
+    <span class="sheet-title">archive</span>
+    <button class="sheet-close" data-sheet="archive">&#215;</button>
+  </div>
+  <div class="sheet-body archive-list">
+    <a class="archive-date" href="/archive/2026-11-26.html">2026-11-26</a>
+<a class="archive-date" href="/archive/2026-11-24.html">2026-11-24</a>
+<a class="archive-date" href="/archive/2026-11-22.html">2026-11-22</a>
+<a class="archive-date" href="/archive/2026-11-21.html">2026-11-21</a>
+<a class="archive-date" href="/archive/2026-11-20.html">2026-11-20</a>
+<a class="archive-date" href="/archive/2026-11-19.html">2026-11-19</a>
+<a class="archive-date" href="/archive/2026-11-18.html">2026-11-18</a>
+<a class="archive-date" href="/archive/2026-11-17.html">2026-11-17</a>
+<a class="archive-date" href="/archive/2026-11-16.html">2026-11-16</a>
+<a class="archive-date" href="/archive/2026-11-15.html">2026-11-15</a>
+<a class="archive-date" href="/archive/2026-11-14.html">2026-11-14</a>
+<a class="archive-date" href="/archive/2026-11-13.html">2026-11-13</a>
+<a class="archive-date" href="/archive/2026-11-12.html">2026-11-12</a>
+<a class="archive-date" href="/archive/2026-11-11.html">2026-11-11</a>
+
+  </div>
+</div>
+<div class="sheet" id="sheet-prefs">
+  <div class="sheet-hdr">
+    <span class="sheet-title">preferences</span>
+    <button class="sheet-close" data-sheet="prefs">&#215;</button>
+  </div>
+  <div class="sheet-body prefs-body" id="prefs-mobile"></div>
+</div>
+
+<script>
+var SUPA_URL='https://namqxbtzdzrenejhrawo.supabase.co';
+var SUPA_KEY='sb_publishable_0wxHDZhA-0iNjhJJ2vytMQ_IUMVHs0j';
+var TODAY='2026-11-27';
+</script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
